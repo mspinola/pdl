@@ -48,11 +48,32 @@ def luck():
 
 
 @lru_cache(maxsize=None)
-def divisions(season):
-    """identity -> division name, from MFL (2003 on)."""
-    p = f"{BASE}/mfl_archive/{season}/league.json"
+def legacy_divisions(season):
+    """identity -> division name, from the league's own 2000 to 2002 standings pages."""
+    import html as H, re
+    from archive import CANON, TEAM_RE
+    p = f"{BASE}/mfl_archive/legacy/pdl{season}_standings.html"
     if not os.path.exists(p):
         return {}
+    text = H.unescape(re.sub(r"<[^>]+>", "|", open(p, encoding="utf-8", errors="replace").read()))
+    cells = [c.strip() for c in text.split("|") if c.strip()]
+    out, current = {}, None
+    for c in cells:
+        if re.fullmatch(r"(AFC|NFC) (East|West)", c):
+            current = c
+            continue
+        m = re.fullmatch(rf"({TEAM_RE})", c.lower())
+        if current and m:
+            out.setdefault(I.label_for(CANON[m.group(1)], season), current)   # its first table is its division
+    return out
+
+
+@lru_cache(maxsize=None)
+def divisions(season):
+    """identity -> division name: MFL from 2003, the league's standings pages before."""
+    p = f"{BASE}/mfl_archive/{season}/league.json"
+    if not os.path.exists(p):
+        return legacy_divisions(season)
     league = json.load(open(p))["league"]
     names = {d["id"]: d["name"] for d in as_list(league.get("divisions", {}).get("division"))}
     slots = I.slot_index()
@@ -80,6 +101,41 @@ def bracket_teams(season):
                     if fid and slots.get((season, fid)):
                         out.add(I.label_for(slots[(season, fid)], season))
     return out or None
+
+
+@lru_cache(maxsize=None)
+def seeds(season):
+    """team -> playoff seed in its conference bracket (2008 on): 1 and 2 are the
+    division winners, 3 and 4 the wild cards (rule book 2.3)."""
+    slots = I.slot_index()
+    out = {}
+    for b in (1, 2):
+        p = f"{BASE}/mfl_archive/{season}/playoff_bracket_{b}.json"
+        if not os.path.exists(p):
+            continue
+        rounds = as_list(json.load(open(p)).get("playoffBracket", {}).get("playoffRound"))
+        if not rounds:
+            continue
+        for g in as_list(rounds[0].get("playoffGame")):
+            for side in ("home", "away"):
+                x = g.get(side) or {}
+                if x.get("franchise_id") and x.get("seed") and (season, x["franchise_id"]) in slots:
+                    out[I.label_for(slots[(season, x["franchise_id"])], season)] = int(x["seed"])
+    return out
+
+
+@lru_cache(maxsize=None)
+def division_records(season):
+    """team -> [wins, losses, ties] against its own division, regular season."""
+    divs = divisions(season)
+    out = defaultdict(lambda: [0, 0, 0])
+    for g in season_games(season):
+        if g["stage"] != "regular" or not divs.get(g["team_a"]) or divs.get(g["team_a"]) != divs.get(g["team_b"]):
+            continue
+        res_b = {"W": "L", "L": "W", "T": "T"}[g["result_a"]]
+        for t, res in ((g["team_a"], g["result_a"]), (g["team_b"], res_b)):
+            out[t]["WLT".index(res)] += 1
+    return out
 
 
 def season_games(season):

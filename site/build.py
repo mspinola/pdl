@@ -30,6 +30,7 @@ import trades_pages
 import drafts_pages
 import records_page
 import analysis_pages
+import eggs
 
 DIST = f"{SITE}/dist"
 
@@ -324,6 +325,8 @@ def main():
     os.makedirs(f"{DIST}/rules")
     os.makedirs(f"{DIST}/assets")
     shutil.copy(f"{SITE}/site.css", f"{DIST}/assets/site.css")
+    for name in os.listdir(f"{SITE}/assets"):   # the moose, and the script that sets it loose
+        shutil.copy(f"{SITE}/assets/{name}", f"{DIST}/assets/{name}")
     last = rb.latest_season()
     seasons = list(range(rb.FIRST, last + 1))
     for y in seasons:
@@ -339,6 +342,7 @@ def main():
     with open(f"{DIST}/index.html", "w") as f:
         f.write(page("Premiere Dynasty League",
                      home(), depth=0, description="The Premiere Dynasty League."))
+    eggs.build(DIST)   # last: the antlers go over every finished page
     n = len(os.listdir(f"{DIST}/rules"))
     print(f"built site/dist: {n} rule book pages, {n_seasons} season pages, {n_franchises} franchise pages, "
           f"{n_other} more (head to head, trades, drafts, records, analysis)")

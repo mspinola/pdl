@@ -1,0 +1,15 @@
+{
+ "note": "The Moose easter eggs, in one place so they are easy to audit and to add to each season. None of them changes a number or a rule: the rule book and the values in tables stay authoritative. Read by site/eggs.py.",
+ "team": "Manic Moose",
+ "antlers": "Wherever the team appears in a table, an antler fades in above the name on hover.",
+ "title_watermark": "The champion banner carries a moose watermark in the team's title seasons, whichever they are.",
+ "season_tooltips": {"2017": "The Year of the Moose."},
+ "rivalry_captions": {
+  "best": "America's Team owns this one: {team} lead the series {w}-{l}.",
+  "losing": "In fairness, {opp} have the Moose's number: {l}-{w} against them."
+ },
+ "not_found": {"title": "This page has been retained by the Moose", "text": "Whatever was here cost three retainment slots, and the Moose paid them."},
+ "console": "Moose are loose!",
+ "museum": {"path": "moose", "title": "America's Team", "text": "A franchise museum. There is no link to it, and the Moose would like it kept that way."},
+ "konami": "Up up down down left right left right B A: the accent turns moose brown, the moose runs across the screen, and for a moment every team in the standings is the Moose."
+}

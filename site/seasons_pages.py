@@ -4,6 +4,7 @@ from collections import defaultdict
 
 import league_data as d
 from frame import E, num, page, record, slug
+import eggs
 
 RULES_FROM = 2006   # the first season the layered rule book covers
 
@@ -39,6 +40,51 @@ def standings_table(season):
             + f"<td>{record(r['w'], r['l'], r['t'])}</td><td>{num(r['pf'])}</td><td>{num(r['pa'])}</td>"
               f"<td>{allplay}</td><td>{luck}</td><td class='l'>{fin}</td></tr>")
     return f"<div class='table-wrap'><table class='data'><thead>{head}</thead><tbody>{''.join(body)}</tbody></table></div>"
+
+
+def conference_section(season):
+    """The standings as the league is built: two conferences, two divisions each."""
+    rows = d.standings(season)
+    divs = d.divisions(season)
+    if not divs:
+        return ""
+    seeds = d.seeds(season)
+    drec = d.division_records(season)
+    confs = {}
+    for r in rows:
+        div = divs.get(r["team"])
+        if div:
+            confs.setdefault(div.split()[0], {}).setdefault(div, []).append(r)
+    blocks = []
+    for conf in sorted(confs):
+        tables = []
+        for div in sorted(confs[conf]):
+            teams = confs[conf][div]   # already in record-then-points order
+            if seeds:
+                # the bracket says who won the division: seed 1 or 2
+                teams = sorted(teams, key=lambda r: (0 if seeds.get(r["team"]) in (1, 2) else 1,
+                                                     teams.index(r)))
+            body = []
+            for i, r in enumerate(teams):
+                seed = seeds.get(r["team"])
+                won = seed in (1, 2) if seeds else i == 0
+                mark = f"<span class='seed' title='Playoff seed'>{seed}</span>" if seed else ("" if seeds else
+                       ("<span class='seed' title='Division leader'>&#9679;</span>" if won else ""))
+                dr = drec.get(r["team"], [0, 0, 0])
+                body.append(f"<tr class='{'champ' if r['champion'] else ''}'><td class='l'>{mark} {team_link(r['team'])}</td>"
+                            f"<td>{record(r['w'], r['l'], r['t'])}</td><td>{record(*dr)}</td><td>{num(r['pf'])}</td></tr>")
+            tables.append(f"<h4>{E(div)}</h4><div class='table-wrap'><table class='data div'><thead><tr><th class='l'>Team</th>"
+                          f"<th>Record</th><th>Division</th><th>Points</th></tr></thead><tbody>{''.join(body)}</tbody></table></div>")
+        blocks.append(f"<div class='conf'><h3>{E(conf)}</h3>{''.join(tables)}</div>")
+    if seeds:
+        note = ("The number is the team's playoff seed in its conference: 1 and 2 won their divisions, 3 and 4 are "
+                "the wild cards (rule book 2.3).")
+    else:
+        note = ("The dot marks each division's leader by record, then points. The league's own tiebreaks can "
+                "differ where records are level.")
+    return (f"<h2 id='conferences'>By conference and division</h2><p class='meta'>{note} Divisions are as MFL "
+            f"records them{' (from the league standings page before 2003)' if season < 2003 else ''}.</p>"
+            f"<div class='confs'>{''.join(blocks)}</div>")
 
 
 def postseason_section(season):
@@ -143,7 +189,7 @@ def season_page(season, seasons):
         if fin:
             cs, rs = (fin["score_a"], fin["score_b"]) if fin["team_a"] == champ else (fin["score_b"], fin["score_a"])
             score = f", {num(cs)} to {num(rs)}"
-        banner = (f"<div class='banner'><span class='label'>Champion</span> <strong>{team_link(champ)}</strong>"
+        banner = (f"<div class='banner{eggs.banner_class(champ)}'><span class='label'>Champion</span> <strong>{team_link(champ)}</strong>"
                   + (f" <span class='meta'>beat {team_link(ru)} in the Super Bowl{score}</span>" if ru else "") + "</div>")
     elif in_progress:
         banner = "<div class='banner'><span class='label'>In progress</span> The season is still being played.</div>"
@@ -155,10 +201,11 @@ def season_page(season, seasons):
         nav.append(f"<a href='{season + 1}.html'>{season + 1}</a>")
     sections = [s for s in (postseason_section(season), draft_section(season), trades_section(season),
                             pickups_section(season), rules_section(season), weeks_section(season)) if s]
-    body = (f"<div class='season'><h1>{season}</h1><nav class='pn'>{' '.join(nav)}</nav>{banner}"
+    tip = eggs.season_tooltip(season)
+    body = (f"<div class='season'><h1{f' title={chr(39)}{E(tip)}{chr(39)}' if tip else ''}>{season}</h1><nav class='pn'>{' '.join(nav)}</nav>{banner}"
             f"<h2 id='standings'>Standings</h2><p class='meta'>Regular season, ranked by record then points. All-play is "
             f"the share of all other teams a team outscored each week. Luck is wins minus what that scoring was worth.</p>"
-            f"{standings_table(season)}{''.join(sections)}</div>")
+            f"{standings_table(season)}{conference_section(season)}{''.join(sections)}</div>")
     return page(f"PDL {season}", body, description=f"The PDL {season} season: standings, playoffs, draft, trades.")
 
 

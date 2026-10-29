@@ -268,15 +268,15 @@ These go to the league to confirm, rather than further searching.
       Three 2008 posts describe rules. 2016 to 2024 are deleted by MFL.
 - [ ] Recover what neither source has: 2005 to 2012 predates the mailbox,
       and 2022 left nothing in it
-- [ ] Commit `retainment-values-2025.html` to the legacy site
+- [ ] Commit `retainment-values-2025.html` to the legacy site (still only in the older `~/code/mspinola` checkout)
 - [x] Archive the rules record: `changes.html`, `changes2002.html`, the 2004
       HTML edition, and text extracted from the three Word and PDF editions
 - [x] Site skeleton and build script (`site/build.py`, published by `.github/workflows/pages.yml`)
-- [ ] Moose easter eggs: `site/eggs.json`, antler hover, rivalry footnotes,
+- [x] Moose easter eggs (all in `site/eggs.json`, built by `site/eggs.py`): `site/eggs.json`, antler hover, rivalry footnotes,
       title-season watermark, 2017 tooltip, 404 page, console moose ("Moose
       are loose!"), `/moose` museum, Moose mode
 - [x] Draw the new running moose (`site/assets/manic-moose.svg`)
 - [x] Season pages: standings with all-play and luck, playoffs, every week's scores, the draft's first round, trades, pickups, and that summer's rule changes
 - [x] Franchise pages: record, titles, name history, how it is run (trades, waiver wire, lineups, luck, draft), season by season, head to head
 - [x] Trades, head to head (matrix and a page per pairing), drafts (every pick from 2008, the original boards before), the record book, and the analysis reports as pages
-- [ ] Legacy-site notice at launch
+- [x] Legacy-site notice at launch (the home page and the link bar)

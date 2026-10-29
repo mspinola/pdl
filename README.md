@@ -213,7 +213,9 @@ to head, trades, drafts, the record book, the analyses and the rule book.
 `trades_pages.py`, `drafts_pages.py`, `records_page.py`, `analysis_pages.py`),
 reading what the pipeline already built through `site/league_data.py`. The
 analysis pages are converted from the reports in `docs/` at build time, so
-they never drift from them.
+they never drift from them. The Moose easter eggs are all in `site/eggs.json`
+(built by `site/eggs.py`), so they are easy to audit and to add to. None of
+them changes a number or a rule.
 
 ## The rule book
 

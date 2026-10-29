@@ -4,6 +4,7 @@ from collections import defaultdict
 
 import league_data as d
 from frame import E, num, page, record, slug
+import eggs
 
 
 def pair_slug(a, b):
@@ -80,7 +81,7 @@ def pair_page(a, b):
             f"{num(r['pf'])} points</span></div><div class='fact'><span class='k'>{E(b)}</span><span class='v'>"
             f"{record(r['l'], r['w'], r['t'])}, {num(r['pa'])} points</span></div>"
             f"<div class='fact'><span class='k'>In the postseason</span><span class='v'>{len(post)} games</span></div></div>"
-            f"<h2>Every game</h2><p class='meta'>Postseason games include the toilet bowl from 2014.</p>"
+            f"{eggs.rivalry_caption(a, b, r)}<h2>Every game</h2><p class='meta'>Postseason games include the toilet bowl from 2014.</p>"
             f"<div class='table-wrap'><table class='data'><thead><tr><th>Season</th><th>Week</th><th class='l'></th>"
             f"<th>{E(a)}</th><th>{E(b)}</th><th class='l'>Winner</th></tr></thead><tbody>{''.join(rows)}</tbody></table></div></div>")
     return page(f"{a} and {b}, PDL", body, description=f"Every game between {a} and {b}.")
