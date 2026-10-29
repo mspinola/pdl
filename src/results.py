@@ -16,10 +16,11 @@ import json, os, re, sys, html, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import store
 import identities as I
+from fetch_mfl import LAST_SEASON
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = f"{BASE}/raw"
-MFL_YEARS = list(range(2003, 2027))
+MFL_YEARS = list(range(2003, LAST_SEASON + 1))
 
 
 def as_list(x):

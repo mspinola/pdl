@@ -3,6 +3,9 @@
 Franchise analytics for the PDL dynasty league, 2000 to 2026: 408 trades and
 3,046 games across 27 seasons, plus head-to-head records and championships.
 
+**Each season, follow [YEARLY.md](YEARLY.md)**: the capture, the rule-change
+record, the rebuild and the checks, in order, with when to run each.
+
 ## The archive: independence from MyFantasyLeague
 
 `mfl_archive/` is a complete, self-sufficient snapshot. Once it exists, nothing
@@ -37,7 +40,8 @@ Two rules make it durable:
 
 ```bash
 python3 src/archive_mfl.py            # capture; skips what it already has
-python3 src/archive_mfl.py --verify   # check all 380 files against the manifest
+python3 src/archive_mfl.py --season 2026   # re-capture one season (the one in progress)
+python3 src/archive_mfl.py --verify   # check every file against the manifest
 python3 src/archive_mfl.py --force    # re-capture everything
 ```
 
@@ -62,12 +66,13 @@ repository `mspinola/pdl-private`. It also holds the league polls with their
 tallies and the 2008, 2011 and 2015 board archives, which need a commissioner
 session to read. Once MFL purges a season, that repository is the only copy.
 
-Each season:
+The polls and the structured board need the commissioner's MFL API key:
 
 ```bash
-python3 src/fetch_message_board.py
-cd private && git add -A && git commit -m "Season capture" && git push
+MFL_APIKEY=... python3 src/fetch_commissioner_data.py --season 2026
 ```
+
+The full routine, including committing `private/`, is in [YEARLY.md](YEARLY.md).
 
 ### What MFL will not give up
 

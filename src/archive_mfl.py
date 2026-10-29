@@ -87,7 +87,8 @@ def capture(year, lid, kind, params, force=False):
     if os.path.exists(dest) and os.path.getsize(dest) > 2 and not force:
         return "have", None
 
-    reuse = REUSE.get(kind)
+    # a forced refresh always asks MFL; the old raw/ cache would be just as stale
+    reuse = None if force else REUSE.get(kind)
     src = f"{RAW}/{reuse.format(y=year)}" if reuse else None
     if src and os.path.exists(src) and os.path.getsize(src) > 2:
         shutil.copyfile(src, dest)
@@ -239,7 +240,7 @@ def _dates(blob, rel):
     return out
 
 
-def main(force=False):
+def main(force=False, only=None):
     os.makedirs(ARCHIVE, exist_ok=True)
     with open(f"{ARCHIVE}/leagues.json", "w") as f:
         json.dump({str(y): l for y, l in sorted(LEAGUES.items())}, f, indent=1)
@@ -255,10 +256,11 @@ def main(force=False):
 
     tally, notes = {}, []
     for year, lid in sorted(LEAGUES.items()):
+        refresh = force or (only is not None and year in only)
         marks = []
         for kind, params in KINDS.items():
             try:
-                state, note = capture(year, lid, kind, params, force=force)
+                state, note = capture(year, lid, kind, params, force=refresh)
             except Exception as e:  # noqa: BLE001
                 state, note = "failed", str(e)
             tally[state] = tally.get(state, 0) + 1
@@ -357,4 +359,9 @@ def verify():
 if __name__ == "__main__":
     if "--verify" in sys.argv:
         sys.exit(0 if verify() else 1)
-    main(force="--force" in sys.argv)
+    # --season 2026 re-captures that season only, which is how the season in
+    # progress is kept current; finished seasons are captured once and left alone
+    only = None
+    if "--season" in sys.argv:
+        only = {int(sys.argv[sys.argv.index("--season") + 1])}
+    main(force="--force" in sys.argv, only=only)

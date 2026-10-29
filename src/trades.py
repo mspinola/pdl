@@ -27,10 +27,11 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import store
 import identities as I
 import archive as A
+from fetch_mfl import LAST_SEASON
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = f"{BASE}/raw"
-MFL_YEARS = list(range(2007, 2027))
+MFL_YEARS = list(range(2007, LAST_SEASON + 1))
 
 PLAYERS = json.load(open(f"{BASE}/player_index.json"))
 

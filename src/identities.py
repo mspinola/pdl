@@ -20,11 +20,12 @@ import json, os, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import owners as O
+from fetch_mfl import LAST_SEASON
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 LEAGUE_START = 2000
-LEAGUE_END = 2026
+LEAGUE_END = LAST_SEASON
 
 # Franchises that were not there for season 2000.
 EXPANSION = {"Beers": 2001, "OakalDoakals": 2001}
@@ -113,5 +114,5 @@ if __name__ == "__main__":
     for y, n in counts.items():
         if y <= 2004 or n != 16:
             print(f"    {y}: {n}")
-    print(f"    2005-2026: 16 (every season)" if all(
-        counts[y] == 16 for y in range(2005, 2027)) else "    varies")
+    print(f"    2005-{LEAGUE_END}: 16 (every season)" if all(
+        counts[y] == 16 for y in range(2005, LEAGUE_END + 1)) else "    varies")

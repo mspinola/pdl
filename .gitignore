@@ -12,3 +12,6 @@ __pycache__/
 # Message board captures and anything else that may carry personal names.
 # Kept locally, never published; only paraphrased extracts reach rules/.
 private/
+
+# by-product of the link_franchises.py check, read by nothing
+owner_map.json

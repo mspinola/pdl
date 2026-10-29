@@ -13,6 +13,11 @@ LEAGUES = {
     2023: 16177, 2024: 16177, 2025: 16177, 2026: 16177,
 }
 
+# Everything downstream derives its season range from LEAGUES, so a new season
+# is one line here (see YEARLY.md). The league has kept id 16177 since 2016.
+FIRST_MFL_SEASON = min(LEAGUES)
+LAST_SEASON = max(LEAGUES)
+
 
 def get(year, params, dest):
     path = os.path.join(RAW, dest)
@@ -45,7 +50,7 @@ def main():
                 print(f"ERR {kind} {year}: {e}")
     # global player name table (one call, latest year)
     try:
-        get(2026, {"TYPE": "players", "DETAILS": 1, "JSON": 1}, "players.json")
+        get(LAST_SEASON, {"TYPE": "players", "DETAILS": 1, "JSON": 1}, "players.json")
         print("ok  players")
     except Exception as e:  # noqa: BLE001
         print(f"ERR players: {e}")

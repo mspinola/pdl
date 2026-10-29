@@ -8,10 +8,11 @@ import json, os, sys, itertools
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import store
+from fetch_mfl import LAST_SEASON
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(BASE, "raw")
-YEARS = list(range(2003, 2027))
+YEARS = list(range(2003, LAST_SEASON + 1))
 
 
 def rosters(year):
@@ -89,9 +90,9 @@ def main():
         print(f"  {w[0]} {w[2]!r} -> {w[3]} {w[5]!r}  jac={w[6]:.2f} shared={w[7]}")
 
     # id stability check on the constant-league-id era
-    print("\nid stability 2016-2026 (same MFL league id 16177):")
+    print(f"\nid stability 2016-{LAST_SEASON} (same MFL league id 16177):")
     bad = 0
-    for y1, y2 in zip(range(2016, 2026), range(2017, 2027)):
+    for y1, y2 in zip(range(2016, LAST_SEASON), range(2017, LAST_SEASON + 1)):
         for fa, (fb, jac, inter) in links[(y1, y2)].items():
             if fa != fb:
                 bad += 1
