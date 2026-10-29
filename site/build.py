@@ -25,6 +25,11 @@ import rulebook_mfl_check as mc
 from frame import E, page
 import seasons_pages
 import franchise_pages
+import h2h_pages
+import trades_pages
+import drafts_pages
+import records_page
+import analysis_pages
 
 DIST = f"{SITE}/dist"
 
@@ -294,6 +299,12 @@ def home():
             "trades, and the rules adopted that summer</span></li>"
             "<li><a href='franchises/index.html'>Franchises</a><span>Each team's record, titles, rivalries, and how it is "
             "run: trades, the waiver wire, lineups, luck and the draft</span></li>"
+            "<li><a href='h2h/index.html'>Head to head</a><span>Every pairing's record, and every game they have "
+            "played</span></li><li><a href='trades/index.html'>Trades</a><span>All of them since 2000: who trades, and "
+            "with whom</span></li><li><a href='drafts/index.html'>Drafts</a><span>Every pick since 2008 and how it "
+            "turned out</span></li><li><a href='records/index.html'>The record book</a><span>Highest scores, best "
+            "seasons, streaks, title droughts</span></li><li><a href='analysis/index.html'>Analysis</a><span>The waiver "
+            "wire, lineups and luck, the ones that got away, draft value</span></li>"
             "<li><a href='rules/index.html'>The rule book</a><span>The rules in force now, and as of any season since "
             "2006</span></li><li><a href='rules/changes.html'>Every rule change</a><span>Each summer meeting since 2002, "
             "with its sources</span></li><li><a href='https://mspinola.github.io/mspinola/'>The original site</a>"
@@ -324,11 +335,13 @@ def main():
         f.write(render_changes(seasons))
     n_seasons = seasons_pages.build(DIST)
     n_franchises = franchise_pages.build(DIST)
+    n_other = sum(m.build(DIST) for m in (h2h_pages, trades_pages, drafts_pages, records_page, analysis_pages))
     with open(f"{DIST}/index.html", "w") as f:
         f.write(page("Premiere Dynasty League",
                      home(), depth=0, description="The Premiere Dynasty League."))
     n = len(os.listdir(f"{DIST}/rules"))
-    print(f"built site/dist: {n} rule book pages, {n_seasons} season pages, {n_franchises} franchise pages")
+    print(f"built site/dist: {n} rule book pages, {n_seasons} season pages, {n_franchises} franchise pages, "
+          f"{n_other} more (head to head, trades, drafts, records, analysis)")
     return 0
 
 

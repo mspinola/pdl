@@ -206,10 +206,14 @@ side of the 2018 scoring change compare.
 ## The site
 
 <https://mspinola.github.io/pdl/>, rebuilt on every push by
-`.github/workflows/pages.yml`: every season since 2000, every franchise, and the
-rule book. `python3 site/build.py` builds it into `site/dist/`. The page modules
-are `site/seasons_pages.py` and `site/franchise_pages.py`, reading what the
-pipeline already built through `site/league_data.py`.
+`.github/workflows/pages.yml`: every season since 2000, every franchise, head
+to head, trades, drafts, the record book, the analyses and the rule book.
+`python3 site/build.py` builds it into `site/dist/`. Each section is a module in
+`site/` (`seasons_pages.py`, `franchise_pages.py`, `h2h_pages.py`,
+`trades_pages.py`, `drafts_pages.py`, `records_page.py`, `analysis_pages.py`),
+reading what the pipeline already built through `site/league_data.py`. The
+analysis pages are converted from the reports in `docs/` at build time, so
+they never drift from them.
 
 ## The rule book
 

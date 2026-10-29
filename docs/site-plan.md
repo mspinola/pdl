@@ -278,5 +278,5 @@ These go to the league to confirm, rather than further searching.
 - [x] Draw the new running moose (`site/assets/manic-moose.svg`)
 - [x] Season pages: standings with all-play and luck, playoffs, every week's scores, the draft's first round, trades, pickups, and that summer's rule changes
 - [x] Franchise pages: record, titles, name history, how it is run (trades, waiver wire, lineups, luck, draft), season by season, head to head
-- [ ] Trades, head to head, drafts, records
+- [x] Trades, head to head (matrix and a page per pairing), drafts (every pick from 2008, the original boards before), the record book, and the analysis reports as pages
 - [ ] Legacy-site notice at launch

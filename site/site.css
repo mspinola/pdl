@@ -154,3 +154,24 @@ code { font: .85em ui-monospace, SFMono-Regular, Menlo, monospace; }
   .pn { display: none; }
   details.week { break-inside: avoid; }
 }
+
+/* head to head */
+.h2h { max-width: 72rem; }
+table.matrix { font-size: .78rem; }
+.matrix th, .matrix td { padding: .3rem .35rem; text-align: center; }
+.matrix th.l { text-align: left; }
+.matrix td.up { background: var(--mark-soft); }
+.matrix td.down { background: var(--warn-soft); }
+.matrix td.na { color: var(--ink-3); background: var(--bg); }
+.data td.won { font-weight: 650; }
+
+/* simple bars */
+.bars { display: grid; gap: .2rem; font: .78rem var(--sans); max-width: 36rem; }
+.bar { display: grid; grid-template-columns: 2.8rem 1fr 2rem; align-items: center; gap: .5rem; }
+.bar .y { color: var(--ink-3); }
+.bar .b { display: block; height: .7rem; background: var(--accent); border-radius: 0 4px 4px 0; }
+.bar .n { color: var(--ink-2); }
+select { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: .2rem .4rem; }
+.data tr.hit td { background: var(--mark-soft); }
+a.chip { text-decoration: none; color: var(--ink); }
+a.chip:hover { border-color: var(--accent); }
