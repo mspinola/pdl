@@ -19,7 +19,7 @@ None. Every fact MFL records matches the rule book in force that season.
 
 ## By season
 
-| Season | roster size | starting lineup | injured reserve spots | regular-season weeks | playoff weeks | schedule split | touchdown points | yardage scored from | yardage rate | field goals | receptions |
+| Season | roster size | starting lineup | injured reserve spots | regular-season weeks | playoff weeks | schedule split (division, conference, other conference) | touchdown points | yardage scored from | yardage rate | field goals | receptions |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | 2006 | yes | yes | yes | yes | yes | yes | yes | explained | - | yes | yes |
 | 2007 | yes | yes | yes | yes | yes | yes | yes | explained | - | yes | yes |

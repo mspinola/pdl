@@ -710,8 +710,8 @@
     {
      "op": "edit",
      "section": "2.2",
-     "find": "thirteen games: six division games (two against each division opponent), four non-division conference games, and three games against an alternating non-conference division.",
-     "to": "fourteen games: six division games (two against each division opponent), four non-division conference games, and four games against an alternating non-conference division."
+     "find": "thirteen games: six division games (two against each division opponent), three games against the other division in the conference, and four games against an alternating division in the other conference.",
+     "to": "fourteen games: six division games (two against each division opponent), four games against the other division in the conference, and four games against an alternating division in the other conference."
     },
     {
      "op": "edit",
@@ -940,6 +940,23 @@
      "to": "The league website is located at https://mspinola.github.io/pdl/."
     }
    ]
+  },
+  "2007-schedule": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "2.2",
+     "find": "four non-division conference games, and three games against an alternating non-conference division.",
+     "to": "three games against the other division in the conference, and four games against an alternating division in the other conference."
+    }
+   ],
+   "facts": {
+    "schedule": [
+     6,
+     3,
+     4
+    ]
+   }
   }
  },
  "mfl_known_differences": [

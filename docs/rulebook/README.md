@@ -113,10 +113,21 @@ notes beside the text and never change it. 22 of the 53 sections have changed
 by 2026.
 
 Where the record says what changed but not the new wording, the amendment
-writes the rule in the book's own terms. Two of those rest on MFL rather than a
-written source: the 2021 schedule (the fourteenth game is a fourth one against
-the alternating non-conference division, which is what every 2021 to 2025
-schedule shows) and the 2020 reserve list (MFL gave each team 5 spots).
+writes the rule in the book's own terms. Three rest on MFL rather than a
+written source:
+
+- The schedule. From 2007 every team played 3 games against the other division
+  in its conference and 4 against the other conference, the reverse of the 2006
+  book's 4 and 3, with no recorded vote. The ledger has it as an "in practice"
+  change (`2007-schedule`, source `rules/sources/mfl.json`). The 2021 fourteenth
+  game is a fourth conference game, making it 4 and 4. The conferences are MFL's
+  AFC and NFC: they play separate playoff brackets every season.
+- The 2021 season length, from the schedules and the brackets.
+- The 2020 reserve list: MFL gave each team 5 spots.
+
+An earlier version of this page said the 2021 game was a fourth non-conference
+one. That read MFL's AFC and NFC labels as not being the conferences, and the
+brackets show they are.
 
 ## 6. Checked against MFL
 

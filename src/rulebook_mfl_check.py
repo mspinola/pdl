@@ -102,23 +102,21 @@ def observed(season, current):
         obs["regular_season_weeks"] = len({x["week"] for x in g if x["stage"] == "regular"})
         obs["playoff_weeks"] = sorted({x["week"] for x in g if x["stage"] != "regular"})
 
-    # how the regular season splits: own division, then each other division
-    divs = {f["name"]: f.get("division") for f in as_list(league["franchises"]["franchise"])}
+    # how the regular season splits: own division, the other division in the
+    # conference, and the other conference (MFL's AFC and NFC, the two that play
+    # separate playoff brackets)
+    names = {d["id"]: d["name"] for d in as_list(league.get("divisions", {}).get("division"))}
+    divs = {f["name"]: names.get(f.get("division"), "") for f in as_list(league["franchises"]["franchise"])}
     per_team = {}
-    reg = [x for x in results.games() if x["season"] == season and x["stage"] == "regular"]
-    if current:
-        reg = []  # the season is not finished, so the split cannot be counted yet
+    reg = [] if current else [x for x in results.games() if x["season"] == season and x["stage"] == "regular"]
     for x in reg:
         a, b = x["team_a"], x["team_b"]
-        if a in divs and b in divs:
+        if divs.get(a) and divs.get(b):
             for t, o in ((a, b), (b, a)):
-                per_team.setdefault(t, Counter())[divs[o]] += 1
+                kind = 0 if divs[t] == divs[o] else 1 if divs[t].split()[0] == divs[o].split()[0] else 2
+                per_team.setdefault(t, [0, 0, 0])[kind] += 1
     if per_team:
-        mixes = Counter()
-        for t, c in per_team.items():
-            own = c.pop(divs[t], 0)
-            mixes[tuple([own] + sorted(c.values(), reverse=True)[:2])] += 1
-        obs["schedule"] = list(mixes.most_common(1)[0][0])
+        obs["schedule"] = list(Counter(tuple(v) for v in per_team.values()).most_common(1)[0][0])
     return obs
 
 
@@ -140,7 +138,7 @@ def compare(facts, obs):
 
 LABELS = {"roster_size": "roster size", "starters": "starting lineup", "injured_reserve": "injured reserve spots",
           "regular_season_weeks": "regular-season weeks", "playoff_weeks": "playoff weeks",
-          "schedule": "schedule split", "touchdowns": "touchdown points", "yardage_from": "yardage scored from",
+          "schedule": "schedule split (division, conference, other conference)", "touchdowns": "touchdown points", "yardage_from": "yardage scored from",
           "yardage_per_yard": "yardage rate", "field_goals": "field goals", "receptions": "receptions"}
 
 

@@ -1,0 +1,17 @@
+{
+ "source": "Findings from MyFantasyLeague's archived data where no written source records the change.",
+ "note": "Each entry is what the archive shows, with the measurement. They are evidence, not votes: the ledger marks the changes they support as in practice.",
+ "entries": [
+  {
+   "meeting": 2007,
+   "topic": "schedule",
+   "proposal": "The schedule's split between conference and non-conference games from 2007.",
+   "outcome": "changed, with no recorded vote",
+   "source": {
+    "kind": "mfl",
+    "date": "2026-10-29"
+   },
+   "evidence": "Every team's regular-season games by opponent: 6 division, 4 conference and 3 non-conference games from 2003 to 2006, 6, 3 and 4 from 2007 to 2020, and 6, 4 and 4 from 2021. Conferences are the two groups that play separate playoff brackets, MFL's AFC and NFC."
+  }
+ ]
+}
