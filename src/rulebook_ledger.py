@@ -106,9 +106,11 @@ def report(ledger, baseline, src):
 
     lines += ["## Open questions", "", "The record does not settle these. Each needs the league's answer "
               "before the rule book can state the rule.", ""]
-    for c in ledger["changes"]:
-        if c["status"] == "open":
-            lines.append(f"- **{c['meeting']}, section {', '.join(c['sections'])}.** {c['change']}")
+    open_items = [c for c in ledger["changes"] if c["status"] == "open"]
+    for c in open_items:
+        lines.append(f"- **{c['meeting']}, section {', '.join(c['sections'])}.** {c['change']}")
+    if not open_items:
+        lines.append("None. Every outcome in the record is settled.")
     lines += ["", "## Entry fee by season", "", "| Season | Fee |", "|---|---|",
               "| 2004, 2005 | $50 |", "| 2006 (the baseline) | $60, $10 of it for the website and draft food |"]
     for c in ledger["changes"]:

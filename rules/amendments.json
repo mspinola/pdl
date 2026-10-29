@@ -180,7 +180,7 @@
      "section": "7.2",
      "blocks": [
       "Players are placed on waivers to give every owner an equal chance to acquire them. After the draft, any player not on a roster is on waivers, and so is any player a team drops.",
-      "Waiver claims are processed once a week by the league website, on Wednesday night. If only one team claims a player, that team gets him. If two or more teams claim the same player, the team with the higher waiver priority gets him. An owner who claims more than one player ranks his claims, and they are awarded in that order.",
+      "Waiver claims are processed once a week by the league website, on Thursday morning. If only one team claims a player, that team gets him. If two or more teams claim the same player, the team with the higher waiver priority gets him. An owner who claims more than one player ranks his claims, and they are awarded in that order.",
       "Waiver priority is a season-long rolling order. It starts in draft order, and a team whose claim succeeds drops to the bottom of the list.",
       "After waivers are processed, every player not just dropped is a free agent, first come first served, until his game kicks off, and signing a free agent does not affect waiver priority. A player dropped in the waiver run stays on waivers until the next week's run. A free agent not signed by his kickoff goes back on waivers."
      ]
@@ -818,7 +818,7 @@
     {
      "op": "note",
      "section": "4.2",
-     "text": "The 2023 poll on the hybrid QB/TE player tied 4 to 4 between making him unavailable and listing him as a TE, and no result was announced."
+     "text": "The hybrid QB/TE player was listed as a TE for the season, after the league poll tied 4 to 4 between that and making him unavailable."
     }
    ]
   },

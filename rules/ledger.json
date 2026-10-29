@@ -67,7 +67,7 @@
    "sections": [
     "7.2"
    ],
-   "change": "Claims are processed once a week by the league website (Wednesday night). Waiver order is season-long and rolling: a team whose claim succeeds drops to the bottom. After the run, every player not just dropped is a free agent, first come first served, until his game kicks off.",
+   "change": "Claims are processed once a week by the league website (Thursday morning). Waiver order is season-long and rolling: a team whose claim succeeds drops to the bottom. After the run, every player not just dropped is a free agent, first come first served, until his game kicks off.",
    "sources": [
     {
      "file": "changes_html",
@@ -78,8 +78,14 @@
      "file": "message_board",
      "meeting": 2008,
      "match": "Waiver rules on the new MFL site"
+    },
+    {
+     "file": "commissioner",
+     "meeting": 2008,
+     "match": "weekly waiver run"
     }
-   ]
+   ],
+   "evidence": "MFL's transaction log puts every waiver run on Thursday morning, between about 9 and 10 am Eastern, and the commissioner confirms it. The 2008 board post had said Wednesday 11:30 pm."
   },
   {
    "id": "2010-yardage",
@@ -636,13 +642,18 @@
   {
    "id": "2023-hybrid-player",
    "meeting": 2023,
-   "effective": null,
-   "status": "open",
+   "effective": 2023,
+   "status": "one season",
    "sections": [
     "4.2"
    ],
-   "change": "The poll on the hybrid QB/TE player tied 4 to 4 between making him unavailable and listing him as a TE. No result was announced.",
+   "change": "The hybrid QB/TE player is listed as a TE for the season. The poll had tied 4 to 4 between that and making him unavailable, and the commissioner settled it.",
    "sources": [
+    {
+     "file": "commissioner",
+     "meeting": 2023,
+     "match": "hybrid QB/TE player for 2023"
+    },
     {
      "file": "polls",
      "meeting": 2023,

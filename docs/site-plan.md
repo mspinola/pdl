@@ -235,10 +235,10 @@ older, and every place that could hold them has been checked:
   Internet Archive holds 7 pages of the old site and no changes page.
 - **2016 and 2017.** No meeting record anywhere, and the 2017 polls page is
   empty, which fits no meeting being held.
-- **One open item:** the 2023 vote on the hybrid QB/TE player tied 4 to 4.
-  The commissioner settled the other four on 2026-10-29 (the 2019 draft clock
-  and the 2021 extra retainment slots failed, the 2023 multi-team tiebreaker
-  and the 2026 rotating organizer passed), recorded in
+- **Open items:** none. The commissioner settled the last five on 2026-10-29
+  (the 2019 draft clock and the 2021 extra retainment slots failed, the 2023
+  multi-team tiebreaker and the 2026 rotating organizer passed, and the 2023
+  hybrid player was listed as a TE), recorded in
   `rules/sources/commissioner.json`.
 
 These go to the league to confirm, rather than further searching.

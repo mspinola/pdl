@@ -2,14 +2,98 @@
  "source": "The commissioner's league documents on Google Drive, exported 2026-10-29 and kept in the private repository (private/drive/).",
  "note": "Paraphrased. The 2011 meeting document is the agenda, so its entries are proposals, and their outcomes are the ones changes.html records for 2011. The spreadsheets are evidence for rules, not rule changes.",
  "entries": [
-  {"meeting": 2011, "topic": "retainments", "proposal": "Lower the number of retainment slots, so that more players reach the draft.", "outcome": "no change", "source": {"kind": "drive", "document": "2011 Summer Meeting"}},
-  {"meeting": 2011, "topic": "trades", "proposal": "Extend the trade deadline by 1 to 3 weeks from the end of week 10, since more parity leaves the playoff picture unclear at week 10.", "outcome": "passed as the end of week 12", "source": {"kind": "drive", "document": "2011 Summer Meeting"}},
-  {"meeting": 2011, "topic": "scoring", "proposal": "Yardage at 1 point per 10 yards for RBs, WRs and TEs, and 1 per 25 passing yards for QBs.", "outcome": "no change", "source": {"kind": "drive", "document": "2011 Summer Meeting"}},
-  {"meeting": 2011, "topic": "tiebreaker", "proposal": "Reorder the playoff tiebreak from overall points, then record against the tied teams, then a coin flip, to record against the tied teams first, then points, then a coin flip.", "outcome": "no change, narrowly", "source": {"kind": "drive", "document": "2011 Summer Meeting"}, "evidence": "Confirms the 2006 tiebreak order was still in force in 2011, and the 2014 meeting made the change this proposed."},
-  {"meeting": 2011, "topic": "scoring", "proposal": "Eliminate or reduce double points for out-of-position scoring, such as an RB's receiving or a QB's rushing.", "outcome": "no change", "source": {"kind": "drive", "document": "2011 Summer Meeting"}},
-  {"meeting": 2011, "topic": "retainments", "proposal": "Delay retainments until the NFL labour dispute is resolved.", "outcome": "passed for 2011", "source": {"kind": "drive", "document": "2011 Summer Meeting"}},
-  {"meeting": 2011, "topic": "trophy", "proposal": "A trophy fund of $5 a team a year, with 4 plates left on the original trophy.", "outcome": "plates added to the back instead", "source": {"kind": "drive", "document": "2011 Summer Meeting"}},
-  {"meeting": 2016, "topic": "schedule", "proposal": "The schedule generator: divisions named AE, AW, NE and NW, with each division's non-conference opponent alternating between even and odd years.", "outcome": "in use", "source": {"kind": "drive", "document": "schedule"}, "evidence": "Confirms section 2.2's alternating non-conference division. The template was last set for 2026."},
-  {"meeting": 2010, "topic": "retainments", "proposal": "Retained players by team, 2010 to 2018, with each player's slot cost.", "outcome": "consistent with section 4.3", "source": {"kind": "drive", "document": "Retainments"}, "evidence": "Every team uses 12 slots or fewer from 2010 to 2017, and 8 of the 9 seasons have exactly 9 three-slot players (the top 3 QBs, RBs and WRs). Two exceptions to check: 2016 lists 11 three-slot players, and in 2018 one team's list adds to 13 slots while two teams list 9 players against a count of 8."}
+  {
+   "meeting": 2011,
+   "topic": "retainments",
+   "proposal": "Lower the number of retainment slots, so that more players reach the draft.",
+   "outcome": "no change",
+   "source": {
+    "kind": "drive",
+    "document": "2011 Summer Meeting"
+   }
+  },
+  {
+   "meeting": 2011,
+   "topic": "trades",
+   "proposal": "Extend the trade deadline by 1 to 3 weeks from the end of week 10, since more parity leaves the playoff picture unclear at week 10.",
+   "outcome": "passed as the end of week 12",
+   "source": {
+    "kind": "drive",
+    "document": "2011 Summer Meeting"
+   }
+  },
+  {
+   "meeting": 2011,
+   "topic": "scoring",
+   "proposal": "Yardage at 1 point per 10 yards for RBs, WRs and TEs, and 1 per 25 passing yards for QBs.",
+   "outcome": "no change",
+   "source": {
+    "kind": "drive",
+    "document": "2011 Summer Meeting"
+   }
+  },
+  {
+   "meeting": 2011,
+   "topic": "tiebreaker",
+   "proposal": "Reorder the playoff tiebreak from overall points, then record against the tied teams, then a coin flip, to record against the tied teams first, then points, then a coin flip.",
+   "outcome": "no change, narrowly",
+   "source": {
+    "kind": "drive",
+    "document": "2011 Summer Meeting"
+   },
+   "evidence": "Confirms the 2006 tiebreak order was still in force in 2011, and the 2014 meeting made the change this proposed."
+  },
+  {
+   "meeting": 2011,
+   "topic": "scoring",
+   "proposal": "Eliminate or reduce double points for out-of-position scoring, such as an RB's receiving or a QB's rushing.",
+   "outcome": "no change",
+   "source": {
+    "kind": "drive",
+    "document": "2011 Summer Meeting"
+   }
+  },
+  {
+   "meeting": 2011,
+   "topic": "retainments",
+   "proposal": "Delay retainments until the NFL labour dispute is resolved.",
+   "outcome": "passed for 2011",
+   "source": {
+    "kind": "drive",
+    "document": "2011 Summer Meeting"
+   }
+  },
+  {
+   "meeting": 2011,
+   "topic": "trophy",
+   "proposal": "A trophy fund of $5 a team a year, with 4 plates left on the original trophy.",
+   "outcome": "plates added to the back instead",
+   "source": {
+    "kind": "drive",
+    "document": "2011 Summer Meeting"
+   }
+  },
+  {
+   "meeting": 2016,
+   "topic": "schedule",
+   "proposal": "The schedule generator: divisions named AE, AW, NE and NW, with each division's non-conference opponent alternating between even and odd years.",
+   "outcome": "in use",
+   "source": {
+    "kind": "drive",
+    "document": "schedule"
+   },
+   "evidence": "Confirms section 2.2's alternating non-conference division. The template was last set for 2026."
+  },
+  {
+   "meeting": 2010,
+   "topic": "retainments",
+   "proposal": "Retained players by team, 2010 to 2018, with each player's slot cost.",
+   "outcome": "consistent with section 4.3",
+   "source": {
+    "kind": "drive",
+    "document": "Retainments"
+   },
+   "evidence": "Every team uses 12 slots or fewer from 2010 to 2017, and 8 of the 9 seasons have exactly 9 three-slot players (the top 3 QBs, RBs and WRs). Two exceptions, both explained by the commissioner (2026-10-29): the sheet labelled 2016 lists 11 three-slot players because of ties at the three-slot level, and in 2018 one team's list adds to 13 slots, which was an oversight at the time."
+  }
  ]
 }

@@ -95,9 +95,9 @@ The record left five outcomes unsettled. The commissioner confirmed four on
 2021 extra retainment slots failed, so they are not in the ledger, and the 2023
 multi-team tiebreaker and the 2026 rotating organizer passed.
 
-One remains, listed in [ledger.md](ledger.md): the 2023 poll on the hybrid
-QB/TE player, tied 4 to 4. Until it is answered, the layered rule book shows it
-as unconfirmed and does not change the text.
+The last one, the 2023 poll on the hybrid QB/TE player (tied 4 to 4), was
+settled the same day: he was listed as a TE for 2023. Nothing in the record is
+now unconfirmed.
 
 ## 5. Layering
 
@@ -135,8 +135,9 @@ list, which MFL shows as 5 reserve spots that season.
 
 The retainment spreadsheets (2010 to 2018, `rules/sources/drive.json`) agree
 with section 4.3: every team uses 12 slots or fewer through 2017, and most
-seasons have exactly 9 three-slot players. Two to check: 2016 lists 11 three-slot
-players, and 2018 has one team at 13 slots.
+seasons have exactly 9 three-slot players. The two exceptions are explained by
+the commissioner: the 2016 sheet's 11 three-slot players come from ties at that
+level, and one team's 13 slots in 2018 was an oversight.
 
 ## 7. The pages
 

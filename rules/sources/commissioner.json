@@ -51,6 +51,27 @@
     "kind": "commissioner",
     "date": "2026-10-29"
    }
+  },
+  {
+   "meeting": 2008,
+   "topic": "waivers",
+   "proposal": "When the weekly waiver run happens.",
+   "outcome": "Thursday morning",
+   "source": {
+    "kind": "commissioner",
+    "date": "2026-10-29"
+   },
+   "evidence": "MFL's transaction log puts every waiver run on Thursday between about 9 and 10 am Eastern. The 2008 board post had said Wednesday 11:30 pm."
+  },
+  {
+   "meeting": 2023,
+   "topic": "positions",
+   "proposal": "How to treat the hybrid QB/TE player for 2023, after the poll tied.",
+   "outcome": "listed as a TE",
+   "source": {
+    "kind": "commissioner",
+    "date": "2026-10-29"
+   }
   }
  ]
 }
