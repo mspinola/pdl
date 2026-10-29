@@ -57,6 +57,18 @@ board before the next one starts. Pages are stored under `private/`, which is
 git-ignored, because posts can carry personal names. Only paraphrased rule
 entries reach `rules/sources/message_board.json`.
 
+`private/` is its own git repository, backed up to the **private** companion
+repository `mspinola/pdl-private`. It also holds the league polls with their
+tallies and the 2008, 2011 and 2015 board archives, which need a commissioner
+session to read. Once MFL purges a season, that repository is the only copy.
+
+Each season:
+
+```bash
+python3 src/fetch_message_board.py
+cd private && git add -A && git commit -m "Season capture" && git push
+```
+
 ### What MFL will not give up
 
 The league calendar and polls require a logged-in commissioner through the API,
