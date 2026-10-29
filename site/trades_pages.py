@@ -25,6 +25,11 @@ def build(dist):
     top = max(per_season.values())
     bars = "".join(f"<div class='bar'><span class='y'>{y}</span><span class='b' style='width:{100 * n / top:.0f}%'></span>"
                    f"<span class='n'>{n}</span></div>" for y, n in sorted(per_season.items()))
+    months = d.read_csv("monthly.csv")
+    dated = sum(int(m["trades"]) for m in months)
+    mtop = max(int(m["trades"]) for m in months)
+    mbars = "".join(f"<div class='bar'><span class='y'>{E(m['month'])}</span><span class='b' style='width:{100 * int(m['trades']) / mtop:.0f}%'></span>"
+                    f"<span class='n'>{m['trades']}</span></div>" for m in sorted(months, key=lambda m: int(m["month_num"])))
     log = []
     for y in sorted(per_season, reverse=True):
         items = []
@@ -45,6 +50,9 @@ def build(dist):
             f"<h2>The busiest partnerships</h2><ul>{prow}</ul>"
             f"<p class='meta'>{len(never)} pairs of teams that shared a season have never traded with each other.</p>"
             f"<h2>By season</h2><div class='bars'>{bars}</div>"
+            f"<h2>By month</h2><p class='meta'>The {dated} trades with a known date. Trading peaks around the August "
+            "draft, and again in October and November, before the deadline.</p>"
+            f"<div class='bars'>{mbars}</div>"
             "<h2>Every trade</h2><p><label for='team'>Show trades of </label><select id='team'><option value=''>every team"
             f"</option>{options}</select></p><div id='log'>{''.join(log)}</div>"
             "<script>document.getElementById('team').addEventListener('change', e => {"

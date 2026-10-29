@@ -222,11 +222,22 @@ def index_page(seasons):
                     f"<td class='l'>{team_link(d.runner_up(y)) if d.runner_up(y) else ''}</td>"
                     f"<td class='l'>{team_link(best['team'])} {record(best['w'], best['l'], best['t'])}</td>"
                     f"<td class='l'>{team_link(top['team'])} {num(top['pf'])}</td><td>{len(st)}</td></tr>")
+    scoring = d.read_csv("season_scoring.csv")
+    stop = max(float(r["avg_points_per_team_game"]) for r in scoring)
+    sbars = "".join(
+        f"<div class='bar{' later' if int(r['season']) >= 2018 else ''}'><span class='y'><a href='{r['season']}.html'>{r['season']}</a></span>"
+        f"<span class='b' style='width:{100 * float(r['avg_points_per_team_game']) / stop:.0f}%'></span>"
+        f"<span class='n'>{num(r['avg_points_per_team_game'])}</span></div>" for r in scoring)
+    last = scoring[-1]["season"]
+    scoring_section = ("<h2 id='scoring'>Scoring by season</h2><p class='meta'>Average points per team per game, every "
+                       "game. The jump in 2018 is the rule changes that summer: yardage from the first yard, fractional "
+                       "points, 0.5 a reception, and new kicking brackets (<a href='../rules/changes.html#m2018'>the "
+                       f"record</a>). {last} is still being played.</p><div class='bars'>{sbars}</div>")
     body = ("<div class='season'><h1>Seasons</h1><p class='lede'>Every PDL season since 2000. The best record is the "
             "regular season's. Points are as scored: the 2018 rule changes raised scoring by about half, so compare "
             "points within an era.</p><div class='table-wrap'><table class='data'><thead><tr><th>Season</th>"
             "<th class='l'>Champion</th><th class='l'>Runner-up</th><th class='l'>Best record</th><th class='l'>Most points</th>"
-            f"<th>Teams</th></tr></thead><tbody>{''.join(rows)}</tbody></table></div></div>")
+            f"<th>Teams</th></tr></thead><tbody>{''.join(rows)}</tbody></table></div>{scoring_section}</div>")
     return page("PDL seasons", body, description="Every PDL season since 2000.")
 
 

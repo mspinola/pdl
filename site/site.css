@@ -202,3 +202,5 @@ img.moose-run { position: fixed; bottom: 8vh; left: -30vw; width: 26vw; min-widt
 @keyframes moose-run { to { left: 110vw; } }
 @media (prefers-reduced-motion: reduce) { img.moose-run { display: none; } .moose::before { transition: none; } }
 @media print { .moose::before, .banner.moose-title::after { display: none; } }
+.bar.later .b { background: var(--mark); }
+.bar .y a { color: inherit; text-decoration: none; }
