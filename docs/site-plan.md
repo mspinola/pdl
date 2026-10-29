@@ -132,10 +132,12 @@ values in data tables stay authoritative. Team names only, as everywhere.
   screen, and briefly renames every team in the standings "Moose" before it
   snaps back. About 20 lines of plain JavaScript.
 
-**The running moose.** The animated GIF from the league-wide emails is the
-signature. Use that exact one if its origin allows publishing it; otherwise a
-small animated SVG or CSS moose drawn for the site, which also scales cleanly
-and has no licensing question.
+**The running moose.** A redesign of the animated GIF from twenty years of
+league-wide emails: `site/assets/manic-moose.svg`, drawn for the site. Angry
+brow, darting eye, palmate antlers, steam from the nostril, a stars-and-stripes
+saddle cloth for America's Team, galloping legs, speed lines and dust. Pure SVG
+and CSS, so it is sharp at any size, has no licensing question, and stops
+moving for readers who ask their system for reduced motion.
 
 ## How it is built
 
@@ -239,8 +241,7 @@ purges a season, so they need a private backup of their own.
 - [ ] Moose easter eggs: `site/eggs.json`, antler hover, rivalry footnotes,
       title-season watermark, 2017 tooltip, 404 page, console moose ("Moose
       are loose!"), `/moose` museum, Moose mode
-- [ ] Find the running-moose GIF in the league emails and settle whether it can
-      be published, or draw an SVG replacement
+- [x] Draw the new running moose (`site/assets/manic-moose.svg`)
 - [ ] Season pages
 - [ ] Franchise pages
 - [ ] Trades, head to head, drafts, records
