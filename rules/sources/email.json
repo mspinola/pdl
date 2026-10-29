@@ -1,0 +1,503 @@
+{
+ "source": "email",
+ "note": "Recovered from the commissioner's mailbox, read only. Each entry is a paraphrase, never a quotation, and cites its source by date and subject, never by sender. Entries with an 'evidence' field have been checked against the MFL archive. The mailbox reaches back to about 2011, so the 2005 to 2012 gaps are not here.",
+ "coverage": {
+  "found": [
+   2018,
+   2019,
+   2020,
+   2021,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "nothing_in_email": [
+   2022
+  ],
+  "no_meeting_found": [
+   2016,
+   2017
+  ],
+  "before_mailbox": [
+   2005,
+   2007,
+   2009,
+   2010,
+   2011,
+   2012
+  ]
+ },
+ "entries": [
+  {
+   "meeting": 2018,
+   "topic": "scoring",
+   "proposal": "Yardage scores from the first yard: 1 point per 10 yards rushing and receiving with no 50-yard threshold, and 1 point per 20 yards passing with no 200-yard threshold.",
+   "outcome": "adopted at meeting",
+   "effective_season": 2018,
+   "source": {
+    "kind": "email",
+    "date": "2018-07-26",
+    "subject": "Summer Meeting Updates"
+   },
+   "evidence": "League scoring rises from 78.3 points a team-game in 2017 to 116.5 in 2018 (datasets/season_scoring.csv)."
+  },
+  {
+   "meeting": 2018,
+   "topic": "scoring",
+   "proposal": "Fractional yardage points: 0.1 per yard rushing, 0.1 per yard receiving, 0.1 per 2 yards passing.",
+   "outcome": "adopted at meeting",
+   "effective_season": 2018,
+   "source": {
+    "kind": "email",
+    "date": "2018-07-26",
+    "subject": "Summer Meeting Updates"
+   },
+   "evidence": "League scoring rises from 78.3 points a team-game in 2017 to 116.5 in 2018 (datasets/season_scoring.csv)."
+  },
+  {
+   "meeting": 2018,
+   "topic": "scoring",
+   "proposal": "Kicker field goals scored by distance: 0 to 39 yards 3 points, 40 to 49 yards 5, 50 to 59 yards 7, 60 and over 10.",
+   "outcome": "adopted at meeting",
+   "effective_season": 2018,
+   "source": {
+    "kind": "email",
+    "date": "2018-07-26",
+    "subject": "Summer Meeting Updates"
+   }
+  },
+  {
+   "meeting": 2018,
+   "topic": "retainments",
+   "proposal": "Reduce retainments from 12 to 8.",
+   "outcome": "discussed, not voted",
+   "source": {
+    "kind": "email",
+    "date": "2018-07-26",
+    "subject": "Summer Meeting Updates"
+   }
+  },
+  {
+   "meeting": 2018,
+   "topic": "scoring",
+   "proposal": "Award 0.5 points per reception.",
+   "outcome": "passed",
+   "vote": "10-6",
+   "effective_season": 2018,
+   "source": {
+    "kind": "email",
+    "date": "2018-08-01",
+    "subject": "Re: Summer Meeting Updates (voting update)"
+   },
+   "evidence": "League scoring rises from 78.3 points a team-game in 2017 to 116.5 in 2018 (datasets/season_scoring.csv)."
+  },
+  {
+   "meeting": 2018,
+   "topic": "lineup",
+   "proposal": "Turn the third WR spot into a flex (RB, WR or TE).",
+   "outcome": "failed",
+   "vote": "8-8",
+   "source": {
+    "kind": "email",
+    "date": "2018-08-01",
+    "subject": "Re: Summer Meeting Updates (voting update)"
+   },
+   "evidence": "MFL lineup settings are QB1 RB2 WR3 TE1 PK1 Def1 in every season 2003 to 2026; starter count is always 9, so no flex was ever added and no position removed."
+  },
+  {
+   "meeting": 2018,
+   "topic": "lineup",
+   "proposal": "Add a flex spot (1 QB, 2 RB, 3 WR, 1 flex, 1 TE, 1 K, 1 D).",
+   "outcome": "failed",
+   "vote": "5-11",
+   "source": {
+    "kind": "email",
+    "date": "2018-08-01",
+    "subject": "Re: Summer Meeting Updates (voting update)"
+   },
+   "evidence": "MFL lineup settings are QB1 RB2 WR3 TE1 PK1 Def1 in every season 2003 to 2026; starter count is always 9, so no flex was ever added and no position removed."
+  },
+  {
+   "meeting": 2018,
+   "topic": "draft",
+   "proposal": "The draft defaults to the Tuesday after Labor Day, moving earlier only if the NFL starts week 1 before Labor Day.",
+   "outcome": "adopted",
+   "effective_season": 2018,
+   "source": {
+    "kind": "email",
+    "date": "2018-07-26",
+    "subject": "Summer Meeting Updates"
+   }
+  },
+  {
+   "meeting": 2018,
+   "topic": "administration",
+   "proposal": "The Bunchalosers franchise passes to a new owner, free to rebrand it.",
+   "outcome": "adopted",
+   "effective_season": 2018,
+   "source": {
+    "kind": "email",
+    "date": "2018-07-26",
+    "subject": "Summer Meeting Updates"
+   },
+   "evidence": "The franchise is renamed Couchfire from 2018 (src/identities.py)."
+  },
+  {
+   "meeting": 2018,
+   "topic": "administration",
+   "proposal": "Two league officer roles created: one to coordinate the draft, one to coordinate the summer meeting.",
+   "outcome": "adopted",
+   "effective_season": 2018,
+   "source": {
+    "kind": "email",
+    "date": "2018-07-26",
+    "subject": "Summer Meeting Updates"
+   }
+  },
+  {
+   "meeting": 2019,
+   "topic": "divisions",
+   "proposal": "Revert immediately to the original league divisions.",
+   "outcome": "passed",
+   "vote": "11-3",
+   "effective_season": 2019,
+   "source": {
+    "kind": "email",
+    "date": "2019-08-05",
+    "subject": "summer meeting results / poll results"
+   },
+   "evidence": "MFL division alignment runs in eras: 2007 to 2014, a realignment for 2015 to 2018, then 2019 onward, which is identical team for team to 2007 to 2014. So the vote restored the 2007 to 2014 alignment exactly. (The 2015 realignment presumably came out of the 2014 meeting, which changes.html records.)"
+  },
+  {
+   "meeting": 2019,
+   "topic": "lineup",
+   "proposal": "Convert one of the three WR spots to a flex (RB, WR or TE).",
+   "outcome": "failed",
+   "vote": "6-9",
+   "source": {
+    "kind": "email",
+    "date": "2019-08-05",
+    "subject": "summer meeting results / poll results"
+   },
+   "evidence": "MFL lineup settings are QB1 RB2 WR3 TE1 PK1 Def1 in every season 2003 to 2026; starter count is always 9, so no flex was ever added and no position removed."
+  },
+  {
+   "meeting": 2019,
+   "topic": "draft",
+   "proposal": "Draft clock of 2 minutes per pick for the whole draft, with one 2-minute timeout per franchise. A team that runs out of time is skipped and picks after the next team.",
+   "outcome": "unknown",
+   "source": {
+    "kind": "email",
+    "date": "2019-07-19",
+    "subject": "Summer meeting wrap up notes"
+   }
+  },
+  {
+   "meeting": 2019,
+   "topic": "schedule",
+   "proposal": "Two alternatives to divisions: everyone plays everyone once in weeks 1 to 15 with the top two meeting in week 16; or each team plays 13 of 15 opponents with an 8-team playoff from week 14.",
+   "outcome": "deferred to 2020",
+   "source": {
+    "kind": "email",
+    "date": "2019-08-05",
+    "subject": "summer meeting results / poll results"
+   }
+  },
+  {
+   "meeting": 2020,
+   "topic": "contingency",
+   "proposal": "COVID plan. If the NFL completes 0 to 6 games: fees refunded less website costs, next season's retainment values frozen, 15 retainment slots with rookies counting as one, and draft order weighted-random within picks 1 to 8 and 9 to 16. If 7 or more games are played but the season stops before the playoffs: the season counts, ranked by MFL all-play record (then points, then coin flip), and retainment values come from points per game. If it stops during the playoffs: seeded in three groups (non-playoff, eliminated, still alive) by all-play record, draft order the inverse of finish.",
+   "outcome": "adopted",
+   "effective_season": 2020,
+   "source": {
+    "kind": "email",
+    "date": "2020-08-20",
+    "subject": "Summer Meeting Results"
+   }
+  },
+  {
+   "meeting": 2020,
+   "topic": "roster",
+   "proposal": "A COVID reserve list: players MFL designates as opted out or out with COVID may sit there without counting against the 20-man roster, and must return to it or be dropped when the designation ends.",
+   "outcome": "adopted",
+   "effective_season": 2020,
+   "source": {
+    "kind": "email",
+    "date": "2020-08-20",
+    "subject": "Summer Meeting Results"
+   },
+   "evidence": "MFL shows 5 reserve slots in 2020 and none before or after (2026 has 1)."
+  },
+  {
+   "meeting": 2020,
+   "topic": "lineups",
+   "proposal": "A rule for owners who do not submit lineups.",
+   "outcome": "rejected; owners are instead asked to report a suspect lineup to the commissioner",
+   "source": {
+    "kind": "email",
+    "date": "2020-08-20",
+    "subject": "Summer Meeting Results"
+   }
+  },
+  {
+   "meeting": 2020,
+   "topic": "lineup",
+   "proposal": "Make team defense a flex spot.",
+   "outcome": "rejected",
+   "vote": "2-9 in initial feedback",
+   "source": {
+    "kind": "email",
+    "date": "2020-08-20",
+    "subject": "Summer Meeting Results"
+   },
+   "evidence": "MFL lineup settings are QB1 RB2 WR3 TE1 PK1 Def1 in every season 2003 to 2026; starter count is always 9, so no flex was ever added and no position removed."
+  },
+  {
+   "meeting": 2020,
+   "topic": "lineup",
+   "proposal": "Change a WR spot to a flex (RB, WR or TE).",
+   "outcome": "sent to a league vote; result not recorded",
+   "source": {
+    "kind": "email",
+    "date": "2020-08-20",
+    "subject": "Summer Meeting Results"
+   },
+   "evidence": "MFL lineup settings are QB1 RB2 WR3 TE1 PK1 Def1 in every season 2003 to 2026; starter count is always 9, so no flex was ever added and no position removed. So it did not take effect."
+  },
+  {
+   "meeting": 2020,
+   "topic": "finance",
+   "proposal": "2020 entry fee: the usual $50 plus fees, or no fee because of COVID.",
+   "outcome": "sent to a league vote; result not recorded",
+   "source": {
+    "kind": "email",
+    "date": "2020-08-20",
+    "subject": "Summer Meeting Results"
+   }
+  },
+  {
+   "meeting": 2021,
+   "topic": "schedule",
+   "proposal": "For the 18-week NFL season: the regular season runs through week 14, playoffs weeks 15 to 17, and the trade deadline and retainment-value cutoff each move one week later (values now set after week 17).",
+   "outcome": "adopted at meeting",
+   "effective_season": 2021,
+   "source": {
+    "kind": "email",
+    "date": "2021-07-23",
+    "subject": "summer meeting"
+   },
+   "evidence": "MFL has a 13-week regular season with playoffs in weeks 14 to 16 through 2020, and 14 weeks with playoffs in weeks 15 to 17 from 2021."
+  },
+  {
+   "meeting": 2021,
+   "topic": "draft",
+   "proposal": "The draft stays on the Tuesday after Labor Day, with retainments due two weeks before.",
+   "outcome": "adopted at meeting",
+   "effective_season": 2021,
+   "source": {
+    "kind": "email",
+    "date": "2021-07-23",
+    "subject": "summer meeting"
+   }
+  },
+  {
+   "meeting": 2021,
+   "topic": "positions",
+   "proposal": "The commissioner may override a player's MFL position designation when common sense calls for it; any owner can raise a case.",
+   "outcome": "adopted at meeting",
+   "effective_season": 2021,
+   "source": {
+    "kind": "email",
+    "date": "2021-07-23",
+    "subject": "summer meeting"
+   }
+  },
+  {
+   "meeting": 2021,
+   "topic": "lineup",
+   "proposal": "Eliminate team defense and reduce the roster by one.",
+   "outcome": "failed",
+   "vote": "4 yes, 10 no",
+   "source": {
+    "kind": "email",
+    "date": "2021-08-17",
+    "subject": "PDL (voting results)"
+   },
+   "evidence": "MFL lineup settings are QB1 RB2 WR3 TE1 PK1 Def1 in every season 2003 to 2026; starter count is always 9, so no flex was ever added and no position removed."
+  },
+  {
+   "meeting": 2021,
+   "topic": "lineup",
+   "proposal": "Eliminate kickers and team defense and reduce the roster by two.",
+   "outcome": "failed",
+   "vote": "3 yes, 11 no",
+   "source": {
+    "kind": "email",
+    "date": "2021-08-17",
+    "subject": "PDL (voting results)"
+   },
+   "evidence": "MFL lineup settings are QB1 RB2 WR3 TE1 PK1 Def1 in every season 2003 to 2026; starter count is always 9, so no flex was ever added and no position removed."
+  },
+  {
+   "meeting": 2021,
+   "topic": "lineup",
+   "proposal": "Eliminate kickers and reduce the roster by one.",
+   "outcome": "failed",
+   "vote": "5 yes, 9 no",
+   "source": {
+    "kind": "email",
+    "date": "2021-08-17",
+    "subject": "PDL (voting results)"
+   },
+   "evidence": "MFL lineup settings are QB1 RB2 WR3 TE1 PK1 Def1 in every season 2003 to 2026; starter count is always 9, so no flex was ever added and no position removed."
+  },
+  {
+   "meeting": 2021,
+   "topic": "lineup",
+   "proposal": "Change a WR spot to a flex.",
+   "outcome": "dropped for lack of interest; a five-year moratorium on the idea was suggested",
+   "source": {
+    "kind": "email",
+    "date": "2021-07-23",
+    "subject": "summer meeting"
+   }
+  },
+  {
+   "meeting": 2021,
+   "topic": "toilet bowl",
+   "proposal": "The toilet bowl winner chooses between a paid entry fee or a bonus pick between the first and second rounds (pick 17); if the pick is taken, the prize money goes to the championship pool.",
+   "outcome": "passed",
+   "vote": "10-3, one indifferent, two abstaining",
+   "effective_season": 2022,
+   "source": {
+    "kind": "email",
+    "date": "2021-08-17",
+    "subject": "PDL (voting results)"
+   },
+   "evidence": "The draft has a 17th first-round pick in 2023, 2024 and 2026, and one extra unnumbered pick in 2022 and 2025 (mfl_archive draft_results)."
+  },
+  {
+   "meeting": 2021,
+   "topic": "retainments",
+   "proposal": "Optionally buy up to 3 extra retainment slots a season at $25 each, paid when retainments are due.",
+   "outcome": "on the agenda; result not recorded",
+   "source": {
+    "kind": "email",
+    "date": "2021-07-20",
+    "subject": "PDL summer meeting (agenda)"
+   }
+  },
+  {
+   "meeting": 2021,
+   "topic": "finance",
+   "proposal": "Entry fee $65: $100 of the pot to the trophy and website, the toilet bowl winner's optional $65, then 75% of the remainder to first and 25% to second.",
+   "outcome": "passed (slight preference for $100, no majority)",
+   "effective_season": 2021,
+   "source": {
+    "kind": "email",
+    "date": "2021-08-17",
+    "subject": "PDL (voting results)"
+   }
+  },
+  {
+   "meeting": 2023,
+   "topic": "tiebreaker",
+   "proposal": "Clarify the multi-team playoff tiebreaker: after breaking a tie for one seed, either restart the process for the remaining seeds, or order all tied teams once and assign them in that order. (The 2014 rule being clarified: head-to-head first but skipped when 3 or more are tied, then points, then a coin toss.)",
+   "outcome": "put to an MFL poll; result not recorded",
+   "source": {
+    "kind": "email",
+    "date": "2023-08-17",
+    "subject": "PDL"
+   }
+  },
+  {
+   "meeting": 2023,
+   "topic": "finance",
+   "proposal": "Entry fee.",
+   "outcome": "put to an MFL poll; result not recorded",
+   "source": {
+    "kind": "email",
+    "date": "2023-08-17",
+    "subject": "PDL"
+   }
+  },
+  {
+   "meeting": 2024,
+   "topic": "meeting",
+   "proposal": "A social summer meeting; the invitation said there were no rule-change topics.",
+   "outcome": "no changes proposed",
+   "source": {
+    "kind": "email",
+    "date": "2024-07-16",
+    "subject": "PDL 2024 Summer Meeting"
+   }
+  },
+  {
+   "meeting": 2025,
+   "topic": "waivers",
+   "proposal": "Set weekly waiver priority by record instead of by who last had a claim accepted.",
+   "outcome": "unknown; the in-person meeting was cancelled and changes were to go to a website vote",
+   "source": {
+    "kind": "email",
+    "date": "2025-07-12",
+    "subject": "Pdl Summer meeting 2025 cancel"
+   }
+  },
+  {
+   "meeting": 2025,
+   "topic": "roster",
+   "proposal": "Limit team defenses on a roster to 2 or 3.",
+   "outcome": "unknown",
+   "source": {
+    "kind": "email",
+    "date": "2025-07-12",
+    "subject": "Pdl Summer meeting 2025 cancel"
+   }
+  },
+  {
+   "meeting": 2025,
+   "topic": "waivers",
+   "proposal": "Let other teams claim a dropped player after the waiver run, but only after a one-week wait.",
+   "outcome": "unknown",
+   "source": {
+    "kind": "email",
+    "date": "2025-07-12",
+    "subject": "Pdl Summer meeting 2025 cancel"
+   }
+  },
+  {
+   "meeting": 2025,
+   "topic": "scoring",
+   "proposal": "Limit one hybrid QB/TE player's touchdowns to the 6, 9 and 12 point tiers, without double points.",
+   "outcome": "unknown",
+   "source": {
+    "kind": "email",
+    "date": "2025-07-12",
+    "subject": "Pdl Summer meeting 2025 cancel"
+   }
+  },
+  {
+   "meeting": 2025,
+   "topic": "administration",
+   "proposal": "Hand the summer meeting organizer role to another owner.",
+   "outcome": "unknown",
+   "source": {
+    "kind": "email",
+    "date": "2025-07-12",
+    "subject": "Pdl Summer meeting 2025 cancel"
+   }
+  },
+  {
+   "meeting": 2026,
+   "topic": "meeting",
+   "proposal": "Summer meeting held July 16; about four rule changes were submitted beforehand.",
+   "outcome": "contents and outcomes not in email",
+   "source": {
+    "kind": "email",
+    "date": "2026-07-13",
+    "subject": "Summertime meeting PDL 2026 July 16"
+   }
+  }
+ ]
+}

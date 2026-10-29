@@ -125,6 +125,34 @@ and Head to head pages.
 4. **Launch**: the notice on the legacy home page, and the link from the MFL
    league home page.
 
+## What the email pass found
+
+`rules/sources/email.json` holds 39 entries for the 2018 to 2026 meetings,
+paraphrased and cited by date and subject, never by sender. 16 are confirmed by
+the MFL archive, which is the rule book's step 6 check working early:
+
+- **2018 scoring.** Yardage from the first yard, fractional yardage, kicker
+  distance brackets, and 0.5 points per reception (passed 10 to 6) together
+  account for the jump from 78 to 116 points a game.
+- **No flex, ever.** Every flex and kicker or defense proposal from 2018 to
+  2021 failed or was dropped, and MFL's lineup is QB1 RB2 WR3 TE1 PK1 Def1 in
+  every season from 2003 to 2026.
+- **2019 divisions.** The reversion passed 11 to 3, and MFL's alignment from
+  2019 on matches 2007 to 2014 team for team.
+- **2021 season length.** Fourteen regular-season weeks from 2021, matching
+  the 18-week NFL schedule decision.
+- **2021 toilet bowl pick.** Passed 10 to 3, and the draft gains a 17th
+  first-round pick from 2023.
+- **2020 COVID reserve list.** 2020 is the only season with 5 reserve slots.
+
+Still unknown from email: the 2025 proposals (the meeting was cancelled and
+they went to a website vote), the 2026 meeting's contents, the 2023 tiebreaker
+and entry-fee polls, the 2021 extra-retainment-slot proposal, and the 2020
+flex vote (though MFL shows it did not take effect).
+
+The message board is the next source. It is behind a login: the API refuses
+it, and so do the pages.
+
 ## Decisions needed
 
 1. The baseline edition. The recommendation is the 2006 PDF, confirmed by step 1.
@@ -140,8 +168,11 @@ and Head to head pages.
 - [ ] **Create the new rule book**: an HTML rule book built from the baseline
       edition, with each year's changes from `changes.html` layered in, and the
       gaps filled from email (steps 1 to 7 above)
-- [ ] Recover the 2016, 2017 and 2024 to 2026 meetings, and the outcomes
-      missing for 12 more
+- [x] Email pass: 39 entries for the 2018 to 2026 meetings in
+      `rules/sources/email.json`, 16 of them checked against the MFL archive
+- [ ] Message board pass, which needs a commissioner sign-in (see below)
+- [ ] Recover what neither source has: 2005 to 2012 predates the mailbox,
+      and 2022 left nothing in it
 - [ ] Commit `retainment-values-2025.html` to the legacy site
 - [x] Archive the rules record: `changes.html`, `changes2002.html`, the 2004
       HTML edition, and text extracted from the three Word and PDF editions
