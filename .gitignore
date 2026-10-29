@@ -8,3 +8,7 @@ page/index_doc.json
 __pycache__/
 *.pyc
 .DS_Store
+
+# Message board captures and anything else that may carry personal names.
+# Kept locally, never published; only paraphrased extracts reach rules/.
+private/

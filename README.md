@@ -45,12 +45,24 @@ Commit `mfl_archive/` to git. That gives an offsite copy and a history, and the
 manifest makes a silent change or a truncated download detectable. Re-run the
 capture after each season (weekly during one) and commit the diff.
 
+### The message board
+
+```bash
+python3 src/fetch_message_board.py        # every board on the current league id
+```
+
+Readable as a guest for the league's current MFL id. MFL deletes old boards:
+only 2025 and 2026 still exist as of October 2026, so capture each season's
+board before the next one starts. Pages are stored under `private/`, which is
+git-ignored, because posts can carry personal names. Only paraphrased rule
+entries reach `rules/sources/message_board.json`.
+
 ### What MFL will not give up
 
-The message board, the league calendar and polls all require a logged-in
-commissioner, so they are **not** in the archive and cannot be. If the league's
-message board history matters, it has to be saved from the site by hand while
-the league still exists. This is the one real gap.
+The league calendar and polls require a logged-in commissioner through the API,
+and the boards for the 2003 to 2015 league ids report that owners have no board
+rights. The 2016 to 2024 boards are gone from MFL entirely. Of the message board,
+only what `fetch_message_board.py` has captured survives.
 
 ### Not yet parsed, but captured
 

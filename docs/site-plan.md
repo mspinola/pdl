@@ -189,8 +189,25 @@ they went to a website vote), the 2026 meeting's contents, the 2023 tiebreaker
 and entry-fee polls, the 2021 extra-retainment-slot proposal, and the 2020
 flex vote (though MFL shows it did not take effect).
 
-The message board is the next source. It is behind a login: the API refuses
-it, and so do the pages.
+### The message board
+
+The boards for the league's current MFL id are readable as a guest, and
+`src/fetch_message_board.py` captures them. **MFL deletes old boards.** As of
+October 2026 the 2016 to 2024 boards report that they don't exist, and a 2020
+topic linked from a 2021 email reports the same. Only 2025 and 2026 remain,
+and both are captured. Run the capture every season, before the previous one
+goes.
+
+`rules/sources/message_board.json` holds 16 entries. It settles the 2025 votes
+that email left open: dropped players become free agents immediately (two
+waiver changes passed), the hybrid QB/TE player was made ineligible for the
+season, and waiver priority by record and a cap on defenses both failed. It also
+shows the 2026 IR spot passing, set up on Sep 8 with MFL showing 1 reserve slot,
+and documents the current playoff format and seeding tiebreakers as practiced.
+
+The raw board pages stay out of this repository, in a git-ignored `private/`
+folder, because posts can carry personal names. They are the only copy once MFL
+purges a season, so they need a private backup of their own.
 
 ## Decisions needed
 
@@ -209,7 +226,10 @@ it, and so do the pages.
       gaps filled from email (steps 1 to 7 above)
 - [x] Email pass: 39 entries for the 2018 to 2026 meetings in
       `rules/sources/email.json`, 16 of them checked against the MFL archive
-- [ ] Message board pass, which needs a commissioner sign-in (see below)
+- [x] Message board pass for 2025 and 2026: 16 entries in
+      `rules/sources/message_board.json`, resolving the 2025 outcomes
+- [ ] Older boards (2003 to 2015 report no guest rights): a commissioner
+      sign-in may reveal them. 2016 to 2024 are deleted by MFL.
 - [ ] Recover what neither source has: 2005 to 2012 predates the mailbox,
       and 2022 left nothing in it
 - [ ] Commit `retainment-values-2025.html` to the legacy site

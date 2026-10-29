@@ -1,0 +1,233 @@
+{
+ "source": "MyFantasyLeague message board",
+ "note": "Read as a guest; the boards for the league's current MFL id need no sign-in. Each entry is a paraphrase, cited by date and topic title, never by poster. The raw pages are kept outside this repository (private/, git-ignored) because posts can carry personal names.",
+ "coverage": {
+  "captured": [
+   2025,
+   2026
+  ],
+  "deleted_by_mfl": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024
+  ],
+  "no_guest_rights": [
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015
+  ],
+  "how_measured": "As of 2026-10-29 the 2016 to 2024 boards report that they don't exist, and a 2020 topic linked from a 2021 email reports the same. MFL keeps only recent seasons' boards."
+ },
+ "entries": [
+  {
+   "meeting": 2025,
+   "topic": "waivers",
+   "proposal": "A player dropped during the Wednesday waiver run becomes a free agent immediately, first come first served, instead of waiting for the next week's run.",
+   "outcome": "passed",
+   "effective_season": 2025,
+   "source": {
+    "kind": "message board",
+    "date": "2025-09-01",
+    "topic": "draft and voting results"
+   },
+   "resolves": "email.json 2025: dropped players and a one-week wait. The passed version runs the other way, toward immediate availability."
+  },
+  {
+   "meeting": 2025,
+   "topic": "waivers",
+   "proposal": "A player dropped during the first-come-first-served window, between the waiver run and kickoff, is available immediately and not subject to waivers.",
+   "outcome": "passed",
+   "effective_season": 2025,
+   "source": {
+    "kind": "message board",
+    "date": "2025-09-01",
+    "topic": "draft and voting results"
+   }
+  },
+  {
+   "meeting": 2025,
+   "topic": "positions",
+   "proposal": "The hybrid QB/TE player at the centre of the touchdown-scoring complaint is ineligible for any PDL roster for the season.",
+   "outcome": "passed",
+   "effective_season": 2025,
+   "source": {
+    "kind": "message board",
+    "date": "2025-09-01",
+    "topic": "draft and voting results"
+   },
+   "resolves": "email.json 2025: limiting that player's touchdown scoring. The vote went further."
+  },
+  {
+   "meeting": 2025,
+   "topic": "waivers",
+   "proposal": "Set waiver priority by record.",
+   "outcome": "failed (priority left unchanged)",
+   "source": {
+    "kind": "message board",
+    "date": "2025-09-01",
+    "topic": "draft and voting results"
+   },
+   "resolves": "email.json 2025: waiver priority by record"
+  },
+  {
+   "meeting": 2025,
+   "topic": "roster",
+   "proposal": "Limit the number of team defenses on a roster.",
+   "outcome": "failed",
+   "source": {
+    "kind": "message board",
+    "date": "2025-09-01",
+    "topic": "draft and voting results"
+   },
+   "resolves": "email.json 2025: cap team defenses at 2 or 3"
+  },
+  {
+   "meeting": 2025,
+   "topic": "finance",
+   "proposal": "Entry fee $100, including league fees.",
+   "outcome": "set",
+   "effective_season": 2025,
+   "source": {
+    "kind": "message board",
+    "date": "2025-09-01",
+    "topic": "draft and voting results"
+   }
+  },
+  {
+   "meeting": 2025,
+   "topic": "procedure",
+   "proposal": "Rule-change voting runs as league polls on the website for one week, with the draft on the Tuesday after Labor Day and retainments due two weeks before.",
+   "outcome": "in practice",
+   "effective_season": 2025,
+   "source": {
+    "kind": "message board",
+    "date": "2025-08-13",
+    "topic": "League polls are posted"
+   }
+  },
+  {
+   "meeting": 2025,
+   "topic": "playoffs",
+   "proposal": "Playoff format: a 4-team bracket in each conference in week 15 (seed 1 against 4, 2 against 3), conference championships in week 16, the final in week 17. The 8 teams outside the playoffs play a toilet bowl, seeded 1 against 8 through 4 against 5.",
+   "outcome": "in practice",
+   "effective_season": 2025,
+   "source": {
+    "kind": "message board",
+    "date": "2025-12-09",
+    "topic": "PDL playoff seeding and partial draft order"
+   },
+   "evidence": "Matches the MFL brackets from 2021 on: postseason weeks 15 to 17."
+  },
+  {
+   "meeting": 2025,
+   "topic": "tiebreaker",
+   "proposal": "Seeding ties in practice: a two-team tie goes to the head-to-head winner, and a split head-to-head goes to points scored.",
+   "outcome": "in practice",
+   "effective_season": 2025,
+   "source": {
+    "kind": "message board",
+    "date": "2025-12-09",
+    "topic": "PDL playoff seeding and partial draft order"
+   }
+  },
+  {
+   "meeting": 2025,
+   "topic": "draft",
+   "proposal": "Draft order: picks 1 to 8 for the non-playoff teams by potential points scored, then the playoff teams by finish, and pick 17 to the toilet bowl winner.",
+   "outcome": "in practice",
+   "effective_season": 2025,
+   "source": {
+    "kind": "message board",
+    "date": "2025-12-09",
+    "topic": "PDL playoff seeding and partial draft order"
+   },
+   "evidence": "The 2026 draft has a 17th first-round pick (mfl_archive draft_results)."
+  },
+  {
+   "meeting": 2026,
+   "topic": "retainments",
+   "proposal": "A luxury tax: pay $100 for 2 extra retainment slots (14 instead of 12), with the money split among teams that bought none, toward their entry fees.",
+   "outcome": "on the 2026 polls; result not posted",
+   "source": {
+    "kind": "message board",
+    "date": "2026-07-29",
+    "topic": "League Polls are posted"
+   }
+  },
+  {
+   "meeting": 2026,
+   "topic": "retainments",
+   "proposal": "A smaller tax: pay $50 for 1 extra retainment slot, with the same redistribution.",
+   "outcome": "on the 2026 polls; result not posted",
+   "source": {
+    "kind": "message board",
+    "date": "2026-07-29",
+    "topic": "League Polls are posted"
+   }
+  },
+  {
+   "meeting": 2026,
+   "topic": "administration",
+   "proposal": "The last-place team organizes the next summer meeting, rotating yearly.",
+   "outcome": "on the 2026 polls; result not posted",
+   "source": {
+    "kind": "message board",
+    "date": "2026-07-29",
+    "topic": "League Polls are posted"
+   }
+  },
+  {
+   "meeting": 2026,
+   "topic": "lineup",
+   "proposal": "Turn one WR spot into a flex (WR, RB or TE).",
+   "outcome": "on the 2026 polls; not in effect",
+   "source": {
+    "kind": "message board",
+    "date": "2026-07-29",
+    "topic": "League Polls are posted"
+   },
+   "evidence": "MFL lineup settings are unchanged in 2026: QB1 RB2 WR3 TE1 PK1 Def1."
+  },
+  {
+   "meeting": 2026,
+   "topic": "roster",
+   "proposal": "One IR spot in the regular season. A player must carry an official NFL designation (IR, IR designated to return, PUP or NFI) to occupy it, and the team must make room the moment he is eligible to return.",
+   "outcome": "passed; set up on MFL on Sep 8, 2026",
+   "effective_season": 2026,
+   "source": {
+    "kind": "message board",
+    "date": "2026-09-08",
+    "topic": "Injured Reserve"
+   },
+   "evidence": "MFL shows 1 reserve slot in 2026."
+  },
+  {
+   "meeting": 2026,
+   "topic": "finance",
+   "proposal": "Entry fee stays at $100.",
+   "outcome": "set",
+   "effective_season": 2026,
+   "source": {
+    "kind": "message board",
+    "date": "2026-09-04",
+    "topic": "entry fee"
+   }
+  }
+ ]
+}
