@@ -111,8 +111,22 @@ python3 src/scrub_site.py ~/path/to/mspinola --apply
 Two things it will not do. It skips the `ffl` directory, a different league
 whose team names are built from its owners' surnames, so the names cannot be
 removed without renaming the teams. And it leaves Word and Excel files alone,
-including the `owner_records` set, because binary formats cannot be
-text-scrubbed without corrupting them; 33 of those still carry names.
+because binary formats cannot be text-scrubbed without corrupting them.
+
+**The 33 Office files stay as they are**, decided deliberately rather than
+left undone. They are the `owner_records_2002` to `2007` set, the draft and
+offseason spreadsheets, the Retainments documents, `PDL_Rules.doc` and
+`FranchisePts.xls`, and they still carry owner names. Three reasons to keep
+them: scrubbing a binary risks corrupting it, the `owner_records` files are
+*about* owners so there would be little left of them, and deleting them would
+break links from the history page and lose archive material that exists
+nowhere else. The names in them are reachable only by downloading a file, not
+by reading a page.
+
+To revisit: `src/scrub_site.py` lists nothing about them, so finding them again
+means searching the site for owner surnames in files whose extension is not
+text. Removing them would also mean fixing the links on
+`pdl/history/history.html`.
 
 That site was scrubbed by committing the new versions forward, so its git
 history still holds the originals. Deliberate, not an oversight.
