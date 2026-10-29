@@ -77,6 +77,30 @@ Starts over slot is the average number of starts a pick gave above what picks at
 | 16 | Scooter's Boozers | 16 | 169 | 21.3% | 58.3% | 4.53 | -1.01 (outside) | 0.85 | -0.28 |
 | 17 | Manic Moose | 16 | 197 | 15.7% | 40.0% | 3.54 | -1.05 (outside) | 0.74 | -0.25 |
 
+### Picking players against keeping them
+
+Starts over slot above counts only starts for the team that made the pick, which is value to that team. An owner who drafts players and then trades them away scores low on it however well he picked. So here the same comparison counts a draftee's starts for any team in the three seasons: did the owner pick players who became starters, whoever ended up starting them. The last column is the share of his draftees' starts made for other teams (league: 47%).
+
+| | Owner | Any team, over slot | Margin | For the drafting team, over slot | Started elsewhere |
+|---|---|---|---|---|---|
+| 1 | Tally Wackers | +2.12 (outside) | 1.59 | +1.33 | 42.2% |
+| 2 | Ho Train | +0.94 | 1.47 | +0.49 | 46.8% |
+| 3 | Karpet Munchers | +0.91 | 1.51 | -0.05 | 53.0% |
+| 4 | F-Jackie | +0.43 | 1.44 | -0.05 | 47.7% |
+| 5 | Iron City Pounders | +0.28 | 1.69 | +0.13 | 47.7% |
+| 6 | Carter's Commandos | +0.27 | 1.61 | +0.92 | 36.8% |
+| 7 | Texas Nashvillians | +0.2 | 1.48 | +0.2 | 47.2% |
+| 8 | Beers | +0.18 | 1.42 | -0.85 | 59.1% |
+| 9 | Blitzkrieg | -0.13 | 1.55 | +0.71 | 37.8% |
+| 10 | Bunchalosers | -0.21 | 2.01 | -0.18 | 49.5% |
+| 11 | Scooter's Boozers | -0.25 | 1.62 | -1.01 | 56.4% |
+| 12 | OakalDoakals | -0.47 | 1.54 | -0.4 | 48.1% |
+| 13 | Da Funk | -0.51 | 1.5 | +0.52 | 37.0% |
+| 14 | Couchfire | -0.63 | 2.37 | -0.62 | 46.8% |
+| 15 | Dunbar Dogs | -1.05 | 1.57 | +0.43 | 35.7% |
+| 16 | Otters | -1.23 | 1.51 | -0.76 | 48.3% |
+| 17 | Manic Moose | -1.23 | 1.33 | -1.05 | 57.7% |
+
 ## Best picks
 
 By value over the three seasons (or so far, for recent drafts).

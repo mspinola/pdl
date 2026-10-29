@@ -60,6 +60,7 @@ def main():
     rows = weekly.seasons()
     averages = weekly.starter_averages(rows)
     starts = defaultdict(list)   # (team, player) -> [(season, over_average)]
+    anywhere = defaultdict(list)  # player -> [season], starts for any team
     for r in rows:
         if r["stage"] != "regular":
             continue
@@ -67,24 +68,30 @@ def main():
             if p["started"]:
                 starts[(r["team"], p["id"])].append(
                     (r["season"], weekly.over_average(p["score"], r["season"], weekly.positions().get(p["id"]), averages)))
+                anywhere[p["id"]].append(r["season"])
     out = picks()
     for p in out:
         window = [v for y, v in starts.get((p["team"], p["player_id"]), []) if p["season"] <= y < p["season"] + HORIZON]
         p["starts"] = len(window)
+        # starts for any team: did he pick a player who became a starter, whoever started him
+        p["starts_any_team"] = sum(1 for y in anywhere.get(p["player_id"], []) if p["season"] <= y < p["season"] + HORIZON)
         p["value"] = round(sum(window), 1)
         p["hit"] = len(window) >= HIT
         p["complete"] = p["season"] + HORIZON - 1 < LAST_SEASON
     done = [p for p in out if p["complete"]]
-    by_overall = defaultdict(list)
+    by_overall, any_overall = defaultdict(list), defaultdict(list)
     for p in done:
         by_overall[p["overall"]].append(p["starts"])
+        any_overall[p["overall"]].append(p["starts_any_team"])
     for p in out:
         near = [s for o in range(p["overall"] - 2, p["overall"] + 3) for s in by_overall.get(o, [])]
         p["expected_starts"] = round(statistics.mean(near), 1) if near else None
         p["starts_over_slot"] = round(p["starts"] - p["expected_starts"], 1) if near else None
+        near_any = [s for o in range(p["overall"] - 2, p["overall"] + 3) for s in any_overall.get(o, [])]
+        p["any_team_over_slot"] = round(p["starts_any_team"] - statistics.mean(near_any), 1) if near_any else None
 
     cols = ["season", "round", "pick", "overall", "team", "player", "position", "starts", "value", "hit",
-            "expected_starts", "starts_over_slot", "complete"]
+            "expected_starts", "starts_over_slot", "starts_any_team", "any_team_over_slot", "complete"]
     with open(f"{BASE}/datasets/draft_value.csv", "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(cols)
@@ -103,7 +110,12 @@ def main():
                       "margin": round(2 * statistics.stdev(p["starts_over_slot"] for p in ps) / len(ps) ** 0.5, 2),
                       "first_round_hit_rate": round(100 * statistics.mean(p["hit"] for p in ps if p["round"] == 1), 1)
                       if any(p["round"] == 1 for p in ps) else None,
-                      "value_per_pick": round(statistics.mean(p["value"] for p in ps), 2)})
+                      "value_per_pick": round(statistics.mean(p["value"] for p in ps), 2),
+                      "any_team_over_slot": round(statistics.mean(p["any_team_over_slot"] for p in ps), 2),
+                      "any_team_margin": round(2 * statistics.stdev(p["any_team_over_slot"] for p in ps) / len(ps) ** 0.5, 2),
+                      # of the starts his draftees made in the three seasons, the share made for other teams
+                      "started_elsewhere": round(100 * (1 - sum(p["starts"] for p in ps) /
+                                                        max(1, sum(p["starts_any_team"] for p in ps))), 1)})
     orows.sort(key=lambda r: -r["starts_over_slot"])
     cols = list(orows[0])
     with open(f"{BASE}/datasets/draft_owners.csv", "w", newline="") as f:
@@ -166,6 +178,20 @@ def report(out, done, orows):
         L.append(f"| {i} | {r['owner']} | {r['drafts']} | {r['picks']} | {r['hit_rate']}% | "
                  f"{r['first_round_hit_rate']}% | {r['starts_per_pick']} | {r['starts_over_slot']:+}{flag} | "
                  f"{r['margin']} | {r['value_per_pick']:+} |")
+    arows = sorted(orows, key=lambda r: -r["any_team_over_slot"])
+    league_elsewhere = 100 * (1 - sum(p["starts"] for p in done) / max(1, sum(p["starts_any_team"] for p in done)))
+    L += ["", "### Picking players against keeping them", "",
+          "Starts over slot above counts only starts for the team that made the pick, which is value to that team. "
+          "An owner who drafts players and then trades them away scores low on it however well he picked. So here "
+          "the same comparison counts a draftee's starts for any team in the three seasons: did the owner pick "
+          "players who became starters, whoever ended up starting them. The last column is the share of his "
+          f"draftees' starts made for other teams (league: {league_elsewhere:.0f}%).", "",
+          "| | Owner | Any team, over slot | Margin | For the drafting team, over slot | Started elsewhere |",
+          "|---|---|---|---|---|---|"]
+    for i, r in enumerate(arows, 1):
+        flag = " (outside)" if abs(r["any_team_over_slot"]) > r["any_team_margin"] else ""
+        L.append(f"| {i} | {r['owner']} | {r['any_team_over_slot']:+}{flag} | {r['any_team_margin']} | "
+                 f"{r['starts_over_slot']:+} | {r['started_elsewhere']}% |")
     best = sorted(out, key=lambda p: -p["value"])
     L += ["", "## Best picks", "", "By value over the three seasons (or so far, for recent drafts).", "",
           "| Season | Round | Pick | Team | Player | Pos | Starts | Value |", "|---|---|---|---|---|---|---|---|"]
