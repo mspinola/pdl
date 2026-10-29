@@ -135,6 +135,22 @@ LEGACY = [
     "pdl2003/setup/draft.html",
     "pdl2004/setup/draft.html",
     "pdl2006/setup/draft.html",
+    # The rules record, which matters most of anything here. changes.html is
+    # the proposals log, 2002 to the 2023 summer meeting. PDL_Rules.htm is the
+    # rule book as Word exported it in 2004.
+    "setup/changes.html",
+    "pdl2002/setup/changes2002.html",
+    "setup/PDL_Rules.htm",
+]
+
+# The rule book's Word and PDF editions. Only their text is kept, extracted
+# here: the files themselves carry an author in their metadata, and this
+# repository is public. The manifest records each source file's hash and its
+# own dates, so the provenance survives even though the file does not.
+RULE_BOOKS = [
+    ("setup/PDL_Rules.pdf", "rules_PDL_Rules_pdf.txt"),     # 2006, the edition the season pages link
+    ("setup/PDL_Rules.doc", "rules_PDL_Rules_doc.txt"),
+    ("setup/old_PDL_Rules.doc", "rules_old_PDL_Rules_doc.txt"),
 ]
 
 
@@ -166,6 +182,63 @@ def capture_legacy(force=False):
     return tally, notes
 
 
+def capture_rule_books(force=False):
+    """Download each rule book edition, keep its text, discard the file."""
+    import subprocess, tempfile
+    out_dir = f"{ARCHIVE}/legacy"
+    os.makedirs(out_dir, exist_ok=True)
+    provenance, notes = {}, []
+    for rel, dest_name in RULE_BOOKS:
+        dest = f"{out_dir}/{dest_name}"
+        url = f"{LEGACY_BASE}/{rel}"
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=90) as r:
+                blob = r.read()
+        except Exception as e:  # noqa: BLE001
+            notes.append((rel, str(e)))
+            continue
+        info = {"source": url, "source_bytes": len(blob),
+                "source_sha256": hashlib.sha256(blob).hexdigest()}
+        if os.path.exists(dest) and os.path.getsize(dest) > 200 and not force:
+            provenance[dest_name] = {**info, **_dates(blob, rel)}
+            continue
+        with tempfile.TemporaryDirectory() as tmp:
+            src = os.path.join(tmp, os.path.basename(rel))
+            with open(src, "wb") as f:
+                f.write(blob)
+            txt = os.path.join(tmp, "out.txt")
+            if rel.endswith(".pdf"):
+                cmd = ["pdftotext", "-layout", src, txt]
+            else:
+                # textutil ships with macOS; elsewhere use antiword or LibreOffice
+                cmd = ["textutil", "-convert", "txt", "-output", txt, src]
+            try:
+                subprocess.run(cmd, check=True, capture_output=True)
+            except (OSError, subprocess.CalledProcessError) as e:
+                notes.append((rel, f"text extraction failed ({cmd[0]}): {e}"))
+                continue
+            text = open(txt, encoding="utf-8", errors="replace").read()
+        with open(dest, "w", encoding="utf-8") as f:
+            f.write(text)
+        provenance[dest_name] = {**info, **_dates(blob, rel), "words": len(text.split())}
+        time.sleep(0.8)
+    return provenance, notes
+
+
+def _dates(blob, rel):
+    """The edition's own dates, which are not the date it was committed."""
+    import re as _re
+    out = {}
+    if rel.endswith(".pdf"):
+        for key in ("CreationDate", "ModDate"):
+            m = _re.search(rb"/" + key.encode() + rb"\s*\(D:(\d{8})", blob)
+            if m:
+                d = m.group(1).decode()
+                out[key] = f"{d[:4]}-{d[4:6]}-{d[6:]}"
+    return out
+
+
 def main(force=False):
     os.makedirs(ARCHIVE, exist_ok=True)
     with open(f"{ARCHIVE}/leagues.json", "w") as f:
@@ -174,6 +247,10 @@ def main(force=False):
     ltally, lnotes = capture_legacy(force=force)
     print(f"  legacy pages: {ltally}")
     for rel, note in lnotes:
+        print(f"    {rel}: {note}")
+    rule_provenance, rnotes = capture_rule_books(force=force)
+    print(f"  rule book editions as text: {len(rule_provenance)} of {len(RULE_BOOKS)}")
+    for rel, note in rnotes:
         print(f"    {rel}: {note}")
 
     tally, notes = {}, []
@@ -222,8 +299,9 @@ def main(force=False):
         manifest["legacy"] = {
             "source": LEGACY_BASE,
             "note": ("The league's own pages, the only source for the seasons "
-                     "MFL has nothing for."),
+                     "MFL has nothing for, and the rules record."),
             "files": files,
+            "rule_book_provenance": rule_provenance,
         }
     manifest["total_bytes"] = total
     manifest["total_files"] = (sum(len(s["files"]) for s in manifest["seasons"].values())

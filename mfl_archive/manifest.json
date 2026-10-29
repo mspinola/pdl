@@ -1,6 +1,6 @@
 {
  "league": "PDL",
- "captured": "2026-10-29T14:39:46+00:00",
+ "captured": "2026-10-29T15:54:40+00:00",
  "source": "MyFantasyLeague export API",
  "note": "Responses stored verbatim. Everything derived is rebuilt from these files. Not available without a commissioner login, and therefore absent: message board, calendar, polls.",
  "seasons": {
@@ -1567,7 +1567,7 @@
  },
  "legacy": {
   "source": "https://mspinola.github.io/mspinola/pdl",
-  "note": "The league's own pages, the only source for the seasons MFL has nothing for.",
+  "note": "The league's own pages, the only source for the seasons MFL has nothing for, and the rules record.",
   "files": {
    "history_history.html": {
     "bytes": 2558,
@@ -1629,6 +1629,10 @@
     "bytes": 17305,
     "sha256": "ef09dc8c7cbdf0ab590b8e7e45e7c1f57d8596e34cb405473e2cbfe89abdcf79"
    },
+   "pdl2002_setup_changes2002.html": {
+    "bytes": 1853,
+    "sha256": "8fa267666db02645b707d6ec36b1c883de2318be825ad9f06f3192343a2bf08d"
+   },
    "pdl2002_setup_draft.html": {
     "bytes": 110119,
     "sha256": "3bfc3b7079567d39f699c7054d463da472b91725009f0e2a8b197cc07cc2a0c8"
@@ -1648,9 +1652,51 @@
    "pdl2006_setup_draft.html": {
     "bytes": 194371,
     "sha256": "3a445e47f3cf3a7a5b0d439baac6e6ef347522c30558dd9be9727b558b48db67"
+   },
+   "rules_PDL_Rules_doc.txt": {
+    "bytes": 24199,
+    "sha256": "8cfd7753d06afa201ff216b3a9d8e7b4005e29b2a72d8967c94cba07b410ed18"
+   },
+   "rules_PDL_Rules_pdf.txt": {
+    "bytes": 33011,
+    "sha256": "7f0b37b506546a7f019435e7f98afe48b1302cf4a5edcc4346d7173e7143a13a"
+   },
+   "rules_old_PDL_Rules_doc.txt": {
+    "bytes": 22241,
+    "sha256": "db8a3727039a00fed85db2dcbb6ce24111b833d6371355084b02aff50a60d8b5"
+   },
+   "setup_PDL_Rules.htm": {
+    "bytes": 240403,
+    "sha256": "114300ee88a3627347ab7ba1d719d1c39b0fde857868f2f55d1695e5bf64fc26"
+   },
+   "setup_changes.html": {
+    "bytes": 33735,
+    "sha256": "9d3c8bc4bfa1539c41b67781d01a93284ba2c5a3a21d87b84e6e858aaf922641"
+   }
+  },
+  "rule_book_provenance": {
+   "rules_PDL_Rules_pdf.txt": {
+    "source": "https://mspinola.github.io/mspinola/pdl/setup/PDL_Rules.pdf",
+    "source_bytes": 109971,
+    "source_sha256": "ec5ee187c52069f4f95c59c81da628845d6a23090e24a9a420c653d698f70edb",
+    "CreationDate": "2006-09-24",
+    "ModDate": "2006-10-17",
+    "words": 4085
+   },
+   "rules_PDL_Rules_doc.txt": {
+    "source": "https://mspinola.github.io/mspinola/pdl/setup/PDL_Rules.doc",
+    "source_bytes": 194560,
+    "source_sha256": "341e776f5e9b8f04c27a96e27d7ed617c998bd5fe4373b35e9228ed35574da65",
+    "words": 4159
+   },
+   "rules_old_PDL_Rules_doc.txt": {
+    "source": "https://mspinola.github.io/mspinola/pdl/setup/old_PDL_Rules.doc",
+    "source_bytes": 142336,
+    "source_sha256": "52ccc1adda1f6873ac5f426dd8159153810ae9dddd62f49386c132e7f4b06475",
+    "words": 3849
    }
   }
  },
- "total_bytes": 10408013,
- "total_files": 380
+ "total_bytes": 10763455,
+ "total_files": 386
 }
