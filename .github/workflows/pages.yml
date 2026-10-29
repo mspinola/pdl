@@ -30,7 +30,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      # standard library only, so there is nothing to install
+      # the build is standard library only; rsvg-convert turns the MFL banner into a PNG
+      - name: Install rsvg-convert
+        run: sudo apt-get install -y --no-install-recommends librsvg2-bin
       - name: Check for owner names
         run: python3 src/check_no_owner_names.py
       - name: Check the archive

@@ -31,6 +31,7 @@ import drafts_pages
 import records_page
 import analysis_pages
 import eggs
+import banner
 
 DIST = f"{SITE}/dist"
 
@@ -342,6 +343,7 @@ def main():
     with open(f"{DIST}/index.html", "w") as f:
         f.write(page("Premiere Dynasty League",
                      home(), depth=0, description="The Premiere Dynasty League."))
+    banner.build(DIST)   # the image MFL's banner setting points at
     eggs.build(DIST)   # last: the antlers go over every finished page
     n = len(os.listdir(f"{DIST}/rules"))
     print(f"built site/dist: {n} rule book pages, {n_seasons} season pages, {n_franchises} franchise pages, "
