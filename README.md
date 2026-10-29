@@ -96,6 +96,34 @@ email address, and fails the commit if one appears. It caught two leaks of its
 own making: a personal email in the API User-Agent, and comments in these very
 files that spelled the mapping out.
 
+### The legacy website
+
+`src/scrub_site.py` is the same job for the league's own site
+(mspinola/mspinola), which has a much larger surface: 212 files and 10,723
+replacements across seven shapes, the biggest being `Owner: <name>` in link
+titles on the pages saved from MyFantasyLeague. Run it against a checkout:
+
+```bash
+python3 src/scrub_site.py ~/path/to/mspinola --dry-run
+python3 src/scrub_site.py ~/path/to/mspinola --apply
+```
+
+Two things it will not do. It skips the `ffl` directory, a different league
+whose team names are built from its owners' surnames, so the names cannot be
+removed without renaming the teams. And it leaves Word and Excel files alone,
+including the `owner_records` set, because binary formats cannot be
+text-scrubbed without corrupting them; 33 of those still carry names.
+
+That site was scrubbed by committing the new versions forward, so its git
+history still holds the originals. Deliberate, not an oversight.
+
+Both scripts guard the same hazard, and it is not theoretical. One owner shares
+a surname with Keenan McCardell, Keenan Allen and Keenan Reynolds, so that
+surname comes out only as part of a full name or beside an existing redaction.
+An earlier pass also read the NFL abbreviations "Phi" and "Sea" as shortened
+owner first names and would have rewritten all 2,856 of them, which is why a
+prefix match now needs four characters.
+
 `raw/` is gitignored. It is the superseded working cache, and it once held
 unscrubbed copies of the legacy pages.
 
