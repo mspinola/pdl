@@ -1,6 +1,6 @@
 {
  "league": "PDL",
- "captured": "2026-10-29T15:54:40+00:00",
+ "captured": "2026-10-29T17:22:59+00:00",
  "source": "MyFantasyLeague export API",
  "note": "Responses stored verbatim. Everything derived is rebuilt from these files. Not available without a commissioner login, and therefore absent: message board, calendar, polls.",
  "seasons": {
@@ -1670,8 +1670,8 @@
     "sha256": "114300ee88a3627347ab7ba1d719d1c39b0fde857868f2f55d1695e5bf64fc26"
    },
    "setup_changes.html": {
-    "bytes": 33735,
-    "sha256": "9d3c8bc4bfa1539c41b67781d01a93284ba2c5a3a21d87b84e6e858aaf922641"
+    "bytes": 33746,
+    "sha256": "8b52f903d03843f32064b6125e4dc07ae45f587e929872cd2b3987ff68909f03"
    }
   },
   "rule_book_provenance": {
@@ -1697,6 +1697,6 @@
    }
   }
  },
- "total_bytes": 10763455,
+ "total_bytes": 10763466,
  "total_files": 386
 }

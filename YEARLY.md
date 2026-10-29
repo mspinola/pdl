@@ -85,6 +85,13 @@ thread title, never who sent or posted it. Use the shape already in the file:
 When the website tally and the announced result disagree, the announced result
 is the outcome of record and the tally goes in a note.
 
+Then add each change that **passed** to `rules/ledger.json`, naming the
+rule-book sections it touches and citing the source entries, and check it:
+
+```bash
+python3 src/rulebook_ledger.py   # every section and source must resolve
+```
+
 ## 5. If an owner changed
 
 Only once in league history so far (Bunchalosers to Couchfire, 2018). A new one
@@ -136,5 +143,5 @@ one is what keeps the board and poll copies offsite.
 
 - The dashboard reads the datasets that were uploaded when it was published.
   After a season, re-publish it so the new season shows.
-- Once the rule book exists (see `docs/site-plan.md`), a new rule change also
-  needs its section updated in the rule book.
+- The rule book is generated from `rules/baseline.json` and `rules/ledger.json`
+  (see `docs/rulebook/README.md`), so a ledger entry is all a new rule needs.

@@ -114,9 +114,10 @@ def team_for(label, owners):
     """Strict: for a table cell, where a wrong match would rewrite a player.
 
     A cell is only an owner reference if its whole text is an owner label. A
-    multi-word cell must match a label exactly, so "Keenan McCardell" and
-    "P Manning" are left alone while "Tony and Buddy" is not. A single word may
-    differ by up to two characters, which covers "Kraus" written "Krause".
+    multi-word cell must match a label exactly, so a player such as "Keenan
+    McCardell" or "P Manning" is left alone while a two-owner label is not. A
+    single word may differ by up to two characters, which covers a surname
+    written with or without its final letter.
     """
     key = _norm(label)
     if not key:
@@ -215,8 +216,8 @@ def scrub_roster_headers(body, owners, founding):
 def scrub_text_cells(body, owners, counts, founding_owners=None):
     """Rule 4: a cell whose entire text is an owner label becomes the team.
 
-    Resolved against the founding owners first. Two owners share the first name
-    "Mike", which makes it ambiguous across all sixteen and unusable, but only
+    Resolved against the founding owners first. Two owners share a first name,
+    which makes it ambiguous across all sixteen and unusable, but only
     one of them founded the league, and the pages that label teams by owner are
     the inaugural draft boards.
     """
@@ -259,8 +260,8 @@ def scrub(path, owners, pairs, founding, founding_owners, dry=False):
 
     # 3. "Team -- Owner", anchored on the team name rather than on a list of
     #    owner spellings, because the pages disambiguate two owners who share a
-    #    first name ("Mike T", "Mike S"), abbreviate ("Al", "T/B") and truncate
-    #    in narrow cells ("Ma", "Ra"). Anything short after the dashes in that
+    #    first name (adding an initial), abbreviate, and truncate in narrow
+    #    cells to two letters. Anything short after the dashes in that
     #    position is an owner annotation. "at" and "vs" are the words that can
     #    legitimately follow, so they are never eaten.
     tail = r"(?!at\b|vs\b)[A-Za-z/.'&]{1,10}"
@@ -377,7 +378,34 @@ def main(dry=False):
         verify(expect_absent)
 
 
+def private_names():
+    """Owner name forms, from the private companion repository.
+
+    The checks below look for owner annotations that survived the scrub, which
+    means knowing the owners' short labels. Those live in private/owners.json
+    (mspinola/pdl-private), so that this public file names nobody. Without it,
+    those checks are skipped and the run says so.
+    """
+    path = f"{BASE}/private/owners.json"
+    if not os.path.exists(path):
+        return None
+    with open(path) as f:
+        return json.load(f)
+
+
+def _alt(words):
+    return "|".join(map(re.escape, words))
+
+
 def verify(expect_absent=None):
+    names = private_names()
+    if names:
+        dash_re = re.compile(r"--\s*(?:" + _alt(names["dash_annotations"]) + r")\b")
+        paren_re = re.compile(r"\(\s*(?:" + _alt(names["paren_labels"]) + r")\s*\)")
+        kw_re = re.compile(r'name=["\']keywords["\'][^>]*(?:' + _alt(names["keyword_surnames"]) + ")", re.I)
+    else:
+        dash_re = paren_re = kw_re = None
+        print("  private/owners.json not found: the owner-label checks are skipped")
     probe = {}
     for name in sorted(os.listdir(LEGACY)):
         if not name.endswith((".html", ".htm")):
@@ -385,17 +413,17 @@ def verify(expect_absent=None):
         body = open(f"{LEGACY}/{name}", encoding="utf-8", errors="replace").read()
         text = html.unescape(re.sub(r"<[^>]+>", "|", body))
         issues = []
-        if re.search(r"--\s*(?:Matt|Mark|Erik|Mike|Rich|Al|Sean|Krause|Randy|Mac|Phil|T/B|Scot)\b", text):
+        if dash_re and dash_re.search(text):
             issues.append("team--owner remains")
         if re.search(r"<o:(?:Author|LastAuthor)>[^<]+</o:", body):
             issues.append("document author remains")
-        if re.search(r'name=["\']keywords["\'][^>]*Spinola', body, re.I):
+        if kw_re and kw_re.search(body):
             issues.append("personal name in keywords")
         for sn in sorted(expect_absent or ()):
             if re.search(rf"\b{re.escape(sn)}\b", body):
                 issues.append("a tracked full name or surname remains")
                 break
-        if re.search(r"\(\s*(?:Matt|Sean|Mark|Erik|Chris|Mike|Mac|Rich|Kraus|Keenan|Scott|Phil|Randy)\s*\)", text):
+        if paren_re and paren_re.search(text):
             issues.append("team(owner) remains")
         if issues:
             probe[name] = sorted(set(issues))

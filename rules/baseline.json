@@ -1,0 +1,1421 @@
+{
+ "edition": "2006",
+ "source": "mfl_archive/legacy/rules_PDL_Rules_pdf.txt",
+ "source_note": "Text of PDL_Rules.pdf (created 2006-09-24, modified 2006-10-17), word for word the same as PDL_Rules.doc. See docs/rulebook/editions.md.",
+ "sections": [
+  {
+   "id": "1.0",
+   "chapter": "1",
+   "title": "Introduction",
+   "level": 1,
+   "blocks": []
+  },
+  {
+   "id": "1.1",
+   "chapter": "1",
+   "title": "Purpose",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The Premiere Dynasty League (PDL) exists solely for the entertainment of its members and fans. PDL franchise owners are chosen to compete for the utmost in fantasy football bragging rights, the Jason Zacks Trophy. The Zacks Trophy will remain in the possession of the yearly champion until a new champion is crowned. The current year winner will retrieve the trophy from the previous year winner and the current year winner will be responsible for engraving the trophy."
+    }
+   ]
+  },
+  {
+   "id": "1.2",
+   "chapter": "1",
+   "title": "Overview",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Each owner will select a roster of players, choose a team nickname, choose a starting lineup, perhaps sign replacement players or make trades, and retain players for the upcoming season. The league website is located at http://www.andrew.cmu.edu/user/mspinola."
+    }
+   ]
+  },
+  {
+   "id": "1.3",
+   "chapter": "1",
+   "title": "Divisions",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The will be two conferences, to be named by the PDL league owners. Each conference will contain two divisions, whose names will be determined by the league owners. Each division will contain four teams. Teams will remain in their original divisions for the duration of PDL."
+    }
+   ]
+  },
+  {
+   "id": "1.4",
+   "chapter": "1",
+   "title": "Team Retention",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "PDL is a dynasty league, which means that some players will be kept from year to year. Players may be waived or acquired through free agency and traded among teams. Because of the nature of this league, teams will continue from season to season, though owners may change. When a new owner takes over an existing team, the new owner will be allowed to change the team name and make all decisions the previous owner was entitled to make. The new owner will also maintain the draft position earned by the previous owner."
+    }
+   ]
+  },
+  {
+   "id": "1.5",
+   "chapter": "1",
+   "title": "Season",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The 13-week regular season consists of head-to-head matches between fantasy teams. The regular season commences on NFL week one and finishes on NFL 13. At the end of the regular season a 3-week playoff tournament will determine the league champion."
+    },
+    {
+     "type": "p",
+     "text": "Each playoff team will receive $25. The league champion takes home 75% of the remaining prize money and the runner up receives 25%."
+    }
+   ]
+  },
+  {
+   "id": "1.6",
+   "chapter": "1",
+   "title": "Entry Fee",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A yearly entry fee of $60 will be collected at the draft. $10 of the entry fee will be applied to website fees and draft food and beverage costs. The entry fee is due the day of the draft. Any owner not paid in full at the start of a regular season week automatically forfeits that week's game. The team playing the forfeited team will play against the league average points scored for the week."
+    }
+   ]
+  },
+  {
+   "id": "1.7",
+   "chapter": "1",
+   "title": "The Bottom Line",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "This League was founded on the ideals of competition and fun. Every team owner is a vital part of that process and is essential to the success of the league."
+    }
+   ]
+  },
+  {
+   "id": "2.0",
+   "chapter": "2",
+   "title": "Schedule",
+   "level": 1,
+   "blocks": []
+  },
+  {
+   "id": "2.1",
+   "chapter": "2",
+   "title": "Head to Head Competition",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Traditional Head to Head competition will be played throughout the regular season and playoffs."
+    }
+   ]
+  },
+  {
+   "id": "2.2",
+   "chapter": "2",
+   "title": "Regular Season",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The regular season schedule will consist of thirteen games: six division games (two against each division opponent), four non-division conference games, and three games against an alternating non-conference division. Non-conference games will vary from year to year by alternating which divisions play each other."
+    }
+   ]
+  },
+  {
+   "id": "2.3",
+   "chapter": "2",
+   "title": "Playoffs",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Playoffs commence on NFL week 14, and finish on NFL week 16."
+    },
+    {
+     "type": "p",
+     "text": "For each conference, the two division winners advance to the playoffs, in addition to two wild card teams. The top division winner in each conference plays the worst wildcard team, while the second division winners play the first wild card teams. The winners advance through their respected conference to meet in the Super Bowl, which determines the champion."
+    }
+   ]
+  },
+  {
+   "id": "3.0",
+   "chapter": "3",
+   "title": "Draft",
+   "level": 1,
+   "blocks": []
+  },
+  {
+   "id": "3.1",
+   "chapter": "3",
+   "title": "Annual Draft",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "An annual draft will be conducted for rookies and free agents. The draft can continue until all franchises fill a maximum roster."
+    }
+   ]
+  },
+  {
+   "id": "3.2",
+   "chapter": "3",
+   "title": "Draft Order",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The draft order will be the reverse of the previous season's final rankings after the playoffs (such as it is done in the NFL). Specifically, the top-tier playoff teams will be ranked reverse of their playoff finishes with the Super Bowl champion drafting sixteenth the Super Bowl runner drafting 15th, … , the worst first round playoff loser drafting 9th."
+    },
+    {
+     "type": "p",
+     "text": "Non-playoff teams will comprise picks 8 through 1. The worst team from last year picks first, the 2nd worst team picks 2nd, … , the 8th worst team picks 8th."
+    },
+    {
+     "type": "p",
+     "text": "If a team changes owner, the new owner inherits the draft position earned by the previous owner."
+    }
+   ]
+  },
+  {
+   "id": "3.3",
+   "chapter": "3",
+   "title": "Trades",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Draft picks may be traded for players currently on your roster or for other draft picks. Draft picks cannot be traded for money or other considerations."
+    }
+   ]
+  },
+  {
+   "id": "3.4",
+   "chapter": "3",
+   "title": "Location / Date / Time",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The drafts will be determined by a majority convenience, as to be determined at the annual summer meeting. Owners may supply the commissioner with any date between July 4th and the start of the NFL season that the owner would not be able to draft. This draft availability must be submitted with the retainments by July 4th of each off season. The draft will be scheduled based on the information obtained (any owner not submitting draft availability will be assumed to be available on all dates.).."
+    }
+   ]
+  },
+  {
+   "id": "3.5",
+   "chapter": "3",
+   "title": "Miscellaneous",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A franchise may not draft a player who is not eligible for the NFL. That is, no team can draft a player unless that player is eligible by both NFL and NCAA regulations. For example an owner could not draft the rights to a collegiate freshman, with the intention of retaining that player until he is in the NFL."
+    }
+   ]
+  },
+  {
+   "id": "4.0",
+   "chapter": "4",
+   "title": "Rosters",
+   "level": 1,
+   "blocks": []
+  },
+  {
+   "id": "4.1",
+   "chapter": "4",
+   "title": "Number of Players per Position",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The maximum number of players on a team's roster is twenty. Rosters may contain any combination of players provide a minimum starting lineup is available at all times. That is each team must have (at minimum) 1 QB, 2 RBs, 3 WRs, 1 TE, 1 K, 1 Def."
+    }
+   ]
+  },
+  {
+   "id": "4.2",
+   "chapter": "4",
+   "title": "Position Eligibility",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Owners shall, by majority vote, decide on players' positions prior to the draft. These positions will apply for the entire year even if the player switches positions during the NFL season (such as Steeler \"wide receiver\" Kordell \"Jungle Foot\" Stewart switching to quarterback late in 1996.) NFL team lists, as represented at www.nfl.com, will determine positions not agreed upon prior to the draft. In the event of a player being listed in multiple positions, the player is available to be inserted in the starting lineup at any of the positions listed."
+    }
+   ]
+  },
+  {
+   "id": "4.3",
+   "chapter": "4",
+   "title": "Player Retention",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "PDL is a dynasty league, which means that some players will be kept from year to year. These players remaining on franchise rosters are retained by the franchise; hence they are not available in the following year's rookie and free-agent draft."
+    },
+    {
+     "type": "p",
+     "text": "At the conclusion of every fantasy year, each franchise owner receives twelve retainment slots to distribute amongst his team. Players values are determined based on their performance during the just concluded fantasy year (through week 16). Any retained player occupies at least one slot and at most three slots as defined below."
+    },
+    {
+     "type": "p",
+     "text": "July 4th of every off season marks the deadline for submitting the reduced roster to the commissioner."
+    },
+    {
+     "type": "h",
+     "text": "Retainable Level (1 retainment slot)"
+    },
+    {
+     "type": "p",
+     "text": "Any player retained by an owner shall cost that owner one retainment slot."
+    },
+    {
+     "type": "h",
+     "text": "All-star Level (2 retainment slots)"
+    },
+    {
+     "type": "p",
+     "text": "Any top 8 QB, top 15 RB, top 15 WR, top 3 TE, top 3 K, or top 3 Defense at their respected position shall be deemed an all-star player. Retaining an all-star player costs an additional retainment slot. That is any player in the all-star level shall cost two retainment slots."
+    },
+    {
+     "type": "h",
+     "text": "Superstar Level (3 retainment slots)"
+    },
+    {
+     "type": "p",
+     "text": "Any QB, RB, or WR finishing in the top three at their respected position shall be deemed a superstar player. Retaining a superstar player costs an additional retainment slot. That is any player in the superstar level shall cost three retainment slots."
+    }
+   ]
+  },
+  {
+   "id": "4.4",
+   "chapter": "4",
+   "title": "Injured Reserve",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "There is no injured reserve."
+    }
+   ]
+  },
+  {
+   "id": "5.0",
+   "chapter": "5",
+   "title": "Starting Lineups",
+   "level": 1,
+   "blocks": []
+  },
+  {
+   "id": "5.1",
+   "chapter": "5",
+   "title": "Formation",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Owners submit a starting lineup of exactly 1 quarterback, 2 running backs, 3 wide receivers, 1 tight end, 1 kicker, and 1 defense."
+    }
+   ]
+  },
+  {
+   "id": "5.2",
+   "chapter": "5",
+   "title": "Lineup Submission",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The normal deadline for submitting starting lineups will be the start of the Sunday games. If a team has starting players in any game-taking place before Sunday, then only those players starting must be declared prior to the start of those games. The deadline for submitting starting lineups will be strictly enforced. Players not submitted before appropriate deadlines will not be included on a team's starting lineup."
+    },
+    {
+     "type": "p",
+     "text": "Lineups must be submitted to the Commissioner by e-mail or by phone (messages and voice mail are good too). The Commissioner will always use the last valid lineup submitted as the team's starting lineup; therefore a team may change his starting lineup at any time prior to the submission deadline."
+    }
+   ]
+  },
+  {
+   "id": "5.3",
+   "chapter": "5",
+   "title": "Default Starting Lineup",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "If an owner fails to submit a starting lineup by the deadline, then the previous week's lineup will serve as the default-starting lineup. That lineup will be used regardless of players being on bye weeks. If a player on the previous week's lineup was traded or cut, then the owner will not receive any points from that player. For the first week of the season, a team will lose by default if no starting lineup is submitted by the appropriate deadline."
+    }
+   ]
+  },
+  {
+   "id": "5.4",
+   "chapter": "5",
+   "title": "Invalid Starting Lineup",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "If an illegal lineup is submitted (be it intentional or not), the lineup will be treated as invalid to the whole and therefore the previous week's lineup will be used. An invalid roster includes things such as too many players started at a position, a player started who is not on an owner’s roster, etc."
+    }
+   ]
+  },
+  {
+   "id": "6.0",
+   "chapter": "6",
+   "title": "Tie-Breakers",
+   "level": 1,
+   "blocks": []
+  },
+  {
+   "id": "6.1",
+   "chapter": "6",
+   "title": "Tie Games",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "There will be no ties. If two teams tie then the team that has the highest point total for an individual player/defense will be declared the winner. If the top point scorers are also tied, then the game will be decided based upon the next highest scoring player on each team and so on."
+    }
+   ]
+  },
+  {
+   "id": "6.2",
+   "chapter": "6",
+   "title": "Playoff Tie-Breaking Scheme",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Ties inside divisions shall be broken first (with the winner of that tiebreaker advancing to the next tie, if applicable). Tie-breaking precedence (highest to lowest):"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      {
+       "n": 1,
+       "text": "Most Overall Points."
+      },
+      {
+       "n": 2,
+       "text": "Winning percentage against all other teams in the tie."
+      },
+      {
+       "n": 5,
+       "text": "Coin flip."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "7.0",
+   "chapter": "7",
+   "title": "Transactions",
+   "level": 1,
+   "blocks": []
+  },
+  {
+   "id": "7.1",
+   "chapter": "7",
+   "title": "Trades",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Two or more owners may exchange players up to the conclusion of week 10. A trade becomes valid only after all parties involved have contacted the commissioner and verified the terms of the deal. Once a team has confirmed a trade, that team can not rescind the trade."
+    },
+    {
+     "type": "p",
+     "text": "Trades may be made for future draft picks, not to exceed one draft into the future. Trades may utilize conditional draft picks. The details of the conditions will be outlined on the PDL trade history website. Trades may not be made for cash, future considerations, nor a player / pick to be named later."
+    },
+    {
+     "type": "p",
+     "text": "Trade vetoes are discussed in the Extraordinary Situations section of the rules."
+    }
+   ]
+  },
+  {
+   "id": "7.2",
+   "chapter": "7",
+   "title": "Free Agents / Waivers",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Players are placed on waivers to give everyone in a league an equal opportunity to acquire them. There will be no free agents; all players are on waivers. After the draft, any player not on a roster will be placed on waivers. Any player cut by a fantasy team is also placed on waivers."
+    },
+    {
+     "type": "p",
+     "text": "A player only leaves waivers once picked up by a team."
+    },
+    {
+     "type": "p",
+     "text": "Owners will all have until 9 AM Friday of each week to place dibs on any waiver player. At 9 AM Friday waivers are processed. If only a single team placed dibs on a given player then that owner will get the player requested. If two or more owners placed dibs on a given player, then the franchise with the highest waiver priority will get the player."
+    },
+    {
+     "type": "p",
+     "text": "If an owner places dibs on more than one player, then the dib placed first will be given top priority for that owner unless otherwise specified by the owner."
+    },
+    {
+     "type": "p",
+     "text": "Anytime an owner picks up a player that owner's waiver priority is dropped to the bottom of the list."
+    },
+    {
+     "type": "p",
+     "text": "Waiver priority is determined by ranking franchises in draft order. The franchise that drafts first in the annual draft starts the season with the #1 waiver priority. The waiver priority list will only change when players are picked up by a franchise."
+    }
+   ]
+  },
+  {
+   "id": "7.3",
+   "chapter": "7",
+   "title": "No Transaction Time Period",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "No transactions will be allowed beginning the last week of the NFL regular season and continuing through to the day of the NFL Pro Bowl game. The day after the Pro Bowl game is the first day that trades may be made. No waiver / free agent moves are allowed until after the annual rookie / free agency draft."
+    }
+   ]
+  },
+  {
+   "id": "8.0",
+   "chapter": "8",
+   "title": "Scoring",
+   "level": 1,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Scoring is based on player performance as represented in the following table. All scoring questions are resolved by those statistics reported by the fantasy football scoring software."
+    }
+   ]
+  },
+  {
+   "id": "8.1",
+   "chapter": "8",
+   "title": "Offensive Points",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "table",
+     "title": "Passing Points",
+     "columns": [
+      "QB",
+      "RB",
+      "WR",
+      "TE",
+      "K",
+      "Def"
+     ],
+     "groups": [
+      {
+       "label": "Passing TDs",
+       "rows": [
+        {
+         "label": "0 - 9 yards",
+         "values": [
+          6,
+          12,
+          12,
+          12,
+          12,
+          null
+         ]
+        },
+        {
+         "label": "10 - 39 yards",
+         "values": [
+          9,
+          18,
+          18,
+          18,
+          18,
+          null
+         ]
+        },
+        {
+         "label": "40+ yards",
+         "values": [
+          12,
+          24,
+          24,
+          24,
+          24,
+          null
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Passing Yardage Bonuses",
+       "rows": [
+        {
+         "label": "50 yards",
+         "values": [
+          0,
+          5,
+          5,
+          5,
+          5,
+          null
+         ]
+        },
+        {
+         "label": "200 yards",
+         "values": [
+          5,
+          0,
+          0,
+          0,
+          0,
+          null
+         ]
+        },
+        {
+         "label": "250 yards",
+         "values": [
+          5,
+          0,
+          0,
+          0,
+          0,
+          null
+         ]
+        },
+        {
+         "label": "Each Additional Ten Yards",
+         "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Rushing Points",
+     "columns": [
+      "QB",
+      "RB",
+      "WR",
+      "TE",
+      "K",
+      "Def"
+     ],
+     "groups": [
+      {
+       "label": "Rushing TDs",
+       "rows": [
+        {
+         "label": "0 - 9 yards",
+         "values": [
+          12,
+          6,
+          12,
+          12,
+          12,
+          null
+         ]
+        },
+        {
+         "label": "10 - 39 yards",
+         "values": [
+          18,
+          9,
+          18,
+          18,
+          18,
+          null
+         ]
+        },
+        {
+         "label": "40+ yards",
+         "values": [
+          24,
+          12,
+          24,
+          24,
+          24,
+          null
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Rushing Yardage Bonuses",
+       "rows": [
+        {
+         "label": "50 yards",
+         "values": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          null
+         ]
+        },
+        {
+         "label": "100 yards",
+         "values": [
+          0,
+          5,
+          0,
+          0,
+          0,
+          null
+         ]
+        },
+        {
+         "label": "Each Additional Ten Yards",
+         "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Receiving Points",
+     "columns": [
+      "QB",
+      "RB",
+      "WR",
+      "TE",
+      "K",
+      "Def"
+     ],
+     "groups": [
+      {
+       "label": "Receiving TDs",
+       "rows": [
+        {
+         "label": "0 - 9 yards",
+         "values": [
+          12,
+          12,
+          6,
+          6,
+          12,
+          null
+         ]
+        },
+        {
+         "label": "10 - 39 yards",
+         "values": [
+          18,
+          18,
+          9,
+          9,
+          18,
+          null
+         ]
+        },
+        {
+         "label": "40+ yards",
+         "values": [
+          24,
+          24,
+          12,
+          12,
+          24,
+          null
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Receiving Yardage Bonuses",
+       "rows": [
+        {
+         "label": "50 yards",
+         "values": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          null
+         ]
+        },
+        {
+         "label": "100 yards",
+         "values": [
+          0,
+          0,
+          5,
+          0,
+          0,
+          null
+         ]
+        },
+        {
+         "label": "Each Additional Ten Yards",
+         "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Miscellaneous Points",
+     "columns": [
+      "QB",
+      "RB",
+      "WR",
+      "TE",
+      "K",
+      "Def"
+     ],
+     "groups": [
+      {
+       "label": null,
+       "rows": [
+        {
+         "label": "Two-Point Conversions",
+         "values": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          null
+         ]
+        },
+        {
+         "label": "Interceptions Thrown",
+         "values": [
+          -3,
+          -3,
+          -3,
+          -3,
+          -3,
+          null
+         ]
+        },
+        {
+         "label": "Fumbles Lost",
+         "values": [
+          -3,
+          -3,
+          -3,
+          -3,
+          -3,
+          null
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "8.2",
+   "chapter": "8",
+   "title": "Kicking Points",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "table",
+     "title": "Kicking Points",
+     "columns": [
+      "QB",
+      "RB",
+      "WR",
+      "TE",
+      "K",
+      "Def"
+     ],
+     "groups": [
+      {
+       "label": "Field Goals",
+       "rows": [
+        {
+         "label": "0 - 39 yards",
+         "values": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          null
+         ]
+        },
+        {
+         "label": "39 - 49 yards",
+         "values": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          null
+         ]
+        },
+        {
+         "label": "50+ yards",
+         "values": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          null
+         ]
+        },
+        {
+         "label": "PATs",
+         "values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "8.3",
+   "chapter": "8",
+   "title": "Defensive Points",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "table",
+     "title": "Defensive Points",
+     "columns": [
+      "QB",
+      "RB",
+      "WR",
+      "TE",
+      "K",
+      "Def"
+     ],
+     "groups": [
+      {
+       "label": null,
+       "rows": [
+        {
+         "label": "Safeties",
+         "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          6
+         ]
+        },
+        {
+         "label": "Non-kickreturn Touchdowns",
+         "values": [
+          4,
+          4,
+          4,
+          4,
+          null,
+          4
+         ]
+        },
+        {
+         "label": "Kickreturn TD 0 - 39 yards",
+         "values": [
+          6,
+          6,
+          6,
+          6,
+          null,
+          4
+         ]
+        },
+        {
+         "label": "Kickreturn TD 39 - 49 yards",
+         "values": [
+          9,
+          9,
+          9,
+          9,
+          null,
+          4
+         ]
+        },
+        {
+         "label": "Kickreturn TD 50+ yards",
+         "values": [
+          12,
+          12,
+          12,
+          12,
+          null,
+          4
+         ]
+        },
+        {
+         "label": "Turnovers",
+         "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          2
+         ]
+        },
+        {
+         "label": "Sacks",
+         "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          1
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Offensive Points Allowed",
+       "rows": [
+        {
+         "label": "0",
+         "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          10
+         ]
+        },
+        {
+         "label": "2 - 14",
+         "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          3
+         ]
+        },
+        {
+         "label": "15 - 24",
+         "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+         ]
+        },
+        {
+         "label": "25 - 34",
+         "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          -3
+         ]
+        },
+        {
+         "label": "35+",
+         "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          -5
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "9.0",
+   "chapter": "9",
+   "title": "League Governance",
+   "level": 1,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "League stability is the primary goal. The following framework will govern PDL."
+    }
+   ]
+  },
+  {
+   "id": "9.1",
+   "chapter": "9",
+   "title": "Commissioner",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The Commissioner's role is to act at all times in the best interests of the League and is vested with the following powers:"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "text": "Interpret these rules as he sees just and fit."
+      },
+      {
+       "text": "Settle all position eligibility questions."
+      },
+      {
+       "text": "Approve team names and new owners."
+      },
+      {
+       "text": "Preside over the draft and settle draft disputes."
+      },
+      {
+       "text": "Distribute free agents through the waiver process."
+      },
+      {
+       "text": "Provide timely weekly scoring results."
+      },
+      {
+       "text": "Maintain the integrity of the league and its owners."
+      },
+      {
+       "text": "Approve all trades and transactions."
+      },
+      {
+       "text": "Raise a trade for a veto vote by the Governing Board."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "9.2",
+   "chapter": "9",
+   "title": "Governing Board",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Five franchise owners will function as the Governing Board (GB), in which all board members will have an equal vote. The GB reserves the right to veto any decision made by the Commissioner with a majority vote (with at least a majority of the board members casting a vote). Each member of the GB will be charged with the responsibility of acting in the best interests of the League. The 5 Governing Board members will consist of the past 5 PDL champions. In the case of a two-peat (or a three-peat, etc) champion the most recent non-duplicate champion will fill the duplicate GB position"
+    }
+   ]
+  },
+  {
+   "id": "9.3",
+   "chapter": "9",
+   "title": "Committee of the Whole",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The league owners will function as the Committee of the Whole (CW), in which all league owners will each have an equal vote. The CW votes on matters concerning league maintenance, where as the GB is concerned with the day to day operation of the league. Each member of the CW will be charged with the responsibility of acting in the best interests of the League."
+    }
+   ]
+  },
+  {
+   "id": "10.0",
+   "chapter": "10",
+   "title": "Extraordinary Situations",
+   "level": 1,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The following are serious situations and should be treated as such:"
+    }
+   ]
+  },
+  {
+   "id": "10.1",
+   "chapter": "10",
+   "title": "Appealing a Commissioner's Decision (a.k.a. Jimmy & Terry clause)",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Only one appeal per owner will be allowed per season, no exceptions. Once an owner appeals a decision, all further Commissioner decisions involving that owner will be final with no appeal possible. Appealing the decision of the Commissioner is a very serious action and is expected to be a rare occurrence. The process for appeal is as follows:"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      {
+       "n": 1,
+       "text": "Owner notifies the Commissioner that he is appealing the decision."
+      },
+      {
+       "n": 2,
+       "text": "Owner who is appealing the decision notifies the Governing Board."
+      },
+      {
+       "n": 3,
+       "text": "Owner and Commissioner present their positions to the Governing Board."
+      },
+      {
+       "n": 4,
+       "text": "Governing Board members discuss the issue and deliver a final ruling."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "10.2",
+   "chapter": "10",
+   "title": "Amendments to the Rules",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Amendments to the Rules are allowed in the off-season. Thus, the amendment can NEVER be made during a season. By definition, the season begins at the start of the yearly draft. Amendments to the rules process:"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      {
+       "n": 1,
+       "text": "A league owner or the Commissioner may recommend an amendment."
+      },
+      {
+       "n": 2,
+       "text": "All votes occur at the annual Summer Meetings."
+      },
+      {
+       "n": 3,
+       "text": "If a majority of the attending Committee of the Whole members vote to adopt the amendment the amendment passes. Absentee votes are allowed, if prearranged with the commissioner."
+      },
+      {
+       "n": 4,
+       "text": "If approved, the amendment becomes a permanent article of the Rules and assumes equal status with all the other articles."
+      },
+      {
+       "n": 5,
+       "text": "The initial rules will be amended by the Commissioner as he sees fit."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "10.3",
+   "chapter": "10",
+   "title": "Reprimanding an Owner",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "If an owner is considered by the Commissioner to be conducting himself in a manner not in the best interest of the league, this path is followed:"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      {
+       "n": 1,
+       "text": "The Commissioner issues a warning."
+      },
+      {
+       "n": 2,
+       "text": "If a second warning is issued, the Commissioner may recommend to the Committee of the Whole that the owner be removed from the league. See section 10.4 below."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "10.4",
+   "chapter": "10",
+   "title": "Removing an Owner",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "This is an extremely serious consideration, one that the league will seek to avoid at all costs. If it arises, this process will be followed:"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      {
+       "n": 1,
+       "text": "Three league owners together or the Commissioner may recommend that an owner be removed."
+      },
+      {
+       "n": 2,
+       "text": "If two-thirds of the Committee of the Whole vote to remove the owner (with at least two-thirds of all owners casting a vote), the owner’s entry fee is returned and the owner is removed from the league."
+      },
+      {
+       "n": 3,
+       "text": "The Commissioner assumes control of the team and a replacement owner is found as soon as possible. The new owner will inherit the team roster and draft position for the coming season. If a new owner is not found, and the ownerless team wins the championship, then the prize money is returned to next year’s prize pool."
+      },
+      {
+       "n": 4,
+       "text": "Once a replacement owner is needed, anyone in the league can propose a new owner to the league. The Committee of the Whole will vote on whether or not they want that owner in the league. A simple majority vote by CW in favor of the proposed owner, along with the Commissioner's approval, will grant that person ownership of the franchise. The new owner must also pay the yearly entry fee."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "10.5",
+   "chapter": "10",
+   "title": "Trade Vetoes",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The Commissioner reserves the right to recommend a trade veto vote. The Commissioner will only consider a veto vote in extreme cases where the integrity of the league is in jeopardy. If such a situation arises the following process will be followed:"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      {
+       "n": 1,
+       "text": "The Commissioner can only suggest a trade for veto within the first 2-days of the trade's league announcement."
+      },
+      {
+       "n": 2,
+       "text": "Commissioner notifies Governing Board that a veto vote is requested."
+      },
+      {
+       "n": 3,
+       "text": "The Governing Board is to consider a trade for veto only if it is felt that an owner involved in the trade is not acting in the best interest of the league."
+      },
+      {
+       "n": 4,
+       "text": "If the Governing Board fails to deliver a vote within 3-days of the Commissioner raising a trade for a veto vote then the trade is allowed by default."
+      },
+      {
+       "n": 5,
+       "text": "If two-thirds of the Governing Board vote to veto the trade, then the Commissioner will disallow the trade."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "10.6",
+   "chapter": "10",
+   "title": "Realignment",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "If realignment becomes necessary it will occur in the off-season. By definition, the season begins at the start of the yearly draft. Realignment process:"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      {
+       "n": 1,
+       "text": "A league owner or the Commissioner may recommend realignment."
+      },
+      {
+       "n": 2,
+       "text": "All votes occur at the annual Summer Meetings."
+      },
+      {
+       "n": 3,
+       "text": "If a majority of the attending Committee of the Whole members vote to realign (absentee votes are allowed), realignment will occur."
+      },
+      {
+       "n": 4,
+       "text": "If approved the Commissioner will be responsible for developing a realignment plan that is acceptable to a majority of the Committee of the Whole."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "10.7",
+   "chapter": "10",
+   "title": "Expansion",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "If the need arises to expand the league, then suitable rules will be developed by the commissioner and submitted to the Committee of the Whole for majority approval."
+    }
+   ]
+  },
+  {
+   "id": "10.8",
+   "chapter": "10",
+   "title": "Tanking",
+   "level": 2,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Tanking is a very serious violation that threatens the integrity of the league. Tanking will be handled as follows:"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      {
+       "n": 1,
+       "text": "Any owner may bring a suspect situation to the attention of the commissioner."
+      },
+      {
+       "n": 2,
+       "text": "The commissioner will consider the complaint to decide if the situation warrants further investigation by the governing board. (The commissioner will take in to account all conditions. such as player matchups, win/loss records, an owner’s position in regards to the draft, etc)."
+      },
+      {
+       "n": 3,
+       "text": "The governing board will hear the facts of the situation and decide whether or not the infracting owner is indeed tanking."
+      },
+      {
+       "n": 4,
+       "text": "An owner deemed to be tanking by the governing board will automatically have his 1st round draft pick (of the next draft) as the last pick. If a 2nd infraction occurs the 2nd round draft pick will be moved to the last pick of the 2nd round,... etc"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

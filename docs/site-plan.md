@@ -49,19 +49,22 @@ fills these.
 
 ### Steps
 
-1. **Settle the baseline edition.** Diff the 2004, 2006 and older editions
+Steps 1 to 4 are done. What they found, and how to re-run them, is in
+[rulebook/README.md](rulebook/README.md).
+
+1. **Settle the baseline edition.** *(Done: the 2006 edition.)* Diff the 2004, 2006 and older editions
    section by section, and check which of the changes recorded as passed (2002
    to 2006) each one already contains. The newest edition that contains them
    all is the baseline. The expectation is the 2006 PDF.
-2. **Turn the baseline into data.** The book is numbered (1.0 Introduction, 1.1
+2. **Turn the baseline into data.** *(Done: `rules/baseline.json`, 52 sections.)* The book is numbered (1.0 Introduction, 1.1
    Purpose, and on through about 70 sections, around 4,100 words). Store it as
    `rules/baseline.json`, one record per section with its number, title and
    text, so every page is generated from it rather than hand-edited.
-3. **Build the change ledger from `changes.html`.** One record per proposal:
+3. **Build the change ledger from `changes.html`.** *(Done: `rules/ledger.json`, with failed proposals kept in `rules/sources/`.)* One record per proposal:
    meeting year, the proposal as written, outcome (passed, failed, tabled or
    unknown), the vote where recorded, the sections it touches, the season it
    took effect, and its source.
-4. **Fill the gaps from email and Drive.** Each record added this way cites its
+4. **Fill the gaps from email and Drive.** *(Done for email, polls and the board.)* Each record added this way cites its
    source by date and subject line, never by sender, since the site is public.
 5. **Layer the passed changes onto the baseline, in order.** The output is the
    rule book as of any season. A changed section shows when it changed and
@@ -241,7 +244,7 @@ These go to the league to confirm, rather than further searching.
 
 ## Decisions needed
 
-1. The baseline edition. The recommendation is the 2006 PDF, confirmed by step 1.
+1. ~~The baseline edition.~~ Settled: the 2006 edition (the Word file and the PDF are the same text).
 2. Whether the rule book should come before or after the season pages. The
    recommendation is first, since it is the one thing that cannot be rebuilt
    from data.

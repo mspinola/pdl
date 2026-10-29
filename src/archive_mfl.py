@@ -202,7 +202,8 @@ def capture_rule_books(force=False):
         info = {"source": url, "source_bytes": len(blob),
                 "source_sha256": hashlib.sha256(blob).hexdigest()}
         if os.path.exists(dest) and os.path.getsize(dest) > 200 and not force:
-            provenance[dest_name] = {**info, **_dates(blob, rel)}
+            kept = open(dest, encoding="utf-8", errors="replace").read()
+            provenance[dest_name] = {**info, **_dates(blob, rel), "words": len(kept.split())}
             continue
         with tempfile.TemporaryDirectory() as tmp:
             src = os.path.join(tmp, os.path.basename(rel))

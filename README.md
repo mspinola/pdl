@@ -98,6 +98,12 @@ python3 src/scrub_owners.py             # scrub, then check its own work
 python3 src/check_no_owner_names.py     # run before every commit
 ```
 
+The check looks for the shapes an owner reference takes, so it names nobody.
+A bare first name in prose ("Thanks <name>!") has no shape, so when `private/` is
+checked out the check also reads the owners' names from `private/owners.json` and
+looks for them in prose and the archived pages. That list stays in the private
+repository, as do the name forms `scrub_owners.py` verifies against.
+
 `scrub_owners.py` holds **no names of its own**. It derives the owner-to-team
 mapping at run time from the owners list on the league history page, uses it to
 replace owner references elsewhere with the team name, and scrubs that page
@@ -160,15 +166,27 @@ text. Removing them would also mean fixing the links on
 That site was scrubbed by committing the new versions forward, so its git
 history still holds the originals. Deliberate, not an oversight.
 
-Both scripts guard the same hazard, and it is not theoretical. One owner shares
-a surname with Keenan McCardell, Keenan Allen and Keenan Reynolds, so that
-surname comes out only as part of a full name or beside an existing redaction.
+Both scripts guard the same hazard, and it is not theoretical. One owner's surname
+is also the first name of several NFL players who appear in the archive, so
+that surname comes out only as part of a full name or beside an existing
+redaction.
 An earlier pass also read the NFL abbreviations "Phi" and "Sea" as shortened
 owner first names and would have rewritten all 2,856 of them, which is why a
 prefix match now needs four characters.
 
 `raw/` is gitignored. It is the superseded working cache, and it once held
 unscrubbed copies of the legacy pages.
+
+## The rule book
+
+The 2006 rule book as data, and every change since, each tied to its evidence.
+See [docs/rulebook/README.md](docs/rulebook/README.md).
+
+```bash
+python3 src/rulebook_editions.py   # which edition is the baseline
+python3 src/rulebook_baseline.py   # rules/baseline.json, checked against the PDF
+python3 src/rulebook_ledger.py     # rules/ledger.json, checked against rules/sources/
+```
 
 ## Pipeline
 

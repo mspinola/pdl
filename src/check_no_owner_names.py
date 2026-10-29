@@ -13,6 +13,12 @@ away:
 It also checks that the MyFantasyLeague half carries no owner or email field,
 and that the colliding NFL player names a careless scrub would have eaten are
 still present.
+
+Shapes cannot see a bare first name in running prose ("Thanks <name>!"). When
+the private companion repository is checked out at private/, its owners.json
+supplies the owners' names and this adds that check too, for prose files and the
+archived legacy pages. Player names in "Surname, First" or "First Surname" form
+are skipped, since owners share first names with NFL players.
 """
 import json, glob, html, os, re, sys
 
@@ -61,12 +67,45 @@ def tracked_files():
     return sorted(set(out))
 
 
+# where a bare first name would be prose rather than a player list
+PROSE = re.compile(r"^(mfl_archive/legacy/.*\.html?|.*\.md|docs/.*|rules/.*|src/.*\.py)$")
+
+
+def private_name_check():
+    """Bare owner names in prose, using the private repository's list."""
+    path = f"{BASE}/private/owners.json"
+    if not os.path.exists(path):
+        print("private/owners.json not found: the bare-name check is skipped")
+        return []
+    names = json.load(open(path))
+    parts = {w for o in names["owners"] for w in re.split(r"[\s/&]+", o)
+             if len(w) >= 3 and w[0].isupper()} | set(names.get("later_first_names", []))
+    alt = "|".join(map(re.escape, sorted(parts)))
+    # not "Surname, First", "First Surname", "D Name" or "Name, D" (player forms)
+    bare = re.compile(rf"(?<![A-Za-z],)(?<![A-Za-z], )(?<!\b[A-Z] )(?<!\b[A-Z]\. )\b(?:{alt})\b"
+                      r"(?!\s+[A-Z][a-z]+)(?!\s*[A-Z]\.)(?!\s*,\s*[A-Z])(?!-)(?!\s+[A-Z]\s)")
+    allowed = re.compile("|".join(map(re.escape, names.get("allowed_phrases", []))) or r"(?!)")
+    found = []
+    for p in tracked_files():
+        rel = os.path.relpath(p, BASE)
+        if not PROSE.match(rel):
+            continue
+        body = open(p, encoding="utf-8", errors="replace").read()
+        if rel.endswith((".html", ".htm")):
+            body = html.unescape(re.sub(r"<[^>]+>", " ", body))
+        body = allowed.sub(" ", re.sub(r"\s+", " ", body))
+        n = len(bare.findall(body))
+        if n:
+            found.append(f"{rel}: {n} bare owner name{'s' if n > 1 else ''} in prose")
+    return found
+
+
 def main():
     problems = []
     checked = 0
     for p in tracked_files():
         rel = os.path.relpath(p, BASE)
-        if rel.startswith("src/check_no_owner_names") or rel.startswith("src/scrub_owners"):
+        if rel.startswith("src/check_no_owner_names"):
             continue
         try:
             body = open(p, encoding="utf-8", errors="replace").read()
@@ -96,6 +135,7 @@ def main():
     joined = html.unescape(re.sub(r"<[^>]+>", " ", joined))
     lost = [c for c in CANARIES if c not in joined]
 
+    problems += private_name_check()
     print(f"checked {checked} files")
     print(f"franchise record keys: {sorted(franchise_keys)}")
     print(f"  owner-ish keys: {leaky or 'none'}")
