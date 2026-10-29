@@ -59,6 +59,17 @@ MFL rate-limits bursts, and the capture waits as long as MFL asks, so a full
 season's weeks take a few minutes.
 A plain run only fills in what is missing, and `--force` re-captures all of it.
 
+Then save the franchise logos and icons, which MFL keeps only as addresses on
+its own servers (in 2026 every image uploaded in 2015 stopped loading, and so did
+one of MFL's stock helmets):
+
+```bash
+python3 src/save_logos.py    # new images into private/logos/, never overwriting a saved one
+```
+
+Commit `private/` afterwards (step 8). A custom logo can show anything, so the
+copies stay in the private repository.
+
 ## 2. Capture the message board
 
 ```bash
