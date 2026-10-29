@@ -271,12 +271,12 @@ These go to the league to confirm, rather than further searching.
 - [ ] Commit `retainment-values-2025.html` to the legacy site
 - [x] Archive the rules record: `changes.html`, `changes2002.html`, the 2004
       HTML edition, and text extracted from the three Word and PDF editions
-- [ ] Site skeleton and build script
+- [x] Site skeleton and build script (`site/build.py`, published by `.github/workflows/pages.yml`)
 - [ ] Moose easter eggs: `site/eggs.json`, antler hover, rivalry footnotes,
       title-season watermark, 2017 tooltip, 404 page, console moose ("Moose
       are loose!"), `/moose` museum, Moose mode
 - [x] Draw the new running moose (`site/assets/manic-moose.svg`)
-- [ ] Season pages
-- [ ] Franchise pages
+- [x] Season pages: standings with all-play and luck, playoffs, every week's scores, the draft's first round, trades, pickups, and that summer's rule changes
+- [x] Franchise pages: record, titles, name history, how it is run (trades, waiver wire, lineups, luck, draft), season by season, head to head
 - [ ] Trades, head to head, drafts, records
 - [ ] Legacy-site notice at launch

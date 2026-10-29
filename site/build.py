@@ -12,51 +12,24 @@ The text comes from rules/baseline.json with rules/amendments.json applied by
 src/rulebook_build.py, so nothing here is written by hand. The build refuses to
 run if an amendment fails to land or the ledger does not check.
 """
-import html, json, os, re, shutil, sys
+import json, os, re, shutil, sys
 from collections import defaultdict
 
 SITE = os.path.dirname(os.path.abspath(__file__))
 BASE = os.path.dirname(SITE)
 sys.path.insert(0, f"{BASE}/src")
+sys.path.insert(0, SITE)
 import rulebook_build as rb
 import rulebook_ledger as rl
 import rulebook_mfl_check as mc
+from frame import E, page
+import seasons_pages
+import franchise_pages
 
 DIST = f"{SITE}/dist"
-E = html.escape
 
 STATUS_LABEL = {"adopted": "Adopted", "in practice": "In practice", "one season": "One season", "open": "Unconfirmed"}
 NOTE_LABEL = {"one season": "{season} only", "open": "Unconfirmed", "in practice": "In practice"}
-
-
-# ---------------------------------------------------------------- page frame
-
-def page(title, body, depth=1, description=""):
-    up = "../" * depth
-    return f"""<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{E(title)}</title>
-<meta name="description" content="{E(description)}">
-<link rel="stylesheet" href="{up}assets/site.css">
-<script>addEventListener("beforeprint", () => document.querySelectorAll("details").forEach(d => d.open = true));</script>
-</head>
-<body>
-<header class="masthead">
-  <a class="brand" href="{up}index.html">Premiere Dynasty League</a>
-  <nav><a href="{up}rules/index.html">Rule book</a><a href="{up}rules/changes.html">Changes</a></nav>
-</header>
-<main>
-{body}
-</main>
-<footer class="foot">Built from the league's own records: the 2006 rule book, the rule-change page,
-the meeting emails, the league polls and the MyFantasyLeague archive.
-<a href="https://github.com/mspinola/pdl">Sources and code</a>.</footer>
-</body>
-</html>
-"""
 
 
 # ---------------------------------------------------------------- the book
@@ -305,6 +278,28 @@ def render_changes(seasons):
                 f'{"".join(body)}{check}</div>', description="Every PDL rule change since 2002, with its sources.")
 
 
+# ---------------------------------------------------------------- home
+
+def home():
+    import league_data as d
+    from frame import slug
+    last = max(d.champions())
+    champ = d.champions()[last]
+    return (f"<div class='home'><h1>Premiere Dynasty League</h1><p class='lede'>A dynasty fantasy football league "
+            f"since 2000. Sixteen franchises, the same league ever since, and one change of owner.</p>"
+            f"<div class='banner'><span class='label'>{last} champion</span> <strong><a href='franchises/{slug(champ)}.html'>"
+            f"{E(champ)}</a></strong> <a class='meta' href='seasons/{last}.html'>the {last} season</a></div>"
+            "<ul class='doors'>"
+            "<li><a href='seasons/index.html'>Seasons</a><span>Every season since 2000: standings, playoffs, the draft, "
+            "trades, and the rules adopted that summer</span></li>"
+            "<li><a href='franchises/index.html'>Franchises</a><span>Each team's record, titles, rivalries, and how it is "
+            "run: trades, the waiver wire, lineups, luck and the draft</span></li>"
+            "<li><a href='rules/index.html'>The rule book</a><span>The rules in force now, and as of any season since "
+            "2006</span></li><li><a href='rules/changes.html'>Every rule change</a><span>Each summer meeting since 2002, "
+            "with its sources</span></li><li><a href='https://mspinola.github.io/mspinola/'>The original site</a>"
+            "<span>Seasons 2000 to 2020, as they were kept at the time</span></li></ul></div>")
+
+
 # ---------------------------------------------------------------- build
 
 def main():
@@ -327,17 +322,13 @@ def main():
         f.write(render_book(last, current=True, seasons=seasons))
     with open(f"{DIST}/rules/changes.html", "w") as f:
         f.write(render_changes(seasons))
+    n_seasons = seasons_pages.build(DIST)
+    n_franchises = franchise_pages.build(DIST)
     with open(f"{DIST}/index.html", "w") as f:
         f.write(page("Premiere Dynasty League",
-                     "<div class='home'><h1>Premiere Dynasty League</h1><p class='lede'>A dynasty fantasy football league "
-                     "since 2000. The new site is being built from the league's archive, starting with the rule book.</p>"
-                     "<ul class='doors'><li><a href='rules/index.html'>The rule book</a><span>The rules in force now, "
-                     "and as of any season since 2006</span></li><li><a href='rules/changes.html'>Every rule change</a>"
-                     "<span>Each summer meeting since 2002, with its sources</span></li><li>"
-                     "<a href='https://mspinola.github.io/mspinola/'>The original site</a><span>Seasons 2000 to 2020"
-                     "</span></li></ul></div>", depth=0, description="The Premiere Dynasty League."))
+                     home(), depth=0, description="The Premiere Dynasty League."))
     n = len(os.listdir(f"{DIST}/rules"))
-    print(f"built site/dist: {n} rule book pages, seasons {seasons[0]} to {seasons[-1]}")
+    print(f"built site/dist: {n} rule book pages, {n_seasons} season pages, {n_franchises} franchise pages")
     return 0
 
 

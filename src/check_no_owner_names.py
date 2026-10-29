@@ -84,7 +84,7 @@ def private_name_check():
     parts |= {w for n in names.get("full_names", []) for w in n.split() if len(w) >= 3}
     alt = "|".join(map(re.escape, sorted(parts)))
     # not "Surname, First", "First Surname", "D Name" or "Name, D" (player forms)
-    bare = re.compile(rf"(?<![A-Za-z],)(?<![A-Za-z], )(?<!\b[A-Z] )(?<!\b[A-Z]\. )\b(?:{alt})\b"
+    bare = re.compile(rf"(?<![A-Za-z],)(?<![A-Za-z], )(?<![A-Za-z]\., )(?<!\b[A-Z] )(?<!\b[A-Z]\. )\b(?:{alt})\b"
                       r"(?!\s+[A-Z][a-z]+)(?!\s*[A-Z]\.)(?!\s*,\s*[A-Z])(?!-)(?!\s+[A-Z]\s)")
     allowed = re.compile("|".join(map(re.escape, names.get("allowed_phrases", []))) or r"(?!)")
     found = []

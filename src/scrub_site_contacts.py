@@ -55,7 +55,7 @@ def patterns(n):
              if len(w) >= 3 and w[0].isupper()} | set(n.get("later_first_names", []))
     alt = "|".join(map(re.escape, sorted(parts)))
     # the same player-form exclusions as check_no_owner_names.py
-    bare = re.compile(rf"(?<![A-Za-z],)(?<![A-Za-z], )(?<!\b[A-Z] )(?<!\b[A-Z]\. )\b(?:{alt})\b"
+    bare = re.compile(rf"(?<![A-Za-z],)(?<![A-Za-z], )(?<![A-Za-z]\., )(?<!\b[A-Z] )(?<!\b[A-Z]\. )\b(?:{alt})\b"
                       r"(?!\s+[A-Z][a-z]+)(?!\s*[A-Z]\.)(?!\s*,\s*[A-Z])(?!-)(?!\s+[A-Z]\s)")
     labels = sorted(parts | set(n["paren_labels"]) | set(n["dash_annotations"]), key=len, reverse=True)
     paren = re.compile(rf"((?:{TEAMS})\s*)\(\s*(?:{'|'.join(map(re.escape, labels))})(?:\s+[A-Z])?\s*(?=[)/])")

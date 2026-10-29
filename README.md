@@ -203,9 +203,17 @@ and scores, through `src/weekly.py`. Value is measured against the average
 starter at the player's position that season, so positions and the eras either
 side of the 2018 scoring change compare.
 
+## The site
+
+<https://mspinola.github.io/pdl/>, rebuilt on every push by
+`.github/workflows/pages.yml`: every season since 2000, every franchise, and the
+rule book. `python3 site/build.py` builds it into `site/dist/`. The page modules
+are `site/seasons_pages.py` and `site/franchise_pages.py`, reading what the
+pipeline already built through `site/league_data.py`.
+
 ## The rule book
 
-Online at <https://mspinola.github.io/pdl/>, rebuilt on every push.
+Online at <https://mspinola.github.io/pdl/rules/>.
 
 The 2006 rule book as data, and every change since, each tied to its evidence.
 See [docs/rulebook/README.md](docs/rulebook/README.md).

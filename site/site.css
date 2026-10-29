@@ -24,7 +24,7 @@ a { color: var(--accent); text-underline-offset: 2px; }
 .masthead { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;
   padding: .8rem 16px; border-bottom: 1px solid var(--rule); font-family: var(--sans); font-size: .9rem; }
 .brand { font-weight: 650; color: var(--ink); text-decoration: none; letter-spacing: .01em; }
-.masthead nav { display: flex; gap: 1.2rem; }
+.masthead nav { display: flex; flex-wrap: wrap; gap: .3rem 1.2rem; }
 .masthead nav a { color: var(--ink-2); text-decoration: none; }
 .masthead nav a:hover { color: var(--accent); }
 main { max-width: 72rem; margin: 0 auto; padding: 0 16px 4rem; }
@@ -111,4 +111,46 @@ table.scoring { border-collapse: collapse; font: .86rem/1.35 var(--sans); width:
   .changed { background: none; border: 1px solid #999; color: #000; }
   .history summary { list-style: none; }
   a { color: #000; text-decoration: none; }
+}
+
+/* data pages: seasons and franchises */
+.season, .franchise { max-width: 56rem; }
+.pn { display: flex; gap: 1rem; font: .88rem var(--sans); margin: -.2rem 0 1rem; }
+.banner { display: flex; flex-wrap: wrap; align-items: baseline; gap: .3rem .7rem; background: var(--accent-soft);
+  border-radius: 8px; padding: .7rem 1rem; margin: 0 0 1.4rem; }
+.banner .label { font: 600 .72rem var(--sans); text-transform: uppercase; letter-spacing: .07em; color: var(--accent); }
+.banner strong { font-size: 1.15rem; }
+.banner strong a { color: var(--ink); text-decoration: none; }
+.season h2, .franchise h2 { font-size: 1.3rem; margin: 2rem 0 .4rem; padding-top: .9rem; border-top: 1px solid var(--rule); font-weight: 600; }
+.season h3 { font-size: 1.02rem; margin: 1.1rem 0 .2rem; font-weight: 600; }
+.season h4 { font: 600 .85rem var(--sans); margin: .8rem 0 .2rem; color: var(--ink-2); }
+.week { font: .78rem var(--sans); color: var(--ink-3); font-weight: 400; margin-left: .3rem; }
+.meta { font: .82rem/1.5 var(--sans); color: var(--ink-3); }
+table.data { border-collapse: collapse; width: 100%; font: .86rem/1.35 var(--sans); background: var(--surface); }
+.data th, .data td { padding: .38rem .55rem; border-bottom: 1px solid var(--rule); text-align: right; white-space: nowrap; }
+.data th { font-weight: 650; color: var(--ink-2); border-bottom: 2px solid var(--ink-3); }
+.data .l { text-align: left; }
+.data tr.champ td { background: var(--accent-soft); }
+.data a { color: var(--ink); text-decoration-color: var(--rule); }
+.data a:hover { color: var(--accent); }
+ul.games { list-style: none; padding: 0; margin: .3rem 0 .6rem; font: .9rem/1.6 var(--sans); }
+ul.games li { display: flex; flex-wrap: wrap; gap: .2rem .5rem; }
+ul.games .won { font-weight: 650; }
+ul.games .vs { color: var(--ink-3); }
+ul.games a { color: inherit; text-decoration-color: var(--rule); }
+details.week { border-bottom: 1px solid var(--rule); padding: .35rem 0; }
+details.week summary { cursor: pointer; font: 600 .9rem var(--sans); }
+details summary { cursor: pointer; }
+ul.trades, ul.changes { padding-left: 1.1rem; }
+ul.trades li, ul.changes li { margin: .45rem 0; }
+.facts { display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: .6rem; margin: .4rem 0 1rem; }
+.fact { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: .6rem .8rem; }
+.fact .k { display: block; font: 600 .72rem var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); }
+.fact .v { display: block; font: .95rem/1.45 var(--sans); margin-top: .15rem; }
+.names { display: flex; flex-wrap: wrap; gap: .4rem; }
+.chip { font: .85rem var(--sans); background: var(--surface); border: 1px solid var(--rule); border-radius: 99px; padding: .15rem .6rem; }
+code { font: .85em ui-monospace, SFMono-Regular, Menlo, monospace; }
+@media print {
+  .pn { display: none; }
+  details.week { break-inside: avoid; }
 }
