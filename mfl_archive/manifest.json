@@ -1,6 +1,6 @@
 {
  "league": "PDL",
- "captured": "2026-10-29T22:45:34+00:00",
+ "captured": "2026-10-29T22:50:24+00:00",
  "source": "MyFantasyLeague export API",
  "note": "Responses stored verbatim. Everything derived is rebuilt from these files. Not available without a commissioner login, and therefore absent: message board, calendar, polls.",
  "seasons": {
@@ -4495,12 +4495,12 @@
      "sha256": "6af56a8fe33eee87ce19100392a06284cc3a24c3644e215c3adcaab82284937f"
     },
     "league.json": {
-     "bytes": 7936,
-     "sha256": "ffcf0a3fb85f8e771191d1438c02fcbf4fee6e231ad81bb20e30baf24897cef0"
+     "bytes": 7476,
+     "sha256": "be103028dc884d84620ab0a574e3b2f3256a74a9ed08174edbe569d58c59fed7"
     },
     "player_scores.json": {
      "bytes": 24457,
-     "sha256": "8c29152e26e18373d3413c25ebdc65a6d38fda91bb87e9dc9a77382794485d1b"
+     "sha256": "008d2129e8ff052142353e2b0dd0376ea530dbbf7a65587fd67098088ca16ee9"
     },
     "players.json": {
      "bytes": 189367,
@@ -4519,24 +4519,24 @@
      "sha256": "6a29a30cad514118e396cb533c3a92bbaee759d4a3d72280125b5b3057d7e39d"
     },
     "rosters.json": {
-     "bytes": 12988,
-     "sha256": "b285535ecae644344ad42fe22c30f749d0f3edb6ea236d53c12ed163e653fad7"
+     "bytes": 11620,
+     "sha256": "77b43677be0b1fd7e8552ad56d5ea9cc8568e189cfe27d4e527d985fbed7ad30"
     },
     "rules.json": {
      "bytes": 8741,
      "sha256": "51acba340dd6bf749d73e9a930d9c217099ead6d448b165666d504ab94254c13"
     },
     "schedule.json": {
-     "bytes": 16653,
-     "sha256": "1800d14de869e707568ddde1a49137556befce34f016960e0b81a27365b850f7"
+     "bytes": 14694,
+     "sha256": "ff65c58cf12efe383a4cea93effe08a70ff644e8401fb6f242c30ff2b7455b5d"
     },
     "standings.json": {
      "bytes": 2738,
      "sha256": "670f84cd7fbbd98f8aee88524a711af95739455f5955fa06f3128306d96f6268"
     },
     "transactions.json": {
-     "bytes": 25878,
-     "sha256": "58422d7046332b3bf90f42816d0e1bd707e80a06e7fb0471cded7501f020ef12"
+     "bytes": 26354,
+     "sha256": "6699eb7252040d02ab9d5f844e185fcd379091acf07e03eeb3301519f223fb0d"
     },
     "transactions_trade.json": {
      "bytes": 5068,
@@ -4781,6 +4781,6 @@
    }
   }
  },
- "total_bytes": 29115504,
+ "total_bytes": 29112193,
  "total_files": 1157
 }
