@@ -74,9 +74,9 @@
       <ellipse cx="360" cy="134" rx="6" ry="4.5" fill="#ff3b22"/>
       <circle cx="361" cy="134" r="2" fill="#1a0000"/>
       <path d="M344 122 Q360 120 376 132" stroke="#0c0704" stroke-width="6" stroke-linecap="round" fill="none"/>
-      <!-- palmate antlers, swept forward and wide -->
-      <path class="bone" d="M326 112 Q300 92 270 86 Q262 70 248 62 Q254 76 250 84 Q240 72 226 66 Q234 82 232 92 Q220 86 210 86 Q228 104 262 110 Q298 118 326 118Z"/>
-      <path class="bone" d="M340 106 Q352 76 380 58 Q382 42 394 30 Q392 48 398 56 Q406 42 420 34 Q414 52 420 62 Q432 52 446 50 Q424 80 392 96 Q366 108 344 112Z"/>
+      <!-- palmate antlers rooted on top of the skull, palm cupped upward -->
+      <path class="bone" d="M334 112 Q324 100 312 96 Q300 90 296 78 Q304 82 308 80 Q302 72 304 62 Q310 70 316 70 Q314 60 320 52 Q324 62 330 64 Q332 56 340 50 Q340 62 344 68 Q338 84 336 98Z" opacity=".75"/>
+      <path class="bone" d="M344 110 Q348 96 356 88 Q364 78 380 76 Q376 68 378 58 Q384 66 390 66 Q392 56 400 50 Q400 62 404 66 Q410 58 418 56 Q414 68 416 74 Q404 88 384 94 Q364 100 352 112Z"/>
       <!-- steam -->
       <ellipse class="steam" cx="438" cy="184" rx="11" ry="6"/>
       <ellipse class="steam st2" cx="436" cy="190" rx="8" ry="5"/>
