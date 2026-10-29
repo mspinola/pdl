@@ -1,0 +1,65 @@
+3046 games, 2000-2026
+  wins 3029 = losses 3029, ties 34: ok
+
+datasets:
+  team_records.csv: 17 rows, 1.2 KB
+  head_to_head.csv: 136 rows, 7.6 KB
+  champions.csv: 26 rows, 0.7 KB
+  season_scoring.csv: 27 rows, 0.4 KB
+
+team                      G    W   L   T   win%  pts idx  titles
+Manic Moose             397  250 147   0  0.630    115.2       3
+Karpet Munchers         398  236 159   3  0.597    108.4       5
+Otters                  393  232 160   1  0.592    109.3       3
+Ho Train                385  217 165   3  0.568    108.5       3
+Beers                   367  190 174   3  0.522     99.6       2
+Tally Wackers           384  198 186   0  0.516    100.0       0
+Da Funk                 384  189 189   6  0.500     96.8       0
+Blitzkrieg              381  184 195   2  0.486     97.8       2
+Iron City Pounders      371  176 193   2  0.477     98.3       1
+Texas Nashvillians      381  174 205   2  0.459     97.4       1
+F-Jackie                388  176 209   3  0.457    100.7       2
+Scooter's Boozers       374  169 204   1  0.453     95.3       0
+Couchfire               132   59  73   0  0.447     95.8       1
+OakalDoakals            365  160 204   1  0.440     90.5       1
+Dunbar Dogs             371  159 208   4  0.434     94.3       1
+Carter's Commandos      380  164 216   0  0.432     94.5       1
+Bunchalosers            241   96 142   3  0.405     88.4       0
+
+most lopsided head-to-head, 12+ games:
+  Otters leads Scooter's Boozers 17-4  (81% of 21)
+  Otters leads Da Funk 11-3  (79% of 14)
+  Karpet Munchers leads Bunchalosers 10-3  (77% of 13)
+  Ho Train leads Bunchalosers 13-4  (76% of 17)
+  Ho Train leads Blitzkrieg 13-4  (76% of 17)
+  Iron City Pounders leads Dunbar Dogs 12-4  (75% of 16)
+  Otters leads Bunchalosers 12-4  (75% of 16)
+  Manic Moose leads Blitzkrieg 37-13  (74% of 50)
+
+closest rivalries, 20+ games:
+  Beers 12-12 Ho Train  (24 games)
+  Beers 14-14-1 Karpet Munchers  (29 games)
+  Carter's Commandos 28-28 OakalDoakals  (56 games)
+  Scooter's Boozers 23-23 Texas Nashvillians  (46 games)
+  Beers 26-25 Scooter's Boozers  (51 games)
+  Blitzkrieg 24-25 F-Jackie  (49 games)
+
+trading activity against success:
+  team                   deals/season    win%  titles
+  Beers                          4.35   0.522       2
+  Couchfire                      3.89   0.447       1
+  Manic Moose                    3.70   0.630       3
+  Scooter's Boozers              3.70   0.453       0
+  Texas Nashvillians             3.00   0.459       1
+  F-Jackie                       1.70   0.457       2
+  OakalDoakals                   1.69   0.440       1
+  Bunchalosers                   1.61   0.405       0
+  Otters                         1.52   0.592       3
+  Da Funk                        1.44   0.500       0
+  Dunbar Dogs                    1.41   0.434       1
+  Ho Train                       1.26   0.568       3
+  Tally Wackers                  1.22   0.516       0
+  Iron City Pounders             0.96   0.477       1
+  Carter's Commandos             0.85   0.432       1
+  Blitzkrieg                     0.81   0.486       2
+  Karpet Munchers                0.44   0.597       5

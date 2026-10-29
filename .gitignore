@@ -1,0 +1,10 @@
+# The old working cache. mfl_archive/ supersedes it and is the durable copy;
+# src/store.py only falls back here. Not committed, because it held unscrubbed
+# copies of the legacy pages once and must never be the thing that leaks them.
+raw/
+
+# build artifacts
+page/index_doc.json
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,590 @@
+[
+ {
+  "season": 2007,
+  "team_a": "Bunchalosers",
+  "team_b": "Beers",
+  "raw": "Bunchaslosers send Indi, 2009 3rd round pick , and 2008 4th round pick to Beers for Carolina, A Smith, and K Curtis"
+ },
+ {
+  "season": 2007,
+  "team_a": "F-Jackie",
+  "team_b": "Beers",
+  "raw": "F-Jackie sends 2008 3rd round pick and 2009 6th round pick to Beers for B Marshall"
+ },
+ {
+  "season": 2007,
+  "team_a": "Texas Nashvillians",
+  "team_b": "Ho Train",
+  "raw": "Texans send 2008 7th round pick to Ho Train for Q Gray"
+ },
+ {
+  "season": 2007,
+  "team_a": "Bunchalosers",
+  "team_b": "Iron City Pounders",
+  "raw": "Bunchalosers send L. White and 2008 2nd round pick to IC Pounders for D Culpepper and J Jerevicius"
+ },
+ {
+  "season": 2007,
+  "team_a": "F-Jackie",
+  "team_b": "Texas Nashvillians",
+  "raw": "F-Jackie sends K. Collins and B Westbrook to Texans for (2) 2008 1st round picks , 2008 3rd round pick , N Washington, and C Williams"
+ },
+ {
+  "season": 2007,
+  "team_a": "Scooter's Boozers",
+  "team_b": "Blitzkrieg",
+  "raw": "Boozers send 2007 7th round pick and 2008 2nd round pick to Blitzkrieg for C Pennington"
+ },
+ {
+  "season": 2007,
+  "team_a": "Texas Nashvillians",
+  "team_b": "Karpet Munchers",
+  "raw": "Texans send 2007 5th round pick to Munchers for C Frye"
+ },
+ {
+  "season": 2007,
+  "team_a": "Dunbar Dogs",
+  "team_b": "Texas Nashvillians",
+  "raw": "Dogs send 2007 2nd round pick and 2008 1st round pick to Texans for F Taylor"
+ },
+ {
+  "season": 2007,
+  "team_a": "Ho Train",
+  "team_b": "OakalDoakals",
+  "raw": "Ho Train sends E James to Oakaldoaksl for 2007 2nd round pick"
+ },
+ {
+  "season": 2007,
+  "team_a": "Texas Nashvillians",
+  "team_b": "Scooter's Boozers",
+  "raw": "Texans send T Glenn to Boozers for 2008 3rd round pick"
+ },
+ {
+  "season": 2007,
+  "team_a": "Beers",
+  "team_b": "Da Funk",
+  "raw": "Beers send C Chambers to Da Funk for A Crumpler and 2007 2nd round pick"
+ },
+ {
+  "season": 2006,
+  "team_a": "F-Jackie",
+  "team_b": "Karpet Munchers",
+  "raw": "F-Jackie sends P Rivers and 2007 1st round pick to Munchers for B Westbrook, M Harrison, D Carr"
+ },
+ {
+  "season": 2006,
+  "team_a": "Beers",
+  "team_b": "Bunchalosers",
+  "raw": "Beers send T Brown to Bunchalosers for 2008 9th round pick"
+ },
+ {
+  "season": 2006,
+  "team_a": "Manic Moose",
+  "team_b": "Iron City Pounders",
+  "raw": "Moose send D Culpepper to IC Pounders for 2008 2nd round pick"
+ },
+ {
+  "season": 2006,
+  "team_a": "Manic Moose",
+  "team_b": "Otters",
+  "raw": "Moose send 2008 2nd round pick to Otters for J Kitna"
+ },
+ {
+  "season": 2006,
+  "team_a": "Beers",
+  "team_b": "Da Funk",
+  "raw": "Beers send N Washington to Da Funk for 2008 5th round pick"
+ },
+ {
+  "season": 2006,
+  "team_a": "Beers",
+  "team_b": "Texas Nashvillians",
+  "raw": "Beers send T Glenn and F Taylor to Texans for N Washington, C Chambers, and 2007 3rd round pick"
+ },
+ {
+  "season": 2006,
+  "team_a": "Manic Moose",
+  "team_b": "Carter's Commandos",
+  "raw": "Moose send D McAllister to Commandos for P Burress"
+ },
+ {
+  "season": 2006,
+  "team_a": "Da Funk",
+  "team_b": "Beers",
+  "raw": "Da Funk send Tampa Bay and 2007 3rd round pick (from Beers) to Beers for Baltimore"
+ },
+ {
+  "season": 2006,
+  "team_a": "Manic Moose",
+  "team_b": "Da Funk",
+  "raw": "Moose send 2007 1st round pick and B Berrian to DaFunk for M Hasselbeck"
+ },
+ {
+  "season": 2006,
+  "team_a": "OakalDoakals",
+  "team_b": "Scooter's Boozers",
+  "raw": "OakalDoakals send J Plummer to Boozers for B Calhoun"
+ },
+ {
+  "season": 2006,
+  "team_a": "Texas Nashvillians",
+  "team_b": "Tally Wackers",
+  "raw": "Texans send 2007 1st round pick and 2008 2nd round pick to Tally Wackers for T Gonzalez"
+ },
+ {
+  "season": 2006,
+  "team_a": "Texas Nashvillians",
+  "team_b": "Bunchalosers",
+  "raw": "Texans send 2006 1st, 3rd, & 4th picks to Bunchalosers for C Chambers"
+ },
+ {
+  "season": 2006,
+  "team_a": "Scooter's Boozers",
+  "team_b": "Carter's Commandos",
+  "raw": "Boozers send 2006 4th round pick and D Rhodes to Commandos for 2006 1st round pick"
+ },
+ {
+  "season": 2006,
+  "team_a": "Dunbar Dogs",
+  "team_b": "Otters",
+  "raw": "Dunbar Dogs send C Henry, 2006 2nd, 3rd, and 4th round picks to Otters for 2006 1st round pick"
+ },
+ {
+  "season": 2006,
+  "team_a": "Texas Nashvillians",
+  "team_b": "F-Jackie",
+  "raw": "Texans send E Moulds and Pgh Defense to F-Jackie for 2006 2nd round pick"
+ },
+ {
+  "season": 2006,
+  "team_a": "Texas Nashvillians",
+  "team_b": "Scooter's Boozers",
+  "raw": "Texans send H Miller to Boozers for 2007 3rd round pick"
+ },
+ {
+  "season": 2006,
+  "team_a": "Da Funk",
+  "team_b": "Beers",
+  "raw": "Da Funk sends F Taylor to Beers for 2006 2nd round pick and 2007 3rd round pick"
+ },
+ {
+  "season": 2006,
+  "team_a": "Beers",
+  "team_b": "Texas Nashvillians",
+  "raw": "Beers send 2006 3rd round pick to Texans for R Smith and A Vinatieri"
+ },
+ {
+  "season": 2005,
+  "team_a": "OakalDoakals",
+  "team_b": "Manic Moose",
+  "raw": "OakalDoakals send K McCardell to Moose for D Gabriel and 2006 2nd round pick"
+ },
+ {
+  "season": 2005,
+  "team_a": "Tally Wackers",
+  "team_b": "Texas Nashvillians",
+  "raw": "Tally Wackers send D Jackson to Texans for T Bell and 2006 2nd round pick"
+ },
+ {
+  "season": 2005,
+  "team_a": "Scooter's Boozers",
+  "team_b": "Manic Moose",
+  "raw": "Boozers send 2005 9th and 10th round picks to Moose for 2005 8th round pick"
+ },
+ {
+  "season": 2005,
+  "team_a": "Texas Nashvillians",
+  "team_b": "Bunchalosers",
+  "raw": "Texans send M Faulk to Bunchalosers for 2006 4th round pick \u0013"
+ },
+ {
+  "season": 2005,
+  "team_a": "Otters",
+  "team_b": "Beers",
+  "raw": "Otters send R McMichael to Beers for 2005 4th round pick"
+ },
+ {
+  "season": 2005,
+  "team_a": "Otters",
+  "team_b": "Iron City Pounders",
+  "raw": "Otters send B Greise to IC Pounders for 2005 3rd round pick"
+ },
+ {
+  "season": 2005,
+  "team_a": "OakalDoakals",
+  "team_b": "Ho Train",
+  "raw": "OakalDoakal sends 2005 1st and 2nd round picks to Ho Train for C Brown and 2005 1st round pick"
+ },
+ {
+  "season": 2004,
+  "team_a": "Da Funk",
+  "team_b": "OakalDoakals",
+  "raw": "Da Funk sends L Gordon to OakalDoakals for Baltimore defense"
+ },
+ {
+  "season": 2004,
+  "team_a": "F-Jackie",
+  "team_b": "Dunbar Dogs",
+  "raw": "F-Jackie sends A Thomas, 2005 1st, 2nd, & 3rd round picks to Dogs for A Green and 2005 2nd round pick"
+ },
+ {
+  "season": 2004,
+  "team_a": "Beers",
+  "team_b": "Manic Moose",
+  "raw": "Beers send T Maddox to Moose for V Testaverde and 2005 4th round pick"
+ },
+ {
+  "season": 2004,
+  "team_a": "Texas Nashvillians",
+  "team_b": "Beers",
+  "raw": "Texans send 2005 5th round pick to Beers for Ken Dorsey"
+ },
+ {
+  "season": 2004,
+  "team_a": "Dunbar Dogs",
+  "team_b": "OakalDoakals",
+  "raw": "Dogs send Domenic Davis to OakalDoakal for Kevin Jones"
+ },
+ {
+  "season": 2004,
+  "team_a": "Texas Nashvillians",
+  "team_b": "Beers",
+  "raw": "Texans send 2005 3rd round pick to Beers for G Hearst"
+ },
+ {
+  "season": 2004,
+  "team_a": "Scooter's Boozers",
+  "team_b": "Otters",
+  "raw": "Boozers send T Holt, 2004 10th round pick & 2004 11th round pick to Otters for M Williams & Keyshawn Johnson"
+ },
+ {
+  "season": 2004,
+  "team_a": "Scooter's Boozers",
+  "team_b": "Beers",
+  "raw": "Boozers send R Moss to Beers for M Bennett, Q Morgan, & 2004 2nd round pick"
+ },
+ {
+  "season": 2004,
+  "team_a": "Tally Wackers",
+  "team_b": "Beers",
+  "raw": "Tally Wackers send S Davis & R Gardner to Beers for 2004 1st round pick (5th overall) and 2005 2nd round pick"
+ },
+ {
+  "season": 2004,
+  "team_a": "Bunchalosers",
+  "team_b": "Beers",
+  "raw": "Bunchalosers send T Maddox to Beers for 2004 6th round pick"
+ },
+ {
+  "season": 2004,
+  "team_a": "Dunbar Dogs",
+  "team_b": "Beers",
+  "raw": "Dogs send M Shipp to Beers for 2004 3rd round pick"
+ },
+ {
+  "season": 2004,
+  "team_a": "Bunchalosers",
+  "team_b": "Dunbar Dogs",
+  "raw": "Bunchalosers sends 2004 1st round pick (7th overall) to Dunbar Dogs for 2004 1st round pick (10th overall), C Chambers, A Lelie, and L Jordan"
+ },
+ {
+  "season": 2004,
+  "team_a": "Beers",
+  "team_b": "Dunbar Dogs",
+  "raw": "Beers send 2004 3rd round pick to Dunbar Dogs for M Shipp"
+ },
+ {
+  "season": 2004,
+  "team_a": "Beers",
+  "team_b": "Bunchalosers",
+  "raw": "Beers send 2004 6th round pick to Bunchalosers for T Maddux"
+ },
+ {
+  "season": 2004,
+  "team_a": "Texas Nashvillians",
+  "team_b": "Manic Moose",
+  "raw": "Texas Nashvillians send 2004 3rd round pick to Manic Moose for A Toomer"
+ },
+ {
+  "season": 2004,
+  "team_a": "Manic Moose",
+  "team_b": "Ho Train",
+  "raw": "Moose send 2004 1st overall to Ho Train for T Owens"
+ },
+ {
+  "season": 2003,
+  "team_a": "Scooter's Boozers",
+  "team_b": "OakalDoakals",
+  "raw": "Boozers send 2004 1st round pick and K Stewart to OakalDoakals for K Collins"
+ },
+ {
+  "season": 2003,
+  "team_a": "Blitzkrieg",
+  "team_b": "Manic Moose",
+  "raw": "Blitzkrieg sends J Horn and 2004 1st round pick to Manic Moose for C Pennington"
+ },
+ {
+  "season": 2003,
+  "team_a": "OakalDoakals",
+  "team_b": "Manic Moose",
+  "raw": "Oakaldoakal sends Minnesota to Manic Moose for 2004 4th round pick and Atlanta"
+ },
+ {
+  "season": 2003,
+  "team_a": "Da Funk",
+  "team_b": "Manic Moose",
+  "raw": "Da Funk sends J Blake to Manic Moose for T Taylor"
+ },
+ {
+  "season": 2003,
+  "team_a": "OakalDoakals",
+  "team_b": "Tally Wackers",
+  "raw": "OakalDoakal sends S Davis and 2004 2nd round pick to Tally Wackers for S McNair"
+ },
+ {
+  "season": 2003,
+  "team_a": "Ho Train",
+  "team_b": "Texas Nashvillians",
+  "raw": "Ho Train sends H Ward and A Smith to Texans for J Lewis and S McDonald"
+ },
+ {
+  "season": 2003,
+  "team_a": "Carter's Commandos",
+  "team_b": "Manic Moose",
+  "raw": "Commandos send A Toomer and 2004 4th round pick to Moose for D Staley"
+ },
+ {
+  "season": 2003,
+  "team_a": "Karpet Munchers",
+  "team_b": "OakalDoakals",
+  "raw": "Karpet Munchers send B Griese and 2004 3rd round pick to OakalDoakals for K Holcomb"
+ },
+ {
+  "season": 2003,
+  "team_a": "Ho Train",
+  "team_b": "Texas Nashvillians",
+  "raw": "Ho Train sends R Lindel to Texans for J Hall"
+ },
+ {
+  "season": 2003,
+  "team_a": "Texas Nashvillians",
+  "team_b": "Tally Wackers",
+  "raw": "Texans send pick 13 of 2003 round 8 to Tally Wackers for J Stevens"
+ },
+ {
+  "season": 2003,
+  "team_a": "Scooter's Boozers",
+  "team_b": "Beers",
+  "raw": "Boozers send D Thompson and C Redman to Beers for K Stewart and pick 16 of 2003 round 8"
+ },
+ {
+  "season": 2003,
+  "team_a": "Da Funk",
+  "team_b": "Blitzkrieg",
+  "raw": "Da Funk sends 2003 4th pick of 2nd round to Blitzkrieg for C Garner"
+ },
+ {
+  "season": 2003,
+  "team_a": "OakalDoakals",
+  "team_b": "Blitzkrieg",
+  "raw": "OakalDoakal sends 2003 11th pick of 1st round to Blitzkrieg for R Gannon"
+ },
+ {
+  "season": 2003,
+  "team_a": "Da Funk",
+  "team_b": "OakalDoakals",
+  "raw": "Da Funk sends T Candidate and 2003 5th round to OakalDoakal for OakalDokal's 2003 1st round pick"
+ },
+ {
+  "season": 2003,
+  "team_a": "Beers",
+  "team_b": "Manic Moose",
+  "raw": "Beers send 2003 3rd round pick to Moose for J Galloway."
+ },
+ {
+  "season": 2002,
+  "team_a": "Dunbar Dogs",
+  "team_b": "Ho Train",
+  "raw": "Dogs send Antowain Smith to Ho Train for Jabar Gaffney"
+ },
+ {
+  "season": 2002,
+  "team_a": "Manic Moose",
+  "team_b": "Da Funk",
+  "raw": "Moose send 2003 2nd round pick to Da Funk for Ed McCaffrey"
+ },
+ {
+  "season": 2002,
+  "team_a": "Da Funk",
+  "team_b": "Iron City Pounders",
+  "raw": "Da Funk send Jerry Rice and 2003 3rd round pick to Pounders for 2003 2nd and 3rd round picks"
+ },
+ {
+  "season": 2002,
+  "team_a": "Iron City Pounders",
+  "team_b": "Texas Nashvillians",
+  "raw": "Pounders send Tom Brady and M Faulk to Texans for J Garcia, E George, C Martin, and Santa Moss"
+ },
+ {
+  "season": 2002,
+  "team_a": "Ho Train",
+  "team_b": "Iron City Pounders",
+  "raw": "Ho Train send Tom Brady to Pounders for T Owens and 2003 3rd pick"
+ },
+ {
+  "season": 2002,
+  "team_a": "Ho Train",
+  "team_b": "Texas Nashvillians",
+  "raw": "Ho Train sends Jeff Garcia and Rod Smith to Texans for M Vick, Jabar Gaffney, and 2003 2nd pick"
+ },
+ {
+  "season": 2002,
+  "team_a": "Blitzkrieg",
+  "team_b": "Ho Train",
+  "raw": "Blitzkrieg sends T Heap, W Walls and 2003 1st pick to Ho Train for K Brady and T Gonzalez"
+ },
+ {
+  "season": 2002,
+  "team_a": "Manic Moose",
+  "team_b": "OakalDoakals",
+  "raw": "Moose send F Mitchell, S Davis, and 2003 1st to OakalDoakals for L Tomlinson"
+ },
+ {
+  "season": 2002,
+  "team_a": "Manic Moose",
+  "team_b": "Scooter's Boozers",
+  "raw": "Moose send J Allen to Boozers for L Betts"
+ },
+ {
+  "season": 2002,
+  "team_a": "F-Jackie",
+  "team_b": "Tally Wackers",
+  "raw": "F-Jackie send P Price and 2002 2nd to Wackers for I Bruce and 2002 1st"
+ },
+ {
+  "season": 2002,
+  "team_a": "Texas Nashvillians",
+  "team_b": "Beers",
+  "raw": "Texans send A Hakim to Beers for 2002 5th"
+ },
+ {
+  "season": 2002,
+  "team_a": "Texas Nashvillians",
+  "team_b": "Scooter's Boozers",
+  "raw": "Texans send J Miller to Boozers for 2002 6th"
+ },
+ {
+  "season": 2002,
+  "team_a": "Da Funk",
+  "team_b": "Karpet Munchers",
+  "raw": "Da Funk sends P Holmes to Munchers for J Jackson and J Rice"
+ },
+ {
+  "season": 2002,
+  "team_a": "Tally Wackers",
+  "team_b": "Scooter's Boozers",
+  "raw": "Wackers send R Moss to Boozers for 2002 1st, 2nd, & 3rd and J Bettis\\"
+ },
+ {
+  "season": 2002,
+  "team_a": "Manic Moose",
+  "team_b": "Dunbar Dogs",
+  "raw": "Moose send J Plummer, 2002 1st & 2nd to Dogs for D Culpepper"
+ },
+ {
+  "season": 2002,
+  "team_a": "Texas Nashvillians",
+  "team_b": "Beers",
+  "raw": "Texans send 2002 3rd, 2003 6th to Beers for J Thrash"
+ },
+ {
+  "season": 2002,
+  "team_a": "Beers",
+  "team_b": "Otters",
+  "raw": "Beers send T Brown to Otters for 2002 3rd"
+ },
+ {
+  "season": 2002,
+  "team_a": "OakalDoakals",
+  "team_b": "Beers",
+  "raw": "OakalDoakals send 2002 5th to Beers for K Collins"
+ },
+ {
+  "season": 2002,
+  "team_a": "Texas Nashvillians",
+  "team_b": "Bunchalosers",
+  "raw": "Texans send A Zereoue and 2002 1st to Bunchalosers for C Martin"
+ },
+ {
+  "season": 2002,
+  "team_a": "Da Funk",
+  "team_b": "Beers",
+  "raw": "Da Funk sends O Gadsden and 2002 5th to Beers for 2002 2nd"
+ },
+ {
+  "season": 2002,
+  "team_a": "Beers",
+  "team_b": "Scooter's Boozers",
+  "raw": "Beers send 2002 1st, 2nd, 3rd and D Flutie to Boozers for A Brooks and G Hearst"
+ },
+ {
+  "season": 2002,
+  "team_a": "Otters",
+  "team_b": "Blitzkrieg",
+  "raw": "Otters send 2002 4th & 5th to Blitzkrieg for M Vanderjagt and Cleveland"
+ },
+ {
+  "season": 2001,
+  "team_a": "F-Jackie",
+  "team_b": "Carter's Commandos",
+  "raw": "F-Jackie sends T Couch to Comandos for A Thomas"
+ },
+ {
+  "season": 2001,
+  "team_a": "Tally Wackers",
+  "team_b": "Bunchalosers",
+  "raw": "Wackers send W Chrebet and 2001 2nd to Bunchalosers for S McNair"
+ },
+ {
+  "season": 2001,
+  "team_a": "Dunbar Dogs",
+  "team_b": "Scooter's Boozers",
+  "raw": "Dogs send T Barber to Boozers for P Warrick"
+ },
+ {
+  "season": 2001,
+  "team_a": "Scooter's Boozers",
+  "team_b": "F-Jackie",
+  "raw": "Boozers send D McNabb to F-Jackie for T Holt and 2001 4th"
+ },
+ {
+  "season": 2000,
+  "team_a": "Dunbar Dogs",
+  "team_b": "Manic Moose",
+  "raw": "Dogs send T Biakabutuka to Moose for D Hayes"
+ },
+ {
+  "season": 2000,
+  "team_a": "Manic Moose",
+  "team_b": "Blitzkrieg",
+  "raw": "Moose send R Gannon to Blitzkrieg for J Plummer"
+ },
+ {
+  "season": 2000,
+  "team_a": "Manic Moose",
+  "team_b": "Ho Train",
+  "raw": "Moose send T Brown and A Smith to Ho Train for C Pennington and J Galloway"
+ },
+ {
+  "season": 2000,
+  "team_a": "Bunchalosers",
+  "team_b": "Scooter's Boozers",
+  "raw": "Bunchalosers send P Warrick to Boozers for S King"
+ },
+ {
+  "season": 2000,
+  "team_a": "Manic Moose",
+  "team_b": "Dunbar Dogs",
+  "raw": "Moose send T Barber to Dogs for K Johnson"
+ }
+]

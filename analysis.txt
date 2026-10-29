@@ -1,0 +1,198 @@
+
+======================================================================
+1. TRADE VOLUME BY SEASON
+======================================================================
+  2000    5  #####                        archive
+  2001    4  ####                         archive
+  2002   22  ######################       archive
+  2003   15  ###############              archive
+  2004   16  ################             archive
+  2005    7  #######                      archive
+  2006   18  ##################           archive
+  2007   11  ###########                  archive
+  2008   20  ####################         MFL
+  2009   14  ##############               MFL
+  2010   27  ###########################  MFL
+  2011   17  #################            MFL
+  2012   16  ################             MFL
+  2013    7  #######                      MFL
+  2014   18  ##################           MFL
+  2015    9  #########                    MFL
+  2016   14  ##############               MFL
+  2017   16  ################             MFL
+  2018   13  #############                MFL
+  2019   21  #####################        MFL
+  2020   15  ###############              MFL
+  2021   15  ###############              MFL
+  2022   12  ############                 MFL
+  2023   13  #############                MFL
+  2024   21  #####################        MFL
+  2025   19  ###################          MFL
+  2026   23  #######################      MFL
+
+  408 trades over 27 seasons
+  2000-2007 (98 trades) is a hand-kept
+  archive, so read it as a floor. 2008-2026 is the MFL log and is complete.
+
+======================================================================
+2. WHO TRADES, AND WHO DOES NOT
+======================================================================
+  owner                  trades  seasons  per season  yrs w/ a deal
+  Beers                     113       26        4.35         25/26
+  Couchfire                  35        9        3.89          9/9
+  Manic Moose               100       27        3.70         24/27
+  Scooter's Boozers         100       27        3.70         27/27
+  Texas Nashvillians         81       27        3.00         23/27
+  F-Jackie                   46       27        1.70         19/27
+  OakalDoakals               44       26        1.69         21/26
+  Bunchalosers               29       18        1.61         16/18
+  Otters                     41       27        1.52         20/27
+  Da Funk                    39       27        1.44         19/27
+  Dunbar Dogs                38       27        1.41         20/27
+  Ho Train                   34       27        1.26         16/27
+  Tally Wackers              33       27        1.22         17/27
+  Iron City Pounders         26       27        0.96         17/27
+  Carter's Commandos         23       27        0.85         14/27
+  Blitzkrieg                 22       27        0.81         13/27
+  Karpet Munchers            12       27        0.44         11/27
+
+  Rate per season is the fair comparison: the two expansion teams have 26
+  seasons, and the franchise that changed hands splits into two owners.
+
+======================================================================
+3. THE ONE OWNER CHANGE
+======================================================================
+  Bunchalosers     2000-2017   29 trades over 18 seasons = 1.61/season
+  Couchfire        2018-2026   35 trades over  9 seasons = 3.89/season
+
+  Same franchise, same roster lineage, different owner. Roster overlap
+  cannot tell them apart, which is why the split is applied by hand.
+
+======================================================================
+4. TRADE PARTNERS
+======================================================================
+  most common partnerships:
+    18  Beers and Texas Nashvillians   (0.69 per shared season)
+    14  Beers and Da Funk   (0.54 per shared season)
+    13  Beers and Scooter's Boozers   (0.50 per shared season)
+    12  Manic Moose and OakalDoakals   (0.46 per shared season)
+    12  Scooter's Boozers and Texas Nashvillians   (0.44 per shared season)
+    11  OakalDoakals and Scooter's Boozers   (0.42 per shared season)
+    11  Beers and Manic Moose   (0.42 per shared season)
+    10  Manic Moose and Scooter's Boozers   (0.37 per shared season)
+     9  Beers and Otters   (0.35 per shared season)
+     9  Beers and Bunchalosers   (0.53 per shared season)
+     9  Carter's Commandos and Scooter's Boozers   (0.33 per shared season)
+     9  F-Jackie and Manic Moose   (0.33 per shared season)
+
+  135 pairings were possible, 106 have traded, 29 never have
+  1 pairing could never happen: Bunchalosers and Couchfire
+  (they are the same franchise under its two owners, never in the league together)
+
+  never traded with each other:
+     Blitzkrieg and Carter's Commandos   (27 shared seasons)
+     Blitzkrieg and Dunbar Dogs   (27 shared seasons)
+     Blitzkrieg and Iron City Pounders   (27 shared seasons)
+     Blitzkrieg and Karpet Munchers   (27 shared seasons)
+     Blitzkrieg and Tally Wackers   (27 shared seasons)
+     Carter's Commandos and Da Funk   (27 shared seasons)
+     Carter's Commandos and Ho Train   (27 shared seasons)
+     Carter's Commandos and Iron City Pounders   (27 shared seasons)
+     Carter's Commandos and Otters   (27 shared seasons)
+     Carter's Commandos and Tally Wackers   (27 shared seasons)
+     Da Funk and Dunbar Dogs   (27 shared seasons)
+     Da Funk and Otters   (27 shared seasons)
+     Dunbar Dogs and Karpet Munchers   (27 shared seasons)
+     Dunbar Dogs and Tally Wackers   (27 shared seasons)
+     F-Jackie and Otters   (27 shared seasons)
+     Ho Train and Karpet Munchers   (27 shared seasons)
+     Ho Train and Tally Wackers   (27 shared seasons)
+     Iron City Pounders and Karpet Munchers   (27 shared seasons)
+     Karpet Munchers and Tally Wackers   (27 shared seasons)
+     Carter's Commandos and OakalDoakals   (26 shared seasons)
+     F-Jackie and OakalDoakals   (26 shared seasons)
+     Iron City Pounders and OakalDoakals   (26 shared seasons)
+     Blitzkrieg and Bunchalosers   (18 shared seasons)
+     Bunchalosers and Da Funk   (18 shared seasons)
+     Bunchalosers and F-Jackie   (18 shared seasons)
+     Bunchalosers and Ho Train   (18 shared seasons)
+     Bunchalosers and Karpet Munchers   (18 shared seasons)
+     Carter's Commandos and Couchfire   (9 shared seasons)
+     Couchfire and Iron City Pounders   (9 shared seasons)
+
+======================================================================
+5. PARTNER CONCENTRATION
+======================================================================
+  owner                   partners  of               top partner   share
+  Beers                         16  16   Texas Nashvillians (18)     16%
+  Manic Moose                   16  16         OakalDoakals (12)     12%
+  Scooter's Boozers             16  16                Beers (13)     13%
+  Texas Nashvillians            16  16                Beers (18)     22%
+  F-Jackie                      13  16           Manic Moose (9)     20%
+  OakalDoakals                  13  16          Manic Moose (12)     27%
+  Otters                        13  16                 Beers (9)     22%
+  Da Funk                       12  16                Beers (14)     36%
+  Dunbar Dogs                   12  16     Scooter's Boozers (7)     18%
+  Couchfire                     13  15           Manic Moose (8)     23%
+  Ho Train                      12  16           Manic Moose (6)     18%
+  Tally Wackers                 11  16    Texas Nashvillians (8)     24%
+  Bunchalosers                  10  15                 Beers (9)     31%
+  Iron City Pounders            11  16           Manic Moose (6)     23%
+  Carter's Commandos             8  16     Scooter's Boozers (9)     39%
+  Blitzkrieg                    10  16           Manic Moose (7)     32%
+  Karpet Munchers               10  16          OakalDoakals (2)     17%
+
+======================================================================
+6. WHAT GETS TRADED (MFL seasons only, 2008-2026)
+======================================================================
+  471 players and 343 picks changed hands (42% picks)
+  24 of 310 MFL records name only one side's assets, so these
+  counts are a floor. The two franchises on those trades are still correct.
+  The 2000-2007 archive carries no structured assets, so it is excluded here.
+
+  owner                  plyr out  plyr in  pick out  pick in  net picks
+  Tally Wackers                18        8        10       27        +17
+  Carter's Commandos           16       13         7       17        +10
+  Otters                       31       19        10       20        +10
+  Da Funk                      19       14         7       15         +8
+  Blitzkrieg                   11        8         4       10         +6
+  F-Jackie                     29       33        20       25         +5
+  OakalDoakals                 17       24        17       22         +5
+  Dunbar Dogs                  23       10        18       21         +3
+  Ho Train                     24       24        11       13         +2
+  Beers                        67       68        40       40         +0
+  Karpet Munchers               6        7         2        1         -1
+  Couchfire                    31       26        25       23         -2
+  Iron City Pounders           11       19        11        6         -5
+  Bunchalosers                  7       18        15        6         -9
+  Texas Nashvillians           46       43        34       24        -10
+  Manic Moose                  60       65        44       30        -14
+  Scooter's Boozers            55       72        68       43        -25
+
+======================================================================
+7. WHEN TRADES HAPPEN (MFL seasons only, the archive has no dates)
+======================================================================
+  Jan    4  ####
+  Feb    2  ##
+  Mar    4  ####
+  Apr   11  ###########
+  May    2  ##
+  Jun    8  ########
+  Jul   40  ########################################
+  Aug   78  ##############################################################################
+  Sep   37  #####################################
+  Oct   63  ###############################################################
+  Nov   53  #####################################################
+  Dec    8  ########
+
+======================================================================
+8. SOURCES AND LIMITS
+======================================================================
+  2000-2007: 98 trades from the league's GitHub archive
+    (pdl/history/trades.html), hand-written prose. Franchises parsed with
+    confidence; assets kept as the original sentence. A floor, not a count.
+  2008-2026: 310 trades from the MyFantasyLeague export API.
+    MFL holds no transaction log for 2003-2006 and one record for 2007.
+    The archive's offseason sections are offset by a year, corrected on the
+    evidence that its 2007 offseason section is MFL's 2008 trades.
+  3 MFL deals were written as two records and are merged.

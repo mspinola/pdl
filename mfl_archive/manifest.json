@@ -1,0 +1,1656 @@
+{
+ "league": "PDL",
+ "captured": "2026-10-29T14:39:46+00:00",
+ "source": "MyFantasyLeague export API",
+ "note": "Responses stored verbatim. Everything derived is rebuilt from these files. Not available without a commissioner login, and therefore absent: message board, calendar, polls.",
+ "seasons": {
+  "2003": {
+   "league_id": 65775,
+   "files": {
+    "draft_results.json": {
+     "bytes": 218,
+     "sha256": "a2feb2cadbd9e438e01902e19940c79ae79309ee825ebd03e8858f0f53c18347"
+    },
+    "future_draft_picks.json": {
+     "bytes": 58,
+     "sha256": "0be5dce97b299b0d70af647d78501570a6a2119d0e2dbf207bb0fae01ab0c005"
+    },
+    "league.json": {
+     "bytes": 4861,
+     "sha256": "aa0e88dce4e9322622d8dd6389d0c19147b333ecb8ad07bd7581322ad25a4327"
+    },
+    "player_scores.json": {
+     "bytes": 10986,
+     "sha256": "5954f7a6230127fcdaa448aff64cb26bee555019feb2a4f6c79b275caacb3817"
+    },
+    "players.json": {
+     "bytes": 147033,
+     "sha256": "59627ce9022fa8bb31be9f296b6ec6a39dfa4965fd241e8e37f70972fbc5abe0"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 97,
+     "sha256": "f168ee1efa415efc7a09667412f9823414f5b78c1b9b5b5bea7f049a5e76b777"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 97,
+     "sha256": "f168ee1efa415efc7a09667412f9823414f5b78c1b9b5b5bea7f049a5e76b777"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 97,
+     "sha256": "34b185cde78ed7e7c27e58b46caa6846da52f0b6f9e7bb81fdb867fba422294e"
+    },
+    "rosters.json": {
+     "bytes": 12259,
+     "sha256": "37aab9f6daf9afa820df72e81f6c3d94035dde10e2547c3713369c5fd0d2ab63"
+    },
+    "rules.json": {
+     "bytes": 8471,
+     "sha256": "5f03db166684e05f3d78b0ae77613f92e80cd2ae58d4ee9dd749ecdb556fdfe9"
+    },
+    "schedule.json": {
+     "bytes": 15985,
+     "sha256": "d2331596453258ce2130814eea4a5d1f6a871849e18bcdbcbd2c4ce21b093db2"
+    },
+    "standings.json": {
+     "bytes": 2666,
+     "sha256": "c23a7b04d95bb4b247a64cc6217b8463139a8e201c70767df49b717f0172842b"
+    },
+    "transactions.json": {
+     "bytes": 54,
+     "sha256": "241ae5ea7ff4d9826ba9e1c745a699ab987f20585fc3c21c8c9e7b0ad9baa587"
+    },
+    "transactions_trade.json": {
+     "bytes": 59,
+     "sha256": "7de9e101b121af2714a7402db270c8962dfc13b4fbb1f2e1afa3fcae723ec2bc"
+    },
+    "weekly_results.json": {
+     "bytes": 23417,
+     "sha256": "07df1ae75e6020eb70708bee06bc05f3ffc1c7249845e8de32a7bf0586d070c6"
+    }
+   }
+  },
+  "2004": {
+   "league_id": 53450,
+   "files": {
+    "draft_results.json": {
+     "bytes": 218,
+     "sha256": "a59a01d54b8f759c95adc75c32646a0947c4a654517007292a4f8c42189afd0a"
+    },
+    "future_draft_picks.json": {
+     "bytes": 58,
+     "sha256": "413973e9270a37a8faa03ca09824e7fa6d7c508e76cee49f29ec276693eda276"
+    },
+    "league.json": {
+     "bytes": 5060,
+     "sha256": "8cea529ef6569e40818fc0d4a5af6f99ba077d995e01a804af15676ee782e5ab"
+    },
+    "player_scores.json": {
+     "bytes": 11048,
+     "sha256": "a9b94119fa306ccf5d082b5b24f9e6926c2f014fa97bd313d78eaad481fef479"
+    },
+    "players.json": {
+     "bytes": 150050,
+     "sha256": "42ba78082ada46ee78bf3069808f50288184fa896ec4b37c730556dd3b990d43"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 97,
+     "sha256": "b986b0174a96cb93900fcae174b6ee1d3c5d5de3d5228f146b54c0c3c3ecd1c7"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 97,
+     "sha256": "f168ee1efa415efc7a09667412f9823414f5b78c1b9b5b5bea7f049a5e76b777"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 97,
+     "sha256": "f168ee1efa415efc7a09667412f9823414f5b78c1b9b5b5bea7f049a5e76b777"
+    },
+    "rosters.json": {
+     "bytes": 12259,
+     "sha256": "55d6b622584a3960ed621f180c435169ac63305c444841a64a35500ba8ccd5fd"
+    },
+    "rules.json": {
+     "bytes": 8471,
+     "sha256": "28a4676ad1fc9d8c00582612269e8438d905b25d64c85d40a7d2c209dfbba07a"
+    },
+    "schedule.json": {
+     "bytes": 16002,
+     "sha256": "50498772bd29e0be0310dd7536e9762b7e9691399e0d26d97ca2d5d37e564160"
+    },
+    "standings.json": {
+     "bytes": 2677,
+     "sha256": "fccfc893b4b202f5df0383e2d068788af0e34d161e82c29cac32d52553434643"
+    },
+    "transactions.json": {
+     "bytes": 54,
+     "sha256": "5670f4d9496513041517143baf087f4e82bfa36d383000da0ff60e0786120219"
+    },
+    "transactions_trade.json": {
+     "bytes": 59,
+     "sha256": "d5859f41a4a0a2d399f858756f30a691dd2c1f5ec469ecfb1307561521e85fa7"
+    },
+    "weekly_results.json": {
+     "bytes": 23513,
+     "sha256": "0fdf95edc7c358603aeffa0f4be11ada18b064b022c3cc47b2aa1759fde6f886"
+    }
+   }
+  },
+  "2005": {
+   "league_id": 64832,
+   "files": {
+    "draft_results.json": {
+     "bytes": 218,
+     "sha256": "90fd1ccc48df6e171914eb3145b5ca6548350635f2380d18950d5059a301cb94"
+    },
+    "future_draft_picks.json": {
+     "bytes": 58,
+     "sha256": "287fe0ddab9da2a624ee4d7360a74f6aced05a8cb0f82253681ff28cb9b41103"
+    },
+    "league.json": {
+     "bytes": 5101,
+     "sha256": "cfdb83d2bae7f94901d4f919a513f6b221ccf445e969f948abf646e9121e7ab3"
+    },
+    "player_scores.json": {
+     "bytes": 11377,
+     "sha256": "7ed9168af18081f32661b3196bd1c659eebc393c1657484e130cdaac011c99f3"
+    },
+    "players.json": {
+     "bytes": 165599,
+     "sha256": "dee89f17f5050c4761b75d6131d415b5c149d17b0a6e972636eb54b738c0902d"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 97,
+     "sha256": "b986b0174a96cb93900fcae174b6ee1d3c5d5de3d5228f146b54c0c3c3ecd1c7"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 97,
+     "sha256": "304c47942afd5ad428584627ec2b51ddc22485a1802248a6aff4177867377376"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 97,
+     "sha256": "304c47942afd5ad428584627ec2b51ddc22485a1802248a6aff4177867377376"
+    },
+    "rosters.json": {
+     "bytes": 12259,
+     "sha256": "2dab1bbfbcc17af29d00b323dd58245505cc730a5032eef22a9f8ba98c114250"
+    },
+    "rules.json": {
+     "bytes": 8471,
+     "sha256": "e94c6df2a0bcf1e1b20c0415f0eed1d837e66cf3beb5a26c537d6ace19850226"
+    },
+    "schedule.json": {
+     "bytes": 15989,
+     "sha256": "537c6c5bfee423de820cb50a1d1b57f982b8cfed75950010bc25571961dd1ff0"
+    },
+    "standings.json": {
+     "bytes": 2671,
+     "sha256": "ce7945f9367681a3e466d282d62c9e6dfd2d94da8e0b0aeaf7a24796c687264d"
+    },
+    "transactions.json": {
+     "bytes": 54,
+     "sha256": "5670f4d9496513041517143baf087f4e82bfa36d383000da0ff60e0786120219"
+    },
+    "transactions_trade.json": {
+     "bytes": 59,
+     "sha256": "4ea8fdf3139dc19ff87b0ef699684d932898dbd0c325afc0aa92d20249778fd9"
+    },
+    "weekly_results.json": {
+     "bytes": 23485,
+     "sha256": "c503a5bcad5f4e93220b1be3ed9debd4c2d6ed4df466fe07065ef481713a513b"
+    }
+   }
+  },
+  "2006": {
+   "league_id": 61505,
+   "files": {
+    "draft_results.json": {
+     "bytes": 218,
+     "sha256": "b9c58ab8852d2b889f13a1a69f3ad1da76fc53cfe6f48c4df905f0db38ff8909"
+    },
+    "future_draft_picks.json": {
+     "bytes": 58,
+     "sha256": "413973e9270a37a8faa03ca09824e7fa6d7c508e76cee49f29ec276693eda276"
+    },
+    "league.json": {
+     "bytes": 5096,
+     "sha256": "125c06faf21c5ced93f8b475283d71e9f7a161f58d85b469811dbd4856b28d22"
+    },
+    "player_scores.json": {
+     "bytes": 10986,
+     "sha256": "62ab986097fd5ba246d39b9bf500e13898b3ed61a0ad9e819bb7795c1ef29e36"
+    },
+    "players.json": {
+     "bytes": 186721,
+     "sha256": "db4ec6cbab6a0a225a8f392e627ae3b831357ec914700217da2cfdcf390f75e8"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 97,
+     "sha256": "f168ee1efa415efc7a09667412f9823414f5b78c1b9b5b5bea7f049a5e76b777"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 97,
+     "sha256": "f168ee1efa415efc7a09667412f9823414f5b78c1b9b5b5bea7f049a5e76b777"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 97,
+     "sha256": "78f9b34111e643634788e2e357887d8ebb38274f9de65404acd017fb5d730246"
+    },
+    "rosters.json": {
+     "bytes": 12223,
+     "sha256": "33091ae79eeb01a8109faad999a74a97a05525dee0589958ffaae36a2788bb19"
+    },
+    "rules.json": {
+     "bytes": 8471,
+     "sha256": "b3415f9be891362a0b4c06308e708b30057be0238ada5619330007ca736eb455"
+    },
+    "schedule.json": {
+     "bytes": 15992,
+     "sha256": "95ab6f665fe505e3cdbbbf0aabd837a338a802cde0529265c8869f6bff766ec0"
+    },
+    "standings.json": {
+     "bytes": 2671,
+     "sha256": "397d1ea01d5d2851e1e975c88622c723df0097499eb2e5a19ece985cc18bd347"
+    },
+    "transactions.json": {
+     "bytes": 54,
+     "sha256": "5670f4d9496513041517143baf087f4e82bfa36d383000da0ff60e0786120219"
+    },
+    "transactions_trade.json": {
+     "bytes": 59,
+     "sha256": "4ea8fdf3139dc19ff87b0ef699684d932898dbd0c325afc0aa92d20249778fd9"
+    },
+    "weekly_results.json": {
+     "bytes": 23389,
+     "sha256": "b0b877e825f66030e82fc2ff7b432fe7019084f1f0640186f25b944f6f47ba73"
+    }
+   }
+  },
+  "2007": {
+   "league_id": 61839,
+   "files": {
+    "draft_results.json": {
+     "bytes": 218,
+     "sha256": "4071679adfad7b2ccd34d143aeedbc5591a1eff5f8d0406f7e064ac738e6ea57"
+    },
+    "future_draft_picks.json": {
+     "bytes": 21063,
+     "sha256": "2481f32d1275835f3cbeae1d0970b85ba643b342583c019141692b086f49891b"
+    },
+    "league.json": {
+     "bytes": 5515,
+     "sha256": "5d6adf2fe64c1c33b712f8e14fe3bdf33e3bc9ff9273846938fa1c8c4510af40"
+    },
+    "player_scores.json": {
+     "bytes": 11331,
+     "sha256": "08ea903f31a7c50657e775b9c35676c54568b5145c74bf41186052b1128e20d2"
+    },
+    "players.json": {
+     "bytes": 176399,
+     "sha256": "020d7136479cb6c01ef001bad84a509fa167255ec05c80b09f4e07cd7a0244b0"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 97,
+     "sha256": "f168ee1efa415efc7a09667412f9823414f5b78c1b9b5b5bea7f049a5e76b777"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 97,
+     "sha256": "304c47942afd5ad428584627ec2b51ddc22485a1802248a6aff4177867377376"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 97,
+     "sha256": "b986b0174a96cb93900fcae174b6ee1d3c5d5de3d5228f146b54c0c3c3ecd1c7"
+    },
+    "rosters.json": {
+     "bytes": 12151,
+     "sha256": "ef733ed40b57984ca9052438185a058eff2cb84fa7a59e7d6500564ad17676db"
+    },
+    "rules.json": {
+     "bytes": 8471,
+     "sha256": "be21340d79abd4bb19195acd0d9fce766fd4951f73fee45ddac476fcbb8a8ed5"
+    },
+    "schedule.json": {
+     "bytes": 15995,
+     "sha256": "7a8fe5ad9f5def0bc3a92941e2f5384d166205395ed5f01bae7a5229c2e74ad1"
+    },
+    "standings.json": {
+     "bytes": 2676,
+     "sha256": "bf17c6f46c5357de3e7d586a99c861a22a8bb91c8c0192a98c0be5086d9845a4"
+    },
+    "transactions.json": {
+     "bytes": 384,
+     "sha256": "d5313737d8fcecd014e7505567ed7a06eea812ff9c9571ae97f15afa79c064ab"
+    },
+    "transactions_trade.json": {
+     "bytes": 310,
+     "sha256": "813753a39e105080456fa103ff5d5e85ad218b9b4f0ae944c0ecf0ecd396a527"
+    },
+    "weekly_results.json": {
+     "bytes": 23454,
+     "sha256": "629cf089ada43baff9419de48c80c633c69c53f4a34e97254bf57d0e53f5d69e"
+    }
+   }
+  },
+  "2008": {
+   "league_id": 71127,
+   "files": {
+    "draft_results.json": {
+     "bytes": 21884,
+     "sha256": "58d0439112434890123eb6d62c6cffb13baea60367965cbcc34bdbf4eff1bf72"
+    },
+    "future_draft_picks.json": {
+     "bytes": 26247,
+     "sha256": "f1bcfe93029df9d966fc6d9607f500cafebec3ce7a5050dcaf1c25305a45bf7b"
+    },
+    "league.json": {
+     "bytes": 6179,
+     "sha256": "cc6de6fa1e1d58839a7dd47913e4ddf6a5182b4a2de7736940ac75e156dd1891"
+    },
+    "player_scores.json": {
+     "bytes": 25942,
+     "sha256": "73e2e60e60c1a6b64b3beb4acea2c0b4db3c72fbaa2f3ee199d24edfbfb26e40"
+    },
+    "players.json": {
+     "bytes": 165342,
+     "sha256": "c7748a649fcecb0b7c3028557da0a79afc779f0bd6b11b7fc57cf6c83c00ec4d"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 613,
+     "sha256": "3630c3328e18c1dbe8bb9c468eb62692e64e7e260081ca34fc42665b7b1919e1"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 613,
+     "sha256": "e43161ca8bd5d0cf0e931366588be2a4392b1f4f27e401b83cd9351c0840f939"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 323,
+     "sha256": "fc80ba7a6bae59ee5071d8eb678ac8af3e50990619d9aa93432cae13a934e6aa"
+    },
+    "rosters.json": {
+     "bytes": 12151,
+     "sha256": "14bb3e028811f69f53cfdc7fd9bb23e14c5d4c375e53040e82be9005872bb5be"
+    },
+    "rules.json": {
+     "bytes": 9813,
+     "sha256": "ea73cce9925618000018438ebd262c170d00f5ef70503576143e150b90dc36a0"
+    },
+    "schedule.json": {
+     "bytes": 17266,
+     "sha256": "43488ff8b0e1d2eff7d20044723fb7e9f547349c7dab2edf563ea846bf7a388c"
+    },
+    "standings.json": {
+     "bytes": 2675,
+     "sha256": "c24edf0eaef542e360ff62998515f5ad410aba1bab7049926536462d08dcecc4"
+    },
+    "transactions.json": {
+     "bytes": 26329,
+     "sha256": "9212159e82477231587c1d14f613ebcf556cc2e2362480f931bb989ec0f06d70"
+    },
+    "transactions_trade.json": {
+     "bytes": 3463,
+     "sha256": "a38005324061cf9512e23be6dc7deef3d9fd3f83677a2cfff84487d17a6d60ce"
+    },
+    "weekly_results.json": {
+     "bytes": 24520,
+     "sha256": "9001f570a288404e2f9e51251788ab763c97a0e7c729b81207d1da2520733f5b"
+    }
+   }
+  },
+  "2009": {
+   "league_id": 39444,
+   "files": {
+    "draft_results.json": {
+     "bytes": 21890,
+     "sha256": "6040ee43c3efc17de54b1b19ca166c395e73c7f6719276846d583e749882c059"
+    },
+    "future_draft_picks.json": {
+     "bytes": 26247,
+     "sha256": "2bcbae464bd875b88ee1c03288578074e07f75e02013c0452fcc631982add242"
+    },
+    "league.json": {
+     "bytes": 6326,
+     "sha256": "57e68488107b16b8403086a113fb161425615e2c07bac422750db4604ea5e07a"
+    },
+    "player_scores.json": {
+     "bytes": 26671,
+     "sha256": "07407cd2fdd87c379bb968ea8643c79d7fd7f6612d9b2df450762d93f7d8da02"
+    },
+    "players.json": {
+     "bytes": 166313,
+     "sha256": "48e797d7365438dbd636600c9d3a81dc41381092cf9ed7146284aee5e8e65313"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 616,
+     "sha256": "70b84ca7d97f590dfa93474d97b1eda5cf1ad505b7756bca56360a4bed780451"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 613,
+     "sha256": "46a92cc2618eb6662271a1ca047225eb8de3f1e4a718e1186c8906edb4cc9348"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 321,
+     "sha256": "ea7f7d9cd75d15c6ae79efd09ad4b1573e39a74a2f38a75867d794116dd19d4b"
+    },
+    "rosters.json": {
+     "bytes": 12043,
+     "sha256": "91b8a27c908a8ed14c59fe0a128787d153ba3dd6f27da7f6c774ef5919884843"
+    },
+    "rules.json": {
+     "bytes": 9813,
+     "sha256": "ece01aefb63682dd2b714376aa5453909c90693f03b323ac1c27289e8d9f8377"
+    },
+    "schedule.json": {
+     "bytes": 16057,
+     "sha256": "e28843de37bc215957c20ddad0447a3f35473395225548f3ae8bca851b95ae88"
+    },
+    "standings.json": {
+     "bytes": 2670,
+     "sha256": "73f31e4e65868d634cd2e3aafe3b19246286a06c7bb40425c884ebf40c1e4155"
+    },
+    "transactions.json": {
+     "bytes": 24559,
+     "sha256": "74299099fb03eeeeae048ebb4dfe1faca72d2bfb4158ba719e5f6425809b07d1"
+    },
+    "transactions_trade.json": {
+     "bytes": 2834,
+     "sha256": "c3c0b03e4e8e1c19e074fa48741cc0ed8feeec25a48331fe98fbbd4c357ed7fc"
+    },
+    "weekly_results.json": {
+     "bytes": 24974,
+     "sha256": "90924ed2fc10299bfcc98c44a4be6a04fba7c44f33c9497d0a8fc34a22e72040"
+    }
+   }
+  },
+  "2010": {
+   "league_id": 20526,
+   "files": {
+    "draft_results.json": {
+     "bytes": 22562,
+     "sha256": "7fb34e94db53db5743e8a4fd642061d7032bc74eb40f565decbc0be58d514c08"
+    },
+    "future_draft_picks.json": {
+     "bytes": 26247,
+     "sha256": "d832d54d1f889d55bfe1110d063426f12eb94f5942ea083c92e523a2a4364c00"
+    },
+    "league.json": {
+     "bytes": 6510,
+     "sha256": "26e46ca3389fed758f493154b80fd0375ab3f080524007d3dc4082e039739ee4"
+    },
+    "player_scores.json": {
+     "bytes": 26548,
+     "sha256": "7536166456081c706c7d6ed4f810e26497181a4ea36dee23f27b57853ebfb648"
+    },
+    "players.json": {
+     "bytes": 167020,
+     "sha256": "52bdd42cf2de069785165986c5c1985f117e3320d94245b2e308a9f84f2e2890"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 612,
+     "sha256": "8e582242853c221d24af705d6469eb356846b6f0b70532a15eb28cce5396dc39"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 615,
+     "sha256": "9b397b858c1b3e88f4f1dd45e7508e8b4f7f59ac42ed06e3ada58c3871b53a33"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 321,
+     "sha256": "cb1725fc17bc60e3a7d8988c56ed482831326e5576287a8cf7867c817210353e"
+    },
+    "rosters.json": {
+     "bytes": 12267,
+     "sha256": "dd8530a5b3cca8d15663845aafb868162c5e91203f3aef5239d531eb5129a087"
+    },
+    "rules.json": {
+     "bytes": 9571,
+     "sha256": "50bad68fa9c80263024552173866990621f76045456a93980be8b7175bafe60b"
+    },
+    "schedule.json": {
+     "bytes": 16057,
+     "sha256": "6d3e431d6fd81dd03ff4b4c025e9a57f1e3efce6c9ebb99ea2a87260a5a62871"
+    },
+    "standings.json": {
+     "bytes": 2680,
+     "sha256": "1387c27e5f6b48c3f9ad3abd524a380e1adefee0f7f6ece2185075c84b2532ab"
+    },
+    "transactions.json": {
+     "bytes": 28583,
+     "sha256": "010aee588b20b6d82d1da7a69948e97f2a0cf31235e21e33f9645dde728c9029"
+    },
+    "transactions_trade.json": {
+     "bytes": 5389,
+     "sha256": "8a83f695ba2c7aab6fb465c0b514495fa66c9f1bb664a6fd7ccbe924a382784d"
+    },
+    "weekly_results.json": {
+     "bytes": 24825,
+     "sha256": "15ce5f406454974776664e1002c8271fdb7c02a0f6069a6b755ff9a3915ce9d3"
+    }
+   }
+  },
+  "2011": {
+   "league_id": 17475,
+   "files": {
+    "draft_results.json": {
+     "bytes": 24789,
+     "sha256": "6ef218d01349c56a2e81d94bf29e26f92d0f5a396fbc896652afbb7a49c23ec8"
+    },
+    "future_draft_picks.json": {
+     "bytes": 26247,
+     "sha256": "92a9c60a1c147c0c43a74f3e0f8b7295c0413c652d4cd01158c729ce7a4df2fe"
+    },
+    "league.json": {
+     "bytes": 6589,
+     "sha256": "b5fc9f910b00304e2b152acd5478bfe149adc29ab0f57b97821e24b9d44b2c07"
+    },
+    "player_scores.json": {
+     "bytes": 26986,
+     "sha256": "7717e7e55b26499a3e8e6022250df31bdd82de9b8a0ba6d507393f554f3d9e35"
+    },
+    "players.json": {
+     "bytes": 170014,
+     "sha256": "efd905e48b1d6d2e3146e4739d82139500d0e45ea5f020bea17fd46a8739d69d"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 614,
+     "sha256": "e7604af71321375e018cf6ac38a484955f91fe939bb3cec2b97651c09a5b2369"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 616,
+     "sha256": "f464d93eb54c014b613f2f9301865527672435da70b8b3a54f192fe1a331c11d"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 322,
+     "sha256": "f98b4a287b7a6e192f54851bbf2969b68f60acc857191cd845cd7c56079b5c89"
+    },
+    "rosters.json": {
+     "bytes": 12238,
+     "sha256": "1c5f1090f57205b40e21b3797a4750784596bbf0cdfc527e5f3c89985c622e4e"
+    },
+    "rules.json": {
+     "bytes": 9571,
+     "sha256": "49d1a2ac74b2aa06ce6f423797f9c6852b43b5643ca80068ca59d00b7a86c210"
+    },
+    "schedule.json": {
+     "bytes": 16159,
+     "sha256": "46fc24004017c0ebd479a630cc1e777426e215748b12f5f6dfb888e0b25d8aee"
+    },
+    "standings.json": {
+     "bytes": 2682,
+     "sha256": "5a9edba5aa6c5a60f96f4614a2d387a78877b10a701febccb932c889dc9f32c7"
+    },
+    "transactions.json": {
+     "bytes": 27459,
+     "sha256": "71bd29fbc411147207659e2280d7b64a0ce0c94fad3a4a21940452f59596867b"
+    },
+    "transactions_trade.json": {
+     "bytes": 4220,
+     "sha256": "1342dc903e0098b836693e222f81a22a0abbfc43e28c863d3e5c1ae75e5a26f0"
+    },
+    "weekly_results.json": {
+     "bytes": 24764,
+     "sha256": "e077f2dec0a43e03b91062dca36b6f5a35df05bcd1058aadd6d72352287c9f7a"
+    }
+   }
+  },
+  "2012": {
+   "league_id": 46585,
+   "files": {
+    "draft_results.json": {
+     "bytes": 24625,
+     "sha256": "2ba94cf81c87422ae62cb496f4ce5a694f649ff335233955d3332933e8b601c4"
+    },
+    "future_draft_picks.json": {
+     "bytes": 26247,
+     "sha256": "cd73eac1c36e2661ccdb86d20b3e42693b4e41d578c321598ed13d4b1da3cfc3"
+    },
+    "league.json": {
+     "bytes": 6618,
+     "sha256": "6a31123c895ec45ee85dff5f91b7dd636cb7a28a1373d266a1b4bbafd6dc6d40"
+    },
+    "player_scores.json": {
+     "bytes": 27138,
+     "sha256": "847667046b6c3a8e74dd077658a2048cca54b54fd45133ad5b2cb1a420059851"
+    },
+    "players.json": {
+     "bytes": 175233,
+     "sha256": "6c4dc6ac90880f281b0eb556a3f1be23b9edb306e16290631177bca681c9527a"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 615,
+     "sha256": "c5cd15ca664612a6df2a9f7086221804829e760072b42769891ef0c410d9e23a"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 616,
+     "sha256": "4d67589662a29e5362f5d14935e69d6cc46172796f537a887efd6e85164b9b75"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 323,
+     "sha256": "e0eca07b4567e0f06207af551c0a20bd574b56abd58aabb0cf40748561c7aca0"
+    },
+    "rosters.json": {
+     "bytes": 12288,
+     "sha256": "1fa5fb992c932c8687e2b5608361e3adc412c461ebd81add2da6edb6d70a46f3"
+    },
+    "rules.json": {
+     "bytes": 9571,
+     "sha256": "d8fd3440c8f451a1938df5c77e99630732cf2d9507d0c76b20a3b1da14b196ea"
+    },
+    "schedule.json": {
+     "bytes": 16027,
+     "sha256": "86d9e868f9f8a75ee04e4bfd25f59753b9135c23adc10a1b9fa0f54ed3e3e337"
+    },
+    "standings.json": {
+     "bytes": 2677,
+     "sha256": "5b5d79973bd906bb76468e7c60723b34c3088e78d0c68b41cd147559e47d2613"
+    },
+    "transactions.json": {
+     "bytes": 24167,
+     "sha256": "fbd153212956c6ce6cd142f749f2aa164b9ebedc0ba840fb6c351598e946454d"
+    },
+    "transactions_trade.json": {
+     "bytes": 3591,
+     "sha256": "3e470c8cabe040e746bab92856367805e719e732bbc1ba3cd6de09c89134579c"
+    },
+    "weekly_results.json": {
+     "bytes": 24987,
+     "sha256": "88ef5a4c1b0168d2ef8a48dee98e2b3bac8525aabbd2304a01b2ebc7fc5a9cf1"
+    }
+   }
+  },
+  "2013": {
+   "league_id": 31368,
+   "files": {
+    "draft_results.json": {
+     "bytes": 26559,
+     "sha256": "8ef04eeea6d409a3f6f84586e4da023bad2fc09826f29a94cd7985843e1ac72d"
+    },
+    "future_draft_picks.json": {
+     "bytes": 26247,
+     "sha256": "b6c56df000307a47428aad6b3b548a3939a1635ce5f968c9258338caa73f5eaa"
+    },
+    "league.json": {
+     "bytes": 6694,
+     "sha256": "1b4f1b765358614e5214d9f6e2d19dd15f2645efa50608146b19a1c9de7ed655"
+    },
+    "player_scores.json": {
+     "bytes": 26614,
+     "sha256": "737c954c93c5cebdd7b2a047756c1d0c1e79cf5e859f49548d8e6d86085387e1"
+    },
+    "players.json": {
+     "bytes": 172114,
+     "sha256": "33bce6b62b95fc592f51182f1b0d7337f64550c6a039df166d404a0b69d704ff"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 615,
+     "sha256": "c210c4b94b35c66892ae9632e80dafcd63f567f95f1a2a6c426a0b14f327fa45"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 614,
+     "sha256": "b1ea0d1c4773b908397a6f8555b0aa24629965c46c595689a650050aa7d20915"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 321,
+     "sha256": "a88496a4a74107a6d1f0841a835db5f7da38d0b9f0abaac27f98f4c2eac33be1"
+    },
+    "rosters.json": {
+     "bytes": 12400,
+     "sha256": "3722ae57e241a5f0a2400028804579e1f07208dca492b44565a33c6f08c54e76"
+    },
+    "rules.json": {
+     "bytes": 9571,
+     "sha256": "e7f71594c15141505b368db6adfff2da49a83c1421718ba6436555b057ff87e8"
+    },
+    "schedule.json": {
+     "bytes": 16071,
+     "sha256": "e5e16d26b45ba7bc1704b0a4b6713efcd5eed4f906db66fb97fc2bb83e7bf4ac"
+    },
+    "standings.json": {
+     "bytes": 2687,
+     "sha256": "5439eebd224279fcf0f5dba1e3bda78e34a37080382ad71789c2830e0a978b44"
+    },
+    "transactions.json": {
+     "bytes": 21126,
+     "sha256": "6e5092b56450220131201dbf64116d2bb246cf15a4f6b04033a8062acc9079cf"
+    },
+    "transactions_trade.json": {
+     "bytes": 1577,
+     "sha256": "bdc1c52fe283ed1408540e18116051bb46aacf54fb78f10df84f2fc6886b0b45"
+    },
+    "weekly_results.json": {
+     "bytes": 25200,
+     "sha256": "edce893a65adf97b98f238c44013170fec89cf7440033d59f101a0a5357dc410"
+    }
+   }
+  },
+  "2014": {
+   "league_id": 42887,
+   "files": {
+    "draft_results.json": {
+     "bytes": 28192,
+     "sha256": "13b988d955a43769a9595aa3e4070ff4e31bb7bd32b70d4d4973ba3aee3ad524"
+    },
+    "future_draft_picks.json": {
+     "bytes": 26247,
+     "sha256": "3474f7b8d0f1c31e5999203cee603bde5fd51d1924a7120dc60c05a6d6cbb9ee"
+    },
+    "league.json": {
+     "bytes": 6772,
+     "sha256": "34a94fa9e0838528fec66a98ba39df4928ad1c93b325958af3cf841408eaee6c"
+    },
+    "player_scores.json": {
+     "bytes": 26671,
+     "sha256": "43c79d126e4b2c40d2f09f93d1934488d9a0e6fbe639765a31e3a5eaeb80b0e5"
+    },
+    "players.json": {
+     "bytes": 174225,
+     "sha256": "0d6d9690f1fd01bf0811c1531eb7181cfeeaba6ab5345b0725cc9dcdfbd34e4b"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 614,
+     "sha256": "0844e4bee1f672f06c2fd229b321e359b53d196ae979de0cf5467fc78f04146e"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 614,
+     "sha256": "87c18674be722c70c214ae88df629723172c756fb67081913631c40020cd8cad"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 322,
+     "sha256": "3e4568104f97f4bc5eb991997a3b1ad5d61779e2e87dfd394a4d8116d3cc2e2a"
+    },
+    "rosters.json": {
+     "bytes": 12359,
+     "sha256": "028f73de93bb56c67812fc3fe27120ec84463146a20274610d0e2bb073cf474e"
+    },
+    "rules.json": {
+     "bytes": 9571,
+     "sha256": "811285c51c4c84a4c666d98e8ce10f1f942ec40660edce669459c10b0d13cb89"
+    },
+    "schedule.json": {
+     "bytes": 16072,
+     "sha256": "88355760630f663166ba6442905288cc9eb22e6b7f18439f6286aef32dd8850d"
+    },
+    "standings.json": {
+     "bytes": 2686,
+     "sha256": "daeff2ffffeaa78a45f9fbbbb08f893c217d64a1f4da859843f6f6684e947418"
+    },
+    "transactions.json": {
+     "bytes": 21486,
+     "sha256": "44c44403eea9c0a12078a350b772f8d53d967191fff658645d4c978face833df"
+    },
+    "transactions_trade.json": {
+     "bytes": 4082,
+     "sha256": "00140e4905b7fbef29e2f4afa2f540b2ace590ba6e95ec6bee38b1fa89f811ca"
+    },
+    "weekly_results.json": {
+     "bytes": 25210,
+     "sha256": "48b836919591c438732f0d666ea0d49951e6d56fca4215591860adf9fef36ee0"
+    }
+   }
+  },
+  "2015": {
+   "league_id": 41498,
+   "files": {
+    "draft_results.json": {
+     "bytes": 29117,
+     "sha256": "50e1dd334076575a181423806b090643bab3d37b234b202e100e1589bee9a83b"
+    },
+    "future_draft_picks.json": {
+     "bytes": 26247,
+     "sha256": "a398100aef52b3c977a3031b271f8d1668e1ea0b195ef7cd623de660ca577b2c"
+    },
+    "league.json": {
+     "bytes": 7158,
+     "sha256": "e97661c6984a0912d70b5806d59cd7fd454500fcfdb5fb3a5b2bfba9ecf0ea87"
+    },
+    "player_scores.json": {
+     "bytes": 26804,
+     "sha256": "1c92f3f0a0b74a76661d4fb12c50479d1b24a67ac7afdceb5aa7890e5c3f44ac"
+    },
+    "players.json": {
+     "bytes": 178351,
+     "sha256": "ea7b320b8b42c5ee70752d0736b9e3946975a83e4977163283ade727d4829c26"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 615,
+     "sha256": "81c074375ad57ec8f154f7137c28533dd180b8f04543b9cf5d85ca59ab7226d1"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 614,
+     "sha256": "461e2da349685e6c8bb941b1ce5e1f830eff2c82efe20f744fa3f96f20c7492f"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 322,
+     "sha256": "05a95d4d8369404971fa6f84261088658ec7f94ed0a276db44104e6a7437b479"
+    },
+    "rosters.json": {
+     "bytes": 12449,
+     "sha256": "1d04a45802a63ecb7251099b86085915729f514bcf8b425d4183030f23523ffb"
+    },
+    "rules.json": {
+     "bytes": 9571,
+     "sha256": "7878479c07c5a6fbe2bf3e10e20db86875bc31230095db0ab922fe2db59da596"
+    },
+    "schedule.json": {
+     "bytes": 17134,
+     "sha256": "f6ce44cba52a37832ded680c22c4213778fdac210436fba1a7ed2e755019b904"
+    },
+    "standings.json": {
+     "bytes": 2687,
+     "sha256": "11f04a197c01112d49b113719005515804492d30ffdda2702ca2f5ff1780150b"
+    },
+    "transactions.json": {
+     "bytes": 24802,
+     "sha256": "44ca58a2c24ca0dfabd6b984810bc15aa6d454a4358ea3224d4f55a4718ecb9a"
+    },
+    "transactions_trade.json": {
+     "bytes": 1945,
+     "sha256": "2f1d002a3a68d5348c0ca2d0d677f069785d510fbaa308edf8a6745c56939e64"
+    },
+    "weekly_results.json": {
+     "bytes": 25371,
+     "sha256": "32a9e63b9515b79a16ce88547d3d6ec53df6c46fb6ff053e04a42bc4aa87decd"
+    }
+   }
+  },
+  "2016": {
+   "league_id": 16177,
+   "files": {
+    "draft_results.json": {
+     "bytes": 29235,
+     "sha256": "f4a5683b38b0aca05a74b9731c574a34c1298438ddbc6ba58e530b98cb5324b8"
+    },
+    "future_draft_picks.json": {
+     "bytes": 26247,
+     "sha256": "f76f847448cd69bb5e823a9362511938e0ef542af8ee68d46c522a6971ef3f04"
+    },
+    "league.json": {
+     "bytes": 7234,
+     "sha256": "dfd850de1fd279d0abd440c74948ef518e6f815248617c41bfeb2c5292bc7984"
+    },
+    "player_scores.json": {
+     "bytes": 26451,
+     "sha256": "6334741b5e09c83cfc3f6c270efd6ae5e1dc34024e0638f9e663b034c8c643e9"
+    },
+    "players.json": {
+     "bytes": 185430,
+     "sha256": "1f00ce0eaecb8b73b85c49809575c9bf595137de18f61742b5799a25f4b5fa17"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 615,
+     "sha256": "631d6b2c173c759cb8cc689b5c2ef94e799199cff1c2227dc037d46e514d1457"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 613,
+     "sha256": "2dd1c1162fb5b514d6e6cdbbf7a18f67622786ded844c8333a5db3b36ef8f325"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 322,
+     "sha256": "80b325be5725a0df829e82f00c1f642d3b495a12662d39087a20f6d19525166a"
+    },
+    "rosters.json": {
+     "bytes": 12479,
+     "sha256": "49596554218f9bd9f13bc3c3baf9d212babce2f1a8d2817f9ae52c2e5f2d0c3b"
+    },
+    "rules.json": {
+     "bytes": 9571,
+     "sha256": "7dc8098fa03c0d05f16dd64edca1a8f031394f71e2743e5179266f55815e3829"
+    },
+    "schedule.json": {
+     "bytes": 16998,
+     "sha256": "cf730a921a5f21358fdb8858c136750bbb8f561cdbeb50663535c63b060e4466"
+    },
+    "standings.json": {
+     "bytes": 2682,
+     "sha256": "45ddcc7ad4f4c2489bcc0a64f4063dadb713c60ba41ed0fa856b0b0e61b34af9"
+    },
+    "transactions.json": {
+     "bytes": 23716,
+     "sha256": "c46925f3f11fb7351b8a8527e7b82d67a2895852d5ce6028f1030eb728a5e71c"
+    },
+    "transactions_trade.json": {
+     "bytes": 3073,
+     "sha256": "756abf0d9aa0b2dc7e3ce37ff8f028dd620f8be411eaa0db9ed020c4df29f25f"
+    },
+    "weekly_results.json": {
+     "bytes": 25562,
+     "sha256": "e6989a426a4147c223b6bccbe45626fbe9705b361aceb953df3dfaaa92730319"
+    }
+   }
+  },
+  "2017": {
+   "league_id": 16177,
+   "files": {
+    "draft_results.json": {
+     "bytes": 28795,
+     "sha256": "b6a58ab01b6ffb55a4c9ece3504aca18351601041f30c0ed7532e84cfd24f072"
+    },
+    "future_draft_picks.json": {
+     "bytes": 26247,
+     "sha256": "a0d42f7a6e4125f4988d085eeb0780ae6c30c614a7d35233426006673470ca94"
+    },
+    "league.json": {
+     "bytes": 7256,
+     "sha256": "4862b2896da675218f068c1816fe7eddb7359ecf1ade49355bf03c9661053cfd"
+    },
+    "player_scores.json": {
+     "bytes": 26865,
+     "sha256": "bcc488700904b562456cf84d02e672ebc4340eb561327f39a1564e6d1a8c557a"
+    },
+    "players.json": {
+     "bytes": 182890,
+     "sha256": "f1bc37d014116dc7685fc9532fa154b106617fc66ecd397658c0b069631c2f1d"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 613,
+     "sha256": "fb038d21f301aadae6507efd0ace4abda12faafce9ae6934a347f375d521094d"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 613,
+     "sha256": "85d0088b7273a0089698606a6cf119b7409ba93caa8a25693f66d414f0aab66c"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 321,
+     "sha256": "0be6eb8d2fb9a40e920d5a399d16389ddf859c987192aa00225bd48d18894e52"
+    },
+    "rosters.json": {
+     "bytes": 12129,
+     "sha256": "91c92a8623184070a21509f0fdf232771ef8f4e186dbdc8e10a570914c613320"
+    },
+    "rules.json": {
+     "bytes": 9571,
+     "sha256": "4791bfa4d6b3013025340e48fac5e6b7e0d995bc7112c20e6d468619ed47f5fd"
+    },
+    "schedule.json": {
+     "bytes": 17021,
+     "sha256": "0147a5731863c0c958553e749aa3fbc1e9190f2420f05125bf98a23cdb04f64c"
+    },
+    "standings.json": {
+     "bytes": 2672,
+     "sha256": "12fbb07ec7dbe5664de74ce0bc681c692bfa6d141b98d63a66e8c1073978ed55"
+    },
+    "transactions.json": {
+     "bytes": 26114,
+     "sha256": "6d3a0e46d87ccb1b6ce616e7b87ac8fb94dcdcfd37fae6e9bf74aa5635911581"
+    },
+    "transactions_trade.json": {
+     "bytes": 3457,
+     "sha256": "fcef431ad3356fd27d220712cf8dc38395dbfd6be383c12bb09874bb1386d041"
+    },
+    "weekly_results.json": {
+     "bytes": 25519,
+     "sha256": "6759d7470bce621a9c6ee083613f5da62d267f434c14acc857a04eeb2ce2a3b5"
+    }
+   }
+  },
+  "2018": {
+   "league_id": 16177,
+   "files": {
+    "draft_results.json": {
+     "bytes": 32654,
+     "sha256": "31a01bd2396d3aa8d41a77d84533d70a2c3ccc47326ef0c484dd2ce3ed5a9350"
+    },
+    "future_draft_picks.json": {
+     "bytes": 26247,
+     "sha256": "781fd2e1fbca56ac0caf6a9daf50e07b49cfe870b24ffb891119641a6c0885b7"
+    },
+    "league.json": {
+     "bytes": 7333,
+     "sha256": "dcabbc702b50cc9317303e48a530da97962bf7eb5a1585aaa30e8e392e440c3d"
+    },
+    "player_scores.json": {
+     "bytes": 27684,
+     "sha256": "61e6a64e392d9c2c33ba16696861419069cc2f832bd5d3e2fccff37512f3b389"
+    },
+    "players.json": {
+     "bytes": 186344,
+     "sha256": "d1084ac8315a78c25e4870916d20e946ed4766f31275beb7bf38b64613e71522"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 627,
+     "sha256": "23df6004efd6e8715891e14084ba2d9706efb8e44d7387cf1dd4dcfb8ce50eb8"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 628,
+     "sha256": "97996b36e3257d8a6a56b7e7cf65abc1cff2df04ee5f6b511e5058d902883421"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 327,
+     "sha256": "49d851777f58276e1bcd167768c325e69d8a15142c6dfb1d2673385103e40260"
+    },
+    "rosters.json": {
+     "bytes": 12481,
+     "sha256": "05b4410804363a9fb73b99dcd4db34cbf38336cc0381f43fbadac725028e0e2e"
+    },
+    "rules.json": {
+     "bytes": 8749,
+     "sha256": "a2fff7781b6d10f67a481ecd7d49777165346a69177bca7fac332e3f7aaaebe6"
+    },
+    "schedule.json": {
+     "bytes": 17519,
+     "sha256": "3ed973e34aa40f0c6db9fd337988ac5acbc2504ad0cda854b881cb0e3283aed8"
+    },
+    "standings.json": {
+     "bytes": 2782,
+     "sha256": "251363072027680fccaa303219f6a5f45a4abe3944f2089d209508f93af7635f"
+    },
+    "transactions.json": {
+     "bytes": 29308,
+     "sha256": "906185a3f274ce6cea2cf5b25905f4efc8c583dac7261571aa7ecf332382bec3"
+    },
+    "transactions_trade.json": {
+     "bytes": 2750,
+     "sha256": "6104169b7abb1ebc90025ba62ac58e67a21727838cb42a23582ec340c515dae8"
+    },
+    "weekly_results.json": {
+     "bytes": 26371,
+     "sha256": "787dc9cca3e2259b0f03d76b3acb993bf8d4a83ae1b0adfc89613c47fc746be8"
+    }
+   }
+  },
+  "2019": {
+   "league_id": 16177,
+   "files": {
+    "draft_results.json": {
+     "bytes": 30769,
+     "sha256": "59d07dbae99c86c9144296596c817a09bd8f0c219e716b7119d3966d2c4984fb"
+    },
+    "future_draft_picks.json": {
+     "bytes": 26247,
+     "sha256": "faeda5d58b4f159cc21ac56b838e80b5ec19ceb2571d1bd46d2d3774df41ef89"
+    },
+    "league.json": {
+     "bytes": 7396,
+     "sha256": "64da293204502f983e0b2f0a31674b9109b733f0fdf905f6d0f2e59f1bc732c1"
+    },
+    "player_scores.json": {
+     "bytes": 28062,
+     "sha256": "1f4d94ba4fe2a7aca972f0ddbc0a34be6fee4700b9ecc38ff9844a2237c19e46"
+    },
+    "players.json": {
+     "bytes": 190099,
+     "sha256": "3325d022d3bfc7cf04251b584139b5788a1a913729c6aba852f251a79e76744f"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 626,
+     "sha256": "a8140a7919b8c49fba841ef80b9563aa3814989a04806c5be86ba9e6fe6c13a7"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 630,
+     "sha256": "170b82fc0c1bb39283cb4ade591348707e37e8143d6eb0cabe90da0ce6b387a6"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 327,
+     "sha256": "a55c6d0bcca492e29b1781d8e7a4080dd6169196a915139b9faa648e3c8b5c86"
+    },
+    "rosters.json": {
+     "bytes": 12453,
+     "sha256": "4e1c37b31f2fd7270a9011206b1513e1e392922d0e7b65168a838cf3cd616d41"
+    },
+    "rules.json": {
+     "bytes": 8749,
+     "sha256": "1cd6ff6eae8a846a4a1e594c7fc73a81db88fbe36662e2c96f3052238a2cfdba"
+    },
+    "schedule.json": {
+     "bytes": 17513,
+     "sha256": "1401bf821473909c2432f09a8b1c71398c6a920493b6f716f04e5b480f81ca60"
+    },
+    "standings.json": {
+     "bytes": 2773,
+     "sha256": "8aac97018fc91186edb2855410d1c677572919c11741e23862c5dd31a696ccb3"
+    },
+    "transactions.json": {
+     "bytes": 31553,
+     "sha256": "97c0fc387ab10e7850074895cbf265e1b91e84b816dabb0afd3c74d93cf07d15"
+    },
+    "transactions_trade.json": {
+     "bytes": 4527,
+     "sha256": "1ae4d7621e0760a810ce7dab47fbd9ad73c514ac56fcae7858be7d291df350fc"
+    },
+    "weekly_results.json": {
+     "bytes": 26394,
+     "sha256": "0886173cd51b6b899f314d1abb8c6eb58b1132c007313ba98ed9f7a01852efa4"
+    }
+   }
+  },
+  "2020": {
+   "league_id": 16177,
+   "files": {
+    "draft_results.json": {
+     "bytes": 30723,
+     "sha256": "ffbe5e5cd24e204af8542c728afdcd47a02596a79f771858103ba7ed1ad50af7"
+    },
+    "future_draft_picks.json": {
+     "bytes": 26247,
+     "sha256": "f5d7b9180313d167b0c3d41d26a2f1f09e5fc22f3aebe483b319fa03fc8ebc34"
+    },
+    "league.json": {
+     "bytes": 7473,
+     "sha256": "282dea1ffeb4958b296b353040333308faf01f06d0b8e6c5b494816896983b15"
+    },
+    "player_scores.json": {
+     "bytes": 29413,
+     "sha256": "565e86596533901c8ae2fb4c7cac4d21b9bf10f0f2f041607b51d6b1ce7e7759"
+    },
+    "players.json": {
+     "bytes": 190334,
+     "sha256": "6ed0cbb325855eabfd61c8d4718da3f18da6b23c11fbef5695f5e9e211154e51"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 628,
+     "sha256": "97d4b7d295bf93404a61a5392455d27a33187fa45a71c7e5801c4cfe16ee032e"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 628,
+     "sha256": "69167ba23a74c15e860e999094e87f8350edc219811b44017f4b28ebc4f9d317"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 327,
+     "sha256": "fb1b962b0805da1e384112750e61525930b049bea3225afb6f6fb7d25bc613c9"
+    },
+    "rosters.json": {
+     "bytes": 12208,
+     "sha256": "8806c5f191da979fd6cfeab04f187e7267b7b11ea1dccbfab0675011f7f1dd84"
+    },
+    "rules.json": {
+     "bytes": 8741,
+     "sha256": "7723ba26a19bf3f94efbaf62387a2be23d8bb335b2705b628704211c24992e72"
+    },
+    "schedule.json": {
+     "bytes": 17501,
+     "sha256": "f542c9aeca5791b5099afe90818dad08d52d4861e967f3790f1cc9d796bdda99"
+    },
+    "standings.json": {
+     "bytes": 2778,
+     "sha256": "c9c57a2cca9436085b688bedd0f9f3a9859a6a4d2ba7409c2aa6eb0f2ca68b16"
+    },
+    "transactions.json": {
+     "bytes": 42682,
+     "sha256": "bd64894f9fa8ffade23360a78a943ee561dbabff467f0f2f3cbfee171bd1df42"
+    },
+    "transactions_trade.json": {
+     "bytes": 3473,
+     "sha256": "f00d8af8aca69b07c0264a7b03e27932da969b033442ccd9eb947bfee38e5fe4"
+    },
+    "weekly_results.json": {
+     "bytes": 26543,
+     "sha256": "bb64acd2f679fb646f885c2fc539e55894d581ed784efaa503cf74e0af1eede7"
+    }
+   }
+  },
+  "2021": {
+   "league_id": 16177,
+   "files": {
+    "draft_results.json": {
+     "bytes": 30577,
+     "sha256": "086e3b77a7534b445f0cae7f8fc4184579e9c214cf4eeb3365126bcd837ccfac"
+    },
+    "future_draft_picks.json": {
+     "bytes": 26247,
+     "sha256": "6b99ad5fe61d2cb3a27ecaf9559f90ef9d4bd1858fc24128e2f061ed67ad15f2"
+    },
+    "league.json": {
+     "bytes": 7648,
+     "sha256": "57a5ee90d3e630625745f137e223969e50376bb30082d5b634b2ff599dcd7ce7"
+    },
+    "player_scores.json": {
+     "bytes": 28543,
+     "sha256": "6e2b4d6d1cce2585e9fcfdae7668d664ac7a65986f2ccf2d63e89923b2f694eb"
+    },
+    "players.json": {
+     "bytes": 196981,
+     "sha256": "561c122ab33f34651918bee255af14bdbbff776be7666b4d2dbec99e5af8c0d7"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 622,
+     "sha256": "0a4fe6790635f63b0875f57b4273b439d05548dbefe7c54563e3014c11ae0776"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 627,
+     "sha256": "d3322c003ad27a949528bb4bb307526ffeb767d31d0ca0fa9c4773e158061639"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 327,
+     "sha256": "78d58192cb86346d6e982820f199d12522729d54c4e0935ccfefdf9eb8ab99c6"
+    },
+    "rosters.json": {
+     "bytes": 12512,
+     "sha256": "b8b1923abc1bc69fa14cea884e70b0fe5867bf11dcf5b5e38e92d34b7b3ad468"
+    },
+    "rules.json": {
+     "bytes": 8741,
+     "sha256": "266fc615cc8f3c1e268d0456d6822b0bf47c3a85086ce8e411b48ab2b8920e14"
+    },
+    "schedule.json": {
+     "bytes": 18666,
+     "sha256": "f5cb8c6334b6a52d5e28c93259351949e726bdcb8d3d9151e6d505af197d122d"
+    },
+    "standings.json": {
+     "bytes": 2782,
+     "sha256": "dd7410739d9d08eb4575541bc34341306071e0c8bad264242f713e469be0fb69"
+    },
+    "transactions.json": {
+     "bytes": 39672,
+     "sha256": "b081d0cce3655f37cd93b8ce0a6dee8376a22341e99c608376a8c676b19ce16c"
+    },
+    "transactions_trade.json": {
+     "bytes": 3389,
+     "sha256": "656e9d4ef12b60a4fadbe5e99f3d6b4179aee7a54dd9e70da0ec3d4fdc0591bd"
+    },
+    "weekly_results.json": {
+     "bytes": 26309,
+     "sha256": "dee0226b933edb5a34a7b4433c51e999c74ca92df6d2dee616bba8a5e247a181"
+    }
+   }
+  },
+  "2022": {
+   "league_id": 16177,
+   "files": {
+    "draft_results.json": {
+     "bytes": 30654,
+     "sha256": "8c500e9da4a1def0b1527b208c4e0b8072ce21684bf60037967a9cdf4dc55ad8"
+    },
+    "future_draft_picks.json": {
+     "bytes": 26247,
+     "sha256": "36d2cbc4d316c2e3bf786a197653367805a0e28656d0c6e17476b2225f33ba3a"
+    },
+    "league.json": {
+     "bytes": 7739,
+     "sha256": "07f5616be49be0927c71268c1d47a1761b6affbd6c051f8f8df5d7db8996359d"
+    },
+    "player_scores.json": {
+     "bytes": 26996,
+     "sha256": "a1255562bc7534f3d44dc0e385c71ae68ad802b67ce7e087c25360b550b57d27"
+    },
+    "players.json": {
+     "bytes": 202032,
+     "sha256": "a8f96c13fec39c6ff47ab1c2b51e55a6a001ebe543d7d2afb0c74b89cd7a5daa"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 629,
+     "sha256": "7f339bac9a5b4d3c2a3479bdce1d944711319530cfa7afca609880eec0f9124b"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 626,
+     "sha256": "0a6b2150274dfa45f40b254a93ec6f6ed0b76d5bbc5cf9c10135dc819a649936"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 327,
+     "sha256": "82a305757cc5b23a7c68399b8c4bbbc2556123f9d1433d41095b8a5f98bcf7a5"
+    },
+    "rosters.json": {
+     "bytes": 12442,
+     "sha256": "b888a0b315522bbeaa97a682eb5cc26562d8837890c7e8a15cc9688dc9886b4d"
+    },
+    "rules.json": {
+     "bytes": 8741,
+     "sha256": "3280288672b7fcc95b800b2ed929b4418519080acc1ad68803f58c0c50e2e85b"
+    },
+    "schedule.json": {
+     "bytes": 18724,
+     "sha256": "8018755f73a1e7d58b70e14fc1ff56462b16e6523bbf13053c9506bba86d8cb5"
+    },
+    "standings.json": {
+     "bytes": 2776,
+     "sha256": "0e74e6d2911ad4e63778d1e89ea318d0e708d28637da34c4b7966271bf39153f"
+    },
+    "transactions.json": {
+     "bytes": 41196,
+     "sha256": "61102455e8d30caf9cd4d4936ae8ee36e8a89457bb34fc8c48b977ce54a2a0d0"
+    },
+    "transactions_trade.json": {
+     "bytes": 2852,
+     "sha256": "26746f0f37c00df8d03dc4d8a9e8c62e8e2eba21cbaf48bcb51702b156928a88"
+    },
+    "weekly_results.json": {
+     "bytes": 26121,
+     "sha256": "3f9090aed0df8b7f3ed38e937640785fbeaf089d9576c1dca6bc1cd1ee388a90"
+    }
+   }
+  },
+  "2023": {
+   "league_id": 16177,
+   "files": {
+    "draft_results.json": {
+     "bytes": 30343,
+     "sha256": "1fda89c49a9460e0ced4bb3c5aac0c4b3a74030026565174b8a11489b7dfc0dd"
+    },
+    "future_draft_picks.json": {
+     "bytes": 26247,
+     "sha256": "d725b19b96650728f7a122547b0aeb784393d6f142c05f6d6816fce9a6ed2abb"
+    },
+    "league.json": {
+     "bytes": 7809,
+     "sha256": "e49ea390a36a0dfff77682d090472984b6d8ab1c730ccc612dc28a6e99d9076e"
+    },
+    "player_scores.json": {
+     "bytes": 27903,
+     "sha256": "08f950fa3b481d13f060d5127831699227f1b9f7b5aceee1d136a84612ff43e3"
+    },
+    "players.json": {
+     "bytes": 195981,
+     "sha256": "8c4005dfa410c810e202dc00fac3fb4036e41b5ea8154681f72e6fd97b79bf84"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 626,
+     "sha256": "eb416d0dd3077a9a130ab61242f03250f24ab9a2bea6a486ef63cc41d24cce21"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 628,
+     "sha256": "3167435b3395e5373c21439272d7e4bb6c2aa0595b0ad479626f66f2ef6487a1"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 324,
+     "sha256": "a1b7d4bbbded95ebdd053e4d32e162669d96ea14c334fb106a758b804efbb1f1"
+    },
+    "rosters.json": {
+     "bytes": 12006,
+     "sha256": "a67176e1c1203aefb496ec21b0fc60e36f9ee5b0b7750a3806d08f7c38b6fe72"
+    },
+    "rules.json": {
+     "bytes": 8741,
+     "sha256": "2df077665f69ca3fbf01a9ad148d6e21abb0ef9d185aad510d4c46fee774db0f"
+    },
+    "schedule.json": {
+     "bytes": 18716,
+     "sha256": "4c1d190a539d24cee3b95f80dec7451204cad69cd937dcdf42bac443cd1c082a"
+    },
+    "standings.json": {
+     "bytes": 2778,
+     "sha256": "2f3afcc44958b087a3b7ebd172c70643216b82f22909dd95c0a285a0421e0f42"
+    },
+    "transactions.json": {
+     "bytes": 32314,
+     "sha256": "5b60e23422c0022e30c24c8b8f37e37bde03d823e4b42d3654842219315e1f33"
+    },
+    "transactions_trade.json": {
+     "bytes": 2824,
+     "sha256": "2d4db8817eb581c2ec4819c537bf4b9f502a67c7d6b0ba12095e53ce6b3c9ef6"
+    },
+    "weekly_results.json": {
+     "bytes": 26318,
+     "sha256": "1b4829dfaf83a8ea9ba46d94c72321de71feaf05926f5811985fd9340869ae36"
+    }
+   }
+  },
+  "2024": {
+   "league_id": 16177,
+   "files": {
+    "draft_results.json": {
+     "bytes": 30177,
+     "sha256": "9836630bea765ca8e11017b9f1afc86af4fdb12a8fbc8c223f2b766df9ed8dcd"
+    },
+    "future_draft_picks.json": {
+     "bytes": 26247,
+     "sha256": "44d7d7673f402d6e5451e928b65871ddb49f0296b0e8475a8550d9271d05cdb8"
+    },
+    "league.json": {
+     "bytes": 7887,
+     "sha256": "e2299edb734ab8b907ddf28083eb4b90dbd744061d1e73aa9e437c0ed549c0e1"
+    },
+    "player_scores.json": {
+     "bytes": 28969,
+     "sha256": "88fe346a068d8f1fb9fc700201d5b216bd5013c31cde5a610fbddc50dd22fbce"
+    },
+    "players.json": {
+     "bytes": 192658,
+     "sha256": "4a5833bdde113121f44ab9390c0e69fff121e608c0eac06552b33fc15cb660b0"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 627,
+     "sha256": "08bd9c6eba7670ece59421c3fe700657eb2442f2a5652446e943b79cc00bc6eb"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 625,
+     "sha256": "e72b0a3c99aac49db7ccdac7e25834f23857c7e13a309abfd791f95ca20f6c14"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 327,
+     "sha256": "f8608e7427eaad7ed6d24857e950d261c2dfe5d8f682a433136f74a87bc8e1a9"
+    },
+    "rosters.json": {
+     "bytes": 12559,
+     "sha256": "d016af4e073e175a7cc17895ca27ca77e73d47976e700cc6ec68a4f3b33389eb"
+    },
+    "rules.json": {
+     "bytes": 8741,
+     "sha256": "c0669b84ddcbf2a3045962e8026027308a8a919947ce65f9f259393b82c908fb"
+    },
+    "schedule.json": {
+     "bytes": 18688,
+     "sha256": "b3397085dd87a0ebfa4045ab2c03967e049a1a370a3f347a948502ebf255a088"
+    },
+    "standings.json": {
+     "bytes": 2781,
+     "sha256": "3bac0ec41445c995c3b28564938d59587e9a5bee218139cea3d6a6cb2b5b25e0"
+    },
+    "transactions.json": {
+     "bytes": 36782,
+     "sha256": "e01a9a6b71ae645c8793cf5d3601f37e10cb9024acc24e34f8983cfdf6699a68"
+    },
+    "transactions_trade.json": {
+     "bytes": 4717,
+     "sha256": "5eb58732815ae8b3fd266f63e2577e55abd1f5fa71a9e25c183e45dcfa5b907f"
+    },
+    "weekly_results.json": {
+     "bytes": 26299,
+     "sha256": "dbdea7eccd4172ad7783afd295589fa29f1433ff2156c18b4af4cae2a3ce0d53"
+    }
+   }
+  },
+  "2025": {
+   "league_id": 16177,
+   "files": {
+    "draft_results.json": {
+     "bytes": 30510,
+     "sha256": "daadde28c7a8c688cfabae890985d226098e630ea6661e6f21e7866f3d51cd00"
+    },
+    "future_draft_picks.json": {
+     "bytes": 26247,
+     "sha256": "2d46ca01a5d458cfa1bdfb8a0499f2c7aa8ed8c565d7145a428ff1865d2c2316"
+    },
+    "league.json": {
+     "bytes": 7957,
+     "sha256": "d7ed97c190eacd76c86b74ca58621b8ecfdeeaf4adc5af6f9119cff87033f786"
+    },
+    "player_scores.json": {
+     "bytes": 28066,
+     "sha256": "99857f34fc65f5bf227410537df9deaa2fd26c8e322895d85f960158bd56f787"
+    },
+    "players.json": {
+     "bytes": 195191,
+     "sha256": "bbc04804c23e07695b171799e4953b387ace28f5aae48df7bdefe4ec3f564bce"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 630,
+     "sha256": "1b56c449b6125bf1e12eea56a6e63523603eaa6b537c63dadee57b02a02dcd98"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 629,
+     "sha256": "860c072acdaa9a14f5e7dd0c334221341e5acc05776103f8157e25148f546e77"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 324,
+     "sha256": "3251994e6ec709eee363adccc6f9f01f61b4d7061e302a86268d34885be7ae58"
+    },
+    "rosters.json": {
+     "bytes": 12041,
+     "sha256": "bc612053b592da53a6c632657d5da4939cd53a166e152c47a029942a3f0040ff"
+    },
+    "rules.json": {
+     "bytes": 8741,
+     "sha256": "f6488280d8f3b28a4ef1ed9285c9382cf60f2f19a10bb00b8dfc7defb07814ce"
+    },
+    "schedule.json": {
+     "bytes": 18669,
+     "sha256": "b8bdb90f2e77c61d6ea4b7b63b71796e89c2fe828200e38898574b1ae2fef74a"
+    },
+    "standings.json": {
+     "bytes": 2775,
+     "sha256": "cadbfd53f4197060c3418d748d7afe1499722b33084627c44c5ac64d91380b02"
+    },
+    "transactions.json": {
+     "bytes": 35561,
+     "sha256": "0c7136893d9a041fbdc8930f0387528bab1bcd6ada0ae301250833744bede32d"
+    },
+    "transactions_trade.json": {
+     "bytes": 4485,
+     "sha256": "86c1da2a8659ebad691040a7d2057a039de230be83b751b2f61af463e96f1685"
+    },
+    "weekly_results.json": {
+     "bytes": 26271,
+     "sha256": "e6e41b0d46dbde2486d22dbeba6a0e71ab590095fb07c2f9765180267eca7ac8"
+    }
+   }
+  },
+  "2026": {
+   "league_id": 16177,
+   "files": {
+    "draft_results.json": {
+     "bytes": 30347,
+     "sha256": "b99c5d9a540418ff98f5f8638e55e0badd454a283dc173bc6183ea7895f496b0"
+    },
+    "future_draft_picks.json": {
+     "bytes": 26247,
+     "sha256": "6af56a8fe33eee87ce19100392a06284cc3a24c3644e215c3adcaab82284937f"
+    },
+    "league.json": {
+     "bytes": 7936,
+     "sha256": "ffcf0a3fb85f8e771191d1438c02fcbf4fee6e231ad81bb20e30baf24897cef0"
+    },
+    "player_scores.json": {
+     "bytes": 24457,
+     "sha256": "8c29152e26e18373d3413c25ebdc65a6d38fda91bb87e9dc9a77382794485d1b"
+    },
+    "players.json": {
+     "bytes": 189367,
+     "sha256": "5695297aff23bb3ec2ff84c3a1835273d0c92666667185d8aae43bc806f6db54"
+    },
+    "playoff_bracket_1.json": {
+     "bytes": 372,
+     "sha256": "680dc0c0a56c4faf9dd04c7184ffc3ae6ad7b3472fd4ed4662883a733afeb955"
+    },
+    "playoff_bracket_2.json": {
+     "bytes": 372,
+     "sha256": "e10752627104fc78225709d72be6664e7179c30d045937a57d5971594b844945"
+    },
+    "playoff_bracket_3.json": {
+     "bytes": 241,
+     "sha256": "6a29a30cad514118e396cb533c3a92bbaee759d4a3d72280125b5b3057d7e39d"
+    },
+    "rosters.json": {
+     "bytes": 12988,
+     "sha256": "b285535ecae644344ad42fe22c30f749d0f3edb6ea236d53c12ed163e653fad7"
+    },
+    "rules.json": {
+     "bytes": 8741,
+     "sha256": "51acba340dd6bf749d73e9a930d9c217099ead6d448b165666d504ab94254c13"
+    },
+    "schedule.json": {
+     "bytes": 16653,
+     "sha256": "1800d14de869e707568ddde1a49137556befce34f016960e0b81a27365b850f7"
+    },
+    "standings.json": {
+     "bytes": 2738,
+     "sha256": "670f84cd7fbbd98f8aee88524a711af95739455f5955fa06f3128306d96f6268"
+    },
+    "transactions.json": {
+     "bytes": 25878,
+     "sha256": "58422d7046332b3bf90f42816d0e1bd707e80a06e7fb0471cded7501f020ef12"
+    },
+    "transactions_trade.json": {
+     "bytes": 5068,
+     "sha256": "74543a30fca1c4ce70a9506928cd0d4e6ba78a6123a2e3e5e9a582e76fb98a53"
+    },
+    "weekly_results.json": {
+     "bytes": 26304,
+     "sha256": "beee30c86904bc6a1077ab9a06a60241665bb252e35bad839c4247d01ac4d5c0"
+    }
+   }
+  }
+ },
+ "legacy": {
+  "source": "https://mspinola.github.io/mspinola/pdl",
+  "note": "The league's own pages, the only source for the seasons MFL has nothing for.",
+  "files": {
+   "history_history.html": {
+    "bytes": 2558,
+    "sha256": "19342f3655fc7e580eb976304eeae19976123665f5c3ae6480d1125c4f3136b7"
+   },
+   "history_misc.html": {
+    "bytes": 7701,
+    "sha256": "e5ebb6ee0bc320104cc927227cc8cff9803668aa19ed19c02f144200b7678914"
+   },
+   "history_orgdrft.html": {
+    "bytes": 117258,
+    "sha256": "a3c8aea5154898889f72b34922f24298c5a3cd19cde3902b4e8277e12e4cd847"
+   },
+   "history_orgrost.html": {
+    "bytes": 73024,
+    "sha256": "d5d812ea161563c7c5a6c1d312d9679fc22517292ea03dbe2e91f69dc0c42ef9"
+   },
+   "history_recbook.html": {
+    "bytes": 9047,
+    "sha256": "3ef11981957dd3fe48465a6d6cddd4580a3127e1ce11beaf6536d5f5d92348d1"
+   },
+   "history_trades.html": {
+    "bytes": 28194,
+    "sha256": "3e5b1022c0f0b2743fe791bf78ee6d00a7f19080fb3cdf281cdc100c9594f388"
+   },
+   "pdl2000_schedule.html": {
+    "bytes": 24171,
+    "sha256": "34f0bf05b167e125266523e5c4992c8f0aa637d88b648c424a0a3c2cf59297b8"
+   },
+   "pdl2000_setup_draft.html": {
+    "bytes": 117322,
+    "sha256": "e36fc69dfed729dc48e1113f94f69d610e1e9aeee7aa07973db41bc9df6ceb25"
+   },
+   "pdl2000_standings.html": {
+    "bytes": 48674,
+    "sha256": "4e124cc43475192cbd809f4c6ed831798647bf8d2015ff24b7d609eea292211e"
+   },
+   "pdl2001_schedule.html": {
+    "bytes": 17366,
+    "sha256": "8489b11e51da9688904d8fb45ac3ed1cf9e9e4abc826ff7a3a0f9d5c90a5a630"
+   },
+   "pdl2001_setup_draft.html": {
+    "bytes": 109620,
+    "sha256": "0553ec94f7ca817bde3e3a5636286599b02133f4656eb2dd6ca6c532544274f6"
+   },
+   "pdl2001_setup_expansion.html": {
+    "bytes": 2511,
+    "sha256": "e54b88f252a4d910d1ccb58a1c5aa0b1128f5ebc82c0e075384b73d0687a32e6"
+   },
+   "pdl2001_setup_expdraft.html": {
+    "bytes": 9443,
+    "sha256": "8e14ad97213817173861e3f3ec60635a4dbc56abdbd28c7e1473ff3fcb4b505f"
+   },
+   "pdl2001_standings.html": {
+    "bytes": 28805,
+    "sha256": "464c883caeedd4076a083422e1e0eeb519908399e1dadba8a1fa61bcb496f8ed"
+   },
+   "pdl2002_schedule.html": {
+    "bytes": 17305,
+    "sha256": "ef09dc8c7cbdf0ab590b8e7e45e7c1f57d8596e34cb405473e2cbfe89abdcf79"
+   },
+   "pdl2002_setup_draft.html": {
+    "bytes": 110119,
+    "sha256": "3bfc3b7079567d39f699c7054d463da472b91725009f0e2a8b197cc07cc2a0c8"
+   },
+   "pdl2002_standings.html": {
+    "bytes": 28781,
+    "sha256": "8e343190381843632d3399948ff864aa72a9a0569ca2d7abca016e9e5406cd34"
+   },
+   "pdl2003_setup_draft.html": {
+    "bytes": 597215,
+    "sha256": "54df605ede5508fa15adba2caa2a79bcec25902c07a309e8d1f1ce6bced9363f"
+   },
+   "pdl2004_setup_draft.html": {
+    "bytes": 519339,
+    "sha256": "7afd33bfa672d3ff35bd32552cf9581c31c8c6dba959e7bc629c7e872c91c28a"
+   },
+   "pdl2006_setup_draft.html": {
+    "bytes": 194371,
+    "sha256": "3a445e47f3cf3a7a5b0d439baac6e6ef347522c30558dd9be9727b558b48db67"
+   }
+  }
+ },
+ "total_bytes": 10408013,
+ "total_files": 380
+}

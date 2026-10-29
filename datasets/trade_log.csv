@@ -1,0 +1,409 @@
+trade_id,season,date,owner_a,a_gave,owner_b,b_gave,assets,source,detail
+T001,2026,2026-10-22,Tally Wackers,"Kittle, George",Da Funk,2027 R1,2,mfl,
+T002,2026,2026-10-20,Ho Train,"Kamara, Alvin",Manic Moose,2028 R3,2,mfl,
+T003,2026,2026-10-20,F-Jackie,"White, Rachaad; 2027 R3",Manic Moose,2027 R2,3,mfl,
+T004,2026,2026-10-17,Scooter's Boozers,"Kupp, Cooper; 2028 R3",OakalDoakals,"Adams, Davante",3,mfl,
+T005,2026,2026-10-16,Texas Nashvillians,2027 R2,Dunbar Dogs,"Hubbard, Chuba",2,mfl,
+T006,2026,2026-10-15,Beers,"Reichard, Will",Da Funk,2027 R3,2,mfl,
+T007,2026,2026-10-13,Couchfire,"Tagovailoa, Tua",F-Jackie,"Mason, Jordan",2,mfl,
+T008,2026,2026-10-12,Manic Moose,"McConkey, Ladd; 2027 R3",F-Jackie,"Wilson, Garrett",3,mfl,
+T009,2026,2026-10-11,F-Jackie,"Burrow, Joe",Couchfire,"McCarthy, J.J.; 2027 R1",3,mfl,
+T010,2026,2026-10-11,F-Jackie,"Allen, Josh",Texas Nashvillians,"Burrow, Joe; Coleman, Jonah; 2028 R1",4,mfl,
+T011,2026,2026-09-18,Couchfire,"Gordon, Ollie; 2027 R5",Da Funk,2027 R4,3,mfl,
+T012,2026,2026-08-25,Texas Nashvillians,2027 R3,Carter's Commandos,"Golden, Matthew",2,mfl,
+T013,2026,2026-08-25,Couchfire,"Strange, Brenton; R2 P05",Manic Moose,"Allgeier, Tyler; Fannin, Harold",4,mfl,
+T014,2026,2026-08-25,Dunbar Dogs,R1 P01,Couchfire,R1 P05; R2 P01,3,mfl,
+T015,2026,2026-08-22,Texas Nashvillians,2027 R3,Otters,"LaPorta, Sam",2,mfl,
+T016,2026,2026-08-16,F-Jackie,R5 P05,Texas Nashvillians,"Washington, Malik",2,mfl,
+T017,2026,2026-07-23,Beers,"Sutton, Courtland",Karpet Munchers,"Downs, Josh",2,mfl,
+T018,2026,2026-07-18,Blitzkrieg,"White, Rachaad",F-Jackie,R3 P09,2,mfl,
+T019,2026,2026-07-16,Blitzkrieg,"Swift, D'Andre",Texas Nashvillians,R3 P03,2,mfl,
+T020,2026,2026-07-12,Texas Nashvillians,"Johnston, Quentin",Carter's Commandos,"Cook, James",2,mfl,
+T021,2026,2026-07-09,Couchfire,R2 P08; R4 P08,Blitzkrieg,"McLaurin, Terry; R3 P16",4,mfl,
+T022,2026,2026-07-08,Couchfire,"Dobbins, J.K.",Beers,"Pacheco, Isiah",2,mfl,
+T023,2026,2026-07-08,Couchfire,R2 P16,Manic Moose,"Pierce, Alec",2,mfl,
+T024,2025,2025-12-05,Couchfire,"Swift, D'Andre",Blitzkrieg,2026 R2,2,mfl,
+T025,2025,2025-12-04,Scooter's Boozers,"Johnson, Tez; 2026 R3; 2027 R1; 2027 R4",F-Jackie,"Brown, Chase; Smith, DeVonta; 2026 R3",7,mfl,
+T026,2025,2025-12-04,Manic Moose,2026 R2,Couchfire,"Samuel, Deebo; Rams, St. Louis",3,mfl,
+T027,2025,2025-11-27,F-Jackie,"Pittman, Michael",Beers,"Pearsall, Ricky; 2026 R2",3,mfl,
+T028,2025,2025-11-15,Couchfire,"Njoku, David; 2026 R5",Otters,2026 R4,3,mfl,
+T029,2025,2025-10-09,Texas Nashvillians,"Allen, Keenan",Scooter's Boozers,2027 R3,2,mfl,
+T030,2025,2025-10-09,Couchfire,"Wilson, Garrett",F-Jackie,"Johnson, Kaleb; 2026 R1; 2027 R1",4,mfl,
+T031,2025,2025-10-01,F-Jackie,"Wentz, Carson",Manic Moose,2026 R3,2,mfl,
+T032,2025,2025-09-27,Ho Train,"Tagovailoa, Tua; Pittman, Michael",F-Jackie,"Dart, Jaxson; 2027 R2",4,mfl,
+T033,2025,2025-09-26,Ho Train,"Kincaid, Dalton; 2027 R2",Texas Nashvillians,"Pitts, Kyle; 2027 R1",4,mfl,
+T034,2025,2025-09-24,Beers,"Johnston, Quentin; 2026 R1",Texas Nashvillians,"Jacobs, Josh; Wilson, Emanuel; 2026 R5",5,mfl,
+T035,2025,2025-09-23,Ho Train,"Barkley, Saquon; Ridley, Calvin",Otters,"Thomas Jr., Brian; 2027 R2",4,mfl,
+T036,2025,2025-09-19,Couchfire,"Benson, Trey",Tally Wackers,2026 R1,2,mfl,
+T037,2025,2025-09-08,Couchfire,"Ward, Cam",Dunbar Dogs,"Fields, Justin; 2026 R2",3,mfl,
+T038,2025,2025-08-18,Couchfire,"Ridley, Calvin; Williams, Jameson",Ho Train,"Njoku, David; R1 P11; R3 P11",5,mfl,
+T039,2025,2025-08-08,F-Jackie,R16 P09; 2026 R5,Texas Nashvillians,"Allen, Braelon",3,mfl,
+T040,2025,2025-08-07,F-Jackie,2026 R2,Manic Moose,"Mason, Jordan",2,mfl,
+T041,2025,2025-08-06,Texas Nashvillians,"Montgomery, David; Evans, Mike",Manic Moose,R1 P13; R4 P13,4,mfl,
+T042,2025,2025-05-27,F-Jackie,"Mayfield, Baker",Beers,R2 P08; 2026 R5,3,mfl,
+T043,2024,2024-12-08,Beers,"Franklin, Troy",Carter's Commandos,2025 R4,2,mfl,
+T044,2024,2024-11-22,Beers,"Jones, Aaron",Otters,"Pearsall, Ricky",2,mfl,
+T045,2024,2024-11-21,Texas Nashvillians,"Mingo, Jonathan",Beers,"Schoonmaker, Luke",2,mfl,
+T046,2024,2024-10-31,Couchfire,"Allen, Keenan",Manic Moose,"Flacco, Joe",2,mfl,
+T047,2024,2024-10-31,Scooter's Boozers,"Adams, Davante; Kirk, Christian; 2025 R1",OakalDoakals,"Hill, Tyreek",4,mfl,
+T048,2024,2024-10-24,Beers,"Smith, Geno",Da Funk,"Shaheed, Rashid",2,mfl,
+T049,2024,2024-10-24,Beers,"Jones, Daniel; 2025 R6",Scooter's Boozers,"Smith, Geno",3,mfl,
+T050,2024,2024-10-24,Beers,"Allen, Keenan",Couchfire,"Sutton, Courtland",2,mfl,
+T051,2024,2024-10-23,Beers,"Evans, Mike; Vikings, Minnesota",Texas Nashvillians,"Doubs, Romeo; Johnston, Quentin; 2025 R3",5,mfl,
+T052,2024,2024-10-23,Texas Nashvillians,"Williams, Caleb; Polk, Ja'Lynn",Blitzkrieg,"Penix Jr., Michael; London, Drake",4,mfl,
+T053,2024,2024-10-22,Scooter's Boozers,"Tracy, Tyrone; 2025 R4; 2026 R1",Beers,"Kamara, Alvin; Kelce, Travis",5,mfl,
+T054,2024,2024-09-26,Texas Nashvillians,"Lazard, Allen; 2025 R1; 2025 R2; 2026 R1",Carter's Commandos,"Lamb, CeeDee",5,mfl,
+T055,2024,2024-09-19,Texas Nashvillians,"Dobbins, J.K.",Manic Moose,"Godwin, Chris",2,mfl,
+T056,2024,2024-09-08,Manic Moose,"Pearsall, Ricky",Otters,"Moss, Zack",2,mfl,
+T057,2024,2024-08-18,Manic Moose,"Hopkins, DeAndre",Iron City Pounders,R4 P02,2,mfl,
+T058,2024,2024-08-18,Manic Moose,"Watson, Deshaun",Carter's Commandos,R2 P04,2,mfl,
+T059,2024,2024-08-09,Dunbar Dogs,2025 R3,Otters,"Hubbard, Chuba",2,mfl,
+T060,2024,2024-08-09,Dunbar Dogs,"Pierce, Alec; 2025 R3",Manic Moose,"Ford, Jerome",3,mfl,
+T061,2024,2024-08-06,Scooter's Boozers,R2 P15,Blitzkrieg,"Stevenson, Rhamondre",2,mfl,
+T062,2024,2024-08-06,Scooter's Boozers,"Mattison, Alexander",Dunbar Dogs,R4 P01,2,mfl,
+T063,2024,2024-08-01,Dunbar Dogs,R1 P09; R2 P01; 2025 R1,Carter's Commandos,R1 P04,4,mfl,
+T064,2023,2024-01-13,Blitzkrieg,"Smith-Njigba, Jaxon",Manic Moose,"McCaffrey, Christian",2,mfl,
+T065,2023,2023-12-10,Texas Nashvillians,"Sutton, Courtland",Couchfire,"Mingo, Jonathan; 2025 R3",3,mfl,
+T066,2023,2023-11-30,Couchfire,2024 R2; 2024 R3,Scooter's Boozers,"Wilson, Russell",3,mfl,
+T067,2023,2023-11-14,Beers,2024 R2; 2025 R3,Dunbar Dogs,"Kamara, Alvin; 2025 R6",4,mfl,
+T068,2023,2023-11-14,Manic Moose,2024 R2,F-Jackie,"Hopkins, DeAndre",2,mfl,
+T069,2023,2023-10-26,F-Jackie,"Harris, Najee; 2024 R4",Scooter's Boozers,2024 R8; 2025 R2,4,mfl,
+T070,2023,2023-10-11,Texas Nashvillians,"Carr, Derek",Couchfire,"Dobbins, J.K.",2,mfl,
+T071,2023,2023-09-28,Texas Nashvillians,"Henry, Derrick; Osborn, K.J.",Iron City Pounders,"Jacobs, Josh",3,mfl,
+T072,2023,2023-09-17,Couchfire,"Carr, Derek",Texas Nashvillians,2024 R5,2,mfl,
+T073,2023,2023-08-15,Scooter's Boozers,"Peoples-Jones, Donovan",Carter's Commandos,R4 P01,2,mfl,
+T074,2023,2023-08-09,Manic Moose,"Pacheco, Isiah; Evans, Mike; R3 P06",Beers,"Pittman, Michael",4,mfl,
+T075,2023,2023-08-07,Ho Train,R3 P13,Da Funk,"Moore, Elijah",2,mfl,
+T076,2023,2023-07-25,Scooter's Boozers,R1 P15,Da Funk,"Mattison, Alexander; Adams, Davante",3,mfl,
+T077,2022,2022-11-30,Beers,"Peoples-Jones, Donovan; 2023 R1",Scooter's Boozers,"Pittman, Michael",3,mfl,
+T078,2022,2022-11-28,Scooter's Boozers,2024 R1,Dunbar Dogs,"Love, Jordan",2,mfl,
+T079,2022,2022-11-27,Couchfire,"Robinson, Allen",Manic Moose,2023 R5,2,mfl,
+T080,2022,2022-11-20,Otters,"Thielen, Adam",Beers,"Hines, Nyheim",2,mfl,
+T081,2022,2022-11-07,Ho Train,"Harris, Najee",F-Jackie,"Hall, Breece",2,mfl,
+T082,2022,2022-11-04,Dunbar Dogs,"Burks, Treylon; 2023 R1",Otters,"Kamara, Alvin",3,mfl,
+T083,2022,2022-10-06,Manic Moose,"Williams, Jameson",Couchfire,"Etienne, Travis",2,mfl,
+T084,2022,2022-09-06,Couchfire,R1 P04,Ho Train,"Cooper, Amari",2,mfl,
+T085,2022,2022-08-16,Texas Nashvillians,R4 P01,Iron City Pounders,"Sutton, Courtland",2,mfl,
+T086,2022,2022-06-20,Scooter's Boozers,R3 P03,Da Funk,"Sanders, Miles",2,mfl,
+T087,2022,2022-06-16,Ho Train,"Kirk, Christian",Scooter's Boozers,2023 R3,2,mfl,
+T088,2022,2022-06-12,Manic Moose,2022 R2,Ho Train,"Penny, Rashaad",2,mfl,
+T089,2021,2021-12-05,F-Jackie,"Henry, Derrick",Texas Nashvillians,"Mooney, Darnell; 2022 R1",3,mfl,
+T090,2021,2021-12-04,Manic Moose,"Hopkins, DeAndre",F-Jackie,"Moore, D.J.",2,mfl,
+T091,2021,2021-12-01,Scooter's Boozers,"Kupp, Cooper",Ho Train,"Dillon, AJ; 2022 R2; 2022 R4",4,mfl,
+T092,2021,2021-11-25,Couchfire,"Evans, Mike; 2022 R2",Manic Moose,"Robinson, Allen; 2023 R1",4,mfl,
+T093,2021,2021-11-19,Ho Train,"Gaskin, Myles; 2023 R2",F-Jackie,2023 R1,3,mfl,
+T094,2021,2021-11-09,Beers,"Sharpe, Tajae; 2022 R1",Carter's Commandos,"Allen, Keenan; 2022 R5",4,mfl,
+T095,2021,2021-10-15,Scooter's Boozers,2022 R3,Karpet Munchers,"Ertz, Zach",2,mfl,
+T096,2021,2021-10-08,Scooter's Boozers,"Brown, Antonio",F-Jackie,"Moss, Zack; 2022 R3",3,mfl,
+T097,2021,2021-08-24,Da Funk,"Reagor, Jalen",Couchfire,R4 P05,2,mfl,
+T098,2021,2021-08-24,Scooter's Boozers,"Samuel, Deebo; R4 P04",Da Funk,"Robinson, James",3,mfl,
+T099,2021,2021-08-24,Manic Moose,"Gage, Russell",Karpet Munchers,R5 P07,2,mfl,
+T100,2021,2021-08-23,Ho Train,R2 P01,Da Funk,"Cooper, Amari",2,mfl,
+T101,2021,2021-08-22,Scooter's Boozers,"Lindsay, Phillip",Tally Wackers,R4 P09,2,mfl,
+T102,2021,2021-07-21,Scooter's Boozers,"Hunt, Kareem; R3 P14",OakalDoakals,R1 P12,3,mfl,
+T103,2021,2021-07-05,F-Jackie,"Jackson, Lamar; R4 P08",Manic Moose,"Cook, Dalvin; R2 P15",4,mfl,
+T104,2020,2020-11-26,Texas Nashvillians,"Samuel, Curtis",F-Jackie,"Montgomery, David",2,mfl,
+T105,2020,2020-11-21,Couchfire,"Murray, Latavius; Carlson, Daniel; 2021 R5",Otters,"Bourne, Kendrick; Bullock, Randy; 2021 R4",6,mfl,
+T106,2020,2020-10-22,Karpet Munchers,"Jones, Daniel",Couchfire,"Tannehill, Ryan",2,mfl,
+T107,2020,2020-10-20,Manic Moose,2022 R4,Ho Train,"Gore, Frank",2,mfl,
+T108,2020,2020-10-18,Otters,"Dalton, Andy",OakalDoakals,2021 R3,2,mfl,
+T109,2020,2020-10-16,Scooter's Boozers,"Ebron, Eric; 2022 R2",Ho Train,"Tonyan, Robert",3,mfl,
+T110,2020,2020-10-16,Scooter's Boozers,"Chiefs, Kansas City; 2021 R1",Carter's Commandos,"Bell, Le'Veon; Patriots, New England",4,mfl,
+T111,2020,2020-10-16,Texas Nashvillians,"Slayton, Darius",Ho Train,"Boyd, Tyler",2,mfl,
+T112,2020,2020-09-29,Manic Moose,"Higgins, Tee; Jeudy, Jerry; 2021 R1",Tally Wackers,"McCoy, LeSean; Hopkins, DeAndre",5,mfl,
+T113,2020,2020-09-27,Beers,"Johnson, Collin; 2021 R1",Ho Train,"Gordon, Melvin; Butker, Harrison",4,mfl,
+T114,2020,2020-09-24,Manic Moose,"Barkley, Saquon; Johnson, Diontae; Thomas, Ian",Ho Train,"Cook, Dalvin; Godwin, Chris; Hockenson, T.J.",6,mfl,
+T115,2020,2020-08-26,Scooter's Boozers,R1 P06,Texas Nashvillians,"Mostert, Raheem; Samuel, Deebo; R2 P09; 2021 R4",5,mfl,
+T116,2020,2020-08-25,Couchfire,R1 P06; R2 P06; R3 P06,Scooter's Boozers,R1 P02,4,mfl,
+T117,2020,2020-08-24,Scooter's Boozers,"Garoppolo, Jimmy",Carter's Commandos,R2 P07; 2021 R3,3,mfl,
+T118,2020,2020-08-07,Couchfire,"Diggs, Stefon; 2020 R6",Dunbar Dogs,"Ridley, Calvin; 2020 R4",4,mfl,
+T119,2019,2019-11-23,Beers,"Fitzgerald, Larry",Otters,2020 R4,2,mfl,
+T120,2019,2019-11-23,Couchfire,"Crowder, Jamison; 2020 R5",Manic Moose,2020 R3,3,mfl,
+T121,2019,2019-11-23,Couchfire,"Scarbrough, Bo; 2020 R4",OakalDoakals,2020 R3,3,mfl,
+T122,2019,2019-11-19,Beers,2021 R2,Texas Nashvillians,"Tate, Golden",2,mfl,
+T123,2019,2019-10-17,Manic Moose,"Wilson, Russell; Lindsay, Phillip; Metcalf, DK",Scooter's Boozers,"Carr, Derek; Barkley, Saquon; Funchess, Devin",6,mfl,
+T124,2019,2019-10-16,Couchfire,"Cousins, Kirk",Otters,2021 R2,2,mfl,
+T125,2019,2019-09-25,Beers,"Jones, Marvin",Karpet Munchers,"Thompson, Chris",2,mfl,
+T126,2019,2019-09-20,Scooter's Boozers,2021 R2,Otters,"Goodwin, Marquise",2,mfl,
+T127,2019,2019-09-03,Beers,"Samuel, Deebo",Texas Nashvillians,"Sanders, Emmanuel; R3 P05",3,mfl,
+T128,2019,2019-08-22,Iron City Pounders,"Ertz, Zach",Otters,R1 P12,2,mfl,
+T129,2019,2019-08-21,Texas Nashvillians,"Brady, Tom; Gurley, Todd",Tally Wackers,"Mayfield, Baker; R3 P15; 2020 R2",5,mfl,
+T130,2019,2019-08-21,Texas Nashvillians,"Garoppolo, Jimmy",Scooter's Boozers,R2 P07; R7 P11,3,mfl,
+T131,2019,2019-08-19,Scooter's Boozers,"Mack, Marlon",Blitzkrieg,R1 P08,2,mfl,
+T132,2019,2019-08-19,Blitzkrieg,R4 P08,Manic Moose,"Moncrief, Donte",2,mfl,
+T133,2019,2019-08-14,Beers,"Howard, Jordan; Sanders, Emmanuel",Texas Nashvillians,R3 P11,3,mfl,
+T134,2019,2019-08-12,Tally Wackers,"Coleman, Tevin",Beers,2020 R2,2,mfl,
+T135,2019,2019-07-24,Scooter's Boozers,R2 P11,OakalDoakals,R2 P07,2,mfl,
+T136,2019,2019-07-19,Dunbar Dogs,"R1 P02; Ertz, Zach",Iron City Pounders,R1 P01,3,mfl,
+T137,2019,2019-07-19,Scooter's Boozers,"Watkins, Sammy",Manic Moose,R2 P07,2,mfl,
+T138,2019,2019-07-18,Dunbar Dogs,"Diggs, Stefon; R1 P09; 2020 R1",Couchfire,R1 P02,4,mfl,
+T139,2019,2019-07-18,Scooter's Boozers,"Ertz, Zach; 2019 R1",Dunbar Dogs,"Brown, Antonio; 2019 R2",4,mfl,
+T140,2018,2018-11-11,Iron City Pounders,"Fitzgerald, Larry",Beers,2019 R4,2,mfl,
+T141,2018,2018-11-09,Scooter's Boozers,2019 R4,Da Funk,"Bryant, Dez",2,mfl,
+T142,2018,2018-11-09,Scooter's Boozers,"Crowder, Jamison; Evans, Mike",Couchfire,"Kupp, Cooper; Watkins, Sammy; 2019 R3; 2019 R4",6,mfl,
+T143,2018,2018-10-30,Scooter's Boozers,"Ivory, Christopher",Carter's Commandos,"Fitzpatrick, Ryan",2,mfl,
+T144,2018,2018-10-30,Beers,"Henry, Derrick; Ross, John; 2019 R2",F-Jackie,"Cooks, Brandin",4,mfl,
+T145,2018,2018-10-19,Scooter's Boozers,"Cohen, Tarik; 2020 R2",Carter's Commandos,"Evans, Mike",3,mfl,
+T146,2018,2018-10-16,Scooter's Boozers,2020 R4,Otters,"Manning, Eli",2,mfl,
+T147,2018,2018-10-11,Beers,"Allen, Josh",F-Jackie,"Howard, Jordan",2,mfl,
+T148,2018,2018-08-04,Otters,"Coleman, Corey",Scooter's Boozers,R4 P01,2,mfl,
+T149,2018,2018-08-02,Da Funk,"Henry, Derrick",Beers,"Parker, DeVante; R3 P13",3,mfl,
+T150,2018,2018-07-26,Scooter's Boozers,2019 R2; 2020 R3,OakalDoakals,"Ertz, Zach",3,mfl,
+T151,2018,2018-07-25,Beers,"Blount, LeGarrette",Iron City Pounders,R3 P13,2,mfl,
+T152,2018,2018-07-25,Scooter's Boozers,"Ware, Spencer",Iron City Pounders,"Patterson, Cordarrelle",2,mfl,
+T153,2017,2018-03-19,Beers,"Stewart, Jonathan",Scooter's Boozers,2019 R4,2,mfl,
+T154,2017,2018-02-06,Scooter's Boozers,2019 R3; 2018 R6,Texas Nashvillians,"Crowder, Jamison; 2018 R5",4,mfl,
+T155,2017,2018-01-03,Texas Nashvillians,"McCaffrey, Christian",Manic Moose,2018 R1,2,mfl,
+T156,2017,2018-01-03,Otters,"Anderson, C.J.; Dixon, Kenneth; Kelce, Travis",Beers,2018 R1,4,mfl,
+T157,2017,2017-10-21,Texas Nashvillians,2018 R1; 2019 R1,F-Jackie,"Green, A.J.",3,mfl,
+T158,2017,2017-10-16,Beers,"Smith, Torrey",Texas Nashvillians,"Breida, Matt",2,mfl,
+T159,2017,2017-09-20,Texas Nashvillians,2018 R2,Tally Wackers,"Witten, Jason",2,mfl,
+T160,2017,2017-09-12,Manic Moose,"Brees, Drew",Otters,"Moncrief, Donte",2,mfl,
+T161,2017,2017-09-12,Manic Moose,"Beckham, Odell; 2018 R2",OakalDoakals,"Wilson, Russell; Robinson, Allen",4,mfl,
+T162,2017,2017-08-16,Beers,"Hill, Jeremy",Iron City Pounders,R2 P14,2,mfl,
+T163,2017,2017-08-16,Beers,R5 P10,Da Funk,"Edelman, Julian",2,mfl,
+T164,2017,2017-08-15,Carter's Commandos,"Baldwin, Doug",Manic Moose,R3 P07,2,mfl,
+T165,2017,2017-08-11,Texas Nashvillians,R3 P03,Dunbar Dogs,"Crowder, Jamison",2,mfl,
+T166,2017,2017-08-09,Bunchalosers,R1 P02,Dunbar Dogs,"Freeman, Devonta; R1 P12",3,mfl,
+T167,2017,2017-08-08,Carter's Commandos,"Snead, Willie",Bunchalosers,R3 P02,2,mfl,
+T168,2017,2017-08-08,Scooter's Boozers,R1 P10; 2018 R3,Carter's Commandos,"Ware, Spencer; Pryor, Terrelle",4,mfl,
+T169,2016,2016-11-14,Beers,"Nelson, J.J.; 2017 R1; 2017 R4",Scooter's Boozers,"Murray, Latavius",4,mfl,
+T170,2016,2016-10-28,Beers,"Stills, Kenny",Texas Nashvillians,"Seahawks, Seattle",2,mfl,
+T171,2016,2016-10-02,Beers,"Sharpe, Tajae",Scooter's Boozers,"Bradford, Sam",2,mfl,
+T172,2016,2016-09-21,Beers,"Britt, Kenny",OakalDoakals,"Thomas, Julius",2,mfl,
+T173,2016,2016-08-10,Scooter's Boozers,"Morris, Alfred; Boldin, Anquan; Jackson, DeSean",Ho Train,R3 P11,4,mfl,
+T174,2016,2016-08-10,Beers,R3 P02,Manic Moose,"Jones, Marvin",2,mfl,
+T175,2016,2016-08-10,Bunchalosers,"Sanders, Emmanuel",Beers,R4 P02,2,mfl,
+T176,2016,2016-08-10,Scooter's Boozers,2017 R6,Bunchalosers,"Crabtree, Michael",2,mfl,
+T177,2016,2016-08-09,Otters,"Jones, Matt",Karpet Munchers,"Maclin, Jeremy",2,mfl,
+T178,2016,2016-08-09,Texas Nashvillians,"Gordon, Josh",Scooter's Boozers,2018 R5,2,mfl,
+T179,2016,2016-07-29,Manic Moose,2017 R1,Dunbar Dogs,"Tannehill, Ryan",2,mfl,
+T180,2016,2016-07-28,Scooter's Boozers,"Griffin III, Robert; 2017 R1",Manic Moose,"Jennings, Rashad; Peterson, Adrian; R4 P12",5,mfl,
+T181,2016,2016-07-28,Scooter's Boozers,"Blount, LeGarrette",Beers,R3 P03,2,mfl,
+T182,2016,2016-07-26,Scooter's Boozers,R3 P03,Beers,,1,mfl,
+T183,2015,2015-11-11,Texas Nashvillians,"Ivory, Christopher",Da Funk,"Hurns, Allen",2,mfl,
+T184,2015,2015-11-06,Bunchalosers,"Carr, Derek; Murray, Latavius",Scooter's Boozers,"Cousins, Kirk; Lacy, Eddie; Starks, James; Watkins, Sammy",6,mfl,
+T185,2015,2015-11-05,Beers,"Peterson, Adrian; Gates, Antonio",Manic Moose,2016 R1; 2017 R2,4,mfl,
+T186,2015,2015-11-04,Texas Nashvillians,2016 R2,Beers,"Garcon, Pierre",2,mfl,
+T187,2015,2015-10-22,Otters,"Floyd, Malcolm; Jackson, Vincent",Ho Train,2017 R2,3,mfl,
+T188,2015,2015-10-13,Otters,"Murray, DeMarco",Iron City Pounders,2016 R1,2,mfl,
+T189,2015,2015-08-31,Beers,"Cousins, Kirk",Scooter's Boozers,2017 R3,2,mfl,
+T190,2015,2015-08-15,Otters,"Bell, Joique; Blue, Alfred",Ho Train,R2 P04,3,mfl,
+T191,2015,2015-08-11,Scooter's Boozers,2016 R4,Carter's Commandos,"Wright, Kendall",2,mfl,
+T192,2014,2015-04-07,Scooter's Boozers,"Cutler, Jay; 2016 R2",Carter's Commandos,"Bradford, Sam",3,mfl,
+T193,2014,2015-03-19,Beers,2016 R1,Otters,"Manning, Peyton",2,mfl,
+T194,2014,2014-11-24,Beers,"Wayne, Reggie",OakalDoakals,2015 R4,2,mfl,
+T195,2014,2014-11-23,F-Jackie,2015 R4,Iron City Pounders,"Vinatieri, Adam",2,mfl,
+T196,2014,2014-10-28,Manic Moose,"Glennon, Mike",Beers,"Jackson, Fred",2,mfl,
+T197,2014,2014-10-28,Texas Nashvillians,2015 R3,Beers,"Ivory, Christopher",2,mfl,
+T198,2014,2014-10-23,Bunchalosers,"Matthews, Jordan; Wallace, Mike",Beers,"Kaepernick, Colin; Crabtree, Michael",4,mfl,
+T199,2014,2014-10-23,Scooter's Boozers,"LaFell, Brandon; Daniels, Owen; 2015 R3",Iron City Pounders,"Bennett, Martellus",4,mfl,
+T200,2014,2014-10-20,Beers,"Robinson, Allen",OakalDoakals,"Bortles, Blake",2,mfl,
+T201,2014,2014-10-09,Beers,"Glennon, Mike",Manic Moose,2015 R4,2,mfl,
+T202,2014,2014-08-26,Bunchalosers,R1 P01,Scooter's Boozers,R1 P09; R2 P09,3,mfl,
+T203,2014,2014-08-11,Texas Nashvillians,R1 P15,Dunbar Dogs,"Gordon, Josh",2,mfl,
+T204,2014,2014-08-06,Beers,R3 P08,Scooter's Boozers,"McFadden, Darren",2,mfl,
+T205,2014,2014-08-06,Beers,"Woods, Robert",Da Funk,R3 P03,2,mfl,
+T206,2014,2014-08-06,Scooter's Boozers,2015 R2,Manic Moose,"Bowe, Dwayne",2,mfl,
+T207,2014,2014-08-02,Bunchalosers,R3 P01; 2015 R5,OakalDoakals,"Manuel, E.J.",3,mfl,
+T208,2014,2014-07-30,Manic Moose,"Bush, Reggie; Decker, Eric",Iron City Pounders,"Amendola, Danny; Patterson, Cordarrelle",4,mfl,
+T209,2014,2014-07-16,Manic Moose,"Reed, Jordan",Scooter's Boozers,R5 P04; R5 P09,3,mfl,
+T210,2013,2013-10-31,Beers,2014 R5,Manic Moose,"Keenum, Case",2,mfl,
+T211,2013,2013-10-25,Manic Moose,"Lewis, Thaddeus",F-Jackie,2014 R5,2,mfl,
+T212,2013,2013-09-25,OakalDoakals,"Bowe, Dwayne",Manic Moose,"Bradshaw, Ahmad",2,mfl,
+T213,2013,2013-08-18,Scooter's Boozers,2014 R4,Tally Wackers,R4 P08,2,mfl,
+T214,2013,2013-08-18,Carter's Commandos,"Smith, Alex",Karpet Munchers,R2 P14,2,mfl,
+T215,2013,2013-08-03,Tally Wackers,"Sanders, Emmanuel",Bunchalosers,2015 R3,2,mfl,
+T216,2013,2013-06-21,Manic Moose,"Marshall, Brandon; 2014 R2",OakalDoakals,R1 P03,3,mfl,
+T217,2012,2012-11-22,F-Jackie,2013 R1,Scooter's Boozers,"Gore, Frank",2,mfl,
+T218,2012,2012-11-22,Bunchalosers,2013 R2; 2014 R2,Beers,"Palmer, Carson; Jones, Donald",4,mfl,
+T219,2012,2012-11-22,Ho Train,"Freeman, Josh; Pettigrew, Brandon",F-Jackie,"Ingram, Mark; Gronkowski, Rob",4,mfl,
+T220,2012,2012-11-21,Manic Moose,2013 R2,Da Funk,"Bush, Reggie",2,mfl,
+T221,2012,2012-11-21,Beers,"LaFell, Brandon",Iron City Pounders,"Olsen, Greg",2,mfl,
+T222,2012,2012-11-21,Beers,2013 R1,Da Funk,"Wayne, Reggie",2,mfl,
+T223,2012,2012-08-12,Tally Wackers,,Manic Moose,2013 R5,1,mfl,
+T224,2012,2012-08-12,Tally Wackers,,Scooter's Boozers,2013 R4,1,mfl,
+T225,2012,2012-08-12,Tally Wackers,,Texas Nashvillians,2013 R4,1,mfl,
+T226,2012,2012-08-12,Dunbar Dogs,"Garcon, Pierre; 2013 R2",Beers,"Turner, Michael",3,mfl,
+T227,2012,2012-08-10,Iron City Pounders,"Starks, James",Texas Nashvillians,"Meachem, Robert",2,mfl,
+T228,2012,2012-07-29,Manic Moose,R2 P10; 2013 R1,F-Jackie,"Marshall, Brandon",3,mfl,
+T229,2012,2012-07-29,Manic Moose,"Welker, Wes",Blitzkrieg,"Bradshaw, Ahmad",2,mfl,
+T230,2012,2012-07-29,Scooter's Boozers,R1 P12; R6 P03,OakalDoakals,"Blount, LeGarrette; R2 P13",4,mfl,
+T231,2012,2012-06-26,Otters,"Jackson, Fred",Iron City Pounders,R2 P08,2,mfl,
+T232,2012,2012-05-21,Beers,R2 P07,Otters,"Turner, Michael",2,mfl,
+T233,2011,2011-11-29,Beers,"Gaffney, Jabar",Otters,2012 R4,2,mfl,
+T234,2011,2011-11-28,Manic Moose,"Gates, Antonio",OakalDoakals,"Tolbert, Mike; 2012 R5",3,mfl,
+T235,2011,2011-11-16,Manic Moose,2012 R4,Otters,"Moore, Matt",2,mfl,
+T236,2011,2011-11-15,Tally Wackers,"Palmer, Carson; 2012 R3; 2012 R3",Beers,2012 R1,4,mfl,
+T237,2011,2011-11-13,Beers,"Barber, Marion",Texas Nashvillians,"Jones, Jacoby",2,mfl,
+T238,2011,2011-11-11,Beers,2012 R3,Blitzkrieg,"Hernandez, Aaron",2,mfl,
+T239,2011,2011-10-18,Texas Nashvillians,"Gostkowski, Stephen",Tally Wackers,"Akers, David",2,mfl,
+T240,2011,2011-09-28,Manic Moose,"Flynn, Matt; Moore, Lance",Otters,"Graham, Jimmy",3,mfl,
+T241,2011,2011-09-19,Da Funk,"Snelling, Jason",Texas Nashvillians,"Ivory, Christopher",2,mfl,
+T242,2011,2011-09-14,Tally Wackers,"Daniels, Owen",Scooter's Boozers,2012 R4,2,mfl,
+T243,2011,2011-09-12,Tally Wackers,,Otters,2012 R3,1,mfl,
+T244,2011,2011-09-11,Texas Nashvillians,"Cobb, Randall; 2012 R3; 2013 R1",Tally Wackers,"Jennings, Greg",4,mfl,
+T245,2011,2011-09-11,Iron City Pounders,2012 R1; 2012 R5,Tally Wackers,"Williams, DeAngelo",3,mfl,
+T246,2011,2011-09-10,Tally Wackers,"Bowe, Dwayne",OakalDoakals,2012 R1; 2012 R1,3,mfl,
+T247,2011,2011-09-10,Tally Wackers,"Manning, Eli",Otters,2012 R1,2,mfl,
+T248,2011,2011-08-14,OakalDoakals,"Lynch, Marshawn",Karpet Munchers,"Romo, Tony",2,mfl,
+T249,2011,2011-08-10,Beers,R3 P12; R3 P13,Tally Wackers,"Walker, Mike",3,mfl,
+T250,2010,2011-08-08,Beers,2011 R3,Tally Wackers,"Walker, Mike",2,mfl,
+T251,2010,2011-08-08,Beers,"Hasselbeck, Matt",OakalDoakals,"Royal, Eddie",2,mfl,
+T252,2010,2010-11-16,Scooter's Boozers,"Brown, Donald; 2011 R1",F-Jackie,"Jackson, DeSean; 2011 R3",4,mfl,
+T253,2010,2010-11-12,Scooter's Boozers,"Royal, Eddie; 2011 R1; 2012 R2",OakalDoakals,"McFadden, Darren",4,mfl,
+T254,2010,2010-10-14,Beers,"Lewis, Marcedes",Da Funk,2011 R4,2,mfl,
+T255,2010,2010-09-24,Beers,"Eagles, Philadelphia",Manic Moose,2011 R8,2,mfl,
+T256,2010,2010-09-20,Beers,"Thomas, Mike",OakalDoakals,"Steelers, Pittsburgh",2,mfl,
+T257,2010,2010-09-02,Manic Moose,2011 R1; 2012 R1,OakalDoakals,,2,mfl,
+T258,2010,2010-09-02,Scooter's Boozers,,Texas Nashvillians,2011 R1; 2012 R1,2,mfl,
+T259,2010,2010-08-28,Bunchalosers,"Portis, Clinton",Manic Moose,R2 P01,2,mfl,
+T260,2010,2010-08-22,Texas Nashvillians,R1 P09; R2 P09,OakalDoakals,R1 P01,3,mfl,
+T261,2010,2010-08-17,Otters,,Bunchalosers,R3 P05,1,mfl,
+T262,2010,2010-07-05,Beers,R2 P08; R4 P08,Ho Train,"Johnson, Chad",3,mfl,
+T263,2010,2010-07-03,Beers,"Cotchery, Jerricho",Manic Moose,R3 P12,2,mfl,
+T264,2010,2010-07-03,Iron City Pounders,R2 P11,Manic Moose,"Tomlinson, Ladainian",2,mfl,
+T265,2010,2010-07-01,Scooter's Boozers,,Dunbar Dogs,"Coffee, Glen",1,mfl,
+T266,2010,2010-06-02,Manic Moose,"Moore, Matt",OakalDoakals,,1,mfl,
+T267,2010,2010-04-30,Dunbar Dogs,,Scooter's Boozers,2011 R2,1,mfl,
+T268,2010,2010-04-30,Dunbar Dogs,,Bunchalosers,R2 P05,1,mfl,
+T269,2010,2010-04-30,Manic Moose,,OakalDoakals,R2 P01,1,mfl,
+T270,2010,2010-04-30,Da Funk,R1 P06,F-Jackie,,1,mfl,
+T271,2010,2010-04-30,Manic Moose,R4 P12,Da Funk,,1,mfl,
+T272,2010,2010-04-30,Manic Moose,,Scooter's Boozers,R3 P04,1,mfl,
+T273,2010,2010-04-30,Scooter's Boozers,R2 P04,Texas Nashvillians,,1,mfl,
+T274,2010,2010-04-30,Manic Moose,R1 P12,Blitzkrieg,,1,mfl,
+T275,2010,2010-04-30,Beers,R3 P08,Blitzkrieg,,1,mfl,
+T276,2010,2010-04-30,Manic Moose,R2 P12,Tally Wackers,,1,mfl,
+T277,2009,2010-03-14,Dunbar Dogs,"Coffee, Glen",Scooter's Boozers,2011 R2,2,mfl,
+T278,2009,2010-03-05,OakalDoakals,2010 R2,Manic Moose,"Moore, Matt",2,mfl,
+T279,2009,2010-02-27,Dunbar Dogs,"Collie, Austin; Nelson, Jordy",Bunchalosers,2010 R2,3,mfl,
+T280,2009,2010-01-18,Da Funk,2010 R1,F-Jackie,"Wayne, Reggie",2,mfl,
+T281,2009,2009-11-12,Manic Moose,"Bears, Chicago; 2010 R4",Da Funk,"Eagles, Philadelphia",3,mfl,
+T282,2009,2009-11-11,Da Funk,"Gore, Frank; Norwood, Jerious",Scooter's Boozers,"Bush, Reggie; Hightower, Tim",4,mfl,
+T283,2009,2009-11-06,Otters,"Smith, Alex",Bunchalosers,2010 R3,2,mfl,
+T284,2009,2009-10-28,Manic Moose,"Celek, Brent",Scooter's Boozers,"Bills, Buffalo; 2010 R3",3,mfl,
+T285,2009,2009-09-18,Manic Moose,"Hasselbeck, Matt; Gaffney, Jabar",Beers,"Williams, Ricky; Berrian, Bernard",4,mfl,
+T286,2009,2009-08-31,Scooter's Boozers,"Choice, Tashard; Bryant, Antonio",F-Jackie,"Grant, Ryan",3,mfl,
+T287,2009,2009-08-27,Scooter's Boozers,R1 P14; R2 P12; R3 P14,OakalDoakals,R1 P04,4,mfl,
+T288,2009,2009-07-05,Scooter's Boozers,"Owens, Terrell",Texas Nashvillians,R2 P12,2,mfl,
+T289,2009,2009-07-01,Manic Moose,"Bulger, Marc",Iron City Pounders,R3 P11,2,mfl,
+T290,2009,2009-07-01,Otters,"Pennington, Chad; Holt, Torry",Bunchalosers,R2 P05,3,mfl,
+T291,2008,2008-11-13,Scooter's Boozers,"Lynch, Marshawn",OakalDoakals,"James, Edgerrin; Boldin, Anquan; 2009 R2",4,mfl,
+T292,2008,2008-11-13,Scooter's Boozers,2010 R2,Texas Nashvillians,"Gonzalez, Tony",2,mfl,
+T293,2008,2008-11-12,Blitzkrieg,"Brees, Drew",Manic Moose,"Addai, Joseph; 2010 R1",3,mfl,
+T294,2008,2008-11-11,Beers,"Jaguars, Jacksonville",F-Jackie,2009 R4,2,mfl,
+T295,2008,2008-10-30,Blitzkrieg,"Titans, Tennessee",Beers,2010 R3,2,mfl,
+T296,2008,2008-10-30,F-Jackie,2009 R6,Beers,,1,mfl,
+T297,2008,2008-10-30,Bunchalosers,2009 R3,Beers,,1,mfl,
+T298,2008,2008-10-30,Beers,2009 R1,Da Funk,,1,mfl,
+T299,2008,2008-10-16,Beers,"Henderson, Devery; Dolphins, Miami",Carter's Commandos,"Jaguars, Jacksonville",3,mfl,
+T300,2008,2008-10-03,Texas Nashvillians,"Ward, Hines",Beers,"Hardy, James; 2009 R2",3,mfl,
+T301,2008,2008-10-01,Texas Nashvillians,"Johnson, Larry",Otters,2009 R1,2,mfl,
+T302,2008,2008-08-24,Manic Moose,2009 R1; 2010 R2,Tally Wackers,"Bulger, Marc",3,mfl,
+T303,2008,2008-07-10,Beers,R1 P02; 2009 R3,Tally Wackers,"Witten, Jason; R2 P05; R2 P12; 2009 R1",6,mfl,
+T304,2008,2008-07-03,Manic Moose,"Parker, Willie",Iron City Pounders,R1 P08,2,mfl,
+T305,2008,2008-07-03,Dunbar Dogs,"Addai, Joseph; White, Roddy; R2 P13",Manic Moose,"Graham, Earnest; Burress, Plaxico; R1 P06",6,mfl,
+T306,2008,2008-07-02,OakalDoakals,R2 P14,Dunbar Dogs,"Taylor, Fred; Jones, Jacoby",3,mfl,
+T307,2008,2008-07-02,Manic Moose,"Fargas, Justin",OakalDoakals,2009 R3,2,mfl,
+T308,2008,2008-07-02,Scooter's Boozers,"Burleson, Nate",Manic Moose,"Owens, Terrell",2,mfl,
+T309,2008,2008-06-14,Bunchalosers,2008 R1,Beers,"Jones-Drew, Maurice",2,mfl,
+T310,2008,2008-06-14,Da Funk,"Johnson, Rudi",Beers,,1,mfl,
+T311,2007,,Bunchalosers,,Beers,,0,archive,"Bunchaslosers send Indi, 2009 3rd round pick , and 2008 4th round pick to Beers for Carolina, A Smith, and K Curtis"
+T312,2007,,F-Jackie,,Beers,,0,archive,F-Jackie sends 2008 3rd round pick and 2009 6th round pick to Beers for B Marshall
+T313,2007,,Texas Nashvillians,,Ho Train,,0,archive,Texans send 2008 7th round pick to Ho Train for Q Gray
+T314,2007,,Bunchalosers,,Iron City Pounders,,0,archive,Bunchalosers send L. White and 2008 2nd round pick to IC Pounders for D Culpepper and J Jerevicius
+T315,2007,,F-Jackie,,Texas Nashvillians,,0,archive,"F-Jackie sends K. Collins and B Westbrook to Texans for (2) 2008 1st round picks , 2008 3rd round pick , N Washington, and C Williams"
+T316,2007,,Scooter's Boozers,,Blitzkrieg,,0,archive,Boozers send 2007 7th round pick and 2008 2nd round pick to Blitzkrieg for C Pennington
+T317,2007,,Texas Nashvillians,,Karpet Munchers,,0,archive,Texans send 2007 5th round pick to Munchers for C Frye
+T318,2007,,Dunbar Dogs,,Texas Nashvillians,,0,archive,Dogs send 2007 2nd round pick and 2008 1st round pick to Texans for F Taylor
+T319,2007,,Ho Train,,OakalDoakals,,0,archive,Ho Train sends E James to Oakaldoaksl for 2007 2nd round pick
+T320,2007,,Texas Nashvillians,,Scooter's Boozers,,0,archive,Texans send T Glenn to Boozers for 2008 3rd round pick
+T321,2007,,Beers,,Da Funk,,0,archive,Beers send C Chambers to Da Funk for A Crumpler and 2007 2nd round pick
+T322,2006,,F-Jackie,,Karpet Munchers,,0,archive,"F-Jackie sends P Rivers and 2007 1st round pick to Munchers for B Westbrook, M Harrison, D Carr"
+T323,2006,,Beers,,Bunchalosers,,0,archive,Beers send T Brown to Bunchalosers for 2008 9th round pick
+T324,2006,,Manic Moose,,Iron City Pounders,,0,archive,Moose send D Culpepper to IC Pounders for 2008 2nd round pick
+T325,2006,,Manic Moose,,Otters,,0,archive,Moose send 2008 2nd round pick to Otters for J Kitna
+T326,2006,,Beers,,Da Funk,,0,archive,Beers send N Washington to Da Funk for 2008 5th round pick
+T327,2006,,Beers,,Texas Nashvillians,,0,archive,"Beers send T Glenn and F Taylor to Texans for N Washington, C Chambers, and 2007 3rd round pick"
+T328,2006,,Manic Moose,,Carter's Commandos,,0,archive,Moose send D McAllister to Commandos for P Burress
+T329,2006,,Da Funk,,Beers,,0,archive,Da Funk send Tampa Bay and 2007 3rd round pick (from Beers) to Beers for Baltimore
+T330,2006,,Manic Moose,,Da Funk,,0,archive,Moose send 2007 1st round pick and B Berrian to DaFunk for M Hasselbeck
+T331,2006,,OakalDoakals,,Scooter's Boozers,,0,archive,OakalDoakals send J Plummer to Boozers for B Calhoun
+T332,2006,,Texas Nashvillians,,Tally Wackers,,0,archive,Texans send 2007 1st round pick and 2008 2nd round pick to Tally Wackers for T Gonzalez
+T333,2006,,Texas Nashvillians,,Bunchalosers,,0,archive,"Texans send 2006 1st, 3rd, & 4th picks to Bunchalosers for C Chambers"
+T334,2006,,Scooter's Boozers,,Carter's Commandos,,0,archive,Boozers send 2006 4th round pick and D Rhodes to Commandos for 2006 1st round pick
+T335,2006,,Dunbar Dogs,,Otters,,0,archive,"Dunbar Dogs send C Henry, 2006 2nd, 3rd, and 4th round picks to Otters for 2006 1st round pick"
+T336,2006,,Texas Nashvillians,,F-Jackie,,0,archive,Texans send E Moulds and Pgh Defense to F-Jackie for 2006 2nd round pick
+T337,2006,,Texas Nashvillians,,Scooter's Boozers,,0,archive,Texans send H Miller to Boozers for 2007 3rd round pick
+T338,2006,,Da Funk,,Beers,,0,archive,Da Funk sends F Taylor to Beers for 2006 2nd round pick and 2007 3rd round pick
+T339,2006,,Beers,,Texas Nashvillians,,0,archive,Beers send 2006 3rd round pick to Texans for R Smith and A Vinatieri
+T340,2005,,OakalDoakals,,Manic Moose,,0,archive,OakalDoakals send K McCardell to Moose for D Gabriel and 2006 2nd round pick
+T341,2005,,Tally Wackers,,Texas Nashvillians,,0,archive,Tally Wackers send D Jackson to Texans for T Bell and 2006 2nd round pick
+T342,2005,,Scooter's Boozers,,Manic Moose,,0,archive,Boozers send 2005 9th and 10th round picks to Moose for 2005 8th round pick
+T343,2005,,Texas Nashvillians,,Bunchalosers,,0,archive,Texans send M Faulk to Bunchalosers for 2006 4th round pick 
+T344,2005,,Otters,,Beers,,0,archive,Otters send R McMichael to Beers for 2005 4th round pick
+T345,2005,,Otters,,Iron City Pounders,,0,archive,Otters send B Greise to IC Pounders for 2005 3rd round pick
+T346,2005,,OakalDoakals,,Ho Train,,0,archive,OakalDoakal sends 2005 1st and 2nd round picks to Ho Train for C Brown and 2005 1st round pick
+T347,2004,,Da Funk,,OakalDoakals,,0,archive,Da Funk sends L Gordon to OakalDoakals for Baltimore defense
+T348,2004,,F-Jackie,,Dunbar Dogs,,0,archive,"F-Jackie sends A Thomas, 2005 1st, 2nd, & 3rd round picks to Dogs for A Green and 2005 2nd round pick"
+T349,2004,,Beers,,Manic Moose,,0,archive,Beers send T Maddox to Moose for V Testaverde and 2005 4th round pick
+T350,2004,,Texas Nashvillians,,Beers,,0,archive,Texans send 2005 5th round pick to Beers for Ken Dorsey
+T351,2004,,Dunbar Dogs,,OakalDoakals,,0,archive,Dogs send Domenic Davis to OakalDoakal for Kevin Jones
+T352,2004,,Texas Nashvillians,,Beers,,0,archive,Texans send 2005 3rd round pick to Beers for G Hearst
+T353,2004,,Scooter's Boozers,,Otters,,0,archive,"Boozers send T Holt, 2004 10th round pick & 2004 11th round pick to Otters for M Williams & Keyshawn Johnson"
+T354,2004,,Scooter's Boozers,,Beers,,0,archive,"Boozers send R Moss to Beers for M Bennett, Q Morgan, & 2004 2nd round pick"
+T355,2004,,Tally Wackers,,Beers,,0,archive,Tally Wackers send S Davis & R Gardner to Beers for 2004 1st round pick (5th overall) and 2005 2nd round pick
+T356,2004,,Bunchalosers,,Beers,,0,archive,Bunchalosers send T Maddox to Beers for 2004 6th round pick
+T357,2004,,Dunbar Dogs,,Beers,,0,archive,Dogs send M Shipp to Beers for 2004 3rd round pick
+T358,2004,,Bunchalosers,,Dunbar Dogs,,0,archive,"Bunchalosers sends 2004 1st round pick (7th overall) to Dunbar Dogs for 2004 1st round pick (10th overall), C Chambers, A Lelie, and L Jordan"
+T359,2004,,Beers,,Dunbar Dogs,,0,archive,Beers send 2004 3rd round pick to Dunbar Dogs for M Shipp
+T360,2004,,Beers,,Bunchalosers,,0,archive,Beers send 2004 6th round pick to Bunchalosers for T Maddux
+T361,2004,,Texas Nashvillians,,Manic Moose,,0,archive,Texas Nashvillians send 2004 3rd round pick to Manic Moose for A Toomer
+T362,2004,,Manic Moose,,Ho Train,,0,archive,Moose send 2004 1st overall to Ho Train for T Owens
+T363,2003,,Scooter's Boozers,,OakalDoakals,,0,archive,Boozers send 2004 1st round pick and K Stewart to OakalDoakals for K Collins
+T364,2003,,Blitzkrieg,,Manic Moose,,0,archive,Blitzkrieg sends J Horn and 2004 1st round pick to Manic Moose for C Pennington
+T365,2003,,OakalDoakals,,Manic Moose,,0,archive,Oakaldoakal sends Minnesota to Manic Moose for 2004 4th round pick and Atlanta
+T366,2003,,Da Funk,,Manic Moose,,0,archive,Da Funk sends J Blake to Manic Moose for T Taylor
+T367,2003,,OakalDoakals,,Tally Wackers,,0,archive,OakalDoakal sends S Davis and 2004 2nd round pick to Tally Wackers for S McNair
+T368,2003,,Ho Train,,Texas Nashvillians,,0,archive,Ho Train sends H Ward and A Smith to Texans for J Lewis and S McDonald
+T369,2003,,Carter's Commandos,,Manic Moose,,0,archive,Commandos send A Toomer and 2004 4th round pick to Moose for D Staley
+T370,2003,,Karpet Munchers,,OakalDoakals,,0,archive,Karpet Munchers send B Griese and 2004 3rd round pick to OakalDoakals for K Holcomb
+T371,2003,,Ho Train,,Texas Nashvillians,,0,archive,Ho Train sends R Lindel to Texans for J Hall
+T372,2003,,Texas Nashvillians,,Tally Wackers,,0,archive,Texans send pick 13 of 2003 round 8 to Tally Wackers for J Stevens
+T373,2003,,Scooter's Boozers,,Beers,,0,archive,Boozers send D Thompson and C Redman to Beers for K Stewart and pick 16 of 2003 round 8
+T374,2003,,Da Funk,,Blitzkrieg,,0,archive,Da Funk sends 2003 4th pick of 2nd round to Blitzkrieg for C Garner
+T375,2003,,OakalDoakals,,Blitzkrieg,,0,archive,OakalDoakal sends 2003 11th pick of 1st round to Blitzkrieg for R Gannon
+T376,2003,,Da Funk,,OakalDoakals,,0,archive,Da Funk sends T Candidate and 2003 5th round to OakalDoakal for OakalDokal's 2003 1st round pick
+T377,2003,,Beers,,Manic Moose,,0,archive,Beers send 2003 3rd round pick to Moose for J Galloway.
+T378,2002,,Dunbar Dogs,,Ho Train,,0,archive,Dogs send Antowain Smith to Ho Train for Jabar Gaffney
+T379,2002,,Manic Moose,,Da Funk,,0,archive,Moose send 2003 2nd round pick to Da Funk for Ed McCaffrey
+T380,2002,,Da Funk,,Iron City Pounders,,0,archive,Da Funk send Jerry Rice and 2003 3rd round pick to Pounders for 2003 2nd and 3rd round picks
+T381,2002,,Iron City Pounders,,Texas Nashvillians,,0,archive,"Pounders send Tom Brady and M Faulk to Texans for J Garcia, E George, C Martin, and Santa Moss"
+T382,2002,,Ho Train,,Iron City Pounders,,0,archive,Ho Train send Tom Brady to Pounders for T Owens and 2003 3rd pick
+T383,2002,,Ho Train,,Texas Nashvillians,,0,archive,"Ho Train sends Jeff Garcia and Rod Smith to Texans for M Vick, Jabar Gaffney, and 2003 2nd pick"
+T384,2002,,Blitzkrieg,,Ho Train,,0,archive,"Blitzkrieg sends T Heap, W Walls and 2003 1st pick to Ho Train for K Brady and T Gonzalez"
+T385,2002,,Manic Moose,,OakalDoakals,,0,archive,"Moose send F Mitchell, S Davis, and 2003 1st to OakalDoakals for L Tomlinson"
+T386,2002,,Manic Moose,,Scooter's Boozers,,0,archive,Moose send J Allen to Boozers for L Betts
+T387,2002,,F-Jackie,,Tally Wackers,,0,archive,F-Jackie send P Price and 2002 2nd to Wackers for I Bruce and 2002 1st
+T388,2002,,Texas Nashvillians,,Beers,,0,archive,Texans send A Hakim to Beers for 2002 5th
+T389,2002,,Texas Nashvillians,,Scooter's Boozers,,0,archive,Texans send J Miller to Boozers for 2002 6th
+T390,2002,,Da Funk,,Karpet Munchers,,0,archive,Da Funk sends P Holmes to Munchers for J Jackson and J Rice
+T391,2002,,Tally Wackers,,Scooter's Boozers,,0,archive,"Wackers send R Moss to Boozers for 2002 1st, 2nd, & 3rd and J Bettis\"
+T392,2002,,Manic Moose,,Dunbar Dogs,,0,archive,"Moose send J Plummer, 2002 1st & 2nd to Dogs for D Culpepper"
+T393,2002,,Texas Nashvillians,,Beers,,0,archive,"Texans send 2002 3rd, 2003 6th to Beers for J Thrash"
+T394,2002,,Beers,,Otters,,0,archive,Beers send T Brown to Otters for 2002 3rd
+T395,2002,,OakalDoakals,,Beers,,0,archive,OakalDoakals send 2002 5th to Beers for K Collins
+T396,2002,,Texas Nashvillians,,Bunchalosers,,0,archive,Texans send A Zereoue and 2002 1st to Bunchalosers for C Martin
+T397,2002,,Da Funk,,Beers,,0,archive,Da Funk sends O Gadsden and 2002 5th to Beers for 2002 2nd
+T398,2002,,Beers,,Scooter's Boozers,,0,archive,"Beers send 2002 1st, 2nd, 3rd and D Flutie to Boozers for A Brooks and G Hearst"
+T399,2002,,Otters,,Blitzkrieg,,0,archive,Otters send 2002 4th & 5th to Blitzkrieg for M Vanderjagt and Cleveland
+T400,2001,,F-Jackie,,Carter's Commandos,,0,archive,F-Jackie sends T Couch to Comandos for A Thomas
+T401,2001,,Tally Wackers,,Bunchalosers,,0,archive,Wackers send W Chrebet and 2001 2nd to Bunchalosers for S McNair
+T402,2001,,Dunbar Dogs,,Scooter's Boozers,,0,archive,Dogs send T Barber to Boozers for P Warrick
+T403,2001,,Scooter's Boozers,,F-Jackie,,0,archive,Boozers send D McNabb to F-Jackie for T Holt and 2001 4th
+T404,2000,,Dunbar Dogs,,Manic Moose,,0,archive,Dogs send T Biakabutuka to Moose for D Hayes
+T405,2000,,Manic Moose,,Blitzkrieg,,0,archive,Moose send R Gannon to Blitzkrieg for J Plummer
+T406,2000,,Manic Moose,,Ho Train,,0,archive,Moose send T Brown and A Smith to Ho Train for C Pennington and J Galloway
+T407,2000,,Bunchalosers,,Scooter's Boozers,,0,archive,Bunchalosers send P Warrick to Boozers for S King
+T408,2000,,Manic Moose,,Dunbar Dogs,,0,archive,Moose send T Barber to Dogs for K Johnson

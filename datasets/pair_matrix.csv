@@ -1,0 +1,137 @@
+owner_a,owner_b,trades,shared_seasons,could_trade
+Beers,Texas Nashvillians,18,26,yes
+Beers,Da Funk,14,26,yes
+Beers,Scooter's Boozers,13,26,yes
+Manic Moose,OakalDoakals,12,26,yes
+Scooter's Boozers,Texas Nashvillians,12,27,yes
+Beers,Manic Moose,11,26,yes
+OakalDoakals,Scooter's Boozers,11,26,yes
+Manic Moose,Scooter's Boozers,10,27,yes
+Beers,Bunchalosers,9,17,yes
+Beers,Otters,9,26,yes
+Carter's Commandos,Scooter's Boozers,9,27,yes
+F-Jackie,Manic Moose,9,27,yes
+Couchfire,Manic Moose,8,9,yes
+F-Jackie,Texas Nashvillians,8,27,yes
+Tally Wackers,Texas Nashvillians,8,27,yes
+Beers,F-Jackie,7,26,yes
+Blitzkrieg,Manic Moose,7,27,yes
+Dunbar Dogs,Scooter's Boozers,7,27,yes
+F-Jackie,Scooter's Boozers,7,27,yes
+Beers,OakalDoakals,6,26,yes
+Beers,Tally Wackers,6,26,yes
+Da Funk,Manic Moose,6,27,yes
+Dunbar Dogs,Manic Moose,6,27,yes
+Ho Train,Manic Moose,6,27,yes
+Ho Train,Texas Nashvillians,6,27,yes
+Iron City Pounders,Manic Moose,6,27,yes
+Da Funk,Scooter's Boozers,5,27,yes
+Manic Moose,Otters,5,27,yes
+Scooter's Boozers,Tally Wackers,5,27,yes
+Beers,Dunbar Dogs,4,26,yes
+Beers,Iron City Pounders,4,26,yes
+Bunchalosers,Dunbar Dogs,4,18,yes
+Bunchalosers,Scooter's Boozers,4,18,yes
+Carter's Commandos,Manic Moose,4,27,yes
+Couchfire,Dunbar Dogs,4,9,yes
+Dunbar Dogs,Texas Nashvillians,4,27,yes
+F-Jackie,Ho Train,4,27,yes
+Ho Train,Scooter's Boozers,4,27,yes
+Iron City Pounders,Otters,4,27,yes
+Iron City Pounders,Texas Nashvillians,4,27,yes
+Manic Moose,Tally Wackers,4,27,yes
+Manic Moose,Texas Nashvillians,4,27,yes
+Otters,Scooter's Boozers,4,27,yes
+Beers,Blitzkrieg,3,26,yes
+Beers,Carter's Commandos,3,26,yes
+Blitzkrieg,Scooter's Boozers,3,27,yes
+Bunchalosers,Otters,3,18,yes
+Bunchalosers,Texas Nashvillians,3,18,yes
+Carter's Commandos,Texas Nashvillians,3,27,yes
+Couchfire,F-Jackie,3,9,yes
+Couchfire,Otters,3,9,yes
+Couchfire,Scooter's Boozers,3,9,yes
+Couchfire,Texas Nashvillians,3,9,yes
+Dunbar Dogs,Otters,3,27,yes
+Ho Train,Otters,3,27,yes
+Beers,Couchfire,2,9,yes
+Beers,Ho Train,2,26,yes
+Beers,Karpet Munchers,2,26,yes
+Blitzkrieg,Couchfire,2,9,yes
+Blitzkrieg,Texas Nashvillians,2,27,yes
+Bunchalosers,Tally Wackers,2,18,yes
+Couchfire,Da Funk,2,9,yes
+Couchfire,Ho Train,2,9,yes
+Da Funk,F-Jackie,2,27,yes
+Da Funk,Ho Train,2,27,yes
+Da Funk,OakalDoakals,2,26,yes
+Da Funk,Texas Nashvillians,2,27,yes
+Dunbar Dogs,OakalDoakals,2,26,yes
+Ho Train,OakalDoakals,2,26,yes
+Iron City Pounders,Scooter's Boozers,2,27,yes
+Karpet Munchers,OakalDoakals,2,26,yes
+OakalDoakals,Tally Wackers,2,26,yes
+Otters,Tally Wackers,2,27,yes
+Otters,Texas Nashvillians,2,27,yes
+Blitzkrieg,Da Funk,1,27,yes
+Blitzkrieg,F-Jackie,1,27,yes
+Blitzkrieg,Ho Train,1,27,yes
+Blitzkrieg,OakalDoakals,1,26,yes
+Blitzkrieg,Otters,1,27,yes
+Bunchalosers,Carter's Commandos,1,18,yes
+Bunchalosers,Iron City Pounders,1,18,yes
+Bunchalosers,Manic Moose,1,18,yes
+Bunchalosers,OakalDoakals,1,17,yes
+Carter's Commandos,Dunbar Dogs,1,27,yes
+Carter's Commandos,F-Jackie,1,27,yes
+Carter's Commandos,Karpet Munchers,1,27,yes
+Couchfire,Karpet Munchers,1,9,yes
+Couchfire,OakalDoakals,1,9,yes
+Couchfire,Tally Wackers,1,9,yes
+Da Funk,Iron City Pounders,1,27,yes
+Da Funk,Karpet Munchers,1,27,yes
+Da Funk,Tally Wackers,1,27,yes
+Dunbar Dogs,F-Jackie,1,27,yes
+Dunbar Dogs,Ho Train,1,27,yes
+Dunbar Dogs,Iron City Pounders,1,27,yes
+F-Jackie,Iron City Pounders,1,27,yes
+F-Jackie,Karpet Munchers,1,27,yes
+F-Jackie,Tally Wackers,1,27,yes
+Ho Train,Iron City Pounders,1,27,yes
+Iron City Pounders,Tally Wackers,1,27,yes
+Karpet Munchers,Manic Moose,1,27,yes
+Karpet Munchers,Otters,1,27,yes
+Karpet Munchers,Scooter's Boozers,1,27,yes
+Karpet Munchers,Texas Nashvillians,1,27,yes
+OakalDoakals,Otters,1,26,yes
+OakalDoakals,Texas Nashvillians,1,26,yes
+Blitzkrieg,Bunchalosers,0,18,yes
+Blitzkrieg,Carter's Commandos,0,27,yes
+Blitzkrieg,Dunbar Dogs,0,27,yes
+Blitzkrieg,Iron City Pounders,0,27,yes
+Blitzkrieg,Karpet Munchers,0,27,yes
+Blitzkrieg,Tally Wackers,0,27,yes
+Bunchalosers,Couchfire,0,0,no
+Bunchalosers,Da Funk,0,18,yes
+Bunchalosers,F-Jackie,0,18,yes
+Bunchalosers,Ho Train,0,18,yes
+Bunchalosers,Karpet Munchers,0,18,yes
+Carter's Commandos,Couchfire,0,9,yes
+Carter's Commandos,Da Funk,0,27,yes
+Carter's Commandos,Ho Train,0,27,yes
+Carter's Commandos,Iron City Pounders,0,27,yes
+Carter's Commandos,OakalDoakals,0,26,yes
+Carter's Commandos,Otters,0,27,yes
+Carter's Commandos,Tally Wackers,0,27,yes
+Couchfire,Iron City Pounders,0,9,yes
+Da Funk,Dunbar Dogs,0,27,yes
+Da Funk,Otters,0,27,yes
+Dunbar Dogs,Karpet Munchers,0,27,yes
+Dunbar Dogs,Tally Wackers,0,27,yes
+F-Jackie,OakalDoakals,0,26,yes
+F-Jackie,Otters,0,27,yes
+Ho Train,Karpet Munchers,0,27,yes
+Ho Train,Tally Wackers,0,27,yes
+Iron City Pounders,Karpet Munchers,0,27,yes
+Iron City Pounders,OakalDoakals,0,26,yes
+Karpet Munchers,Tally Wackers,0,27,yes

@@ -1,0 +1,137 @@
+owner_a,owner_b,games,a_wins,b_wins,ties,a_points,b_points,shared_seasons,could_meet
+Blitzkrieg,Da Funk,58,31,26,1,5506.5,5023.0,27,yes
+F-Jackie,Manic Moose,58,16,42,0,5348.1,6209.2,27,yes
+Carter's Commandos,OakalDoakals,56,28,28,0,4657.7,4710.7,26,yes
+Ho Train,Otters,54,29,25,0,4984.0,5230.9,27,yes
+Ho Train,Karpet Munchers,53,23,29,1,4829.4,5200.4,27,yes
+Da Funk,Manic Moose,52,15,37,0,4496.2,5734.1,27,yes
+Karpet Munchers,Otters,52,23,29,0,4744.7,5073.8,27,yes
+Beers,Scooter's Boozers,51,26,25,0,4582.9,4482.3,26,yes
+Ho Train,Iron City Pounders,51,24,26,1,4810.8,4756.0,27,yes
+Blitzkrieg,Manic Moose,50,13,37,0,4044.0,5235.0,27,yes
+Blitzkrieg,F-Jackie,49,24,25,0,3949.1,4513.3,27,yes
+Da Funk,F-Jackie,49,28,19,2,4771.5,4203.0,27,yes
+Dunbar Dogs,Tally Wackers,49,19,30,0,3863.5,4416.1,27,yes
+Carter's Commandos,Tally Wackers,48,15,33,0,3684.9,4294.8,27,yes
+Iron City Pounders,Karpet Munchers,48,21,27,0,4172.3,4601.2,27,yes
+Iron City Pounders,Otters,48,17,31,0,4376.3,5163.7,27,yes
+OakalDoakals,Tally Wackers,47,26,21,0,4081.7,4239.1,26,yes
+Beers,Texas Nashvillians,46,32,14,0,4408.6,3913.8,26,yes
+Carter's Commandos,Dunbar Dogs,46,24,22,0,3795.8,3862.4,27,yes
+Dunbar Dogs,OakalDoakals,46,33,13,0,4316.9,3338.0,26,yes
+Scooter's Boozers,Texas Nashvillians,46,23,23,0,3937.1,3698.3,27,yes
+Otters,Texas Nashvillians,36,20,16,0,3425.3,3430.5,27,yes
+Beers,Bunchalosers,34,13,21,0,2207.0,2348.0,17,yes
+Dunbar Dogs,Manic Moose,34,11,23,0,2963.1,3145.4,27,yes
+Bunchalosers,Scooter's Boozers,31,15,16,0,2118.0,2229.0,18,yes
+Bunchalosers,Texas Nashvillians,31,9,22,0,1948.0,2612.0,18,yes
+Dunbar Dogs,F-Jackie,31,16,15,0,2746.4,2651.5,27,yes
+Ho Train,Scooter's Boozers,30,19,11,0,2962.7,2524.7,27,yes
+Beers,Karpet Munchers,29,14,14,1,2764.6,2696.1,26,yes
+Carter's Commandos,Da Funk,29,17,12,0,2527.8,2183.8,27,yes
+Karpet Munchers,Scooter's Boozers,29,21,7,1,2759.9,2154.4,27,yes
+Karpet Munchers,Texas Nashvillians,29,14,15,0,2683.5,2571.9,27,yes
+Manic Moose,Tally Wackers,29,14,15,0,3096.3,2635.9,27,yes
+Beers,Otters,27,12,15,0,2484.0,2419.2,26,yes
+Da Funk,Tally Wackers,27,16,11,0,2438.5,2268.0,27,yes
+F-Jackie,Tally Wackers,27,17,10,0,2797.4,2383.5,27,yes
+Iron City Pounders,Scooter's Boozers,27,11,16,0,2209.8,2320.9,27,yes
+Manic Moose,OakalDoakals,27,14,13,0,2466.3,2227.5,26,yes
+Beers,Iron City Pounders,26,14,11,1,2253.1,1919.6,26,yes
+Blitzkrieg,Dunbar Dogs,26,16,10,0,2339.5,1922.6,27,yes
+Carter's Commandos,F-Jackie,26,11,15,0,2097.6,2286.1,27,yes
+Carter's Commandos,Manic Moose,26,8,18,0,2087.7,2429.3,27,yes
+F-Jackie,OakalDoakals,26,16,10,0,2604.4,2319.6,26,yes
+Blitzkrieg,OakalDoakals,25,14,11,0,2133.1,1922.5,26,yes
+Beers,Ho Train,24,12,12,0,2243.5,2192.4,26,yes
+Blitzkrieg,Tally Wackers,24,13,11,0,1973.9,1971.0,27,yes
+Da Funk,Scooter's Boozers,24,14,10,0,2304.2,2115.1,27,yes
+Ho Train,Texas Nashvillians,24,14,9,1,2278.0,2080.9,27,yes
+Blitzkrieg,Carter's Commandos,23,15,8,0,2243.4,1920.4,27,yes
+Blitzkrieg,Scooter's Boozers,22,13,9,0,1957.7,1786.5,27,yes
+Dunbar Dogs,Karpet Munchers,22,7,15,0,1877.2,2171.1,27,yes
+Iron City Pounders,Tally Wackers,22,10,12,0,1840.6,1980.4,27,yes
+Bunchalosers,Iron City Pounders,21,10,11,0,1601.0,1743.0,18,yes
+Da Funk,OakalDoakals,21,15,5,1,1879.3,1473.6,26,yes
+Iron City Pounders,Texas Nashvillians,21,12,9,0,1601.5,1799.5,27,yes
+OakalDoakals,Otters,21,7,14,0,1867.5,2200.6,26,yes
+Otters,Scooter's Boozers,21,17,4,0,1948.5,1579.5,27,yes
+Carter's Commandos,Otters,20,9,11,0,2127.4,2226.1,27,yes
+Couchfire,Texas Nashvillians,20,9,11,0,2161.3,2051.2,9,yes
+Carter's Commandos,Iron City Pounders,19,5,14,0,1458.8,1863.7,27,yes
+Da Funk,Dunbar Dogs,19,12,6,1,1513.3,1391.7,27,yes
+Da Funk,Texas Nashvillians,19,11,8,0,1733.3,1424.2,27,yes
+Dunbar Dogs,Otters,19,6,12,1,1591.8,1863.9,27,yes
+F-Jackie,Karpet Munchers,19,5,14,0,1520.3,1897.4,27,yes
+Karpet Munchers,Manic Moose,19,14,5,0,1965.8,1675.7,27,yes
+OakalDoakals,Texas Nashvillians,19,13,6,0,1621.9,1508.0,26,yes
+Beers,Couchfire,18,11,7,0,2194.2,1999.6,9,yes
+Beers,F-Jackie,18,10,8,0,1841.4,1779.6,26,yes
+Da Funk,Ho Train,18,9,9,0,1507.3,1594.1,27,yes
+Beers,Tally Wackers,17,9,8,0,1623.1,1525.9,26,yes
+Blitzkrieg,Ho Train,17,4,13,0,1463.0,1645.7,27,yes
+Bunchalosers,Ho Train,17,4,13,0,1054.0,1376.0,18,yes
+Carter's Commandos,Ho Train,17,5,12,0,1517.7,1995.6,27,yes
+Carter's Commandos,Karpet Munchers,17,5,12,0,1413.4,1538.3,27,yes
+Couchfire,Scooter's Boozers,17,9,8,0,1848.7,1821.8,9,yes
+F-Jackie,Texas Nashvillians,17,7,9,1,1465.3,1531.1,27,yes
+Ho Train,Tally Wackers,17,7,10,0,1612.2,1654.5,27,yes
+Karpet Munchers,OakalDoakals,17,11,6,0,1665.3,1410.5,26,yes
+Karpet Munchers,Tally Wackers,17,10,7,0,1609.1,1455.5,27,yes
+Manic Moose,Texas Nashvillians,17,11,6,0,1891.6,1432.7,27,yes
+Otters,Tally Wackers,17,10,7,0,1473.4,1452.4,27,yes
+Beers,Blitzkrieg,16,7,8,1,1397.3,1271.3,26,yes
+Blitzkrieg,Karpet Munchers,16,5,11,0,1399.0,1452.7,27,yes
+Bunchalosers,Otters,16,4,12,0,1037.0,1289.0,18,yes
+Carter's Commandos,Texas Nashvillians,16,9,7,0,1455.3,1327.6,27,yes
+Dunbar Dogs,Iron City Pounders,16,4,12,0,1284.0,1442.8,27,yes
+Manic Moose,Scooter's Boozers,16,11,5,0,1747.0,1437.3,27,yes
+Dunbar Dogs,Texas Nashvillians,15,8,7,0,1248.5,1202.1,27,yes
+Ho Train,OakalDoakals,15,9,6,0,1247.1,1101.2,26,yes
+Manic Moose,Otters,15,8,7,0,1382.9,1315.0,27,yes
+Beers,Da Funk,14,6,8,0,1302.2,1242.6,26,yes
+Beers,Manic Moose,14,7,7,0,1227.9,1285.6,26,yes
+Bunchalosers,Tally Wackers,14,8,6,0,1253.0,1217.0,18,yes
+Carter's Commandos,Scooter's Boozers,14,5,9,0,1065.5,1269.5,27,yes
+Da Funk,Otters,14,3,11,0,1071.9,1244.7,27,yes
+Dunbar Dogs,Ho Train,14,4,10,0,1340.7,1614.0,27,yes
+Blitzkrieg,Iron City Pounders,13,8,5,0,1113.7,1062.0,27,yes
+Blitzkrieg,Texas Nashvillians,13,7,6,0,1197.8,1219.3,27,yes
+Bunchalosers,Karpet Munchers,13,3,10,0,774.0,1054.0,18,yes
+Da Funk,Iron City Pounders,13,7,6,0,1027.8,1016.8,27,yes
+Dunbar Dogs,Scooter's Boozers,13,5,8,0,1133.4,1168.1,27,yes
+F-Jackie,Ho Train,13,5,8,0,1201.2,1187.4,27,yes
+F-Jackie,Scooter's Boozers,13,5,8,0,1168.5,1358.7,27,yes
+Ho Train,Manic Moose,13,9,4,0,1329.6,1212.4,27,yes
+Beers,Carter's Commandos,12,5,7,0,1019.5,1042.7,26,yes
+Blitzkrieg,Otters,12,5,7,0,1074.1,1211.4,27,yes
+Da Funk,Karpet Munchers,12,4,8,0,955.4,1239.0,27,yes
+F-Jackie,Iron City Pounders,12,4,8,0,930.3,1060.9,27,yes
+F-Jackie,Otters,12,6,6,0,947.2,1006.4,27,yes
+Iron City Pounders,OakalDoakals,12,6,6,0,1096.8,1115.1,26,yes
+Tally Wackers,Texas Nashvillians,12,6,6,0,1039.7,997.7,27,yes
+Beers,OakalDoakals,11,6,5,0,1064.1,1004.1,26,yes
+Blitzkrieg,Bunchalosers,11,6,5,0,724.0,741.0,18,yes
+Bunchalosers,F-Jackie,11,3,8,0,689.0,860.0,18,yes
+Couchfire,Iron City Pounders,11,7,4,0,1135.8,1029.4,9,yes
+Iron City Pounders,Manic Moose,11,2,9,0,881.3,1120.5,27,yes
+Scooter's Boozers,Tally Wackers,11,3,8,0,725.8,892.5,27,yes
+Beers,Dunbar Dogs,10,6,4,0,673.8,679.8,26,yes
+Bunchalosers,Da Funk,10,3,6,1,617.0,758.0,18,yes
+Bunchalosers,Manic Moose,9,5,4,0,708.0,699.0,18,yes
+Couchfire,Otters,9,4,5,0,945.9,1076.0,9,yes
+OakalDoakals,Scooter's Boozers,9,2,7,0,603.2,865.0,26,yes
+Bunchalosers,Dunbar Dogs,8,3,3,2,609.0,586.0,18,yes
+Bunchalosers,OakalDoakals,8,1,7,0,626.0,774.0,17,yes
+Couchfire,Ho Train,8,2,6,0,785.7,1044.5,9,yes
+Bunchalosers,Carter's Commandos,7,2,5,0,567.0,684.0,18,yes
+Couchfire,F-Jackie,7,2,5,0,738.4,847.7,9,yes
+Couchfire,Manic Moose,7,1,6,0,660.0,906.0,9,yes
+Blitzkrieg,Couchfire,6,2,4,0,732.7,749.9,9,yes
+Couchfire,Karpet Munchers,6,3,3,0,692.1,702.6,9,yes
+Couchfire,Tally Wackers,6,3,3,0,651.0,635.8,9,yes
+Couchfire,Da Funk,5,2,3,0,480.7,533.3,9,yes
+Couchfire,OakalDoakals,5,3,2,0,522.0,517.0,9,yes
+Carter's Commandos,Couchfire,4,3,1,0,496.6,374.8,9,yes
+Couchfire,Dunbar Dogs,3,2,1,0,244.4,252.5,9,yes
+Bunchalosers,Couchfire,0,0,0,0,0,0,0,no

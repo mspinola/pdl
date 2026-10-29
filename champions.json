@@ -1,0 +1,132 @@
+{
+ "2000": {
+  "season": 2000,
+  "champion": "Iron City Pounders",
+  "source": "archive"
+ },
+ "2001": {
+  "season": 2001,
+  "champion": "Carter's Commandos",
+  "source": "archive"
+ },
+ "2002": {
+  "season": 2002,
+  "champion": "Beers",
+  "source": "archive"
+ },
+ "2003": {
+  "season": 2003,
+  "champion": "Karpet Munchers",
+  "source": "archive"
+ },
+ "2004": {
+  "season": 2004,
+  "champion": "Otters",
+  "source": "archive"
+ },
+ "2005": {
+  "season": 2005,
+  "champion": "Texas Nashvillians",
+  "source": "archive"
+ },
+ "2006": {
+  "season": 2006,
+  "champion": "Ho Train",
+  "source": "archive"
+ },
+ "2007": {
+  "season": 2007,
+  "champion": "Manic Moose",
+  "source": "archive"
+ },
+ "2008": {
+  "season": 2008,
+  "champion": "Karpet Munchers",
+  "source": "archive"
+ },
+ "2009": {
+  "season": 2009,
+  "champion": "F-Jackie",
+  "source": "archive"
+ },
+ "2010": {
+  "season": 2010,
+  "champion": "Otters",
+  "source": "archive"
+ },
+ "2011": {
+  "season": 2011,
+  "champion": "Karpet Munchers",
+  "source": "archive"
+ },
+ "2012": {
+  "season": 2012,
+  "champion": "Manic Moose",
+  "source": "archive"
+ },
+ "2013": {
+  "season": 2013,
+  "champion": "Dunbar Dogs",
+  "source": "archive"
+ },
+ "2014": {
+  "season": 2014,
+  "champion": "Karpet Munchers",
+  "source": "archive"
+ },
+ "2015": {
+  "season": 2015,
+  "champion": "OakalDoakals",
+  "source": "archive"
+ },
+ "2016": {
+  "season": 2016,
+  "champion": "Blitzkrieg",
+  "source": "archive"
+ },
+ "2017": {
+  "season": 2017,
+  "champion": "Ho Train",
+  "source": "archive"
+ },
+ "2018": {
+  "season": 2018,
+  "champion": "Karpet Munchers",
+  "source": "archive"
+ },
+ "2019": {
+  "season": 2019,
+  "champion": "Beers",
+  "source": "archive"
+ },
+ "2020": {
+  "season": 2020,
+  "champion": "Otters",
+  "source": "mfl"
+ },
+ "2021": {
+  "season": 2021,
+  "champion": "Ho Train",
+  "source": "mfl"
+ },
+ "2022": {
+  "season": 2022,
+  "champion": "F-Jackie",
+  "source": "mfl"
+ },
+ "2023": {
+  "season": 2023,
+  "champion": "Manic Moose",
+  "source": "mfl"
+ },
+ "2024": {
+  "season": 2024,
+  "champion": "Couchfire",
+  "source": "mfl"
+ },
+ "2025": {
+  "season": 2025,
+  "champion": "Blitzkrieg",
+  "source": "mfl"
+ }
+}

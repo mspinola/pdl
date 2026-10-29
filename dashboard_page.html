@@ -1,0 +1,1655 @@
+<meta name="dash-one-writer">
+<style>
+  /* Layout: header and four headline figures, then one section per question,
+     ending in the full trade log. */
+  .pdl { font-family: var(--font-anthropic-sans); color: var(--color-fg);
+    display: flex; flex-direction: column; gap: var(--cds-gap-xl); }
+  .pdl-head { display: flex; flex-direction: column; gap: var(--cds-gap-xs); }
+  .pdl-title { font-family: var(--font-anthropic-serif); font-weight: 400;
+    font-size: var(--cds-font-size-title); margin: 0; }
+  .pdl-takeaway { margin: 0; color: var(--color-fg-muted);
+    font-size: var(--cds-font-size-body); max-width: 68ch; }
+  .pdl-takeaway b { font-weight: var(--cds-font-weight-medium); color: var(--color-fg); }
+
+  .pdl-tiles { display: grid; gap: var(--cds-gap-md);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); }
+  .pdl-tile { background: var(--color-panel); border: 1px solid var(--color-border-line);
+    border-radius: var(--cds-radius); padding: var(--cds-pad-lg);
+    display: flex; flex-direction: column; gap: var(--cds-pad-xs); min-width: 0; }
+  .pdl-tile-label { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted);
+    letter-spacing: 0.04em; text-transform: uppercase; }
+  .pdl-tile-value { font-family: var(--font-anthropic-serif); font-weight: 400;
+    font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; line-height: 1.1; }
+  .pdl-tile-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+
+  .pdl-section { display: flex; flex-direction: column; gap: var(--cds-gap-md); }
+  .pdl-h2 { margin: 0; font-size: var(--cds-font-size-heading);
+    font-weight: var(--cds-font-weight-medium); }
+  .pdl-grid { display: grid; gap: var(--cds-gap-md);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); }
+  .pdl-card { position: relative; background: var(--color-panel);
+    border: 1px solid var(--color-border-line); border-radius: var(--cds-radius);
+    padding: var(--cds-pad-lg); display: flex; flex-direction: column;
+    gap: var(--cds-pad-sm); min-width: 0; }
+  .pdl-card-title { margin: 0; font-size: var(--cds-font-size-heading);
+    font-weight: var(--cds-font-weight-medium); }
+  .pdl-card-note { margin: 0; font-size: var(--cds-font-size-caption);
+    color: var(--color-fg-muted); }
+  .pdl-plot { min-width: 0; position: relative; }
+  .pdl-plot svg { display: block; overflow: visible; }
+  .pdl-plot text { font-family: var(--font-anthropic-sans); }
+  .pdl-scroll { overflow-x: auto; min-width: 0; }
+
+  .pdl-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm);
+    font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .pdl-legend span { display: inline-flex; align-items: center; gap: 0.375rem; }
+  .pdl-key { width: 0.625rem; height: 0.625rem; border-radius: 2px; flex: none; }
+  .pdl-key-none { border: 1px solid var(--color-border-line); background: transparent; }
+  .pdl-key-na { border: 1px dashed var(--color-fg-muted); background: transparent; }
+
+  .pdl-tip { position: absolute; z-index: 5; background: var(--cds-surface-popover);
+    border: 1px solid var(--cds-border); border-radius: var(--cds-radius);
+    box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm);
+    font-size: var(--cds-font-size-caption); pointer-events: none; white-space: nowrap; }
+  .pdl-tip-head { color: var(--cds-text-secondary); }
+  .pdl-tip-row { display: flex; align-items: center; gap: 0.375rem; }
+  .pdl-tip-swatch { width: 0.5rem; height: 0.5rem; border-radius: 2px; flex: none; }
+  .pdl-tip-val { font-variant-numeric: tabular-nums; margin-left: auto; }
+
+  /* the owner-change comparison */
+  .pdl-split { display: grid; gap: var(--cds-gap-md);
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); }
+  .pdl-owner { display: flex; flex-direction: column; gap: var(--cds-pad-xs);
+    padding: var(--cds-pad-md); border: 1px solid var(--color-border-line);
+    border-radius: var(--cds-radius); min-width: 0; }
+  .pdl-owner-name { font-weight: var(--cds-font-weight-medium); }
+  .pdl-owner-span { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .pdl-owner-big { font-family: var(--font-anthropic-serif); font-weight: 400;
+    font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; }
+  .pdl-owner-rows { display: flex; flex-direction: column; gap: 0.125rem;
+    font-size: var(--cds-font-size-caption); }
+  .pdl-owner-rows div { display: flex; justify-content: space-between; gap: var(--cds-pad-sm); }
+  .pdl-owner-rows span:last-child { font-variant-numeric: tabular-nums; color: var(--color-fg-muted); }
+
+  .pdl-pairs { list-style: none; margin: 0; padding: 0; max-height: 18rem; overflow: auto;
+    display: flex; flex-direction: column; gap: var(--cds-pad-xs);
+    font-size: var(--cds-font-size-caption); }
+  .pdl-pairs li { display: flex; justify-content: space-between; gap: var(--cds-pad-sm);
+    padding-bottom: var(--cds-pad-xs); border-bottom: 1px solid var(--color-border-line); }
+  .pdl-pairs-count { color: var(--color-fg-muted); font-variant-numeric: tabular-nums;
+    white-space: nowrap; }
+  .pdl-pairs-head { font-weight: var(--cds-font-weight-medium); }
+
+  .pdl-controls { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); align-items: center; }
+  .pdl-search { font-family: inherit; font-size: var(--cds-font-size-caption);
+    color: var(--color-fg); background: var(--color-bg); border: 1px solid var(--cds-border);
+    border-radius: var(--cds-radius); padding: var(--cds-pad-xs) var(--cds-pad-sm);
+    flex: 1 1 12rem; min-width: 0; }
+  .pdl-count { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+
+  .pdl-table-box { max-height: 30rem; overflow: auto; min-width: 0; }
+  .pdl-table { width: 100%; border-collapse: collapse;
+    font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+  .pdl-table th { position: sticky; top: 0; background: var(--color-panel); text-align: left;
+    font-weight: var(--cds-font-weight-medium); padding: var(--cds-pad-xs) var(--cds-pad-sm);
+    border-bottom: 1px solid var(--cds-border); white-space: nowrap; }
+  .pdl-table th button { font: inherit; color: inherit; background: none; border: 0;
+    padding: 0; cursor: pointer; }
+  .pdl-table td { padding: var(--cds-pad-xs) var(--cds-pad-sm);
+    border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+  .pdl-table td.pdl-gave { color: var(--color-fg-muted); min-width: 10rem; }
+  .pdl-table td.pdl-detail { color: var(--color-fg-muted); min-width: 16rem; }
+  .pdl-table th[aria-sort="ascending"] button::after { content: " \2191"; }
+  .pdl-table th[aria-sort="descending"] button::after { content: " \2193"; }
+
+  .pdl-fail { display: flex; align-items: center; justify-content: center; gap: 0.375rem; }
+  .pdl-fail-dot { width: 0.375rem; height: 0.375rem; border-radius: 50%; background: var(--color-bad); }
+  .pdl-fail-text { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+
+  .pdl-foot { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); max-width: 74ch; }
+  .pdl-foot p { margin: 0 0 var(--cds-pad-sm); }
+
+  .pdl-tabs { display: flex; flex-wrap: wrap; gap: var(--cds-pad-xs);
+    border-bottom: 1px solid var(--color-border-line); }
+  .pdl-tab { font: inherit; font-size: var(--cds-font-size-body);
+    color: var(--color-fg-muted); background: none; border: 0;
+    border-bottom: 2px solid transparent; padding: var(--cds-pad-xs) var(--cds-pad-sm);
+    cursor: pointer; }
+  .pdl-tab[aria-selected="true"] { color: var(--color-fg);
+    border-bottom-color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+  .pdl-page { display: flex; flex-direction: column; gap: var(--cds-gap-xl); }
+
+  .pdl-rank { list-style: none; margin: 0; padding: 0; display: flex;
+    flex-direction: column; gap: var(--cds-pad-xs); font-size: var(--cds-font-size-caption); }
+  .pdl-rank li { display: flex; justify-content: space-between; gap: var(--cds-pad-sm);
+    padding-bottom: var(--cds-pad-xs); border-bottom: 1px solid var(--color-border-line); }
+  .pdl-rank-val { color: var(--color-fg-muted); font-variant-numeric: tabular-nums;
+    white-space: nowrap; }
+
+  .pdl-key-win { background: transparent; border: 1px solid var(--color-border-line); }
+
+  [data-dash-source-state="empty"] { color: transparent; }
+  [data-dash-source-state="refreshing"] { opacity: 0.5; transition: opacity var(--cds-dur-slow); }
+</style>
+
+<div class="pdl">
+  <header class="pdl-head">
+    <h1 class="pdl-title">PDL league history</h1>
+
+  </header>
+
+  <nav class="pdl-tabs" role="tablist" aria-label="Sections">
+    <button class="pdl-tab" type="button" role="tab" data-tab="trading"
+      aria-selected="true" aria-controls="trading">Trading</button>
+    <button class="pdl-tab" type="button" role="tab" data-tab="h2h"
+      aria-selected="false" aria-controls="h2h">Head to head</button>
+    <button class="pdl-tab" type="button" role="tab" data-tab="titles"
+      aria-selected="false" aria-controls="titles">Titles and scoring</button>
+  </nav>
+
+  <div class="pdl-page" id="trading" role="tabpanel">
+    <p class="pdl-takeaway">Trading is concentrated rather than shared. The three busiest teams hold
+      <b data-draw="top3" data-source="concentration" data-field="top3_pct" data-row="0">&mdash;</b>% of all trade sides.
+      <b data-draw="busiest" data-source="concentration" data-field="busiest" data-row="0">&mdash;</b> deals most often, at
+      <b data-draw="busiest-rate" data-source="concentration" data-field="busiest_rate" data-row="0">&mdash;</b> a season, against
+      <b data-draw="quietest-rate" data-source="concentration" data-field="quietest_rate" data-row="0">&mdash;</b> for
+      <b data-draw="quietest" data-source="concentration" data-field="quietest" data-row="0">&mdash;</b>. And
+      <b data-draw="never" data-source="pairings" data-field="never" data-row="0">&mdash;</b> of the
+      <b data-draw="possible" data-source="pairings" data-field="possible" data-row="0">&mdash;</b> pairings that were ever
+      possible have never produced a deal.</p>
+
+  <section class="pdl-tiles" aria-label="Headline figures">
+    <div class="pdl-tile">
+      <span class="pdl-tile-label">Trades on record</span>
+      <span class="pdl-tile-value" data-draw="t-trades" data-source="totals" data-field="trades" data-row="0">&mdash;</span>
+      <span class="pdl-tile-note">Across every season since 2000</span>
+    </div>
+    <div class="pdl-tile">
+      <span class="pdl-tile-label">Seasons</span>
+      <span class="pdl-tile-value" data-draw="t-seasons" data-source="totals" data-field="seasons" data-row="0">&mdash;</span>
+      <span class="pdl-tile-note">2000 to 2026, 14 teams then 16</span>
+    </div>
+    <div class="pdl-tile">
+      <span class="pdl-tile-label">Assets moved</span>
+      <span class="pdl-tile-value" data-draw="t-assets" data-source="assets" data-field="total" data-row="0">&mdash;</span>
+      <span class="pdl-tile-note">Players and picks, 2008 on</span>
+    </div>
+    <div class="pdl-tile">
+      <span class="pdl-tile-label">Share that were picks</span>
+      <span class="pdl-tile-value"><span data-draw="t-pickpct" data-source="assets" data-field="pick_pct" data-row="0">&mdash;</span>%</span>
+      <span class="pdl-tile-note">Picks are the second currency</span>
+    </div>
+  </section>
+
+  <section class="pdl-section">
+    <h2 class="pdl-h2">Who trades</h2>
+    <div class="pdl-grid">
+      <div class="pdl-card">
+        <h3 class="pdl-card-title">Deals per season in the league</h3>
+        <p class="pdl-card-note">The fair comparison, because tenure differs: the two expansion teams
+          have 26 seasons, and the franchise that changed hands counts as two owners.</p>
+        <div class="pdl-plot" data-draw="chart-rate" data-source="owner_activity"></div>
+      </div>
+      <div class="pdl-card">
+        <h3 class="pdl-card-title">Total deals</h3>
+        <p class="pdl-card-note">Every trade counts once for each side. Hover for how many different
+          partners each team has used, out of those it could have.</p>
+        <div class="pdl-plot" data-draw="chart-count" data-source="owner_activity"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pdl-section">
+    <h2 class="pdl-h2">The one owner change</h2>
+    <div class="pdl-card">
+      <h3 class="pdl-card-title">Bunchalosers and Couchfire are one franchise, two owners</h3>
+      <p class="pdl-card-note">The franchise changed hands after 2017 and was renamed. Roster overlap
+        cannot see a handover, since the team keeps its players, so the two owners are separated by
+        hand and reported apart. The newer owner trades more than twice as often.</p>
+      <div class="pdl-split">
+        <div class="pdl-owner">
+          <span class="pdl-owner-name">Bunchalosers</span>
+          <span class="pdl-owner-span">2000 to 2017, the original owner</span>
+          <span class="pdl-owner-big"><span data-draw="bl-rate" data-source="owner_activity" data-field="per_season" data-where="owner=Bunchalosers">&mdash;</span> a season</span>
+          <div class="pdl-owner-rows">
+            <div><span>Trades</span><span data-draw="bl-trades" data-source="owner_activity" data-field="trades" data-where="owner=Bunchalosers">&mdash;</span></div>
+            <div><span>Seasons in the league</span><span data-draw="bl-seasons" data-source="owner_activity" data-field="seasons" data-where="owner=Bunchalosers">&mdash;</span></div>
+            <div><span>Seasons with a deal</span><span data-draw="bl-active" data-source="owner_activity" data-field="seasons_with_a_trade" data-where="owner=Bunchalosers">&mdash;</span></div>
+            <div><span>Different partners</span><span data-draw="bl-partners" data-source="owner_activity" data-field="distinct_partners" data-where="owner=Bunchalosers">&mdash;</span></div>
+            <div><span>Most often with</span><span data-draw="bl-top" data-source="owner_activity" data-field="top_partner" data-where="owner=Bunchalosers">&mdash;</span></div>
+          </div>
+        </div>
+        <div class="pdl-owner">
+          <span class="pdl-owner-name">Couchfire</span>
+          <span class="pdl-owner-span">2018 to 2026, took the franchise over</span>
+          <span class="pdl-owner-big"><span data-draw="cf-rate" data-source="owner_activity" data-field="per_season" data-where="owner=Couchfire">&mdash;</span> a season</span>
+          <div class="pdl-owner-rows">
+            <div><span>Trades</span><span data-draw="cf-trades" data-source="owner_activity" data-field="trades" data-where="owner=Couchfire">&mdash;</span></div>
+            <div><span>Seasons in the league</span><span data-draw="cf-seasons" data-source="owner_activity" data-field="seasons" data-where="owner=Couchfire">&mdash;</span></div>
+            <div><span>Seasons with a deal</span><span data-draw="cf-active" data-source="owner_activity" data-field="seasons_with_a_trade" data-where="owner=Couchfire">&mdash;</span></div>
+            <div><span>Different partners</span><span data-draw="cf-partners" data-source="owner_activity" data-field="distinct_partners" data-where="owner=Couchfire">&mdash;</span></div>
+            <div><span>Most often with</span><span data-draw="cf-top" data-source="owner_activity" data-field="top_partner" data-where="owner=Couchfire">&mdash;</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pdl-section">
+    <h2 class="pdl-h2">Who they trade with</h2>
+    <div class="pdl-grid">
+      <div class="pdl-card">
+        <h3 class="pdl-card-title">Trade partner matrix</h3>
+        <p class="pdl-card-note">Deals between each pair. Darker means more. An empty cell means the
+          two have never made one; a dashed cell means they were never in the league together.</p>
+        <div class="pdl-legend" aria-hidden="true">
+          <span><i class="pdl-key" data-key="scale"></i>More deals</span>
+          <span><i class="pdl-key pdl-key-none"></i>Never traded</span>
+          <span><i class="pdl-key pdl-key-na"></i>Never overlapped</span>
+        </div>
+        <div class="pdl-scroll"><div class="pdl-plot" data-draw="chart-matrix" data-source="pair_matrix"></div></div>
+      </div>
+      <div class="pdl-card">
+        <h3 class="pdl-card-title">Busiest and absent partnerships</h3>
+        <p class="pdl-card-note">The pairs who deal with each other most, then every pair who could
+          have and never has.</p>
+        <ul class="pdl-pairs" data-draw="pairs-list" data-source="pair_matrix"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="pdl-section">
+    <h2 class="pdl-h2">What gets traded</h2>
+    <div class="pdl-card">
+      <h3 class="pdl-card-title">Draft picks gained and spent</h3>
+      <p class="pdl-card-note">Picks received minus picks given away, 2008 onward only, because the
+        older archive recorded picks rather than players, and as prose rather than an itemised list,
+        so per-team totals cannot be counted from it. Bars to the right collect picks; bars to the
+        left cash them in for players.</p>
+      <div class="pdl-plot" data-draw="chart-picks" data-source="owner_activity"></div>
+    </div>
+  </section>
+
+  <section class="pdl-section">
+    <h2 class="pdl-h2">When they trade</h2>
+    <div class="pdl-grid">
+      <div class="pdl-card">
+        <h3 class="pdl-card-title">Trades per season</h3>
+        <p class="pdl-card-note">The early seasons come from a hand-kept archive, so read them as a
+          floor rather than a count.</p>
+        <div class="pdl-legend" aria-hidden="true">
+          <span><i class="pdl-key" data-key="mfl"></i>MyFantasyLeague log</span>
+          <span><i class="pdl-key" data-key="archive"></i>League archive</span>
+        </div>
+        <div class="pdl-plot" data-draw="chart-seasons" data-source="season_volume"></div>
+      </div>
+      <div class="pdl-card">
+        <h3 class="pdl-card-title">Trades by month</h3>
+        <p class="pdl-card-note">2008 onward, where trades are dated to the day. A summer build-up,
+          then an in-season run through November.</p>
+        <div class="pdl-plot" data-draw="chart-months" data-source="monthly"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pdl-section">
+    <h2 class="pdl-h2">Every trade</h2>
+    <div class="pdl-card">
+      <div class="pdl-controls">
+        <input class="pdl-search" type="search" id="pdl-search"
+          placeholder="Search a team, player or pick" aria-label="Search trades">
+        <span class="pdl-count"><span data-draw="row-count"></span></span>
+      </div>
+      <div class="pdl-table-box">
+        <table class="pdl-table" data-source="trade_log" data-row-key="trade_id">
+          <thead>
+            <tr>
+              <th data-field="season" aria-sort="descending"><button type="button" data-sort="season">Season</button></th>
+              <th data-field="date">Date</th>
+              <th data-field="owner_a"><button type="button" data-sort="owner_a">Team</button></th>
+              <th data-field="a_gave">gave</th>
+              <th data-field="owner_b"><button type="button" data-sort="owner_b">Team</button></th>
+              <th data-field="b_gave">gave</th>
+              <th data-field="assets"><button type="button" data-sort="assets">Assets</button></th>
+              <th data-field="detail">As the archive recorded it</th>
+            </tr>
+          </thead>
+          <tbody data-draw="log-rows"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  </div>
+
+  <div class="pdl-page" id="h2h" role="tabpanel" hidden>
+    <section class="pdl-tiles" aria-label="Head-to-head headline figures">
+      <div class="pdl-tile">
+        <span class="pdl-tile-label">Games on record</span>
+        <span class="pdl-tile-value" data-draw="g-games" data-source="game_totals" data-field="games" data-row="0">&mdash;</span>
+        <span class="pdl-tile-note">Regular season and playoffs, 2000 on</span>
+      </div>
+      <div class="pdl-tile">
+        <span class="pdl-tile-label">Best win rate</span>
+        <span class="pdl-tile-value" data-draw="g-bestpct" data-source="game_totals" data-field="best_pct" data-row="0">&mdash;</span>
+        <span class="pdl-tile-note"><span data-draw="g-bestname" data-source="game_totals" data-field="best" data-row="0">&mdash;</span></span>
+      </div>
+      <div class="pdl-tile">
+        <span class="pdl-tile-label">Dead-even rivalries</span>
+        <span class="pdl-tile-value" data-draw="g-even" data-source="game_totals" data-field="even" data-row="0">&mdash;</span>
+        <span class="pdl-tile-note">Level after 20 or more meetings</span>
+      </div>
+      <div class="pdl-tile">
+        <span class="pdl-tile-label">Ties in 27 seasons</span>
+        <span class="pdl-tile-value" data-draw="g-ties" data-source="game_totals" data-field="ties" data-row="0">&mdash;</span>
+        <span class="pdl-tile-note">Games that finished level</span>
+      </div>
+    </section>
+
+    <section class="pdl-section">
+      <h2 class="pdl-h2">Every team's record</h2>
+      <div class="pdl-card">
+        <p class="pdl-card-note">Win rate counts a tie as half a win. Points are indexed against the
+          league average of the seasons each team played, where 100 is average, because scoring is
+          not comparable across eras. Postseason games include consolation rounds in the seasons
+          that had them, so treat that column as games played after week 13, not as playoff runs.</p>
+        <div class="pdl-table-box">
+          <table class="pdl-table" data-source="team_records" data-row-key="owner">
+            <thead>
+              <tr>
+                <th data-field="owner"><button type="button" data-rsort="owner">Team</button></th>
+                <th data-field="seasons"><button type="button" data-rsort="seasons">Seasons</button></th>
+                <th data-field="games"><button type="button" data-rsort="games">G</button></th>
+                <th data-field="wins"><button type="button" data-rsort="wins">W</button></th>
+                <th data-field="losses"><button type="button" data-rsort="losses">L</button></th>
+                <th data-field="ties"><button type="button" data-rsort="ties">T</button></th>
+                <th data-field="win_pct" aria-sort="descending"><button type="button" data-rsort="win_pct">Win rate</button></th>
+                <th data-field="points_index"><button type="button" data-rsort="points_index">Points</button></th>
+                <th data-field="points_against_index"><button type="button" data-rsort="points_against_index">Allowed</button></th>
+                <th data-field="titles"><button type="button" data-rsort="titles">Titles</button></th>
+                <th data-field="postseason_games"><button type="button" data-rsort="postseason_games">Post G</button></th>
+                <th data-field="postseason_wins"><button type="button" data-rsort="postseason_wins">Post W</button></th>
+              </tr>
+            </thead>
+            <tbody data-draw="records-rows"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="pdl-section">
+      <h2 class="pdl-h2">Head to head</h2>
+      <div class="pdl-card">
+        <h3 class="pdl-card-title">Who beats whom</h3>
+        <p class="pdl-card-note">Read along a row: the cell shows that team's record against the
+          team in the column. Blue means the row team is ahead, orange means behind. A dashed cell
+          means the two were never in the league together.</p>
+        <div class="pdl-legend" aria-hidden="true">
+          <span><i class="pdl-key" data-key="ahead"></i>Row team ahead</span>
+          <span><i class="pdl-key" data-key="behind"></i>Row team behind</span>
+          <span><i class="pdl-key pdl-key-na"></i>Never overlapped</span>
+        </div>
+        <div class="pdl-scroll"><div class="pdl-plot" data-draw="chart-h2h" data-source="head_to_head"></div></div>
+      </div>
+      <div class="pdl-grid">
+        <div class="pdl-card">
+          <h3 class="pdl-card-title">Most one-sided</h3>
+          <p class="pdl-card-note">Rivalries of 12 or more meetings, by how far the winning side is
+            ahead.</p>
+          <ul class="pdl-rank" data-draw="lopsided" data-source="head_to_head"></ul>
+        </div>
+        <div class="pdl-card">
+          <h3 class="pdl-card-title">Closest rivalries</h3>
+          <p class="pdl-card-note">Rivalries of 20 or more meetings, nearest to level.</p>
+          <ul class="pdl-rank" data-draw="closest" data-source="head_to_head"></ul>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="pdl-page" id="titles" role="tabpanel" hidden>
+    <section class="pdl-section">
+      <h2 class="pdl-h2">Championships</h2>
+      <div class="pdl-grid">
+        <div class="pdl-card">
+          <h3 class="pdl-card-title">Titles won</h3>
+          <p class="pdl-card-note">26 seasons decided, 2000 to 2025. The 2026 season is still being
+            played.</p>
+          <div class="pdl-plot" data-draw="chart-titles" data-source="team_records"></div>
+        </div>
+        <div class="pdl-card">
+          <h3 class="pdl-card-title">Champion by season</h3>
+          <p class="pdl-card-note">2000 to 2019 from the league's own records. 2020 onward read from
+            the playoff bracket, a method that agrees with those records in all 12 seasons where
+            both exist.</p>
+          <ul class="pdl-rank" data-draw="champ-list" data-source="champions"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="pdl-section">
+      <h2 class="pdl-h2">Does trading help?</h2>
+      <div class="pdl-card">
+        <h3 class="pdl-card-title">Trading activity against winning</h3>
+        <p class="pdl-card-note">Each dot is a team: how often it trades against how often it wins.
+          There is no relationship worth reading. Across the 17 teams the correlation is
+          <b data-draw="corr" data-source="trade_corr" data-field="r" data-row="0">&mdash;</b>,
+          where about 0.5 either way would be needed before it meant anything at this sample size.
+          The least active trader has the most titles, which is a quirk of this league and not
+          evidence that standing pat works.</p>
+        <div class="pdl-plot" data-draw="chart-scatter" data-source="trade_success"></div>
+      </div>
+    </section>
+
+    <section class="pdl-section">
+      <h2 class="pdl-h2">Scoring by era</h2>
+      <div class="pdl-card">
+        <h3 class="pdl-card-title">Average points per team per game</h3>
+        <p class="pdl-card-note">Scoring drifts up from 66 a game in 2000 to 78 by 2017, then jumps
+          to 116 in 2018 and stays there, which is a scoring change rather than better teams. This
+          is why every points figure on this page is indexed to its own era. The jump lands in the
+          same season the one franchise changed hands, so raw points would have flattered the new
+          owner for no footballing reason.</p>
+        <div class="pdl-plot" data-draw="chart-scoring" data-source="season_scoring"></div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="pdl-foot">
+    <p><b>Two sources.</b> 2008 to 2026 is the MyFantasyLeague export log: machine-written, dated to
+      the day, assets named by player and pick. 2000 to 2007 is the league's own archive at
+      mspinola.github.io, hand-written in prose, where the two teams are reliable but the assets are
+      only a sentence. MyFantasyLeague keeps no transaction log for 2003 to 2006 and one record for
+      2007, which is why the archive carries those years.</p>
+    <p><b>Read the early seasons as a floor.</b> The archive was kept by hand, so a trade missing
+      from it is invisible here. Its offseason sections are also labelled a year early: its "2007
+      offseason" holds exactly the deals MyFantasyLeague logs in 2008, which is how the offset was
+      established and corrected.</p>
+    <p><b>Asset counts are a floor too.</b> 24 of the MyFantasyLeague records name only one side's
+      assets. Those trades and the two teams on them are right, but what changed hands is
+      understated. Three deals were written as two records each and are merged.</p>
+    <p><b>Games.</b> 3,046 games, 2000 to 2026. The 2003 to 2026 results come from MyFantasyLeague's
+      weekly schedule and the 2000 to 2002 results from the archive's schedule pages. The league's
+      own <code>lastRegularSeasonWeek</code> setting is not maintained, reading 16 in seasons that
+      plainly had three playoff rounds, so the regular season is separated instead by the playoff
+      brackets MFL publishes and, before those exist, by the weeks that carry fewer than a full
+      slate of games. MFL also writes an unplayed fixture as a tie with no score, which would have
+      added 56 phantom ties to the current season, so a game counts only with a real score.</p>
+    <p><b>Identity.</b> Teams are linked across seasons by name plus dynasty roster overlap,
+      which reproduces the known mapping exactly over 2016 to 2026 where MyFantasyLeague ids are
+      stable. The one owner change in league history is applied by hand, and the 2001 expansion is
+      taken from the 2000 standings and the 2001 expansion rules.</p>
+  </footer>
+</div>
+
+<script>
+  /* Derived figures. Each names its datasets so a reader can check the
+     arithmetic behind it in Sources. */
+  dash.calc('totals', {
+    title: 'Trades and seasons on record',
+    description: 'Adds up the per-season trade counts.',
+    inputs: ['season_volume'],
+    fn: (season_volume) => [{
+      trades: season_volume.reduce((sum, r) => sum + Number(r.trades), 0),
+      seasons: season_volume.length,
+    }],
+  });
+
+  dash.calc('assets', {
+    title: 'Players and picks moved, 2008 on',
+    description: 'Adds up what every team gave away, so each asset counts once. Only the MyFantasyLeague seasons record assets.',
+    inputs: ['owner_activity'],
+    fn: (owner_activity) => {
+      const players = owner_activity.reduce((sum, r) => sum + Number(r.players_out), 0);
+      const picks = owner_activity.reduce((sum, r) => sum + Number(r.picks_out), 0);
+      return [{players, picks, total: players + picks,
+        pick_pct: Math.round((picks / (players + picks)) * 100)}];
+    },
+  });
+
+  dash.calc('pairings', {
+    title: 'Pairings possible, used and never used',
+    description: 'A pairing is possible only if the two teams were in the league together, which excludes the franchise under its two owners.',
+    inputs: ['pair_matrix'],
+    fn: (pair_matrix) => {
+      const possible = pair_matrix.filter((r) => r.could_trade === 'yes');
+      const traded = possible.filter((r) => Number(r.trades) > 0).length;
+      return [{
+        possible: possible.length,
+        traded,
+        never: possible.length - traded,
+        impossible: pair_matrix.length - possible.length,
+      }];
+    },
+  });
+
+  dash.calc('concentration', {
+    title: 'How concentrated trading is',
+    description: 'Shares of all trade sides held by the three highest-count teams, and the highest and lowest deals-per-season rates.',
+    inputs: ['owner_activity'],
+    fn: (owner_activity) => {
+      const byCount = [...owner_activity].sort((a, b) => Number(b.trades) - Number(a.trades));
+      const byRate = [...owner_activity].sort((a, b) => Number(b.per_season) - Number(a.per_season));
+      const sides = byCount.reduce((sum, r) => sum + Number(r.trades), 0);
+      const top3 = byCount.slice(0, 3).reduce((sum, r) => sum + Number(r.trades), 0);
+      return [{
+        top3_pct: Math.round((top3 / sides) * 100),
+        busiest: byRate[0].owner,
+        busiest_rate: Number(byRate[0].per_season),
+        quietest: byRate[byRate.length - 1].owner,
+        quietest_rate: Number(byRate[byRate.length - 1].per_season),
+      }];
+    },
+  });
+</script>
+
+<script>
+  (() => {
+    const fmtInt = d3.format(',');
+    const PLACEHOLDER = '—';
+
+    const resolveColor = (host, value) => {
+      const probe = document.createElement('span');
+      probe.style.color = value;
+      host.appendChild(probe);
+      const out = getComputedStyle(probe).color;
+      probe.remove();
+      return out;
+    };
+
+    const measure = (host, strings, size) => {
+      const svg = d3.select(host).append('svg').attr('width', 0).attr('height', 0);
+      let max = 0;
+      strings.forEach((s) => {
+        const t = svg.append('text').attr('font-size', size).text(s);
+        max = Math.max(max, t.node().getComputedTextLength());
+      });
+      svg.remove();
+      return max;
+    };
+
+    /* Clears the element, shows the one-line failure where the data is not
+       ready, and otherwise hands the drawing its rows and the usable width. */
+    const chart = (name, sourceId, minHeight, draw) => {
+      dash.draw(name, (el) => {
+        const d = dash.data(sourceId);
+        el.replaceChildren();
+        el.style.minHeight = minHeight + 'px';
+        if (d.status === 'loading') { el.classList.add('dash-skeleton'); return; }
+        el.classList.remove('dash-skeleton');
+        if (d.status !== 'ok') {
+          const box = document.createElement('div');
+          box.className = 'pdl-fail';
+          box.style.minHeight = minHeight + 'px';
+          const dot = document.createElement('span');
+          dot.className = 'pdl-fail-dot';
+          const text = document.createElement('span');
+          text.className = 'pdl-fail-text';
+          text.textContent = 'Failed to load';
+          box.append(dot, text);
+          el.appendChild(box);
+          return;
+        }
+        const rows = Array.isArray(d.data) ? d.data : [];
+        if (!rows.length) return;
+        draw(el, rows, Math.max(el.clientWidth || 320, 240));
+      });
+    };
+
+    const tip = (host) => {
+      const node = document.createElement('div');
+      node.className = 'pdl-tip';
+      node.hidden = true;
+      host.appendChild(node);
+      return {
+        show(x, y, head, lines) {
+          node.replaceChildren();
+          const h = document.createElement('div');
+          h.className = 'pdl-tip-head';
+          h.textContent = head;
+          node.appendChild(h);
+          lines.forEach(([label, value, color]) => {
+            const row = document.createElement('div');
+            row.className = 'pdl-tip-row';
+            if (color) {
+              const sw = document.createElement('span');
+              sw.className = 'pdl-tip-swatch';
+              sw.style.background = color;
+              row.appendChild(sw);
+            }
+            const l = document.createElement('span');
+            l.textContent = label;
+            const v = document.createElement('span');
+            v.className = 'pdl-tip-val';
+            v.textContent = value;
+            row.append(l, v);
+            node.appendChild(row);
+          });
+          node.hidden = false;
+          const w = node.offsetWidth, hh = node.offsetHeight;
+          node.style.left = Math.min(Math.max(x - w / 2, 2),
+            Math.max(host.clientWidth - w - 2, 2)) + 'px';
+          node.style.top = Math.max(y - hh - 8, 2) + 'px';
+        },
+        hide() { node.hidden = true; },
+      };
+    };
+
+    /* ---- single values ---- */
+    const textDraw = (name, sourceId, field, where) => {
+      dash.draw(name, (el) => {
+        const d = dash.data(sourceId);
+        const rows = d.status === 'ok' && Array.isArray(d.data) ? d.data : [];
+        const row = where ? rows.find((r) => r[where[0]] === where[1]) : rows[0];
+        if (!row || row[field] === undefined || row[field] === null || row[field] === '') {
+          el.textContent = PLACEHOLDER;
+          return;
+        }
+        const v = row[field];
+        const n = Number(v);
+        el.textContent = v !== '' && Number.isFinite(n) && String(v).trim() !== ''
+          ? (Number.isInteger(n) ? fmtInt(n) : String(v))
+          : String(v);
+      });
+    };
+
+    textDraw('top3', 'concentration', 'top3_pct');
+    textDraw('busiest', 'concentration', 'busiest');
+    textDraw('busiest-rate', 'concentration', 'busiest_rate');
+    textDraw('quietest', 'concentration', 'quietest');
+    textDraw('quietest-rate', 'concentration', 'quietest_rate');
+    textDraw('never', 'pairings', 'never');
+    textDraw('possible', 'pairings', 'possible');
+    textDraw('t-trades', 'totals', 'trades');
+    textDraw('t-seasons', 'totals', 'seasons');
+    textDraw('t-assets', 'assets', 'total');
+    textDraw('t-pickpct', 'assets', 'pick_pct');
+
+    [['bl', 'Bunchalosers'], ['cf', 'Couchfire']].forEach(([prefix, owner]) => {
+      [['rate', 'per_season'], ['trades', 'trades'], ['seasons', 'seasons'],
+       ['active', 'seasons_with_a_trade'], ['partners', 'distinct_partners'],
+       ['top', 'top_partner']].forEach(([suffix, field]) => {
+        textDraw(`${prefix}-${suffix}`, 'owner_activity', field, ['owner', owner]);
+      });
+    });
+
+    /* ---- horizontal bars over the owners ---- */
+    const ownerBars = (name, field, fmt, tipLines) => chart(name, 'owner_activity', 460,
+      (el, rows, width) => {
+        const data = [...rows].sort((a, b) => Number(b[field]) - Number(a[field]));
+        const labelW = Math.min(measure(el, data.map((r) => r.owner), 11) + 10, width * 0.46);
+        const m = {top: 18, right: 38, bottom: 6, left: labelW};
+        const rowH = 23;
+        const h = m.top + data.length * rowH + m.bottom;
+        const x = d3.scaleLinear([0, d3.max(data, (r) => Number(r[field]))],
+          [0, Math.max(width - m.left - m.right, 10)]);
+        const y = d3.scaleBand(data.map((r) => r.owner),
+          [m.top, m.top + data.length * rowH]).padding(0.28);
+        const svg = d3.select(el).append('svg')
+          .attr('width', '100%').attr('height', h).attr('viewBox', `0 0 ${width} ${h}`);
+        const color = dash.colors[0];
+        const t = tip(el);
+
+        svg.append('g').attr('transform', `translate(${m.left},${m.top})`)
+          .call(d3.axisTop(x).ticks(Math.max(Math.floor(width / 90), 2)).tickSize(0))
+          .call((g) => g.select('.domain').remove())
+          .call((g) => g.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 10))
+          .attr('font-size', null).attr('font-family', null);
+
+        svg.append('g').selectAll('text').data(data).join('text')
+          .attr('x', m.left - 6)
+          .attr('y', (r) => y(r.owner) + y.bandwidth() / 2)
+          .attr('text-anchor', 'end').attr('dominant-baseline', 'middle')
+          .attr('font-size', 11).attr('fill', 'var(--color-fg)')
+          .text((r) => r.owner);
+
+        svg.append('g').selectAll('rect').data(data).join('rect')
+          .attr('x', m.left)
+          .attr('y', (r) => y(r.owner))
+          .attr('width', (r) => Math.max(x(Number(r[field])), 1))
+          .attr('height', y.bandwidth()).attr('rx', 4).attr('fill', color)
+          .on('pointerenter pointermove', (ev, r) => t.show(
+            m.left + x(Number(r[field])), y(r.owner), r.owner, tipLines(r, color)))
+          .on('pointerleave', () => t.hide());
+
+        svg.append('g').selectAll('text').data(data).join('text')
+          .attr('x', (r) => m.left + x(Number(r[field])) + 6)
+          .attr('y', (r) => y(r.owner) + y.bandwidth() / 2)
+          .attr('dominant-baseline', 'middle').attr('font-size', 10)
+          .attr('fill', 'var(--color-fg-muted)')
+          .text((r) => fmt(r[field]));
+      });
+
+    ownerBars('chart-rate', 'per_season', (v) => v, (r, color) => [
+      ['Deals per season', r.per_season, color],
+      ['Total deals', r.trades, null],
+      ['Seasons in the league', `${r.first_season} to ${r.last_season} (${r.seasons})`, null],
+      ['Seasons with a deal', `${r.seasons_with_a_trade} of ${r.seasons}`, null],
+    ]);
+
+    ownerBars('chart-count', 'trades', (v) => v, (r, color) => [
+      ['Total deals', r.trades, color],
+      ['Deals per season', r.per_season, null],
+      ['Different partners', `${r.distinct_partners} of ${r.possible_partners}`, null],
+      ['Most often with', `${r.top_partner} (${r.top_partner_trades})`, null],
+    ]);
+
+    /* ---- draft pick flow ---- */
+    chart('chart-picks', 'owner_activity', 460, (el, rows, width) => {
+      const data = [...rows].sort((a, b) => Number(b.net_picks) - Number(a.net_picks));
+      const labelW = Math.min(measure(el, data.map((r) => r.owner), 11) + 10, width * 0.46);
+      const m = {top: 18, right: 34, bottom: 6, left: labelW};
+      const rowH = 23;
+      const h = m.top + data.length * rowH + m.bottom;
+      const span = d3.max(data, (r) => Math.abs(Number(r.net_picks))) || 1;
+      const x = d3.scaleLinear([-span, span], [0, Math.max(width - m.left - m.right, 10)]);
+      const y = d3.scaleBand(data.map((r) => r.owner),
+        [m.top, m.top + data.length * rowH]).padding(0.28);
+      const svg = d3.select(el).append('svg')
+        .attr('width', '100%').attr('height', h).attr('viewBox', `0 0 ${width} ${h}`);
+      const gain = dash.colors[0], spend = dash.colors[3];
+      const t = tip(el);
+
+      svg.append('g').attr('transform', `translate(${m.left},${m.top})`)
+        .call(d3.axisTop(x).ticks(Math.max(Math.floor(width / 70), 2))
+          .tickFormat(d3.format('+d')).tickSize(0))
+        .call((g) => g.select('.domain').remove())
+        .call((g) => g.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 10))
+        .attr('font-size', null).attr('font-family', null);
+
+      svg.append('line')
+        .attr('x1', m.left + x(0)).attr('x2', m.left + x(0))
+        .attr('y1', m.top).attr('y2', m.top + data.length * rowH)
+        .attr('stroke', 'var(--cds-chart-axis)').attr('stroke-width', 1);
+
+      svg.append('g').selectAll('text').data(data).join('text')
+        .attr('x', m.left - 6)
+        .attr('y', (r) => y(r.owner) + y.bandwidth() / 2)
+        .attr('text-anchor', 'end').attr('dominant-baseline', 'middle')
+        .attr('font-size', 11).attr('fill', 'var(--color-fg)')
+        .text((r) => r.owner);
+
+      svg.append('g').selectAll('rect').data(data).join('rect')
+        .attr('x', (r) => m.left + Math.min(x(0), x(Number(r.net_picks))))
+        .attr('y', (r) => y(r.owner))
+        .attr('width', (r) => Math.max(Math.abs(x(Number(r.net_picks)) - x(0)), 1))
+        .attr('height', y.bandwidth()).attr('rx', 4)
+        .attr('fill', (r) => (Number(r.net_picks) >= 0 ? gain : spend))
+        .on('pointerenter pointermove', (ev, r) => t.show(
+          m.left + x(Number(r.net_picks)), y(r.owner), r.owner,
+          [['Net picks', d3.format('+d')(Number(r.net_picks)),
+            Number(r.net_picks) >= 0 ? gain : spend],
+           ['Picks in', r.picks_in, null], ['Picks out', r.picks_out, null],
+           ['Players in', r.players_in, null], ['Players out', r.players_out, null]]))
+        .on('pointerleave', () => t.hide());
+
+      svg.append('g').selectAll('text').data(data).join('text')
+        .attr('x', width - 2)
+        .attr('y', (r) => y(r.owner) + y.bandwidth() / 2)
+        .attr('text-anchor', 'end')
+        .attr('dominant-baseline', 'middle').attr('font-size', 10)
+        .attr('fill', 'var(--color-fg-muted)')
+        .text((r) => d3.format('+d')(Number(r.net_picks)));
+    });
+
+    /* ---- partner matrix ---- */
+    chart('chart-matrix', 'pair_matrix', 500, (el, rows, width) => {
+      const teams = Array.from(new Set(rows.flatMap((r) => [r.owner_a, r.owner_b]))).sort();
+      const deals = new Map(), shared = new Map();
+      rows.forEach((r) => {
+        const n = Number(r.trades), s = Number(r.shared_seasons);
+        deals.set(`${r.owner_a}|${r.owner_b}`, n);
+        deals.set(`${r.owner_b}|${r.owner_a}`, n);
+        shared.set(`${r.owner_a}|${r.owner_b}`, s);
+        shared.set(`${r.owner_b}|${r.owner_a}`, s);
+      });
+      const short = (s) => (s.length > 13 ? s.slice(0, 12) + '…' : s);
+      const cell = 25;
+      const leftW = measure(el, teams.map(short), 10) + 10;
+      const topH = measure(el, teams.map(short), 10) + 16;
+      const m = {top: topH, left: leftW, right: 10, bottom: 10};
+      const w = Math.max(m.left + teams.length * cell + m.right, 260);
+      const h = m.top + teams.length * cell + m.bottom;
+      const max = d3.max(rows, (r) => Number(r.trades)) || 1;
+      const ramp = d3.interpolateRgb(resolveColor(el, 'var(--color-panel)'),
+        resolveColor(el, dash.colors[0]));
+      const svg = d3.select(el).append('svg')
+        .attr('width', w).attr('height', h).attr('viewBox', `0 0 ${w} ${h}`);
+      const t = tip(el);
+
+      svg.append('g').selectAll('text').data(teams).join('text')
+        .attr('x', m.left - 6)
+        .attr('y', (d, i) => m.top + i * cell + cell / 2)
+        .attr('text-anchor', 'end').attr('dominant-baseline', 'middle')
+        .attr('font-size', 10).attr('fill', 'var(--color-fg)').text(short);
+
+      svg.append('g').selectAll('text').data(teams).join('text')
+        .attr('transform', (d, i) =>
+          `translate(${m.left + i * cell + cell / 2},${m.top - 6}) rotate(-90)`)
+        .attr('text-anchor', 'start').attr('dominant-baseline', 'middle')
+        .attr('font-size', 10).attr('fill', 'var(--color-fg)').text(short);
+
+      const cells = [];
+      teams.forEach((a, i) => teams.forEach((b, j) => {
+        if (i === j) return;
+        cells.push({a, b, i, j, n: deals.get(`${a}|${b}`) ?? 0,
+          s: shared.get(`${a}|${b}`) ?? 0});
+      }));
+
+      svg.append('g').selectAll('rect').data(cells).join('rect')
+        .attr('x', (c) => m.left + c.j * cell + 1)
+        .attr('y', (c) => m.top + c.i * cell + 1)
+        .attr('width', cell - 2).attr('height', cell - 2).attr('rx', 3)
+        .attr('fill', (c) => (c.n === 0 ? 'transparent' : ramp(0.25 + 0.75 * (c.n / max))))
+        .attr('stroke', (c) => (c.s === 0 ? 'var(--color-fg-muted)' : 'var(--color-border-line)'))
+        .attr('stroke-dasharray', (c) => (c.s === 0 ? '2 2' : null))
+        .attr('stroke-width', 1)
+        .on('pointerenter pointermove', (ev, c) => t.show(
+          m.left + c.j * cell + cell / 2, m.top + c.i * cell, `${c.a} and ${c.b}`,
+          c.s === 0
+            ? [['Never in the league together', '', null]]
+            : [[c.n === 0 ? 'Never traded' : 'Deals', c.n === 0 ? '' : fmtInt(c.n),
+                c.n === 0 ? null : ramp(0.25 + 0.75 * (c.n / max))],
+               ['Shared seasons', c.s, null]]))
+        .on('pointerleave', () => t.hide());
+
+      svg.append('g').selectAll('text').data(cells.filter((c) => c.n > 0)).join('text')
+        .attr('x', (c) => m.left + c.j * cell + cell / 2)
+        .attr('y', (c) => m.top + c.i * cell + cell / 2)
+        .attr('text-anchor', 'middle').attr('dominant-baseline', 'middle')
+        .attr('font-size', 9).attr('pointer-events', 'none')
+        .attr('fill', (c) => (c.n / max > 0.55 ? 'var(--color-bg)' : 'var(--color-fg-muted)'))
+        .text((c) => c.n);
+    });
+
+    /* ---- partnerships list ---- */
+    dash.draw('pairs-list', (el) => {
+      const d = dash.data('pair_matrix');
+      el.replaceChildren();
+      if (d.status === 'loading') { el.classList.add('dash-skeleton'); return; }
+      el.classList.remove('dash-skeleton');
+      if (d.status !== 'ok') {
+        const li = document.createElement('li');
+        li.className = 'pdl-fail';
+        const dot = document.createElement('span');
+        dot.className = 'pdl-fail-dot';
+        const text = document.createElement('span');
+        text.className = 'pdl-fail-text';
+        text.textContent = 'Failed to load';
+        li.append(dot, text);
+        el.appendChild(li);
+        return;
+      }
+      const rows = Array.isArray(d.data) ? d.data : [];
+      const add = (left, right, head) => {
+        const li = document.createElement('li');
+        const a = document.createElement('span');
+        if (head) a.className = 'pdl-pairs-head';
+        a.textContent = left;
+        const b = document.createElement('span');
+        b.className = 'pdl-pairs-count';
+        b.textContent = right;
+        li.append(a, b);
+        el.appendChild(li);
+      };
+      const possible = rows.filter((r) => r.could_trade === 'yes');
+      const ranked = [...possible].sort((p, q) => Number(q.trades) - Number(p.trades));
+      ranked.filter((r) => Number(r.trades) > 0).slice(0, 10)
+        .forEach((r) => add(`${r.owner_a} and ${r.owner_b}`, `${r.trades} deals`));
+      const never = ranked.filter((r) => Number(r.trades) === 0)
+        .sort((p, q) => Number(q.shared_seasons) - Number(p.shared_seasons));
+      if (never.length) {
+        add('Could have traded, never did', `${never.length} pairs`, true);
+        never.forEach((r) => add(`${r.owner_a} and ${r.owner_b}`,
+          `${r.shared_seasons} shared seasons`));
+      }
+    });
+
+    /* ---- trades per season, coloured by source ---- */
+    const SOURCE_COLOR = () => ({MFL: dash.colors[0], archive: dash.colors[3]});
+
+    chart('chart-seasons', 'season_volume', 250, (el, rows, width) => {
+      const data = [...rows].sort((a, b) => Number(a.season) - Number(b.season));
+      const m = {top: 10, right: 6, bottom: 26, left: 28};
+      const h = 230;
+      const x = d3.scaleBand(data.map((r) => r.season), [m.left, width - m.right]).padding(0.22);
+      const y = d3.scaleLinear([0, d3.max(data, (r) => Number(r.trades))],
+        [h - m.bottom, m.top]).nice();
+      const svg = d3.select(el).append('svg')
+        .attr('width', '100%').attr('height', h).attr('viewBox', `0 0 ${width} ${h}`);
+      const colors = SOURCE_COLOR();
+      const t = tip(el);
+
+      svg.append('g').selectAll('line').data(y.ticks(4)).join('line')
+        .attr('x1', m.left).attr('x2', width - m.right).attr('y1', y).attr('y2', y)
+        .attr('stroke', 'var(--cds-chart-grid)').attr('stroke-width', 1);
+
+      svg.append('g').attr('transform', `translate(${m.left},0)`)
+        .call(d3.axisLeft(y).ticks(4).tickSize(0))
+        .call((g) => g.select('.domain').remove())
+        .call((g) => g.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 10))
+        .attr('font-size', null).attr('font-family', null);
+
+      const step = Math.max(Math.ceil(data.length / Math.max(Math.floor(width / 44), 3)), 1);
+      svg.append('g').attr('transform', `translate(0,${h - m.bottom})`)
+        .call(d3.axisBottom(x).tickSize(0)
+          .tickValues(data.map((r) => r.season).filter((d, i) => i % step === 0)))
+        .call((g) => g.select('.domain').remove())
+        .call((g) => g.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 10))
+        .attr('font-size', null).attr('font-family', null);
+
+      svg.append('g').selectAll('rect').data(data).join('rect')
+        .attr('x', (r) => x(r.season))
+        .attr('y', (r) => y(Number(r.trades)))
+        .attr('width', Math.min(x.bandwidth(), 32))
+        .attr('height', (r) => Math.max(h - m.bottom - y(Number(r.trades)), 1))
+        .attr('rx', 3)
+        .attr('fill', (r) => colors[r.source] || dash.colors[0])
+        .on('pointerenter pointermove', (ev, r) => t.show(
+          x(r.season) + x.bandwidth() / 2, y(Number(r.trades)), r.season,
+          [['Trades', fmtInt(Number(r.trades)), colors[r.source] || dash.colors[0]],
+           ['Source', r.source === 'MFL' ? 'MyFantasyLeague log' : 'League archive', null]]))
+        .on('pointerleave', () => t.hide());
+    });
+
+    chart('chart-months', 'monthly', 250, (el, rows, width) => {
+      const data = [...rows].sort((a, b) => Number(a.month_num) - Number(b.month_num));
+      const m = {top: 10, right: 6, bottom: 26, left: 28};
+      const h = 230;
+      const x = d3.scaleBand(data.map((r) => r.month), [m.left, width - m.right]).padding(0.22);
+      const y = d3.scaleLinear([0, d3.max(data, (r) => Number(r.trades))],
+        [h - m.bottom, m.top]).nice();
+      const svg = d3.select(el).append('svg')
+        .attr('width', '100%').attr('height', h).attr('viewBox', `0 0 ${width} ${h}`);
+      const color = dash.colors[0];
+      const t = tip(el);
+
+      svg.append('g').selectAll('line').data(y.ticks(4)).join('line')
+        .attr('x1', m.left).attr('x2', width - m.right).attr('y1', y).attr('y2', y)
+        .attr('stroke', 'var(--cds-chart-grid)').attr('stroke-width', 1);
+
+      svg.append('g').attr('transform', `translate(${m.left},0)`)
+        .call(d3.axisLeft(y).ticks(4).tickSize(0))
+        .call((g) => g.select('.domain').remove())
+        .call((g) => g.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 10))
+        .attr('font-size', null).attr('font-family', null);
+
+      const step = Math.max(Math.ceil(data.length / Math.max(Math.floor(width / 34), 3)), 1);
+      svg.append('g').attr('transform', `translate(0,${h - m.bottom})`)
+        .call(d3.axisBottom(x).tickSize(0)
+          .tickValues(data.map((r) => r.month).filter((d, i) => i % step === 0)))
+        .call((g) => g.select('.domain').remove())
+        .call((g) => g.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 10))
+        .attr('font-size', null).attr('font-family', null);
+
+      svg.append('g').selectAll('rect').data(data).join('rect')
+        .attr('x', (r) => x(r.month))
+        .attr('y', (r) => y(Number(r.trades)))
+        .attr('width', Math.min(x.bandwidth(), 32))
+        .attr('height', (r) => Math.max(h - m.bottom - y(Number(r.trades)), 1))
+        .attr('rx', 3).attr('fill', color)
+        .on('pointerenter pointermove', (ev, r) => t.show(
+          x(r.month) + x.bandwidth() / 2, y(Number(r.trades)), r.month,
+          [['Trades', fmtInt(Number(r.trades)), color]]))
+        .on('pointerleave', () => t.hide());
+    });
+
+    /* ---- legend swatches ---- */
+    const paintKeys = () => {
+      const colors = SOURCE_COLOR();
+      document.querySelectorAll('.pdl-key[data-key]').forEach((node) => {
+        const which = node.dataset.key;
+        node.style.background = which === 'archive' ? colors.archive
+          : which === 'mfl' ? colors.MFL
+          : dash.colors[0];
+      });
+    };
+    paintKeys();
+
+    /* ---- the trade log ---- */
+    const sortState = {field: 'season', dir: 'desc'};
+    let query = '';
+    const NUMERIC = new Set(['season', 'assets']);
+
+    const visibleRows = () => {
+      const d = dash.data('trade_log');
+      const rows = d.status === 'ok' && Array.isArray(d.data) ? d.data : [];
+      const q = query.trim().toLowerCase();
+      const kept = q
+        ? rows.filter((r) => ['season', 'date', 'owner_a', 'owner_b', 'a_gave', 'b_gave', 'detail']
+            .some((k) => String(r[k] ?? '').toLowerCase().includes(q)))
+        : rows.slice();
+      const numeric = NUMERIC.has(sortState.field);
+      kept.sort((a, b) => {
+        const x = numeric ? Number(a[sortState.field]) : String(a[sortState.field] ?? '');
+        const y = numeric ? Number(b[sortState.field]) : String(b[sortState.field] ?? '');
+        const cmp = numeric ? x - y : x.localeCompare(y);
+        return sortState.dir === 'asc' ? cmp : -cmp;
+      });
+      return {kept, total: rows.length};
+    };
+
+    dash.draw('log-rows', (el) => {
+      const d = dash.data('trade_log');
+      el.replaceChildren();
+      if (d.status !== 'ok') return;
+      const {kept} = visibleRows();
+      const frag = document.createDocumentFragment();
+      kept.forEach((r) => {
+        const tr = document.createElement('tr');
+        tr.dataset.key = r.trade_id;
+        [['season', r.season], ['date', r.date], ['owner_a', r.owner_a],
+         ['a_gave', r.a_gave], ['owner_b', r.owner_b], ['b_gave', r.b_gave],
+         ['assets', r.assets], ['detail', r.detail]].forEach(([field, value]) => {
+          const td = document.createElement('td');
+          if (field === 'a_gave' || field === 'b_gave') td.className = 'pdl-gave';
+          if (field === 'detail') td.className = 'pdl-detail';
+          td.textContent = value ?? '';
+          tr.appendChild(td);
+        });
+        frag.appendChild(tr);
+      });
+      el.appendChild(frag);
+    });
+
+    dash.draw('row-count', (el) => {
+      const d = dash.data('trade_log');
+      if (d.status !== 'ok') { el.textContent = ''; return; }
+      const {kept, total} = visibleRows();
+      el.textContent = kept.length === total
+        ? `${fmtInt(total)} trades`
+        : `${fmtInt(kept.length)} of ${fmtInt(total)} trades`;
+    });
+
+    document.querySelectorAll('#pdl-search').forEach((input) => {
+      input.addEventListener('input', () => {
+        query = input.value;
+        dash.draw('log-rows');
+        dash.draw('row-count');
+      });
+    });
+
+    document.querySelectorAll('.pdl-table th button[data-sort]').forEach((button) => {
+      button.addEventListener('click', () => {
+        const field = button.dataset.sort;
+        if (sortState.field === field) {
+          sortState.dir = sortState.dir === 'asc' ? 'desc' : 'asc';
+        } else {
+          sortState.field = field;
+          sortState.dir = NUMERIC.has(field) ? 'desc' : 'asc';
+        }
+        document.querySelectorAll('.pdl-table th').forEach((th) => {
+          const own = th.querySelector('button[data-sort]');
+          if (!own) return;
+          th.setAttribute('aria-sort', own.dataset.sort === sortState.field
+            ? (sortState.dir === 'asc' ? 'ascending' : 'descending') : 'none');
+        });
+        dash.draw('log-rows');
+      });
+    });
+  })();
+</script>
+
+<script>
+  dash.calc('game_totals', {
+    title: 'Games, the best record and the level rivalries',
+    description: 'Totals the per-team game counts, halved because each game appears for both sides, and counts the rivalries that are level after 20 or more meetings.',
+    inputs: ['team_records', 'head_to_head'],
+    fn: (team_records, head_to_head) => {
+      const games = team_records.reduce((sum, r) => sum + Number(r.games), 0) / 2;
+      const ties = team_records.reduce((sum, r) => sum + Number(r.ties), 0) / 2;
+      const best = [...team_records].sort((a, b) => Number(b.win_pct) - Number(a.win_pct))[0];
+      const even = head_to_head.filter((r) => Number(r.games) >= 20
+        && Number(r.a_wins) === Number(r.b_wins)).length;
+      return [{
+        games,
+        ties,
+        best: best.owner,
+        best_pct: Number(best.win_pct).toFixed(3),
+        even,
+      }];
+    },
+  });
+
+  dash.calc('trade_success', {
+    title: 'Trading activity against winning',
+    description: 'Joins each team’s deals per season to its win rate and titles.',
+    inputs: ['owner_activity', 'team_records'],
+    fn: (owner_activity, team_records) => {
+      const rate = new Map(owner_activity.map((r) => [r.owner, Number(r.per_season)]));
+      return team_records
+        .filter((r) => rate.has(r.owner))
+        .map((r) => ({
+          owner: r.owner,
+          per_season: rate.get(r.owner),
+          win_pct: Number(r.win_pct),
+          titles: Number(r.titles),
+          seasons: Number(r.seasons),
+        }));
+    },
+  });
+
+  dash.calc('trade_corr', {
+    title: 'Correlation between trading and winning',
+    description: 'Pearson correlation of deals per season against win rate, over the 17 teams.',
+    inputs: ['trade_success'],
+    fn: (trade_success) => {
+      const n = trade_success.length;
+      const xs = trade_success.map((r) => Number(r.per_season));
+      const ys = trade_success.map((r) => Number(r.win_pct));
+      const mx = xs.reduce((a, b) => a + b, 0) / n;
+      const my = ys.reduce((a, b) => a + b, 0) / n;
+      const sx = Math.sqrt(xs.reduce((a, x) => a + (x - mx) ** 2, 0));
+      const sy = Math.sqrt(ys.reduce((a, y) => a + (y - my) ** 2, 0));
+      const cov = xs.reduce((a, x, i) => a + (x - mx) * (ys[i] - my), 0);
+      const r = cov / (sx * sy);
+      return [{r: (r >= 0 ? '+' : '') + r.toFixed(3), n}];
+    },
+  });
+</script>
+
+<script>
+  (() => {
+    const fmtInt = d3.format(',');
+    const PLACEHOLDER = '—';
+
+    const rowsOf = (id) => {
+      const d = dash.data(id);
+      return d.status === 'ok' && Array.isArray(d.data) ? d.data : [];
+    };
+
+    const resolveColor = (host, value) => {
+      const probe = document.createElement('span');
+      probe.style.color = value;
+      host.appendChild(probe);
+      const out = getComputedStyle(probe).color;
+      probe.remove();
+      return out;
+    };
+
+    const measure = (host, strings, size) => {
+      const svg = d3.select(host).append('svg').attr('width', 0).attr('height', 0);
+      let max = 0;
+      strings.forEach((str) => {
+        const t = svg.append('text').attr('font-size', size).text(str);
+        max = Math.max(max, t.node().getComputedTextLength());
+      });
+      svg.remove();
+      return max;
+    };
+
+    const chart = (name, sourceId, minHeight, draw) => {
+      dash.draw(name, (el) => {
+        const d = dash.data(sourceId);
+        el.replaceChildren();
+        el.style.position = 'relative';
+        el.style.minHeight = minHeight + 'px';
+        if (d.status === 'loading') { el.classList.add('dash-skeleton'); return; }
+        el.classList.remove('dash-skeleton');
+        if (d.status !== 'ok') {
+          const box = document.createElement('div');
+          box.className = 'pdl-fail';
+          box.style.minHeight = minHeight + 'px';
+          const dot = document.createElement('span');
+          dot.className = 'pdl-fail-dot';
+          const text = document.createElement('span');
+          text.className = 'pdl-fail-text';
+          text.textContent = 'Failed to load';
+          box.append(dot, text);
+          el.appendChild(box);
+          return;
+        }
+        const rows = Array.isArray(d.data) ? d.data : [];
+        if (!rows.length) return;
+        draw(el, rows, Math.max(el.clientWidth || 320, 240));
+      });
+    };
+
+    const tip = (host) => {
+      const node = document.createElement('div');
+      node.className = 'pdl-tip';
+      node.hidden = true;
+      host.appendChild(node);
+      return {
+        show(x, y, head, lines) {
+          node.replaceChildren();
+          const h = document.createElement('div');
+          h.className = 'pdl-tip-head';
+          h.textContent = head;
+          node.appendChild(h);
+          lines.forEach(([label, value, color]) => {
+            const row = document.createElement('div');
+            row.className = 'pdl-tip-row';
+            if (color) {
+              const sw = document.createElement('span');
+              sw.className = 'pdl-tip-swatch';
+              sw.style.background = color;
+              row.appendChild(sw);
+            }
+            const l = document.createElement('span');
+            l.textContent = label;
+            const v = document.createElement('span');
+            v.className = 'pdl-tip-val';
+            v.textContent = value;
+            row.append(l, v);
+            node.appendChild(row);
+          });
+          node.hidden = false;
+          const w = node.offsetWidth, hh = node.offsetHeight;
+          node.style.left = Math.min(Math.max(x - w / 2, 2),
+            Math.max(host.clientWidth - w - 2, 2)) + 'px';
+          node.style.top = Math.max(y - hh - 8, 2) + 'px';
+        },
+        hide() { node.hidden = true; },
+      };
+    };
+
+    const textDraw = (name, sourceId, field) => {
+      dash.draw(name, (el) => {
+        const d = dash.data(sourceId);
+        const row = d.status === 'ok' && Array.isArray(d.data) ? d.data[0] : null;
+        if (!row || row[field] === undefined || row[field] === null || row[field] === '') {
+          el.textContent = PLACEHOLDER;
+          return;
+        }
+        const v = row[field];
+        const n = Number(v);
+        el.textContent = Number.isFinite(n) && Number.isInteger(n) && String(v).trim() !== ''
+          ? fmtInt(n) : String(v);
+      });
+    };
+
+    textDraw('g-games', 'game_totals', 'games');
+    textDraw('g-ties', 'game_totals', 'ties');
+    textDraw('g-even', 'game_totals', 'even');
+    textDraw('g-bestname', 'game_totals', 'best');
+    textDraw('g-bestpct', 'game_totals', 'best_pct');
+    textDraw('corr', 'trade_corr', 'r');
+
+    /* ---- team records table ---- */
+    const RCOLS = ['owner', 'seasons', 'games', 'wins', 'losses', 'ties', 'win_pct',
+                   'points_index', 'points_against_index', 'titles',
+                   'postseason_games', 'postseason_wins'];
+    const rsort = {field: 'win_pct', dir: 'desc'};
+
+    dash.draw('records-rows', (el) => {
+      const d = dash.data('team_records');
+      el.replaceChildren();
+      if (d.status !== 'ok') return;
+      const rows = [...rowsOf('team_records')];
+      const numeric = rsort.field !== 'owner';
+      rows.sort((a, b) => {
+        const x = numeric ? Number(a[rsort.field]) : String(a[rsort.field] ?? '');
+        const y = numeric ? Number(b[rsort.field]) : String(b[rsort.field] ?? '');
+        const cmp = numeric ? x - y : x.localeCompare(y);
+        return rsort.dir === 'asc' ? cmp : -cmp;
+      });
+      const frag = document.createDocumentFragment();
+      rows.forEach((r) => {
+        const tr = document.createElement('tr');
+        tr.dataset.key = r.owner;
+        RCOLS.forEach((c) => {
+          const td = document.createElement('td');
+          td.textContent = c === 'win_pct' ? Number(r[c]).toFixed(3) : (r[c] ?? '');
+          tr.appendChild(td);
+        });
+        frag.appendChild(tr);
+      });
+      el.appendChild(frag);
+    });
+
+    document.querySelectorAll('.pdl-table th button[data-rsort]').forEach((button) => {
+      button.addEventListener('click', () => {
+        const field = button.dataset.rsort;
+        if (rsort.field === field) {
+          rsort.dir = rsort.dir === 'asc' ? 'desc' : 'asc';
+        } else {
+          rsort.field = field;
+          rsort.dir = field === 'owner' ? 'asc' : 'desc';
+        }
+        document.querySelectorAll('.pdl-table th').forEach((th) => {
+          const own = th.querySelector('button[data-rsort]');
+          if (!own) return;
+          th.setAttribute('aria-sort', own.dataset.rsort === rsort.field
+            ? (rsort.dir === 'asc' ? 'ascending' : 'descending') : 'none');
+        });
+        dash.draw('records-rows');
+      });
+    });
+
+    /* ---- the head-to-head grid ---- */
+    chart('chart-h2h', 'head_to_head', 560, (el, rows, width) => {
+      const teams = Array.from(new Set(rows.flatMap((r) => [r.owner_a, r.owner_b]))).sort();
+      const look = new Map();
+      rows.forEach((r) => {
+        const a = r.owner_a, b = r.owner_b;
+        const aw = Number(r.a_wins), bw = Number(r.b_wins), t = Number(r.ties);
+        const meet = r.could_meet === 'yes';
+        look.set(`${a}|${b}`, {w: aw, l: bw, t, games: Number(r.games), meet});
+        look.set(`${b}|${a}`, {w: bw, l: aw, t, games: Number(r.games), meet});
+      });
+      const short = (x) => (x.length > 13 ? x.slice(0, 12) + '…' : x);
+      const cw = 38, ch = 26;
+      const leftW = measure(el, teams.map(short), 10) + 10;
+      const topH = measure(el, teams.map(short), 10) + 16;
+      const m = {top: topH, left: leftW, right: 10, bottom: 10};
+      const w = Math.max(m.left + teams.length * cw + m.right, 260);
+      const h = m.top + teams.length * ch + m.bottom;
+      const neutral = resolveColor(el, 'var(--color-panel)');
+      const ahead = d3.interpolateRgb(neutral, resolveColor(el, dash.colors[0]));
+      const behind = d3.interpolateRgb(neutral, resolveColor(el, dash.colors[3]));
+      const svg = d3.select(el).append('svg')
+        .attr('width', w).attr('height', h).attr('viewBox', `0 0 ${w} ${h}`);
+      const t = tip(el);
+
+      svg.append('g').selectAll('text').data(teams).join('text')
+        .attr('x', m.left - 6)
+        .attr('y', (d, i) => m.top + i * ch + ch / 2)
+        .attr('text-anchor', 'end').attr('dominant-baseline', 'middle')
+        .attr('font-size', 10).attr('fill', 'var(--color-fg)').text(short);
+
+      svg.append('g').selectAll('text').data(teams).join('text')
+        .attr('transform', (d, i) =>
+          `translate(${m.left + i * cw + cw / 2},${m.top - 6}) rotate(-90)`)
+        .attr('text-anchor', 'start').attr('dominant-baseline', 'middle')
+        .attr('font-size', 10).attr('fill', 'var(--color-fg)').text(short);
+
+      const cells = [];
+      teams.forEach((row, i) => teams.forEach((col, j) => {
+        if (i === j) return;
+        const d = look.get(`${row}|${col}`);
+        if (!d) return;
+        cells.push({row, col, i, j, ...d});
+      }));
+
+      const fill = (c) => {
+        if (!c.meet || !c.games) return 'transparent';
+        const rate = (c.w + 0.5 * c.t) / c.games;
+        const edge = Math.min(Math.abs(rate - 0.5) / 0.35, 1);
+        return rate >= 0.5 ? ahead(0.15 + 0.85 * edge) : behind(0.15 + 0.85 * edge);
+      };
+
+      svg.append('g').selectAll('rect').data(cells).join('rect')
+        .attr('x', (c) => m.left + c.j * cw + 1)
+        .attr('y', (c) => m.top + c.i * ch + 1)
+        .attr('width', cw - 2).attr('height', ch - 2).attr('rx', 3)
+        .attr('fill', fill)
+        .attr('stroke', (c) => (c.meet ? 'var(--color-border-line)' : 'var(--color-fg-muted)'))
+        .attr('stroke-dasharray', (c) => (c.meet ? null : '2 2'))
+        .attr('stroke-width', 1)
+        .on('pointerenter pointermove', (ev, c) => t.show(
+          m.left + c.j * cw + cw / 2, m.top + c.i * ch, `${c.row} against ${c.col}`,
+          !c.meet
+            ? [['Never in the league together', '', null]]
+            : [['Record', `${c.w}-${c.l}${c.t ? '-' + c.t : ''}`, fill(c)],
+               ['Win rate', ((c.w + 0.5 * c.t) / c.games).toFixed(3), null],
+               ['Meetings', c.games, null]]))
+        .on('pointerleave', () => t.hide());
+
+      svg.append('g').selectAll('text').data(cells.filter((c) => c.meet && c.games)).join('text')
+        .attr('x', (c) => m.left + c.j * cw + cw / 2)
+        .attr('y', (c) => m.top + c.i * ch + ch / 2)
+        .attr('text-anchor', 'middle').attr('dominant-baseline', 'middle')
+        .attr('font-size', 9).attr('pointer-events', 'none')
+        .attr('fill', (c) => {
+          const rate = (c.w + 0.5 * c.t) / c.games;
+          return Math.abs(rate - 0.5) / 0.35 > 0.62 ? 'var(--color-bg)' : 'var(--color-fg)';
+        })
+        .text((c) => `${c.w}-${c.l}${c.t ? '-' + c.t : ''}`);
+    });
+
+    /* ---- rivalry lists ---- */
+    const rankList = (name, pick) => dash.draw(name, (el) => {
+      const d = dash.data('head_to_head');
+      el.replaceChildren();
+      if (d.status === 'loading') { el.classList.add('dash-skeleton'); return; }
+      el.classList.remove('dash-skeleton');
+      if (d.status !== 'ok') {
+        const li = document.createElement('li');
+        li.className = 'pdl-fail';
+        const dot = document.createElement('span');
+        dot.className = 'pdl-fail-dot';
+        const tx = document.createElement('span');
+        tx.className = 'pdl-fail-text';
+        tx.textContent = 'Failed to load';
+        li.append(dot, tx);
+        el.appendChild(li);
+        return;
+      }
+      pick(rowsOf('head_to_head')).forEach(([left, right]) => {
+        const li = document.createElement('li');
+        const a = document.createElement('span');
+        a.textContent = left;
+        const b = document.createElement('span');
+        b.className = 'pdl-rank-val';
+        b.textContent = right;
+        li.append(a, b);
+        el.appendChild(li);
+      });
+    });
+
+    rankList('lopsided', (rows) => rows
+      .filter((r) => Number(r.games) >= 12)
+      .map((r) => {
+        const aw = Number(r.a_wins), bw = Number(r.b_wins), t = Number(r.ties);
+        const g = Number(r.games);
+        const hi = Math.max(aw, bw), lo = Math.min(aw, bw);
+        const lead = aw >= bw ? r.owner_a : r.owner_b;
+        const trail = aw >= bw ? r.owner_b : r.owner_a;
+        return {share: hi / g, text: `${lead} over ${trail}`,
+          val: `${hi}-${lo}${t ? '-' + t : ''}`};
+      })
+      .sort((a, b) => b.share - a.share)
+      .slice(0, 10)
+      .map((r) => [r.text, r.val]));
+
+    rankList('closest', (rows) => rows
+      .filter((r) => Number(r.games) >= 20)
+      .map((r) => {
+        const aw = Number(r.a_wins), bw = Number(r.b_wins), t = Number(r.ties);
+        return {gap: Math.abs(aw - bw) / Number(r.games),
+          text: `${r.owner_a} and ${r.owner_b}`,
+          val: `${aw}-${bw}${t ? '-' + t : ''} in ${r.games}`};
+      })
+      .sort((a, b) => a.gap - b.gap)
+      .slice(0, 10)
+      .map((r) => [r.text, r.val]));
+
+    /* ---- titles ---- */
+    chart('chart-titles', 'team_records', 460, (el, rows, width) => {
+      const data = [...rows].sort((a, b) => Number(b.titles) - Number(a.titles)
+        || Number(b.win_pct) - Number(a.win_pct));
+      const labelW = Math.min(measure(el, data.map((r) => r.owner), 11) + 10, width * 0.46);
+      const m = {top: 18, right: 30, bottom: 6, left: labelW};
+      const rowH = 23;
+      const h = m.top + data.length * rowH + m.bottom;
+      const x = d3.scaleLinear([0, Math.max(d3.max(data, (r) => Number(r.titles)), 1)],
+        [0, Math.max(width - m.left - m.right, 10)]);
+      const y = d3.scaleBand(data.map((r) => r.owner),
+        [m.top, m.top + data.length * rowH]).padding(0.28);
+      const svg = d3.select(el).append('svg')
+        .attr('width', '100%').attr('height', h).attr('viewBox', `0 0 ${width} ${h}`);
+      const color = dash.colors[0];
+      const t = tip(el);
+
+      svg.append('g').attr('transform', `translate(${m.left},${m.top})`)
+        .call(d3.axisTop(x).ticks(Math.min(d3.max(data, (r) => Number(r.titles)) || 1, 5))
+          .tickFormat(d3.format('d')).tickSize(0))
+        .call((g) => g.select('.domain').remove())
+        .call((g) => g.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 10))
+        .attr('font-size', null).attr('font-family', null);
+
+      svg.append('g').selectAll('text').data(data).join('text')
+        .attr('x', m.left - 6).attr('y', (r) => y(r.owner) + y.bandwidth() / 2)
+        .attr('text-anchor', 'end').attr('dominant-baseline', 'middle')
+        .attr('font-size', 11).attr('fill', 'var(--color-fg)').text((r) => r.owner);
+
+      svg.append('g').selectAll('rect').data(data).join('rect')
+        .attr('x', m.left).attr('y', (r) => y(r.owner))
+        .attr('width', (r) => Math.max(x(Number(r.titles)), Number(r.titles) ? 1 : 0))
+        .attr('height', y.bandwidth()).attr('rx', 4).attr('fill', color)
+        .on('pointerenter pointermove', (ev, r) => t.show(
+          m.left + x(Number(r.titles)), y(r.owner), r.owner,
+          [['Titles', r.titles, color],
+           ['Win rate', Number(r.win_pct).toFixed(3), null],
+           ['Seasons', r.seasons, null]]))
+        .on('pointerleave', () => t.hide());
+
+      svg.append('g').selectAll('text').data(data).join('text')
+        .attr('x', width - 2).attr('y', (r) => y(r.owner) + y.bandwidth() / 2)
+        .attr('text-anchor', 'end').attr('dominant-baseline', 'middle')
+        .attr('font-size', 10).attr('fill', 'var(--color-fg-muted)')
+        .text((r) => r.titles);
+    });
+
+    dash.draw('champ-list', (el) => {
+      const d = dash.data('champions');
+      el.replaceChildren();
+      if (d.status === 'loading') { el.classList.add('dash-skeleton'); return; }
+      el.classList.remove('dash-skeleton');
+      if (d.status !== 'ok') return;
+      [...rowsOf('champions')]
+        .sort((a, b) => Number(b.season) - Number(a.season))
+        .forEach((r) => {
+          const li = document.createElement('li');
+          const a = document.createElement('span');
+          a.textContent = `${r.season}  ${r.champion}`;
+          const b = document.createElement('span');
+          b.className = 'pdl-rank-val';
+          b.textContent = r.source === 'archive' ? 'league records' : 'playoff bracket';
+          li.append(a, b);
+          el.appendChild(li);
+        });
+    });
+
+    /* ---- trading against winning ---- */
+    chart('chart-scatter', 'trade_success', 320, (el, rows, width) => {
+      const m = {top: 14, right: 14, bottom: 34, left: 42};
+      const h = 300;
+      const x = d3.scaleLinear(
+        [0, d3.max(rows, (r) => Number(r.per_season)) * 1.08],
+        [m.left, width - m.right]);
+      const y = d3.scaleLinear(
+        d3.extent(rows, (r) => Number(r.win_pct)),
+        [h - m.bottom, m.top]).nice();
+      const svg = d3.select(el).append('svg')
+        .attr('width', '100%').attr('height', h).attr('viewBox', `0 0 ${width} ${h}`);
+      const color = dash.colors[0];
+      const t = tip(el);
+
+      svg.append('g').selectAll('line').data(y.ticks(5)).join('line')
+        .attr('x1', m.left).attr('x2', width - m.right).attr('y1', y).attr('y2', y)
+        .attr('stroke', 'var(--cds-chart-grid)').attr('stroke-width', 1);
+
+      svg.append('g').attr('transform', `translate(${m.left},0)`)
+        .call(d3.axisLeft(y).ticks(5).tickFormat(d3.format('.3f')).tickSize(0))
+        .call((g) => g.select('.domain').remove())
+        .call((g) => g.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 10))
+        .attr('font-size', null).attr('font-family', null);
+
+      svg.append('g').attr('transform', `translate(0,${h - m.bottom})`)
+        .call(d3.axisBottom(x).ticks(Math.max(Math.floor(width / 70), 3)).tickSize(0))
+        .call((g) => g.select('.domain').remove())
+        .call((g) => g.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 10))
+        .attr('font-size', null).attr('font-family', null);
+
+      svg.append('text')
+        .attr('x', (m.left + width - m.right) / 2).attr('y', h - 4)
+        .attr('text-anchor', 'middle').attr('font-size', 10)
+        .attr('fill', 'var(--color-fg-muted)').text('Deals per season');
+
+      svg.append('g').selectAll('circle').data(rows).join('circle')
+        .attr('cx', (r) => x(Number(r.per_season)))
+        .attr('cy', (r) => y(Number(r.win_pct)))
+        .attr('r', 5)
+        .attr('fill', color)
+        .attr('stroke', 'var(--color-panel)').attr('stroke-width', 2)
+        .on('pointerenter pointermove', (ev, r) => t.show(
+          x(Number(r.per_season)), y(Number(r.win_pct)) - 4, r.owner,
+          [['Deals per season', r.per_season, color],
+           ['Win rate', Number(r.win_pct).toFixed(3), null],
+           ['Titles', r.titles, null]]))
+        .on('pointerleave', () => t.hide());
+    });
+
+    /* ---- scoring by season ---- */
+    chart('chart-scoring', 'season_scoring', 300, (el, rows, width) => {
+      const data = [...rows].sort((a, b) => Number(a.season) - Number(b.season));
+      const m = {top: 14, right: 8, bottom: 28, left: 34};
+      const h = 280;
+      const x = d3.scaleBand(data.map((r) => r.season),
+        [m.left, width - m.right]).padding(0.2);
+      const y = d3.scaleLinear([0, d3.max(data, (r) => Number(r.avg_points_per_team_game))],
+        [h - m.bottom, m.top]).nice();
+      const svg = d3.select(el).append('svg')
+        .attr('width', '100%').attr('height', h).attr('viewBox', `0 0 ${width} ${h}`);
+      const before = dash.colors[3], after = dash.colors[0];
+      const t = tip(el);
+
+      svg.append('g').selectAll('line').data(y.ticks(5)).join('line')
+        .attr('x1', m.left).attr('x2', width - m.right).attr('y1', y).attr('y2', y)
+        .attr('stroke', 'var(--cds-chart-grid)').attr('stroke-width', 1);
+
+      svg.append('g').attr('transform', `translate(${m.left},0)`)
+        .call(d3.axisLeft(y).ticks(5).tickSize(0))
+        .call((g) => g.select('.domain').remove())
+        .call((g) => g.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 10))
+        .attr('font-size', null).attr('font-family', null);
+
+      const step = Math.max(Math.ceil(data.length / Math.max(Math.floor(width / 44), 3)), 1);
+      svg.append('g').attr('transform', `translate(0,${h - m.bottom})`)
+        .call(d3.axisBottom(x).tickSize(0)
+          .tickValues(data.map((r) => r.season).filter((d, i) => i % step === 0)))
+        .call((g) => g.select('.domain').remove())
+        .call((g) => g.selectAll('text').attr('fill', 'var(--color-fg-muted)').attr('font-size', 10))
+        .attr('font-size', null).attr('font-family', null);
+
+      svg.append('g').selectAll('rect').data(data).join('rect')
+        .attr('x', (r) => x(r.season))
+        .attr('y', (r) => y(Number(r.avg_points_per_team_game)))
+        .attr('width', Math.min(x.bandwidth(), 30))
+        .attr('height', (r) => Math.max(h - m.bottom - y(Number(r.avg_points_per_team_game)), 1))
+        .attr('rx', 3)
+        .attr('fill', (r) => (Number(r.season) >= 2018 ? after : before))
+        .on('pointerenter pointermove', (ev, r) => t.show(
+          x(r.season) + x.bandwidth() / 2, y(Number(r.avg_points_per_team_game)), r.season,
+          [['Points per team', r.avg_points_per_team_game,
+            Number(r.season) >= 2018 ? after : before],
+           ['Games', r.games, null]]))
+        .on('pointerleave', () => t.hide());
+    });
+
+    /* ---- legend swatches for the new tabs ---- */
+    const colorFor = {ahead: dash.colors[0], behind: dash.colors[3]};
+    document.querySelectorAll('.pdl-key[data-key]').forEach((node) => {
+      const which = node.dataset.key;
+      if (colorFor[which]) node.style.background = colorFor[which];
+    });
+
+    /* ---- tabs ----
+       A drawing inside a hidden element is not run and its datasets are not
+       loaded, so each tab's data arrives only when the tab is first opened.
+       Redraw on show, since a chart measured at zero width comes out blank. */
+    const pages = Array.from(document.querySelectorAll('.pdl-page'));
+    const tabs = Array.from(document.querySelectorAll('.pdl-tab'));
+
+    const show = (id) => {
+      if (!pages.some((p) => p.id === id)) return;
+      pages.forEach((p) => { p.hidden = p.id !== id; });
+      tabs.forEach((b) => b.setAttribute('aria-selected',
+        b.dataset.tab === id ? 'true' : 'false'));
+      const open = pages.find((p) => p.id === id);
+      if (open) {
+        open.querySelectorAll('[data-draw]').forEach((node) => {
+          dash.draw(node.dataset.draw);
+        });
+      }
+      if (dash.setLink) dash.setLink(id);
+    };
+
+    tabs.forEach((b) => b.addEventListener('click', () => show(b.dataset.tab)));
+
+    const fromLink = (location.hash || '').slice(1);
+    show(pages.some((p) => p.id === fromLink) ? fromLink : 'trading');
+  })();
+</script>
