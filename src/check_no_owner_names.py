@@ -80,6 +80,7 @@ def private_name_check():
     names = json.load(open(path))
     parts = {w for o in names["owners"] for w in re.split(r"[\s/&]+", o)
              if len(w) >= 3 and w[0].isupper()} | set(names.get("later_first_names", []))
+    parts |= {w for n in names.get("full_names", []) for w in n.split() if len(w) >= 3}
     alt = "|".join(map(re.escape, sorted(parts)))
     # not "Surname, First", "First Surname", "D Name" or "Name, D" (player forms)
     bare = re.compile(rf"(?<![A-Za-z],)(?<![A-Za-z], )(?<!\b[A-Z] )(?<!\b[A-Z]\. )\b(?:{alt})\b"

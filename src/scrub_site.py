@@ -20,8 +20,8 @@ Six shapes carry owner names on that site:
 6. owner full names as column headers on the original rosters page
 
 **The FFL directory is left alone, deliberately.** That is a different league
-whose team names are built from its owners' surnames: "Farmerie's Farmers",
-"Arenth's Armada". There is no way to remove the names without renaming the
+whose team names are built from its owners' surnames (a surname plus
+"Farmers", a surname plus "Armada"). There is no way to remove the names without renaming the
 teams, which would destroy the content rather than anonymise it. Scrubbing it
 is a separate decision, so this script refuses to touch it unless asked.
 

@@ -67,6 +67,7 @@ Add an entry for each proposal to the matching file in `rules/sources/`:
 | `email.json` | the commissioner's summer meeting email |
 | `polls.json` | each rule poll and its tally (from `private/polls/<year>.json`) |
 | `message_board.json` | results or proposals posted on the board |
+| `commissioner.json` | an outcome you confirm that no email, poll or post records |
 
 Entries are **paraphrased and name-free**: cite the date and the subject or
 thread title, never who sent or posted it. Use the shape already in the file:

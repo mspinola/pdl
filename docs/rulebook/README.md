@@ -47,7 +47,7 @@ table row has six values.
 
 ## 3 and 4. The ledger
 
-[`rules/ledger.json`](../../rules/ledger.json): 47 changes from 2008 to 2026,
+[`rules/ledger.json`](../../rules/ledger.json): 45 changes from 2008 to 2026,
 each with the sections it touches, the season it took effect, and the sources
 that establish it. The readable view is [ledger.md](ledger.md).
 
@@ -60,6 +60,7 @@ failed, stays in `rules/sources/`:
 | `email.json` | the summer meeting emails, 2018 to 2026 |
 | `polls.json` | the league polls with their tallies, 2018 to 2026 |
 | `message_board.json` | the MFL board, 2008, 2025 and 2026 |
+| `commissioner.json` | outcomes the commissioner confirmed where the record was silent |
 
 `rulebook_ledger.py` refuses a ledger entry that names a section the baseline
 lacks, or a source that does not resolve to exactly one entry.
@@ -87,8 +88,11 @@ scores 1 per 10 from 50. Step 6 should decide whether the rule book states it.
 
 ### What only the league can answer
 
-Five changes the record does not settle, listed in [ledger.md](ledger.md):
-the 2019 draft clock, the 2021 extra retainment slots, the 2023 multi-team
-tiebreaker and hybrid-player polls, and the 2026 rotating organizer. Until the
-league answers, the layered rule book shows them as unconfirmed and does not
-change the text.
+The record left five outcomes unsettled. The commissioner confirmed four on
+2026-10-29 (`rules/sources/commissioner.json`): the 2019 draft clock and the
+2021 extra retainment slots failed, so they are not in the ledger, and the 2023
+multi-team tiebreaker and the 2026 rotating organizer passed.
+
+One remains, listed in [ledger.md](ledger.md): the 2023 poll on the hybrid
+QB/TE player, tied 4 to 4. Until it is answered, the layered rule book shows it
+as unconfirmed and does not change the text.

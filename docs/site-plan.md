@@ -235,10 +235,11 @@ older, and every place that could hold them has been checked:
   Internet Archive holds 7 pages of the old site and no changes page.
 - **2016 and 2017.** No meeting record anywhere, and the 2017 polls page is
   empty, which fits no meeting being held.
-- **Four open items:** the 2023 vote on the hybrid QB/TE player tied 4 to 4;
-  the 2026 rotating meeting organizer drew 6 yes, 5 no and 5 indifferent;
-  the 2021 proposal to buy extra retainment slots and the 2019 draft clock
-  have no recorded result.
+- **One open item:** the 2023 vote on the hybrid QB/TE player tied 4 to 4.
+  The commissioner settled the other four on 2026-10-29 (the 2019 draft clock
+  and the 2021 extra retainment slots failed, the 2023 multi-team tiebreaker
+  and the 2026 rotating organizer passed), recorded in
+  `rules/sources/commissioner.json`.
 
 These go to the league to confirm, rather than further searching.
 

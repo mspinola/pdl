@@ -12,7 +12,8 @@ import json, os, sys
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RULES = f"{BASE}/rules"
-SOURCE_FILES = {"changes_html": "entries", "email": "entries", "message_board": "entries", "polls": "polls"}
+SOURCE_FILES = {"changes_html": "entries", "email": "entries", "message_board": "entries", "polls": "polls",
+                "commissioner": "entries"}
 STATUSES = {"adopted", "in practice", "one season", "open"}
 
 
@@ -50,6 +51,8 @@ def cite(ref, entry):
     if ref["file"] == "polls":
         tally = ", ".join(f"{k} {v}" for k, v in (entry.get("tally") or {}).items())
         return f"league poll {ref['meeting']}" + (f" ({tally})" if tally else "")
+    if ref["file"] == "commissioner":
+        return f"confirmed by the commissioner, {s.get('date', '')}"
     return f"changes.html, {ref['meeting']} meeting"
 
 

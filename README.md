@@ -143,6 +143,17 @@ python3 src/scrub_site.py ~/path/to/mspinola --dry-run
 python3 src/scrub_site.py ~/path/to/mspinola --apply
 ```
 
+A second pass removes what the first left: the owner directory
+(`pdl/setup/contact.html`, replaced by a notice, the original kept in
+`private/legacy_site/`), the email addresses in the saved MFL pages' mail
+links, and owner first names in prose. It reads the names from
+`private/owners.json`, so it needs `private/` checked out:
+
+```bash
+python3 src/scrub_site_contacts.py ~/path/to/mspinola --dry-run
+python3 src/scrub_site_contacts.py ~/path/to/mspinola --apply
+```
+
 Two things it will not do. It skips the `ffl` directory, a different league
 whose team names are built from its owners' surnames, so the names cannot be
 removed without renaming the teams. And it leaves Word and Excel files alone,
