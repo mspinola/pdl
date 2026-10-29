@@ -4,6 +4,10 @@
 # season ends. Standard library Python only.
 set -e
 cd "$(dirname "$0")/.."
+# The league's clock. Trade dates come from timestamps, so a run on a UTC machine
+# (GitHub's) would move late-evening trades to the next day; pinning the zone
+# makes every machine produce the same files.
+export TZ=America/New_York
 for step in link_franchises owners identities archive trades export_bundle analyze \
             archive_games results h2h transactions transactions_analysis \
             lineups_luck got_away draft_value legacy_drafts \

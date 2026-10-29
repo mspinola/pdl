@@ -280,3 +280,8 @@ These go to the league to confirm, rather than further searching.
 - [x] Franchise pages: record, titles, name history, how it is run (trades, waiver wire, lineups, luck, draft), season by season, head to head
 - [x] Trades, head to head (matrix and a page per pairing), drafts (every pick from 2008, the original boards before), the record book, and the analysis reports as pages
 - [x] Legacy-site notice at launch (the home page and the link bar)
+- [x] The weekly refresh (`.github/workflows/refresh.yml`): every Tuesday in
+      season, capture from MFL, rebuild with `bin/refresh.sh`, check, commit,
+      republish
+- [x] Drafts 2000 to 2007 from the league's draft boards, with starts from 2003
+- [x] The site in the retired dashboard's colours
