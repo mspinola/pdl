@@ -2,7 +2,7 @@
 
 A current, HTML rule book: the 2006 text with every change since layered in,
 and the rules as of any season from 2006. All seven steps of the plan in
-[../site-plan.md](../site-plan.md) are done, except putting the pages online.
+[../site-plan.md](../site-plan.md) are done, and the pages are online.
 
 ```bash
 python3 src/rulebook_editions.py   # compare the editions  -> docs/rulebook/editions.md
@@ -150,5 +150,7 @@ read in light or dark mode. To look at them locally:
 python3 -m http.server 8010 --directory site/dist
 ```
 
-They are not online yet. The plan is a GitHub Actions workflow that runs the
-build and publishes `site/dist/` to GitHub Pages.
+They are published at <https://mspinola.github.io/pdl/> by the workflow in
+`.github/workflows/pages.yml`, which runs the owner-name check, verifies the
+archive, builds the site and deploys it, on every push to `main` that touches
+the rules, the archive, the code or the site.

@@ -49,7 +49,7 @@ fills these.
 
 ### Steps
 
-Steps 1 to 7 are done, except putting the pages online. What they found, and
+Steps 1 to 7 are done, and the rule book is online at <https://mspinola.github.io/pdl/>. What they found, and
 how to re-run them, is in [rulebook/README.md](rulebook/README.md).
 
 1. **Settle the baseline edition.** *(Done: the 2006 edition.)* Diff the 2004, 2006 and older editions

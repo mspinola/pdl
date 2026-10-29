@@ -156,6 +156,12 @@ one is what keeps the board and poll copies offsite.
 
 ## After the push
 
+The push to `main` rebuilds and republishes the site at
+<https://mspinola.github.io/pdl/> on its own (`.github/workflows/pages.yml`). If
+the owner-name check or the archive check fails there, nothing is published:
+the run's log on GitHub says why.
+
+
 - The dashboard reads the datasets that were uploaded when it was published.
   After a season, re-publish it so the new season shows.
 - A rule change needs a ledger entry and its edit in `rules/amendments.json`.

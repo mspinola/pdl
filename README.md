@@ -190,6 +190,8 @@ unscrubbed copies of the legacy pages.
 
 ## The rule book
 
+Online at <https://mspinola.github.io/pdl/>, rebuilt on every push.
+
 The 2006 rule book as data, and every change since, each tied to its evidence.
 See [docs/rulebook/README.md](docs/rulebook/README.md).
 
