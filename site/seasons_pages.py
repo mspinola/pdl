@@ -121,19 +121,22 @@ def weeks_section(season):
 
 
 def draft_section(season):
-    picks = [p for p in d.draft_value() if int(p["season"]) == season and p["round"] == "1"]
+    picks = [p for p in d.all_drafts() if int(p["season"]) == season and str(p["round"]) == "1"]
     if not picks:
         return ""
     picks.sort(key=lambda p: int(p["pick"]))
     complete = picks[0]["complete"] == "True"
+    has_starts = any(p["starts_any_team"] != "" for p in picks)
     rows = "".join(f"<tr><td>{p['pick']}</td><td class='l'>{team_link(p['team'])}</td><td class='l'>{E(p['player'])}</td>"
-                   f"<td>{E(p['position'] or '')}</td><td>{p['starts_any_team']}</td><td>{p['starts']}</td></tr>" for p in picks)
-    note = ("Starts are regular-season starts in this and the next two seasons"
-            + ("." if complete else ", so far."))
-    return (f"<h2 id='draft'>The draft's first round</h2><p class='meta'>{note} The full draft, every round, is in "
-            f"<code>datasets/draft_value.csv</code>.</p><div class='table-wrap'><table class='data'><thead><tr><th>Pick</th>"
-            f"<th class='l'>Team</th><th class='l'>Player</th><th>Pos</th><th>Starts</th><th>For the drafting team</th>"
-            f"</tr></thead><tbody>{rows}</tbody></table></div>")
+                   f"<td>{E(p['position'] or '')}</td>"
+                   + (f"<td>{p['starts_any_team']}</td><td>{p['starts']}</td>" if has_starts else "") + "</tr>" for p in picks)
+    note = (("Starts are regular-season starts in this and the next two seasons" + ("." if complete else ", so far."))
+            if has_starts else "MyFantasyLeague kept no lineups before 2003, so there are no starts to count.")
+    return (f"<h2 id='draft'>The draft's first round</h2><p class='meta'>{note} The full draft, every round, is on "
+            f"<a href='../drafts/{season}.html'>the {season} draft</a> page.</p><div class='table-wrap'><table class='data'><thead><tr><th>Pick</th>"
+            f"<th class='l'>Team</th><th class='l'>Player</th><th>Pos</th>"
+            + ("<th>Starts</th><th>For the drafting team</th>" if has_starts else "")
+            + f"</tr></thead><tbody>{rows}</tbody></table></div>")
 
 
 def trades_section(season):

@@ -266,6 +266,22 @@ def draft_value():
 
 
 @lru_cache(maxsize=None)
+def all_drafts():
+    """Every pick, 2000 on: the original boards to 2007 (legacy_drafts.py), MFL from 2008.
+    The early rows carry no value figures, and no starts before 2003."""
+    out = []
+    for r in read_csv("drafts_2000_2007.csv"):
+        out.append({**r, "complete": "True" if r["starts_any_team"] != "" else "False", "early": True})
+    out += [{**r, "early": False} for r in draft_value()]
+    return out
+
+
+@lru_cache(maxsize=None)
+def expansion_draft():
+    return read_csv("expansion_draft_2001.csv")
+
+
+@lru_cache(maxsize=None)
 def got_away():
     return read_csv("got_away.csv")
 

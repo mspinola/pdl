@@ -1,0 +1,1511 @@
+season,round,pick,overall,team,player,position,player_id,starts_any_team,starts,hit,kept
+2000,1,1,1,Otters,P Manning,QB,,,,,
+2000,1,2,2,Ho Train,E James,RB,,,,,
+2000,1,3,3,Iron City Pounders,M Faulk,RB,,,,,
+2000,1,4,4,Texas Nashvillians,E George,RB,,,,,
+2000,1,5,5,Da Funk,F Taylor,RB,,,,,
+2000,1,6,6,Carter's Commandos,J Stewart,RB,,,,,
+2000,1,7,7,Dunbar Dogs,D Culpepper,QB,,,,,
+2000,1,8,8,Scooter's Boozers,K Warner,RB,,,,,
+2000,1,9,9,F-Jackie,T Davis,RB,,,,,
+2000,1,10,10,Manic Moose,S Davis,RB,,,,,
+2000,1,11,11,Tally Wackers,R Moss,WR,,,,,
+2000,1,12,12,Karpet Munchers,M Harrison,WR,,,,,
+2000,1,13,13,Bunchalosers,S McNair,QB,,,,,
+2000,1,14,14,Blitzkrieg,R Williams,RB,,,,,
+2000,2,1,15,Blitzkrieg,M Robinson,WR,,,,,
+2000,2,2,16,Bunchalosers,C Martin,RB,,,,,
+2000,2,3,17,Karpet Munchers,B Favre,QB,,,,,
+2000,2,4,18,Tally Wackers,I Bruce,WR,,,,,
+2000,2,5,19,Manic Moose,D Staley,RB,,,,,
+2000,2,6,20,F-Jackie,T Couch,QB,,,,,
+2000,2,7,21,Scooter's Boozers,R Dayne,RB,,,,,
+2000,2,8,22,Dunbar Dogs,M Westbrook,WR,,,,,
+2000,2,9,23,Carter's Commandos,C Dillon,RB,,,,,
+2000,2,10,24,Da Funk,E Smith,RB,,,,,
+2000,2,11,25,Texas Nashvillians,E Moulds,WR,,,,,
+2000,2,12,26,Iron City Pounders,B Johnson,QB,,,,,
+2000,2,13,27,Ho Train,J Anderson,RB,,,,,
+2000,2,14,28,Otters,Keyshawn Johnson,WR,,,,,
+2000,3,1,29,Texas Nashvillians,J Lewis,RB,,,,,
+2000,3,2,30,Karpet Munchers,J Smith,WR,,,,,
+2000,3,3,31,Bunchalosers,P Warrick,WR,,,,,
+2000,3,4,32,Da Funk,C McNown,QB,,,,,
+2000,3,5,33,Scooter's Boozers,A Freeman,WR,,,,,
+2000,3,6,34,Otters,T Jones,RB,,,,,
+2000,3,7,35,Tally Wackers,R Smith,RB,,,,,
+2000,3,8,36,Carter's Commandos,C Carter,WR,,,,,
+2000,3,9,37,Manic Moose,C Enis,RB,,,,,
+2000,3,10,38,Iron City Pounders,D Levens,RB,,,,,
+2000,3,11,39,Blitzkrieg,S Alexander,RB,,,,,
+2000,3,12,40,F-Jackie,G Crowell,WR,,,,,
+2000,3,13,41,Dunbar Dogs,C Pickens,WR,,,,,
+2000,3,14,42,Ho Train,M Alstott,RB,,,,,
+2000,4,1,43,Ho Train,J Galloway,WR,,,,,
+2000,4,2,44,Dunbar Dogs,K Johnson,WR,,,,,
+2000,4,3,45,F-Jackie,T Holt,WR,,,,,
+2000,4,4,46,Blitzkrieg,J Plummer,QB,,,,,
+2000,4,5,47,Iron City Pounders,T Wheatley,RB,,,,,
+2000,4,6,48,Manic Moose,T Brown,WR,,,,,
+2000,4,7,49,Carter's Commandos,A Toomer,WR,,,,,
+2000,4,8,50,Tally Wackers,J Kitna,QB,,,,,
+2000,4,9,51,Otters,M Muhammad,WR,,,,,
+2000,4,10,52,Scooter's Boozers,D Boston,WR,,,,,
+2000,4,11,53,Da Funk,E McCaffrey,WR,,,,,
+2000,4,12,54,Bunchalosers,R Ismail,WR,,,,,
+2000,4,13,55,Karpet Munchers,T Gonzalez,TE,,,,,
+2000,4,14,56,Texas Nashvillians,D Bledsoe,QB,,,,,
+2000,5,1,57,Bunchalosers,T Prentice,RB,,,,,
+2000,5,2,58,Ho Train,S Beuerlein,QB,,,,,
+2000,5,3,59,Texas Nashvillians,S Dawkins,WR,,,,,
+2000,5,4,60,Dunbar Dogs,T Biakabutuka,RB,,,,,
+2000,5,5,61,Da Funk,A Connell,WR,,,,,
+2000,5,6,62,Tally Wackers,W Chrebet,WR,,,,,
+2000,5,7,63,Otters,J Redmon,RB,,,,,
+2000,5,8,64,F-Jackie,P Price,WR,,,,,
+2000,5,9,65,Scooter's Boozers,T Taylor,WR,,,,,
+2000,5,10,66,Karpet Munchers,O Gary,RB,,,,,
+2000,5,11,67,Blitzkrieg,T Glenn,WR,,,,,
+2000,5,12,68,Iron City Pounders,T Owens,WR,,,,,
+2000,5,13,69,Manic Moose,D Mayes,WR,,,,,
+2000,5,14,70,Carter's Commandos,R Johnson,QB,,,,,
+2000,6,1,71,Carter's Commandos,P Burress,WR,,,,,
+2000,6,2,72,Manic Moose,J Fazande,RB,,,,,
+2000,6,3,73,Iron City Pounders,Q Ismail,WR,,,,,
+2000,6,4,74,Blitzkrieg,C Garner,RB,,,,,
+2000,6,5,75,Karpet Munchers,R Watters,RB,,,,,
+2000,6,6,76,Scooter's Boozers,D McNabb,QB,,,,,
+2000,6,7,77,F-Jackie,J Johnson,RB,,,,,
+2000,6,8,78,Otters,W Dunn,RB,,,,,
+2000,6,9,79,Tally Wackers,S Morris,WR,,,,,
+2000,6,10,80,Da Funk,E Rhett,RB,,,,,
+2000,6,11,81,Dunbar Dogs,A Smith,RB,,,,,
+2000,6,12,82,Texas Nashvillians,R Dudley,TE,,,,,
+2000,6,13,83,Ho Train,R Smith,WR,,,,,
+2000,6,14,84,Bunchalosers,W Walls,TE,,,,,
+2000,7,1,85,Bunchalosers,T Green,QB,,,,,
+2000,7,2,86,Carter's Commandos,M Brunell,QB,,,,,
+2000,7,3,87,F-Jackie,R Leaf,QB,,,,,
+2000,7,4,88,Scooter's Boozers,J Bettis,RB,,,,,
+2000,7,5,89,Iron City Pounders,B Engram,WR,,,,,
+2000,7,6,90,Manic Moose,R Gannon,QB,,,,,
+2000,7,7,91,Tally Wackers,M Cloud,RB,,,,,
+2000,7,8,92,Otters,T Dwight,WR,,,,,
+2000,7,9,93,Dunbar Dogs,J Morton,WR,,,,,
+2000,7,10,94,Ho Train,T Mathis,WR,,,,,
+2000,7,11,95,Da Funk,F Sanders,WR,,,,,
+2000,7,12,96,Karpet Munchers,K McArdle,WR,,,,,
+2000,7,13,97,Blitzkrieg,B Schroder,WR,,,,,
+2000,7,14,98,Texas Nashvillians,D Alexander,WR,,,,,
+2000,8,1,99,Texas Nashvillians,T Banks,QB,,,,,
+2000,8,2,100,Blitzkrieg,K Collins,QB,,,,,
+2000,8,3,101,Karpet Munchers,B Griese,QB,,,,,
+2000,8,4,102,Da Funk,J Blake,QB,,,,,
+2000,8,5,103,Ho Train,I Hillard,WR,,,,,
+2000,8,6,104,Dunbar Dogs,M Pittman,RB,,,,,
+2000,8,7,105,Otters,Y Thigpen,WR,,,,,
+2000,8,8,106,Tally Wackers,D Huntley,RB,,,,,
+2000,8,9,107,Manic Moose,D Hayes,WR,,,,,
+2000,8,10,108,Iron City Pounders,B Franks,TE,,,,,
+2000,8,11,109,Scooter's Boozers,T Simmons,WR,,,,,
+2000,8,12,110,F-Jackie,R Sorawd,WR,,,,,
+2000,8,13,111,Carter's Commandos,L Coles,WR,,,,,
+2000,8,14,112,Bunchalosers,J Reed,WR,,,,,
+2000,9,1,113,Bunchalosers,M Vanderjagt,K,,,,,
+2000,9,2,114,Karpet Munchers,R Harris,RB,,,,,
+2000,9,3,115,Scooter's Boozers,D Chiverini,WR,,,,,
+2000,9,4,116,Carter's Commandos,S Janikowski,K,,,,,
+2000,9,5,117,Blitzkrieg,J Horn,WR,,,,,
+2000,9,6,118,Manic Moose,A Smith,QB,,,,,
+2000,9,7,119,F-Jackie,S Alexander,TE,,,,,
+2000,9,8,120,Ho Train,S Sharpe,TE,,,,,
+2000,9,9,121,Iron City Pounders,K Dyson,WR,,,,,
+2000,9,10,122,Otters,T Martin,WR,,,,,
+2000,9,11,123,Tally Wackers,D Northcutt,WR,,,,,
+2000,9,12,124,Da Funk,S Jefferson,WR,,,,,
+2000,9,13,125,Texas Nashvillians,C Conway,WR,,,,,
+2000,9,14,126,Dunbar Dogs,M Gramatica,K,,,,,
+2000,10,1,127,Dunbar Dogs,J Green,WR,,,,,
+2000,10,2,128,Texas Nashvillians,D Chapman,RB,,,,,
+2000,10,3,129,Da Funk,C Batch,QB,,,,,
+2000,10,4,130,Tally Wackers,F Wycheck,TE,,,,,
+2000,10,5,131,Otters,B Chamberlin,TE,,,,,
+2000,10,6,132,Iron City Pounders,E Grbac,QB,,,,,
+2000,10,7,133,Ho Train,D Bennett,RB,,,,,
+2000,10,8,134,F-Jackie,J Linton,RB,,,,,
+2000,10,9,135,Manic Moose,J George,QB,,,,,
+2000,10,10,136,Blitzkrieg,F Jones,TE,,,,,
+2000,10,11,137,Carter's Commandos,J Rimersma,TE,,,,,
+2000,10,12,138,Scooter's Boozers,S King,QB,,,,,
+2000,10,13,139,Karpet Munchers,J Rice,WR,,,,,
+2000,10,14,140,Bunchalosers,K Poole,WR,,,,,
+2000,11,1,141,Da Funk,D Moore,TE,,,,,
+2000,11,2,142,Bunchalosers,A Rison,WR,,,,,
+2000,11,3,143,Scooter's Boozers,P Holmes,RB,,,,,
+2000,11,4,144,Texas Nashvillians,M Hollis,K,,,,,
+2000,11,5,145,Iron City Pounders,O Mare,K,,,,,
+2000,11,6,146,Carter's Commandos,C Warren,RB,,,,,
+2000,11,7,147,Tally Wackers,T Aikman,QB,,,,,
+2000,11,8,148,F-Jackie,C Chandler,QB,,,,,
+2000,11,9,149,Blitzkrieg,V Testaverde,QB,,,,,
+2000,11,10,150,Otters,K Stewart,QB,,,,,
+2000,11,11,151,Ho Train,J Garcia,QB,,,,,
+2000,11,12,152,Dunbar Dogs,M Hatchett,WR,,,,,
+2000,11,13,153,Manic Moose,A Becht,TE,,,,,
+2000,11,14,154,Karpet Munchers,N Kaufman,RB,,,,,
+2000,12,1,155,Karpet Munchers,J Elam,K,,,,,
+2000,12,2,156,Manic Moose,T Barber,RB,,,,,
+2000,12,3,157,Dunbar Dogs,A Green,RB,,,,,
+2000,12,4,158,Ho Train,A Del Greco,K,,,,,
+2000,12,5,159,Otters,D Huard,QB,,,,,
+2000,12,6,160,Blitzkrieg,T Picksen,WR,,,,,
+2000,12,7,161,F-Jackie,C Bradford,WR,,,,,
+2000,12,8,162,Tally Wackers,M Bates,RB,,,,,
+2000,12,9,163,Carter's Commandos,C Johnson,WR,,,,,
+2000,12,10,164,Iron City Pounders,S Irvin,RB,,,,,
+2000,12,11,165,Texas Nashvillians,A Hakim,WR,,,,,
+2000,12,12,166,Scooter's Boozers,B Conway,K,,,,,
+2000,12,13,167,Bunchalosers,T Small,WR,,,,,
+2000,12,14,168,Da Funk,J Pathon,WR,,,,,
+2000,13,1,169,Da Funk,J Hanson,K,,,,,
+2000,13,2,170,Manic Moose,S Mack,RB,,,,,
+2000,13,3,171,Carter's Commandos,N Means,RB,,,,,
+2000,13,4,172,Blitzkrieg,O Gadsen,WR,,,,,
+2000,13,5,173,Ho Train,T Edwards,WR,,,,,
+2000,13,6,174,Otters,T Peterson,K,,,,,
+2000,13,7,175,F-Jackie,K Keyton,RB,,,,,
+2000,13,8,176,Dunbar Dogs,J Fiedler,QB,,,,,
+2000,13,9,177,Karpet Munchers,P Johnson,WR,,,,,
+2000,13,10,178,Texas Nashvillians,S Hicks,RB,,,,,
+2000,13,11,179,Scooter's Boozers,D Scott,WR,,,,,
+2000,13,12,180,Iron City Pounders,L Smith,RB,,,,,
+2000,13,13,181,Bunchalosers,R Draugins,RB,,,,,
+2000,13,14,182,Tally Wackers,J Wilkins,K,,,,,
+2000,14,1,183,Tally Wackers,Jacksonville,Def,,,,,
+2000,14,2,184,Bunchalosers,J Porter,WR,,,,,
+2000,14,3,185,Iron City Pounders,N O'Donnell,QB,,,,,
+2000,14,4,186,Scooter's Boozers,K Dilger,TE,,,,,
+2000,14,5,187,Texas Nashvillians,T Canidate,RB,,,,,
+2000,14,6,188,Karpet Munchers,M Williams,RB,,,,,
+2000,14,7,189,Dunbar Dogs,D Sloan,TE,,,,,
+2000,14,8,190,F-Jackie,D Wight,WR,,,,,
+2000,14,9,191,Otters,J Lewis,WR,,,,,
+2000,14,10,192,Ho Train,D LaFlauer,TE,,,,,
+2000,14,11,193,Blitzkrieg,M Stover,K,,,,,
+2000,14,12,194,Carter's Commandos,Tampa Bay,Def,,,,,
+2000,14,13,195,Manic Moose,P Jeffers,WR,,,,,
+2000,14,14,196,Da Funk,St Louis,Def,,,,,
+2000,15,1,197,Karpet Munchers,G Ferotte,QB,,,,,
+2000,15,2,198,Dunbar Dogs,R Dugins,WR,,,,,
+2000,15,3,199,Ho Train,Baltimore,Def,,,,,
+2000,15,4,200,Da Funk,L Centers,RB,,,,,
+2000,15,5,201,Iron City Pounders,Washington,Def,,,,,
+2000,15,6,202,Bunchalosers,Tennessee,Def,,,,,
+2000,15,7,203,Carter's Commandos,M Pollard,TE,,,,,
+2000,15,8,204,Tally Wackers,K Faulk,RB,,,,,
+2000,15,9,205,Texas Nashvillians,Seattle,Def,,,,,
+2000,15,10,206,Manic Moose,T Wilkins,WR,,,,,
+2000,15,11,207,Scooter's Boozers,T Fletcher,RB,,,,,
+2000,15,12,208,Otters,Kansas City,Def,,,,,
+2000,15,13,209,Blitzkrieg,A Murrell,RB,,,,,
+2000,15,14,210,F-Jackie,R Longwell,K,,,,,
+2000,16,1,211,F-Jackie,R Kleinsasser,TE,,,,,
+2000,16,2,212,Blitzkrieg,R Chancey,RB,,,,,
+2000,16,3,213,Otters,J Carney,K,,,,,
+2000,16,4,214,Scooter's Boozers,C Cleeland,TE,,,,,
+2000,16,5,215,Manic Moose,J Jett,WR,,,,,
+2000,16,6,216,Texas Nashvillians,P Mitchell,TE,,,,,
+2000,16,7,217,Tally Wackers,Miami,Def,,,,,
+2000,16,8,218,Carter's Commandos,T Kirby,RB,,,,,
+2000,16,9,219,Bunchalosers,R Williams,TE,,,,,
+2000,16,10,220,Iron City Pounders,E Bjornson,TE,,,,,
+2000,16,11,221,Da Funk,A Glover,TE,,,,,
+2000,16,12,222,Ho Train,C Pennington,QB,,,,,
+2000,16,13,223,Dunbar Dogs,C Fauria,TE,,,,,
+2000,16,14,224,Karpet Munchers,D Ward,WR,,,,,
+2000,17,1,225,Otters,Arizona,Def,,,,,
+2000,17,2,226,F-Jackie,Oakland,Def,,,,,
+2000,17,3,227,Karpet Munchers,New York Jets,Def,,,,,
+2000,17,4,228,Carter's Commandos,New Orleans,Def,,,,,
+2000,17,5,229,Texas Nashvillians,K Brown,K,,,,,
+2000,17,6,230,Scooter's Boozers,J Grham,WR,,,,,
+2000,17,7,231,Manic Moose,E Kennison,WR,,,,,
+2000,17,8,232,Ho Train,Philadelphia,Def,,,,,
+2000,17,9,233,Bunchalosers,R Cunningham,QB,,,,,
+2000,17,10,234,Dunbar Dogs,C Redman,QB,,,,,
+2000,17,11,235,Blitzkrieg,Denver,Def,,,,,
+2000,17,12,236,Tally Wackers,O Santiago,TE,,,,,
+2000,17,13,237,Da Funk,R Rivers,RB,,,,,
+2000,17,14,238,Iron City Pounders,G Carmazi,QB,,,,,
+2000,18,1,239,Texas Nashvillians,S Bryson,RB,,,,,
+2000,18,2,240,Iron City Pounders,J Stokes,WR,,,,,
+2000,18,3,241,Karpet Munchers,S Christie,K,,,,,
+2000,18,4,242,Carter's Commandos,M Andersen,K,,,,,
+2000,18,5,243,Blitzkrieg,R Brooks,WR,,,,,
+2000,18,6,244,Tally Wackers,A Vinatieri,K,,,,,
+2000,18,7,245,Dunbar Dogs,Buffalo,Def,,,,,
+2000,18,8,246,Otters,T Davis,TE,,,,,
+2000,18,9,247,Da Funk,D Brien,K,,,,,
+2000,18,10,248,F-Jackie,C Lewis,TE,,,,,
+2000,18,11,249,Manic Moose,G Hearst,RB,,,,,
+2000,18,12,250,Scooter's Boozers,Pittsburgh,Def,,,,,
+2000,18,13,251,Bunchalosers,D Ackers,K,,,,,
+2000,18,14,252,Ho Train,P Stoyanovich,K,,,,,
+2000,19,1,253,Ho Train,R Holcombe,RB,,,,,
+2000,19,2,254,Bunchalosers,Green Bay,Def,,,,,
+2000,19,3,255,Scooter's Boozers,J Hall,K,,,,,
+2000,19,4,256,Manic Moose,T Seder,K,,,,,
+2000,19,5,257,F-Jackie,S Stiff,RB,,,,,
+2000,19,6,258,Da Funk,San Diego,Def,,,,,
+2000,19,7,259,Otters,B Coates,TE,,,,,
+2000,19,8,260,Dunbar Dogs,H Moore,WR,,,,,
+2000,19,9,261,Tally Wackers,J Miller,QB,,,,,
+2000,19,10,262,Blitzkrieg,G Anderson,K,,,,,
+2000,19,11,263,Carter's Commandos,B Brister,QB,,,,,
+2000,19,12,264,Karpet Munchers,K Brady,TE,,,,,
+2000,19,13,265,Iron City Pounders,C Blanchard,K,,,,,
+2000,19,14,266,Texas Nashvillians,Detroit,Def,,,,,
+2000,20,2,268,Iron City Pounders,Carolina,Def,,,,,
+2000,20,3,269,Karpet Munchers,New York Giants,Def,,,,,
+2000,20,4,270,Carter's Commandos,H Ward,WR,,,,,
+2000,20,5,271,Blitzkrieg,New England,Def,,,,,
+2000,20,6,272,Tally Wackers,D Jackson,WR,,,,,
+2000,20,7,273,Dunbar Dogs,R Cunningham,K,,,,,
+2000,20,8,274,Otters,O McDuffie,WR,,,,,
+2000,20,9,275,Da Funk,D Kannell,QB,,,,,
+2000,20,10,276,F-Jackie,W Richey,K,,,,,
+2000,20,11,277,Manic Moose,Atlanta,Def,,,,,
+2000,20,12,278,Scooter's Boozers,T Brown,WR,,,,,
+2000,20,13,279,Bunchalosers,B Parmerlie,RB,,,,,
+2001,1,1,1,OakalDoakals,L Tomlinson,RB,,,,,
+2001,1,2,2,Beers,M Bennett,RB,,,,,
+2001,1,3,3,Dunbar Dogs,K Barlow,RB,,,,,
+2001,1,4,4,F-Jackie,T Henry,RB,,,,,
+2001,1,5,5,Manic Moose,D McAllister,RB,,,,,
+2001,1,6,6,Texas Nashvillians,M Vick,QB,,,,,
+2001,1,7,7,Bunchalosers,D Terrell,WR,,,,,
+2001,1,8,8,Otters,Baltimore,Def,,,,,
+2001,1,9,9,Da Funk,P Holmes,RB,,,,,
+2001,1,10,10,Carter's Commandos,A Thomas,RB,,,,,
+2001,1,11,11,Scooter's Boozers,G Hearst,RB,,,,,
+2001,1,12,12,Ho Train,K Robinson,WR,,,,,
+2001,1,13,13,Tally Wackers,R Gardner,WR,,,,,
+2001,1,14,14,Blitzkrieg,D Brees,QB,,,,,
+2001,1,15,15,Karpet Munchers,J Jackson,RB,,,,,
+2001,1,16,16,Iron City Pounders,Q Carter,QB,,,,,
+2001,2,1,17,OakalDoakals,C Weinke,QB,,,,,
+2001,2,2,18,Beers,J Thrash,WR,,,,,
+2001,2,3,19,Dunbar Dogs,L Jordan,RB,,,,,
+2001,2,4,20,F-Jackie,R Wayne,WR,,,,,
+2001,2,5,21,Manic Moose,F Mitchell,WR,,,,,
+2001,2,6,22,Texas Nashvillians,F Jones,TE,,,,,
+2001,2,7,23,Bunchalosers,C Barnes,RB,,,,,
+2001,2,8,24,Otters,B Stokely,WR,,,,,
+2001,2,9,25,Da Funk,T Allen,RB,,,,,
+2001,2,10,26,Carter's Commandos,S Matthews,QB,,,,,
+2001,2,11,27,Scooter's Boozers,S Sharpe,TE,,,,,
+2001,2,12,28,Ho Train,J Riermersma,TE,,,,,
+2001,2,13,29,Tally Wackers,J McKnight,WR,,,,,
+2001,2,14,30,Blitzkrieg,JJ Stokes,WR,,,,,
+2001,2,15,31,Karpet Munchers,S Minnis,WR,,,,,
+2001,2,16,32,Iron City Pounders,J Morton,WR,,,,,
+2001,3,1,33,OakalDoakals,D Scott,WR,,,,,
+2001,3,2,34,Beers,T Brown,WR,,,,,
+2001,3,3,35,Dunbar Dogs,C Chambers,WR,,,,,
+2001,3,4,36,F-Jackie,O Gary,RB,,,,,
+2001,3,5,37,Manic Moose,B Schroeder,WR,,,,,
+2001,3,6,38,Texas Nashvillians,S Moss,WR,,,,,
+2001,3,7,39,Bunchalosers,J Feidler,QB,,,,,
+2001,3,8,40,Otters,T Richardson,RB,,,,,
+2001,3,9,41,Da Funk,T Candidate,RB,,,,,
+2001,3,10,42,Carter's Commandos,B Franks,TE,,,,,
+2001,3,11,43,Scooter's Boozers,B Emual,WR,,,,,
+2001,3,12,44,Ho Train,H Ward,WR,,,,,
+2001,3,13,45,Tally Wackers,C Buckhalter,RB,,,,,
+2001,3,14,46,Blitzkrieg,T Pinkston,WR,,,,,
+2001,3,15,47,Karpet Munchers,D Levens,RB,,,,,
+2001,3,16,48,Iron City Pounders,T Dwight,WR,,,,,
+2001,4,1,49,OakalDoakals,E Rhett,RB,,,,,
+2001,4,2,50,Beers,R Edwards,RB,,,,,
+2001,4,3,51,Dunbar Dogs,C Johnson,WR,,,,,
+2001,4,4,52,F-Jackie,K Dyson,WR,,,,,
+2001,4,5,53,Manic Moose,W Jackson,WR,,,,,
+2001,4,6,54,Texas Nashvillians,T Mathis,WR,,,,,
+2001,4,7,55,Bunchalosers,S Alexander,TE,,,,,
+2001,4,8,56,Otters,D Clark,TE,,,,,
+2001,4,9,57,Da Funk,B Chamberlin,TE,,,,,
+2001,4,10,58,Carter's Commandos,R Ismail,WR,,,,,
+2001,4,11,59,Scooter's Boozers,T Fletcher,RB,,,,,
+2001,4,12,60,Ho Train,R Holcombe,RB,,,,,
+2001,4,13,61,Tally Wackers,R Furgerson,WR,,,,,
+2001,4,14,62,Blitzkrieg,M Vanderjagt,K,,,,,
+2001,4,15,63,Karpet Munchers,R Longwell,K,,,,,
+2001,4,16,64,Iron City Pounders,R Dudley,TE,,,,,
+2001,5,1,65,OakalDoakals,K Faulk,RB,,,,,
+2001,5,2,66,Beers,Raiders,Def,,,,,
+2001,5,3,67,Dunbar Dogs,E Kennison,WR,,,,,
+2001,5,4,68,F-Jackie,T Streets,WR,,,,,
+2001,5,5,69,Manic Moose,Giants,Def,,,,,
+2001,5,6,70,Texas Nashvillians,Saints,Def,,,,,
+2001,5,7,71,Bunchalosers,JJ Johnson,RB,,,,,
+2001,5,8,72,Otters,R Moore,WR,,,,,
+2001,5,9,73,Da Funk,Eagles,Def,,,,,
+2001,5,10,74,Carter's Commandos,Denver,Def,,,,,
+2001,5,11,75,Scooter's Boozers,J Wilkins,K,,,,,
+2001,5,12,76,Ho Train,M Stover,K,,,,,
+2001,5,13,77,Tally Wackers,N O'Donnell,QB,,,,,
+2001,5,14,78,Blitzkrieg,C Cleeland,TE,,,,,
+2001,5,15,79,Karpet Munchers,Steelers,Def,,,,,
+2001,5,16,80,Iron City Pounders,Q Morgan,WR,,,,,
+2001,6,1,81,OakalDoakals,Jacksonville,Def,,,,,
+2001,6,2,82,Beers,A Vinetari,K,,,,,
+2001,6,3,83,Dunbar Dogs,J Hanson,K,,,,,
+2001,6,4,84,F-Jackie,Jets,Def,,,,,
+2001,6,5,85,Manic Moose,A Becht,TE,,,,,
+2001,6,6,86,Texas Nashvillians,M Hollis,K,,,,,
+2001,6,7,87,Bunchalosers,J Dawson,WR,,,,,
+2001,6,8,88,Otters,T Minor,RB,,,,,
+2001,6,9,89,Da Funk,J Elam,K,,,,,
+2001,6,10,90,Carter's Commandos,S Jefferson,WR,,,,,
+2001,6,11,91,Scooter's Boozers,Chargers,Def,,,,,
+2001,6,12,92,Ho Train,Redskins,Def,,,,,
+2001,6,13,93,Tally Wackers,K Brown,K,,,,,
+2001,6,14,94,Blitzkrieg,Seahawks,Def,,,,,
+2001,6,15,95,Karpet Munchers,S Mack,RB,,,,,
+2001,6,16,96,Iron City Pounders,Rams,Def,,,,,
+2001,7,1,97,OakalDoakals,M Bruener,TE,,,,,
+2001,7,2,98,Beers,E Connell,TE,,,,,
+2001,7,3,99,Dunbar Dogs,J Bringham,TE,,,,,
+2001,7,4,100,F-Jackie,T Heap,TE,,,,,
+2001,7,5,101,Manic Moose,KJ Carter,RB,,,,,
+2001,7,6,102,Texas Nashvillians,J Hall,K,,,,,
+2001,7,7,103,Bunchalosers,B Bennet,RB,,,,,
+2001,7,8,104,Otters,S Irvin,RB,,,,,
+2001,7,9,105,Da Funk,J Germanie,QB,,,,,
+2001,7,10,106,Carter's Commandos,G Anderson,K,,,,,
+2001,7,11,107,Scooter's Boozers,B Gramatica,K,,,,,
+2001,7,12,108,Ho Train,J McDaniel,WR,,,,,
+2001,7,13,109,Tally Wackers,KC,Def,,,,,
+2001,7,14,110,Blitzkrieg,D Mayes,WR,,,,,
+2001,7,15,111,Karpet Munchers,M Wiley,RB,,,,,
+2001,7,16,112,Iron City Pounders,B Conway,K,,,,,
+2001,8,1,113,OakalDoakals,A Rison,WR,,,,,
+2001,8,2,114,Beers,C Sanders,WR,,,,,
+2001,8,3,115,Dunbar Dogs,S Dawkins,WR,,,,,
+2001,8,4,116,F-Jackie,S Christie,K,,,,,
+2001,8,5,117,Manic Moose,R Lindell,K,,,,,
+2001,8,6,118,Texas Nashvillians,R Williams,TE,,,,,
+2001,8,7,119,Bunchalosers,T Martin,QB,,,,,
+2001,8,8,120,Otters,T Seder,K,,,,,
+2001,8,9,121,Da Funk,J Brookins,RB,,,,,
+2001,8,10,122,Carter's Commandos,A Van Pelt,QB,,,,,
+2001,8,11,123,Scooter's Boozers,H Moore,WR,,,,,
+2001,8,12,124,Ho Train,D Sloan,TE,,,,,
+2001,8,13,125,Tally Wackers,J Jerivicious,WR,,,,,
+2001,8,14,126,Blitzkrieg,J Kasey,K,,,,,
+2001,8,15,127,Karpet Munchers,J Reed,WR,,,,,
+2001,8,16,128,Iron City Pounders,L Gordon,RB,,,,,
+2001,9,3,131,Dunbar Dogs,Bills,Def,,,,,
+2001,9,4,132,F-Jackie,J Pathon,WR,,,,,
+2001,9,5,133,Manic Moose,J Lewis,QB,,,,,
+2001,9,6,134,Texas Nashvillians,A Zeroewe,RB,,,,,
+2001,9,7,135,Bunchalosers,W Richey,K,,,,,
+2001,9,8,136,Otters,J Garret,RB,,,,,
+2001,9,9,137,Da Funk,G Clark,TE,,,,,
+2001,9,10,138,Carter's Commandos,Lions,Def,,,,,
+2001,9,11,139,Scooter's Boozers,J Cortez,K,,,,,
+2001,9,12,140,Ho Train,R Mier,QB,,,,,
+2001,9,13,141,Tally Wackers,D Alexander,RB,,,,,
+2001,9,14,142,Blitzkrieg,G Feorette,QB,,,,,
+2001,9,15,143,Karpet Munchers,M Pollard,TE,,,,,
+2001,9,16,144,Iron City Pounders,R Conrad,RB,,,,,
+2001,10,3,147,Dunbar Dogs,M McMahon,QB,,,,,
+2001,10,4,148,F-Jackie,RJ Soward,WR,,,,,
+2001,10,6,150,Texas Nashvillians,D Ward,WR,,,,,
+2001,10,8,152,Otters,R Johnson,RB,,,,,
+2001,10,9,153,Da Funk,C Johnson,WR,,,,,
+2001,10,10,154,Carter's Commandos,C Furia,TE,,,,,
+2001,10,11,155,Scooter's Boozers,Panthers,Def,,,,,
+2001,10,12,156,Ho Train,T Peterson,WR,,,,,
+2001,10,13,157,Tally Wackers,H Evans,RB,,,,,
+2001,10,14,158,Blitzkrieg,Packers,Def,,,,,
+2001,10,15,159,Karpet Munchers,F Moreau,RB,,,,,
+2001,10,16,160,Iron City Pounders,D Moore,TE,,,,,
+2001,11,3,163,Dunbar Dogs,A Smith,QB,,,,,
+2001,11,4,164,F-Jackie,K Kasper,WR,,,,,
+2001,11,6,166,Texas Nashvillians,J Miller,QB,,,,,
+2001,11,8,168,Otters,H Goodwin,TE,,,,,
+2001,11,10,170,Carter's Commandos,T Edwards,WR,,,,,
+2001,11,11,171,Scooter's Boozers,V Sutterland,WR,,,,,
+2001,11,12,172,Ho Train,Colts,Def,,,,,
+2001,11,13,173,Tally Wackers,Falcons,Def,,,,,
+2001,11,14,174,Blitzkrieg,I Milli,TE,,,,,
+2001,11,15,175,Karpet Munchers,T Horne,WR,,,,,
+2001,11,16,176,Iron City Pounders,K Blanchard,K,,,,,
+2001,12,8,184,Otters,M Rypien,QB,,,,,
+2001,12,10,186,Carter's Commandos,J Huepel,QB,,,,,
+2001,12,12,188,Ho Train,T Dilfer,QB,,,,,
+2001,12,13,189,Tally Wackers,T Mcfee,TE,,,,,
+2001,12,14,190,Blitzkrieg,L Centers,RB,,,,,
+2001,12,15,191,Karpet Munchers,M Teursipospo,QB,,,,,
+2001,12,16,192,Iron City Pounders,J Palmer,QB,,,,,
+2001,13,12,204,Ho Train,F Beasley,RB,,,,,
+2001,13,13,205,Tally Wackers,N Rackers,K,,,,,
+2001,13,15,207,Karpet Munchers,J Watson,QB,,,,,
+2001,13,16,208,Iron City Pounders,49ers,Def,,,,,
+2001,14,12,220,Ho Train,J Ferzande,RB,,,,,
+2002,1,1,1,Bunchalosers,David Carr,QB,,,,,
+2002,1,2,2,F-Jackie,William Green,RB,,,,,
+2002,1,3,3,Bunchalosers,Clinton Portis,RB,,,,,
+2002,1,4,4,Otters,Antwaan Randle El,WR,,,,,
+2002,1,5,5,Tally Wackers,DeShaun Foster,RB,,,,,
+2002,1,6,6,Dunbar Dogs,Joey Harrington,QB,,,,,
+2002,1,7,7,Dunbar Dogs,Antonio Bryant,WR,,,,,
+2002,1,8,8,Da Funk,Shane Matthews,QB,,,,,
+2002,1,9,9,Ho Train,Tony Gonzalez,TE,,,,,
+2002,1,10,10,Blitzkrieg,Donte' Stallworth,WR,,,,,
+2002,1,11,11,Iron City Pounders,Vinny Testaverde,QB,,,,,
+2002,1,12,12,OakalDoakals,TJ Duckett,RB,,,,,
+2002,1,13,13,Tally Wackers,Javon Walker,WR,,,,,
+2002,1,14,14,Scooter's Boozers,Jonathan Wells,RB,,,,,
+2002,1,15,15,Karpet Munchers,Marcus Pollard,TE,,,,,
+2002,1,16,16,Carter's Commandos,Gus Frerotte,QB,,,,,
+2002,2,1,17,Texas Nashvillians,"Gaffney, Jabar",WR,,,,,
+2002,2,2,18,F-Jackie,"Westbrook, Michael",WR,,,,,
+2002,2,3,19,Bunchalosers,"Taylor, Chester",RB,,,,,
+2002,2,4,20,Otters,"Sharpe, Shannon",TE,,,,,
+2002,2,5,21,Tally Wackers,"Ramsey, Patrick",QB,,,,,
+2002,2,6,22,Dunbar Dogs,"Lelie, Ashley",WR,,,,,
+2002,2,7,23,Dunbar Dogs,"Westbrook, Brian",RB,,,,,
+2002,2,8,24,Beers,"Schroeder, Bill",WR,,,,,
+2002,2,9,25,Ho Train,"Hilliard, Ike",WR,,,,,
+2002,2,10,26,Blitzkrieg,"Dyson, Kevin",WR,,,,,
+2002,2,11,27,Iron City Pounders,"Shockey, Jeremy",TE,,,,,
+2002,2,12,28,OakalDoakals,"Gary, Olandis",RB,,,,,
+2002,2,13,29,Tally Wackers,"Reed, Jake",WR,,,,,
+2002,2,14,30,Scooter's Boozers,"Chamberlain, Byron",TE,,,,,
+2002,2,15,31,Karpet Munchers,"Davis, Andre'",WR,,,,,
+2002,2,16,32,Carter's Commandos,"Stokes, J.J.",WR,,,,,
+2002,3,1,33,Beers,"Morgan, Quincy",WR,,,,,
+2002,3,2,34,F-Jackie,"Muhammad, Muhsin",WR,,,,,
+2002,3,3,35,Bunchalosers,"Stith, Shyrone",RB,,,,,
+2002,3,4,36,Beers,"Stokley, Brandon",WR,,,,,
+2002,3,5,37,Scooter's Boozers,"Mack, Stacey",RB,,,,,
+2002,3,6,38,Dunbar Dogs,"Stevens, Jerramy",TE,,,,,
+2002,3,7,39,Manic Moose,"Taylor, Travis",WR,,,,,
+2002,3,8,40,Da Funk,"Gordon, Lamar",RB,,,,,
+2002,3,9,41,Ho Train,"Wilkins, Jeff",K,,,,,
+2002,3,10,42,Blitzkrieg,"Heap, Todd",TE,,,,,
+2002,3,11,43,Iron City Pounders,"Green, Jacquez",WR,,,,,
+2002,3,12,44,OakalDoakals,"Jefferson, Shawn",WR,,,,,
+2002,3,13,45,Tally Wackers,"McMichael, Randy",TE,,,,,
+2002,3,14,46,Tally Wackers,"Levens, Dorsey",RB,,,,,
+2002,3,15,47,Karpet Munchers,"Robinson, Marcus",WR,,,,,
+2002,3,16,48,Carter's Commandos,"Warrick, Peter",WR,,,,,
+2002,4,1,49,Texas Nashvillians,Over Def - Pit,Def,,,,,
+2002,4,2,50,F-Jackie,"Richardson, Tony",RB,,,,,
+2002,4,3,51,Bunchalosers,"Pinkston, Todd",WR,,,,,
+2002,4,4,52,Blitzkrieg,"Elam, Jason",K,,,,,
+2002,4,5,53,Beers,Over Def - StL,Def,,,,,
+2002,4,6,54,Dunbar Dogs,"Caldwell, Reche",WR,,,,,
+2002,4,7,55,Manic Moose,"Wycheck, Frank",TE,,,,,
+2002,4,8,56,Da Funk,"Bates, D'Wayne",WR,,,,,
+2002,4,9,57,Ho Train,Over Def - Phi,Def,,,,,
+2002,4,10,58,Blitzkrieg,Over Def - Chi,Def,,,,,
+2002,4,11,59,Iron City Pounders,"Faulk, Kevin",RB,,,,,
+2002,4,12,60,OakalDoakals,"Jones, Freddie",TE,,,,,
+2002,4,13,61,Tally Wackers,Over Def - Mia,Def,,,,,
+2002,4,14,62,Scooter's Boozers,"Peterson, Todd",K,,,,,
+2002,4,15,63,Karpet Munchers,Over Def - GB,Def,,,,,
+2002,4,16,64,Carter's Commandos,"Morris, Maurice",RB,,,,,
+2002,5,1,65,Texas Nashvillians,"Brown, Kris",K,,,,,
+2002,5,2,66,F-Jackie,"Flutie, Doug",QB,,,,,
+2002,5,3,67,Bunchalosers,"Porter, Jerry",WR,,,,,
+2002,5,4,68,Blitzkrieg,"White, Jamel",RB,,,,,
+2002,5,5,69,Da Funk,"Mealey, Rondell",RB,,,,,
+2002,5,6,70,Dunbar Dogs,"Shipp, Marcel",RB,,,,,
+2002,5,7,71,Manic Moose,Over Def - TB,Def,,,,,
+2002,5,8,72,Da Funk,"Finneran, Brian",WR,,,,,
+2002,5,9,73,Ho Train,"Crockett, Zack",RB,,,,,
+2002,5,10,74,Blitzkrieg,"Driver, Donald",WR,,,,,
+2002,5,11,75,Iron City Pounders,"Hicks, Skip",RB,,,,,
+2002,5,12,76,Beers,"Sloan, David",TE,,,,,
+2002,5,13,77,Tally Wackers,"Staley, Luke",RB,,,,,
+2002,5,14,78,Scooter's Boozers,"Allen, Terry",RB,,,,,
+2002,5,15,79,Karpet Munchers,"Stephens, Travis",RB,,,,,
+2002,5,16,80,Carter's Commandos,"Wilkins, Terrence",WR,,,,,
+2002,6,1,81,Texas Nashvillians,"Jenkins, MarTay",WR,,,,,
+2002,6,2,82,F-Jackie,"Bennett, Sean",RB,,,,,
+2002,6,3,83,Bunchalosers,"Johnson, Patrick",WR,,,,,
+2002,6,4,84,Otters,"Proehl, Ricky",WR,,,,,
+2002,6,5,85,Beers,"Dilger, Ken",TE,,,,,
+2002,6,6,86,Dunbar Dogs,"Walker, Marquise",WR,,,,,
+2002,6,7,87,Manic Moose,"Kennison, Eddie",WR,,,,,
+2002,6,8,88,Da Funk,"Scobey, Josh",RB,,,,,
+2002,6,9,89,Ho Train,"Sanders, Frank",WR,,,,,
+2002,6,10,90,Blitzkrieg,"Rambo, Ken-Yon",WR,,,,,
+2002,6,11,91,Iron City Pounders,"Jurevicius, Joe",WR,,,,,
+2002,6,12,92,OakalDoakals,"Lewis, Jermaine",WR,,,,,
+2002,6,13,93,Tally Wackers,"Hutchinson, Chad",QB,,,,,
+2002,6,14,94,Scooter's Boozers,"Johnson, Eric",TE,,,,,
+2002,6,15,95,Karpet Munchers,"Longwell, Ryan",K,,,,,
+2002,6,16,96,Carter's Commandos,Over Def - Was,Def,,,,,
+2002,7,1,97,Texas Nashvillians,"Carney, John",K,,,,,
+2002,7,2,98,F-Jackie,"Mare, Olindo",K,,,,,
+2002,7,3,99,Bunchalosers,"Houshmandzadeh, T.J.",WR,,,,,
+2002,7,4,100,Otters,"Scott, Darnay",WR,,,,,
+2002,7,5,101,Beers,"Vinatieri, Adam",K,,,,,
+2002,7,6,102,Dunbar Dogs,"Brien, Doug",K,,,,,
+2002,7,7,103,Manic Moose,"Hall, John",K,,,,,
+2002,7,8,104,Da Funk,"White, Dez",WR,,,,,
+2002,7,9,105,Ho Train,"Chapman, Doug",RB,,,,,
+2002,7,10,106,Blitzkrieg,"Walls, Wesley",TE,,,,,
+2002,7,11,107,Iron City Pounders,Over Def - Oak,Def,,,,,
+2002,7,12,108,OakalDoakals,Over Def - SD,Def,,,,,
+2002,7,13,109,Tally Wackers,"Chandler, Jeff",K,,,,,
+2002,7,14,110,Scooter's Boozers,"Betts, Ladell",RB,,,,,
+2002,7,15,111,Karpet Munchers,"Bennett, Brandon",RB,,,,,
+2002,7,16,112,Carter's Commandos,"Warren, Lamont",RB,,,,,
+2002,8,1,113,Texas Nashvillians,"Carter, Tim",WR,,,,,
+2002,8,2,114,F-Jackie,Over Def - NYJ,Def,,,,,
+2002,8,3,115,Bunchalosers,"Maddox, Tommy",QB,,,,,
+2002,8,4,116,Otters,"Bryson, Shawn",RB,,,,,
+2002,8,5,117,Beers,"Conwell, Ernie",TE,,,,,
+2002,8,6,118,Dunbar Dogs,Over Def - Dal,Def,,,,,
+2002,8,7,119,Manic Moose,"Christian, Bob",RB,,,,,
+2002,8,8,120,Da Funk,"Becht, Anthony",TE,,,,,
+2002,8,9,121,Ho Train,"Brady, Kyle",TE,,,,,
+2002,8,10,122,Blitzkrieg,"Streets, Tai",WR,,,,,
+2002,8,11,123,Iron City Pounders,"Stover, Matt",K,,,,,
+2002,8,12,124,OakalDoakals,"Johnson, Ron",WR,,,,,
+2002,8,13,125,Tally Wackers,"McCareins, Justin",WR,,,,,
+2002,8,14,126,Scooter's Boozers,Over Def - NYG,Def,,,,,
+2002,8,15,127,Karpet Munchers,Over Def - SF,Def,,,,,
+2002,8,16,128,Carter's Commandos,"Riemersma, Jay",TE,,,,,
+2002,9,1,129,Texas Nashvillians,Over Def - Cin,Def,,,,,
+2002,9,2,130,F-Jackie,"Graham, Daniel",TE,,,,,
+2002,9,3,131,Bunchalosers,"Rutledge, Rod",TE,,,,,
+2002,9,4,132,Otters,"Blake, Jeff",WB,,,,,
+2002,9,5,133,Beers,Over Def - NO,Def,,,,,
+2002,9,7,135,Manic Moose,Over Def - Den,Def,,,,,
+2002,9,8,136,Da Funk,"Edinger, Paul",K,,,,,
+2002,9,9,137,Ho Train,"Conway, Brett",K,,,,,
+2002,9,10,138,Blitzkrieg,"Pochman, Owen",K,,,,,
+2002,9,11,139,Iron City Pounders,"Lucas, Ray",QB,,,,,
+2002,9,12,140,OakalDoakals,"Van Pelt, Alex",QB,,,,,
+2002,9,14,142,Scooter's Boozers,"Russell, Cliff",WR,,,,,
+2002,9,15,143,Karpet Munchers,"Nedney, Joe",K,,,,,
+2002,9,16,144,Carter's Commandos,Over Def - Bal,Def,,,,,
+2002,10,1,145,Texas Nashvillians,"Chandler, Chris",QB,,,,,
+2002,10,2,146,F-Jackie,"Johnson, Leon",RB,,,,,
+2002,10,4,148,Otters,"Davey, Rohan",QB,,,,,
+2002,10,5,149,Beers,"Dwight, Tim",WR,,,,,
+2002,10,7,151,Manic Moose,"Hanson, Jason",K,,,,,
+2002,10,8,152,Da Funk,Over Def - Sea,Def,,,,,
+2002,10,9,153,Ho Train,Over Def - Ind,Def,,,,,
+2002,10,10,154,Blitzkrieg,"Kitna, Jon",QB,,,,,
+2002,10,11,155,Iron City Pounders,"Engram, Bobby",WR,,,,,
+2002,10,12,156,OakalDoakals,"Vanover, Tamarick",WR,,,,,
+2002,10,14,158,Scooter's Boozers,"Ward, Dedric",WR,,,,,
+2002,10,15,159,Karpet Munchers,"Wuerffel, Danny",QB,,,,,
+2002,11,1,161,Texas Nashvillians,"Schifino, Jake",WR,,,,,
+2002,11,4,164,Otters,Over Def - Ari,Def,,,,,
+2002,11,5,165,Beers,"Jackson, Willie",WR,,,,,
+2002,11,7,167,Manic Moose,"Byrd, Isaac",WR,,,,,
+2002,11,9,169,Ho Train,Over Def - Buf,Def,,,,,
+2002,11,10,170,Blitzkrieg,"Bruener, Mark",TE,,,,,
+2002,11,11,171,Iron City Pounders,"Feely, Jay",K,,,,,
+2002,11,14,174,Scooter's Boozers,"Thompson, Derrius",WR,,,,,
+2002,11,15,175,Karpet Munchers,"Cloud, Mike",RB,,,,,
+2002,12,4,180,Otters,"Lindell, Rian",K,,,,,
+2002,12,5,181,Beers,"Hollis, Mike",K,,,,,
+2002,12,7,183,Manic Moose,"Bouman, Todd",QB,,,,,
+2002,12,9,185,Ho Train,"Watters, Ricky",RB,,,,,
+2002,12,11,187,Iron City Pounders,"Cortez, Jose",K,,,,,
+2002,12,14,190,Scooter's Boozers,"Alexander, Stephen",TE,,,,,
+2002,12,15,191,Karpet Munchers,"Williams, Roland",TE,,,,,
+2002,13,4,196,Otters,"Williams, Moe",RB,,,,,
+2002,13,14,206,Scooter's Boozers,"Kasay, John",K,,,,,
+2002,13,15,207,Karpet Munchers,"Beuerlein, Steve",QB,,,,,
+2002,14,4,212,Otters,"Dixon, Ron",WR,,,,,
+2002,14,14,222,Scooter's Boozers,Over Def - Hou,Def,,,,,
+2002,14,15,223,Karpet Munchers,"Peterson, Adrian",RB,,,,,
+2003,1,1,1,Scooter's Boozers,C Simms,QB,7025,1,1,False,False
+2003,1,2,2,Da Funk,W McGahee,RB,6951,18,18,True,True
+2003,1,3,3,Dunbar Dogs,C Rodgers,WR,8345,0,0,False,False
+2003,1,4,4,Da Funk,B Leftwitch,QB,6935,13,13,True,True
+2003,1,5,5,Iron City Pounders,K Boller,QB,6947,9,9,False,False
+2003,1,6,6,Bunchalosers,J Fargas,RB,7024,6,6,False,False
+2003,1,7,7,Karpet Munchers,O Smith,RB,7033,10,10,True,True
+2003,1,8,8,Carter's Commandos,C Palmer,QB,6929,20,20,True,True
+2003,1,9,9,F-Jackie,K faulk,RB,3910,7,7,False,False
+2003,1,10,10,Otters,L toefield,RB,7060,0,0,False,False
+2003,1,11,11,Blitzkrieg,R grossman,QB,6950,0,0,False,False
+2003,1,12,12,Ho Train,A johnson,WR,6931,28,28,True,True
+2003,1,13,13,Texas Nashvillians,L johnson,RB,6955,19,19,True,True
+2003,1,14,14,Ho Train,T calaco,WR,6988,3,3,False,False
+2003,1,15,15,Tally Wackers,T gonzoleaz,TE,2918,37,37,True,True
+2003,1,16,16,Beers,C conway,WR,1145,7,5,False,False
+2003,2,1,17,Scooter's Boozers,J bettis,RB,1054,24,24,True,True
+2003,2,2,18,OakalDoakals,D bates,WR,3935,2,2,False,False
+2003,2,3,19,Dunbar Dogs,K washington,WR,6993,2,2,False,False
+2003,2,4,20,Blitzkrieg,T brown,WR,1093,6,4,False,False
+2003,2,5,21,Da Funk,T heap,TE,4924,28,12,True,True
+2003,2,6,22,Bunchalosers,M smith,RB,7005,0,0,False,False
+2003,2,7,23,Karpet Munchers,A peterson,RB,6707,3,3,False,False
+2003,2,8,24,Carter's Commandos,J fiedler,QB,3591,5,5,False,False
+2003,2,9,25,F-Jackie,F sanders,WR,1797,0,0,False,False
+2003,2,10,26,Otters,M alstott,RB,2657,1,0,False,False
+2003,2,11,27,Da Funk,M morris,RB,6562,3,0,False,False
+2003,2,12,28,Ho Train,C brown,RB,7021,12,6,True,False
+2003,2,13,29,Ho Train,D branch,WR,6573,15,12,True,True
+2003,2,14,30,Blitzkrieg,J kitna,QB,3196,1,1,False,False
+2003,2,15,31,Tally Wackers,B johnson,WR,6945,2,1,False,False
+2003,2,16,32,Beers,R mcmicheal,TE,6622,37,25,True,True
+2003,3,1,33,Scooter's Boozers,A pinner,RB,7027,1,1,False,False
+2003,3,2,34,OakalDoakals,A bolden,WR,6982,27,27,True,True
+2003,3,3,35,Dunbar Dogs,K curtis,WR,7002,13,1,True,False
+2003,3,4,36,Iron City Pounders,M wiley,RB,,,,,
+2003,3,5,37,Ho Train,D grham,TE,6529,29,11,True,True
+2003,3,6,38,Bunchalosers,B lolyd,WR,7052,15,2,True,False
+2003,3,7,39,Karpet Munchers,TB,Def,0525,30,12,True,True
+2003,3,8,40,Carter's Commandos,T jacobs,WR,6972,0,0,False,False
+2003,3,9,41,F-Jackie,D jolly,TE,6563,19,8,True,False
+2003,3,10,42,Otters,C hutchinson,QB,6499,0,0,False,False
+2003,3,11,43,Manic Moose,T dwight,WR,3385,0,0,False,False
+2003,3,12,44,Ho Train,E kennison,WR,2648,21,1,True,False
+2003,3,13,45,Texas Nashvillians,B mcmullen,WR,7023,0,0,False,False
+2003,3,14,46,Blitzkrieg,J white,RB,5988,0,0,False,False
+2003,3,15,47,Tally Wackers,D ackers,K,3579,30,13,True,True
+2003,3,16,48,Manic Moose,M gramatica,K,3944,19,6,True,False
+2003,4,1,49,Scooter's Boozers,A crumpler,TE,4928,36,12,True,True
+2003,4,2,50,OakalDoakals,J feeley,K,4883,30,8,True,False
+2003,4,3,51,Dunbar Dogs,T johnson,TE,6991,4,4,False,False
+2003,4,4,52,Da Funk,R ferguson,WR,4935,15,6,True,False
+2003,4,5,53,Da Funk,Miami,Def,0503,26,23,True,True
+2003,4,6,54,Bunchalosers,E conwell,TE,2680,16,11,True,True
+2003,4,7,55,Karpet Munchers,B westbrook,RB,6599,27,27,True,True
+2003,4,8,56,Carter's Commandos,Eagles,Def,0518,25,13,True,True
+2003,4,9,57,F-Jackie,R peete,QB,1537,0,0,False,False
+2003,4,10,58,Otters,E mccaffery,WR,1453,2,2,False,False
+2003,4,11,59,Manic Moose,Atlanta,Def,0526,23,5,True,False
+2003,4,12,60,Ho Train,J dellhome,QB,3532,19,19,True,True
+2003,4,13,61,Texas Nashvillians,M jenkins,WR,4057,0,0,False,False
+2003,4,14,62,Blitzkrieg,J elam,K,1197,36,11,True,True
+2003,4,15,63,Tally Wackers,A womack,RB,6745,0,0,False,False
+2003,4,16,64,Beers,D bennet,WR,5175,20,4,True,False
+2003,5,1,65,Scooter's Boozers,C redman,QB,5724,1,0,False,False
+2003,5,2,66,OakalDoakals,Steelers,Def,0510,25,1,True,False
+2003,5,3,67,Dunbar Dogs,D clark,TE,6952,20,19,True,True
+2003,5,4,68,OakalDoakals,J carney,K,1111,13,0,True,False
+2003,5,5,69,Iron City Pounders,Longwell,K,3143,29,11,True,True
+2003,5,6,70,Bunchalosers,J nedney,K,2840,1,1,False,False
+2003,5,7,71,Karpet Munchers,Vineterai,K,2842,26,22,True,True
+2003,5,8,72,Carter's Commandos,L betts,RB,6564,7,4,False,False
+2003,5,9,73,F-Jackie,C wilson,WR,5079,4,1,False,False
+2003,5,10,74,Otters,S sharpe,TE,1605,12,12,True,True
+2003,5,11,75,Manic Moose,B miller,TE,4082,13,10,True,True
+2003,5,12,76,Ho Train,Baltimore,Def,0531,24,6,True,False
+2003,5,13,77,Texas Nashvillians,Carolina,Def,0527,32,21,True,True
+2003,5,14,78,Blitzkrieg,Giants,Def,0517,22,7,True,False
+2003,5,15,79,Tally Wackers,New england,Def,0504,29,5,True,False
+2003,5,16,80,Beers,D hall,WR,5802,5,5,False,False
+2003,6,1,81,Scooter's Boozers,D levens,RB,1413,0,0,False,False
+2003,6,2,82,OakalDoakals,K brady,TE,1825,1,1,False,False
+2003,6,3,83,Dunbar Dogs,P edinger,K,5822,23,12,True,True
+2003,6,4,84,Da Funk,O mare,K,3141,13,12,True,True
+2003,6,5,85,Iron City Pounders,K dyson,WR,3304,0,0,False,False
+2003,6,6,86,Bunchalosers,M hollis,K,1842,0,0,False,False
+2003,6,7,87,Karpet Munchers,R caldwell,WR,6556,4,2,False,False
+2003,6,8,88,Carter's Commandos,B bennet,RB,3573,0,0,False,False
+2003,6,9,89,F-Jackie,Washington,Def,0520,21,8,True,False
+2003,6,10,90,Otters,Green bay,Def,0523,17,3,True,False
+2003,6,11,91,Manic Moose,B schroder,WR,1597,6,5,False,False
+2003,6,12,92,Ho Train,J wilkins,K,1873,36,13,True,True
+2003,6,13,93,Beers,P dawson,K,3494,21,10,True,True
+2003,6,14,94,Blitzkrieg,C Fauria,TE,1827,9,9,False,False
+2003,6,15,95,Tally Wackers,L suggs,RB,7043,12,12,True,True
+2003,6,16,96,Beers,Oakland,Def,0513,11,5,True,False
+2003,7,1,97,Scooter's Boozers,T glenn,WR,2638,21,3,True,False
+2003,7,2,98,OakalDoakals,Tenn,Def,0508,25,12,True,True
+2003,7,3,99,Dunbar Dogs,D davis,RB,7029,25,7,True,False
+2003,7,4,100,Da Funk,Jj stokes,WR,1796,0,0,False,False
+2003,7,5,101,Iron City Pounders,T wheatly,RB,1769,4,2,False,False
+2003,7,6,102,Bunchalosers,Rams,Def,0528,18,11,True,True
+2003,7,7,103,Karpet Munchers,D hayes,WR,3379,0,0,False,False
+2003,7,8,104,Carter's Commandos,S alexander,TE,3330,1,1,False,False
+2003,7,9,105,F-Jackie,M stover,K,1641,20,18,True,True
+2003,7,10,106,Otters,J mungro,RB,6778,0,0,False,False
+2003,7,11,107,Manic Moose,L foster,WR,4821,0,0,False,False
+2003,7,12,108,Ho Train,T hollis,RB,7195,1,1,False,False
+2003,7,13,109,Texas Nashvillians,M andersen,K,1009,9,2,False,False
+2003,7,14,110,Blitzkrieg,T richardson,RB,1846,0,0,False,False
+2003,7,15,111,Tally Wackers,J stevens,TE,6536,24,0,True,False
+2003,7,16,112,Beers,S aikens,WR,7055,0,0,False,False
+2003,8,1,113,Scooter's Boozers,M robinson,WR,2995,18,11,True,True
+2003,8,2,114,OakalDoakals,J pathon,WR,3317,4,1,False,False
+2003,8,3,115,Dunbar Dogs,Houston,Def,0532,13,13,True,True
+2003,8,4,116,Da Funk,D terrell,WR,4898,7,4,False,False
+2003,8,5,117,Iron City Pounders,J jeorvisous,WR,,,,,
+2003,8,6,118,Bunchalosers,J whiten,TE,6997,23,2,True,False
+2003,8,7,119,Karpet Munchers,M teriasapo,QB,,,,,
+2003,8,8,120,Carter's Commandos,D white,WR,5718,2,2,False,False
+2003,8,9,121,F-Jackie,D rhodes,RB,5172,4,0,False,False
+2003,8,10,122,Otters,Saints,Def,0529,1,0,False,False
+2003,8,11,123,Manic Moose,R dayne,RB,5660,3,0,False,False
+2003,8,12,124,Ho Train,D chapman,RB,5737,1,1,False,False
+2003,8,13,125,Tally Wackers,N burlson,WR,6999,20,3,True,False
+2003,8,14,126,Blitzkrieg,B gilmore,WR,4860,2,2,False,False
+2003,8,15,127,Tally Wackers,Lj smith,TE,6989,24,1,True,False
+2003,8,16,128,Scooter's Boozers,C chandler,QB,1125,3,3,False,False
+2003,9,1,129,Scooter's Boozers,Jets,Def,0505,20,13,True,True
+2003,9,2,130,OakalDoakals,A becht,TE,5676,16,1,True,False
+2003,9,3,131,Dunbar Dogs,K brown,K,4092,7,6,False,False
+2003,9,4,132,Da Funk,S bryson,RB,3950,3,0,False,False
+2003,9,5,133,Iron City Pounders,Sf,Def,0530,15,10,True,True
+2003,9,6,134,Bunchalosers,Bears,Def,0521,18,2,True,False
+2003,9,7,135,Karpet Munchers,M ricks,WR,,,,,
+2003,9,8,136,Carter's Commandos,J mcknight,WR,1867,1,1,False,False
+2003,9,9,137,F-Jackie,J addley,WR,6657,0,0,False,False
+2003,9,10,138,Otters,T galor,WR,,,,,
+2003,9,11,139,Manic Moose,T carter,WR,6554,4,0,False,False
+2003,9,12,140,Ho Train,J hall,K,3114,20,0,True,False
+2003,9,13,141,Texas Nashvillians,R lindell,K,5919,23,0,True,False
+2003,9,14,142,Blitzkrieg,D flutie,QB,3495,0,0,False,False
+2003,9,15,143,Tally Wackers,Dallas,Def,0516,24,8,True,False
+2003,9,16,144,Beers,E joesph,RB,5163,0,0,False,False
+2003,10,1,145,Scooter's Boozers,J hanson,K,1275,7,4,False,False
+2003,10,2,146,OakalDoakals,R phroel,WR,1552,7,7,False,False
+2003,10,4,148,Da Funk,S beurlien,QB,1055,1,0,False,False
+2003,10,5,149,Iron City Pounders,Q carter,QB,4947,2,2,False,False
+2003,10,6,150,Bunchalosers,R ismail,WR,1335,0,0,False,False
+2003,10,7,151,Karpet Munchers,Jax,Def,0509,15,7,True,False
+2003,10,8,152,Carter's Commandos,Chargers,Def,0514,3,0,False,False
+2003,10,10,154,Otters,M mcmahon,QB,5058,0,0,False,False
+2003,10,11,155,Manic Moose,J riemersma,TE,2831,3,3,False,False
+2003,10,12,156,Ho Train,KC,Def,0512,19,11,True,True
+2003,10,13,157,Texas Nashvillians,Q griffin,RB,7036,8,1,False,False
+2003,10,14,158,Blitzkrieg,F wyhecheck,TE,1747,0,0,False,False
+2003,10,15,159,Tally Wackers,J chandler,K,6610,0,0,False,False
+2003,10,16,160,Beers,K dorsey,QB,7169,2,0,False,False
+2003,11,5,165,Iron City Pounders,W walls,TE,1703,1,1,False,False
+2003,11,7,167,Karpet Munchers,N rackers,K,5818,14,0,True,False
+2003,11,11,171,Manic Moose,Lions,Def,0522,10,0,True,False
+2003,11,12,172,Ho Train,D johnson,QB,4799,4,4,False,False
+2003,11,13,173,Texas Nashvillians,He hate me,RB,,,,,
+2003,11,14,174,Blitzkrieg,Denver,Def,0511,15,6,True,False
+2003,11,16,176,Beers,Clevland,Def,,,,,
+2003,12,5,181,Iron City Pounders,S christie,K,1128,6,2,False,False
+2003,12,7,183,Karpet Munchers,T edwards,WR,3877,9,0,False,False
+2003,12,11,187,Manic Moose,D brien,K,1076,12,0,True,False
+2003,12,13,189,Texas Nashvillians,Jr tolliver,WR,14015,0,0,False,False
+2003,12,14,190,Blitzkrieg,J brown,K,7150,23,2,True,False
+2003,13,5,197,Iron City Pounders,Seattle,Def,0515,25,3,True,False
+2003,13,11,203,Manic Moose,L johnson,RB,6955,19,0,True,False
+2003,13,13,205,Texas Nashvillians,J gage,WR,7071,3,0,False,False
+2003,14,5,213,Iron City Pounders,L smith,RB,1626,0,0,False,False
+2003,14,13,221,Texas Nashvillians,D brown,RB,,,,,
+2003,15,13,221,Texas Nashvillians,S mcdonald,WR,7034,9,0,False,False
+2004,1,1,1,Ho Train,Steven Jackson,RB,7414,25,25,True,True
+2004,1,2,2,OakalDoakals,Kevin Jones,RB,7420,30,0,True,False
+2004,1,3,3,Texas Nashvillians,Tatem Bell,RB,7431,23,3,True,False
+2004,1,4,4,Iron City Pounders,Larry Fitzgerald,WR,7393,32,32,True,True
+2004,1,5,5,Tally Wackers,Eli Manning,QB,7391,15,15,True,True
+2004,1,6,6,Carter's Commandos,Julius Jones,RB,7433,24,24,True,True
+2004,1,7,7,Dunbar Dogs,B Rothelsburgher,QB,7401,22,22,True,True
+2004,1,8,8,F-Jackie,Kevin Winslow,TE,7396,12,12,True,True
+2004,1,9,9,Da Funk,Roy Williams,WR,7397,31,31,True,True
+2004,1,10,10,Bunchalosers,Quiten Griffen,RB,7036,7,7,False,False
+2004,1,11,11,OakalDoakals,Greg Jones,RB,7445,5,5,False,False
+2004,1,12,12,Otters,Chris Perry,RB,7416,1,1,False,False
+2004,1,13,13,Ho Train,Lee Evans,WR,7403,26,26,True,True
+2004,1,14,14,Tally Wackers,Reggie Williams,WR,7399,14,14,True,True
+2004,1,15,15,Manic Moose,Deion Branch,WR,6573,22,3,True,False
+2004,1,16,16,Karpet Munchers,Lamont Jordan,RB,4943,17,17,True,True
+2004,2,1,17,Bunchalosers,T Wheatly,RB,1769,2,2,False,False
+2004,2,2,18,Carter's Commandos,J Mcown,QB,6589,3,3,False,False
+2004,2,3,19,F-Jackie,P Rivers,QB,7394,4,4,False,False
+2004,2,4,20,Blitzkrieg,R Woods,WR,7421,1,1,False,False
+2004,2,5,21,Tally Wackers,W Green,RB,6524,9,9,False,False
+2004,2,6,22,Scooter's Boozers,C Garner,RB,1237,3,3,False,False
+2004,2,7,23,Texas Nashvillians,J Smith,WR,1623,19,19,True,True
+2004,2,8,24,Iron City Pounders,T Minor,RB,4988,0,0,False,False
+2004,2,9,25,Da Funk,N Burelson,WR,6999,18,18,True,True
+2004,2,10,26,Dunbar Dogs,M Clayton,WR,7405,24,24,True,True
+2004,2,11,27,Scooter's Boozers,T Heap,TE,4924,27,16,True,True
+2004,2,12,28,Otters,D Bennett,WR,5175,19,19,True,True
+2004,2,13,29,Ho Train,R Ferguson,WR,4935,10,4,True,False
+2004,2,14,30,Tally Wackers,M Robinson,WR,2995,17,7,True,False
+2004,2,15,31,Manic Moose,E Kennison,WR,2648,23,23,True,True
+2004,2,16,32,Karpet Munchers,JP Lossman,QB,7412,9,0,False,False
+2004,3,1,33,Bunchalosers,A Davis,WR,6555,4,4,False,False
+2004,3,2,34,Carter's Commandos,M Vandergadt,K,3561,35,24,True,True
+2004,3,3,35,F-Jackie,C Hobbs,RB,7518,0,0,False,False
+2004,3,4,36,Blitzkrieg,M Jenkins,WR,7419,19,0,True,False
+2004,3,5,37,OakalDoakals,K Johnson,WR,3896,1,1,False,False
+2004,3,6,38,Dunbar Dogs,C Colbert,WR,,,,,
+2004,3,7,39,Manic Moose,NE,Def,0504,36,11,True,True
+2004,3,8,40,Iron City Pounders,A Zeoure,RB,3959,7,5,False,False
+2004,3,9,41,Da Funk,D Gabriel,WR,7095,7,2,False,False
+2004,3,10,42,Dunbar Dogs,B Watson,TE,7422,27,27,True,True
+2004,3,11,43,Scooter's Boozers,I Hillard,WR,2913,12,12,True,True
+2004,3,12,44,Otters,T Taylor,WR,5659,8,3,False,False
+2004,3,13,45,Ho Train,B Williams,TE,6437,4,4,False,False
+2004,3,14,46,Tally Wackers,M Schaub,QB,7480,0,0,False,False
+2004,3,15,47,Manic Moose,V Testaverde,QB,1653,2,0,False,False
+2004,3,16,48,OakalDoakals,A Crumpler,TE,4928,36,13,True,True
+2004,4,1,49,Bunchalosers,D Terrell,WR,4898,3,3,False,False
+2004,4,2,50,Manic Moose,J Wilkins,K,1873,36,11,True,True
+2004,4,3,51,F-Jackie,R Dayne,RB,5660,5,3,False,False
+2004,4,4,52,Blitzkrieg,L Mcown,QB,7496,0,0,False,False
+2004,4,5,53,OakalDoakals,Baltimore,Def,0531,30,7,True,False
+2004,4,6,54,Beers,D Ackers,K,3579,30,17,True,True
+2004,4,7,55,Texas Nashvillians,D Henderson,WR,7440,8,0,False,False
+2004,4,8,56,Iron City Pounders,M Alstott,RB,2657,1,1,False,False
+2004,4,9,57,Da Funk,D Watts,WR,7444,0,0,False,False
+2004,4,10,58,Dunbar Dogs,Q Wilson,RB,7609,0,0,False,False
+2004,4,11,59,Scooter's Boozers,T Brown,WR,1093,2,2,False,False
+2004,4,12,60,Otters,R McMichael,TE,6622,36,12,True,True
+2004,4,13,61,Ho Train,M Booker,WR,3942,12,4,True,False
+2004,4,14,62,Tally Wackers,Eagles,Def,0518,24,3,True,False
+2004,4,15,63,OakalDoakals,J Elam,K,1197,36,25,True,True
+2004,4,16,64,Karpet Munchers,A Vineterei,K,2842,26,11,True,True
+2004,5,1,65,Bunchalosers,Dallas,Def,0516,20,4,True,False
+2004,5,2,66,Carter's Commandos,I Milli,TE,3052,2,1,False,False
+2004,5,3,67,F-Jackie,Titans,Def,0508,13,5,True,False
+2004,5,4,68,Blitzkrieg,B Fanks,TE,5663,21,12,True,True
+2004,5,5,69,OakalDoakals,T Glenn,WR,2638,29,6,True,False
+2004,5,6,70,Beers,A Bryant,WR,6571,23,7,True,False
+2004,5,7,71,Texas Nashvillians,M Turner,RB,7544,2,0,False,False
+2004,5,8,72,Iron City Pounders,J Brown,K,7150,26,21,True,True
+2004,5,9,73,Da Funk,Dolphins,Def,0503,20,10,True,True
+2004,5,10,74,Dunbar Dogs,D Clark,TE,6952,22,10,True,True
+2004,5,11,75,Scooter's Boozers,B Johnson,WR,6945,3,0,False,False
+2004,5,12,76,Otters,D Rhodes,RB,5172,11,4,True,False
+2004,5,13,77,Ho Train,R Longwell,K,3143,29,22,True,True
+2004,5,14,78,Tally Wackers,A Feeley,K,,,,,
+2004,5,15,79,Manic Moose,A Gates,TE,7236,35,35,True,True
+2004,5,16,80,Karpet Munchers,K Campbell,WR,6882,11,11,True,True
+2004,6,1,81,Bunchalosers,B Cundiff,K,6776,2,2,False,False
+2004,6,2,82,Carter's Commandos,L Betts,RB,6564,4,0,False,False
+2004,6,3,83,F-Jackie,Osgood,WR,7239,0,0,False,False
+2004,6,4,84,Blitzkrieg,T Pinkston,WR,5685,12,12,True,True
+2004,6,5,85,OakalDoakals,E Parker,WR,6854,10,6,True,False
+2004,6,6,86,Bunchalosers,D Graham,TE,6529,20,13,True,True
+2004,6,7,87,Texas Nashvillians,LJ Smith,TE,6989,27,13,True,True
+2004,6,8,88,Iron City Pounders,TB,Def,0525,31,4,True,False
+2004,6,9,89,Da Funk,B Troupe,TE,7430,12,1,True,False
+2004,6,10,90,Dunbar Dogs,B Bearnian,WR,7468,9,0,False,False
+2004,6,11,91,Scooter's Boozers,M Gramatica,K,3944,13,13,True,True
+2004,6,12,92,Otters,T Hollins,RB,7195,0,0,False,False
+2004,6,13,93,Ho Train,J Whitten,TE,6997,33,21,True,True
+2004,6,14,94,Tally Wackers,J Kasay,K,1383,25,3,True,False
+2004,6,15,95,Manic Moose,G Freote,QB,1225,0,0,False,False
+2004,6,16,96,Karpet Munchers,A Becht,TE,5676,8,6,False,False
+2004,7,1,97,Bunchalosers,K Holcombe,QB,3250,1,0,False,False
+2004,7,2,98,Carter's Commandos,E Kinney,TE,5717,7,5,False,False
+2004,7,3,99,F-Jackie,B Miller,TE,4082,3,3,False,False
+2004,7,4,100,Blitzkrieg,T Hambrick,RB,4867,12,12,True,True
+2004,7,5,101,OakalDoakals,J Hanson,K,1275,7,0,False,False
+2004,7,6,102,Beers,M Pollard,TE,2895,14,11,True,True
+2004,7,7,103,Texas Nashvillians,O Mare,K,3141,4,0,False,False
+2004,7,8,104,Iron City Pounders,Z Crocket,RB,1779,1,1,False,False
+2004,7,9,105,Da Funk,M Andersen,K,1009,7,7,False,False
+2004,7,10,106,Dunbar Dogs,KC,Def,0512,18,8,True,False
+2004,7,11,107,Scooter's Boozers,T Edwards,WR,3877,6,6,False,False
+2004,7,12,108,Otters,S Janokowski,K,5666,29,24,True,True
+2004,7,13,109,Ho Train,Pgh,Def,,,,,
+2004,7,14,110,Tally Wackers,Seattle,Def,0515,35,10,True,True
+2004,7,15,111,Manic Moose,W Henderson,RB,1777,0,0,False,False
+2004,7,16,112,Karpet Munchers,Jax,Def,0509,23,6,True,False
+2004,8,1,113,Bunchalosers,T Jackson,RB,4021,1,1,False,False
+2004,8,2,114,Carter's Commandos,GB,Def,0523,14,13,True,True
+2004,8,3,115,F-Jackie,N Keading,K,7455,28,28,True,True
+2004,8,4,116,Blitzkrieg,M Morris,RB,6562,9,9,False,False
+2004,8,5,117,OakalDoakals,Denver,Def,0511,16,2,True,False
+2004,8,6,118,Beers,St Louis,Def,,,,,
+2004,8,7,119,Texas Nashvillians,J Hall,K,3114,12,9,True,False
+2004,8,8,120,Iron City Pounders,J Kleinsasser,TE,3908,0,0,False,False
+2004,8,9,121,Da Funk,R Mahea,RB,7280,0,0,False,False
+2004,8,10,122,Dunbar Dogs,P Edinger,K,5822,15,4,True,False
+2004,8,11,123,Scooter's Boozers,Cinci,Def,0506,35,13,True,True
+2004,8,12,124,Otters,D Hall,WR,5802,1,0,False,False
+2004,8,13,125,Ho Train,C Taylor,RB,6715,17,1,True,False
+2004,8,14,126,Tally Wackers,V Haynes,RB,6674,2,2,False,False
+2004,8,15,127,Manic Moose,M Smith,RB,7005,1,0,False,False
+2004,8,16,128,Karpet Munchers,T Bauman,QB,3531,0,0,False,False
+2004,9,1,129,Bunchalosers,J Chatman,RB,6780,2,2,False,False
+2004,9,2,130,Carter's Commandos,B Shaw,WR,3429,1,1,False,False
+2004,9,3,131,F-Jackie,NO,Def,0529,5,1,False,False
+2004,9,4,132,Blitzkrieg,J Nedney,K,2840,9,0,False,False
+2004,9,5,133,OakalDoakals,F Jones,TE,2946,0,0,False,False
+2004,9,6,134,Beers,C Wilson,WR,5079,5,3,False,False
+2004,9,7,135,Texas Nashvillians,J Weaver,TE,4072,0,0,False,False
+2004,9,8,136,Iron City Pounders,Skins,Def,0520,14,8,True,False
+2004,9,9,137,Da Funk,J Stevens,TE,6536,22,1,True,False
+2004,9,10,138,Dunbar Dogs,R Lindell,K,5919,29,16,True,True
+2004,9,11,139,Scooter's Boozers,D Jolly,TE,6563,11,9,True,False
+2004,9,12,140,Otters,AJ Feeley,QB,5065,0,0,False,False
+2004,9,13,141,Ho Train,Minn,Def,0524,14,4,True,False
+2004,9,14,142,Tally Wackers,D Henderson,WR,7440,8,0,False,False
+2004,9,15,143,Manic Moose,A Stecker,RB,5930,5,2,False,False
+2004,9,16,144,Karpet Munchers,Bills,Def,0501,24,14,True,True
+2004,10,1,145,Bunchalosers,P Dawson,K,3494,19,11,True,True
+2004,10,2,146,Carter's Commandos,J Reed,K,6887,18,5,True,False
+2004,10,4,148,Blitzkrieg,J Carney,K,1111,17,11,True,True
+2004,10,5,149,OakalDoakals,B Volek,QB,5620,3,3,False,False
+2004,10,6,150,Beers,49ers,Def,0530,5,1,False,False
+2004,10,7,151,Texas Nashvillians,Detroit,Def,0522,16,4,True,False
+2004,10,8,152,Iron City Pounders,D Brien,K,1076,3,3,False,False
+2004,10,9,153,Da Funk,J Gafney,WR,6541,9,0,False,False
+2004,10,10,154,Dunbar Dogs,J Caughty,WR,,,,,
+2004,10,11,155,Otters,D Patten,WR,3215,12,9,True,False
+2004,10,12,156,Otters,Oakland,Def,0513,8,6,False,False
+2004,10,15,159,Manic Moose,M Pittman,RB,3369,6,1,False,False
+2004,10,16,160,Karpet Munchers,W Chrebet,WR,1852,1,1,False,False
+2004,11,1,161,Bunchalosers,Clevland,Def,,,,,
+2004,11,2,162,Carter's Commandos,B Johnson,WR,6973,9,9,False,False
+2004,11,4,164,Blitzkrieg,Falcons,Def,0526,29,11,True,True
+2004,11,5,165,OakalDoakals,L Neal,RB,1513,0,0,False,False
+2004,11,6,166,Beers,S Parker,WR,7495,1,1,False,False
+2004,11,9,169,Da Funk,B Stokley,WR,3969,16,4,True,False
+2004,11,10,170,Dunbar Dogs,Colts,Def,0502,23,5,True,False
+2004,11,11,171,Otters,J Jackson,RB,4964,1,0,False,False
+2004,11,15,175,Manic Moose,Bears,Def,0521,28,1,True,False
+2004,11,16,176,Karpet Munchers,D Looker,WR,5965,2,0,False,False
+2004,12,4,180,Blitzkrieg,T Peterson,K,1542,2,2,False,False
+2004,12,6,182,Beers,K Brown,K,4092,4,1,False,False
+2004,12,9,185,Da Funk,T Dilfer,QB,1183,0,0,False,False
+2004,12,15,191,Manic Moose,C Conway,WR,1145,2,2,False,False
+2004,12,16,192,Karpet Munchers,S Grahm,K,6475,18,1,True,False
+2004,13,6,198,Beers,B Wayne,WR,,,,,
+2004,13,15,207,Manic Moose,L Tynes,K,5168,17,2,True,False
+2004,13,16,208,Karpet Munchers,M Schoebel,TE,6575,3,1,False,False
+2004,14,6,214,Beers,B Mammadorta,TE,,,,,
+2004,14,15,223,Manic Moose,B Finnerman,WR,5522,3,0,False,False
+2004,14,16,224,Karpet Munchers,D Pederson,QB,3144,0,0,False,False
+2004,15,6,214,Beers,K Dorsey,QB,7169,2,0,False,False
+2004,15,16,224,Karpet Munchers,T Housmandah,WR,5116,31,31,True,True
+2005,1,10,10,Beers,"Smith, Alex",QB,7813,13,13,True,True
+2005,3,3,35,Beers,"Smith, Onterrio",RB,7033,0,0,False,False
+2005,3,10,42,Beers,"White, Dez",WR,5718,0,0,False,False
+2005,4,12,60,Beers,New York,Def,0505,14,5,True,False
+2005,5,3,67,Beers,"Curtis, Kevin",WR,7002,24,21,True,True
+2005,5,10,74,Beers,"Feeley, A.J.",QB,5065,2,0,False,False
+2005,6,10,90,Beers,"Haynes, Verron",RB,6674,0,0,False,False
+2005,7,10,106,Beers,"Parker, Samie",WR,7495,5,1,False,False
+2005,8,10,122,Beers,"Mitchell, Freddie",WR,4916,0,0,False,False
+2005,9,10,138,Beers,"Pollard, Marcus",TE,2895,6,1,False,False
+2005,10,10,154,Beers,"Mare, Olindo",K,3141,6,1,False,False
+2005,1,4,4,Blitzkrieg,"Benson, Cedric",RB,7816,28,28,True,True
+2005,2,4,20,Blitzkrieg,"Clayton, Mark",WR,7834,13,13,True,True
+2005,3,4,36,Blitzkrieg,"Campbell, Jason",QB,7837,1,0,False,False
+2005,4,4,52,Blitzkrieg,"Terrell, David",WR,4898,0,0,False,False
+2005,5,4,68,Blitzkrieg,"Johnson, Eric",TE,5137,4,0,False,False
+2005,6,4,84,Blitzkrieg,"Stover, Matt",K,1641,19,6,True,False
+2005,7,4,100,Blitzkrieg,"Patten, David",WR,3215,5,3,False,False
+2005,8,4,116,Blitzkrieg,Dallas,Def,0516,24,16,True,True
+2005,9,4,132,Blitzkrieg,"Roby, Courtney",WR,7880,0,0,False,False
+2005,10,4,148,Blitzkrieg,"Edinger, Paul",K,5822,11,11,True,True
+2005,11,4,164,Blitzkrieg,"Stevens, Jerramy",TE,6536,14,12,True,True
+2005,12,4,180,Blitzkrieg,New Orleans,Def,0529,5,0,False,False
+2005,1,7,7,Bunchalosers,"Williamson, Troy",WR,7819,17,17,True,True
+2005,2,7,23,Bunchalosers,"Givens, David",WR,6761,11,11,True,True
+2005,3,7,39,Bunchalosers,"McCareins, Justin",WR,5031,3,0,False,False
+2005,4,7,55,Bunchalosers,"Taylor, Chester",RB,6715,26,26,True,True
+2005,5,7,71,Bunchalosers,"Fargas, Justin",RB,7024,0,0,False,False
+2005,6,7,87,Bunchalosers,"Wells, Jonathan",RB,6607,1,0,False,False
+2005,7,7,103,Bunchalosers,"Stecker, Aaron",RB,5930,11,3,True,False
+2005,8,7,119,Bunchalosers,"Pinner, Artose",RB,7027,0,0,False,False
+2005,9,7,135,Bunchalosers,"Henson, Drew",QB,7120,0,0,False,False
+2005,10,7,151,Bunchalosers,"Mangum, Kris",TE,3102,11,10,True,True
+2005,11,7,167,Bunchalosers,"Becht, Anthony",TE,5676,2,2,False,False
+2005,1,2,2,Carter's Commandos,"Arrington, J.J.",RB,7856,8,6,False,False
+2005,2,2,18,Carter's Commandos,"Orton, Kyle",QB,7918,0,0,False,False
+2005,3,2,34,Carter's Commandos,"Price, Peerless",WR,3917,1,0,False,False
+2005,4,2,50,Carter's Commandos,"Galloway, Joey",WR,1795,34,34,True,True
+2005,5,2,66,Carter's Commandos,"Wiggins, Jermaine",TE,4801,9,7,False,False
+2005,6,2,82,Carter's Commandos,"Dilfer, Trent",QB,1183,1,0,False,False
+2005,7,2,98,Carter's Commandos,Cincinnati,Def,0506,24,13,True,True
+2005,8,2,114,Carter's Commandos,"Graham, Daniel",TE,6529,17,13,True,True
+2005,9,2,130,Carter's Commandos,"Hakim, Az-Zahir",WR,3370,6,0,False,False
+2005,1,15,15,Da Funk,"Pearman, Alvin",RB,7939,1,0,False,False
+2005,2,15,31,Da Funk,"Gore, Frank",RB,7877,21,21,True,True
+2005,3,15,47,Da Funk,"Lewis, Greg",WR,7279,9,6,False,False
+2005,4,15,63,Da Funk,"Blaylock, Derrick",RB,5059,1,0,False,False
+2005,5,15,79,Da Funk,"Wilkins, Jeff",K,1873,37,12,True,True
+2005,6,15,95,Da Funk,"Jolley, Doug",TE,6563,2,2,False,False
+2005,7,15,111,Da Funk,"Johnson, Teyo",TE,6991,0,0,False,False
+2005,8,15,127,Da Funk,"Frerotte, Gus",QB,1225,0,0,False,False
+2005,9,15,143,Da Funk,Jacksonville,Def,0509,30,8,True,False
+2005,10,15,159,Da Funk,"Couch, Tim ()",QB,3865,0,0,False,False
+2005,1,6,6,Dunbar Dogs,"Shelton, Eric",RB,7866,0,0,False,False
+2005,1,14,14,Dunbar Dogs,"White, Roddy",WR,7839,26,26,True,True
+2005,2,14,30,Dunbar Dogs,"Morency, Vernand",RB,7885,1,0,False,False
+2005,3,6,38,Dunbar Dogs,"Owens, Chad",WR,7997,0,0,False,False
+2005,3,14,46,Dunbar Dogs,"Nugent, Mike",K,7859,12,12,True,True
+2005,4,6,54,Dunbar Dogs,"Moats, Ryan",RB,7889,1,1,False,False
+2005,5,6,70,Dunbar Dogs,"Henry, Chris",WR,7895,19,10,True,True
+2005,6,6,86,Dunbar Dogs,Seattle,Def,0515,32,12,True,True
+2005,7,6,102,Dunbar Dogs,"Barber, Marion",RB,7921,15,0,True,False
+2005,2,6,22,F-Jackie,"Smith, L.J.",TE,6989,20,14,True,True
+2005,4,14,62,F-Jackie,"Parrish, Roscoe",WR,7867,6,5,False,False
+2005,5,14,78,F-Jackie,"Faulk, Kevin",RB,3910,4,0,False,False
+2005,6,14,94,F-Jackie,"Kaeding, Nate",K,7455,33,20,True,True
+2005,7,14,110,F-Jackie,Minnesota,Def,0524,11,0,True,False
+2005,8,14,126,F-Jackie,"Gage, Justin",WR,7071,0,0,False,False
+2005,9,14,142,F-Jackie,"Watts, Darius",WR,7444,0,0,False,False
+2005,10,14,158,F-Jackie,"Clark, Desmond",TE,4043,5,0,False,False
+2005,11,14,174,F-Jackie,"Brown, Kris",K,4092,13,0,True,False
+2005,12,14,190,F-Jackie,Denver,Def,0511,27,1,True,False
+2005,13,14,206,F-Jackie,"Bradford, Corey",WR,3413,1,1,False,False
+2005,14,14,222,F-Jackie,"Fisher, Tony",RB,6779,1,0,False,False
+2005,1,1,1,Ho Train,"Brown, Ronnie",RB,7814,19,19,True,True
+2005,2,1,17,Ho Train,"Branch, Deion",WR,6573,28,10,True,True
+2005,2,11,27,Ho Train,"Jenkins, Michael",WR,7419,22,0,True,False
+2005,3,11,43,Ho Train,"Bryant, Antonio",WR,6571,16,5,True,False
+2005,4,11,59,Ho Train,Philadelphia,Def,0518,33,9,True,False
+2005,5,11,75,Ho Train,"Perry, Chris",RB,7416,1,0,False,False
+2005,6,11,91,Ho Train,"Graham, Shayne",K,6475,28,7,True,False
+2005,7,11,107,Ho Train,Kansas City,Def,0512,14,4,True,False
+2005,8,11,123,Ho Train,"Jackson, Vincent",WR,7873,7,0,False,False
+2005,9,11,139,Ho Train,"Tynes, Lawrence",K,5168,16,6,True,False
+2005,10,11,155,Ho Train,"Schaub, Matt",QB,7480,4,0,False,False
+2005,1,8,8,Iron City Pounders,"Horn, Joe",WR,2745,18,9,True,False
+2005,2,8,24,Iron City Pounders,"Jones, Thomas",RB,5656,34,34,True,True
+2005,4,8,56,Iron City Pounders,"Thomas, Anthony",RB,4932,2,2,False,False
+2005,5,8,72,Iron City Pounders,Indianapolis,Def,0502,26,12,True,True
+2005,6,8,88,Iron City Pounders,"Brown, Josh",K,7150,23,11,True,True
+2005,7,8,104,Iron City Pounders,"Betts, Ladell",RB,6564,10,3,True,False
+2005,8,8,120,Iron City Pounders,"Putzier, Jeb",TE,6699,3,2,False,False
+2005,9,8,136,Iron City Pounders,"Rice, Jerry",WR,1566,0,0,False,False
+2005,10,8,152,Iron City Pounders,"Flutie, Doug",QB,3495,0,0,False,False
+2005,1,13,13,Karpet Munchers,"Crumpler, Alge",TE,4928,36,11,True,True
+2005,2,13,29,Karpet Munchers,"Brown, Reggie",WR,7847,29,0,True,False
+2005,3,13,45,Karpet Munchers,"Rodgers, Aaron",QB,7836,0,0,False,False
+2005,4,13,61,Karpet Munchers,Washington,Def,0520,14,5,True,False
+2005,5,13,77,Karpet Munchers,"Reed, Jeff",K,6887,22,12,True,True
+2005,6,13,93,Karpet Munchers,"Richardson, Tony",RB,1846,0,0,False,False
+2005,7,13,109,Karpet Munchers,"Holcomb, Kelly",QB,3250,1,1,False,False
+2005,8,13,125,Karpet Munchers,"Carney, John",K,1111,6,1,False,False
+2005,9,13,141,Karpet Munchers,"Engram, Bobby",WR,2673,11,0,True,False
+2005,10,13,157,Karpet Munchers,"Smith, Alex",TE,7883,6,2,False,False
+2005,11,13,173,Karpet Munchers,"Frye, Charlie",QB,7879,5,5,False,False
+2005,12,13,189,Karpet Munchers,"Finneran, Brian",WR,5522,3,3,False,False
+2005,1,12,12,Manic Moose,"Kennison, Eddie",WR,2648,18,18,True,True
+2005,2,12,28,Manic Moose,"Stokley, Brandon",WR,3969,13,11,True,True
+2005,3,12,44,Manic Moose,Buffalo,Def,0501,30,10,True,True
+2005,5,12,76,Manic Moose,"Longwell, Ryan",K,3143,19,7,True,False
+2005,6,12,92,Manic Moose,"Booker, Marty",WR,3942,18,8,True,False
+2005,7,12,108,Manic Moose,willie parker,RB,7647,34,34,True,True
+2005,9,5,133,Manic Moose,"Williams, Shaud",RB,5098,0,0,False,False
+2005,9,12,140,Manic Moose,"Johnson, Brad",QB,1349,8,8,False,False
+2005,10,5,149,Manic Moose,"Moore, Clarence",WR,7589,0,0,False,False
+2005,10,12,156,Manic Moose,"Rattay, Tim",QB,5861,1,1,False,False
+2005,11,12,172,Manic Moose,"Boston, David",WR,3872,0,0,False,False
+2005,12,12,188,Manic Moose,"Anderson, Courtney",TE,7635,10,1,True,False
+2005,13,12,204,Manic Moose,"Cundiff, Bill",K,6776,0,0,False,False
+2005,14,12,220,Manic Moose,"Pathon, Jerome",WR,3317,0,0,False,False
+2005,15,12,236,Manic Moose,"Canidate, Trung ()",RB,5680,0,0,False,False
+2005,1,11,11,OakalDoakals,"Plummer, Jake",QB,2943,17,9,True,False
+2005,3,1,33,OakalDoakals,"Lloyd, Brandon",WR,7052,10,10,True,True
+2005,4,1,49,OakalDoakals,"Jacobs, Brandon",RB,7922,18,2,True,False
+2005,5,1,65,OakalDoakals,"Elam, Jason",K,1197,37,13,True,True
+2005,6,1,81,OakalDoakals,"Franks, Bubba",TE,5663,12,8,True,False
+2005,7,1,97,OakalDoakals,Tampa Bay,Def,0525,25,10,True,True
+2005,8,1,113,OakalDoakals,Miami,Def,0503,11,3,True,False
+2005,9,1,129,OakalDoakals,"Brien, Doug",K,1076,0,0,False,False
+2005,10,1,145,OakalDoakals,"Chatman, Antonio",WR,7265,3,3,False,False
+2005,1,16,16,Otters,"Muhammad, Muhsin",WR,2665,32,11,True,True
+2005,2,16,32,Otters,"Anderson, Mike",RB,5838,12,12,True,True
+2005,3,8,40,Otters,"Taylor, Travis",WR,5659,5,3,False,False
+2005,3,16,48,Otters,"Gaffney, Jabar",WR,6541,5,0,False,False
+2005,4,10,58,Otters,Carolina,Def,0527,16,11,True,True
+2005,4,16,64,Otters,"Janikowski, Sebastian",K,5666,19,12,True,True
+2005,5,16,80,Otters,"Johnson, Bryant",WR,6945,4,0,False,False
+2005,6,16,96,Otters,"Hutchinson, Chad",QB,6499,0,0,False,False
+2005,7,16,112,Otters,"Troupe, Ben",TE,7430,11,11,True,True
+2005,8,16,128,Otters,"Crockett, Zack",RB,1779,0,0,False,False
+2005,9,16,144,Otters,"Battle, Arnaz",WR,7125,12,1,True,False
+2005,10,16,160,Otters,"Fleming, Troy",RB,7581,0,0,False,False
+2005,11,16,176,Otters,"Sproles, Darren",RB,7942,0,0,False,False
+2005,1,5,5,Scooter's Boozers,"Edwards, Braylon",WR,7815,30,30,True,True
+2005,2,5,21,Scooter's Boozers,"Jones, Matt",WR,7833,20,20,True,True
+2005,3,5,37,Scooter's Boozers,"Robinson, Marcus",WR,2995,10,9,True,False
+2005,4,5,53,Scooter's Boozers,New England,Def,0504,37,13,True,True
+2005,5,5,69,Scooter's Boozers,"Rhodes, Dominic",RB,5172,8,0,False,False
+2005,6,5,85,Scooter's Boozers,"Ramsey, Patrick",QB,6540,0,0,False,False
+2005,7,5,101,Scooter's Boozers,"Smith, Antowain",RB,2927,3,3,False,False
+2005,8,5,117,Scooter's Boozers,"Kasay, John",K,1383,33,24,True,True
+2005,8,12,124,Scooter's Boozers,"Bradley, Mark",WR,7851,1,1,False,False
+2005,11,5,165,Scooter's Boozers,"Campbell, Mark",TE,5552,1,1,False,False
+2005,12,5,181,Scooter's Boozers,"Turner, Michael",RB,7544,2,0,False,False
+2005,1,9,9,Tally Wackers,"Williams, Mike",WR,7822,17,12,True,True
+2005,2,9,25,Tally Wackers,"Fason, Ciatrick",RB,7924,2,2,False,False
+2005,2,10,26,Tally Wackers,"Pittman, Michael",RB,3369,7,4,False,False
+2005,3,9,41,Tally Wackers,"Clarett, Maurice",RB,7913,0,0,False,False
+2005,4,9,57,Tally Wackers,"Buckhalter, Correll",RB,5027,2,0,False,False
+2005,5,9,73,Tally Wackers,Atlanta,Def,0526,18,5,True,False
+2005,6,9,89,Tally Wackers,"Hanson, Jason",K,1275,20,1,True,False
+2005,7,9,105,Tally Wackers,"Gibson, Fred",WR,7943,0,0,False,False
+2005,8,9,121,Tally Wackers,Chicago,Def,0521,33,8,True,False
+2005,9,9,137,Tally Wackers,"Kinney, Erron",TE,5717,2,1,False,False
+2005,10,9,153,Tally Wackers,"Jones, Brandon",WR,7908,12,7,True,False
+2005,1,3,3,Texas Nashvillians,"Williams, Carnell",RB,7817,22,22,True,True
+2005,2,3,19,Texas Nashvillians,"Vinatieri, Adam",K,2842,21,4,True,False
+2005,4,3,51,Texas Nashvillians,Pittsburgh,Def,0510,35,11,True,True
+2005,6,3,83,Texas Nashvillians,"Cooley, Chris",TE,7471,26,4,True,False
+2005,7,3,99,Texas Nashvillians,"Miller, Heath",TE,7842,33,9,True,False
+2005,8,3,115,Texas Nashvillians,"Rackers, Neil",K,5818,30,17,True,True
+2005,9,3,131,Texas Nashvillians,San Diego,Def,0514,16,3,True,False
+2005,10,3,147,Texas Nashvillians,"Wright, Anthony",QB,4839,0,0,False,False
+2005,11,3,163,Texas Nashvillians,"Goings, Nick",RB,5176,1,1,False,False
+2005,12,3,179,Texas Nashvillians,"Thorpe, Craphonso",WR,7928,0,0,False,False
+2006,1,8,8,Beers,"Drew, Maurice",RB,,,,,
+2006,4,8,56,Beers,Baltimore,Def,0531,36,6,True,False
+2006,5,8,72,Beers,"Ferguson, Robert",WR,4935,1,1,False,False
+2006,6,8,88,Beers,"Peterson, Adrian",RB,6707,0,0,False,False
+2006,7,8,104,Beers,"Schaub, Matt",QB,7480,10,10,True,True
+2006,8,8,120,Beers,"Pinkston, Todd",WR,5685,0,0,False,False
+2006,9,8,136,Beers,"Vines, Scottie",WR,7770,0,0,False,False
+2006,10,8,152,Beers,"Welker, Wesley",WR,7653,31,0,True,False
+2006,11,8,168,Beers,"Walter, Andrew",QB,7881,1,1,False,False
+2006,1,9,9,Blitzkrieg,"Young, Vince",QB,8244,1,1,False,False
+2006,2,9,25,Blitzkrieg,"Witten, Jason",TE,6997,32,12,True,True
+2006,3,9,41,Blitzkrieg,"Toomer, Amani",WR,2656,8,6,False,False
+2006,4,9,57,Blitzkrieg,"Morris, Maurice",RB,6562,11,6,True,False
+2006,5,9,73,Blitzkrieg,Jerome Harrison,RB,8386,4,3,False,False
+2006,6,9,89,Blitzkrieg,"Kasay, John",K,1383,33,9,True,False
+2006,7,9,105,Blitzkrieg,Dallas,Def,0516,18,4,True,False
+2006,8,9,121,Blitzkrieg,"Engram, Bobby",WR,2673,9,3,False,False
+2006,9,9,137,Blitzkrieg,"Stover, Matt",K,1641,17,4,True,False
+2006,10,9,153,Blitzkrieg,"Kinney, Erron",TE,5717,1,1,False,False
+2006,11,9,169,Blitzkrieg,Minnesota,Def,0524,21,10,True,True
+2006,12,9,185,Blitzkrieg,"Jones, Brandon",WR,7908,7,0,False,False
+2006,1,5,5,Bunchalosers,"White, LenDale",RB,8286,19,3,True,False
+2006,1,16,16,Bunchalosers,"Moss, Sinorice",WR,8285,4,4,False,False
+2006,2,5,21,Bunchalosers,"Heap, Todd",TE,4924,31,19,True,True
+2006,3,5,37,Bunchalosers,"Volek, Billy",QB,5620,0,0,False,False
+2006,3,16,48,Bunchalosers,Indianapolis,Def,0502,21,12,True,True
+2006,4,16,64,Bunchalosers,"Croyle, Brodie",QB,8326,1,1,False,False
+2006,5,5,69,Bunchalosers,"Washington, Leon",RB,8358,9,5,False,False
+2006,6,5,85,Bunchalosers,"Cundiff, Bill",K,6776,0,0,False,False
+2006,7,5,101,Bunchalosers,"Blaylock, Derrick",RB,5059,1,1,False,False
+2006,8,5,117,Bunchalosers,"Wiggins, Jermaine",TE,4801,2,2,False,False
+2006,9,5,133,Bunchalosers,Denver,Def,0511,28,9,True,False
+2006,10,5,149,Bunchalosers,"Perry, Tab",WR,8002,1,1,False,False
+2006,2,10,26,Carter's Commandos,"Bryant, Antonio",WR,6571,18,11,True,True
+2006,3,10,42,Carter's Commandos,"Reed, Jeff",K,6887,23,3,True,False
+2006,4,1,49,Carter's Commandos,"Pittman, Michael",RB,3369,11,1,True,False
+2006,4,10,58,Carter's Commandos,"Clark, Dallas",TE,6952,32,11,True,True
+2006,5,10,74,Carter's Commandos,"Gabriel, Doug",WR,7095,3,3,False,False
+2006,6,10,90,Carter's Commandos,Seattle,Def,0515,23,13,True,True
+2006,7,10,106,Carter's Commandos,"Fargas, Justin",RB,7024,1,0,False,False
+2006,8,10,122,Carter's Commandos,"Whitehurst, Charlie",QB,8322,0,0,False,False
+2006,9,10,138,Carter's Commandos,Miami,Def,0503,16,7,True,False
+2006,10,10,154,Carter's Commandos,"Graham, Daniel",TE,6529,12,12,True,True
+2006,11,10,170,Carter's Commandos,Bruce Gradkowski,QB,8435,0,0,False,False
+2006,12,10,186,Carter's Commandos,"Faulk, Kevin",RB,3910,6,1,False,False
+2006,1,6,6,Da Funk,"Leinart, Matt",QB,8251,9,9,False,False
+2006,2,6,22,Da Funk,"Crumpler, Alge",TE,4928,25,12,True,True
+2006,2,8,24,Da Funk,"Norwood, Jerious",RB,8320,1,1,False,False
+2006,3,6,38,Da Funk,"Jackson, Vincent",WR,7873,19,0,True,False
+2006,4,6,54,Da Funk,Tampa Bay,Def,0525,27,7,True,False
+2006,5,6,70,Da Funk,"Morency, Vernand",RB,7885,1,1,False,False
+2006,6,6,86,Da Funk,"Elam, Jason",K,1197,34,11,True,True
+2006,7,6,102,Da Funk,"Jackson, Tarvaris",QB,8305,3,0,False,False
+2006,8,6,118,Da Funk,"Hilton, Zachary",TE,7316,1,0,False,False
+2006,9,6,134,Da Funk,"Wilson, Travis",WR,8319,0,0,False,False
+2006,1,2,2,Dunbar Dogs,"Addai, Joseph",RB,8271,34,24,True,True
+2006,1,11,11,Dunbar Dogs,"Holmes, Santonio",WR,8266,29,29,True,True
+2006,5,2,66,Dunbar Dogs,"Clemens, Kellen",QB,8290,0,0,False,False
+2006,6,2,82,Dunbar Dogs,"Boston, David",WR,3872,0,0,False,False
+2006,7,2,98,Dunbar Dogs,"Williams, Demetrius",WR,8352,4,4,False,False
+2006,8,2,114,Dunbar Dogs,Ben Obomanu,WR,8490,0,0,False,False
+2006,9,2,130,Dunbar Dogs,"Lindell, Rian",K,5919,19,7,True,False
+2006,10,2,146,Dunbar Dogs,Detroit,Def,0522,13,8,True,False
+2006,11,2,162,Dunbar Dogs,"Scheffler, Tony",TE,8302,16,0,True,False
+2006,1,3,3,F-Jackie,"Maroney, Laurence",RB,8262,17,17,True,True
+2006,3,3,35,F-Jackie,"Robinson, Koren",WR,4900,1,0,False,False
+2006,4,3,51,F-Jackie,"Turner, Michael",RB,7544,14,2,True,False
+2006,5,3,67,F-Jackie,"Rodgers, Aaron",QB,7836,8,0,False,False
+2006,6,3,83,F-Jackie,"Baskett, Hank",WR,8499,4,0,False,False
+2006,7,3,99,F-Jackie,"Kaeding, Nate",K,7455,33,8,True,False
+2006,8,3,115,F-Jackie,"Bradford, Corey",WR,3413,1,1,False,False
+2006,9,3,131,F-Jackie,"Fisher, Tony",RB,6779,0,0,False,False
+2006,1,12,12,Ho Train,"Davis, Vernon",TE,8247,27,14,True,True
+2006,2,12,28,Ho Train,"Cooley, Chris",TE,7471,30,10,True,True
+2006,3,12,44,Ho Train,"McCardell, Keenan",WR,1455,3,3,False,False
+2006,4,12,60,Ho Train,"Betts, Ladell",RB,6564,10,10,True,True
+2006,5,12,76,Ho Train,"Davenport, Najeh",RB,6643,4,0,False,False
+2006,6,12,92,Ho Train,Washington,Def,0520,16,1,True,False
+2006,7,12,108,Ho Train,New England,Def,0504,30,24,True,True
+2006,8,12,124,Ho Train,"Mare, Olindo",K,3141,4,2,False,False
+2006,9,12,140,Ho Train,"Robinson, Marcus",WR,2995,1,1,False,False
+2006,10,12,156,Ho Train,"Campbell, Jason",QB,7837,2,2,False,False
+2006,11,12,172,Ho Train,"Longwell, Ryan",K,3143,20,11,True,True
+2006,12,12,188,Ho Train,"Gardner, Rod",WR,4906,0,0,False,False
+2006,1,7,7,Iron City Pounders,"Dillon, Corey",RB,2944,11,11,True,True
+2006,2,7,23,Iron City Pounders,"Favre, Brett",QB,1214,27,27,True,True
+2006,3,7,39,Iron City Pounders,"Muhammad, Muhsin",WR,2665,32,21,True,True
+2006,4,7,55,Iron City Pounders,"Akers, David",K,3579,30,25,True,True
+2006,5,7,71,Iron City Pounders,"Minor, Travis",RB,4988,0,0,False,False
+2006,6,7,87,Iron City Pounders,"McCareins, Justin",WR,5031,3,3,False,False
+2006,7,7,103,Iron City Pounders,"Smith, Antowain",RB,2927,0,0,False,False
+2006,8,7,119,Iron City Pounders,Cincinnati,Def,0506,11,9,True,False
+2006,9,7,135,Iron City Pounders,"Thomas, Anthony",RB,4932,2,2,False,False
+2006,10,7,151,Iron City Pounders,"Griese, Brian",QB,3366,3,0,False,False
+2006,11,7,167,Iron City Pounders,"Pollard, Marcus",TE,2895,2,0,False,False
+2006,12,7,183,Iron City Pounders,"Ramsey, Patrick",QB,6540,0,0,False,False
+2006,13,7,199,Iron City Pounders,"Faulk, Marshall",RB,1213,0,0,False,False
+2006,1,14,14,Karpet Munchers,"Carr, David",QB,6509,5,3,False,False
+2006,2,14,30,Karpet Munchers,"Jacobs, Brandon",RB,7922,26,26,True,True
+2006,3,14,46,Karpet Munchers,"Tynes, Lawrence",K,5168,10,9,True,False
+2006,4,14,62,Karpet Munchers,"Haynes, Verron",RB,6674,0,0,False,False
+2006,5,14,78,Karpet Munchers,"Parker, Eric",WR,6854,4,4,False,False
+2006,6,14,94,Karpet Munchers,Buffalo,Def,0501,32,7,True,False
+2006,7,14,110,Karpet Munchers,"Garrard, David",QB,6616,1,1,False,False
+2006,8,14,126,Karpet Munchers,"Klopfenstein, Joe",TE,8287,10,10,True,True
+2006,9,14,142,Karpet Munchers,"Calico, Tyrone",WR,6988,0,0,False,False
+2006,10,14,158,Karpet Munchers,"Hanson, Jason",K,1275,23,4,True,False
+2006,11,14,174,Karpet Munchers,"Mangum, Kris",TE,3102,1,1,False,False
+2006,12,14,190,Karpet Munchers,Kansas City,Def,0512,10,6,True,False
+2006,13,14,206,Karpet Munchers,Mike McMahnon,QB,,,,,
+2006,1,13,13,Manic Moose,"Jackson, Chad",WR,8277,0,0,False,False
+2006,3,13,45,Manic Moose,"Booker, Marty",WR,3942,15,3,True,False
+2006,4,13,61,Manic Moose,"Brown, Josh",K,7150,23,5,True,False
+2006,5,13,77,Manic Moose,"Caldwell, Reche",WR,6556,2,2,False,False
+2006,6,13,93,Manic Moose,"Johnson, Bryant",WR,6945,4,2,False,False
+2006,7,13,109,Manic Moose,"Holmes, Priest",RB,3207,1,0,False,False
+2006,8,13,125,Manic Moose,Arizona,Def,0519,13,4,True,False
+2006,9,13,141,Manic Moose,"Edinger, Paul ()",K,5822,0,0,False,False
+2006,10,13,157,Manic Moose,"Franks, Bubba",TE,5663,4,1,False,False
+2006,11,13,173,Manic Moose,"Alstott, Mike",RB,2657,0,0,False,False
+2006,12,13,189,Manic Moose,"Finneran, Brian",WR,5522,0,0,False,False
+2006,13,13,205,Manic Moose,Green Bay,Def,0523,24,12,True,True
+2006,1,15,15,OakalDoakals,"Bell, Mike",RB,8498,11,11,True,True
+2006,2,13,29,OakalDoakals,"Rackers, Neil",K,5818,28,13,True,True
+2006,2,15,31,OakalDoakals,Carolina,Def,0527,15,4,True,False
+2006,3,15,47,OakalDoakals,"Lewis, Marcedes",TE,8269,8,4,False,False
+2006,4,15,63,OakalDoakals,Jacksonville,Def,0509,33,9,True,False
+2006,5,15,79,OakalDoakals,"Losman, J.P.",QB,7412,16,16,True,True
+2006,6,15,95,OakalDoakals,"Battle, Arnaz",WR,7125,15,0,True,False
+2006,7,15,111,OakalDoakals,Marcus Vick,QB,4891,3,0,False,False
+2006,8,15,127,OakalDoakals,"Robinson, Michael",WR,2995,1,0,False,False
+2006,9,15,143,OakalDoakals,"Humes, Cedric",RB,8481,0,0,False,False
+2006,2,2,18,Otters,"Horn, Joe",WR,2745,9,9,False,False
+2006,2,11,27,Otters,"Barlow, Kevan",RB,4982,5,5,False,False
+2006,3,2,34,Otters,"Perry, Chris",RB,7416,8,1,False,False
+2006,3,11,43,Otters,"Troupe, Ben",TE,7430,2,2,False,False
+2006,4,2,50,Otters,"Kitna, Jon",QB,3196,15,1,True,False
+2006,4,11,59,Otters,"Stokley, Brandon",WR,3969,3,1,False,False
+2006,5,11,75,Otters,"Bennett, Michael",RB,4920,2,0,False,False
+2006,6,11,91,Otters,"Reed, Josh",WR,6544,4,0,False,False
+2006,7,11,107,Otters,"Holcomb, Kelly",QB,3250,0,0,False,False
+2006,8,11,123,Otters,"Smith, Alex",TE,7883,4,2,False,False
+2006,9,11,139,Otters,"Janikowski, Sebastian",K,5666,11,2,True,False
+2006,10,11,155,Otters,Philadelphia,Def,0518,25,12,True,True
+2006,1,1,1,Scooter's Boozers,"Bush, Reggie",RB,8243,31,31,True,True
+2006,1,10,10,Scooter's Boozers,"Cutler, Jay",QB,8252,24,24,True,True
+2006,2,1,17,Scooter's Boozers,"Arrington, J.J.",RB,7856,2,2,False,False
+2006,3,1,33,Scooter's Boozers,"Calhoun, Brian",RB,8315,0,0,False,False
+2006,5,1,65,Scooter's Boozers,"Wilson, Cedrick",WR,5079,2,2,False,False
+2006,6,1,81,Scooter's Boozers,"Wilkins, Jeff",K,1873,25,13,True,True
+2006,7,1,97,Scooter's Boozers,Atlanta,Def,0526,15,13,True,True
+2006,8,1,113,Scooter's Boozers,"Price, Peerless",WR,3917,1,1,False,False
+2006,9,1,129,Scooter's Boozers,"Putzier, Jeb",TE,6699,1,1,False,False
+2006,10,1,145,Scooter's Boozers,"Taylor, Travis",WR,5659,2,2,False,False
+2006,11,1,161,Scooter's Boozers,"Nugent, Mike",K,7859,0,0,False,False
+2006,1,4,4,Tally Wackers,"Williams, DeAngelo",RB,8268,17,17,True,True
+2006,2,4,20,Tally Wackers,"Branch, Deion",WR,6573,21,21,True,True
+2006,2,16,32,Tally Wackers,"Pope, Leonard",TE,8313,22,13,True,True
+2006,3,4,36,Tally Wackers,"Vanderjagt, Mike",K,3561,11,11,True,True
+2006,4,4,52,Tally Wackers,New York,Def,0517,23,17,True,True
+2006,5,4,68,Tally Wackers,"Suggs, Lee",RB,7043,0,0,False,False
+2006,6,4,84,Tally Wackers,"Jennings, Greg",WR,8293,30,30,True,True
+2006,7,4,100,Tally Wackers,"Avant, Jason",WR,8350,5,1,False,False
+2006,8,4,116,Tally Wackers,"Stovall, Maurice",WR,8331,1,0,False,False
+2006,2,3,19,Texas Nashvillians,Chicago,Def,0521,37,25,True,True
+2006,3,8,40,Texas Nashvillians,"Graham, Shayne",K,6475,24,10,True,True
+2006,4,5,53,Texas Nashvillians,"Stevens, Jerramy",TE,6536,3,2,False,False
+2006,5,16,80,Texas Nashvillians,"Parker, Samie",WR,7495,4,0,False,False
+2006,6,16,96,Texas Nashvillians,"Sellers, Mike",RB,3557,2,2,False,False
+2006,7,16,112,Texas Nashvillians,"Hagan, Derek",WR,8323,2,1,False,False
+2006,8,16,128,Texas Nashvillians,"Bloom, Jeremy",WR,8388,0,0,False,False
+2006,9,16,144,Texas Nashvillians,"Blackmon, Will",WR,,,,,
+2006,10,16,160,Texas Nashvillians,"Crayton, Patrick",WR,7606,9,3,False,False
+2006,11,16,176,Texas Nashvillians,"Mills, Garrett",TE,8347,0,0,False,False
+2006,12,16,192,Texas Nashvillians,"Johnson, Kyle",RB,6905,0,0,False,False
+2006,13,16,208,Texas Nashvillians,San Diego,Def,0514,27,14,True,True
+2006,14,16,224,Texas Nashvillians,Josh Scobee,K,7527,15,3,True,False
+2007,1,3,3,Beers,"Peterson, Adrian",RB,8658,32,32,True,True
+2007,2,3,19,Beers,"Cotchery, Jerricho",WR,7498,25,25,True,True
+2007,2,13,29,Beers,"Mason, Derrick",WR,2986,27,3,True,False
+2007,3,3,35,Beers,"Rice, Sidney",WR,8679,16,1,True,False
+2007,3,14,46,Beers,"Kennison, Eddie",WR,2648,0,0,False,False
+2007,4,3,51,Beers,Miami,Def,0503,16,2,True,False
+2007,5,3,67,Beers,Dallas,Def,0516,24,14,True,True
+2007,6,3,83,Beers,"Crayton, Patrick",WR,7606,18,2,True,False
+2007,7,3,99,Beers,"Nedney, Joe",K,2840,11,0,True,False
+2007,8,3,115,Beers,"Henry, Chris",WR,7895,14,4,True,False
+2007,1,7,7,Blitzkrieg,"Henry, Chris",RB,8763,2,2,False,False
+2007,2,7,23,Blitzkrieg,"Henderson, Devery",WR,7440,18,0,True,False
+2007,3,7,39,Blitzkrieg,"Curry, Ronald",WR,6743,13,13,True,True
+2007,4,7,55,Blitzkrieg,Pittsburgh,Def,0510,36,12,True,True
+2007,5,7,71,Blitzkrieg,"Gostkowski, Stephen",K,8359,35,25,True,True
+2007,6,7,87,Blitzkrieg,"Booker, Lorenzo",RB,8723,0,0,False,False
+2007,7,7,103,Blitzkrieg,"Williams, Reggie",WR,7399,14,14,True,True
+2007,8,7,119,Blitzkrieg,"Miller, Zach",TE,8683,9,3,False,False
+2007,9,7,135,Blitzkrieg,"Scobee, Josh",K,7527,15,1,True,False
+2007,10,7,151,Blitzkrieg,Minnesota,Def,0524,25,1,True,False
+2007,11,7,167,Blitzkrieg,"Stokley, Brandon",WR,3969,3,1,False,False
+2007,1,6,6,Bunchalosers,"Jackson, Brandon",RB,8767,4,4,False,False
+2007,2,6,22,Bunchalosers,"Jones, Brandon",WR,7908,7,5,False,False
+2007,3,6,38,Bunchalosers,"Shockley, D.J.",QB,8464,0,0,False,False
+2007,4,6,54,Bunchalosers,"Carter, Drew",WR,7553,6,6,False,False
+2007,5,6,70,Bunchalosers,"Brown, Josh",K,7150,18,7,True,False
+2007,6,6,86,Bunchalosers,Indianapolis,Def,0502,26,6,True,False
+2007,7,6,102,Bunchalosers,"Reed, Jeff",K,6887,31,6,True,False
+2007,8,6,118,Bunchalosers,Seattle,Def,0515,13,7,True,False
+2007,1,10,10,Carter's Commandos,"Bush, Michael",RB,8685,1,1,False,False
+2007,2,10,26,Carter's Commandos,"Delhomme, Jake",QB,3532,12,12,True,True
+2007,3,10,42,Carter's Commandos,"Bennett, Drew",WR,5175,4,4,False,False
+2007,4,10,58,Carter's Commandos,Jacksonville,Def,0509,31,25,True,True
+2007,5,10,74,Carter's Commandos,"Gould, Robbie",K,8153,31,11,True,True
+2007,6,10,90,Carter's Commandos,"Randle El, Antwaan",WR,6570,14,9,True,False
+2007,7,10,106,Carter's Commandos,"Troupe, Ben",TE,7430,0,0,False,False
+2007,8,10,122,Carter's Commandos,"Parker, Samie",WR,7495,4,4,False,False
+2007,9,10,138,Carter's Commandos,"Houston, Cedric",RB,7994,0,0,False,False
+2007,10,10,154,Carter's Commandos,"Baskett, Hank",WR,8499,1,0,False,False
+2007,11,10,170,Carter's Commandos,"Janikowski, Sebastian",K,5666,16,2,True,False
+2007,1,13,13,Da Funk,"Russell, JaMarcus",QB,8656,7,7,False,False
+2007,1,15,15,Da Funk,"Cooley, Chris",TE,7471,28,20,True,True
+2007,3,13,45,Da Funk,San Diego,Def,0514,29,13,True,True
+2007,4,13,61,Da Funk,"Jones, James",WR,8776,7,5,False,False
+2007,5,13,77,Da Funk,"Darby, Kenneth",RB,8913,0,0,False,False
+2007,6,13,93,Da Funk,"Hanson, Jason",K,1275,22,13,True,True
+2007,7,13,109,Da Funk,"Jackson, Chad",WR,8277,0,0,False,False
+2007,8,13,125,Da Funk,"Beck, John",QB,8760,0,0,False,False
+2007,9,13,141,Da Funk,"Pittman, Antonio",RB,8711,3,0,False,False
+2007,10,13,157,Da Funk,"Clayton, Michael",WR,7405,4,0,False,False
+2007,1,2,2,Dunbar Dogs,"Johnson, Calvin",WR,8657,32,32,True,True
+2007,3,2,34,Dunbar Dogs,"Leonard, Brian",RB,8709,0,0,False,False
+2007,4,2,50,Dunbar Dogs,"Hester, Devin",WR,,,,,
+2007,5,2,66,Dunbar Dogs,"Hill, Jason",WR,8775,0,0,False,False
+2007,6,2,82,Dunbar Dogs,"Figurs, Yamon",WR,8773,0,0,False,False
+2007,7,2,98,Dunbar Dogs,"Jones, Jacoby",WR,8772,8,3,False,False
+2007,8,2,114,Dunbar Dogs,"Stover, Matt",K,1641,20,13,True,True
+2007,9,2,130,Dunbar Dogs,Buffalo,Def,0501,27,26,True,True
+2007,2,8,24,F-Jackie,"Hackett, D.J.",WR,7547,7,7,False,False
+2007,3,8,40,F-Jackie,"Hunt, Tony",RB,8704,0,0,False,False
+2007,4,8,56,F-Jackie,"Anderson, Mike",RB,5838,0,0,False,False
+2007,5,8,72,F-Jackie,Carolina,Def,0527,14,0,True,False
+2007,6,8,88,F-Jackie,"Wade, Bobby",WR,7067,9,4,False,False
+2007,7,8,104,F-Jackie,"Price, Peerless",WR,3917,0,0,False,False
+2007,8,8,120,F-Jackie,"Pollard, Marcus",TE,2895,2,2,False,False
+2007,9,8,136,F-Jackie,"Feely, Jay",K,4883,4,2,False,False
+2007,10,8,152,F-Jackie,o'niel,RB,,,,,
+2007,11,8,168,F-Jackie,"Hicks, Maurice",RB,7738,0,0,False,False
+2007,12,8,184,F-Jackie,"Feeley, A.J.",QB,5065,2,2,False,False
+2007,13,8,200,F-Jackie,"Suisham, Shaun",K,8160,10,5,True,False
+2007,14,8,216,F-Jackie,Cincinnati,Def,0506,8,2,False,False
+2007,15,8,232,F-Jackie,"Watson, Kenny",RB,6786,5,5,False,False
+2007,1,16,16,Ho Train,"Quinn, Brady",QB,8659,2,2,False,False
+2007,2,1,17,Ho Train,"Kitna, Jon",QB,3196,12,12,True,True
+2007,2,16,32,Ho Train,"Meachem, Robert",WR,8680,10,3,True,False
+2007,3,16,48,Ho Train,New England,Def,0504,24,12,True,True
+2007,4,16,64,Ho Train,"Wilkins, Jeff",K,1873,12,12,True,True
+2007,5,16,80,Ho Train,"Johnson, Eric",TE,5137,2,2,False,False
+2007,6,16,96,Ho Train,"Faulk, Kevin",RB,3910,11,3,True,False
+2007,7,16,112,Ho Train,"Williams, Mike",WR,7822,5,5,False,False
+2007,8,16,128,Ho Train,"Smith, Musa",RB,7005,1,1,False,False
+2007,9,16,144,Ho Train,"Pittman, Michael",RB,3369,10,1,True,False
+2007,10,16,160,Ho Train,"Parker, Eric",WR,6854,0,0,False,False
+2007,11,16,176,Ho Train,Oakland,Def,0513,1,1,False,False
+2007,1,5,5,Iron City Pounders,"Green, Ahman",RB,3353,5,5,False,False
+2007,2,5,21,Iron City Pounders,"Jackson, Tarvaris",QB,8305,3,3,False,False
+2007,3,5,37,Iron City Pounders,"Buckhalter, Correll",RB,5027,5,2,False,False
+2007,4,5,53,Iron City Pounders,"Bennett, Michael",RB,4920,2,0,False,False
+2007,5,5,69,Iron City Pounders,Philadelphia,Def,0518,26,12,True,True
+2007,6,5,85,Iron City Pounders,"Rodgers, Aaron",QB,7836,17,17,True,True
+2007,7,5,101,Iron City Pounders,"Clark, Desmond",TE,4043,4,0,False,False
+2007,8,5,117,Iron City Pounders,"Toomer, Amani",WR,2656,2,1,False,False
+2007,1,8,8,Karpet Munchers,"Jarrett, Dwayne",WR,8671,1,0,False,False
+2007,1,9,9,Karpet Munchers,"Gonzalez, Anthony",WR,8700,17,17,True,True
+2007,2,9,25,Karpet Munchers,Baltimore,Def,0531,35,12,True,True
+2007,3,9,41,Karpet Munchers,"Dayne, Ron",RB,5660,3,3,False,False
+2007,4,9,57,Karpet Munchers,"Davenport, Najeh",RB,6643,4,4,False,False
+2007,5,9,73,Karpet Munchers,"Mare, Olindo",K,3141,11,2,True,False
+2007,6,9,89,Karpet Munchers,"Carr, David",QB,6509,0,0,False,False
+2007,7,9,105,Karpet Munchers,"Morris, Maurice",RB,6562,5,4,False,False
+2007,8,9,121,Karpet Munchers,"Avant, Jason",WR,8350,6,4,False,False
+2007,9,9,137,Karpet Munchers,"Holmes, Priest",RB,3207,1,0,False,False
+2007,2,15,31,Manic Moose,"Bruce, Isaac",WR,1095,13,2,True,False
+2007,3,15,47,Manic Moose,"Welker, Wesley",WR,7653,33,33,True,True
+2007,4,15,63,Manic Moose,"Kaeding, Nate",K,7455,37,25,True,True
+2007,5,15,79,Manic Moose,Green Bay,Def,0523,36,12,True,True
+2007,6,15,95,Manic Moose,"Bryant, Antonio ()",WR,6571,12,7,True,False
+2007,7,15,111,Manic Moose,"Peterson, Adrian",RB,6707,0,0,False,False
+2007,8,15,127,Manic Moose,"Johnson, Bryant",WR,6945,4,0,False,False
+2007,9,15,143,Manic Moose,"Engram, Bobby",WR,2673,6,6,False,False
+2007,10,15,159,Manic Moose,"Wallace, Seneca",QB,7038,0,0,False,False
+2007,11,15,175,Manic Moose,"McCown, Josh",QB,6589,0,0,False,False
+2007,12,15,191,Manic Moose,"McDonald, Shaun",WR,7034,10,0,True,False
+2007,13,15,207,Manic Moose,"Parrish, Roscoe",WR,7867,3,0,False,False
+2007,14,15,223,Manic Moose,"Barlow, Kevan",RB,4982,0,0,False,False
+2007,15,15,239,Manic Moose,"Vick, Michael",QB,4891,0,0,False,False
+2007,1,1,1,OakalDoakals,"Henry, Travis",RB,4954,10,10,True,True
+2007,3,1,33,OakalDoakals,"Scheffler, Tony",TE,8302,21,11,True,True
+2007,4,1,49,OakalDoakals,"Booker, Marty",WR,3942,12,10,True,True
+2007,5,1,65,OakalDoakals,"Graham, Shayne",K,6475,16,1,True,False
+2007,6,1,81,OakalDoakals,San Francisco,Def,0530,18,16,True,True
+2007,7,1,97,OakalDoakals,"Smith, Troy",QB,8708,0,0,False,False
+2007,8,1,113,OakalDoakals,"Sapp, Cecil",RB,7191,0,0,False,False
+2007,9,1,129,OakalDoakals,"Hairston, Justise",RB,8878,0,0,False,False
+2007,10,1,145,OakalDoakals,"Lewis, Marcedes",TE,8269,14,10,True,True
+2007,1,12,12,Otters,"Turner, Michael",RB,7544,22,22,True,True
+2007,2,12,28,Otters,"Washington, Leon",RB,8358,9,2,False,False
+2007,3,12,44,Otters,"Stovall, Maurice",WR,8331,2,0,False,False
+2007,4,12,60,Otters,"Furrey, Mike",WR,7289,2,2,False,False
+2007,5,12,76,Otters,"Smith, Steve",WR,8702,11,0,True,False
+2007,6,12,92,Otters,"McMichael, Randy",TE,6622,5,5,False,False
+2007,7,12,108,Otters,"Dorsey, DeDe",RB,8540,0,0,False,False
+2007,8,12,124,Otters,"Smith, Kolby",RB,8827,4,3,False,False
+2007,9,12,140,Otters,"Snelling, Jason",RB,8911,4,0,False,False
+2007,10,12,156,Otters,New Orleans,Def,0529,17,1,True,False
+2007,11,12,172,Otters,"Lindell, Rian",K,5919,11,2,True,False
+2007,1,4,4,Scooter's Boozers,"Lynch, Marshawn",RB,8670,29,20,True,True
+2007,2,4,20,Scooter's Boozers,"Ginn Jr., Ted",WR,8673,17,10,True,True
+2007,4,4,52,Scooter's Boozers,"Smith, Rod",WR,1844,1,1,False,False
+2007,5,4,68,Scooter's Boozers,New York,Def,0505,29,8,True,False
+2007,6,4,84,Scooter's Boozers,"Burleson, Nate",WR,6999,14,11,True,True
+2007,7,4,100,Scooter's Boozers,"Clark, Dallas",TE,6952,33,0,True,False
+2007,8,4,116,Scooter's Boozers,"Irons, Kenny",RB,8688,0,0,False,False
+2007,9,4,132,Scooter's Boozers,"Daniels, Owen",TE,8339,26,1,True,False
+2007,10,4,148,Scooter's Boozers,"Kasay, John",K,1383,31,11,True,True
+2007,1,11,11,Tally Wackers,"Bowe, Dwayne",WR,8667,28,28,True,True
+2007,1,14,14,Tally Wackers,"Davis, Craig",WR,8695,6,6,False,False
+2007,2,11,27,Tally Wackers,"Witten, Jason",TE,6997,31,9,True,False
+2007,3,11,43,Tally Wackers,"Olsen, Greg",TE,8687,15,4,True,False
+2007,4,11,59,Tally Wackers,Gary Russell,RB,8926,5,1,False,False
+2007,5,11,75,Tally Wackers,Denver,Def,0511,29,13,True,True
+2007,6,11,91,Tally Wackers,"Wright, Dwayne",RB,8794,0,0,False,False
+2007,7,11,107,Tally Wackers,"Stanton, Drew",QB,8712,1,1,False,False
+2007,8,11,123,Tally Wackers,"Elam, Jason",K,1197,28,13,True,True
+2007,9,11,139,Tally Wackers,"Morris, Sammy",RB,5805,4,2,False,False
+2007,10,11,155,Tally Wackers,"Walker, Mike",WR,8777,12,12,True,True
+2007,11,11,171,Tally Wackers,"Hall, Roy",WR,8844,0,0,False,False
+2007,2,2,18,Texas Nashvillians,Chicago,Def,0521,37,13,True,True
+2007,2,14,30,Texas Nashvillians,"Wilford, Ernest",WR,7510,2,1,False,False
+2007,3,4,36,Texas Nashvillians,"Northcutt, Dennis",WR,5681,6,6,False,False
+2007,4,14,62,Texas Nashvillians,"Wolfe, Garrett",RB,8782,2,2,False,False
+2007,5,14,78,Texas Nashvillians,"Smith, L.J.",TE,6989,16,0,True,False
+2007,6,14,94,Texas Nashvillians,"Rackers, Neil",K,5818,20,9,True,False
+2007,7,14,110,Texas Nashvillians,"Givens, David",WR,6761,0,0,False,False
+2007,8,14,126,Texas Nashvillians,"Walter, Kevin",WR,7183,29,29,True,True
+2007,9,14,142,Texas Nashvillians,"Chatman, Jesse",RB,6780,6,6,False,False
+2007,10,14,158,Texas Nashvillians,"Moulds, Eric",WR,2650,0,0,False,False
+2007,11,14,174,Texas Nashvillians,"Williams, Roydell",WR,7948,8,8,False,False
+2007,12,14,190,Texas Nashvillians,"Washington, Nate",WR,8117,8,2,False,False
+2007,13,14,206,Texas Nashvillians,Ruvell Martin,WR,8517,0,0,False,False
+2007,14,14,222,Texas Nashvillians,"Wilson, Cedrick",WR,5079,0,0,False,False

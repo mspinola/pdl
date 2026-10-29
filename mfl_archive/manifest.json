@@ -1,6 +1,6 @@
 {
  "league": "PDL",
- "captured": "2026-10-29T22:08:52+00:00",
+ "captured": "2026-10-29T22:45:34+00:00",
  "source": "MyFantasyLeague export API",
  "note": "Responses stored verbatim. Everything derived is rebuilt from these files. Not available without a commissioner login, and therefore absent: message board, calendar, polls.",
  "seasons": {
@@ -4709,6 +4709,10 @@
     "bytes": 36476,
     "sha256": "84fdc16c86af8ae8e1cbbebbdb33faf6d1ab020e7d8bbb42546774cdbaf84241"
    },
+   "pdl2005_setup_draft_team.html": {
+    "bytes": 46898,
+    "sha256": "575249fc8a10d51565319ec1ab2fe139acc56f04ffafb2a38203928de43e47a3"
+   },
    "pdl2005_trans.html": {
     "bytes": 39925,
     "sha256": "e5f1db1a55200bf57d129046eb326b96b39c8e388d41ae9d18297b854e679853"
@@ -4717,9 +4721,17 @@
     "bytes": 194371,
     "sha256": "3a445e47f3cf3a7a5b0d439baac6e6ef347522c30558dd9be9727b558b48db67"
    },
+   "pdl2006_setup_draft_team.html": {
+    "bytes": 36238,
+    "sha256": "9fb3baf364f91a854f284e07274975ff8d4e1532aad76cf265687c4f61c7b850"
+   },
    "pdl2006_trans.html": {
     "bytes": 42477,
     "sha256": "d8d66775f1e951200e5f534b8ed7a0fb03a1d5fcf9d7658dcf0b0aa5e2057573"
+   },
+   "pdl2007_setup_draft_team.html": {
+    "bytes": 46951,
+    "sha256": "65861275a1447e6721b68e26e6f9cd840e7f6b46df6a787b51da180371ec8595"
    },
    "pdl2007_trans.html": {
     "bytes": 40201,
@@ -4769,6 +4781,6 @@
    }
   }
  },
- "total_bytes": 28985417,
- "total_files": 1154
+ "total_bytes": 29115504,
+ "total_files": 1157
 }
