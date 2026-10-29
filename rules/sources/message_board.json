@@ -1,8 +1,11 @@
 {
  "source": "MyFantasyLeague message board",
- "note": "Read as a guest; the boards for the league's current MFL id need no sign-in. Each entry is a paraphrase, cited by date and topic title, never by poster. The raw pages are kept outside this repository (private/, git-ignored) because posts can carry personal names.",
+ "note": "Read as a guest; the boards for the league's current MFL id need no sign-in. Each entry is a paraphrase, cited by date and topic title, never by poster. The raw pages are kept outside this repository (private/, git-ignored) because posts can carry personal names. The 2008, 2011 and 2015 archives were read through a commissioner session; most of their 30 threads are banter, and only the three 2008 posts above describe rules.",
  "coverage": {
   "captured": [
+   2008,
+   2011,
+   2015,
    2025,
    2026
   ],
@@ -32,7 +35,26 @@
    2014,
    2015
   ],
-  "how_measured": "As of 2026-10-29 the 2016 to 2024 boards report that they don't exist, and a 2020 topic linked from a 2021 email reports the same. MFL keeps only recent seasons' boards."
+  "how_measured": "As of 2026-10-29 the 2016 to 2024 boards report that they don't exist, and a 2020 topic linked from a 2021 email reports the same. MFL keeps only recent seasons' boards.",
+  "archives_found_with_commissioner_session": {
+   "2008": 12,
+   "2011": 13,
+   "2015": 5
+  },
+  "board_disabled_even_for_commissioner": [
+   2007,
+   2009,
+   2010,
+   2012,
+   2013,
+   2014
+  ],
+  "empty": [
+   2003,
+   2004,
+   2005,
+   2006
+  ]
  },
  "entries": [
   {
@@ -227,6 +249,43 @@
     "kind": "message board",
     "date": "2026-09-04",
     "topic": "entry fee"
+   }
+  },
+  {
+   "meeting": 2008,
+   "topic": "waivers",
+   "proposal": "Waiver rules on the new MFL site: claims processed Wednesday 11:30 pm; a season-long rolling order in which the claiming team drops to the bottom; the initial order follows the draft order; free agents first come first served from the waiver run until kickoff, which does not affect waiver priority; dropped players must clear waivers before becoming free agents.",
+   "outcome": "in effect",
+   "effective_season": 2008,
+   "source": {
+    "kind": "message board archive",
+    "date": "2008-08-25",
+    "topic": "Waivers"
+   },
+   "evidence": "The rolling order is still the rule in 2025, when changing it to record-based priority failed 4 to 9 (polls.json). The dropped-player clause is what 2025 changed."
+  },
+  {
+   "meeting": 2008,
+   "topic": "lineups",
+   "proposal": "Each player locks at his own game's kickoff, and a lineup not submitted is copied from the previous week, overridable up to each player's kickoff.",
+   "outcome": "in effect",
+   "effective_season": 2008,
+   "source": {
+    "kind": "message board archive",
+    "date": "2008-08-25",
+    "topic": "lineups"
+   }
+  },
+  {
+   "meeting": 2008,
+   "topic": "finance",
+   "proposal": "Payout: $25 to each playoff team, then 75% of the pot to 1st and 25% to 2nd.",
+   "outcome": "in effect",
+   "effective_season": 2008,
+   "source": {
+    "kind": "message board archive",
+    "date": "2008-12-20",
+    "topic": "whole sale change"
    }
   }
  ]

@@ -212,6 +212,33 @@ The raw board pages stay out of this repository, in a git-ignored `private/`
 folder, because posts can carry personal names. They are the only copy once MFL
 purges a season, so they need a private backup of their own.
 
+### Where the rules record now stands
+
+Four sources, each covering what the others miss:
+
+| Source | Covers |
+|---|---|
+| `changes.html` | the 2002 to 2023 proposals |
+| email | 2018 to 2026 results, announced |
+| league polls | 2018 to 2026 tallies as cast on the site |
+| message board | 2008 rules, 2025 and 2026 results and current practice |
+
+Every meeting from 2018 to 2026 now has outcomes. The gaps that remain are
+older, and every place that could hold them has been checked:
+
+- **Outcomes for 2005, 2007, 2009 to 2012 and 2015.** Email reaches back only
+  to about 2011, the boards for 2007, 2009, 2010 and 2012 to 2014 are switched
+  off even for the commissioner, there are no polls before 2018, and the
+  Internet Archive holds 7 pages of the old site and no changes page.
+- **2016 and 2017.** No meeting record anywhere, and the 2017 polls page is
+  empty, which fits no meeting being held.
+- **Four open items:** the 2023 vote on the hybrid QB/TE player tied 4 to 4;
+  the 2026 rotating meeting organizer drew 6 yes, 5 no and 5 indifferent;
+  the 2021 proposal to buy extra retainment slots and the 2019 draft clock
+  have no recorded result.
+
+These go to the league to confirm, rather than further searching.
+
 ## Decisions needed
 
 1. The baseline edition. The recommendation is the 2006 PDF, confirmed by step 1.
@@ -231,8 +258,10 @@ purges a season, so they need a private backup of their own.
       `rules/sources/email.json`, 16 of them checked against the MFL archive
 - [x] Message board pass for 2025 and 2026: 16 entries in
       `rules/sources/message_board.json`, resolving the 2025 outcomes
-- [ ] Older boards (2003 to 2015 report no guest rights): a commissioner
-      sign-in may reveal them. 2016 to 2024 are deleted by MFL.
+- [x] League polls with a commissioner session: 34 rule polls, 2018 to 2026,
+      with tallies, in `rules/sources/polls.json`
+- [x] Old board archives with a commissioner session: 2008, 2011 and 2015.
+      Three 2008 posts describe rules. 2016 to 2024 are deleted by MFL.
 - [ ] Recover what neither source has: 2005 to 2012 predates the mailbox,
       and 2022 left nothing in it
 - [ ] Commit `retainment-values-2025.html` to the legacy site

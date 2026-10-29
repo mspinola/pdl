@@ -1,0 +1,470 @@
+{
+ "source": "MyFantasyLeague league polls",
+ "note": "Website tallies, read through a commissioner session. These are the votes cast on the site. The results announced by email sometimes differ by a vote or two (2018 PPR shows 10-5 here and 10-6 announced, the 2019 division vote 9-3 here and 11-3 announced), presumably because votes made in person or by email were added. Where both exist, the announced result is the outcome of record. Joke polls and draft-attendance polls are left out. Polls exist only from 2018: 2003 to 2017 have none, apart from two 2007 and 2008 polls about the website and one 2015 Super Bowl pick.",
+ "coverage": {
+  "rule_polls": [
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "no_polls": [
+   2003,
+   2004,
+   2005,
+   2006,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2016,
+   2017
+  ]
+ },
+ "polls": [
+  {
+   "season": 2018,
+   "closed": "2018-08-02",
+   "topic": "lineup",
+   "proposal": "Add a flex spot to the starting lineup.",
+   "tally": {
+    "Yes": 4,
+    "No": 11
+   },
+   "total": 15,
+   "outcome": "failed"
+  },
+  {
+   "season": 2018,
+   "closed": "2018-08-02",
+   "topic": "lineup",
+   "proposal": "Turn the third WR spot into a flex (RB, WR or TE).",
+   "tally": {
+    "Yes": 7,
+    "No": 7
+   },
+   "total": 14,
+   "outcome": "failed (tie)"
+  },
+  {
+   "season": 2018,
+   "closed": "2018-08-02",
+   "topic": "scoring",
+   "proposal": "Award 0.5 points per reception.",
+   "tally": {
+    "Yes": 10,
+    "No": 5
+   },
+   "total": 15,
+   "outcome": "passed"
+  },
+  {
+   "season": 2019,
+   "closed": "2019-07-31",
+   "topic": "divisions",
+   "proposal": "Revert immediately to the original league divisions.",
+   "tally": {
+    "Yes": 9,
+    "No": 3
+   },
+   "total": 12,
+   "outcome": "passed"
+  },
+  {
+   "season": 2019,
+   "closed": "2019-07-31",
+   "topic": "lineup",
+   "proposal": "Convert one of the three WR spots to a flex.",
+   "tally": {
+    "Yes": 5,
+    "No": 8
+   },
+   "total": 13,
+   "outcome": "failed"
+  },
+  {
+   "season": 2020,
+   "closed": "2020-08-30",
+   "topic": "positions",
+   "proposal": "Reclassify the hybrid QB/TE player from QB to WR.",
+   "tally": {
+    "Yes": 10,
+    "No": 1,
+    "Abstain": 2
+   },
+   "total": 13,
+   "outcome": "passed"
+  },
+  {
+   "season": 2020,
+   "closed": "2020-08-27",
+   "topic": "lineup",
+   "proposal": "Change a WR spot to a flex.",
+   "tally": {
+    "Yes": 3,
+    "No": 11
+   },
+   "total": 14,
+   "outcome": "failed"
+  },
+  {
+   "season": 2020,
+   "closed": "2020-08-27",
+   "topic": "finance",
+   "proposal": "2020 entry fee: the usual $50 plus the website fee, or no money because of COVID.",
+   "tally": {
+    "$50 + website fee": 10,
+    "No money this season": 4
+   },
+   "total": 14,
+   "outcome": "$50 plus website fee"
+  },
+  {
+   "season": 2020,
+   "closed": "2020-08-27",
+   "topic": "contingency",
+   "proposal": "Proceed with the COVID contingency plan.",
+   "tally": {
+    "Yes": 12,
+    "No": 1
+   },
+   "total": 13,
+   "outcome": "passed"
+  },
+  {
+   "season": 2021,
+   "closed": "2021-08-23",
+   "topic": "toilet bowl",
+   "proposal": "The toilet bowl winner chooses between a paid entry fee and a bonus pick between the first and second rounds.",
+   "tally": {
+    "Yes": 10,
+    "No": 4,
+    "Don't care": 1
+   },
+   "total": 15,
+   "outcome": "passed"
+  },
+  {
+   "season": 2021,
+   "closed": "2021-08-30",
+   "topic": "finance",
+   "proposal": "Entry fee of $65, $75 or $100.",
+   "tally": {
+    "$65": 4,
+    "$75": 1,
+    "$100": 5,
+    "Don't care": 5
+   },
+   "total": 15,
+   "outcome": "$65 announced (plurality was $100, no majority)"
+  },
+  {
+   "season": 2021,
+   "closed": "2021-08-30",
+   "topic": "lineup",
+   "proposal": "Eliminate team defense and reduce the roster by one.",
+   "tally": {
+    "Yes": 4,
+    "No": 11,
+    "Don't care": 0
+   },
+   "total": 15,
+   "outcome": "failed"
+  },
+  {
+   "season": 2021,
+   "closed": "2021-08-30",
+   "topic": "lineup",
+   "proposal": "Eliminate kickers and reduce the roster by one.",
+   "tally": {
+    "Yes": 5,
+    "No": 10,
+    "Don't care": 0
+   },
+   "total": 15,
+   "outcome": "failed"
+  },
+  {
+   "season": 2021,
+   "closed": "2021-08-30",
+   "topic": "lineup",
+   "proposal": "Eliminate kickers and team defense and reduce the roster by two.",
+   "tally": {
+    "Yes": 3,
+    "No": 12,
+    "Don't care": 0
+   },
+   "total": 15,
+   "outcome": "failed"
+  },
+  {
+   "season": 2022,
+   "closed": "2022-08-07",
+   "topic": "scoring",
+   "proposal": "Score field goals of 70 yards or more at 43.75 points.",
+   "tally": {
+    "yes": 2,
+    "no": 5
+   },
+   "total": 7,
+   "outcome": "failed"
+  },
+  {
+   "season": 2022,
+   "closed": "2022-08-01",
+   "topic": "meeting",
+   "proposal": "Summer meeting on July 28, 2022.",
+   "tally": {
+    "Yes": 4,
+    "No": 3,
+    "Maybe": 0
+   },
+   "total": 7,
+   "outcome": "held; 4 planned to attend"
+  },
+  {
+   "season": 2023,
+   "closed": "2023-09-06",
+   "topic": "positions",
+   "proposal": "How to treat the hybrid QB/TE player: unavailable to any team, a TE, or a QB.",
+   "tally": {
+    "Unavailable to any PDL team": 4,
+    "Assign as TE": 4,
+    "Assign as QB": 1
+   },
+   "total": 9,
+   "outcome": "tied 4-4 between unavailable and TE; no result announced"
+  },
+  {
+   "season": 2023,
+   "closed": "2023-08-24",
+   "topic": "meeting",
+   "proposal": "Summer meeting on August 24, 2023.",
+   "tally": {
+    "Meet Aug 24": 4,
+    "Want to meet, can't Aug 24": 3,
+    "Not interested or able": 6
+   },
+   "total": 13,
+   "outcome": "little interest"
+  },
+  {
+   "season": 2023,
+   "closed": "2023-08-24",
+   "topic": "tiebreaker",
+   "proposal": "For a multi-team tie: order all tied teams at once, or seed the top team and restart the process for the next seed.",
+   "tally": {
+    "Break the tie all at once (big bang)": 4,
+    "Advance the top team, then restart for the next seed (rinse and repeat)": 5,
+    "Don't care": 4
+   },
+   "total": 13,
+   "outcome": "rinse and repeat, by plurality"
+  },
+  {
+   "season": 2023,
+   "closed": "2023-08-24",
+   "topic": "finance",
+   "proposal": "Continue the $65 entry fee and payout.",
+   "tally": {
+    "Yes": 9,
+    "No": 0,
+    "Prefer higher": 4,
+    "Prefer lower": 0
+   },
+   "total": 13,
+   "outcome": "continued"
+  },
+  {
+   "season": 2024,
+   "closed": "2024-09-07",
+   "topic": "finance",
+   "proposal": "Entry fee of $65 or $100.",
+   "tally": {
+    "65": 2,
+    "100": 5,
+    "Something else": 1
+   },
+   "total": 8,
+   "outcome": "$100"
+  },
+  {
+   "season": 2025,
+   "closed": "2025-08-20",
+   "topic": "finance",
+   "proposal": "Entry fee of $100 or $65, each including league fees.",
+   "tally": {
+    "$100 including league fee": 7,
+    "$65 including league fee": 2,
+    "Something else": 0,
+    "Doesn't matter": 4
+   },
+   "total": 13,
+   "outcome": "$100"
+  },
+  {
+   "season": 2025,
+   "closed": "2025-08-20",
+   "topic": "waivers",
+   "proposal": "A player dropped after the waiver run but before kickoff becomes a free agent immediately.",
+   "tally": {
+    "Keep as is": 5,
+    "Make them immediate free agents, first come first served": 6
+   },
+   "total": 11,
+   "outcome": "passed"
+  },
+  {
+   "season": 2025,
+   "closed": "2025-08-20",
+   "topic": "waivers",
+   "proposal": "A player dropped during the waiver run becomes available first come first served right after it, instead of a week later.",
+   "tally": {
+    "Keep as is": 6,
+    "Available first come first served immediately after waivers": 7
+   },
+   "total": 13,
+   "outcome": "passed"
+  },
+  {
+   "season": 2025,
+   "closed": "2025-08-20",
+   "topic": "roster",
+   "proposal": "Cap the team defenses on a roster at 2 or 3.",
+   "tally": {
+    "2 max": 2,
+    "3 max": 1,
+    "Unlimited": 9
+   },
+   "total": 12,
+   "outcome": "failed (unlimited)"
+  },
+  {
+   "season": 2025,
+   "closed": "2025-08-20",
+   "topic": "positions",
+   "proposal": "How to treat the hybrid QB/TE player.",
+   "tally": {
+    "TE": 2,
+    "WR": 0,
+    "RB": 0,
+    "QB": 0,
+    "Remove from the pool": 4,
+    "Commissioner sets position by NFL usage": 3,
+    "Commissioner sets position, no double points": 3
+   },
+   "total": 12,
+   "outcome": "removed from the pool, by plurality"
+  },
+  {
+   "season": 2025,
+   "closed": "2025-08-20",
+   "topic": "waivers",
+   "proposal": "Set weekly waiver priority by team record instead of the rolling order.",
+   "tally": {
+    "Yes, by record": 4,
+    "No, start in draft order and a team drops to the bottom after a claim": 9
+   },
+   "total": 13,
+   "outcome": "failed"
+  },
+  {
+   "season": 2026,
+   "closed": "2026-08-24",
+   "topic": "toilet bowl",
+   "proposal": "The toilet bowl winner gets pick 17 only, removing the option to take the $100.",
+   "tally": {
+    "yes": 6,
+    "no": 7,
+    "don't care": 3
+   },
+   "total": 16,
+   "outcome": "failed"
+  },
+  {
+   "season": 2026,
+   "closed": "2026-08-24",
+   "topic": "finance",
+   "proposal": "Payout of 67% to 1st, 20% to 2nd, 6.5% to 3rd and 6.5% to the top regular-season points scorer, replacing 75% and 25%.",
+   "tally": {
+    "yes": 9,
+    "no": 6,
+    "don't care": 1
+   },
+   "total": 16,
+   "outcome": "passed"
+  },
+  {
+   "season": 2026,
+   "closed": "2026-08-24",
+   "topic": "roster",
+   "proposal": "One IR spot during the regular season for players with an official NFL designation.",
+   "tally": {
+    "yes": 12,
+    "no": 4,
+    "don't care": 0
+   },
+   "total": 16,
+   "outcome": "passed"
+  },
+  {
+   "season": 2026,
+   "closed": "2026-08-24",
+   "topic": "lineup",
+   "proposal": "Turn one WR spot into a flex.",
+   "tally": {
+    "yes": 6,
+    "no": 10,
+    "don't care": 0
+   },
+   "total": 16,
+   "outcome": "failed"
+  },
+  {
+   "season": 2026,
+   "closed": "2026-08-24",
+   "topic": "administration",
+   "proposal": "The last-place team organizes the next summer meeting.",
+   "tally": {
+    "yes": 6,
+    "no": 5,
+    "don't care": 5
+   },
+   "total": 16,
+   "outcome": "6 yes, 5 no, 5 don't care; no result announced"
+  },
+  {
+   "season": 2026,
+   "closed": "2026-08-24",
+   "topic": "retainments",
+   "proposal": "Pay $50 for one extra retainment slot.",
+   "tally": {
+    "yes": 2,
+    "no": 13,
+    "don't care": 1
+   },
+   "total": 16,
+   "outcome": "failed"
+  },
+  {
+   "season": 2026,
+   "closed": "2026-08-24",
+   "topic": "retainments",
+   "proposal": "Pay $100 for two extra retainment slots.",
+   "tally": {
+    "yes": 3,
+    "no": 12,
+    "don't care": 1
+   },
+   "total": 16,
+   "outcome": "failed"
+  }
+ ]
+}
