@@ -143,6 +143,18 @@ python3 src/draft_value.py
 `src/fetch_mfl.py` and `src/fetch_results.py` are not needed: they fill the
 older `raw/` cache, and everything now reads the archive through `src/store.py`.
 
+### The original site's record book
+
+The original site's record book (`pdl/history/recbook.html`) gets the finished
+season's leaders added, in its own format, from the archive:
+
+```bash
+python3 src/legacy_record_book.py ~/code/mspinola --dry-run
+python3 src/legacy_record_book.py ~/code/mspinola --apply
+```
+
+Then commit and push that repository too.
+
 ## 7. Check for owner names
 
 ```bash

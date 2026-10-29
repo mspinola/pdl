@@ -199,7 +199,9 @@ unscrubbed copies of the legacy pages.
 | `analysis.txt`, `h2h_report.txt` | `src/analyze.py`, `src/h2h.py` | trading behaviour, head-to-head records |
 
 The lineup-based ones read `mfl_archive/<season>/weeks/`, every week's lineups
-and scores, through `src/weekly.py`. Value is measured against the average
+and scores, through `src/weekly.py`. The same folder holds every player's
+score each week, free agents included (`player_scores_wNN.json`), which the
+original site's record book update (`src/legacy_record_book.py`) reads. Value is measured against the average
 starter at the player's position that season, so positions and the eras either
 side of the 2018 scoring change compare.
 

@@ -1,6 +1,6 @@
 {
  "league": "PDL",
- "captured": "2026-10-29T19:42:18+00:00",
+ "captured": "2026-10-29T22:08:52+00:00",
  "source": "MyFantasyLeague export API",
  "note": "Responses stored verbatim. Everything derived is rebuilt from these files. Not available without a commissioner login, and therefore absent: message board, calendar, polls.",
  "seasons": {
@@ -66,6 +66,70 @@
     "weekly_results.json": {
      "bytes": 23417,
      "sha256": "07df1ae75e6020eb70708bee06bc05f3ffc1c7249845e8de32a7bf0586d070c6"
+    },
+    "weeks/player_scores_w01.json": {
+     "bytes": 10133,
+     "sha256": "45461be5eab48f07a9bdeb9a081e0186b0ad11fd029c532bb324a69e75a99fb9"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 10907,
+     "sha256": "b1160de63ae2b9e0049a44f6d02a95c2858443dfc9a2d2b9fb633d8bc4ffcc8c"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 9120,
+     "sha256": "8e5399ab10aaa73336bbeea95429dd8b674e7a333ad1017118171d2567acae29"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 9898,
+     "sha256": "50dac5ee85740ecf9585eb9f5633dabee89d59da2bc538fb2538ba940f5d6187"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 9511,
+     "sha256": "4f4d0dfaffd8d0183d95151cedd3b2f3bd3b0b3d1789ba628cd77a4e0cfabbda"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 9120,
+     "sha256": "bb53d423341f9efdca71547fdb82ae7041446f3465556793340904d196d5caa4"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 10014,
+     "sha256": "bdc862773e4317de9b53d1c0dcef4d7b30a8228fa4f5982689c2c090d9b42556"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 9299,
+     "sha256": "06fd5fd83e11f615d6dbdef9a0d207aa8fd9a709a060ad3d19f2a43b97286f3d"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 9834,
+     "sha256": "d46770f809b0eeea22da852044093f45c3cb4e987a13743a9e071059c2d42632"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 9573,
+     "sha256": "5b87de92803def3a38083b0f5d4387c94a43da9875fb10037384ff3894eb934b"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 11162,
+     "sha256": "aeee0f4f1a28bfbcb0da867929c84992f1e39d47f04f3f0d0b76897633d781fc"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 11380,
+     "sha256": "e26ed8d03269e32cccb26f686c9589a4d3ef2a7642f8578e540041f77cbbf0e6"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 10936,
+     "sha256": "4111ff730c6521af710c73c056b7ca93e0f8735a08bb1f3399171d8ec4b6a0aa"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 10648,
+     "sha256": "56d9d7bc51a0be9db1527ef2a252b1f32d5895971114ff54744d882cc41a7b5b"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 10365,
+     "sha256": "d40c29f9ef047182bc5b227f3e7173f7b1fa4568a057980f87177bb16aea626f"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 10986,
+     "sha256": "1ba6d198cfd83f1fb21209031e5f8ad95698303b8b5e718d2f40029ad8501665"
     },
     "weeks/weekly_results_w01.json": {
      "bytes": 23417,
@@ -196,6 +260,70 @@
      "bytes": 23513,
      "sha256": "0fdf95edc7c358603aeffa0f4be11ada18b064b022c3cc47b2aa1759fde6f886"
     },
+    "weeks/player_scores_w01.json": {
+     "bytes": 10952,
+     "sha256": "c40d04f5e2f89f65b84a16f97879653ea540bd77e573e8b08606f2f3202fe06d"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 10847,
+     "sha256": "fbf3c5e3f708bf9d94166738bc571a488f859ae3711767480c9a0cdff3e7d5e0"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 9572,
+     "sha256": "65034a4824eff71907185ee1dffb841263da88ba85d14488d7b54f6b011f5974"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 9070,
+     "sha256": "d1740d1b088fac51d8805110d8f21b26e6e418622db8ef50171d11a1c3e15877"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 10126,
+     "sha256": "59159073f5a0db04152b50709332f878b131220c12d0960e5501046dbd9d4ebc"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 9957,
+     "sha256": "2e4bb17f3b3ee10b7225aac18e8e4395f598297d06093d14fade7ce4091ea8a1"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 9736,
+     "sha256": "cbca69fb219be58d9406269d07454760e9e1dea8255a09b149a6e63a5261ff66"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 10013,
+     "sha256": "ffc1234a0a94d26b165edc7c50af965d2bb7b5b64a0e60898f88c59bd37796df"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 10067,
+     "sha256": "16c9e731d84f67db5f1edcea0e4eb01ffe2c6e9408b4b2f4a26b61aa25bbd348"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 9863,
+     "sha256": "7d0e3b704f74b5008b614d84113d285526deb38f6f644feb3861f2b1086421d8"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 10480,
+     "sha256": "91a1fe1d8fffe233a0aaa6d87375cda078a4ba86045e6e085764673be276af77"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 10928,
+     "sha256": "ae1f286820d1ce3332911f5429cc184679f9835be3a629d8833e2e632ebc2d64"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 11282,
+     "sha256": "384d8f0d13d826b3a81677aaf9fdf9c8614f2b88a1c833070b9ce5daf833396a"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 11047,
+     "sha256": "5871b7405e89de5f220532ceae086b62e256b2147fa7807136f0e3d90fad0aaa"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 11107,
+     "sha256": "34c4a1370dd914eb3a0d9c556a1080c73fbd19151ab5146fef6ecedc1114ee91"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 11048,
+     "sha256": "e691997cb74bae89679d691c2e0fcbabe82450df602e8b1ff32ba199527d31c0"
+    },
     "weeks/weekly_results_w01.json": {
      "bytes": 23513,
      "sha256": "88951286da03298b03ad640174c1885a490176f9fe993eca455c69c833bc7582"
@@ -324,6 +452,70 @@
     "weekly_results.json": {
      "bytes": 23485,
      "sha256": "c503a5bcad5f4e93220b1be3ed9debd4c2d6ed4df466fe07065ef481713a513b"
+    },
+    "weeks/player_scores_w01.json": {
+     "bytes": 11348,
+     "sha256": "6d73030ae7c31d395a5849b65e99e8523d5fe537a93829d17936ac897e1960c0"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 10509,
+     "sha256": "b5e02b43bbf84fd5ea53ffbe8aac091c54eeb165aed65fa1a9f597685a8d44ab"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 10023,
+     "sha256": "91b6e9f211116ef6aa1f59390598f51c350aa0a1fd7c881b464995bcc0d8e931"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 9631,
+     "sha256": "e319f35546554c5751c9e7027a52defd123fed22f53607431c1d81b1ace61df4"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 9966,
+     "sha256": "822d9d6dc17a60b1ff4e5ae37ca519b67162dd3180378c59c422cb6ae422f5f6"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 9793,
+     "sha256": "54079555836646d916692272524afd567322b5fd90d0b4e3d06e8144c7f52a9e"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 9348,
+     "sha256": "b20d2c5ea6e68d0923ab2c82af9907cd689a7179218506d70a9d78dc82902f54"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 9518,
+     "sha256": "9002b1a8d04ab2fdd74cb3bbc8aaaf5805184bb7389b096fc0cfa24b4d48690b"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 9627,
+     "sha256": "1b416a85179fca37f84c0ad152a638e53a0bfec0d55a514c9e0d3cd908fbe1c4"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 10191,
+     "sha256": "3755bda52dff71a88efac4202e085771fd12b44d57a75a48a53d3ac523f6f8b4"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 11271,
+     "sha256": "bda62074444729ad798ade021544c8f0fb7a8922e2a4d397af261939fb9e77a6"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 11769,
+     "sha256": "7b6fb43bbc712ba9226bb2816fd534d7e5047344a094466a6428c444fd69ec8a"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 10474,
+     "sha256": "8938e0cd8108bcc462026066a53fccfaf29e4c012d83fd0045a92da77112d300"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 10419,
+     "sha256": "465dbb01238d273ff3720e3c926e0db23f3087876f1e535d634b9d2f9d915146"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 11161,
+     "sha256": "9863383e8ef95a3a2097cd7946ce80d9e051eba9490f4357da67f0caa6a25369"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 11377,
+     "sha256": "b42e19b329490653a8aa652a8c190b71020da83c1cb90fcf3c5c4256672f524f"
     },
     "weeks/weekly_results_w01.json": {
      "bytes": 23485,
@@ -454,6 +646,70 @@
      "bytes": 23389,
      "sha256": "b0b877e825f66030e82fc2ff7b432fe7019084f1f0640186f25b944f6f47ba73"
     },
+    "weeks/player_scores_w01.json": {
+     "bytes": 10457,
+     "sha256": "2712e60a985ca299f5ffdd1f53ccb073d0bd7530d5d5d0057653bac638061c09"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 11127,
+     "sha256": "acaa0cf464242f9d7444e0ff06cfc05692d5c1cdc2ff6ee447d97939e797af78"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 10010,
+     "sha256": "f7e2900460675dc0794983f681e1d1014b0221f3d298d51b1d22036b5f0e5ab0"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 9796,
+     "sha256": "fe993e1ebeb9963090f28a475992eb991237a05cd0fd6d333d44297dc32ab1d5"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 9127,
+     "sha256": "0e7f0c28021970451e371c221a727e2a868d57df090e09a808530a045dd76aab"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 9237,
+     "sha256": "b66ab7b2e3a6fbc4828e73d155db1ab2c69b1c84c1565365b637f71a93cc0b57"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 9688,
+     "sha256": "722d2158d863cec3d1671c3ef7ce6d5ecc87a9b7ee9895139facc4aaddc4ecfb"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 9190,
+     "sha256": "63e7efe99924bb3d8aa0bb9ae7b315ad8becbe1dfc9116583dde93a8afc13869"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 9233,
+     "sha256": "7b3699d00cd2dd9c84b2bfcd5f2247dae3a1fff8decaf14e4a962e2ac0697492"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 11206,
+     "sha256": "cf0a0e7b2458972e8504638303d78aea611c59d39f667df2429dee3a8676aa03"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 10860,
+     "sha256": "2d752248051581c1ada4c3c1836456206d851028140c71e2417b41076ac23e90"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 10936,
+     "sha256": "d375af79e47faeb52775baf397c52dbff3a53623ed071ea59c0941c19b7c8abf"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 11387,
+     "sha256": "908a2cd2f253195be7d3a29f0c46df8828a4aa1bbc13abd25d19057454a586e2"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 11174,
+     "sha256": "6fb2e088b3a9d7642fc80d1991fcca90090c58bf7e330ef1b3f0e0748b741b91"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 11048,
+     "sha256": "d041164a5c6fa44ef83bd87328379a723cf8f452e680fb1fff7a5c8b28b50e63"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 10986,
+     "sha256": "65064479447b4e7962c17f51f329275d77546ac54d101e2c16bd1d48f088549b"
+    },
     "weeks/weekly_results_w01.json": {
      "bytes": 23389,
      "sha256": "dc8177f5a8c160503c93b6ffc261612fe9334442ee1a6822e41568813502fb51"
@@ -582,6 +838,70 @@
     "weekly_results.json": {
      "bytes": 23454,
      "sha256": "629cf089ada43baff9419de48c80c633c69c53f4a34e97254bf57d0e53f5d69e"
+    },
+    "weeks/player_scores_w01.json": {
+     "bytes": 10804,
+     "sha256": "4b511e499fc99a07399642542589a531a1ce1bdfcf9151733e796b8eea8d8977"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 11632,
+     "sha256": "085359214f9690246e6aca9c6209bde951889143b629eff2ed4b83842d467c67"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 11899,
+     "sha256": "4eb7a6123b768dca6020cc8257f87b050fc20ef30ceb185811dddcf52a145573"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 10071,
+     "sha256": "0bd6c6abbccaf92bad6337f60ee8d0b1b1f7c49e7f8885c091ce51feae1ce82b"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 9353,
+     "sha256": "077bca0e079f47c88c89f284004ac41bcf5420b35de487110d70064ac4d20616"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 9184,
+     "sha256": "94f8e3157a4655a330afa8ac75a7024bad574fb59e13a38e7167fca8f15bdf2f"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 9736,
+     "sha256": "ce8cd37a98c42c90d5576392df110bb03b6ecf6d82f305e6f049bb9393bb8da1"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 8675,
+     "sha256": "0ab717e47fe422a551717bb710b72604f4a3b4903e983b736f819905d611ee86"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 9792,
+     "sha256": "055a85608749aed77a673b2d1f6a94d6ed16757d83f7564657c82c61de08539c"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 9856,
+     "sha256": "a7be09edffaa830153aa79cb5c596e6c2dc12d672db4962a2528e6550bedaa27"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 11611,
+     "sha256": "381824cb646f3a12276902a7da057ceb11a4bd7ecc91c4bf4ede4ca4f513d265"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 11838,
+     "sha256": "ca8e362562e70c1e16429b701dcfc70148a08aa07c7c90da5c3f419b83acb9e0"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 12286,
+     "sha256": "016e4efb0c4f9bfd247ed363f64e86b728f95435a5fc2b77cec172d57b7ffa48"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 11175,
+     "sha256": "65e8e331f246e4446a1496618a6eb20938aea39d241967d46a2a471fbaf6e141"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 11081,
+     "sha256": "92d9e9518a8ff65a8ab52cdc32c6a8ae70901a50b79f6bf1a4b648c30d3bbb4b"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 11331,
+     "sha256": "5c72dab40b5bda7709144fd8faa184d5e9173716ca15ef7c03e259cee3998834"
     },
     "weeks/weekly_results_w01.json": {
      "bytes": 23454,
@@ -712,6 +1032,70 @@
      "bytes": 24520,
      "sha256": "9001f570a288404e2f9e51251788ab763c97a0e7c729b81207d1da2520733f5b"
     },
+    "weeks/player_scores_w01.json": {
+     "bytes": 25744,
+     "sha256": "bc7cfa573cef728e9707d662d66ae68c49080fbc1e41ab397067f3e74321ae54"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 24699,
+     "sha256": "118669920f01fc0aa61c231e05edee0059f07a157be7a4115a5616584e8a0d17"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 25645,
+     "sha256": "bbd5eb0b1e61043d947429847dc91e9a39acbc38872bf8f5c8b93ba705a0d5c5"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 20852,
+     "sha256": "6dddd7364373829944f6cc625c0ce410dca0622fdc4a8a5a9b7b11293a415c6b"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 22721,
+     "sha256": "aa438c8349f7e10d0933522a3ff78ea3b45e47e6c02ac65f55cf0a9cb94e2149"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 22717,
+     "sha256": "6be53fdb4b1819b9642d6d0460da085a417be7c8b129cffddd27acc7d2819c6a"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 22666,
+     "sha256": "0f34c67f78aeda1a681f5d483677666bef3b772dd0b97e76b18795e7ecd40a2c"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 22614,
+     "sha256": "b2be1851ec40bc0e490fd036f5eac8268ff166a2a34ec701548aa0583f1e08c2"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 22398,
+     "sha256": "9e82c2cffc16779c67f4206dbbffbb26a06dfbfd60a27997860a00f3a9de80dd"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 23137,
+     "sha256": "eb53d90682f10e20835fc0e7070fff71f042618de5b8d13abaee9e0c59982afe"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 25885,
+     "sha256": "088dd791ddc8cd0eb13dd3e65d9b6856088ed659e12694aaf4a96db56c0d88ab"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 26689,
+     "sha256": "2217baca7b01d1cb83d416307de5430c02377600f40d0a7c7a2cd3a12b71c622"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 26451,
+     "sha256": "2d6d97d9a0740237e83b2576377811de19f376854e57a17954c6090c1cdb1efe"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 26430,
+     "sha256": "d41b6a41d8311652f2e6e954a79d68585af2b59d3570b75764b66cb9987ed8bc"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 25997,
+     "sha256": "700891d1a3a86161bbaf195b1d0097445f816824eaa1ae0bbfe28da837e537ef"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 25942,
+     "sha256": "e70ff4cca07711b5f4bb76f68ba1402707ab192571ae1f68b17550372a3cdeb1"
+    },
     "weeks/weekly_results_w01.json": {
      "bytes": 24520,
      "sha256": "cffb3942cdfd36ac07fd85afd2888cac9a3e572524c8930264c0b87ca296a2da"
@@ -840,6 +1224,70 @@
     "weekly_results.json": {
      "bytes": 24974,
      "sha256": "90924ed2fc10299bfcc98c44a4be6a04fba7c44f33c9497d0a8fc34a22e72040"
+    },
+    "weeks/player_scores_w01.json": {
+     "bytes": 25868,
+     "sha256": "16fb32c77b3f867fd7c26eebae6de268d62434f41069721d96d8d797218afae2"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 25807,
+     "sha256": "4cb17453d2df660c44e166ed7802106d901467cf203fabc9571f79bf51e84681"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 26089,
+     "sha256": "e231e42f24f30a1964d790cbc52fe575d393a7190e677953a36aaf49795c36dd"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 22720,
+     "sha256": "0e5afefc8153b7c3d29ab2dc3c466d7fac1e436e51951a716ef54c5852b91c3d"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 23050,
+     "sha256": "96a43ff848615e34675c046610496299f9085da231b599ce0d196d1253a2e7fc"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 22848,
+     "sha256": "b906636f696394e1cda7b6ac12cad8ba71327e9a757db0f60fe69d7e0cdb8629"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 21400,
+     "sha256": "195b96549e3da008714740b6264030b4eb9c98dcd2278f88e51e608bedd2767a"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 21124,
+     "sha256": "82fa59214c3f9f491bca7a407368c3923cec0b934a802980ef3947968710c651"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 20897,
+     "sha256": "8a65159d18569d6c276bda88c18fa5a2924771cc4082cd64289b2b978b7267c6"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 24420,
+     "sha256": "34ed1cecaf4b098fbfabfed2b427e98cf1c7853cb9e90a56a98d5f20776173a9"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 26342,
+     "sha256": "9fda88c5e25a912092fab4712089ecc890d794bf7fecdc3b11bfe05a228caf8b"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 26499,
+     "sha256": "4f6137b656dff4e9bdc39a0f724587ab771f878f1f8af542ce561c67cc523851"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 26735,
+     "sha256": "e4e397c9b04556c4ce9b9cb09a6e24901337e088826689ce430ad5cf2332488e"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 26384,
+     "sha256": "69a207c77a4849ad3ace1c4efa749a5cb5bc872704382ebffa0a61dd3201f902"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 26567,
+     "sha256": "0796589b7cbd9870f362f7cbc2c7cfc402037b1578e351a1db0322ca659c0e5d"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 26671,
+     "sha256": "43e10e32091227a92cf481be971aa53ea2d3375a49f8bb03b5734601a03a3e96"
     },
     "weeks/weekly_results_w01.json": {
      "bytes": 24974,
@@ -970,6 +1418,70 @@
      "bytes": 24825,
      "sha256": "15ce5f406454974776664e1002c8271fdb7c02a0f6069a6b755ff9a3915ce9d3"
     },
+    "weeks/player_scores_w01.json": {
+     "bytes": 25810,
+     "sha256": "f631a751f5963fb47bf8201d2e8244717b20fb7e8d57e43a4eb0638340261d45"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 26116,
+     "sha256": "4d9f32e772a9845e3d03dfb83cb32c2685354a903a66de2b12bc73d7da754fda"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 26227,
+     "sha256": "bb9946e254cd6424af2910cec47975c36a3447fca6ee322dd98d36d3429ffbfe"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 23079,
+     "sha256": "09bf94a09de72f18da5194f131aa07e6486518bbdd32740cf3f61ae71b091806"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 22862,
+     "sha256": "db524295adedcd2f958a3e24d035184377ede1f25436161d8f1e38f67cb0bebd"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 22914,
+     "sha256": "6cfea642bdecf6976cbe6b8dcc70bf56efaccc0a318212ea5b523665a6c27110"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 22978,
+     "sha256": "4f91a468ff5cd875d9a3d44d3e7454892bc5b334eab30baae118d6c05533643f"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 21135,
+     "sha256": "77f36e0a344708d3e1e4b2699c9038079bab81a7748e86a69870eb50857bb87e"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 20868,
+     "sha256": "f4e849851d8fc3cc808baf784870d88db59cea46e8c69009d81e9d6fd21c7c49"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 23058,
+     "sha256": "8e53f4f7a7192aa045dce74b2bf828639f26f2cec42f5122da3dd99863112521"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 26326,
+     "sha256": "8ccd52420c88e8f21bf168d8c3d34d0925ba43dbb405a874b81c26d05afaf8a1"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 26081,
+     "sha256": "16125d2b9a0e299221b465e144346226a5e36ee433bf0e3243ea8a80d4e477c9"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 26644,
+     "sha256": "f0b3c874e56c21628ef4165fd78dd5e4b4bf5d23cf946b50d81799376a50132b"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 26873,
+     "sha256": "722b086bb5da5e2e99f7ebe3ccf014908b7599c4a306f3a691d8528bd2ca32d5"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 26657,
+     "sha256": "46c7e89f9f5918cd88ead3e2655ca394b10957dd32606b7bda1f07d1eeebde25"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 26548,
+     "sha256": "a4c6a485959c076fc3086d63d424de97b6c83ed44e4586aa0d75a3ec214c52ef"
+    },
     "weeks/weekly_results_w01.json": {
      "bytes": 24825,
      "sha256": "bdb0ee3c4bb09f373eed15952637e1159732d3f5375abaec5e3611c563d18895"
@@ -1098,6 +1610,70 @@
     "weekly_results.json": {
      "bytes": 24764,
      "sha256": "e077f2dec0a43e03b91062dca36b6f5a35df05bcd1058aadd6d72352287c9f7a"
+    },
+    "weeks/player_scores_w01.json": {
+     "bytes": 25895,
+     "sha256": "f76eb949a09a9deb2d10fa2b03597e94a14c698b136f32e4986656c306822b45"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 26395,
+     "sha256": "063629a6ec6bb5a3c0a5d0dd0e161c25987d443d10e6c8bb47f82a3a0e00b9d5"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 26058,
+     "sha256": "edf88a016633c17526e4ae0c11b7ba50bb693e303f90d1519e47717c8dcfa7ee"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 26401,
+     "sha256": "0157fea17d60f17522acf5adbff6125ec43da07b5b3016d4be1127160426b3e7"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 21370,
+     "sha256": "acaed74c35a4bca636f122116b99d0d598e543f0aa625b4bddaac5f8d9ee37a8"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 21737,
+     "sha256": "3ebb72b9383d56d71bb5c55e36dac0ba996a836ab6cea68118cb3cad866182a1"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 21855,
+     "sha256": "4d6ce211fd2e5b20c1799e47886130d9053f5fcbff28ab7bb68f3eeccefac674"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 20905,
+     "sha256": "76830dcb84158ca4c8d4cdffef7e036c83187d110c8404e8d4d7f6d4c92eff02"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 23131,
+     "sha256": "4e6621f4f54c90a6ae7b2db31e6b736bd734ee5bc7c9eb51e366a211b01721a3"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 27026,
+     "sha256": "dea99c2e0ef75b8e8787a2bb5472712b5442c2852dc82eb9736d6e5127cad866"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 23375,
+     "sha256": "5e65778b60f9461f5e8e276f9c79aeaf2284a3bce8f0411557391f5ee0e758b1"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 26647,
+     "sha256": "be1c5443f0c3c420bffa8990f315457e4b233ede5d30939963ea31e8eba6d44d"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 27208,
+     "sha256": "e4714173dbba11758f759b6af89db6e48f34fdf2d03111d19def4fe1a83fd8bd"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 27498,
+     "sha256": "15831d48a58a481eeb3182dee81e1792fd9f90dfaf129e242cdc71ab16d59a1b"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 26931,
+     "sha256": "b094de47baca21fb94d838b83e45cb9b4fda150f6763b41fc4a8b3d44a148f42"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 26986,
+     "sha256": "a51747bc208bb5090459c556d9ebf913c36536d960816ea0618d5e251c8c8176"
     },
     "weeks/weekly_results_w01.json": {
      "bytes": 24764,
@@ -1228,6 +1804,70 @@
      "bytes": 24987,
      "sha256": "88ef5a4c1b0168d2ef8a48dee98e2b3bac8525aabbd2304a01b2ebc7fc5a9cf1"
     },
+    "weeks/player_scores_w01.json": {
+     "bytes": 26580,
+     "sha256": "162fe07653d162e519a32e34a5411fa3e972582e92780f9d86e201d0f4cdf9b7"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 26135,
+     "sha256": "6df8a636c67e7c1e015ad1116411354aaea8c7815c969a664c6bb16428e16258"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 26200,
+     "sha256": "346a4ad5893f66608e8b79047c9d5d801efb6cf06d629a3e2850bbf57c0e3e38"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 24974,
+     "sha256": "8bc6b7c1c2ea59e2a04aae16ac863cc62018aa7cdbae40f590504b223d6b4493"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 23029,
+     "sha256": "0c53920788580a012b3525e2b8439afa6a9dff58adfca7e91c93ea0c70a1e5e9"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 23145,
+     "sha256": "1f69a33acca27cf9cb2ad5339f35fe6de7febb91cb15b3b73cac67a11a099830"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 21136,
+     "sha256": "6cbfda813c15375f7e086ed33b6bc7a88eaa4fafaeabfea1188764aa7b755f32"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 22791,
+     "sha256": "c2a9fd0441af46f01ee02647021db8f7661d5321c21813c2589ddfde4b540b35"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 22754,
+     "sha256": "8120b88c96f200a666643e4a12a79d2ab28d9e7b970c848b73f1da0bd641b3ae"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 24065,
+     "sha256": "693a8d0c9e98d14ae5644a6e3090cfaaf992555f353edfdf5f27adffc24c62b5"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 23797,
+     "sha256": "270c70a0fa5be9f39983b16ffe6c3f8a37156cc43e9223a2f24870cfad836db6"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 26847,
+     "sha256": "a6c97f71a0f5c23d770a38c165f2e92f1fea43ed03ca7bd5aa6638015cb5c093"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 26277,
+     "sha256": "dcce6a13d2c2998961eba286c59ab6d3ef20760860689fd6385b7d70aec995c6"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 27366,
+     "sha256": "d0ce7cfe0cc13d18572074893e36108e2adebed4d10e37919f9320b17a136154"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 27030,
+     "sha256": "bea138b8964c7b7a9f6664254ce6827d5aee957430cfec96e51de283e7c840ab"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 27138,
+     "sha256": "862b773f083cd3583c7ebc611fdc5fb4270de655d757fe186d2297d83b8156d6"
+    },
     "weeks/weekly_results_w01.json": {
      "bytes": 24987,
      "sha256": "e3a91ce41eb1023fcb9f20142012994eaea746d1e9dca8a9e3cd00b7746da5c2"
@@ -1356,6 +1996,70 @@
     "weekly_results.json": {
      "bytes": 25200,
      "sha256": "edce893a65adf97b98f238c44013170fec89cf7440033d59f101a0a5357dc410"
+    },
+    "weeks/player_scores_w01.json": {
+     "bytes": 25976,
+     "sha256": "f0dd9f915b9bcdb3e20b731ec878eb9bc5a50f52caef2bcbb1fb22317c5d3e4f"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 26086,
+     "sha256": "d3002d1ded35b8e97c5140517029ee52061447a90df84e1c17ac86142b859bce"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 26148,
+     "sha256": "a0abb53fc3353367a259d471f8ef81e2390e48c2ae9ba2254543a368e71216ea"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 25154,
+     "sha256": "16006edff07956aba32d23d9764559d9e96bd1e7f3270ddf1b165daf4bcca6f7"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 23206,
+     "sha256": "caee7bf756927d40b3672485fd23f0178d7059b2c570df6f9cdf065c10a532ac"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 24922,
+     "sha256": "61114944f084ec7fb1509347107dcfded877e6048370ff956fd0d2406982d6c2"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 24482,
+     "sha256": "f0f07041e516bbe2bde77791a91c12094d604a8f98d87d29108178cecdc83194"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 21476,
+     "sha256": "7d48321f06f26ae2a4ad9a40c9624fd8fb1a5c03bf257f9e7fd399293cc48200"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 21307,
+     "sha256": "3974a8e614a543d8d761cd9dd7867d962b0b01794fd8c6356010b4e058a88293"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 23840,
+     "sha256": "1e12df7344b22d5230f0713f6ec0196310d1c9c9a3058644f9264ac3cc455ffa"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 25543,
+     "sha256": "adfa3ad6f9ca22ed39e66235de9982bcddfa30fc5be011ae8429112b049b16c6"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 23512,
+     "sha256": "1dc5ed0a84d8e17b995ab842113a050b7ef105df498289d8fbb820a084c5630a"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 26782,
+     "sha256": "0efd86a23f1f04414fe49c5783ff9008c8eed640958d41cfc4f38cb0c6e8935f"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 26689,
+     "sha256": "46b072e07b2c0b2c7733f0f4d5be4d817849b194daa81b9a57c3bf175278261f"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 26406,
+     "sha256": "2b7d25b53e18272334e805641bcff3af15a142e747ebb00120a8406fe485c07d"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 26614,
+     "sha256": "3eb6a62ed387581c0e271315896d97f21c504b45fee6e1ca3d84d19497fa14b1"
     },
     "weeks/weekly_results_w01.json": {
      "bytes": 25200,
@@ -1486,6 +2190,70 @@
      "bytes": 25210,
      "sha256": "48b836919591c438732f0d666ea0d49951e6d56fca4215591860adf9fef36ee0"
     },
+    "weeks/player_scores_w01.json": {
+     "bytes": 26336,
+     "sha256": "4439164b1b9392103047a5d9183b7746762a0c461d021e4dbee7f88e037e90f5"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 26347,
+     "sha256": "d07b88862e54145cc359f4e3f6d137e4d085de848fb435fe4370c9b94b50b04e"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 26866,
+     "sha256": "872770adebb4b7e5da9eb1e608acaa6ce622cf2a6a49c9038ced5bb6366427e1"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 21558,
+     "sha256": "b9d1bb2fa7420bbee3e6a271a0d8d521fb470a896bf03c1eef80b8dd4bbe1457"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 24854,
+     "sha256": "9b196f71692cf298354d09d35e58d39b2ed9c425bd421e2afa192b93894672db"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 24637,
+     "sha256": "05631691c1d043b2e99cb2a12b705cc1ab745873c8b1d2905e6e9cd3a96347ad"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 24848,
+     "sha256": "899b825945e64a54a9633822dae850b2a4a4b15293af9225fb4c6896c9d83f2d"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 24923,
+     "sha256": "828f6412e69d920b1703366c8d8c6877143b19f8cec6a109100f538854aa2e61"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 21731,
+     "sha256": "a920228036383834bdd01c1767741bafe5219850590c807a516cd63e10442ec7"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 22173,
+     "sha256": "d77ddff0c01b6e37bab73fcdce0428932a8ced682fed095782a97f7ffbc08bda"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 23061,
+     "sha256": "a5f9e6a0e331d5cd231f6f48d545eee583e5df9a73b6bb7c322b065d35604067"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 25013,
+     "sha256": "abaac1a4e0fc60e7444983014d4cbb35e857ccc20270c852dd7db174543a6296"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 26771,
+     "sha256": "70fe44c7f56f73547dfd42148a8e8dc691fb9d472eff39546dfe55734ecc15a0"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 27004,
+     "sha256": "547367a1b8b396012b8a35309dc209ada1c39680abb9640a72bd2c9241bf4dea"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 26864,
+     "sha256": "0a2a539eada14a1490c9204d6daead20aeee565a80958834c9675902e629df26"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 26671,
+     "sha256": "4a1b90f8686b744b9b42a97ac083b300ad0bbe07552045359e37fd83522d3326"
+    },
     "weeks/weekly_results_w01.json": {
      "bytes": 25210,
      "sha256": "6dc945f19b7d927a2f579c09cebf4dcf5180946ea3b17f111a33cf97e6d1bb4f"
@@ -1614,6 +2382,70 @@
     "weekly_results.json": {
      "bytes": 25371,
      "sha256": "32a9e63b9515b79a16ce88547d3d6ec53df6c46fb6ff053e04a42bc4aa87decd"
+    },
+    "weeks/player_scores_w01.json": {
+     "bytes": 26269,
+     "sha256": "5bdf992b48e1a3cc40eb0fee8ee8919a60a073928285f03a58ea533d2549c933"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 26448,
+     "sha256": "01f3ff41dfbb66d73f208e75eaeea325d9d37234ad59f191ca0b59cc2d12cc24"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 25995,
+     "sha256": "75a7a72cb0f568ec47e60e92979ea8f98ee3ba4584d2cd8a701d72428bac0682"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 24225,
+     "sha256": "7226502cd73546593a547404c108eef3628b0db03e2b2dd593b97e7fad971e34"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 23102,
+     "sha256": "56212461c520181821307906c19a9e68a37f1fc3d654843c9dc1ef24d9ce0333"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 23092,
+     "sha256": "746b921a2ae2b1b76ffbba5f669cbcefcb52e4b93ffc3c00e06630b4fae376d8"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 23096,
+     "sha256": "30621549597fedfdf72385eceec4864445f44141fba2646e55f23c2344e1fb18"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 23087,
+     "sha256": "06271d2dc864c3281f328203a2f0b5c0d239acad82e79e47c1e3d836e5c0e75b"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 21260,
+     "sha256": "4a642f9ba9f62d33855ab8001a4d6bf85f321ef2e212165d07206ce917ebbf93"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 23508,
+     "sha256": "266e866bb396d6759eeeff1a631b4149f72c4e418de32b2281f4db71b1927d83"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 23111,
+     "sha256": "c79b026ca4ac0203bd425446c12eafcd340f8deadce7f98ff2aafd731b84d8c6"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 26809,
+     "sha256": "87cc8ebd49e68a60859cb9e72918ae2e396d69501c7d7418ea1154232801e2f3"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 26814,
+     "sha256": "c6955389bac93dcf77ae4e7bbabd19e32ce72fae49f9ddcaa153794050db3496"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 27093,
+     "sha256": "a1c820f9866fe78f3365899f9711276337ebc16ebd6c33cee26b56205b9233e1"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 27215,
+     "sha256": "630e79ad98e3a154ab58cdc3ea8d3fb520a00729ab20d774f7f82ff8045c762a"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 26804,
+     "sha256": "e06f5b23db8ed1fa1d124893f70cbca343120b85db688f1247c27631a7f7e91a"
     },
     "weeks/weekly_results_w01.json": {
      "bytes": 25371,
@@ -1744,6 +2576,70 @@
      "bytes": 25562,
      "sha256": "e6989a426a4147c223b6bccbe45626fbe9705b361aceb953df3dfaaa92730319"
     },
+    "weeks/player_scores_w01.json": {
+     "bytes": 25869,
+     "sha256": "b65e85335ce872348d195a748a61f3403bb24f561d913b961091e5c79759c1d8"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 26758,
+     "sha256": "95b00be0919748e3a8544e51d76554765442968f58faa367fbe3101a67cf3a01"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 26372,
+     "sha256": "5c60c711c32917771d7330f1c382df458c22781c666737678d2f2d5fd03fab97"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 24525,
+     "sha256": "1a035150c2b86c663b9a6b6ccec5a7ee1858ff45db47e82b2694b7bc829dfc8c"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 22282,
+     "sha256": "24f99e114ed732cb1c5bb44cb7e25ad12f2aefdc81042f654d8742069be8ca71"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 24632,
+     "sha256": "89a9e22f4b84e92151a6e2f10ccf2323d612cedf7e2ce413cfa07ea9ceeb64c1"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 24309,
+     "sha256": "1de35dbb8896f830142f8733909aebe6324a901f570bffe3311ea2cfb875a7fe"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 21110,
+     "sha256": "83cbae8e6f5b74e55cfe14a3b7bd01ff7bcf1b7b6ceac53d4d974712d5365522"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 21679,
+     "sha256": "247c336c38d8c9afd180ebd62be5a72cb710eb0b85e125a78ff5f7f89ff38895"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 23839,
+     "sha256": "4e19103b407d980c9f90e4a03dc1bb260469772d9a387c805c0226db7bce53cc"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 23535,
+     "sha256": "150f019a8cdea93f5074aea2bc456fdb757388023112a98fd896b40b25272879"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 26840,
+     "sha256": "cb45f2502cb01572e2bcef783753e1f8e5ddb703dbd93ceeb6c6669d91ca074c"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 24967,
+     "sha256": "d073ddd88518f4642a06ab574267cf2ef20cc611d927bc8c46c1bc1d78ade71d"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 26671,
+     "sha256": "3a32e15f233a0797c6bf6cc2c67a446761883b6e016c4a6b9f68f954ece46484"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 26734,
+     "sha256": "2f777f4600c7076f7fdbbbd6b6502b043ba911aa9f6e3cbe5271e11424b18dea"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 26451,
+     "sha256": "10ea7da9ef3383fc178aef24933e819922d0b45a0fcce6bc22c0dfee71bdf4e3"
+    },
     "weeks/weekly_results_w01.json": {
      "bytes": 25562,
      "sha256": "7edc27e299aef2245a972b7dc756b418341f680287ffa6269a0f30a0e1325fdc"
@@ -1872,6 +2768,70 @@
     "weekly_results.json": {
      "bytes": 25519,
      "sha256": "6759d7470bce621a9c6ee083613f5da62d267f434c14acc857a04eeb2ce2a3b5"
+    },
+    "weeks/player_scores_w01.json": {
+     "bytes": 25151,
+     "sha256": "d7b5dcccb019ed158220fca26b5676650cf4d6d2ee5ed272531e73e1d44af034"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 26271,
+     "sha256": "b6312656d1218b158c059010a11201a491b1c5ff03f46f148a19f7447281bc5b"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 26516,
+     "sha256": "42f4a2d1533108f15953a8726ef9e21b68e62b4c472119d43df1799dddbe1ef5"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 26837,
+     "sha256": "a7aef87bf4395914f28787ce12d332f905937296ea3ceabefdeb1b059a2a12d9"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 23140,
+     "sha256": "b021aca48a8deb3a4a8416a4d6c31c200089d56d4ba3928dc1791191fca90dfa"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 22928,
+     "sha256": "d324ed55f07a6d262df0aefc709d5f95a7d5e5b643c9b77243475e9828d70148"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 25156,
+     "sha256": "ee9ef546481ecb40fe06ed8661635b6590d5ffcdde7fe87bbbf1d176f37afd03"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 21808,
+     "sha256": "4ee3f73e4ac69520bce72cea1eec2081daeadb8971d7011c2a892e16fd128c8a"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 21532,
+     "sha256": "a1c9768166f061e4b6faa0bff2c1f9666a3862f3f56f69232f2870556a15998e"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 23856,
+     "sha256": "8e94344d080ceb769cd7aa25c9b459e11531ec5ac45e1688d1270828252f3ff4"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 23674,
+     "sha256": "dfa92b28251a0f460696ae644b75975206170753a53fb50db14f13506313e97a"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 26690,
+     "sha256": "291e2e75de593a472282ee8c16686428dac72547bd10cafcb7b94b737c75d47b"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 27152,
+     "sha256": "c3ad422ff3aac47385983d3a9ec957b07625e7cb5fc1e3e97140b539766cd09b"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 26762,
+     "sha256": "c0ae323c790e1d73c7416bfcb8424b37a7f29b3bbac4f45b8e6013baeb9b9ac2"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 26703,
+     "sha256": "eaa546d8554cc5b2356aed2c11d8cc71ab6f0d63b399859598fee2c9aa1a5b67"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 26865,
+     "sha256": "cd1154d45b1e147d9eb626152cc349f03ac5255f8db10a71cc74cfc8294d1621"
     },
     "weeks/weekly_results_w01.json": {
      "bytes": 25519,
@@ -2002,6 +2962,70 @@
      "bytes": 26371,
      "sha256": "787dc9cca3e2259b0f03d76b3acb993bf8d4a83ae1b0adfc89613c47fc746be8"
     },
+    "weeks/player_scores_w01.json": {
+     "bytes": 27561,
+     "sha256": "f0384f77f737cf3ca0f61fe1419eb148db8b7bac625d31b6085156b29e1cf6e0"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 27443,
+     "sha256": "89ad27f11a9ead84a16b7c93f816b08f7d658c5f087dab3c5797e8ab7ca8a2f2"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 27736,
+     "sha256": "4d9e2f28589997548ac8561da89c224ca324ea2de2a8d25f90a0c00518f7012a"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 25829,
+     "sha256": "7df141de358c3eb9f123ea92475f8c692e7994081e8e0d3604adf2614cdaa852"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 25710,
+     "sha256": "634a31980d82f9c171c0f217800423a9058097dde39a42c8014c3efe250d01ba"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 25659,
+     "sha256": "8748a133ed2a7d04ae173bc1779440bd950476bb65f8aaf3e51fe7fa8b011a29"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 24081,
+     "sha256": "546e610e297a0930c9ada8ba0c3aaebda32411477eb7cdd2cd8e6964099b5120"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 24087,
+     "sha256": "7038a5c5773e08e641340d236c83a2d885d469f49b7b446d077c9205d61e1d4c"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 22670,
+     "sha256": "9aeceffb30add759a936ac94d181d9ebaa0a618f373a79192c12a93be82973f4"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 24666,
+     "sha256": "0824d1cd11920d2cd9951d9b3ce72a561c4d2e8d04dac5f4a4627246e10e3675"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 23196,
+     "sha256": "c777ffbf7c46892471e10f1668479338e99e4b78d0913b26b367e8be236f0071"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 26083,
+     "sha256": "0d3607b047c234e6ec0f0739d2088db27cd4511169568c605d55254ac49b3a0e"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 27917,
+     "sha256": "d5312d3b9ef7ed954156db353875ed3b30c5f18b750d8a6f9d77783c2df1061d"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 28150,
+     "sha256": "a6dd61ddcfa9ab53e873663a4d4f7146a6389459ed3709bb623cdc4846c2bcbe"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 27309,
+     "sha256": "10f1270cba88a59b199f9b7c3b0015a99a8e024c7b1f61612cde76a22446a45d"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 27684,
+     "sha256": "83e3a2c9af9e3ab10086237585f4a25528ee54ada97abbb51de891c572a532a9"
+    },
     "weeks/weekly_results_w01.json": {
      "bytes": 26371,
      "sha256": "799662f6fd39439a7a42038e945261a7122456444b8a6a7ac37e61660e8feef6"
@@ -2130,6 +3154,70 @@
     "weekly_results.json": {
      "bytes": 26394,
      "sha256": "0886173cd51b6b899f314d1abb8c6eb58b1132c007313ba98ed9f7a01852efa4"
+    },
+    "weeks/player_scores_w01.json": {
+     "bytes": 27765,
+     "sha256": "39241580151488482278a29e608449eda2bd2e9bf894a15759b0fdaa5c3d126c"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 27154,
+     "sha256": "4b5c05f5b3f9e1e5ac5b74a3df051319c537c5b333499fcdfdfb0b7e9a89d040"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 27229,
+     "sha256": "d6e93486a989fcca5aab80e8c613e3e3ac8e7a7c9488c3643005560c643ff3ac"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 25373,
+     "sha256": "7dc686bc4baf024a31ab1c99279d31ac2f6ac93f7e3e3866d12c843c1a43b3cd"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 25657,
+     "sha256": "7e36fe814b1a48a3615c9e937e83b36305fc0de05b25bab2ea12b67895e13ee0"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 24257,
+     "sha256": "c611969b1416f187e7cf61b1bc88b8e0712d1e50dfa12ea7caf36b2101fac0d6"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 24495,
+     "sha256": "596c6e1c26d19370b09d433a8ee892c72c7f8281a920b4e23a415c2fa12b1adc"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 25767,
+     "sha256": "3e4ce6f30625686953fac9d4ff6c1fd29d7699ef3cc1abc5202e9179f6f0cd4e"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 23801,
+     "sha256": "d7deffbcae46cc0d5e6d1a89e3f9ca62066f196a9563271f139022037cf33024"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 22856,
+     "sha256": "323a56178716c4dcae9f89b66c6f5e8fcb3d9f7f906f64aa638e1af5655b3784"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 24269,
+     "sha256": "2ed05771f5aa040a5d4b5b0e8c6243ceb45c1016d51c91ed8929f243fa26a76d"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 24377,
+     "sha256": "bfc41ca2bc433d05ef609789acd7b4e9b38a5bb9b3fefb85fc00baf8255c2bde"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 27948,
+     "sha256": "06f6721276147b5e11d824f1dbda607b0307eda376b29c167d472078a8a59819"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 28008,
+     "sha256": "4cda314b0c8ef00fcc953883c57ae62fc02f364914238ab6d726be598373e95c"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 28119,
+     "sha256": "43c5c34bf8588e4cf6fd33820eba05b5141f22c4b923ff45c12b8aa3a6762e9d"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 28062,
+     "sha256": "97a6475a37db38f0942a0dd52feaf66ac42420b5e07ea6f4bfa4e4a3cb5a53a1"
     },
     "weeks/weekly_results_w01.json": {
      "bytes": 26394,
@@ -2260,6 +3348,70 @@
      "bytes": 26543,
      "sha256": "bb64acd2f679fb646f885c2fc539e55894d581ed784efaa503cf74e0af1eede7"
     },
+    "weeks/player_scores_w01.json": {
+     "bytes": 28687,
+     "sha256": "335ee293da3902c7fe8c4bb5b0690ac4faca4ef242ff12d20239d5fb4f872f45"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 28467,
+     "sha256": "0646d06459c55bc9f36d8f0efe96eb3ba7ad22c451b6f970bde878c8b0daa609"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 28516,
+     "sha256": "b26e9b422662979938a168b4fe69eea6126232a02c8077997a1e86dd8a3e4e9e"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 26942,
+     "sha256": "051171247abfd63e34cd605a01e722b11fa020848ae1e379f7d0dac57766e0d1"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 24516,
+     "sha256": "e109391cf4a753464ef02c1387bc480201ebfb15c188cdb29adde75a2a391ba0"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 24897,
+     "sha256": "d0a6f6db796fc9d5d6d66db9ddee6cbb6b2560a7008205e5a0b64e878377fccf"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 24736,
+     "sha256": "9caeb8c111cdd09922083941ef74edd3032cbfb5dbc6b73c27b4ca7807773531"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 24674,
+     "sha256": "cb0610b29b04f24352ea195ec7d46c903c16d01fe2e6fb98848fc5793c706902"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 24915,
+     "sha256": "2b04ea36cd81b994b3883ae999f572d1511a555bbfaa0bf8b9bd1582124d72c8"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 25327,
+     "sha256": "b00e4ee22c4ac71012898b09ad0bc0a7203bc827cd52f1fd1b8021a3443c2aca"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 25109,
+     "sha256": "034ced58e3c58ce7331ea290c9913886332c57020bbe8d0c8df68ec75641ea42"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 28762,
+     "sha256": "9f273767d20107372ca835ed2abffd76c2cfd222a52aae4cb4b7db22c862cc53"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 26715,
+     "sha256": "e77bf2f3f9ca931d8a51931d2bf8ef9560e18b21c4b44cc340f3b246646a867d"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 28704,
+     "sha256": "65b853bda2c4142f6e193d508bb32645f4b9463ff3b1f6cbc24df7275e663cd2"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 28590,
+     "sha256": "a0baf39475b6115223ee6009e6e64751a08e9281e8a7e14b7cbf66a121b41d59"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 29413,
+     "sha256": "bdb264a12b3bad391151c01d15bc9d6797c8ce233869d5bba9096fe9cdeb14ba"
+    },
     "weeks/weekly_results_w01.json": {
      "bytes": 26543,
      "sha256": "a285432eca6a38294db4da4023521c3a9188e519d60aeda24c312a042e1a5c21"
@@ -2388,6 +3540,74 @@
     "weekly_results.json": {
      "bytes": 26309,
      "sha256": "dee0226b933edb5a34a7b4433c51e999c74ca92df6d2dee616bba8a5e247a181"
+    },
+    "weeks/player_scores_w01.json": {
+     "bytes": 28470,
+     "sha256": "7b099dccdb52b0c408dbcbc80779adf720ecc0983545c311830f65677ec6064e"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 28575,
+     "sha256": "1a8c35c0dff9904a7cae4d9fc7b609cd68db4248c163d6c934bc592280c35445"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 28175,
+     "sha256": "00da49d0255cf0ee414ffae8c09a02617334bb48e04ec63c62a98f804690fd71"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 28125,
+     "sha256": "59b831c3e0e55dceaa65091be3a40061d629eb2c8e73a4192ce38c8a513d3acf"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 28060,
+     "sha256": "46144f93637932f8a85cfdd83c4e223c790a7d43b16afdcf2406e2e97dbfa7b9"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 24920,
+     "sha256": "12d5299b073ad4c1a107f00d1e9905b29eb82453ef4ec7cf701458c91280e3ea"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 23112,
+     "sha256": "04263d55cff231fc427e222047977d458efbae1171cb07a44a5319c115e44e59"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 26486,
+     "sha256": "1b2f7a205ce87291617f1eabc62a8a58944f246fa52c14bfea71d7db088b0d1a"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 24737,
+     "sha256": "eef81453b5ff422e63f8808cce6418a0eb9431e28c9bf6bd94a27907a82c6277"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 25396,
+     "sha256": "d27d048215c63ef01195bfb32331d3c73660ed8aaadc4676cd46da18050b8e6b"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 26869,
+     "sha256": "d0ba71d7309f13da871e616deabec8c29d38b6ba427a33b2062d48525fccdaca"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 26879,
+     "sha256": "6eca66321aa1d2a1a97f335f7dd42dd4a0c448981a6a826a6aee585fffaba82d"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 25097,
+     "sha256": "8e68299cdda1465dbc92bdaf5de76c5673e1b573ff1e31c43f985721f22f4834"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 25061,
+     "sha256": "f9cf545ff62d686e069cf517ce62aa26eededce9401dbf3fde5ae91bb60bf6b3"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 28987,
+     "sha256": "ee84e99b61cd5dab13d25510c56745cde41cfc84a566398bc28cd4410401305d"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 28833,
+     "sha256": "dcc3f7023bb406777127ec72519c6a0dc040349a25492a2964240013c4480e54"
+    },
+    "weeks/player_scores_w17.json": {
+     "bytes": 28543,
+     "sha256": "5ceb79be310c9c588a7ce78be53106ad2ea2e6b910b76246394145313e8e928b"
     },
     "weeks/weekly_results_w01.json": {
      "bytes": 26309,
@@ -2522,6 +3742,74 @@
      "bytes": 26121,
      "sha256": "3f9090aed0df8b7f3ed38e937640785fbeaf089d9576c1dca6bc1cd1ee388a90"
     },
+    "weeks/player_scores_w01.json": {
+     "bytes": 27997,
+     "sha256": "f529a2535ea33e31bdce48ac6850f3d30d2ca2fa8a6bbeeca8447eb4ba619324"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 27890,
+     "sha256": "db9e07bb91e0037c0b4dff97917bfab17a5a596b8b8238457dbf95891dddd8da"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 27830,
+     "sha256": "686f722cb8dc95ab381e7e64e15485574f49d19bb165e327be04026c403f0dc8"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 27894,
+     "sha256": "c8d01f68d22c789e2aafa2407d5ba1687a28e77c091614f885930ffcc8228305"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 27537,
+     "sha256": "2d9025498185d56fcc01585dc05ccc54a693d139543f4bf5aa0fdc313f848f5e"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 24458,
+     "sha256": "541525c7cf0af72da1359de35051d042bd3fa23aebfb7a7a0b052d21ae479cc9"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 24401,
+     "sha256": "f3025aa58cd6e5daee0e53b033739f4b2f264fbfbbdd27b62105c48ca5421d0e"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 25907,
+     "sha256": "9435ff83be229192906536ed70c43acb6b0a8814d5a57a1e18c7e38f0d379abd"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 22749,
+     "sha256": "a23040fa9c8b926baebdd0ffab1acdf6858faa05d8a50d88c32ae733279d7281"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 25165,
+     "sha256": "dbc4d38d70841dfb472059a2359ecebc57684ef1d5aac165fb8a806ac263029c"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 24929,
+     "sha256": "386dd4a4d322e906101090845613e62731a1676383a63d8568ab0a5dfd147dea"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 28019,
+     "sha256": "7d8af8d95fed3ed102416f0ba7f827a12be947c028598cedcb6e7b76122f2bfc"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 26895,
+     "sha256": "ee1bc901e540a6dc3a302e72d8fc6b8c368076e18c2cdd2563972c0ac6d3a63a"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 23399,
+     "sha256": "0bd7a88acb31ca454813f3e0f1ca4e728e6719990ab1ec8a88cff49e2fe2af67"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 28313,
+     "sha256": "eee22938fc948292d096230bcf06cc7e74e2fa99fab4e18cac8751e084888d18"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 28597,
+     "sha256": "9ddcce62162a1bac7ab5e4541d5ce34596d09e770ed2992e9a93c1a0d8a105c6"
+    },
+    "weeks/player_scores_w17.json": {
+     "bytes": 26996,
+     "sha256": "90d77e8982594cb80e2cd01138efa246cd95ab4362a95a7fe5d4570db833ee89"
+    },
     "weeks/weekly_results_w01.json": {
      "bytes": 26121,
      "sha256": "598a5059879858f8979e9a6fde76326efa541eadf7fae7cc73baff6c783e37ec"
@@ -2654,6 +3942,74 @@
     "weekly_results.json": {
      "bytes": 26318,
      "sha256": "1b4829dfaf83a8ea9ba46d94c72321de71feaf05926f5811985fd9340869ae36"
+    },
+    "weeks/player_scores_w01.json": {
+     "bytes": 28047,
+     "sha256": "878325ac5b214f6cb92e3a80ca21da0d5764152221d7d92a631d6e6f61d341dd"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 27901,
+     "sha256": "db0cdd37723f5a17dca8fc2ea2c89c9abb73875e9728e964a8643a0ff9e45215"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 28064,
+     "sha256": "d214efc30ba6d32ebc9607f0bae583f39305343b135f9c58f3927d0cd3aeb4a2"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 28114,
+     "sha256": "305c57b118aa354309b018472f497ae3fbd66fbc7128f9d692e81c3f29c36ad3"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 24634,
+     "sha256": "3dc644dcc5f4f96abf915c0cb8f984c57e179917698c41bb5998bc98bb9021e7"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 26605,
+     "sha256": "8d9d2a803f093754d3c807b313672deb9143ee089ad981355107524a4772352a"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 22885,
+     "sha256": "e6c10a1e15a355ef16bec8f68c0d229eba60455720d7728d9bd382506808f6d4"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 28302,
+     "sha256": "797ddc73df9298ae162838e8caaf78fc44c16a06e8d3592a3c679ffb84589408"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 24455,
+     "sha256": "16341dc6cc8780bcb4a773d835c969c820c9e84e89835b90493b1a409bc1a684"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 25005,
+     "sha256": "db0e20887f0ab06455a5ffd12790441d5e0cce30d47affb2edc81e71c7ee39d8"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 25464,
+     "sha256": "f08a231c83c6b06dd6cf9dba817282c1d2102ae395415fadd7d8400fa853a70f"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 28368,
+     "sha256": "0cdd9672f12cc19c81b49a0c523f2d38e5c96a66592d8aef99f32c6e042335e8"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 23043,
+     "sha256": "392d176b2e63547862bbf6006698735e7c0fe3c4e199a8809578f307754628d2"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 26882,
+     "sha256": "dd212251ee812ff769e14caae77d4e883d090c034ab2bc3fd5a85155fc8301f2"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 28718,
+     "sha256": "a25e881506f17c50328c155cc17c81ee29fc8f71b79010c210b81b984163babc"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 28322,
+     "sha256": "3aa2c5c92bb73974cd105fc98f2104fcb4c0d5decbb3777d7c82bd5098b3fde6"
+    },
+    "weeks/player_scores_w17.json": {
+     "bytes": 27903,
+     "sha256": "eee4bba6d317e63d354df1fb432664c7ab25a2b72f5cb0aa7841ffa198e2adba"
     },
     "weeks/weekly_results_w01.json": {
      "bytes": 26318,
@@ -2788,6 +4144,74 @@
      "bytes": 26299,
      "sha256": "dbdea7eccd4172ad7783afd295589fa29f1433ff2156c18b4af4cae2a3ce0d53"
     },
+    "weeks/player_scores_w01.json": {
+     "bytes": 28182,
+     "sha256": "22623e347dc463308798678266dbb6a43346c8c3669c50dc6ed6d3a28a3195a1"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 28053,
+     "sha256": "42ee48eebd389412130f69b1f10499be601e959783bee585e6fd969d7c3b88ec"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 28124,
+     "sha256": "9ed8bd83212df63431c82634d25819d3c71925b58aa65b60a1a75bf5de8cde22"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 27653,
+     "sha256": "daf6ef3557463b1d5c153209e62fedaeb2c1eb70b0e26997ce6e4a4ee7d903da"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 24589,
+     "sha256": "54b80b14eb1493c2882c3821c25af9de4fe9ef57069ede7edab1c61521c384d3"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 24467,
+     "sha256": "cd73edbe836867a458fa26ac35cfa57543b4c8bbe3602287ecd622bc5bef868f"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 26898,
+     "sha256": "175f52809ddf5b92b2d31de936250431418df3835968c2915b1d1edc0508288f"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 27792,
+     "sha256": "75f665c2e3ccf9fd77c4cd19981311f0b281c94aa66a3b12cba116395730a6be"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 25741,
+     "sha256": "4d58af8903a203ae688dfec230cb3a8ad3b510987ec2ebc63eff0faae942a37c"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 24636,
+     "sha256": "4484448eb1f3ec1ccff4f82da4e0cae80c82e40c1421eec0c0d3ef8038b1534d"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 24589,
+     "sha256": "d2f13c8da452ba58d982ac46fdbcf4ff56beb6655b53ab019ae0d429b55d15da"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 23176,
+     "sha256": "9cddeaae4aa674c2db54ce4377d767ebd66ba8e6aa2ac6e25fbf6cea78402dde"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 28091,
+     "sha256": "d897fb9c101bae39c4cdfdd4a07653635c5d51978dd5113ed555863da2194dba"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 23284,
+     "sha256": "b6ab6be8beb69c18237ccf6054de4b32a44fc2273d2075eb98016fd31a31793d"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 28373,
+     "sha256": "99b28edf6dcdbc7fc0142049df0b8684935a86d744ca9feec9f1429176ac77bc"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 28027,
+     "sha256": "559dbe31fbe63b09ae619d05dfe1a514269b573d6b401b08f2c355c5d4decf86"
+    },
+    "weeks/player_scores_w17.json": {
+     "bytes": 28969,
+     "sha256": "e9c281f306ffa9ac2d17d9efc18082780e8165d0c879e34bd2ca48078afcbeea"
+    },
     "weeks/weekly_results_w01.json": {
      "bytes": 26299,
      "sha256": "abddb4a2b1bfc65160d93ce26d7930a37bdbf921967adea7a77f2c09daa834d8"
@@ -2921,6 +4345,74 @@
      "bytes": 26271,
      "sha256": "e6e41b0d46dbde2486d22dbeba6a0e71ab590095fb07c2f9765180267eca7ac8"
     },
+    "weeks/player_scores_w01.json": {
+     "bytes": 27830,
+     "sha256": "515e2f591b92e9fb864250895af9b8d3107dbff7dd7f204a99c899fbab62adcc"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 28080,
+     "sha256": "faa00f07e058e9648c255a598af1d6ad2aa1ce64db532f7708e783644f5c77d7"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 27954,
+     "sha256": "3e677ec0be5de8d166ac7679011288acadab69e1851cfeed27b702a453189e09"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 27784,
+     "sha256": "bf50fa81e6442f706801caaba9b031c69be6bb427c82d831e32e0149ed8c6cbc"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 24881,
+     "sha256": "26e300b8e8427d181360c4f2ee9c8e35cf360299d7e2f95642ec926df033ee0f"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 25737,
+     "sha256": "0c19286a72e10ec73866a9a6a0ec4f68462f7db2732f3f8be7ac11855bd445e2"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 26148,
+     "sha256": "46a5303089f220bd6491c9dce1bad5183930746538969c9f152b969cbc2cac12"
+    },
+    "weeks/player_scores_w08.json": {
+     "bytes": 22786,
+     "sha256": "b36cfc17db96bf98b68936c24b9a6d5aad015a1c5b076bddab0f27af366d9756"
+    },
+    "weeks/player_scores_w09.json": {
+     "bytes": 24295,
+     "sha256": "eb4906cd1bca9b08b6623dd2af587b8bc460ea23125c44ee541949cc13a2e0ed"
+    },
+    "weeks/player_scores_w10.json": {
+     "bytes": 24934,
+     "sha256": "c3f1757a7bc7ba9dfd81e2caa3d0aa79bee030276990224d54e06c37eedab30b"
+    },
+    "weeks/player_scores_w11.json": {
+     "bytes": 26816,
+     "sha256": "0f3a6b41839808f7b3731c19a706ddb7393ad10dd7aae74fc4d0d72bff440d6b"
+    },
+    "weeks/player_scores_w12.json": {
+     "bytes": 24816,
+     "sha256": "567a92a6bf7d5a6a3d91aeaeb233dcb8793702b61286c442896e00600b797272"
+    },
+    "weeks/player_scores_w13.json": {
+     "bytes": 28195,
+     "sha256": "851b95d7be7e9abe7fa6a271353686c138be89e398408aa903c362220f961eb4"
+    },
+    "weeks/player_scores_w14.json": {
+     "bytes": 25059,
+     "sha256": "5782eee2cd41fee6283509857992d9e7a92aaaf1253361b97995087dec83c753"
+    },
+    "weeks/player_scores_w15.json": {
+     "bytes": 28082,
+     "sha256": "a943bfc81e6b84a1150f0d187caa63e78b66e97af0c461c85e4cf5cff8dd8465"
+    },
+    "weeks/player_scores_w16.json": {
+     "bytes": 28495,
+     "sha256": "64511625c0ceeb975b7871891900f965236f2d236bfcefea6fffcfe14259384c"
+    },
+    "weeks/player_scores_w17.json": {
+     "bytes": 28066,
+     "sha256": "8db3c058ac481e5ccc1bddf9beb3324adac4f5a380699e9253f388aeb1f6c9a2"
+    },
     "weeks/weekly_results_w01.json": {
      "bytes": 26271,
      "sha256": "d68b55c827c18e824103195bae2e31c5e5becb3facaa130bcac191ff0befaace"
@@ -3053,6 +4545,34 @@
     "weekly_results.json": {
      "bytes": 26304,
      "sha256": "beee30c86904bc6a1077ab9a06a60241665bb252e35bad839c4247d01ac4d5c0"
+    },
+    "weeks/player_scores_w01.json": {
+     "bytes": 28419,
+     "sha256": "f34b7ce3d855f713849e0e51cccdcb20ae8f8dbff50bee6c2c1078834a9b37d4"
+    },
+    "weeks/player_scores_w02.json": {
+     "bytes": 28520,
+     "sha256": "701962dbd96bc511ec16b2a2a818a10ad238ee98a58f4c2eddc62c49c54a3cfc"
+    },
+    "weeks/player_scores_w03.json": {
+     "bytes": 28319,
+     "sha256": "68cea58eef70f8ca3e463ae326cee84556ea6f266700df05593643d455a52041"
+    },
+    "weeks/player_scores_w04.json": {
+     "bytes": 27618,
+     "sha256": "08b15672ed74a9a20c73e25c297c0430b88a9d6d7ce810bb54e4646d657f9471"
+    },
+    "weeks/player_scores_w05.json": {
+     "bytes": 26440,
+     "sha256": "b944323b144b7a571dad7bd1d67a1814eb27394d6db923361ce4016107f1224f"
+    },
+    "weeks/player_scores_w06.json": {
+     "bytes": 24526,
+     "sha256": "0172b0617657b769c91cbb472137d4de37124a62d1a688b52da9bbc0f9af4053"
+    },
+    "weeks/player_scores_w07.json": {
+     "bytes": 24457,
+     "sha256": "292757603edddba4fca6da50581042946e4cd54e7897b91f83baf2e4d7d0fa0b"
     },
     "weeks/weekly_results_w01.json": {
      "bytes": 26304,
@@ -3249,6 +4769,6 @@
    }
   }
  },
- "total_bytes": 20477215,
- "total_files": 774
+ "total_bytes": 28985417,
+ "total_files": 1154
 }

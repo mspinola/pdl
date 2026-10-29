@@ -111,8 +111,13 @@ def capture(year, lid, kind, params, force=False):
     return ("error" if note else "fetched"), note
 
 
+WEEKLY_KINDS = [("weekly_results", "weeklyResults"),   # lineups: every rostered player, started or not
+                ("player_scores", "playerScores")]     # every player who scored, free agents too
+
+
 def capture_weeks(year, lid, force=False):
-    """Every week's lineups and scores: weeks/weekly_results_wNN.json.
+    """Every week's lineups and scores: weeks/weekly_results_wNN.json, and every
+    player's score that week, free agents included: weeks/player_scores_wNN.json.
 
     The weeks are the ones the season's schedule lists. A week with no matchups
     yet (later weeks of the season in progress) is skipped, so a re-run with
@@ -127,44 +132,47 @@ def capture_weeks(year, lid, force=False):
     tally, notes = {}, []
     for w in weeks:
         m = w.get("matchup")
-        if not m or not any(isinstance(x, dict) and x.get("franchise") for x in (m if isinstance(m, list) else [m])):
-            continue
-        week = int(w["week"])
-        played = any(f.get("score") not in (None, "", "0") for x in (m if isinstance(m, list) else [m])
+        games = m if isinstance(m, list) else [m] if m else []
+        played = any(f.get("score") not in (None, "", "0") for x in games if isinstance(x, dict)
                      for f in (x.get("franchise") or []) if isinstance(f, dict))
         if not played:
             continue
-        dest = f"{out_dir}/weekly_results_w{week:02d}.json"
-        if os.path.exists(dest) and os.path.getsize(dest) > 2 and not force:
-            tally["have"] = tally.get("have", 0) + 1
-            continue
-        os.makedirs(out_dir, exist_ok=True)
-        body, err = None, None
-        for attempt in range(6):
-            try:
-                body, _ = fetch(year, {"TYPE": "weeklyResults", "W": week, "L": lid, "JSON": 1})
-                json.loads(body)
-                break
-            except urllib.error.HTTPError as e:
-                err = str(e)
-                if e.code != 429:
-                    break
-                # MFL rate-limits bursts: wait as long as it asks, or back off
-                wait = int(e.headers.get("Retry-After") or 0) or 20 * (attempt + 1)
-                time.sleep(min(wait, 180))
-                body = None
-            except Exception as e:  # noqa: BLE001
-                err, body = str(e), None
-                break
-        if body is None:
-            notes.append((year, f"week {week}", err))
-            tally["failed"] = tally.get("failed", 0) + 1
-            continue
-        with open(dest, "w") as f:
-            f.write(body)
-        tally["fetched"] = tally.get("fetched", 0) + 1
-        time.sleep(2.5)
+        week = int(w["week"])
+        for kind, mfl_type in WEEKLY_KINDS:
+            dest = f"{out_dir}/{kind}_w{week:02d}.json"
+            if os.path.exists(dest) and os.path.getsize(dest) > 2 and not force:
+                tally["have"] = tally.get("have", 0) + 1
+                continue
+            os.makedirs(out_dir, exist_ok=True)
+            body, err = fetch_with_backoff(year, {"TYPE": mfl_type, "W": week, "L": lid, "JSON": 1})
+            if body is None:
+                notes.append((year, f"{kind} week {week}", err))
+                tally["failed"] = tally.get("failed", 0) + 1
+                continue
+            with open(dest, "w") as f:
+                f.write(body)
+            tally["fetched"] = tally.get("fetched", 0) + 1
+            time.sleep(2.5)
     return tally, notes
+
+
+def fetch_with_backoff(year, params, tries=6):
+    """(body, None), or (None, error). MFL rate-limits bursts with 429: wait as
+    long as it asks, or back off."""
+    err = None
+    for attempt in range(tries):
+        try:
+            body, _ = fetch(year, params)
+            json.loads(body)
+            return body, None
+        except urllib.error.HTTPError as e:
+            err = str(e)
+            if e.code != 429:
+                return None, err
+            time.sleep(min(int(e.headers.get("Retry-After") or 0) or 20 * (attempt + 1), 180))
+        except Exception as e:  # noqa: BLE001
+            return None, str(e)
+    return None, err
 
 
 # The league's own pages, which are the only source for the seasons MFL has
