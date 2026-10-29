@@ -7,6 +7,10 @@ on:
     branches: [main]
     paths: ["rules/**", "mfl_archive/**", "src/**", "site/**", "datasets/**", ".github/workflows/pages.yml"]
   workflow_dispatch:
+  # a push from the weekly refresh does not start other workflows, so run after it
+  workflow_run:
+    workflows: ["Weekly refresh"]
+    types: [completed]
 
 permissions:
   contents: read
@@ -19,6 +23,7 @@ concurrency:
 
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

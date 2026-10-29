@@ -208,7 +208,10 @@ side of the 2018 scoring change compare.
 ## The site
 
 <https://mspinola.github.io/pdl/>, rebuilt on every push by
-`.github/workflows/pages.yml`: every season since 2000, every franchise, head
+`.github/workflows/pages.yml`, and kept current through the season by
+`.github/workflows/refresh.yml`, which every Tuesday captures the season in
+progress, rebuilds everything (`bin/refresh.sh`), checks, and commits what
+changed. The site has every season since 2000, every franchise, head
 to head, trades, drafts, the record book, the analyses and the rule book.
 `python3 site/build.py` builds it into `site/dist/`. Each section is a module in
 `site/` (`seasons_pages.py`, `franchise_pages.py`, `h2h_pages.py`,

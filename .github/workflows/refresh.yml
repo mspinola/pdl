@@ -1,0 +1,50 @@
+# Keep the archive and the site current through the season, with no one at a
+# keyboard: capture the season in progress from MyFantasyLeague, rebuild every
+# dataset, analysis and page from the archive, check, and commit only what
+# changed. Pages then republishes (pages.yml runs when this finishes).
+#
+# Everything fetched is guest-readable, so no login or secret is needed. The
+# commissioner-only polls and the summer meeting record stay manual (YEARLY.md).
+name: Weekly refresh
+
+on:
+  schedule:
+    - cron: "0 15 * * 2"   # Tuesdays, after Monday night's games
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90      # MFL rate-limits, and the capture waits as long as it asks
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Capture the current season from MFL
+        run: python3 src/archive_mfl.py --season current
+      - name: Rebuild everything from the archive
+        run: sh bin/refresh.sh
+      - name: Check for owner names, and the archive against its manifest
+        run: |
+          python3 src/check_no_owner_names.py
+          python3 src/archive_mfl.py --verify
+      - name: Commit what changed
+        run: |
+          git config user.name "pdl weekly refresh"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          # the manifest's capture time changes every run, so it alone is no reason to commit
+          if git diff --cached --quiet -- . ':(exclude)mfl_archive/manifest.json'; then
+            echo "Nothing new from MFL this week."
+            exit 0
+          fi
+          git commit -q -m "Weekly refresh, $(date -u +%Y-%m-%d)"
+          git push

@@ -75,6 +75,26 @@ def sha256(path):
     return h.hexdigest()
 
 
+def canonical(x):
+    """The same data in a fixed order: MFL returns keys, and the records in a
+    list, in a different order from one request to the next."""
+    if isinstance(x, dict):
+        return {k: canonical(v) for k, v in sorted(x.items())}
+    if isinstance(x, list):
+        return sorted((canonical(v) for v in x), key=lambda v: json.dumps(v, sort_keys=True))
+    return x
+
+
+def unchanged(dest, body):
+    """True when the file already holds this data, in whatever order MFL sent it."""
+    if not os.path.exists(dest):
+        return False
+    try:
+        return canonical(json.load(open(dest))) == canonical(json.loads(body))
+    except (OSError, ValueError):
+        return False
+
+
 def fetch(year, params):
     url = f"https://api.myfantasyleague.com/{year}/export?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={"User-Agent": UA})
@@ -105,9 +125,11 @@ def capture(year, lid, kind, params, force=False):
     if isinstance(data, dict) and "error" in data:
         err = data["error"]
         note = err.get("$t") if isinstance(err, dict) else str(err)
+    time.sleep(1.0)
+    if unchanged(dest, body):
+        return "same", None   # keep the stored copy, so a re-capture only changes what changed
     with open(dest, "w") as f:
         f.write(body)
-    time.sleep(1.0)
     return ("error" if note else "fetched"), note
 
 
@@ -149,10 +171,13 @@ def capture_weeks(year, lid, force=False):
                 notes.append((year, f"{kind} week {week}", err))
                 tally["failed"] = tally.get("failed", 0) + 1
                 continue
+            time.sleep(2.5)
+            if unchanged(dest, body):
+                tally["same"] = tally.get("same", 0) + 1
+                continue
             with open(dest, "w") as f:
                 f.write(body)
             tally["fetched"] = tally.get("fetched", 0) + 1
-            time.sleep(2.5)
     return tally, notes
 
 
@@ -210,6 +235,8 @@ LEGACY = [
     # every add and drop before MFL kept a transaction log (it starts in 2008)
     "pdl2000/trans.html", "pdl2001/trans.html", "pdl2002/trans.html", "pdl2003/trans.html",
     "pdl2004/trans.html", "pdl2005/trans.html", "pdl2006/trans.html", "pdl2007/trans.html",
+    # the 2005 to 2007 drafts, by team (the by-round page for 2007 is an empty template)
+    "pdl2005/setup/draft_team.html", "pdl2006/setup/draft_team.html", "pdl2007/setup/draft_team.html",
     "setup/PDL_Rules.htm",
 ]
 
@@ -439,5 +466,7 @@ if __name__ == "__main__":
     # progress is kept current; finished seasons are captured once and left alone
     only = None
     if "--season" in sys.argv:
-        only = {int(sys.argv[sys.argv.index("--season") + 1])}
+        arg = sys.argv[sys.argv.index("--season") + 1]
+        # "current" is the newest season in LEAGUES, which is what the weekly refresh captures
+        only = {max(LEAGUES) if arg == "current" else int(arg)}
     main(force="--force" in sys.argv, only=only)

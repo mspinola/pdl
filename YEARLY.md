@@ -5,7 +5,16 @@ deletes old message boards and could disappear outright, so anything not
 captured here is eventually lost. Every command runs from the repository root
 and needs only the Python standard library.
 
-There are three windows:
+**During the season this runs itself.** Every Tuesday the Weekly refresh
+workflow (`.github/workflows/refresh.yml`) captures the season in progress from
+MFL, rebuilds everything, runs the checks, commits what changed and republishes
+the site. Nothing below is needed for that. Run it by hand from the repository's
+Actions tab ("Weekly refresh", Run workflow) to update mid-week. If a run fails,
+nothing is committed and GitHub emails the repository owner.
+
+What still needs a person is what the workflow cannot do: start a new season,
+read the commissioner-only polls, record the summer meeting, and update the
+original site. There are three windows:
 
 | When | Why | Steps |
 |---|---|---|
@@ -119,26 +128,15 @@ are linked by roster overlap, not by name.
 
 ## 6. Rebuild the datasets
 
-In this order (the README's Pipeline section says what each one writes):
+The weekly workflow does this in season. By hand, after anything in steps 0 to 5:
 
 ```bash
-python3 src/store.py
-python3 src/link_franchises.py      # check: no franchise id mismatches
-python3 src/owners.py
-python3 src/identities.py
-python3 src/archive.py
-python3 src/trades.py
-python3 src/export_bundle.py
-python3 src/analyze.py
-python3 src/archive_games.py
-python3 src/results.py              # check: games and champions agree
-python3 src/h2h.py
-python3 src/transactions.py
-python3 src/transactions_analysis.py
-python3 src/lineups_luck.py
-python3 src/got_away.py
-python3 src/draft_value.py
+sh bin/refresh.sh
 ```
+
+It runs every step in order: the franchise links, owners and identities, trades,
+games and results, head to head, transactions, lineups and luck, the ones that
+got away, draft value, the rule book and its MFL check, and the site.
 
 `src/fetch_mfl.py` and `src/fetch_results.py` are not needed: they fill the
 older `raw/` cache, and everything now reads the archive through `src/store.py`.
