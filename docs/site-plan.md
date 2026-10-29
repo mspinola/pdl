@@ -98,6 +98,45 @@ section instead of renumbering the rest, so old references still land.
 The trade dashboard stays as a working view. Its content moves into the Trades
 and Head to head pages.
 
+## Moose easter eggs
+
+Everyone secretly loves the Manic Moose, America's Team. They just won't admit
+it. The site admits it for them, quietly. Built in Phase 1.
+
+All eggs live in one file, `site/eggs.json`, mapping a trigger (team, season,
+pairing, route) to its effect, so they are easy to add each season and easy for
+anyone to audit. None of them changes a number or a rule: the rule book and the
+values in data tables stay authoritative. Team names only, as everywhere.
+
+**Quiet, triggered by the data**
+
+- **Antlers on hover.** Wherever "Manic Moose" appears in a table, a small
+  antler SVG fades in above the name. Pure CSS on a class the build adds.
+- **Rivalry footnotes.** One-line captions on the pairing pages where the data
+  says something, chosen by the build: the Blitzkrieg series (Moose lead 37-13)
+  and, in fairness, the series the Moose lose.
+- **Title seasons.** On the 2007, 2012 and 2023 season pages, the champion
+  banner carries a moose silhouette watermark.
+- **"The Year of the Moose."** A tooltip on the 2017 season page, after the
+  subject line of that summer's commissioner email.
+
+**Hidden, found by poking around**
+
+- **The 404 page.** "This page has been retained by the Moose," with the
+  running moose.
+- **The console.** Dev tools open to an ASCII moose and `Moose are loose!`
+- **`/moose`.** An unlinked franchise museum: America's Team, the best all-time
+  win rate in the league (.630), three titles, a trophy case.
+- **Moose mode.** The Konami code (up up down down left right left right B A)
+  turns the accent color moose brown, sends the running moose across the
+  screen, and briefly renames every team in the standings "Moose" before it
+  snaps back. About 20 lines of plain JavaScript.
+
+**The running moose.** The animated GIF from the league-wide emails is the
+signature. Use that exact one if its origin allows publishing it; otherwise a
+small animated SVG or CSS moose drawn for the site, which also scales cleanly
+and has no licensing question.
+
 ## How it is built
 
 - **A standard-library Python build script** (`site/build.py`) reads
@@ -119,7 +158,7 @@ and Head to head pages.
    exists only in the older local checkout of the legacy site (that checkout is
    one commit behind GitHub, so pull before committing there).
 1. **Skeleton and the rule book**: site structure, styling, the baseline, the
-   ledger, and the layered rule book.
+   ledger, the layered rule book, and the Moose easter eggs.
 2. **Seasons and franchises.**
 3. **Trades, head to head, drafts, records.**
 4. **Launch**: the notice on the legacy home page, and the link from the MFL
@@ -177,6 +216,11 @@ it, and so do the pages.
 - [x] Archive the rules record: `changes.html`, `changes2002.html`, the 2004
       HTML edition, and text extracted from the three Word and PDF editions
 - [ ] Site skeleton and build script
+- [ ] Moose easter eggs: `site/eggs.json`, antler hover, rivalry footnotes,
+      title-season watermark, 2017 tooltip, 404 page, console moose ("Moose
+      are loose!"), `/moose` museum, Moose mode
+- [ ] Find the running-moose GIF in the league emails and settle whether it can
+      be published, or draw an SVG replacement
 - [ ] Season pages
 - [ ] Franchise pages
 - [ ] Trades, head to head, drafts, records
