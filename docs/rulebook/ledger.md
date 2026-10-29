@@ -84,7 +84,7 @@ Seasons not listed kept the previous fee, as far as the record shows.
 ### 2.2 Regular Season
 
 - **2007** *(in practice)*: The thirteen-game schedule plays three games against the other division in a team's conference and four against an alternating division in the other conference, the reverse of the 2006 book's four and three.
-  - Evidence: MFL's schedules, by conference: every team plays 4 conference and 3 non-conference games from 2003 to 2006, 3 and 4 from 2007 to 2020, and 4 and 4 from 2021. No source records a vote. The conferences are MFL's AFC (East and West) and NFC (East and West), the two that play separate playoff brackets.
+  - Evidence: MFL's schedules, by conference: every team plays 4 conference and 3 non-conference games from 2003 to 2006, 3 and 4 from 2007 to 2020, and 4 and 4 from 2021. No source records a vote. The conferences are MFL's AFC (East and West) and NFC (East and West), the two that play separate playoff brackets. Asked on 2026-10-29, the commissioner was not sure whether it was a league decision, so it stays in practice.
   - Sources: MyFantasyLeague's archive (no written record)
 - **2021**: For the NFL's 18-week season: the regular season runs through week 14, the playoffs in weeks 15 to 17, and the trade deadline and the retainment-value cutoff each move one week later (values through week 17).
   - Evidence: MFL's schedules: 13 regular-season weeks and playoffs in weeks 14 to 16 every season to 2020, then 14 weeks and playoffs in weeks 15 to 17 from 2021. The extra game is a fourth against the other division in a team's own conference, so the schedule becomes 6 division, 4 conference and 4 non-conference games.
