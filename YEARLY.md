@@ -44,7 +44,10 @@ python3 src/archive_mfl.py --season 2027   # re-capture this season only
 python3 src/archive_mfl.py --verify        # every file against the manifest
 ```
 
-`--season` refreshes the one season named and leaves finished seasons alone.
+`--season` refreshes the one season named and leaves finished seasons alone,
+including each played week's lineups and scores (`mfl_archive/<season>/weeks/`).
+MFL rate-limits bursts, and the capture waits as long as MFL asks, so a full
+season's weeks take a few minutes.
 A plain run only fills in what is missing, and `--force` re-captures all of it.
 
 ## 2. Capture the message board
@@ -130,6 +133,11 @@ python3 src/analyze.py
 python3 src/archive_games.py
 python3 src/results.py              # check: games and champions agree
 python3 src/h2h.py
+python3 src/transactions.py
+python3 src/transactions_analysis.py
+python3 src/lineups_luck.py
+python3 src/got_away.py
+python3 src/draft_value.py
 ```
 
 `src/fetch_mfl.py` and `src/fetch_results.py` are not needed: they fill the

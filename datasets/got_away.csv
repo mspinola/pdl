@@ -1,0 +1,1761 @@
+season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_over_average,started_for,this_season_starts,next_season_starts,horizon_complete,reacquired
+2010,7,Karpet Munchers,"Gronkowski, Rob",TE,14,239.0,18.1,F-Jackie; Scooter's Boozers,1,13,True,True
+2010,3,OakalDoakals,"Gronkowski, Rob",TE,15,239.0,17.6,F-Jackie; Karpet Munchers; Scooter's Boozers,2,13,True,False
+2011,2,Manic Moose,"Cruz, Victor",WR,21,271.0,12.9,Beers,8,13,True,True
+2015,0,Tally Wackers,"Chiefs, Kansas City",Def,20,225.0,10.5,Beers; Blitzkrieg; Bunchalosers; Scooter's Boozers,10,10,True,False
+2015,2,Scooter's Boozers,"Chiefs, Kansas City",Def,19,216.0,10.2,Beers; Blitzkrieg; Bunchalosers,9,10,True,True
+2015,7,Blitzkrieg,"Chiefs, Kansas City",Def,18,206.0,9.9,Beers; Bunchalosers,8,10,True,True
+2010,2,Bunchalosers,"Lloyd, Brandon",WR,21,228.0,8.5,Da Funk,12,9,True,True
+2020,11,OakalDoakals,"Hurts, Jalen",QB,12,428.8,8.1,Otters,2,10,True,False
+2018,16,F-Jackie,"Patriots, New England",Def,10,169.0,8.0,Blitzkrieg,0,10,True,True
+2018,13,Beers,"Patriots, New England",Def,10,169.0,8.0,Blitzkrieg,0,10,True,True
+2018,11,Couchfire,"Patriots, New England",Def,11,176.0,8.0,Beers; Blitzkrieg,1,10,True,False
+2011,15,Beers,"Bears, Chicago",Def,12,163.0,7.8,Bunchalosers,0,12,True,False
+2016,8,Texas Nashvillians,"Ravens, Baltimore",Def,15,171.0,7.8,Otters,0,15,True,True
+2016,8,Texas Nashvillians,"Zuerlein, Greg",K,11,186.0,7.8,Carter's Commandos,0,11,True,False
+2010,2,Beers,"Graham, Jimmy",TE,14,141.0,7.6,Manic Moose; Otters,4,10,True,False
+2017,3,Beers,"Jaguars, Jacksonville",Def,22,206.0,7.4,Manic Moose; Texas Nashvillians,10,12,True,True
+2019,2,Otters,"Steelers, Pittsburgh",Def,24,241.0,7.2,Da Funk; Ho Train,9,15,True,False
+2023,11,Texas Nashvillians,"Brown, Chase",RB,14,269.4,6.8,F-Jackie,1,13,True,False
+2022,2,Couchfire,"Cowboys, Dallas",Def,27,244.0,6.3,OakalDoakals; Scooter's Boozers,12,15,True,False
+2024,3,Beers,"Seahawks, Seattle",Def,19,183.0,6.3,Da Funk; Otters; Scooter's Boozers,8,11,True,False
+2010,7,Tally Wackers,"Cruz, Victor",WR,8,113.0,6.2,Beers,0,8,True,True
+2015,12,Beers,"Vikings, Minnesota",Def,12,129.0,6.2,Da Funk,0,12,True,True
+2017,16,Otters,"Bears, Chicago",Def,13,162.0,6.2,Scooter's Boozers,0,13,True,True
+2017,9,Otters,"Bears, Chicago",Def,13,162.0,6.2,Scooter's Boozers,0,13,True,True
+2014,5,Da Funk,"Eifert, Tyler",TE,12,120.0,6.1,Blitzkrieg,0,12,True,False
+2015,2,Beers,"Vikings, Minnesota",Def,13,135.0,6.1,Da Funk; Scooter's Boozers,1,12,True,True
+2017,3,Ho Train,"Woods, Robert",WR,13,186.2,6.1,OakalDoakals,4,9,True,False
+2015,5,Scooter's Boozers,"Vikings, Minnesota",Def,16,151.0,5.7,Beers; Da Funk,4,12,True,True
+2024,6,Otters,"Seahawks, Seattle",Def,14,148.0,5.7,Da Funk; Scooter's Boozers,7,7,True,True
+2011,3,OakalDoakals,"Patriots, New England",Def,16,171.0,5.6,F-Jackie; Manic Moose,4,12,True,False
+2016,10,Scooter's Boozers,"Rams, St. Louis",Def,14,145.0,5.6,Dunbar Dogs,0,14,True,False
+2016,8,Otters,"Ertz, Zach",TE,16,132.0,5.5,OakalDoakals,4,12,True,True
+2013,13,Karpet Munchers,"Forsett, Justin",RB,9,125.0,5.4,Bunchalosers,0,9,True,False
+2013,9,Otters,"Eagles, Philadelphia",Def,15,161.0,5.4,Dunbar Dogs; Scooter's Boozers; Texas Nashvillians,1,14,True,True
+2014,4,Bunchalosers,"Broncos, Denver",Def,20,189.0,5.4,Iron City Pounders; Manic Moose; Otters,7,13,True,False
+2011,7,Carter's Commandos,"49ers, San Francisco",Def,18,182.0,5.3,Beers; Otters,7,11,True,True
+2013,14,Texas Nashvillians,"Eagles, Philadelphia",Def,14,153.0,5.3,Dunbar Dogs; Scooter's Boozers,0,14,True,True
+2014,9,Otters,"Broncos, Denver",Def,18,172.0,5.1,Iron City Pounders; Manic Moose,5,13,True,True
+2022,14,Couchfire,"Williams, Kyren",RB,7,147.2,5.1,Otters,0,7,True,True
+2025,1,F-Jackie,"Seahawks, Seattle",Def,18,155.0,5.1,Otters; Scooter's Boozers; Texas Nashvillians,11,7,False,False
+2010,1,OakalDoakals,"Johnson, Steve",WR,18,174.0,5.0,F-Jackie,7,11,True,False
+2014,3,Iron City Pounders,"Chiefs, Kansas City",Def,17,165.0,5.0,Beers; Blitzkrieg; Bunchalosers; Scooter's Boozers,7,10,True,False
+2020,10,Scooter's Boozers,"Patriots, New England",Def,17,160.0,5.0,Carter's Commandos; Texas Nashvillians,3,14,True,False
+2019,5,Beers,"Tannehill, Ryan",QB,13,429.9,4.9,Couchfire; Karpet Munchers,3,10,True,False
+2025,8,Otters,"Seahawks, Seattle",Def,14,131.0,4.9,Scooter's Boozers; Texas Nashvillians,7,7,False,True
+2013,6,Beers,"Maclin, Jeremy",WR,12,143.0,4.8,Karpet Munchers,0,12,True,False
+2015,6,F-Jackie,"Walker, Delanie",TE,12,112.0,4.8,Carter's Commandos; Iron City Pounders,5,7,True,False
+2011,15,F-Jackie,"Patriots, New England",Def,12,134.0,4.7,Manic Moose,0,12,True,True
+2012,7,Carter's Commandos,"Prater, Matt",K,20,250.0,4.7,Iron City Pounders; Manic Moose; Scooter's Boozers,7,13,True,False
+2023,10,Beers,"Fairbairn, Ka'imi",K,14,190.0,4.7,Ho Train,0,14,True,True
+2022,6,Ho Train,"Engram, Evan",TE,18,198.3,4.5,Carter's Commandos; Scooter's Boozers,4,14,True,False
+2024,10,Karpet Munchers,"Myers, Jason",K,17,221.0,4.5,F-Jackie; Iron City Pounders; Tally Wackers; Texas Nashvillians,4,13,True,True
+2019,15,Beers,"Koo, Younghoe",K,11,161.0,4.4,F-Jackie; Scooter's Boozers,0,11,True,True
+2014,3,Da Funk,"Rams, St. Louis",Def,19,172.0,4.3,Dunbar Dogs; OakalDoakals,7,12,True,False
+2015,9,Bunchalosers,"Chiefs, Kansas City",Def,10,100.0,4.3,Beers,0,10,True,True
+2012,2,Otters,"Cardinals, Arizona",Def,14,145.0,4.2,Manic Moose,0,14,True,True
+2024,14,F-Jackie,"Myers, Jason",K,15,199.0,4.2,Iron City Pounders; Tally Wackers; Texas Nashvillians,2,13,True,True
+2009,10,Tally Wackers,"Branch, Deion",WR,7,89.0,4.1,Beers,0,7,True,False
+2023,13,Carter's Commandos,"Fairbairn, Ka'imi",K,15,192.0,4.1,Beers; Ho Train,1,14,True,True
+2015,12,F-Jackie,"Bryant, Matt",K,14,179.0,4.0,Iron City Pounders,0,14,True,False
+2022,5,Couchfire,"Browns, Cleveland",Def,16,153.0,4.0,F-Jackie; Manic Moose,1,15,True,True
+2023,17,Otters,"Broncos, Denver",Def,14,131.0,4.0,Manic Moose,0,14,True,True
+2023,3,Otters,"Broncos, Denver",Def,14,131.0,4.0,Manic Moose,0,14,True,True
+2012,4,Scooter's Boozers,"Alexander, Danario",WR,4,66.0,3.9,OakalDoakals,4,0,True,False
+2020,4,Scooter's Boozers,"Koo, Younghoe",K,9,135.0,3.9,F-Jackie; Manic Moose,8,1,True,True
+2023,10,Ho Train,"Sanders, Jason",K,16,198.0,3.9,Couchfire; Karpet Munchers; Manic Moose,5,11,True,False
+2017,2,Carter's Commandos,"Saints, New Orleans",Def,13,125.0,3.8,Couchfire; Manic Moose; OakalDoakals,7,6,True,True
+2021,14,Carter's Commandos,"Smith, Geno",QB,14,414.7,3.8,Da Funk,0,14,True,True
+2021,3,Scooter's Boozers,"Smith, Geno",QB,14,414.7,3.8,Da Funk,0,14,True,False
+2012,12,Iron City Pounders,"Prater, Matt",K,17,211.0,3.7,Manic Moose; Scooter's Boozers,4,13,True,True
+2020,3,Karpet Munchers,"Knox, Dawson",TE,9,122.1,3.7,Dunbar Dogs,0,9,True,False
+2023,14,Beers,"Boswell, Chris",K,12,159.0,3.7,Otters,0,12,True,True
+2009,9,Dunbar Dogs,"Fitzpatrick, Ryan",QB,1,52.0,3.6,Otters,0,1,True,True
+2024,16,Couchfire,"Texans, Houston",Def,15,125.0,3.6,Blitzkrieg,0,15,True,False
+2010,8,F-Jackie,"Robinson, Laurent",WR,4,60.0,3.5,Bunchalosers,0,4,True,False
+2015,9,Manic Moose,"Broncos, Denver",Def,15,121.0,3.5,OakalDoakals,0,15,True,True
+2017,2,OakalDoakals,"Kittle, George",TE,7,109.4,3.5,Blitzkrieg,0,7,True,True
+2013,7,F-Jackie,"Bills, Buffalo",Def,12,119.0,3.3,OakalDoakals,0,12,True,True
+2017,10,Ho Train,"Fairbairn, Ka'imi",K,14,176.0,3.3,Beers,0,14,True,True
+2023,11,Texas Nashvillians,"Boswell, Chris",K,13,163.0,3.3,Beers; Otters,1,12,True,False
+2011,11,Blitzkrieg,"Shorts, Cecil",WR,5,67.0,3.2,Iron City Pounders,0,5,True,False
+2013,11,Beers,"Dolphins, Miami",Def,11,111.0,3.2,Otters,0,11,True,True
+2017,11,Iron City Pounders,"Vikings, Minnesota",Def,14,121.0,3.2,Blitzkrieg; Ho Train,2,12,True,True
+2019,5,Otters,"Colts, Indianapolis",Def,18,153.0,3.2,Blitzkrieg; Carter's Commandos,6,12,True,True
+2022,6,OakalDoakals,"Williams, Kyren",RB,10,160.5,3.1,Couchfire; Otters,3,7,True,False
+2012,15,F-Jackie,"Rams, St. Louis",Def,13,126.0,3.0,Ho Train,0,13,True,True
+2012,12,Otters,"Rams, St. Louis",Def,13,126.0,3.0,Ho Train,0,13,True,True
+2014,7,Dunbar Dogs,"Eagles, Philadelphia",Def,17,147.0,3.0,Beers; Scooter's Boozers,8,9,True,False
+2018,15,OakalDoakals,"Murray, Latavius",RB,3,76.6,3.0,Couchfire,0,3,True,False
+2018,3,Carter's Commandos,"Zuerlein, Greg",K,16,178.0,3.0,Otters,6,10,True,True
+2020,4,Couchfire,"Bass, Tyler",K,19,214.0,3.0,Beers; Ho Train; Karpet Munchers; Manic Moose,6,13,True,True
+2024,4,Karpet Munchers,"Sanders, Jason",K,8,112.0,3.0,Manic Moose,8,0,True,False
+2009,0,OakalDoakals,"Johnson, Steve",WR,7,78.0,2.9,F-Jackie,0,7,True,True
+2014,2,Otters,"McManus, Brandon",K,10,123.0,2.9,Ho Train,0,10,True,False
+2018,1,Karpet Munchers,"Steelers, Pittsburgh",Def,18,156.0,2.9,Ho Train; Iron City Pounders; Otters,8,10,True,False
+2010,11,Bunchalosers,"Lions, Detroit",Def,10,98.0,2.8,Beers; Otters,1,9,True,True
+2021,9,Blitzkrieg,"Eagles, Philadelphia",Def,18,137.0,2.8,Carter's Commandos; F-Jackie,5,13,True,True
+2024,8,Texas Nashvillians,"Patriots, New England",Def,8,78.0,2.8,Couchfire; Iron City Pounders; Karpet Munchers,2,6,True,False
+2010,8,OakalDoakals,"Lions, Detroit",Def,11,104.0,2.7,Beers; Bunchalosers; Otters,2,9,True,True
+2018,10,Manic Moose,"Saints, New Orleans",Def,10,101.0,2.7,Couchfire; Ho Train; OakalDoakals,5,5,True,True
+2020,11,Texas Nashvillians,"Bills, Buffalo",Def,17,131.0,2.7,Manic Moose; OakalDoakals,3,14,True,False
+2024,5,Scooter's Boozers,"Dicker, Cameron",K,19,217.0,2.7,Blitzkrieg; Texas Nashvillians,8,11,True,False
+2009,5,Carter's Commandos,"Kaeding, Nate",K,17,165.0,2.6,F-Jackie; Manic Moose; Scooter's Boozers,8,9,True,False
+2013,8,Carter's Commandos,"Bryant, Matt",K,12,146.0,2.6,Blitzkrieg,0,12,True,False
+2014,3,Scooter's Boozers,"Landry, Jarvis",WR,16,151.0,2.6,Manic Moose,3,13,True,False
+2017,6,Bunchalosers,"Ebron, Eric",TE,13,153.5,2.6,Tally Wackers,0,13,True,False
+2011,12,F-Jackie,"Vikings, Minnesota",Def,5,61.0,2.5,Ho Train,0,5,True,False
+2013,0,Texas Nashvillians,"Murray, Latavius",RB,1,32.0,2.5,Bunchalosers,0,1,True,False
+2014,9,Beers,"Crosby, Mason",K,3,54.0,2.5,Iron City Pounders,3,0,True,False
+2017,6,Karpet Munchers,"Forbath, Kai",K,7,97.0,2.5,Texas Nashvillians,7,0,True,True
+2017,0,Beers,"Edelman, Julian",WR,11,162.0,2.5,Karpet Munchers,0,11,True,False
+2012,11,Bunchalosers,"Hauschka, Steven",K,13,158.0,2.4,Ho Train,0,13,True,True
+2013,12,Bunchalosers,"Colts, Indianapolis",Def,11,103.0,2.4,F-Jackie,0,11,True,True
+2019,12,Couchfire,"Hill, Taysom",QB,6,202.6,2.4,Otters,0,6,True,True
+2026,3,Blitzkrieg,"Reichard, Will",K,3,60.0,2.4,Beers; Da Funk,3,0,False,False
+2011,7,Blitzkrieg,"Chargers, San Diego",Def,3,44.0,2.3,Beers,0,3,True,False
+2015,10,Texas Nashvillians,"Hopkins, Dustin",K,6,82.0,2.3,F-Jackie; Otters,0,6,True,True
+2023,5,F-Jackie,"Vikings, Minnesota",Def,19,145.0,2.3,Beers; Scooter's Boozers; Texas Nashvillians,7,12,True,True
+2024,11,Karpet Munchers,"Patriots, New England",Def,7,66.0,2.3,Couchfire; Iron City Pounders,1,6,True,True
+2010,2,OakalDoakals,"Buehler, David",K,9,96.0,2.2,Carter's Commandos,9,0,True,False
+2017,7,Da Funk,"Myers, Jason",K,11,133.0,2.2,Ho Train,0,11,True,True
+2020,16,Beers,"Patterson, Cordarrelle",WR,6,95.9,2.2,Ho Train,0,6,True,True
+2020,1,Beers,"Patterson, Cordarrelle",WR,6,95.9,2.2,Ho Train,0,6,True,True
+2021,1,Ho Train,"Knox, Dawson",TE,17,168.4,2.2,Dunbar Dogs,9,8,True,False
+2022,9,Manic Moose,"Dolphins, Miami",Def,14,117.0,2.2,F-Jackie; Ho Train,2,12,True,False
+2023,13,Otters,"Smith, Jonnu",TE,6,74.5,2.2,F-Jackie,0,6,True,True
+2024,16,Iron City Pounders,"Patriots, New England",Def,6,59.0,2.2,Couchfire,0,6,True,True
+2009,8,Texas Nashvillians,"Chargers, San Diego",Def,13,115.0,2.1,Beers; Carter's Commandos,3,10,True,False
+2012,8,Manic Moose,"Bailey, Dan",K,16,186.0,2.1,Scooter's Boozers; Texas Nashvillians,1,15,True,True
+2015,4,Texas Nashvillians,"Prater, Matt",K,8,99.0,2.1,Blitzkrieg; Bunchalosers,2,6,True,False
+2020,6,Carter's Commandos,"Dolphins, Miami",Def,17,124.0,2.1,Karpet Munchers; Texas Nashvillians,5,12,True,True
+2020,2,Couchfire,"Eagles, Philadelphia",Def,14,107.0,2.1,Beers; Blitzkrieg; F-Jackie; Otters; Scooter's Boozers,8,6,True,False
+2022,16,Couchfire,"Browns, Cleveland",Def,15,124.0,2.1,Manic Moose,0,15,True,True
+2022,14,Couchfire,"Collins, Nico",WR,8,114.9,2.1,Beers,0,8,True,True
+2022,14,F-Jackie,"Browns, Cleveland",Def,15,124.0,2.1,Manic Moose,0,15,True,True
+2023,13,Texas Nashvillians,"Vikings, Minnesota",Def,4,50.0,2.1,Beers; Scooter's Boozers,1,3,True,True
+2009,9,Beers,"Redskins, Washington",Def,1,25.0,2.0,Tally Wackers,0,1,True,True
+2009,5,Manic Moose,"Redskins, Washington",Def,1,25.0,2.0,Tally Wackers,0,1,True,True
+2016,14,Otters,"Eagles, Philadelphia",Def,14,114.0,2.0,Iron City Pounders,0,14,True,True
+2018,13,Scooter's Boozers,"Fitzpatrick, Ryan",QB,2,77.8,2.0,Beers,0,2,True,True
+2018,1,Karpet Munchers,"Saints, New Orleans",Def,11,98.0,2.0,Couchfire; Ho Train; Manic Moose; OakalDoakals,6,5,True,False
+2020,5,F-Jackie,"Prater, Matt",K,14,154.0,2.0,Beers; Couchfire; Da Funk; OakalDoakals,2,12,True,True
+2020,4,Carter's Commandos,"Cowboys, Dallas",Def,10,82.0,2.0,Karpet Munchers; Otters,1,9,True,True
+2025,8,Iron City Pounders,"Myers, Jason",K,12,145.0,2.0,Beers; OakalDoakals; Texas Nashvillians,6,6,False,False
+2012,4,Manic Moose,"Ivory, Christopher",RB,2,34.0,1.9,Texas Nashvillians,1,1,True,False
+2015,9,Carter's Commandos,"Ravens, Baltimore",Def,6,53.0,1.9,Texas Nashvillians,0,6,True,True
+2017,7,Texas Nashvillians,"Fairbairn, Ka'imi",K,16,186.0,1.9,Beers; Ho Train,2,14,True,True
+2019,2,Carter's Commandos,"Dolphins, Miami",Def,5,53.0,1.9,Karpet Munchers,0,5,True,True
+2020,9,OakalDoakals,"Prater, Matt",K,14,153.0,1.9,Beers; Couchfire; Da Funk; F-Jackie,2,12,True,True
+2020,6,Otters,"Cowboys, Dallas",Def,9,75.0,1.9,Karpet Munchers,0,9,True,True
+2021,13,Texas Nashvillians,"Tucker, Justin",K,14,152.0,1.9,Carter's Commandos; Ho Train,0,14,True,True
+2024,8,Blitzkrieg,"Eagles, Philadelphia",Def,15,105.0,1.9,Couchfire; Karpet Munchers,3,12,True,False
+2025,5,Couchfire,"Flacco, Joe",QB,1,49.5,1.9,Otters,1,0,False,False
+2009,13,F-Jackie,"Hanson, Jason",K,8,84.0,1.8,Manic Moose,0,8,True,True
+2010,10,Manic Moose,"Hanson, Jason",K,11,122.0,1.8,Beers,0,11,True,False
+2010,3,Beers,"Seahawks, Seattle",Def,12,103.0,1.8,Da Funk; Otters,10,2,True,True
+2010,1,Manic Moose,"Davis, Fred",TE,3,32.0,1.8,F-Jackie,0,3,True,False
+2013,2,OakalDoakals,"Jennings, Rashad",RB,12,114.0,1.8,Manic Moose,3,9,True,False
+2013,0,F-Jackie,"Brown, Andre",RB,5,57.0,1.8,Otters,5,0,True,False
+2015,5,Blitzkrieg,"Myers, Jason",K,4,56.0,1.8,F-Jackie; Iron City Pounders,3,1,True,True
+2018,11,F-Jackie,"49ers, San Francisco",Def,12,107.0,1.8,Otters,0,12,True,True
+2020,17,Otters,"Carlson, Daniel",K,14,151.0,1.8,Iron City Pounders,0,14,True,False
+2020,8,Beers,"Eagles, Philadelphia",Def,13,98.0,1.8,Blitzkrieg; F-Jackie; Otters; Scooter's Boozers,7,6,True,True
+2022,10,Blitzkrieg,"Hopkins, Dustin",K,8,96.0,1.8,Ho Train,0,8,True,True
+2022,9,Ho Train,"Collins, Nico",WR,9,122.3,1.8,Beers; Couchfire,1,8,True,False
+2023,11,Karpet Munchers,"Seahawks, Seattle",Def,9,75.0,1.8,Beers; Da Funk; Otters,0,9,True,True
+2013,10,Manic Moose,"Colts, Indianapolis",Def,12,104.0,1.7,Bunchalosers; F-Jackie,1,11,True,True
+2015,8,OakalDoakals,"Hopkins, Dustin",K,7,86.0,1.7,F-Jackie; Otters; Texas Nashvillians,1,6,True,True
+2019,10,Blitzkrieg,"Davis, Mike",RB,10,139.1,1.7,Scooter's Boozers,0,10,True,False
+2019,8,Iron City Pounders,"Ravens, Baltimore",Def,16,121.0,1.7,Beers,5,11,True,False
+2022,8,Ho Train,"Moss, Zack",RB,11,155.5,1.7,Otters,1,10,True,False
+2023,5,Carter's Commandos,"Seahawks, Seattle",Def,10,80.0,1.7,Beers; Da Funk; Karpet Munchers; Otters,1,9,True,False
+2015,3,F-Jackie,"Patriots, New England",Def,19,134.0,1.6,Blitzkrieg; Otters,9,10,True,False
+2021,17,Ho Train,"Browns, Cleveland",Def,4,42.0,1.6,Couchfire; F-Jackie,0,4,True,False
+2021,6,Scooter's Boozers,"Koo, Younghoe",K,14,148.0,1.6,Iron City Pounders; Manic Moose,1,13,True,True
+2025,6,Couchfire,"Reichard, Will",K,10,120.0,1.6,Beers; Da Funk; Iron City Pounders,7,3,False,True
+2025,5,Ho Train,"Browns, Cleveland",Def,8,61.0,1.6,F-Jackie; Iron City Pounders; Tally Wackers,6,2,False,True
+2010,9,Da Funk,"Kasay, John",K,13,137.0,1.5,Manic Moose; Texas Nashvillians,1,12,True,True
+2013,8,Otters,"Sanu, Mohamed",WR,12,111.0,1.5,OakalDoakals,0,12,True,True
+2020,8,Ho Train,"Bass, Tyler",K,18,186.0,1.5,Beers; Karpet Munchers; Manic Moose,5,13,True,True
+2021,9,Scooter's Boozers,"Jackson, Justin",RB,1,32.2,1.5,F-Jackie,1,0,True,True
+2021,5,Otters,"Jackson, Justin",RB,1,32.2,1.5,F-Jackie,1,0,True,False
+2022,14,Texas Nashvillians,"Saints, New Orleans",Def,12,97.0,1.5,Beers,0,12,True,False
+2022,10,Ho Train,"Elliott, Jake",K,18,185.0,1.5,F-Jackie; Karpet Munchers,4,14,True,True
+2023,9,Da Funk,"Kraft, Tucker",TE,6,66.0,1.5,F-Jackie,0,6,True,False
+2015,15,Bunchalosers,"McDonald, Vance",TE,2,25.0,1.4,Da Funk,0,2,True,True
+2017,13,OakalDoakals,"Yeldon, T.J.",RB,6,104.1,1.4,Manic Moose,0,6,True,True
+2019,2,OakalDoakals,"Rudolph, Kyle",TE,8,82.5,1.4,Carter's Commandos; Tally Wackers,7,1,True,False
+2020,12,OakalDoakals,"Chiefs, Kansas City",Def,6,52.0,1.4,Beers; Manic Moose; Otters,3,3,True,True
+2023,17,Scooter's Boozers,"Chiefs, Kansas City",Def,5,47.0,1.4,Couchfire,0,5,True,False
+2023,16,F-Jackie,"Dicker, Cameron",K,12,131.0,1.4,Scooter's Boozers; Texas Nashvillians,0,12,True,True
+2023,16,Scooter's Boozers,"Vikings, Minnesota",Def,12,88.0,1.4,Beers; Texas Nashvillians,0,12,True,True
+2023,7,Dunbar Dogs,"Bears, Chicago",Def,4,40.0,1.4,Couchfire; Tally Wackers,0,4,True,False
+2025,6,F-Jackie,"Browns, Cleveland",Def,8,59.0,1.4,Ho Train; Iron City Pounders; Tally Wackers,5,3,False,True
+2026,7,Otters,"Buccaneers, Tampa Bay",Def,1,22.0,1.4,Scooter's Boozers,1,0,False,True
+2009,16,Beers,"Titans, Tennessee",Def,13,105.0,1.3,Blitzkrieg,0,13,True,False
+2009,9,OakalDoakals,"Green-Ellis, BenJarvus",RB,8,84.0,1.3,Manic Moose,0,8,True,True
+2009,7,Otters,"Hanson, Jason",K,10,96.0,1.3,F-Jackie; Manic Moose,2,8,True,True
+2010,13,Otters,"Dawson, Phil",K,2,31.0,1.3,Carter's Commandos,0,2,True,True
+2010,10,F-Jackie,"Daniels, Owen",TE,11,68.0,1.3,Manic Moose; Scooter's Boozers,2,9,True,False
+2011,6,Manic Moose,"Titans, Tennessee",Def,8,71.0,1.3,F-Jackie; Ho Train; Otters,5,3,True,True
+2016,9,F-Jackie,"Hopkins, Dustin",K,6,76.0,1.3,Beers; Otters,2,4,True,True
+2016,9,Bunchalosers,"Hoyer, Brian",QB,1,32.0,1.3,Blitzkrieg,0,1,True,True
+2017,3,Otters,"Hoyer, Brian",QB,1,32.0,1.3,Blitzkrieg,1,0,True,False
+2018,4,Beers,"Amendola, Danny",WR,5,75.2,1.3,Carter's Commandos; F-Jackie,3,2,True,False
+2019,1,Couchfire,"Jets, New York",Def,4,44.0,1.3,Blitzkrieg; F-Jackie,4,0,True,False
+2020,4,Scooter's Boozers,"Hill, Taysom",QB,9,270.4,1.3,Otters,6,3,True,True
+2025,11,Beers,"Little, Cam",K,9,107.0,1.3,Carter's Commandos; Dunbar Dogs,3,6,False,True
+2026,3,Couchfire,"Buccaneers, Tampa Bay",Def,2,26.0,1.3,Otters; Scooter's Boozers,2,0,False,True
+2009,10,Otters,"Feely, Jay",K,3,36.0,1.2,F-Jackie,3,0,True,True
+2009,6,Beers,"Vinatieri, Adam",K,7,70.0,1.2,Ho Train,0,7,True,True
+2009,4,Otters,"Seahawks, Seattle",Def,10,83.0,1.2,Blitzkrieg; Da Funk,1,9,True,True
+2010,7,Beers,"Kasay, John",K,14,143.0,1.2,Da Funk; Manic Moose; Texas Nashvillians,2,12,True,True
+2017,9,Blitzkrieg,"Vikings, Minnesota",Def,3,31.0,1.2,Ho Train; Iron City Pounders,3,0,True,False
+2020,10,F-Jackie,"Packers, Green Bay",Def,18,119.0,1.2,Iron City Pounders,4,14,True,False
+2022,14,Couchfire,"Colts, Indianapolis",Def,4,41.0,1.2,Beers; Blitzkrieg; F-Jackie; Otters,0,4,True,True
+2022,12,Couchfire,"Colts, Indianapolis",Def,4,41.0,1.2,Beers; Blitzkrieg; F-Jackie; Otters,0,4,True,True
+2023,15,Couchfire,"Tillman, Cedric",WR,4,57.9,1.2,Blitzkrieg,0,4,True,True
+2023,9,Manic Moose,"Tillman, Cedric",WR,4,57.9,1.2,Blitzkrieg,0,4,True,False
+2024,16,Karpet Munchers,"Brissett, Jacoby",QB,3,92.1,1.2,Ho Train,0,3,True,False
+2025,11,Manic Moose,"Saints, New Orleans",Def,2,25.0,1.2,Beers; Blitzkrieg,1,1,False,True
+2025,8,Dunbar Dogs,"Little, Cam",K,7,86.0,1.2,Beers; Carter's Commandos,1,6,False,True
+2009,6,Da Funk,"Carpenter, Dan",K,13,119.0,1.1,Carter's Commandos; Ho Train,6,7,True,True
+2012,4,Bunchalosers,"Keller, Dustin",TE,2,21.0,1.1,Manic Moose,2,0,True,False
+2013,4,Iron City Pounders,"Crosby, Mason",K,18,195.0,1.1,Beers; Otters,10,8,True,True
+2016,7,Scooter's Boozers,"Lynch, Marshawn",RB,13,107.0,1.1,Iron City Pounders,0,13,True,True
+2018,2,Otters,"Cardinals, Arizona",Def,4,39.0,1.1,F-Jackie,4,0,True,True
+2019,14,Beers,"Smith, Jonnu",TE,3,35.8,1.1,OakalDoakals,0,3,True,True
+2020,11,F-Jackie,"Prater, Matt",K,13,133.0,1.1,Beers; Couchfire; Da Funk,1,12,True,True
+2021,16,Beers,"Cardinals, Arizona",Def,4,36.0,1.1,Da Funk,0,4,True,True
+2022,17,Beers,"Buccaneers, Tampa Bay",Def,7,59.0,1.1,Blitzkrieg; Otters; Scooter's Boozers; Texas Nashvillians,0,7,True,True
+2022,17,Beers,"Sanders, Jason",K,11,116.0,1.1,Couchfire; Ho Train,0,11,True,True
+2022,15,Beers,"Buccaneers, Tampa Bay",Def,7,59.0,1.1,Blitzkrieg; Otters; Scooter's Boozers; Texas Nashvillians,0,7,True,True
+2023,7,Manic Moose,"Texans, Houston",Def,4,37.0,1.1,Couchfire,0,4,True,True
+2012,12,F-Jackie,"Crosby, Mason",K,13,145.0,1.0,Iron City Pounders; Otters,0,13,True,False
+2013,5,Dunbar Dogs,"Reed, Jordan",TE,6,42.0,1.0,Manic Moose; Scooter's Boozers,2,4,True,True
+2014,9,Texas Nashvillians,"Gould, Robbie",K,1,19.0,1.0,Carter's Commandos,0,1,True,False
+2015,10,Dunbar Dogs,"Chargers, San Diego",Def,7,51.0,1.0,Iron City Pounders,0,7,True,False
+2016,16,Beers,"Seahawks, Seattle",Def,6,50.0,1.0,OakalDoakals,0,6,True,False
+2016,14,Beers,"Thomas, Julius",TE,5,34.0,1.0,Tally Wackers,0,5,True,False
+2016,9,Manic Moose,"Pitta, Dennis",TE,2,21.0,1.0,Bunchalosers,2,0,True,True
+2017,4,OakalDoakals,"Thomas, Julius",TE,5,34.0,1.0,Tally Wackers,5,0,True,False
+2018,16,Beers,"Bills, Buffalo",Def,12,97.0,1.0,Dunbar Dogs,0,12,True,True
+2018,14,Couchfire,"Saints, New Orleans",Def,7,61.0,1.0,Ho Train; OakalDoakals,2,5,True,True
+2020,17,Couchfire,"Buccaneers, Tampa Bay",Def,12,81.0,1.0,OakalDoakals,0,12,True,True
+2020,13,Couchfire,"Buccaneers, Tampa Bay",Def,12,81.0,1.0,OakalDoakals,0,12,True,True
+2009,17,Tally Wackers,"Giants, New York",Def,13,102.0,0.9,Dunbar Dogs,0,13,True,False
+2009,12,Beers,"Feely, Jay",K,4,41.0,0.9,F-Jackie; Otters,3,1,True,True
+2009,7,OakalDoakals,"Goodson, Mike",RB,3,35.0,0.9,Manic Moose,0,3,True,False
+2010,13,Manic Moose,"Daniels, Owen",TE,9,55.0,0.9,Scooter's Boozers,0,9,True,True
+2010,7,Carter's Commandos,"Rackers, Neil",K,16,156.0,0.9,Bunchalosers; Otters; Scooter's Boozers,5,11,True,True
+2013,8,Otters,"Sturgis, Caleb",K,9,100.0,0.9,Da Funk; OakalDoakals,2,7,True,True
+2015,13,OakalDoakals,"Green, Ladarius",TE,3,26.0,0.9,Scooter's Boozers,0,3,True,True
+2016,6,Ho Train,"Montgomery, Ty",WR,8,62.0,0.9,Manic Moose,1,7,True,False
+2016,3,Manic Moose,"Kerley, Jeremy",WR,1,16.0,0.9,F-Jackie,1,0,True,True
+2019,1,Blitzkrieg,"Maher, Brett",K,1,20.0,0.9,Dunbar Dogs,1,0,True,False
+2021,14,F-Jackie,"Goodwin, Marquise",WR,1,21.0,0.9,Karpet Munchers,0,1,True,True
+2022,12,Beers,"Vikings, Minnesota",Def,9,70.0,0.9,F-Jackie; Scooter's Boozers; Texas Nashvillians,1,8,True,True
+2022,9,Beers,"Goodwin, Marquise",WR,1,21.0,0.9,Karpet Munchers,1,0,True,True
+2024,12,Carter's Commandos,"Saints, New Orleans",Def,4,33.0,0.9,Beers; Manic Moose; Scooter's Boozers,2,2,True,False
+2024,10,Scooter's Boozers,"Barner, AJ",TE,4,46.8,0.9,OakalDoakals,0,4,True,True
+2024,6,Scooter's Boozers,"Barner, AJ",TE,4,46.8,0.9,OakalDoakals,0,4,True,True
+2009,7,Manic Moose,"Dolphins, Miami",Def,6,54.0,0.8,F-Jackie; Ho Train; Otters,4,2,True,True
+2010,16,Beers,"Fasano, Anthony",TE,5,33.0,0.8,Iron City Pounders,0,5,True,True
+2010,1,Iron City Pounders,"Mare, Olindo",K,6,58.0,0.8,F-Jackie,6,0,True,False
+2011,16,Otters,"Seahawks, Seattle",Def,9,75.0,0.8,Karpet Munchers,0,9,True,True
+2011,12,OakalDoakals,"Browns, Cleveland",Def,2,22.0,0.8,Manic Moose; Texas Nashvillians,0,2,True,True
+2011,8,Otters,"Seahawks, Seattle",Def,9,75.0,0.8,Karpet Munchers,0,9,True,True
+2012,5,Scooter's Boozers,"Campbell, Jason",QB,1,32.0,0.8,Bunchalosers,0,1,True,True
+2013,2,Bunchalosers,"Goodwin, Marquise",WR,2,23.0,0.8,Blitzkrieg,2,0,True,False
+2014,4,F-Jackie,"Vikings, Minnesota",Def,8,63.0,0.8,Beers; Manic Moose; Scooter's Boozers,3,5,True,True
+2016,9,Texas Nashvillians,"Texans, Houston",Def,17,118.0,0.8,Carter's Commandos; Da Funk,6,11,True,True
+2019,11,F-Jackie,"Giants, New York",Def,6,45.0,0.8,Beers; Iron City Pounders,0,6,True,True
+2019,9,OakalDoakals,"Gallman, Wayne",RB,4,57.7,0.8,Iron City Pounders,0,4,True,True
+2020,11,Manic Moose,"Titans, Tennessee",Def,2,21.0,0.8,Carter's Commandos; Otters,0,2,True,True
+2020,10,Carter's Commandos,"Chiefs, Kansas City",Def,7,51.0,0.8,Beers; Manic Moose; OakalDoakals; Otters,4,3,True,False
+2021,15,Iron City Pounders,"Giants, New York",Def,2,21.0,0.8,Beers; Dunbar Dogs,0,2,True,True
+2021,13,Otters,"Slye, Joey",K,4,46.0,0.8,Couchfire,0,4,True,True
+2021,3,Otters,"Cardinals, Arizona",Def,12,78.0,0.8,Beers; Da Funk,8,4,True,True
+2022,10,Dunbar Dogs,"Myers, Jason",K,6,65.0,0.8,Beers; Blitzkrieg,0,6,True,True
+2023,14,Scooter's Boozers,"Valdes-Scantling, Marquez",WR,3,42.4,0.8,OakalDoakals,0,3,True,False
+2023,8,Otters,"Buccaneers, Tampa Bay",Def,8,59.0,0.8,Beers; F-Jackie; Scooter's Boozers; Texas Nashvillians,3,5,True,True
+2023,3,Blitzkrieg,"Buccaneers, Tampa Bay",Def,11,79.0,0.8,Beers; F-Jackie; Otters; Scooter's Boozers; Texas Nashvillians,6,5,True,True
+2024,7,Beers,"Wright, Matthew",K,1,19.0,0.8,F-Jackie,1,0,True,True
+2025,16,Dunbar Dogs,"Buccaneers, Tampa Bay",Def,4,30.0,0.8,Couchfire; Karpet Munchers; Otters; Scooter's Boozers,1,3,False,False
+2025,7,Otters,"Bates, Jake",K,13,141.0,0.8,Da Funk; Ho Train; Manic Moose,7,6,False,True
+2009,11,Beers,"Gaffney, Jabar",WR,4,36.0,0.7,Manic Moose,0,4,True,False
+2010,10,Scooter's Boozers,"Rackers, Neil",K,15,145.0,0.7,Bunchalosers; Otters,4,11,True,True
+2012,16,OakalDoakals,"Jones, Jacoby",WR,2,22.0,0.7,Ho Train,0,2,True,True
+2013,12,Karpet Munchers,"Texans, Houston",Def,9,72.0,0.7,Ho Train,0,9,True,False
+2013,9,Otters,"Britt, Kenny",WR,4,39.0,0.7,OakalDoakals,0,4,True,False
+2016,14,OakalDoakals,"Burkhead, Rex",RB,10,81.0,0.7,Dunbar Dogs,0,10,True,True
+2016,4,F-Jackie,"Ginn Jr., Ted",WR,7,54.0,0.7,Beers; Dunbar Dogs,2,5,True,True
+2017,10,Ho Train,"Broncos, Denver",Def,14,96.0,0.7,Bunchalosers; Carter's Commandos; F-Jackie; Otters,2,12,True,True
+2020,6,F-Jackie,"Texans, Houston",Def,2,20.0,0.7,Dunbar Dogs,0,2,True,True
+2021,2,Couchfire,"Chiefs, Kansas City",Def,10,66.0,0.7,Beers; Manic Moose; Otters,3,7,True,True
+2022,4,Scooter's Boozers,"Colts, Indianapolis",Def,6,46.0,0.7,Beers; Blitzkrieg; Couchfire; F-Jackie; Otters,2,4,True,False
+2023,7,Blitzkrieg,"Colts, Indianapolis",Def,16,104.0,0.7,Beers; F-Jackie; OakalDoakals,2,14,True,True
+2025,5,Otters,"Packers, Green Bay",Def,10,60.0,0.7,Blitzkrieg; Ho Train,5,5,False,False
+2010,6,Iron City Pounders,"Rams, St. Louis",Def,6,49.0,0.6,Carter's Commandos; Dunbar Dogs,1,5,True,True
+2011,8,Bunchalosers,"Packers, Green Bay",Def,14,110.0,0.6,Ho Train; Iron City Pounders; Manic Moose,3,11,True,False
+2011,7,Karpet Munchers,"Amendola, Danny",WR,5,43.0,0.6,Iron City Pounders,0,5,True,False
+2011,7,Ho Train,"Lindell, Rian",K,1,15.0,0.6,Karpet Munchers,1,0,True,True
+2016,7,Beers,"Allen, Javorius",RB,1,13.0,0.6,Otters,0,1,True,True
+2016,7,Tally Wackers,"Texans, Houston",Def,18,122.0,0.6,Carter's Commandos; Da Funk; Texas Nashvillians,7,11,True,False
+2016,3,Bunchalosers,"Allen, Javorius",RB,1,13.0,0.6,Otters,0,1,True,False
+2017,6,Otters,"Tavecchio, Giorgio",K,1,16.0,0.6,Bunchalosers,1,0,True,True
+2017,1,Carter's Commandos,"Dolphins, Miami",Def,2,20.0,0.6,F-Jackie; OakalDoakals,0,2,True,True
+2018,15,Otters,"Beasley, Cole",WR,3,41.7,0.6,Beers,0,3,True,True
+2018,11,OakalDoakals,"Bills, Buffalo",Def,13,98.0,0.6,Beers; Dunbar Dogs,1,12,True,True
+2018,3,Couchfire,"Carlson, Daniel",K,2,26.0,0.6,OakalDoakals; Scooter's Boozers,1,1,True,True
+2019,12,Scooter's Boozers,"Eagles, Philadelphia",Def,4,32.0,0.6,Beers; Couchfire; Otters,1,3,True,True
+2022,11,Scooter's Boozers,"Santos, Cairo",K,1,17.0,0.6,Manic Moose,0,1,True,True
+2022,6,Couchfire,"Gould, Robbie",K,5,53.0,0.6,Carter's Commandos,5,0,True,True
+2023,11,Ho Train,"Packers, Green Bay",Def,11,73.0,0.6,Beers; F-Jackie; Karpet Munchers,1,10,True,True
+2023,11,Scooter's Boozers,"Buccaneers, Tampa Bay",Def,7,50.0,0.6,Beers; F-Jackie; Texas Nashvillians,2,5,True,True
+2024,9,Couchfire,"Buccaneers, Tampa Bay",Def,16,95.0,0.6,Dunbar Dogs; F-Jackie; Karpet Munchers,2,14,True,True
+2024,7,Beers,"Buccaneers, Tampa Bay",Def,16,95.0,0.6,Dunbar Dogs; F-Jackie; Karpet Munchers,2,14,True,False
+2024,3,Otters,"Bates, Jake",K,7,77.0,0.6,Da Funk,0,7,True,True
+2024,3,Beers,"Otton, Cade",TE,12,109.6,0.6,Da Funk; Manic Moose,6,6,True,False
+2025,10,Blitzkrieg,"Packers, Green Bay",Def,3,23.0,0.6,Ho Train,3,0,False,True
+2025,10,Karpet Munchers,"Cousins, Kirk",QB,4,113.4,0.6,Otters; Texas Nashvillians,1,3,False,True
+2025,5,F-Jackie,"Gadsden, Oronde",TE,1,16.2,0.6,Ho Train,1,0,False,True
+2025,4,Beers,"McPherson, Evan",K,6,69.0,0.6,Tally Wackers,0,6,False,True
+2012,14,Manic Moose,"Hartley, Garrett",K,9,98.0,0.5,Beers,0,9,True,True
+2012,5,OakalDoakals,"Bills, Buffalo",Def,3,27.0,0.5,F-Jackie,0,3,True,True
+2012,2,OakalDoakals,"Bills, Buffalo",Def,3,27.0,0.5,F-Jackie,0,3,True,True
+2014,11,Otters,"Douglas, Harry",WR,1,13.0,0.5,Manic Moose,1,0,True,True
+2014,7,Karpet Munchers,"Douglas, Harry",WR,1,13.0,0.5,Manic Moose,1,0,True,False
+2014,6,Manic Moose,"Steelers, Pittsburgh",Def,9,66.0,0.5,Da Funk; OakalDoakals,2,7,True,True
+2014,5,OakalDoakals,"Murray, Latavius",RB,11,93.0,0.5,Bunchalosers; Scooter's Boozers,1,10,True,True
+2015,11,Scooter's Boozers,"Beasley, Cole",WR,8,63.0,0.5,Manic Moose,0,8,True,True
+2015,9,F-Jackie,"Beasley, Cole",WR,8,63.0,0.5,Manic Moose,0,8,True,True
+2016,13,Beers,"Gillislee, Mike",RB,1,12.0,0.5,Texas Nashvillians,0,1,True,False
+2016,5,F-Jackie,"Lewis, Marcedes",TE,1,9.0,0.5,Beers,0,1,True,True
+2016,3,Carter's Commandos,"Gresham, Jermaine",TE,1,9.0,0.5,Dunbar Dogs,0,1,True,False
+2017,4,F-Jackie,"Yeldon, T.J.",RB,7,104.1,0.5,Manic Moose; OakalDoakals,1,6,True,False
+2018,4,Karpet Munchers,"Boswell, Chris",K,14,124.0,0.5,Dunbar Dogs,2,12,True,False
+2020,17,Manic Moose,"Chiefs, Kansas City",Def,3,24.0,0.5,Beers; Otters,0,3,True,True
+2020,7,Karpet Munchers,"Saints, New Orleans",Def,13,81.0,0.5,Couchfire; F-Jackie; Ho Train,4,9,True,False
+2022,17,F-Jackie,"Broncos, Denver",Def,6,46.0,0.5,Otters,0,6,True,True
+2022,7,Couchfire,"Patriots, New England",Def,14,95.0,0.5,Ho Train; Iron City Pounders,4,10,True,False
+2023,16,Scooter's Boozers,"Santos, Cairo",K,2,25.0,0.5,Couchfire; Manic Moose,1,1,True,True
+2023,11,Iron City Pounders,"Patriots, New England",Def,1,12.0,0.5,Karpet Munchers,0,1,True,True
+2023,10,Iron City Pounders,"Dowdle, Rico",RB,7,99.7,0.5,Otters,0,7,True,False
+2024,16,Tally Wackers,"Johnson, Theo",TE,5,51.0,0.5,F-Jackie,0,5,True,False
+2024,12,Tally Wackers,"Falcons, Atlanta",Def,9,55.0,0.5,Couchfire; Ho Train; Texas Nashvillians,1,8,True,True
+2024,9,Texas Nashvillians,"Dotson, Jahan",WR,1,16.5,0.5,Couchfire,0,1,True,False
+2024,7,Otters,"Johnson, Tyler",WR,1,16.9,0.5,Ho Train,0,1,True,True
+2025,17,Otters,"Bears, Chicago",Def,7,40.0,0.5,Carter's Commandos,0,7,False,True
+2025,13,Ho Train,"Patterson, Riley",K,1,16.0,0.5,F-Jackie,1,0,False,True
+2026,3,OakalDoakals,"Browns, Cleveland",Def,3,21.0,0.5,Ho Train; Iron City Pounders,3,0,False,False
+2009,12,Beers,"Thomas, Mike",WR,7,56.0,0.4,OakalDoakals,0,7,True,True
+2009,8,F-Jackie,"Falcons, Atlanta",Def,9,69.0,0.4,Scooter's Boozers; Texas Nashvillians,1,8,True,False
+2009,6,Dunbar Dogs,"Bills, Buffalo",Def,2,19.0,0.4,Scooter's Boozers,1,1,True,True
+2010,11,Manic Moose,"Dreessen, Joel",TE,3,18.0,0.4,Bunchalosers; Tally Wackers,2,1,True,True
+2010,8,Dunbar Dogs,"Giants, New York",Def,7,54.0,0.4,Iron City Pounders; Otters,0,7,True,True
+2010,4,Karpet Munchers,"Hartley, Garrett",K,8,71.0,0.4,Otters,8,0,True,False
+2013,15,OakalDoakals,"Sturgis, Caleb",K,7,75.0,0.4,Da Funk,0,7,True,True
+2015,14,Iron City Pounders,"Kearse, Jermaine",WR,2,20.0,0.4,OakalDoakals,2,0,True,True
+2015,7,Ho Train,"Kearse, Jermaine",WR,2,20.0,0.4,OakalDoakals,2,0,True,False
+2015,3,Otters,"Hoyer, Brian",QB,1,29.0,0.4,Scooter's Boozers,1,0,True,False
+2016,4,Blitzkrieg,"Santos, Cairo",K,6,64.0,0.4,Da Funk,6,0,True,False
+2018,11,OakalDoakals,"Raiders, Oakland",Def,1,12.0,0.4,Beers,0,1,True,True
+2019,8,F-Jackie,"Tucker, Justin",K,16,156.0,0.4,Ho Train; OakalDoakals,3,13,True,False
+2019,7,F-Jackie,"Browns, Cleveland",Def,14,89.0,0.4,Blitzkrieg; Dunbar Dogs,2,12,True,False
+2020,11,Iron City Pounders,"Giants, New York",Def,1,11.0,0.4,Beers,1,0,True,True
+2020,9,Otters,"Eagles, Philadelphia",Def,12,75.0,0.4,Blitzkrieg; F-Jackie; Scooter's Boozers,6,6,True,True
+2020,5,Iron City Pounders,"Taylor, Tyrod",QB,1,32.1,0.4,Manic Moose,0,1,True,False
+2021,16,Couchfire,"Gould, Robbie",K,6,60.0,0.4,Carter's Commandos; Ho Train,1,5,True,True
+2021,11,Beers,"Lazard, Allen",WR,12,133.9,0.4,Iron City Pounders,2,10,True,True
+2021,7,Scooter's Boozers,"Mills, Davis",QB,1,32.5,0.4,Manic Moose,1,0,True,True
+2022,11,Beers,"McManus, Brandon",K,3,32.0,0.4,Couchfire; Tally Wackers,2,1,True,False
+2022,7,Couchfire,"Chiefs, Kansas City",Def,19,126.0,0.4,Manic Moose; Scooter's Boozers,6,13,True,True
+2023,16,F-Jackie,"Lions, Detroit",Def,3,22.0,0.4,Ho Train,0,3,True,True
+2023,11,Iron City Pounders,"Ertz, Zach",TE,7,60.7,0.4,Couchfire,0,7,True,False
+2024,12,Dunbar Dogs,"Little, Cam",K,1,15.0,0.4,Beers,0,1,True,True
+2024,8,Couchfire,"Mims, Marvin",WR,2,26.2,0.4,Beers; Blitzkrieg,1,1,True,False
+2025,17,Beers,"Saints, New Orleans",Def,1,10.0,0.4,Blitzkrieg,0,1,False,True
+2025,16,Texas Nashvillians,"Falcons, Atlanta",Def,3,20.0,0.4,Tally Wackers,0,3,False,True
+2025,1,F-Jackie,"Bass, Tyler",K,1,15.0,0.4,Couchfire,0,1,False,False
+2026,2,Texas Nashvillians,"Saints, New Orleans",Def,1,10.0,0.4,Blitzkrieg,1,0,False,False
+2009,15,F-Jackie,"Dolphins, Miami",Def,2,17.0,0.3,Ho Train; Otters,0,2,True,True
+2009,13,Bunchalosers,"Pettigrew, Brandon",TE,11,54.0,0.3,OakalDoakals,0,11,True,True
+2009,12,Bunchalosers,"Hill, Shaun",QB,1,23.0,0.3,Manic Moose,0,1,True,True
+2010,8,Texas Nashvillians,"Bryant, Matt",K,20,188.0,0.3,Karpet Munchers; Manic Moose,5,15,True,True
+2010,4,Karpet Munchers,"Heap, Todd",TE,9,46.0,0.3,Carter's Commandos; Otters,5,4,True,False
+2010,2,Beers,"Bryant, Matt",K,24,222.0,0.3,Karpet Munchers; Manic Moose; Texas Nashvillians,9,15,True,False
+2011,9,F-Jackie,"Gano, Graham",K,2,22.0,0.3,Iron City Pounders,2,0,True,True
+2011,1,Tally Wackers,"Miller, Heath",TE,21,113.0,0.3,Carter's Commandos,9,12,True,False
+2013,4,OakalDoakals,"Feely, Jay",K,5,55.0,0.3,Iron City Pounders,5,0,True,True
+2014,11,Bunchalosers,"Santos, Cairo",K,12,119.0,0.3,Texas Nashvillians,2,10,True,True
+2015,15,Otters,"Hightower, Tim",RB,4,38.0,0.3,Manic Moose; OakalDoakals,1,3,True,True
+2015,6,Da Funk,"Texans, Houston",Def,10,62.0,0.3,Carter's Commandos; Tally Wackers; Texas Nashvillians,0,10,True,False
+2015,1,Bunchalosers,"Gabriel, Taylor",WR,4,32.0,0.3,OakalDoakals,0,4,True,False
+2016,11,Blitzkrieg,"Packers, Green Bay",Def,2,16.0,0.3,Beers; F-Jackie,0,2,True,False
+2016,3,Scooter's Boozers,"Brate, Cameron",TE,8,43.0,0.3,Karpet Munchers,0,8,True,True
+2017,7,Texas Nashvillians,"Broncos, Denver",Def,16,106.0,0.3,Bunchalosers; Carter's Commandos; F-Jackie; Ho Train; Otters,4,12,True,False
+2019,14,Beers,"Eagles, Philadelphia",Def,8,51.0,0.3,Couchfire; Otters; Scooter's Boozers,0,8,True,True
+2019,8,Manic Moose,"Hauschka, Steven",K,4,37.0,0.3,Carter's Commandos,4,0,True,True
+2019,7,Beers,"Hill, Taysom",QB,7,203.5,0.3,Couchfire; Otters,1,6,True,True
+2020,16,Couchfire,"Freeman, Devonta",RB,5,70.3,0.3,OakalDoakals,0,5,True,False
+2020,4,Texas Nashvillians,"Reed, Jordan",TE,1,10.7,0.3,Blitzkrieg,1,0,True,True
+2021,14,Texas Nashvillians,"Jets, New York",Def,8,50.0,0.3,Dunbar Dogs,0,8,True,True
+2021,5,Manic Moose,"Freeman, Devonta",RB,5,70.3,0.3,OakalDoakals,5,0,True,True
+2021,1,Manic Moose,"Freeman, Devonta",RB,5,70.3,0.3,OakalDoakals,5,0,True,True
+2022,14,Texas Nashvillians,"Jaguars, Jacksonville",Def,7,49.0,0.3,F-Jackie; Tally Wackers,1,6,True,True
+2022,4,Ho Train,"Hopkins, Dustin",K,1,13.0,0.3,Blitzkrieg,1,0,True,True
+2023,8,Dunbar Dogs,"Schoonmaker, Luke",TE,2,19.2,0.3,Texas Nashvillians,0,2,True,False
+2024,12,Beers,"Schoonmaker, Luke",TE,2,19.2,0.3,Texas Nashvillians,2,0,True,True
+2024,2,Couchfire,"Henry, Hunter",TE,19,168.3,0.3,Beers; Iron City Pounders,6,13,True,False
+2025,11,Tally Wackers,"Bengals, Cincinnati",Def,4,23.0,0.3,Otters,0,4,False,False
+2025,7,Otters,"Johnson, Juwan",WR,3,34.8,0.3,Karpet Munchers,3,0,False,True
+2011,5,OakalDoakals,"Simpson, Jerome",WR,1,9.0,0.2,Beers,1,0,True,True
+2011,4,OakalDoakals,"Reece, Marcel",RB,3,26.0,0.2,Otters,0,3,True,True
+2011,0,Iron City Pounders,"Reece, Marcel",RB,3,26.0,0.2,Otters,0,3,True,False
+2012,14,F-Jackie,"Dolphins, Miami",Def,3,24.0,0.2,Beers; Otters,0,3,True,True
+2012,10,F-Jackie,"Eagles, Philadelphia",Def,2,17.0,0.2,Otters; Texas Nashvillians,0,2,True,False
+2012,7,OakalDoakals,"Novak, Nick",K,8,85.0,0.2,Beers; Iron City Pounders,0,8,True,True
+2012,5,Texas Nashvillians,"Bailey, Dan",K,2,22.0,0.2,Manic Moose; Scooter's Boozers,2,0,True,False
+2012,3,Otters,"Henderson, Devery",WR,4,31.0,0.2,Bunchalosers,4,0,True,False
+2013,14,Beers,"Ravens, Baltimore",Def,3,24.0,0.2,Blitzkrieg,0,3,True,True
+2015,11,OakalDoakals,"Sanu, Mohamed",WR,3,24.0,0.2,Tally Wackers,0,3,True,True
+2015,1,Blitzkrieg,"Barth, Connor",K,5,50.0,0.2,Otters,5,0,True,False
+2017,6,Bunchalosers,"Crosby, Mason",K,12,121.0,0.2,F-Jackie; Iron City Pounders,1,11,True,True
+2018,10,Iron City Pounders,"Maher, Brett",K,2,20.0,0.2,Dunbar Dogs; Karpet Munchers,1,1,True,True
+2018,7,Texas Nashvillians,"Dolphins, Miami",Def,2,17.0,0.2,Carter's Commandos; F-Jackie,1,1,True,True
+2018,6,OakalDoakals,"Dolphins, Miami",Def,2,17.0,0.2,Carter's Commandos; F-Jackie,1,1,True,True
+2018,5,Blitzkrieg,"Beasley, Cole",WR,4,47.4,0.2,Beers; Otters,1,3,True,False
+2020,17,Manic Moose,"Bass, Tyler",K,13,121.0,0.2,Karpet Munchers,0,13,True,True
+2020,15,Beers,"Bass, Tyler",K,15,141.0,0.2,Karpet Munchers; Manic Moose,2,13,True,True
+2020,11,Beers,"Bass, Tyler",K,15,141.0,0.2,Karpet Munchers; Manic Moose,2,13,True,True
+2020,4,Iron City Pounders,"Vikings, Minnesota",Def,10,60.0,0.2,Blitzkrieg; F-Jackie; Ho Train,0,10,True,False
+2021,10,F-Jackie,"Redskins, Washington",Def,8,49.0,0.2,Beers; Couchfire; Da Funk; Tally Wackers,2,6,True,False
+2021,4,Otters,"Everett, Gerald",TE,10,83.1,0.2,Beers; F-Jackie,2,8,True,False
+2022,10,Dunbar Dogs,"Boswell, Chris",K,10,96.0,0.2,Beers; Texas Nashvillians,0,10,True,True
+2023,8,Beers,"Chargers, San Diego",Def,18,111.0,0.2,Da Funk; Otters,4,14,True,True
+2023,5,Beers,"Dicker, Cameron",K,18,173.0,0.2,F-Jackie; Scooter's Boozers; Texas Nashvillians,6,12,True,True
+2023,2,Blitzkrieg,"Chargers, San Diego",Def,18,111.0,0.2,Da Funk; Otters,4,14,True,False
+2024,12,F-Jackie,"Titans, Tennessee",Def,1,8.0,0.2,Blitzkrieg,1,0,True,True
+2024,7,F-Jackie,"Titans, Tennessee",Def,1,8.0,0.2,Blitzkrieg,1,0,True,True
+2024,5,F-Jackie,"Titans, Tennessee",Def,1,8.0,0.2,Blitzkrieg,1,0,True,True
+2026,5,Iron City Pounders,"Butker, Harrison",K,2,23.0,0.2,Manic Moose,2,0,False,False
+2009,6,Carter's Commandos,"Cowboys, Dallas",Def,10,78.0,0.1,F-Jackie; Iron City Pounders; Manic Moose,6,4,True,False
+2010,13,Texas Nashvillians,"Lindell, Rian",K,3,30.0,0.1,Ho Train; Karpet Munchers,0,3,True,True
+2010,4,Texas Nashvillians,"Texans, Houston",Def,12,88.0,0.1,OakalDoakals,0,12,True,False
+2011,15,Beers,"Norwood, Jordan",WR,1,8.0,0.1,Otters,0,1,True,True
+2014,12,Texas Nashvillians,"Jets, New York",Def,12,81.0,0.1,Blitzkrieg,0,12,True,False
+2015,9,Scooter's Boozers,"Watson, Ben",TE,4,22.0,0.1,Texas Nashvillians,4,0,True,True
+2016,9,Otters,"Patriots, New England",Def,11,71.0,0.1,Beers; Blitzkrieg; Bunchalosers; Manic Moose,7,4,True,True
+2016,9,OakalDoakals,"Novak, Nick",K,4,43.0,0.1,Beers; Bunchalosers,2,2,True,True
+2016,8,OakalDoakals,"Seferian-Jenkins, Austin",TE,1,6.0,0.1,Otters,0,1,True,True
+2016,3,Otters,"Patriots, New England",Def,11,71.0,0.1,Beers; Blitzkrieg; Bunchalosers; Manic Moose,7,4,True,True
+2016,3,Manic Moose,"Seferian-Jenkins, Austin",TE,1,6.0,0.1,Otters,0,1,True,False
+2018,12,Karpet Munchers,"Gould, Robbie",K,3,26.0,0.1,Tally Wackers,0,3,True,False
+2018,5,Da Funk,"Dissly, Will",TE,3,26.0,0.1,Ho Train,0,3,True,True
+2019,15,Otters,"Gay, Matt",K,1,10.0,0.1,Beers,1,0,True,True
+2019,9,Blitzkrieg,"Jets, New York",Def,3,23.0,0.1,F-Jackie,3,0,True,True
+2019,7,Couchfire,"Seibert, Austin",K,1,9.0,0.1,Beers,1,0,True,True
+2019,5,OakalDoakals,"Burton, Trey",TE,2,16.3,0.1,F-Jackie,0,2,True,False
+2019,2,Couchfire,"Seibert, Austin",K,1,9.0,0.1,Beers,1,0,True,True
+2020,16,F-Jackie,"Renfrow, Hunter",WR,12,137.9,0.1,Beers,0,12,True,False
+2020,10,F-Jackie,"Ebron, Eric",TE,1,8.9,0.1,Texas Nashvillians,1,0,True,True
+2020,7,Ho Train,"Ebron, Eric",TE,1,8.9,0.1,Texas Nashvillians,1,0,True,False
+2021,17,Otters,"Njoku, David",TE,3,24.7,0.1,Ho Train,0,3,True,True
+2021,13,F-Jackie,"Njoku, David",TE,3,24.7,0.1,Ho Train,0,3,True,False
+2021,6,Carter's Commandos,"Blankenship, Rodrigo",K,1,10.0,0.1,Otters,0,1,True,False
+2021,3,Ho Train,"Penny, Rashaad",RB,4,51.5,0.1,Manic Moose,0,4,True,True
+2022,10,Carter's Commandos,"Tucker, Justin",K,5,47.0,0.1,Ho Train,5,0,True,False
+2023,8,Blitzkrieg,"Redskins, Washington",Def,2,14.0,0.1,Beers; F-Jackie,1,1,True,True
+2023,6,Otters,"Colts, Indianapolis",Def,17,104.0,0.1,Beers; Blitzkrieg; F-Jackie; OakalDoakals,3,14,True,True
+2024,16,Couchfire,"Buccaneers, Tampa Bay",Def,14,77.0,0.1,Dunbar Dogs; Karpet Munchers,0,14,True,True
+2024,15,F-Jackie,"Buccaneers, Tampa Bay",Def,14,77.0,0.1,Dunbar Dogs; Karpet Munchers,0,14,True,True
+2024,10,Tally Wackers,"Browns, Cleveland",Def,1,7.0,0.1,F-Jackie,0,1,True,True
+2025,2,Texas Nashvillians,"Falcons, Atlanta",Def,4,21.0,0.1,Ho Train; Tally Wackers,1,3,False,True
+2009,9,Carter's Commandos,"Pettigrew, Brandon",TE,14,67.0,0.0,Bunchalosers; OakalDoakals,3,11,True,False
+2011,9,Manic Moose,"Cardinals, Arizona",Def,11,82.0,-0.0,F-Jackie; Otters,1,10,True,False
+2011,5,Da Funk,"Cook, Jared",TE,1,5.0,-0.0,Carter's Commandos,1,0,True,False
+2014,8,Manic Moose,"Anderson, C.J.",RB,14,113.0,0.0,Otters,2,12,True,True
+2015,6,Beers,"Inman, Dontrelle",WR,1,7.0,-0.0,Manic Moose,0,1,True,True
+2015,1,Iron City Pounders,"Novak, Nick",K,3,30.0,-0.0,Beers; OakalDoakals,0,3,True,False
+2016,15,Iron City Pounders,"Barber, Peyton",RB,2,15.0,-0.0,Bunchalosers,0,2,True,True
+2016,10,Manic Moose,"Giants, New York",Def,1,6.0,0.0,OakalDoakals,1,0,True,True
+2017,15,Beers,"Packers, Green Bay",Def,3,18.0,-0.0,OakalDoakals; Texas Nashvillians,0,3,True,True
+2017,10,F-Jackie,"Crosby, Mason",K,12,119.0,-0.0,Bunchalosers; Iron City Pounders,1,11,True,True
+2017,7,OakalDoakals,"Ekeler, Austin",RB,5,72.4,0.0,Karpet Munchers,0,5,True,True
+2018,14,Texas Nashvillians,"Bailey, Dan",K,9,75.0,0.0,F-Jackie; Karpet Munchers,0,9,True,True
+2018,13,Ho Train,"Lambo, Josh",K,6,50.0,0.0,Beers; Manic Moose,0,6,True,True
+2018,3,Iron City Pounders,"Chiefs, Kansas City",Def,3,19.0,0.0,Dunbar Dogs,3,0,True,True
+2018,3,Texas Nashvillians,"Elliott, Jake",K,4,38.0,-0.0,F-Jackie; Scooter's Boozers,4,0,True,True
+2019,11,Scooter's Boozers,"Carlson, Daniel",K,10,97.0,0.0,Couchfire; Otters,0,10,True,True
+2019,9,Ho Train,"Jackson, Justin",RB,3,35.6,0.0,Manic Moose,0,3,True,True
+2019,6,Tally Wackers,"Reed, Jordan",TE,2,14.0,-0.0,Blitzkrieg; Texas Nashvillians,0,2,True,False
+2019,5,Beers,"Gonzalez, Zane",K,16,149.0,-0.0,Blitzkrieg; Da Funk,4,12,True,True
+2019,3,Manic Moose,"Lambo, Josh",K,5,42.0,0.0,Beers,5,0,True,False
+2019,3,Otters,"Gronkowski, Rob",TE,7,50.8,-0.0,Scooter's Boozers,0,7,True,False
+2020,11,Otters,"Njoku, David",TE,2,16.8,-0.0,F-Jackie,0,2,True,True
+2020,3,Manic Moose,"Everett, Gerald",TE,2,17.3,0.0,Beers; F-Jackie,0,2,True,True
+2021,13,Otters,"Titans, Tennessee",Def,14,82.0,0.0,Carter's Commandos; OakalDoakals,1,13,True,True
+2021,10,Manic Moose,"Walker, Phillip",QB,1,26.8,0.0,Beers,0,1,True,True
+2021,7,Beers,"Chiefs, Kansas City",Def,10,58.0,-0.0,Couchfire; Manic Moose; Otters,2,8,True,True
+2022,15,Couchfire,"McManus, Brandon",K,1,9.0,-0.0,Tally Wackers,0,1,True,True
+2022,15,Couchfire,"Texans, Houston",Def,2,13.0,-0.0,Manic Moose,0,2,True,True
+2022,13,Couchfire,"Texans, Houston",Def,2,13.0,-0.0,Manic Moose,0,2,True,True
+2022,10,Couchfire,"Texans, Houston",Def,2,13.0,-0.0,Manic Moose,0,2,True,True
+2022,6,Karpet Munchers,"Vikings, Minnesota",Def,11,70.0,-0.0,Beers; F-Jackie; Scooter's Boozers; Texas Nashvillians,3,8,True,True
+2023,17,Manic Moose,"Abdullah, Ameer",RB,2,27.3,0.0,F-Jackie,0,2,True,True
+2024,16,Beers,"Koo, Younghoe",K,1,10.0,0.0,Scooter's Boozers,0,1,True,True
+2024,14,Blitzkrieg,"Koo, Younghoe",K,1,10.0,0.0,Scooter's Boozers,0,1,True,False
+2024,6,F-Jackie,"Palmer, Josh",WR,2,20.9,-0.0,Da Funk; Scooter's Boozers,1,1,True,False
+2025,13,Couchfire,"Santos, Cairo",K,7,72.0,0.0,F-Jackie,0,7,False,True
+2026,7,Iron City Pounders,"Browns, Cleveland",Def,1,5.0,0.0,Ho Train,1,0,False,True
+2026,6,Manic Moose,"Bates, Jake",K,1,10.0,-0.0,Ho Train,1,0,False,False
+2009,13,Beers,"Bills, Buffalo",Def,1,6.0,-0.1,Scooter's Boozers,0,1,True,True
+2009,11,Beers,"Panthers, Carolina",Def,6,45.0,-0.1,Da Funk; F-Jackie; Otters; Tally Wackers,3,3,True,True
+2009,11,Manic Moose,"Bills, Buffalo",Def,1,6.0,-0.1,Scooter's Boozers,0,1,True,False
+2010,16,Otters,"Browns, Cleveland",Def,2,14.0,-0.1,Karpet Munchers; OakalDoakals,0,2,True,True
+2010,9,Manic Moose,"Cowboys, Dallas",Def,6,43.0,-0.1,Scooter's Boozers,0,6,True,True
+2010,9,Dunbar Dogs,"Rams, St. Louis",Def,5,35.0,-0.1,Carter's Commandos,0,5,True,True
+2010,4,Manic Moose,"Cowboys, Dallas",Def,6,43.0,-0.1,Scooter's Boozers,0,6,True,True
+2010,1,Bunchalosers,"Hill, Jason",WR,1,6.0,-0.1,Scooter's Boozers,0,1,True,False
+2012,8,F-Jackie,"Titans, Tennessee",Def,5,36.0,-0.1,Otters,2,3,True,True
+2013,9,Dunbar Dogs,"Akers, David",K,1,9.0,-0.1,Texas Nashvillians,1,0,True,False
+2013,3,Tally Wackers,"Allen, Dwayne",TE,7,35.0,-0.1,Otters,0,7,True,False
+2014,16,Manic Moose,"Giants, New York",Def,7,46.0,-0.1,Ho Train,0,7,True,True
+2016,14,Bunchalosers,"Doyle, Jack",TE,8,39.0,-0.1,Beers,0,8,True,True
+2016,13,Beers,"Novak, Nick",K,2,21.0,-0.1,Bunchalosers,0,2,True,True
+2016,9,OakalDoakals,"Garcon, Pierre",WR,15,104.0,-0.1,Blitzkrieg,7,8,True,True
+2017,9,Manic Moose,"Walsh, Blair",K,1,10.0,-0.1,Otters,1,0,True,True
+2017,8,Bunchalosers,"Vinatieri, Adam",K,9,84.0,-0.1,Beers; Manic Moose; Otters; Texas Nashvillians,1,8,True,True
+2017,8,Manic Moose,"Walsh, Blair",K,1,10.0,-0.1,Otters,1,0,True,True
+2017,6,F-Jackie,"Packers, Green Bay",Def,4,24.0,-0.1,Beers; OakalDoakals; Texas Nashvillians,1,3,True,True
+2018,11,Ho Train,"Seals-Jones, Ricky",TE,2,15.2,-0.1,OakalDoakals,0,2,True,True
+2018,9,Couchfire,"Lambo, Josh",K,8,67.0,-0.1,Beers; Ho Train; Manic Moose,2,6,True,True
+2018,6,Texas Nashvillians,"Redskins, Washington",Def,6,35.0,-0.1,Da Funk,6,0,True,True
+2018,4,Couchfire,"Lambo, Josh",K,8,67.0,-0.1,Beers; Ho Train; Manic Moose,2,6,True,True
+2018,1,Karpet Munchers,"McKissic, J.D.",WR,4,43.7,-0.1,OakalDoakals,0,4,True,True
+2019,9,Beers,"Lazard, Allen",WR,4,46.4,-0.1,Blitzkrieg,0,4,True,True
+2019,7,Beers,"McKissic, J.D.",WR,4,43.7,-0.1,OakalDoakals,4,0,True,True
+2019,3,Ho Train,"Elliott, Jake",K,3,24.0,-0.1,Texas Nashvillians,3,0,True,False
+2020,8,Iron City Pounders,"Fairbairn, Ka'imi",K,3,27.0,-0.1,Couchfire; Otters,1,2,True,False
+2020,5,Karpet Munchers,"Reynolds, Josh",WR,2,22.3,-0.1,F-Jackie; Manic Moose,1,1,True,False
+2021,17,F-Jackie,"Westbrook, Nick",WR,1,9.8,-0.1,Dunbar Dogs,0,1,True,True
+2021,15,Otters,"Gano, Graham",K,1,8.0,-0.1,Ho Train,0,1,True,True
+2021,14,Otters,"Benjamin, Eno",RB,3,35.8,-0.1,Beers,0,3,True,True
+2021,13,Beers,"Everett, Gerald",TE,9,70.9,-0.1,F-Jackie,1,8,True,True
+2021,12,Couchfire,"Prater, Matt",K,8,73.0,-0.1,Beers; F-Jackie; Tally Wackers,1,7,True,False
+2021,3,Beers,"Goodwin, Marquise",WR,2,21.0,-0.1,F-Jackie; Karpet Munchers,1,1,True,True
+2022,12,Scooter's Boozers,"Westbrook, Nick",WR,1,9.8,-0.1,Dunbar Dogs,1,0,True,True
+2022,12,F-Jackie,"Raiders, Oakland",Def,6,39.0,-0.1,Carter's Commandos,0,6,True,True
+2022,4,Otters,"Chiefs, Kansas City",Def,20,125.0,-0.1,Couchfire; Manic Moose; Scooter's Boozers,7,13,True,True
+2023,13,Couchfire,"Bass, Tyler",K,14,132.0,-0.1,Beers; F-Jackie; Karpet Munchers,2,12,True,False
+2024,13,Karpet Munchers,"Moody, Jake",K,1,8.0,-0.1,Blitzkrieg,1,0,True,True
+2024,8,Couchfire,"Dolphins, Miami",Def,3,16.0,-0.1,Ho Train; Scooter's Boozers,2,1,True,False
+2024,4,Texas Nashvillians,"Gay, Matt",K,9,87.0,-0.1,Manic Moose; Tally Wackers,2,7,True,False
+2024,2,Texas Nashvillians,"Ertz, Zach",TE,12,100.0,-0.1,Beers; Couchfire,7,5,True,False
+2025,17,Couchfire,"Engram, Evan",TE,1,7.5,-0.1,Scooter's Boozers,0,1,False,True
+2025,11,Otters,"Santos, Cairo",K,8,81.0,-0.1,Couchfire; F-Jackie,1,7,False,True
+2025,10,Carter's Commandos,"Chiefs, Kansas City",Def,4,18.0,-0.1,F-Jackie,0,4,False,True
+2009,2,Beers,"Stovall, Maurice",WR,1,5.0,-0.2,Bunchalosers,1,0,True,False
+2010,6,Karpet Munchers,"Dawson, Phil",K,9,81.0,-0.2,Carter's Commandos; Otters,3,6,True,True
+2010,5,Da Funk,"Dolphins, Miami",Def,2,13.0,-0.2,Ho Train; Manic Moose,1,1,True,True
+2010,2,Otters,"Dolphins, Miami",Def,2,13.0,-0.2,Ho Train; Manic Moose,1,1,True,False
+2010,1,Tally Wackers,"Graham, Shayne",K,1,7.0,-0.2,Beers,1,0,True,False
+2011,11,Otters,"Knox, Johnny",WR,1,5.0,-0.2,Beers,1,0,True,False
+2012,4,Bunchalosers,"Falcons, Atlanta",Def,8,58.0,-0.2,F-Jackie; OakalDoakals,7,1,True,False
+2013,7,Otters,"Sanders, Ace",WR,1,6.0,-0.2,Bunchalosers,1,0,True,True
+2013,3,Otters,"Sanders, Ace",WR,1,6.0,-0.2,Bunchalosers,1,0,True,True
+2014,4,Bunchalosers,"Woodhead, Danny",RB,8,62.0,-0.2,Manic Moose,0,8,True,False
+2014,2,Otters,"Steelers, Pittsburgh",Def,10,66.0,-0.2,Da Funk; Manic Moose; OakalDoakals,3,7,True,False
+2015,10,Bunchalosers,"Buccaneers, Tampa Bay",Def,1,4.0,-0.2,Iron City Pounders,0,1,True,True
+2015,9,Texas Nashvillians,"Falcons, Atlanta",Def,1,4.0,-0.2,Karpet Munchers,0,1,True,True
+2016,7,Bunchalosers,"Aguayo, Roberto",K,1,8.0,-0.2,Dunbar Dogs,1,0,True,False
+2018,9,Carter's Commandos,"Bullock, Randy",K,1,6.0,-0.2,Tally Wackers,0,1,True,True
+2018,9,F-Jackie,"Cardinals, Arizona",Def,1,4.0,-0.2,Otters,1,0,True,True
+2018,8,Scooter's Boozers,"Patterson, Cordarrelle",WR,2,20.4,-0.2,Texas Nashvillians,2,0,True,False
+2018,7,Iron City Pounders,"Ellison, Rhett",TE,1,5.7,-0.2,Blitzkrieg,0,1,True,True
+2018,7,Beers,"Griffin, Ryan",TE,2,14.3,-0.2,Karpet Munchers,0,2,True,True
+2019,1,Blitzkrieg,"Colts, Indianapolis",Def,7,47.0,-0.2,Carter's Commandos; Otters,7,0,True,True
+2019,1,Scooter's Boozers,"Higgins, Rashard",WR,2,20.7,-0.2,F-Jackie; Iron City Pounders,0,2,True,False
+2020,16,Manic Moose,"49ers, San Francisco",Def,6,32.0,-0.2,Beers,0,6,True,True
+2020,15,F-Jackie,"Reynolds, Josh",WR,1,8.9,-0.2,Manic Moose,0,1,True,True
+2020,13,Blitzkrieg,"Gano, Graham",K,6,52.0,-0.2,Otters; Scooter's Boozers,0,6,True,True
+2020,10,Scooter's Boozers,"Slye, Joey",K,3,26.0,-0.2,Otters; Texas Nashvillians,2,1,True,True
+2020,1,Couchfire,"Gallman, Wayne",RB,5,57.7,-0.2,Beers; Iron City Pounders,4,1,True,True
+2021,16,Couchfire,"Raiders, Oakland",Def,2,9.0,-0.2,Carter's Commandos; F-Jackie,0,2,True,True
+2021,15,Otters,"Panthers, Carolina",Def,1,3.0,-0.2,F-Jackie,0,1,True,True
+2021,15,Couchfire,"Fairbairn, Ka'imi",K,6,53.0,-0.2,Manic Moose,0,6,True,True
+2021,12,Otters,"Bullock, Randy",K,1,7.0,-0.2,Couchfire,0,1,True,True
+2021,8,F-Jackie,"Sanders, Jason",K,4,35.0,-0.2,Beers,0,4,True,False
+2021,8,Scooter's Boozers,"Falcons, Atlanta",Def,6,33.0,-0.2,Blitzkrieg,0,6,True,True
+2021,8,Iron City Pounders,"Atwell, Tutu",WR,1,8.1,-0.2,Ho Train,0,1,True,False
+2021,8,Manic Moose,"Jets, New York",Def,9,49.0,-0.2,Dunbar Dogs; Texas Nashvillians,1,8,True,True
+2021,4,OakalDoakals,"Reynolds, Josh",WR,1,8.9,-0.2,Manic Moose,1,0,True,False
+2021,2,Otters,"Panthers, Carolina",Def,1,3.0,-0.2,F-Jackie,0,1,True,True
+2022,14,Couchfire,"Bellinger, Daniel",TE,1,5.3,-0.2,Texas Nashvillians,0,1,True,True
+2022,8,Beers,"Bellinger, Daniel",TE,1,5.3,-0.2,Texas Nashvillians,0,1,True,True
+2022,1,Couchfire,"Bellinger, Daniel",TE,1,5.3,-0.2,Texas Nashvillians,0,1,True,True
+2023,13,Otters,"Rams, St. Louis",Def,6,33.0,-0.2,Dunbar Dogs,0,6,True,True
+2023,10,Scooter's Boozers,"Everett, Gerald",TE,1,5.7,-0.2,Manic Moose,1,0,True,True
+2024,14,F-Jackie,"Giants, New York",Def,1,3.0,-0.2,Ho Train,0,1,True,True
+2024,12,Beers,"Iosivas, Andrei",WR,1,8.6,-0.2,Couchfire,0,1,True,True
+2024,8,F-Jackie,"Packers, Green Bay",Def,12,65.0,-0.2,Blitzkrieg; Ho Train; Karpet Munchers; Otters,5,7,True,False
+2025,9,OakalDoakals,"Chargers, San Diego",Def,7,32.0,-0.2,Dunbar Dogs; Scooter's Boozers,1,6,False,True
+2025,8,Manic Moose,"Gay, Matt",K,3,28.0,-0.2,Iron City Pounders,0,3,False,False
+2025,5,Ho Train,"Falcons, Atlanta",Def,10,50.0,-0.2,Tally Wackers; Texas Nashvillians,7,3,False,True
+2025,5,Texas Nashvillians,"Gesicki, Mike",TE,1,7.1,-0.2,Karpet Munchers,0,1,False,False
+2025,5,Texas Nashvillians,"Chargers, San Diego",Def,8,37.0,-0.2,Dunbar Dogs; OakalDoakals; Scooter's Boozers,2,6,False,False
+2025,2,Otters,"Iosivas, Andrei",WR,1,8.6,-0.2,Couchfire,1,0,False,False
+2026,5,OakalDoakals,"Myers, Jason",K,2,18.0,-0.2,Beers,2,0,False,False
+2026,3,Scooter's Boozers,"Mevis, Harrison",K,1,8.0,-0.2,Couchfire,1,0,False,False
+2026,3,Iron City Pounders,"Titans, Tennessee",Def,1,2.0,-0.2,Dunbar Dogs,1,0,False,False
+2009,7,OakalDoakals,"Forsett, Justin",RB,1,6.0,-0.3,Manic Moose,0,1,True,True
+2010,5,Bunchalosers,"Davis, Craig",WR,1,5.0,-0.3,Otters,1,0,True,True
+2011,14,Manic Moose,"Woodhead, Danny",RB,1,5.0,-0.3,Ho Train,0,1,True,True
+2011,8,Karpet Munchers,"Browns, Cleveland",Def,5,34.0,-0.3,Manic Moose; OakalDoakals; Texas Nashvillians,1,4,True,True
+2013,12,Ho Train,"Jets, New York",Def,3,19.0,-0.3,Texas Nashvillians,0,3,True,True
+2013,10,Manic Moose,"Bullock, Randy",K,7,68.0,-0.3,Karpet Munchers,0,7,True,True
+2013,6,F-Jackie,"Zuerlein, Greg",K,1,7.0,-0.3,Blitzkrieg,0,1,True,False
+2014,14,Scooter's Boozers,"Suisham, Shaun",K,2,17.0,-0.3,Manic Moose,2,0,True,False
+2014,14,Beers,"Patriots, New England",Def,10,64.0,-0.3,Manic Moose; Otters,1,9,True,True
+2014,14,Beers,"Patriots, New England",Def,10,64.0,-0.3,Manic Moose; Otters,1,9,True,True
+2014,9,Carter's Commandos,"Washington, Nate",WR,1,5.0,-0.3,OakalDoakals,1,0,True,False
+2014,5,Beers,"Patriots, New England",Def,10,64.0,-0.3,Manic Moose; Otters,1,9,True,True
+2015,4,Beers,"Wilson, Marquess",WR,1,5.0,-0.3,Da Funk,1,0,True,True
+2016,11,Bunchalosers,"Jets, New York",Def,1,4.0,-0.3,Beers,0,1,True,True
+2016,7,Beers,"Lions, Detroit",Def,4,21.0,-0.3,Carter's Commandos; Dunbar Dogs,4,0,True,True
+2016,5,Scooter's Boozers,"Garcon, Pierre",WR,16,110.0,-0.3,Blitzkrieg; OakalDoakals,8,8,True,False
+2017,2,Carter's Commandos,"Dawson, Phil",K,1,8.0,-0.3,Blitzkrieg,1,0,True,True
+2018,14,Couchfire,"Prater, Matt",K,11,87.0,-0.3,Karpet Munchers,0,11,True,True
+2018,11,Scooter's Boozers,"Elliott, Jake",K,6,50.0,-0.3,F-Jackie; Texas Nashvillians,3,3,True,True
+2018,10,Texas Nashvillians,"Brate, Cameron",TE,1,4.7,-0.3,Scooter's Boozers,0,1,True,False
+2018,5,Texas Nashvillians,"Smith, Jonnu",TE,3,23.0,-0.3,Beers,1,2,True,True
+2018,3,Texas Nashvillians,"Bills, Buffalo",Def,17,111.0,-0.3,Beers; Dunbar Dogs; OakalDoakals,5,12,True,False
+2019,8,F-Jackie,"Buccaneers, Tampa Bay",Def,9,49.0,-0.3,Couchfire,0,9,True,True
+2019,2,Otters,"Brown, Jaron",WR,1,7.5,-0.3,OakalDoakals,1,0,True,False
+2020,14,Ho Train,"Jaguars, Jacksonville",Def,1,2.0,-0.3,Blitzkrieg,0,1,True,True
+2020,13,Beers,"Giants, New York",Def,1,2.0,-0.3,Iron City Pounders,0,1,True,True
+2020,10,Otters,"Fairbairn, Ka'imi",K,2,14.0,-0.3,Couchfire,0,2,True,True
+2020,8,Manic Moose,"Wilson, Cedrick",WR,2,19.5,-0.3,OakalDoakals,0,2,True,True
+2020,6,Manic Moose,"Falcons, Atlanta",Def,1,2.0,-0.3,Scooter's Boozers,0,1,True,True
+2020,4,Manic Moose,"Sample, Drew",TE,1,3.9,-0.3,Iron City Pounders,1,0,True,True
+2020,4,OakalDoakals,"Sloman, Sam",K,1,6.0,-0.3,Manic Moose,1,0,True,False
+2020,3,Otters,"Ebron, Eric",TE,2,10.8,-0.3,Ho Train; Texas Nashvillians,2,0,True,False
+2021,11,Da Funk,"Santos, Cairo",K,1,6.0,-0.3,Scooter's Boozers,0,1,True,True
+2021,10,Otters,"Wilson, Cedrick",WR,2,19.5,-0.3,OakalDoakals,2,0,True,True
+2021,10,Otters,"Seals-Jones, Ricky",TE,1,4.5,-0.3,Da Funk,1,0,True,True
+2021,5,Otters,"Gould, Robbie",K,12,107.0,-0.3,Carter's Commandos; Couchfire; Ho Train,2,10,True,False
+2021,4,Blitzkrieg,"Gano, Graham",K,11,97.0,-0.3,Ho Train; Otters; Scooter's Boozers,6,5,True,True
+2021,4,Couchfire,"Collins, Nico",WR,2,18.6,-0.3,Beers; Ho Train,1,1,True,True
+2021,4,Manic Moose,"Santos, Cairo",K,2,15.0,-0.3,Da Funk; Scooter's Boozers,1,1,True,False
+2023,14,Dunbar Dogs,"Cardinals, Arizona",Def,3,14.0,-0.3,Carter's Commandos,0,3,True,True
+2023,11,Otters,"Panthers, Carolina",Def,1,3.0,-0.3,Dunbar Dogs,1,0,True,True
+2023,7,OakalDoakals,"Ryland, Chad",K,4,35.0,-0.3,Beers; Carter's Commandos,0,4,True,False
+2023,6,Blitzkrieg,"Packers, Green Bay",Def,13,75.0,-0.3,Beers; F-Jackie; Ho Train; Karpet Munchers,3,10,True,True
+2024,12,OakalDoakals,"Hollins, Mack",WR,3,28.0,-0.3,Blitzkrieg,0,3,True,True
+2024,12,F-Jackie,"Bass, Tyler",K,1,6.0,-0.3,Karpet Munchers,1,0,True,False
+2025,11,Ho Train,"Neal, Devin",RB,2,23.3,-0.3,F-Jackie,2,0,False,True
+2025,8,Carter's Commandos,"Dotson, Jahan",WR,2,17.6,-0.3,Couchfire; Otters,1,1,False,True
+2025,7,Beers,"Hunt, Kareem",RB,4,50.7,-0.3,Scooter's Boozers,4,0,False,False
+2025,6,Ho Train,"Neal, Devin",RB,2,23.3,-0.3,F-Jackie,2,0,False,True
+2025,3,Tally Wackers,"Bears, Chicago",Def,13,63.0,-0.3,Carter's Commandos; Otters,6,7,False,True
+2009,16,F-Jackie,"Feely, Jay",K,1,5.0,-0.4,Otters,0,1,True,True
+2009,15,Beers,"Graham, Shayne",K,1,5.0,-0.4,F-Jackie,1,0,True,True
+2009,7,Beers,"Boss, Kevin",TE,10,45.0,-0.4,Blitzkrieg; Carter's Commandos,5,5,True,True
+2009,5,F-Jackie,"Brown, Josh",K,1,5.0,-0.4,Manic Moose,0,1,True,False
+2009,3,OakalDoakals,"Dolphins, Miami",Def,7,52.0,-0.4,F-Jackie; Ho Train; Manic Moose; Otters,5,2,True,False
+2010,10,Karpet Munchers,"Gostkowski, Stephen",K,13,121.0,-0.4,Tally Wackers; Texas Nashvillians,0,13,True,True
+2011,11,Beers,"Novak, Nick",K,1,6.0,-0.4,OakalDoakals,0,1,True,True
+2011,7,Blitzkrieg,"Colts, Indianapolis",Def,1,4.0,-0.4,Scooter's Boozers,0,1,True,True
+2011,4,Bunchalosers,"Obomanu, Ben",WR,2,10.0,-0.4,Iron City Pounders,2,0,True,True
+2012,9,OakalDoakals,"Redskins, Washington",Def,3,19.0,-0.4,Carter's Commandos,3,0,True,True
+2012,5,Beers,"Moss, Santana",WR,4,26.0,-0.4,Karpet Munchers,2,2,True,False
+2012,4,Bunchalosers,"Suisham, Shaun",K,10,98.0,-0.4,Carter's Commandos; F-Jackie; Manic Moose,7,3,True,False
+2013,12,Otters,"Titans, Tennessee",Def,1,3.0,-0.4,F-Jackie,0,1,True,True
+2013,11,Manic Moose,"Brown, Josh",K,1,7.0,-0.4,Ho Train,1,0,True,True
+2013,6,Manic Moose,"Quick, Brian",WR,3,20.0,-0.4,Otters,0,3,True,False
+2013,3,Otters,"Dolphins, Miami",Def,1,4.0,-0.4,Beers,1,0,True,True
+2014,15,F-Jackie,"Robinson, Khiry",RB,2,12.0,-0.4,Tally Wackers,0,2,True,False
+2014,15,F-Jackie,"Bengals, Cincinnati",Def,7,43.0,-0.4,Ho Train,0,7,True,True
+2014,10,Manic Moose,"Bengals, Cincinnati",Def,7,43.0,-0.4,Ho Train,0,7,True,True
+2014,8,Manic Moose,"Bengals, Cincinnati",Def,7,43.0,-0.4,Ho Train,0,7,True,True
+2015,12,OakalDoakals,"Keenum, Case",QB,3,67.0,-0.4,Ho Train,0,3,True,True
+2016,13,Iron City Pounders,"Myers, Jason",K,1,7.0,-0.4,Da Funk,0,1,True,True
+2016,8,Iron City Pounders,"Steelers, Pittsburgh",Def,12,79.0,-0.4,Bunchalosers; Ho Train,0,12,True,False
+2016,4,F-Jackie,"49ers, San Francisco",Def,1,2.0,-0.4,Da Funk,1,0,True,True
+2017,7,Scooter's Boozers,"Bears, Chicago",Def,1,3.0,-0.4,Otters,1,0,True,True
+2017,3,OakalDoakals,"Drake, Kenyan",RB,6,75.5,-0.4,Blitzkrieg,1,5,True,True
+2017,1,Scooter's Boozers,"Chargers, San Diego",Def,13,75.0,-0.4,F-Jackie; Karpet Munchers,3,10,True,False
+2019,16,F-Jackie,"Hill, Brian",RB,1,6.4,-0.4,Beers,0,1,True,True
+2019,15,Texas Nashvillians,"Lions, Detroit",Def,1,1.0,-0.4,Couchfire,0,1,True,True
+2019,7,Texas Nashvillians,"Hill, Brian",RB,1,6.4,-0.4,Beers,0,1,True,False
+2019,3,F-Jackie,"Reynolds, Josh",WR,1,6.4,-0.4,Beers,1,0,True,True
+2019,3,Otters,"Fitzpatrick, Ryan",QB,3,77.8,-0.4,Beers; OakalDoakals,2,1,True,False
+2020,16,Otters,"Scott, Boston",RB,2,22.0,-0.4,OakalDoakals,0,2,True,False
+2020,10,F-Jackie,"Higgins, Rashard",WR,2,18.8,-0.4,Iron City Pounders; Scooter's Boozers,1,1,True,True
+2020,9,Beers,"Sanders, Jason",K,13,117.0,-0.4,F-Jackie; Scooter's Boozers,6,7,True,True
+2020,7,Couchfire,"Sanders, Jason",K,13,117.0,-0.4,F-Jackie; Scooter's Boozers,6,7,True,True
+2020,6,Manic Moose,"Doyle, Jack",TE,1,3.6,-0.4,Carter's Commandos,0,1,True,True
+2020,3,Ho Train,"Hill, Brian",RB,1,6.4,-0.4,Beers,1,0,True,False
+2021,17,Ho Train,"Gould, Robbie",K,10,88.0,-0.4,Carter's Commandos; Couchfire,0,10,True,True
+2021,13,OakalDoakals,"Osborn, K.J.",WR,1,5.7,-0.4,Texas Nashvillians,0,1,True,True
+2021,13,Ho Train,"Gould, Robbie",K,10,88.0,-0.4,Carter's Commandos; Couchfire,0,10,True,True
+2021,12,Scooter's Boozers,"Gano, Graham",K,7,59.0,-0.4,Ho Train; Otters,2,5,True,True
+2021,8,Manic Moose,"Koo, Younghoe",K,18,160.0,-0.4,Iron City Pounders; Scooter's Boozers,5,13,True,True
+2021,7,Carter's Commandos,"Hopkins, Dustin",K,13,115.0,-0.4,Blitzkrieg; F-Jackie; Ho Train,9,4,True,True
+2021,7,Blitzkrieg,"Scott, Boston",RB,2,22.0,-0.4,OakalDoakals,2,0,True,False
+2021,7,Blitzkrieg,"Jaguars, Jacksonville",Def,4,19.0,-0.4,F-Jackie; Texas Nashvillians,0,4,True,True
+2021,6,Blitzkrieg,"Lazard, Allen",WR,13,135.0,-0.4,Beers; Iron City Pounders,3,10,True,False
+2021,5,Beers,"Hopkins, Dustin",K,13,115.0,-0.4,Blitzkrieg; F-Jackie; Ho Train,9,4,True,True
+2021,4,Beers,"Titans, Tennessee",Def,15,82.0,-0.4,Carter's Commandos; OakalDoakals; Otters,2,13,True,False
+2022,16,Otters,"Reynolds, Josh",WR,1,6.5,-0.4,Beers,0,1,True,True
+2022,16,Beers,"Panthers, Carolina",Def,2,9.0,-0.4,Dunbar Dogs; Otters,0,2,True,True
+2022,14,F-Jackie,"James, Richie",WR,1,6.2,-0.4,Ho Train,1,0,True,True
+2022,13,F-Jackie,"Reynolds, Josh",WR,1,6.5,-0.4,Beers,0,1,True,True
+2022,12,F-Jackie,"Panthers, Carolina",Def,2,9.0,-0.4,Dunbar Dogs; Otters,0,2,True,True
+2022,10,F-Jackie,"Reynolds, Josh",WR,1,6.5,-0.4,Beers,0,1,True,True
+2022,9,Ho Train,"Dissly, Will",TE,1,2.7,-0.4,Iron City Pounders,1,0,True,True
+2022,9,Tally Wackers,"Redskins, Washington",Def,11,65.0,-0.4,Beers; Blitzkrieg; Couchfire; Texas Nashvillians,4,7,True,True
+2022,8,Manic Moose,"Zuerlein, Greg",K,1,4.0,-0.4,Iron City Pounders,1,0,True,True
+2022,5,Beers,"James, Richie",WR,1,6.2,-0.4,Ho Train,1,0,True,True
+2022,4,Couchfire,"Tonyan, Robert",TE,4,27.4,-0.4,Scooter's Boozers,4,0,True,False
+2023,9,F-Jackie,"Gano, Graham",K,1,5.0,-0.4,Beers,0,1,True,False
+2023,7,Carter's Commandos,"Titans, Tennessee",Def,8,45.0,-0.4,Blitzkrieg; F-Jackie; Iron City Pounders,4,4,True,True
+2023,5,Dunbar Dogs,"Myers, Jason",K,16,146.0,-0.4,Beers; Blitzkrieg; F-Jackie; Karpet Munchers; Tally Wackers,6,10,True,True
+2024,17,Beers,"Dolphins, Miami",Def,1,0.0,-0.4,Ho Train,0,1,True,True
+2024,13,Scooter's Boozers,"Dolphins, Miami",Def,1,0.0,-0.4,Ho Train,0,1,True,True
+2024,13,Blitzkrieg,"Shrader, Spencer",K,3,25.0,-0.4,Karpet Munchers,0,3,True,True
+2024,12,F-Jackie,"McLaughlin, Jaleel",RB,1,8.4,-0.4,OakalDoakals,0,1,True,False
+2024,4,Manic Moose,"Mayer, Michael",TE,1,3.7,-0.4,Scooter's Boozers,0,1,True,False
+2025,16,Beers,"Lions, Detroit",Def,5,19.0,-0.4,Manic Moose,0,5,False,False
+2025,11,Ho Train,"Prater, Matt",K,2,15.0,-0.4,Couchfire,2,0,False,True
+2025,10,Iron City Pounders,"Redskins, Washington",Def,1,1.0,-0.4,Otters,1,0,False,False
+2025,10,Scooter's Boozers,"49ers, San Francisco",Def,6,26.0,-0.4,Beers; Karpet Munchers; Manic Moose,3,3,False,False
+2025,8,F-Jackie,"Mayer, Michael",TE,1,3.7,-0.4,Scooter's Boozers,1,0,False,True
+2025,7,Otters,"Bryant, Pat",WR,1,5.2,-0.4,Carter's Commandos,1,0,False,False
+2025,3,F-Jackie,"Santos, Cairo",K,2,15.0,-0.4,Couchfire; Otters,2,0,False,True
+2026,5,Otters,"Patriots, New England",Def,3,10.0,-0.4,Karpet Munchers,3,0,False,False
+2026,3,Ho Train,"Cowboys, Dallas",Def,3,10.0,-0.4,F-Jackie,3,0,False,True
+2009,10,Otters,"Dreessen, Joel",TE,3,9.0,-0.5,Manic Moose; Tally Wackers,0,3,True,True
+2009,8,Carter's Commandos,"Chiefs, Kansas City",Def,9,61.0,-0.5,Otters; Tally Wackers,1,8,True,True
+2009,8,Otters,"Hartley, Garrett",K,3,21.0,-0.5,Karpet Munchers,0,3,True,True
+2009,6,Scooter's Boozers,"Graham, Shayne",K,3,21.0,-0.5,Beers; Carter's Commandos; F-Jackie,2,1,True,False
+2009,3,Otters,"Carney, John",K,3,21.0,-0.5,Tally Wackers,3,0,True,False
+2009,2,Otters,"Panthers, Carolina",Def,6,42.0,-0.5,Beers; Da Funk; F-Jackie; Tally Wackers,4,2,True,True
+2010,10,F-Jackie,"Panthers, Carolina",Def,3,17.0,-0.5,Tally Wackers,0,3,True,True
+2010,4,Otters,"Rackers, Neil",K,7,55.0,-0.5,Bunchalosers; Carter's Commandos; Scooter's Boozers,7,0,True,True
+2011,17,Iron City Pounders,"Lewis, Marcedes",TE,2,6.0,-0.5,Beers; OakalDoakals,0,2,True,False
+2011,11,Dunbar Dogs,"Succop, Ryan",K,2,15.0,-0.5,Texas Nashvillians,0,2,True,True
+2011,9,Scooter's Boozers,"Suisham, Shaun",K,7,66.0,-0.5,Carter's Commandos,0,7,True,True
+2012,6,Da Funk,"Cundiff, Billy",K,1,6.0,-0.5,Scooter's Boozers,0,1,True,True
+2013,14,Otters,"Giants, New York",Def,4,24.0,-0.5,Manic Moose,0,4,True,True
+2013,12,Carter's Commandos,"Chandler, Scott",TE,1,0.0,-0.5,OakalDoakals,0,1,True,True
+2013,9,Manic Moose,"Suisham, Shaun",K,7,66.0,-0.5,F-Jackie; Scooter's Boozers,1,6,True,True
+2013,8,F-Jackie,"Henery, Alex",K,2,15.0,-0.5,Dunbar Dogs,0,2,True,True
+2013,3,OakalDoakals,"Bullock, Randy",K,8,76.0,-0.5,Karpet Munchers; Manic Moose,1,7,True,False
+2013,2,Ho Train,"Brown, Josh",K,1,6.0,-0.5,Manic Moose,1,0,True,True
+2013,1,Otters,"Graham, Shayne",K,6,56.0,-0.5,Da Funk,0,6,True,True
+2014,8,Iron City Pounders,"Hill, Shaun",QB,1,19.0,-0.5,F-Jackie,1,0,True,False
+2014,6,Scooter's Boozers,"Amaro, Jace",TE,2,5.0,-0.5,Bunchalosers,2,0,True,True
+2014,5,Scooter's Boozers,"Amaro, Jace",TE,2,5.0,-0.5,Bunchalosers,2,0,True,True
+2014,3,Karpet Munchers,"Clay, Charles",RB,2,11.0,-0.5,OakalDoakals,0,2,True,True
+2014,1,F-Jackie,"Henery, Alex",K,2,15.0,-0.5,Dunbar Dogs,2,0,True,False
+2014,1,OakalDoakals,"Prater, Matt",K,14,134.0,-0.5,Bunchalosers; Scooter's Boozers; Texas Nashvillians,9,5,True,False
+2015,14,OakalDoakals,"Rams, St. Louis",Def,7,36.0,-0.5,Scooter's Boozers,0,7,True,False
+2015,10,Scooter's Boozers,"Sanchez, Mark",QB,1,20.0,-0.5,Manic Moose,1,0,True,True
+2015,5,Scooter's Boozers,"Sanchez, Mark",QB,1,20.0,-0.5,Manic Moose,1,0,True,True
+2015,5,Iron City Pounders,"Gillmore, Crockett",TE,1,0.0,-0.5,Otters,1,0,True,True
+2017,11,Bunchalosers,"Gano, Graham",K,3,22.0,-0.5,Tally Wackers,0,3,True,True
+2017,9,OakalDoakals,"Catanzaro, Chandler",K,1,6.0,-0.5,Iron City Pounders,1,0,True,True
+2018,11,F-Jackie,"Gostkowski, Stephen",K,8,64.0,-0.5,Iron City Pounders; Karpet Munchers,4,4,True,False
+2018,6,Beers,"Beasley, Cole",WR,1,5.7,-0.5,Otters,1,0,True,True
+2018,4,Otters,"Thomas, Ian",TE,1,2.4,-0.5,OakalDoakals,1,0,True,True
+2018,3,OakalDoakals,"Hurns, Allen",WR,1,4.5,-0.5,Scooter's Boozers,1,0,True,False
+2018,1,Couchfire,"Gano, Graham",K,3,22.0,-0.5,Tally Wackers,3,0,True,False
+2019,10,OakalDoakals,"Vinatieri, Adam",K,2,11.0,-0.5,Blitzkrieg,2,0,True,True
+2019,9,Manic Moose,"Bourne, Kendrick",WR,3,28.7,-0.5,Couchfire; Otters,1,2,True,True
+2019,9,Texas Nashvillians,"Falcons, Atlanta",Def,1,0.0,-0.5,Manic Moose,0,1,True,False
+2019,8,F-Jackie,"Eagles, Philadelphia",Def,11,61.0,-0.5,Beers; Couchfire; Otters; Scooter's Boozers,2,9,True,True
+2019,5,OakalDoakals,"Vinatieri, Adam",K,2,11.0,-0.5,Blitzkrieg,2,0,True,True
+2020,17,Manic Moose,"McManus, Brandon",K,11,95.0,-0.5,Tally Wackers,0,11,True,False
+2020,17,Couchfire,"Slye, Joey",K,1,3.0,-0.5,Otters,0,1,True,True
+2020,15,Blitzkrieg,"Gonzalez, Zane",K,1,3.0,-0.5,OakalDoakals,0,1,True,True
+2020,13,Texas Nashvillians,"Slye, Joey",K,1,3.0,-0.5,Otters,0,1,True,True
+2020,7,Beers,"Myers, Jason",K,5,40.0,-0.5,Tally Wackers,0,5,True,False
+2020,3,OakalDoakals,"Booker, Devontae",RB,8,94.8,-0.5,Beers; Carter's Commandos,4,4,True,True
+2020,1,F-Jackie,"Hightower, John",WR,1,5.5,-0.5,Ho Train,1,0,True,False
+2021,14,Texas Nashvillians,"Washington, James",WR,1,5.1,-0.5,Iron City Pounders,1,0,True,False
+2021,13,Scooter's Boozers,"Brate, Cameron",TE,1,2.4,-0.5,Manic Moose,0,1,True,True
+2021,9,Beers,"Raymond, Kalif",WR,1,4.9,-0.5,Carter's Commandos,1,0,True,False
+2021,9,Blitzkrieg,"Gonzalez, Zane",K,1,3.0,-0.5,OakalDoakals,1,0,True,True
+2021,6,Scooter's Boozers,"Watkins, Sammy",WR,1,4.6,-0.5,Otters,0,1,True,False
+2021,2,Couchfire,"Booker, Devontae",RB,4,48.0,-0.5,Beers,4,0,True,True
+2022,15,Ho Train,"Conklin, Tyler",TE,5,33.9,-0.5,F-Jackie; Iron City Pounders,1,4,True,True
+2022,9,Carter's Commandos,"Raiders, Oakland",Def,1,0.0,-0.5,F-Jackie,1,0,True,True
+2022,8,Ho Train,"Patterson, Riley",K,2,13.0,-0.5,Beers; Karpet Munchers,0,2,True,True
+2022,5,Scooter's Boozers,"Brate, Cameron",TE,1,2.4,-0.5,Manic Moose,1,0,True,True
+2022,5,Ho Train,"Watkins, Sammy",WR,1,4.6,-0.5,Otters,1,0,True,False
+2022,4,Karpet Munchers,"Lutz, Wil",K,9,77.0,-0.5,F-Jackie,9,0,True,True
+2022,4,Otters,"Ammendola, Matt",K,1,3.0,-0.5,Dunbar Dogs,0,1,True,True
+2023,8,Beers,"Myers, Jason",K,15,136.0,-0.5,Blitzkrieg; F-Jackie; Karpet Munchers; Tally Wackers,5,10,True,True
+2024,17,Beers,"Reichard, Will",K,12,112.0,-0.5,Couchfire; Iron City Pounders,0,12,True,True
+2024,12,Couchfire,"Karty, Joshua",K,3,23.0,-0.5,F-Jackie,0,3,True,True
+2024,8,F-Jackie,"Parkinson, Colby",TE,1,3.1,-0.5,Beers,0,1,True,True
+2024,7,Carter's Commandos,"Moody, Jake",K,4,32.0,-0.5,Blitzkrieg; Karpet Munchers,4,0,True,False
+2024,7,Manic Moose,"Akers, Cam",RB,2,20.3,-0.5,Blitzkrieg,2,0,True,False
+2024,4,F-Jackie,"Smith, Jonnu",TE,1,2.7,-0.5,Blitzkrieg,0,1,True,True
+2024,4,OakalDoakals,"Johnson, Juwan",WR,5,47.2,-0.5,Karpet Munchers; Otters,0,5,True,False
+2024,3,Couchfire,"Karty, Joshua",K,3,23.0,-0.5,F-Jackie,0,3,True,True
+2025,17,Karpet Munchers,"Nailor, Jalen",WR,1,4.2,-0.5,F-Jackie,0,1,False,True
+2025,17,Karpet Munchers,"49ers, San Francisco",Def,3,8.0,-0.5,Beers; Manic Moose,0,3,False,True
+2025,14,Blitzkrieg,"Bourne, Kendrick",WR,1,4.2,-0.5,Karpet Munchers,1,0,False,True
+2025,10,Ho Train,"Waller, Darren",WR,1,5.1,-0.5,Beers,0,1,False,True
+2025,9,Tally Wackers,"Lockett, Tyler",WR,1,4.8,-0.5,Blitzkrieg,1,0,False,False
+2025,7,Beers,"Borregales, Andres",K,12,115.0,-0.5,F-Jackie; Scooter's Boozers,7,5,False,True
+2025,4,Couchfire,"Jets, New York",Def,1,-1.0,-0.5,Blitzkrieg,0,1,False,False
+2025,4,Beers,"Palmer, Josh",WR,1,4.6,-0.5,Scooter's Boozers,1,0,False,False
+2026,1,Couchfire,"Dell, Tank",WR,1,5.0,-0.5,Scooter's Boozers,1,0,False,False
+2009,14,Iron City Pounders,"Cowboys, Dallas",Def,5,31.0,-0.6,F-Jackie; Manic Moose,1,4,True,True
+2009,13,Tally Wackers,"Chiefs, Kansas City",Def,8,52.0,-0.6,Otters,0,8,True,True
+2009,8,Carter's Commandos,"Graham, Shayne",K,2,12.0,-0.6,Beers; F-Jackie,1,1,True,True
+2009,5,Blitzkrieg,"Keller, Dustin",TE,20,92.0,-0.6,Dunbar Dogs; Ho Train,7,13,True,False
+2010,14,Manic Moose,"Shiancoe, Vishante",TE,1,0.0,-0.6,Scooter's Boozers,0,1,True,True
+2010,8,Texas Nashvillians,"Tynes, Lawrence",K,3,20.0,-0.6,Dunbar Dogs,3,0,True,False
+2010,8,Da Funk,"Bengals, Cincinnati",Def,6,38.0,-0.6,Bunchalosers,0,6,True,True
+2011,13,OakalDoakals,"Watson, Ben",TE,1,0.0,-0.6,Bunchalosers,0,1,True,True
+2011,8,OakalDoakals,"Watson, Ben",TE,1,0.0,-0.6,Bunchalosers,0,1,True,True
+2011,6,OakalDoakals,"Casey, James",TE,1,0.0,-0.6,Otters,0,1,True,True
+2011,4,Manic Moose,"Moore, Evan",TE,1,0.0,-0.6,OakalDoakals,1,0,True,True
+2012,11,Otters,"Titans, Tennessee",Def,1,2.0,-0.6,F-Jackie,0,1,True,True
+2012,7,Manic Moose,"Housler, Robert",TE,1,0.0,-0.6,Karpet Munchers,0,1,True,True
+2012,7,Bunchalosers,"Fasano, Anthony",TE,1,0.0,-0.6,Beers,1,0,True,True
+2012,5,Carter's Commandos,"Fasano, Anthony",TE,1,0.0,-0.6,Beers,1,0,True,True
+2012,1,Manic Moose,"Bell, Joique",RB,3,18.0,-0.6,Otters,0,3,True,True
+2012,1,Blitzkrieg,"Winslow, Kellen",TE,1,0.0,-0.6,Ho Train,0,1,True,False
+2012,0,Scooter's Boozers,"Davis, Kellen",TE,1,0.0,-0.6,Texas Nashvillians,1,0,True,False
+2013,15,Manic Moose,"Folk, Nick",K,1,4.0,-0.6,Carter's Commandos,0,1,True,True
+2013,8,Carter's Commandos,"Walker, Delanie",TE,1,0.0,-0.6,Otters,1,0,True,False
+2013,7,Bunchalosers,"Roberts, Andre",WR,1,2.0,-0.6,F-Jackie,0,1,True,False
+2013,6,Iron City Pounders,"Kelce, Travis",TE,5,20.0,-0.6,Otters,0,5,True,False
+2014,15,Manic Moose,"Vikings, Minnesota",Def,5,28.0,-0.6,Beers; Scooter's Boozers,0,5,True,True
+2014,6,Karpet Munchers,"Succop, Ryan",K,1,4.0,-0.6,Manic Moose,1,0,True,False
+2015,9,Tally Wackers,"Cook, Jared",TE,1,0.0,-0.6,Texas Nashvillians,0,1,True,False
+2015,9,Manic Moose,"Fasano, Anthony",TE,1,0.0,-0.6,Dunbar Dogs,0,1,True,True
+2015,5,Beers,"Lewis, Marcedes",TE,1,0.0,-0.6,F-Jackie,0,1,True,True
+2015,3,Karpet Munchers,"Aiken, Kamar",WR,8,57.0,-0.6,Scooter's Boozers,7,1,True,False
+2016,12,OakalDoakals,"Allen, Dwayne",TE,1,0.0,-0.6,Scooter's Boozers,0,1,True,True
+2016,8,OakalDoakals,"Walford, Clive",TE,1,0.0,-0.6,Beers,1,0,True,True
+2016,7,Bunchalosers,"Panthers, Carolina",Def,6,33.0,-0.6,F-Jackie; Tally Wackers,3,3,True,True
+2017,17,OakalDoakals,"Seahawks, Seattle",Def,6,29.0,-0.6,Tally Wackers,0,6,True,False
+2017,7,Beers,"Derby, A.J.",TE,1,0.0,-0.6,Manic Moose,1,0,True,True
+2017,6,Ho Train,"Walsh, Blair",K,2,16.0,-0.6,Manic Moose; Otters,2,0,True,False
+2017,4,OakalDoakals,"Allen, Dwayne",TE,1,0.0,-0.6,Scooter's Boozers,1,0,True,True
+2018,13,Scooter's Boozers,"Ellington, Bruce",WR,1,3.7,-0.6,Beers,1,0,True,True
+2018,10,Blitzkrieg,"Allison, Geronimo",WR,1,3.8,-0.6,OakalDoakals,0,1,True,False
+2018,5,Couchfire,"Parkey, Cody",K,1,2.0,-0.6,Blitzkrieg,1,0,True,True
+2019,14,Scooter's Boozers,"Isabella, Andy",WR,1,4.0,-0.6,Da Funk,0,1,True,True
+2019,6,Manic Moose,"Thomas, Ian",TE,1,0.0,-0.6,Ho Train,0,1,True,True
+2019,4,Dunbar Dogs,"Gaskin, Myles",RB,6,62.8,-0.6,Ho Train,0,6,True,False
+2019,4,Couchfire,"Eagles, Philadelphia",Def,11,61.0,-0.6,Beers; F-Jackie; Otters; Scooter's Boozers,3,8,True,False
+2020,14,Couchfire,"Bullock, Randy",K,4,29.0,-0.6,Karpet Munchers; Otters,0,4,True,False
+2020,11,Texas Nashvillians,"Gould, Robbie",K,6,47.0,-0.6,Ho Train; Otters,0,6,True,True
+2020,6,Karpet Munchers,"Elliott, Jake",K,2,11.0,-0.6,Carter's Commandos; Otters,0,2,True,False
+2020,2,OakalDoakals,"Thomas, Ian",TE,1,0.0,-0.6,Ho Train,1,0,True,False
+2021,15,Couchfire,"Howard, O.J.",TE,1,1.2,-0.6,Blitzkrieg,0,1,True,True
+2022,15,Iron City Pounders,"Zuerlein, Greg",K,2,12.0,-0.6,Manic Moose,0,2,True,True
+2022,14,Dunbar Dogs,"Giants, New York",Def,4,18.0,-0.6,Beers; F-Jackie; Otters,1,3,True,True
+2022,13,Couchfire,"Pineiro, Eddy",K,2,12.0,-0.6,Otters,0,2,True,True
+2022,13,Otters,"Broncos, Denver",Def,2,4.0,-0.6,F-Jackie,2,0,True,True
+2022,5,Otters,"Zuerlein, Greg",K,4,30.0,-0.6,Iron City Pounders; Manic Moose,2,2,True,True
+2022,3,Otters,"Broncos, Denver",Def,2,4.0,-0.6,F-Jackie,2,0,True,True
+2023,14,F-Jackie,"Hudson, Tanner",TE,2,8.4,-0.6,OakalDoakals,2,0,True,True
+2023,8,Carter's Commandos,"Everett, Gerald",TE,2,8.5,-0.6,Manic Moose; Scooter's Boozers,2,0,True,False
+2023,4,F-Jackie,"Reynolds, Craig",RB,1,5.3,-0.6,Couchfire,1,0,True,True
+2024,16,Couchfire,"Bears, Chicago",Def,7,31.0,-0.6,Otters; Tally Wackers,1,6,True,False
+2024,12,Iron City Pounders,"Hopkins, Dustin",K,1,2.0,-0.6,Ho Train,1,0,True,True
+2024,8,Blitzkrieg,"Hyatt, Jalin",WR,1,3.2,-0.6,Ho Train,0,1,True,False
+2024,7,F-Jackie,"Iosivas, Andrei",WR,2,14.7,-0.6,Beers; Couchfire,1,1,True,True
+2024,5,Manic Moose,"Dissly, Will",TE,2,8.6,-0.6,Carter's Commandos,2,0,True,True
+2024,3,F-Jackie,"Rattler, Spencer",QB,1,17.8,-0.6,Couchfire,1,0,True,False
+2024,2,F-Jackie,"Palmer, Trey",WR,1,3.9,-0.6,Beers,1,0,True,False
+2025,14,Manic Moose,"Cowboys, Dallas",Def,4,12.0,-0.6,F-Jackie; Ho Train,0,4,False,True
+2025,10,Manic Moose,"Cowboys, Dallas",Def,4,12.0,-0.6,F-Jackie; Ho Train,0,4,False,True
+2025,8,Scooter's Boozers,"Smith, Arian",WR,1,2.8,-0.6,Da Funk,1,0,False,False
+2025,3,Ho Train,"Tucker, Sean",RB,6,75.3,-0.6,Texas Nashvillians,6,0,False,True
+2025,2,Blitzkrieg,"Helm, Gunnar",TE,1,1.3,-0.6,F-Jackie,1,0,False,False
+2009,7,Scooter's Boozers,"Rackers, Neil",K,9,70.0,-0.7,Bunchalosers; Carter's Commandos; Otters; Texas Nashvillians,1,8,True,True
+2010,14,Beers,"Gano, Graham",K,3,22.0,-0.7,F-Jackie; Iron City Pounders,0,3,True,True
+2010,7,Bunchalosers,"Longwell, Ryan",K,1,3.0,-0.7,Manic Moose,0,1,True,False
+2010,3,Da Funk,"Panthers, Carolina",Def,5,30.0,-0.7,F-Jackie; Otters; Tally Wackers,2,3,True,False
+2011,9,Bunchalosers,"Longwell, Ryan",K,1,3.0,-0.7,Manic Moose,1,0,True,False
+2011,9,Iron City Pounders,"Giants, New York",Def,10,68.0,-0.7,Dunbar Dogs; Ho Train,1,9,True,True
+2011,7,Otters,"Giants, New York",Def,11,75.0,-0.7,Dunbar Dogs; Ho Train; Iron City Pounders,2,9,True,False
+2011,6,Beers,"Scheffler, Tony",TE,3,9.0,-0.7,Blitzkrieg,3,0,True,True
+2012,8,Dunbar Dogs,"Nugent, Mike",K,5,44.0,-0.7,Bunchalosers; Da Funk; F-Jackie,3,2,True,False
+2013,7,Beers,"Giants, New York",Def,6,37.0,-0.7,Manic Moose; Otters,2,4,True,False
+2013,2,Otters,"Feely, Jay",K,6,56.0,-0.7,Iron City Pounders; OakalDoakals,6,0,True,True
+2015,9,Otters,"Coons, Travis",K,1,3.0,-0.7,Bunchalosers,1,0,True,True
+2015,6,OakalDoakals,"Holmes, Andre",WR,2,9.0,-0.7,Karpet Munchers,2,0,True,False
+2015,5,OakalDoakals,"Dawson, Phil",K,1,3.0,-0.7,Beers,1,0,True,False
+2017,6,Beers,"Patriots, New England",Def,12,67.0,-0.7,Bunchalosers; Couchfire; Manic Moose,2,10,True,True
+2017,1,Beers,"Inman, Dontrelle",WR,4,20.0,-0.7,OakalDoakals,4,0,True,True
+2018,11,Beers,"Vinatieri, Adam",K,4,26.0,-0.7,Blitzkrieg; Manic Moose; OakalDoakals,1,3,True,True
+2018,9,Beers,"Colts, Indianapolis",Def,8,46.0,-0.7,Blitzkrieg; Carter's Commandos; Otters,1,7,True,True
+2018,8,Iron City Pounders,"Colts, Indianapolis",Def,8,46.0,-0.7,Blitzkrieg; Carter's Commandos; Otters,1,7,True,True
+2018,2,Ho Train,"Prater, Matt",K,16,130.0,-0.7,Couchfire; Karpet Munchers,5,11,True,False
+2019,14,Scooter's Boozers,"Lewis, Dion",RB,1,3.1,-0.7,Karpet Munchers,0,1,True,True
+2019,14,Couchfire,"Cowboys, Dallas",Def,2,3.0,-0.7,Carter's Commandos; Otters,0,2,True,True
+2019,12,Otters,"Erickson, Alex",WR,1,3.1,-0.7,Beers,1,0,True,True
+2019,4,Scooter's Boozers,"Lewis, Dion",RB,1,3.1,-0.7,Karpet Munchers,0,1,True,True
+2020,14,OakalDoakals,"Johnson, Tyler",WR,1,2.6,-0.7,Otters,0,1,True,True
+2020,11,OakalDoakals,"49ers, San Francisco",Def,7,31.0,-0.7,Beers; Manic Moose,1,6,True,False
+2020,8,Blitzkrieg,"Bengals, Cincinnati",Def,4,14.0,-0.7,Couchfire; F-Jackie; Otters,0,4,True,True
+2020,8,Scooter's Boozers,"Badgley, Mike",K,8,68.0,-0.7,F-Jackie; Iron City Pounders,7,1,True,True
+2020,4,Otters,"Lewis, Dion",RB,1,3.1,-0.7,Karpet Munchers,1,0,True,True
+2020,4,Beers,"Jackson, DeSean",WR,1,2.4,-0.7,Otters,0,1,True,False
+2021,16,Ho Train,"Carter, DeAndre",WR,2,12.4,-0.7,Beers,0,2,True,True
+2021,9,OakalDoakals,"Jackson, DeSean",WR,1,2.4,-0.7,Otters,1,0,True,True
+2021,7,Manic Moose,"Vizcaino, Tristan",K,1,0.0,-0.7,Texas Nashvillians,1,0,True,True
+2021,2,Ho Train,"Jaguars, Jacksonville",Def,5,21.0,-0.7,Blitzkrieg; F-Jackie; Texas Nashvillians,1,4,True,True
+2022,17,F-Jackie,"Falcons, Atlanta",Def,3,12.0,-0.7,Beers; Carter's Commandos,0,3,True,True
+2022,15,Blitzkrieg,"Falcons, Atlanta",Def,3,12.0,-0.7,Beers; Carter's Commandos,0,3,True,True
+2023,6,Texas Nashvillians,"Redskins, Washington",Def,9,46.0,-0.7,Beers; Blitzkrieg; F-Jackie,2,7,True,False
+2024,17,Texas Nashvillians,"Folk, Nick",K,2,11.0,-0.7,Carter's Commandos,0,2,True,True
+2024,16,F-Jackie,"Butker, Harrison",K,9,81.0,-0.7,Da Funk,0,9,True,True
+2024,14,Blitzkrieg,"Wilson, Roman",WR,1,2.2,-0.7,Ho Train,0,1,True,False
+2024,14,Blitzkrieg,"Mims, Marvin",WR,1,1.8,-0.7,Beers,0,1,True,True
+2024,12,Dunbar Dogs,"Nailor, Jalen",WR,1,2.1,-0.7,Karpet Munchers,0,1,True,True
+2024,11,Scooter's Boozers,"Giants, New York",Def,2,3.0,-0.7,F-Jackie; Ho Train,1,1,True,True
+2024,3,Couchfire,"Parkinson, Colby",TE,2,8.4,-0.7,Beers; F-Jackie,1,1,True,True
+2025,10,Beers,"Knight, Zonovan",RB,1,4.9,-0.7,Karpet Munchers,1,0,False,True
+2025,9,Texas Nashvillians,"Folk, Nick",K,2,11.0,-0.7,Carter's Commandos,2,0,False,True
+2025,6,Dunbar Dogs,"Higbee, Tyler",TE,1,1.2,-0.7,Da Funk,0,1,False,False
+2025,4,F-Jackie,"Romo, John Parker",K,2,11.0,-0.7,Manic Moose,2,0,False,True
+2025,3,F-Jackie,"Wilson, Roman",WR,1,2.2,-0.7,Ho Train,1,0,False,True
+2026,4,Da Funk,"Williams, Kyle",WR,1,1.7,-0.7,OakalDoakals,1,0,False,False
+2026,4,Beers,"49ers, San Francisco",Def,2,1.0,-0.7,Manic Moose,2,0,False,True
+2009,13,Beers,"Anderson, David",WR,1,0.0,-0.8,Bunchalosers,0,1,True,True
+2009,9,Dunbar Dogs,"Robiskie, Brian",WR,1,0.0,-0.8,Karpet Munchers,0,1,True,False
+2009,8,Beers,"Prater, Matt",K,18,144.0,-0.8,Blitzkrieg; Otters,5,13,True,True
+2009,5,Iron City Pounders,"Kasay, John",K,6,43.0,-0.8,Da Funk; Karpet Munchers; Texas Nashvillians,4,2,True,False
+2009,5,Manic Moose,"Prater, Matt",K,18,144.0,-0.8,Blitzkrieg; Otters,5,13,True,True
+2009,3,OakalDoakals,"Clowney, David",WR,1,0.0,-0.8,Carter's Commandos,1,0,True,True
+2009,2,Manic Moose,"Stokley, Brandon",WR,1,0.0,-0.8,Scooter's Boozers,1,0,True,False
+2010,15,Da Funk,"Colts, Indianapolis",Def,1,0.0,-0.8,Blitzkrieg,0,1,True,True
+2010,12,Beers,"Redskins, Washington",Def,2,7.0,-0.8,Texas Nashvillians,0,2,True,True
+2010,10,F-Jackie,"Kaeding, Nate",K,3,19.0,-0.8,Manic Moose,2,1,True,False
+2010,10,Beers,"Colts, Indianapolis",Def,1,0.0,-0.8,Blitzkrieg,0,1,True,False
+2010,8,Tally Wackers,"Redskins, Washington",Def,2,7.0,-0.8,Texas Nashvillians,0,2,True,True
+2010,5,Otters,"Seahawks, Seattle",Def,9,58.0,-0.8,Da Funk,9,0,True,True
+2010,4,Scooter's Boozers,"Anderson, David",WR,1,0.0,-0.8,Bunchalosers,1,0,True,True
+2010,3,Carter's Commandos,"Clayton, Michael",WR,1,0.0,-0.8,F-Jackie,1,0,True,False
+2010,2,OakalDoakals,"Robiskie, Brian",WR,1,0.0,-0.8,Karpet Munchers,1,0,True,True
+2011,15,OakalDoakals,"Cooper, Riley",WR,1,0.0,-0.8,F-Jackie,0,1,True,True
+2011,12,OakalDoakals,"Cooper, Riley",WR,1,0.0,-0.8,F-Jackie,0,1,True,True
+2011,12,OakalDoakals,"Pettis, Austin",WR,1,0.0,-0.8,Otters,0,1,True,True
+2011,10,Manic Moose,"Sanzenbacher, Dane",WR,1,0.0,-0.8,Otters,1,0,True,True
+2011,10,Tally Wackers,"Panthers, Carolina",Def,3,15.0,-0.8,Blitzkrieg,0,3,True,False
+2011,3,Beers,"Hartley, Garrett",K,2,13.0,-0.8,Manic Moose,0,2,True,False
+2011,2,Manic Moose,"Pettis, Austin",WR,1,0.0,-0.8,Otters,0,1,True,False
+2011,2,Texas Nashvillians,"Cooper, Riley",WR,1,0.0,-0.8,F-Jackie,0,1,True,True
+2011,2,Manic Moose,"Kaeding, Nate",K,4,33.0,-0.8,Da Funk,0,4,True,True
+2011,1,Tally Wackers,"Barden, Ramses",WR,1,0.0,-0.8,OakalDoakals,0,1,True,True
+2011,0,F-Jackie,"Salas, Greg",WR,1,0.0,-0.8,OakalDoakals,1,0,True,False
+2012,16,Manic Moose,"Forsett, Justin",RB,1,0.0,-0.8,Karpet Munchers,0,1,True,True
+2012,13,Manic Moose,"Henery, Alex",K,3,23.0,-0.8,F-Jackie,1,2,True,True
+2012,11,Bunchalosers,"Forsett, Justin",RB,1,0.0,-0.8,Karpet Munchers,0,1,True,True
+2012,10,Iron City Pounders,"Packers, Green Bay",Def,15,103.0,-0.8,Da Funk; Ho Train,2,13,True,False
+2012,10,Beers,"Hartley, Garrett",K,2,13.0,-0.8,Manic Moose,2,0,True,False
+2012,9,Otters,"Barden, Ramses",WR,1,0.0,-0.8,OakalDoakals,1,0,True,True
+2012,7,Manic Moose,"Henery, Alex",K,3,23.0,-0.8,F-Jackie,1,2,True,True
+2012,6,Karpet Munchers,"Harris, Dwayne",WR,1,0.0,-0.8,OakalDoakals,1,0,True,True
+2012,5,OakalDoakals,"Robinson, Aldrick",WR,1,0.0,-0.8,Scooter's Boozers,0,1,True,True
+2012,4,Texas Nashvillians,"Brazill, LaVon",WR,1,0.0,-0.8,Bunchalosers,0,1,True,True
+2012,4,Carter's Commandos,"Toon, Nick",WR,1,0.0,-0.8,Dunbar Dogs,0,1,True,False
+2012,4,OakalDoakals,"Helu, Roy",RB,1,0.0,-0.8,Otters,0,1,True,False
+2013,14,Otters,"Beasley, Cole",WR,1,0.0,-0.8,F-Jackie,0,1,True,True
+2013,13,Iron City Pounders,"Young, Darrel",RB,1,0.0,-0.8,Karpet Munchers,0,1,True,True
+2013,11,OakalDoakals,"Pettis, Austin",WR,1,0.0,-0.8,F-Jackie,1,0,True,True
+2013,10,Iron City Pounders,"Novak, Nick",K,14,135.0,-0.8,Beers; F-Jackie,3,11,True,True
+2013,6,OakalDoakals,"Rainey, Bobby",RB,1,0.0,-0.8,Carter's Commandos,0,1,True,True
+2013,6,Scooter's Boozers,"Dwyer, Jonathan",RB,1,0.0,-0.8,Karpet Munchers,0,1,True,False
+2013,5,Texas Nashvillians,"Wright, Jarius",WR,1,0.0,-0.8,OakalDoakals,0,1,True,False
+2013,5,Bunchalosers,"Leonard, Brian",RB,1,0.0,-0.8,Ho Train,1,0,True,False
+2014,16,Beers,"Riddick, Theo",RB,1,0.0,-0.8,Manic Moose,0,1,True,True
+2014,15,Manic Moose,"Helu, Roy",RB,1,0.0,-0.8,Carter's Commandos,0,1,True,False
+2014,14,OakalDoakals,"Gray, Jonas",RB,1,0.0,-0.8,Beers,0,1,True,True
+2014,12,OakalDoakals,"Celek, Brent",TE,4,13.0,-0.8,Blitzkrieg; Karpet Munchers,0,4,True,True
+2014,7,OakalDoakals,"Hartline, Brian",WR,1,0.0,-0.8,Bunchalosers,1,0,True,False
+2014,4,Beers,"Beasley, Cole",WR,1,0.0,-0.8,F-Jackie,1,0,True,False
+2015,12,Otters,"Johnson, Charles",WR,1,0.0,-0.8,Iron City Pounders,0,1,True,True
+2015,10,Carter's Commandos,"Heyward-Bey, Darrius",WR,1,0.0,-0.8,Dunbar Dogs,0,1,True,True
+2015,9,Bunchalosers,"Robinson, Denard",RB,1,0.0,-0.8,OakalDoakals,1,0,True,True
+2015,7,Bunchalosers,"Coleman, Brandon",WR,1,0.0,-0.8,OakalDoakals,1,0,True,False
+2015,6,Bunchalosers,"Saints, New Orleans",Def,1,-1.0,-0.8,F-Jackie,1,0,True,True
+2015,6,Beers,"Dixon, Anthony",RB,1,0.0,-0.8,Texas Nashvillians,1,0,True,True
+2015,5,OakalDoakals,"Reece, Marcel",RB,1,0.0,-0.8,Karpet Munchers,1,0,True,True
+2015,2,Carter's Commandos,"Sturgis, Caleb",K,8,72.0,-0.8,Blitzkrieg; Scooter's Boozers,1,7,True,False
+2015,2,OakalDoakals,"Helu, Roy",RB,1,0.0,-0.8,Carter's Commandos,1,0,True,False
+2016,13,Iron City Pounders,"Buccaneers, Tampa Bay",Def,1,0.0,-0.8,Ho Train,0,1,True,True
+2016,9,Beers,"Patterson, Cordarrelle",WR,1,0.0,-0.8,Iron City Pounders,0,1,True,True
+2017,7,F-Jackie,"Louis, Ricardo",WR,1,0.0,-0.8,Bunchalosers,1,0,True,True
+2017,5,Otters,"McDonald, Vance",TE,11,89.7,-0.8,Dunbar Dogs,0,11,True,False
+2017,4,OakalDoakals,"Shepard, Russell",WR,1,0.0,-0.8,Bunchalosers,1,0,True,True
+2017,2,Bunchalosers,"White, Kevin",WR,1,1.1,-0.8,Tally Wackers,0,1,True,False
+2018,6,OakalDoakals,"Boone, Mike",RB,1,3.8,-0.8,Beers,0,1,True,True
+2018,3,Otters,"Seals-Jones, Ricky",TE,3,15.2,-0.8,OakalDoakals,1,2,True,False
+2019,16,Beers,"Thompson, Chris",RB,1,1.6,-0.8,Couchfire,0,1,True,True
+2019,12,Beers,"Richard, Jalen",RB,1,2.2,-0.8,Dunbar Dogs,0,1,True,True
+2019,10,Carter's Commandos,"Fairbairn, Ka'imi",K,10,84.0,-0.8,Blitzkrieg; Iron City Pounders; Otters,2,8,True,False
+2019,6,Otters,"Wilson, Jeffery",RB,1,2.4,-0.8,OakalDoakals,0,1,True,True
+2020,12,F-Jackie,"Robinson, Demarcus",WR,1,1.2,-0.8,Beers,0,1,True,True
+2020,8,Karpet Munchers,"Keenum, Case",QB,1,16.6,-0.8,Scooter's Boozers,0,1,True,True
+2020,6,Iron City Pounders,"Seahawks, Seattle",Def,20,105.0,-0.8,Dunbar Dogs; Otters,8,12,True,True
+2020,6,Otters,"Pascal, Zach",WR,1,1.9,-0.8,Manic Moose,0,1,True,True
+2020,5,Couchfire,"Badgley, Mike",K,9,77.0,-0.8,F-Jackie; Iron City Pounders; Scooter's Boozers,8,1,True,True
+2020,5,F-Jackie,"Richard, Jalen",RB,1,2.2,-0.8,Dunbar Dogs,1,0,True,False
+2020,2,Blitzkrieg,"Pascal, Zach",WR,1,1.9,-0.8,Manic Moose,0,1,True,True
+2021,17,Texas Nashvillians,"Dolphins, Miami",Def,10,48.0,-0.8,F-Jackie; Manic Moose,0,10,True,True
+2021,13,Texas Nashvillians,"Dolphins, Miami",Def,10,48.0,-0.8,F-Jackie; Manic Moose,0,10,True,True
+2021,13,Karpet Munchers,"Skowronek, Ben",WR,2,11.4,-0.8,Otters,0,2,True,True
+2021,11,OakalDoakals,"Raiders, Oakland",Def,3,7.0,-0.8,Carter's Commandos; Couchfire; F-Jackie,1,2,True,True
+2021,11,Beers,"Crosby, Mason",K,5,36.0,-0.8,Dunbar Dogs,1,4,True,True
+2021,3,Beers,"Crosby, Mason",K,5,36.0,-0.8,Dunbar Dogs,1,4,True,True
+2022,17,Karpet Munchers,"Butker, Harrison",K,14,121.0,-0.8,Da Funk,0,14,True,False
+2022,12,F-Jackie,"Bengals, Cincinnati",Def,9,50.0,-0.8,Blitzkrieg; Texas Nashvillians,0,9,True,True
+2022,9,Couchfire,"Blackshear, Raheem",RB,1,2.7,-0.8,Scooter's Boozers,0,1,True,True
+2022,7,Couchfire,"Shenault, Laviska",WR,1,0.6,-0.8,Ho Train,1,0,True,True
+2022,2,Blitzkrieg,"Shenault, Laviska",WR,1,0.6,-0.8,Ho Train,1,0,True,False
+2023,17,Ho Train,"Hopkins, Dustin",K,1,0.0,-0.8,Iron City Pounders,0,1,True,True
+2023,16,Scooter's Boozers,"Prater, Matt",K,5,38.0,-0.8,Beers,0,5,True,True
+2023,11,Karpet Munchers,"Patterson, Riley",K,1,0.0,-0.8,Beers,1,0,True,True
+2023,10,F-Jackie,"Colts, Indianapolis",Def,15,79.0,-0.8,Beers; OakalDoakals,1,14,True,True
+2023,7,Otters,"Conklin, Tyler",TE,4,22.9,-0.8,Iron City Pounders,4,0,True,True
+2023,6,Couchfire,"Evans, Darrynton",RB,1,3.1,-0.8,Manic Moose,1,0,True,True
+2023,2,Otters,"Conklin, Tyler",TE,4,22.9,-0.8,Iron City Pounders,4,0,True,True
+2024,15,Couchfire,"Reichard, Will",K,7,60.0,-0.8,Iron City Pounders,0,7,True,True
+2024,12,Dunbar Dogs,"Reichard, Will",K,13,118.0,-0.8,Couchfire; Iron City Pounders,1,12,True,True
+2024,10,Beers,"Reichard, Will",K,13,118.0,-0.8,Couchfire; Iron City Pounders,1,12,True,True
+2024,8,Blitzkrieg,"Falcons, Atlanta",Def,11,51.0,-0.8,Couchfire; Ho Train; Tally Wackers; Texas Nashvillians,3,8,True,True
+2024,6,Scooter's Boozers,"Grupe, Blake",K,7,57.0,-0.8,Carter's Commandos; Dunbar Dogs,7,0,True,True
+2024,2,Ho Train,"Brown, Dyami",WR,1,1.6,-0.8,Beers,1,0,True,False
+2025,9,Couchfire,"Dotson, Jahan",WR,1,1.1,-0.8,Otters,0,1,False,True
+2025,8,Beers,"Fitzgerald, Ryan",K,1,1.0,-0.8,Couchfire,0,1,False,True
+2025,5,OakalDoakals,"Fant, Noah",TE,2,8.7,-0.8,Couchfire,2,0,False,True
+2009,10,Beers,"Seahawks, Seattle",Def,10,64.0,-0.9,Da Funk; Otters,0,10,True,True
+2009,9,Blitzkrieg,"Seahawks, Seattle",Def,10,64.0,-0.9,Da Funk; Otters,0,10,True,True
+2009,9,Iron City Pounders,"Succop, Ryan",K,4,26.0,-0.9,Karpet Munchers,0,4,True,True
+2009,9,Otters,"Bengals, Cincinnati",Def,7,45.0,-0.9,Da Funk; Iron City Pounders,3,4,True,True
+2010,8,OakalDoakals,"Vikings, Minnesota",Def,9,57.0,-0.9,F-Jackie; Karpet Munchers,1,8,True,True
+2010,5,Carter's Commandos,"Gostkowski, Stephen",K,17,150.0,-0.9,Karpet Munchers; Tally Wackers; Texas Nashvillians,4,13,True,False
+2010,3,OakalDoakals,"Vikings, Minnesota",Def,9,57.0,-0.9,F-Jackie; Karpet Munchers,1,8,True,True
+2010,2,Otters,"Olsen, Greg",TE,12,50.0,-0.9,Scooter's Boozers; Tally Wackers,8,4,True,False
+2011,10,Carter's Commandos,"Broncos, Denver",Def,7,44.0,-0.9,F-Jackie; Karpet Munchers,1,6,True,True
+2011,5,Iron City Pounders,"Harper, Jamie",RB,1,0.0,-0.9,Bunchalosers,0,1,True,False
+2012,14,F-Jackie,"Nugent, Mike",K,2,12.0,-0.9,Bunchalosers; Da Funk,0,2,True,True
+2012,10,OakalDoakals,"Thomas, Mike",WR,2,6.0,-0.9,Bunchalosers,2,0,True,True
+2012,6,Ho Train,"Brown, Ronnie",RB,1,0.0,-0.9,Beers,1,0,True,False
+2012,3,Ho Train,"Douglas, Harry",WR,11,76.0,-0.9,Otters,0,11,True,False
+2013,12,F-Jackie,"Suisham, Shaun",K,8,72.0,-0.9,Manic Moose; Scooter's Boozers,0,8,True,True
+2014,14,Da Funk,"Escobar, Gavin",TE,1,-3.0,-0.9,OakalDoakals,0,1,True,True
+2015,11,Karpet Munchers,"Lions, Detroit",Def,5,21.0,-0.9,Beers; Carter's Commandos; Dunbar Dogs,0,5,True,False
+2015,10,Blitzkrieg,"Celek, Brent",TE,4,13.0,-0.9,Karpet Munchers; Tally Wackers,3,1,True,True
+2015,9,F-Jackie,"Stills, Kenny",WR,3,14.0,-0.9,Manic Moose; Texas Nashvillians,1,2,True,False
+2015,4,Bunchalosers,"49ers, San Francisco",Def,2,3.0,-0.9,Da Funk; F-Jackie,0,2,True,False
+2016,12,Karpet Munchers,"Falcons, Atlanta",Def,8,47.0,-0.9,Tally Wackers,0,8,True,True
+2016,11,Beers,"West, Charcandrick",RB,1,0.0,-0.9,Carter's Commandos,0,1,True,True
+2016,8,Bunchalosers,"Davis, Mike",RB,1,0.0,-0.9,Otters,0,1,True,True
+2016,7,OakalDoakals,"Whittaker, Fozzy",RB,1,0.0,-0.9,Karpet Munchers,0,1,True,True
+2016,5,Texas Nashvillians,"Cook, Jared",TE,6,22.0,-0.9,F-Jackie,0,6,True,False
+2017,7,F-Jackie,"Allison, Geronimo",WR,2,11.0,-0.9,Blitzkrieg,0,2,True,True
+2017,6,OakalDoakals,"Marshall, Brandon",WR,1,0.0,-0.9,Da Funk,0,1,True,False
+2018,15,Otters,"Bryant, Matt",K,8,55.0,-0.9,Blitzkrieg,0,8,True,True
+2018,14,Beers,"Quinn, Trey",WR,1,0.0,-0.9,Couchfire,0,1,True,True
+2018,10,Beers,"Kearse, Jermaine",WR,1,0.0,-0.9,Scooter's Boozers,1,0,True,True
+2018,10,F-Jackie,"Dolphins, Miami",Def,1,-4.0,-0.9,Carter's Commandos,0,1,True,True
+2019,16,Couchfire,"Packers, Green Bay",Def,12,59.0,-0.9,F-Jackie; Iron City Pounders,0,12,True,True
+2019,12,Otters,"Robinson, Demarcus",WR,1,0.0,-0.9,Karpet Munchers,1,0,True,True
+2019,11,Couchfire,"Packers, Green Bay",Def,12,59.0,-0.9,F-Jackie; Iron City Pounders,0,12,True,True
+2019,10,Blitzkrieg,"Pineiro, Eddy",K,3,14.0,-0.9,Couchfire,3,0,True,True
+2019,9,OakalDoakals,"Hill, Justice",RB,1,0.0,-0.9,Da Funk,0,1,True,False
+2019,5,Beers,"Johnson, Ty",RB,1,0.0,-0.9,Carter's Commandos,0,1,True,False
+2020,16,F-Jackie,"Cardinals, Arizona",Def,9,40.0,-0.9,Beers; Otters,0,9,True,True
+2020,14,Manic Moose,"Cardinals, Arizona",Def,9,40.0,-0.9,Beers; Otters,0,9,True,True
+2020,11,Ho Train,"Gano, Graham",K,7,53.0,-0.9,Blitzkrieg; Otters; Scooter's Boozers,0,7,True,True
+2020,7,Ho Train,"Gano, Graham",K,7,53.0,-0.9,Blitzkrieg; Otters; Scooter's Boozers,0,7,True,True
+2020,6,Scooter's Boozers,"Brate, Cameron",TE,2,5.6,-0.9,Otters,0,2,True,True
+2020,5,Scooter's Boozers,"Dillon, AJ",RB,2,13.8,-0.9,Ho Train,1,1,True,False
+2020,3,Manic Moose,"Inman, Dontrelle",WR,1,0.5,-0.9,Karpet Munchers,1,0,True,False
+2020,2,Couchfire,"Gostkowski, Stephen",K,4,27.0,-0.9,Karpet Munchers,4,0,True,True
+2021,15,Karpet Munchers,"Jones, Zay",WR,9,84.9,-0.9,OakalDoakals,0,9,True,True
+2021,13,Carter's Commandos,"Elliott, Jake",K,7,54.0,-0.9,F-Jackie; Ho Train; Otters,1,6,True,True
+2021,11,F-Jackie,"Ahmed, Salvon",RB,1,2.3,-0.9,Couchfire,1,0,True,True
+2021,6,OakalDoakals,"Ahmed, Salvon",RB,1,2.3,-0.9,Couchfire,1,0,True,True
+2021,3,Manic Moose,"Smith, Tre'Quan",WR,1,0.0,-0.9,Blitzkrieg,0,1,True,True
+2022,15,Otters,"Hill, Justice",RB,1,1.2,-0.9,Blitzkrieg,0,1,True,True
+2022,5,F-Jackie,"Dortch, Greg",WR,1,0.0,-0.9,Otters,1,0,True,True
+2022,4,Texas Nashvillians,"Toure, Samori",WR,1,0.0,-0.9,OakalDoakals,1,0,True,False
+2023,10,Couchfire,"Toney, Kadarius",WR,1,0.6,-0.9,Otters,1,0,True,False
+2023,9,Beers,"Patterson, Cordarrelle",WR,1,0.5,-0.9,Karpet Munchers,0,1,True,True
+2023,7,Scooter's Boozers,"Blackshear, Raheem",RB,1,2.0,-0.9,Couchfire,0,1,True,True
+2023,6,Scooter's Boozers,"Patterson, Cordarrelle",WR,1,0.5,-0.9,Karpet Munchers,0,1,True,False
+2024,15,Manic Moose,"Jaguars, Jacksonville",Def,6,21.0,-0.9,Da Funk,0,6,True,True
+2024,10,Da Funk,"Minshew, Gardner",QB,1,15.0,-0.9,Texas Nashvillians,1,0,True,False
+2024,9,Beers,"Atwell, Tutu",WR,1,0.0,-0.9,Couchfire,0,1,True,True
+2024,9,Karpet Munchers,"Jets, New York",Def,2,1.0,-0.9,Da Funk,2,0,True,False
+2024,2,Manic Moose,"Jaguars, Jacksonville",Def,6,21.0,-0.9,Da Funk,0,6,True,True
+2025,3,Texas Nashvillians,"Ekeler, Austin",RB,1,1.7,-0.9,Couchfire,0,1,False,False
+2025,2,Carter's Commandos,"Borregales, Andres",K,13,120.0,-0.9,Beers; F-Jackie; Scooter's Boozers,8,5,False,True
+2026,6,F-Jackie,"Ekeler, Austin",RB,1,1.7,-0.9,Couchfire,1,0,False,True
+2009,14,Manic Moose,"Jennings, Chris",RB,1,0.0,-1.0,F-Jackie,1,0,True,True
+2009,13,Manic Moose,"Morris, Maurice",RB,1,0.0,-1.0,F-Jackie,1,0,True,True
+2009,8,F-Jackie,"McClain, Le'Ron",RB,1,0.0,-1.0,Beers,0,1,True,False
+2010,15,Texas Nashvillians,"Raiders, Oakland",Def,6,34.0,-1.0,Karpet Munchers; Manic Moose,0,6,True,True
+2010,12,F-Jackie,"Ware, Danny",RB,1,0.0,-1.0,Karpet Munchers,0,1,True,True
+2010,10,Da Funk,"Decker, Eric",WR,10,60.0,-1.0,Manic Moose,0,10,True,False
+2010,9,Karpet Munchers,"Broncos, Denver",Def,4,20.0,-1.0,Carter's Commandos; F-Jackie,0,4,True,True
+2010,8,Ho Train,"Choice, Tashard",RB,1,0.0,-1.0,Otters,1,0,True,False
+2011,15,OakalDoakals,"Hasselbeck, Matt",QB,1,14.0,-1.0,Blitzkrieg,0,1,True,False
+2011,10,Manic Moose,"Ware, Danny",RB,1,0.0,-1.0,Karpet Munchers,1,0,True,True
+2011,10,OakalDoakals,"McKnight, Joe",RB,1,0.0,-1.0,Manic Moose,1,0,True,True
+2011,9,OakalDoakals,"Lumpkin, Kregg",RB,1,0.0,-1.0,Bunchalosers,1,0,True,True
+2011,9,Bunchalosers,"Dreessen, Joel",TE,4,12.0,-1.0,Ho Train,0,4,True,True
+2012,8,Carter's Commandos,"Bengals, Cincinnati",Def,6,35.0,-1.0,F-Jackie; Otters,4,2,True,False
+2012,4,Texas Nashvillians,"Cundiff, Billy",K,2,11.0,-1.0,Da Funk; Scooter's Boozers,1,1,True,True
+2013,10,Beers,"Quarless, Andrew",TE,3,6.0,-1.0,Da Funk,0,3,True,True
+2014,9,Karpet Munchers,"Fleener, Coby",TE,6,21.0,-1.0,Texas Nashvillians,0,6,True,False
+2014,8,Da Funk,"Graham, Shayne",K,3,21.0,-1.0,Otters,3,0,True,False
+2015,9,Manic Moose,"White, Roddy",WR,2,6.0,-1.0,Ho Train,2,0,True,False
+2015,8,Karpet Munchers,"Whittaker, Fozzy",RB,1,0.0,-1.0,OakalDoakals,0,1,True,False
+2015,5,OakalDoakals,"Powell, Bilal",RB,1,0.0,-1.0,Beers,0,1,True,True
+2015,4,Iron City Pounders,"West, Terrance",RB,2,9.0,-1.0,Otters,0,2,True,False
+2015,1,F-Jackie,"Powell, Bilal",RB,1,0.0,-1.0,Beers,0,1,True,False
+2016,8,Bunchalosers,"Buccaneers, Tampa Bay",Def,2,4.0,-1.0,Ho Train; Iron City Pounders,1,1,True,True
+2016,7,OakalDoakals,"Washington, Dwayne",RB,1,0.0,-1.0,Bunchalosers,1,0,True,True
+2016,6,F-Jackie,"Draughn, Shaun",RB,1,0.0,-1.0,Bunchalosers,1,0,True,False
+2016,6,Carter's Commandos,"West, Charcandrick",RB,1,0.0,-1.0,Beers,1,0,True,False
+2017,8,Texas Nashvillians,"Dickson, Ed",TE,3,6.0,-1.0,Blitzkrieg,3,0,True,True
+2018,12,Beers,"Bengals, Cincinnati",Def,2,-1.0,-1.0,F-Jackie,2,0,True,True
+2018,8,Beers,"Bengals, Cincinnati",Def,2,-1.0,-1.0,F-Jackie,2,0,True,True
+2018,5,Manic Moose,"Ellington, Bruce",WR,2,9.7,-1.0,Beers; Scooter's Boozers,2,0,True,True
+2018,2,Manic Moose,"Vannett, Nick",TE,2,3.8,-1.0,Dunbar Dogs,0,2,True,False
+2019,11,Beers,"Jaguars, Jacksonville",Def,4,11.0,-1.0,Ho Train; Manic Moose,0,4,True,False
+2020,16,Otters,"Seahawks, Seattle",Def,12,56.0,-1.0,Dunbar Dogs,0,12,True,True
+2020,10,Beers,"Cardinals, Arizona",Def,3,5.0,-1.0,Manic Moose; Otters,2,1,True,True
+2021,5,Otters,"Chark, D.J.",WR,4,30.9,-1.0,Couchfire; Karpet Munchers,0,4,True,False
+2021,2,Karpet Munchers,"Kelley, Joshua",RB,1,0.0,-1.0,Carter's Commandos,0,1,True,False
+2022,16,Karpet Munchers,"Breida, Matt",RB,1,0.3,-1.0,Beers,0,1,True,False
+2022,15,Texas Nashvillians,"Hubbard, Chuba",RB,2,12.8,-1.0,Otters,0,2,True,False
+2022,14,F-Jackie,"Henderson, Darrell",RB,3,25.4,-1.0,Otters,0,3,True,False
+2022,6,Blitzkrieg,"Johnson, D'Ernest",RB,1,0.0,-1.0,Couchfire,1,0,True,False
+2023,11,Ho Train,"Higbee, Tyler",TE,2,4.5,-1.0,Carter's Commandos,2,0,True,False
+2024,17,Couchfire,"Falcons, Atlanta",Def,8,31.0,-1.0,Ho Train; Texas Nashvillians,0,8,True,True
+2024,14,Manic Moose,"Metchie, John",WR,2,9.3,-1.0,Couchfire,0,2,True,True
+2024,10,Karpet Munchers,"Kmet, Cole",TE,2,5.4,-1.0,Tally Wackers,0,2,True,True
+2024,10,Beers,"Metchie, John",WR,2,9.3,-1.0,Couchfire,0,2,True,True
+2024,5,Couchfire,"Santos, Cairo",K,3,17.0,-1.0,F-Jackie; Otters,0,3,True,True
+2024,2,Iron City Pounders,"Metchie, John",WR,2,9.3,-1.0,Couchfire,0,2,True,False
+2009,8,F-Jackie,"Nedney, Joe",K,5,32.0,-1.1,Dunbar Dogs; Tally Wackers,1,4,True,True
+2010,15,Texas Nashvillians,"Moore, Evan",TE,2,0.0,-1.1,Manic Moose; OakalDoakals,0,2,True,True
+2010,12,Bunchalosers,"Shiancoe, Vishante",TE,2,0.0,-1.1,Manic Moose; Scooter's Boozers,1,1,True,True
+2010,7,Manic Moose,"Moore, Evan",TE,2,0.0,-1.1,OakalDoakals; Texas Nashvillians,1,1,True,True
+2010,7,Bunchalosers,"Shiancoe, Vishante",TE,2,0.0,-1.1,Manic Moose; Scooter's Boozers,1,1,True,True
+2010,7,Otters,"Panthers, Carolina",Def,4,19.0,-1.1,F-Jackie; Tally Wackers,1,3,True,True
+2010,2,Scooter's Boozers,"Cardinals, Arizona",Def,11,70.0,-1.1,F-Jackie; Manic Moose; OakalDoakals,6,5,True,False
+2011,15,Otters,"Dawson, Phil",K,7,60.0,-1.1,Texas Nashvillians,0,7,True,True
+2012,11,Blitzkrieg,"Feely, Jay",K,7,62.0,-1.1,Iron City Pounders; OakalDoakals; Otters,0,7,True,True
+2013,14,Beers,"Novak, Nick",K,11,101.0,-1.1,F-Jackie,0,11,True,True
+2013,12,Otters,"Cook, Jared",TE,2,0.0,-1.1,Carter's Commandos; Karpet Munchers,1,1,True,True
+2013,10,Iron City Pounders,"Ravens, Baltimore",Def,5,26.0,-1.1,Beers; Blitzkrieg,2,3,True,True
+2013,8,Bunchalosers,"Celek, Brent",TE,2,0.0,-1.1,Da Funk; OakalDoakals,1,1,True,True
+2013,6,Otters,"Ponder, Christian",QB,1,13.0,-1.1,Bunchalosers,0,1,True,True
+2014,13,F-Jackie,"Daniels, Owen",TE,2,0.0,-1.1,Bunchalosers,0,2,True,True
+2014,10,F-Jackie,"Cook, Jared",TE,2,0.0,-1.1,Carter's Commandos; Tally Wackers,1,1,True,False
+2015,14,Otters,"Michael, Christine",RB,11,89.0,-1.1,Blitzkrieg,0,11,True,True
+2015,11,Bunchalosers,"Daniels, Owen",TE,2,0.0,-1.1,F-Jackie,2,0,True,True
+2015,8,Manic Moose,"Carpenter, Dan",K,5,39.0,-1.1,Ho Train; Scooter's Boozers,1,4,True,True
+2015,6,Bunchalosers,"Daniels, Owen",TE,2,0.0,-1.1,F-Jackie,2,0,True,True
+2015,5,Carter's Commandos,"Dolphins, Miami",Def,12,65.0,-1.1,Beers; Bunchalosers; Dunbar Dogs; F-Jackie; Manic Moose; Otters,6,6,True,False
+2015,3,Otters,"Ravens, Baltimore",Def,10,51.0,-1.1,Carter's Commandos; Texas Nashvillians,4,6,True,False
+2016,10,Carter's Commandos,"Lions, Detroit",Def,11,64.0,-1.1,Beers; Dunbar Dogs,2,9,True,True
+2016,6,F-Jackie,"Catanzaro, Chandler",K,3,23.0,-1.1,Iron City Pounders; OakalDoakals,0,3,True,False
+2017,8,Beers,"Jets, New York",Def,8,35.0,-1.1,Ho Train,0,8,True,True
+2017,3,Texas Nashvillians,"Vinatieri, Adam",K,10,86.0,-1.1,Beers; Bunchalosers; Manic Moose; Otters,2,8,True,True
+2018,15,Couchfire,"Giants, New York",Def,3,8.0,-1.1,F-Jackie,0,3,True,True
+2018,7,Ho Train,"Giants, New York",Def,3,8.0,-1.1,F-Jackie,0,3,True,False
+2018,5,OakalDoakals,"Clay, Charles",RB,1,0.0,-1.1,Scooter's Boozers,1,0,True,False
+2019,8,Carter's Commandos,"Cowboys, Dallas",Def,4,13.0,-1.1,Couchfire; Otters,3,1,True,True
+2019,3,Couchfire,"Panthers, Carolina",Def,10,56.0,-1.1,Dunbar Dogs; Karpet Munchers,9,1,True,True
+2019,1,Scooter's Boozers,"Succop, Ryan",K,5,35.0,-1.1,Otters; Tally Wackers,0,5,True,False
+2020,3,Couchfire,"Seahawks, Seattle",Def,22,114.0,-1.1,Dunbar Dogs; Iron City Pounders; Otters,10,12,True,False
+2021,16,Beers,"Prater, Matt",K,7,52.0,-1.1,F-Jackie; Tally Wackers,0,7,True,True
+2021,9,Iron City Pounders,"Tonyan, Robert",TE,6,34.6,-1.1,Couchfire; Scooter's Boozers,0,6,True,False
+2021,8,Scooter's Boozers,"Bell, Le'Veon",RB,1,0.1,-1.1,F-Jackie,1,0,True,True
+2021,8,Karpet Munchers,"Bullock, Randy",K,4,23.0,-1.1,Couchfire; Otters,3,1,True,True
+2021,7,Couchfire,"McKinnon, Jerick",RB,2,11.9,-1.1,Iron City Pounders,0,2,True,True
+2021,6,Scooter's Boozers,"Bell, Le'Veon",RB,1,0.1,-1.1,F-Jackie,1,0,True,True
+2021,5,Couchfire,"Gallman, Wayne",RB,1,0.0,-1.1,Beers,1,0,True,True
+2021,4,Otters,"Peoples-Jones, Donovan",WR,6,51.0,-1.1,Beers; Scooter's Boozers,0,6,True,False
+2021,2,Scooter's Boozers,"Gallman, Wayne",RB,1,0.0,-1.1,Beers,1,0,True,False
+2022,16,Beers,"Redskins, Washington",Def,6,26.0,-1.1,Blitzkrieg; Texas Nashvillians,0,6,True,True
+2022,11,Couchfire,"Redskins, Washington",Def,10,50.0,-1.1,Beers; Blitzkrieg; Texas Nashvillians,3,7,True,True
+2022,10,Scooter's Boozers,"Vikings, Minnesota",Def,9,45.0,-1.1,Beers; F-Jackie; Texas Nashvillians,2,7,True,True
+2022,8,Otters,"Conklin, Tyler",TE,6,35.1,-1.1,F-Jackie; Ho Train; Iron City Pounders,2,4,True,True
+2022,6,F-Jackie,"Prater, Matt",K,14,117.0,-1.1,Scooter's Boozers; Tally Wackers,3,11,True,False
+2023,11,Beers,"Falcons, Atlanta",Def,7,29.0,-1.1,Blitzkrieg; Carter's Commandos; Couchfire; Tally Wackers,2,5,True,True
+2024,16,Beers,"Rodriguez, Chris",RB,1,0.2,-1.1,Manic Moose,0,1,True,True
+2024,15,F-Jackie,"Homer, Travis",RB,1,0.0,-1.1,Couchfire,0,1,True,True
+2024,13,F-Jackie,"Perine, Samaje",RB,1,0.5,-1.1,Blitzkrieg,0,1,True,True
+2024,12,Karpet Munchers,"Sanders, Miles",RB,1,0.0,-1.1,Dunbar Dogs,0,1,True,False
+2025,7,Scooter's Boozers,"Prater, Matt",K,3,16.0,-1.1,Couchfire; Ho Train,3,0,False,True
+2025,7,F-Jackie,"Rodriguez, Chris",RB,1,0.2,-1.1,Manic Moose,1,0,False,True
+2025,6,Scooter's Boozers,"Harris, Najee",RB,1,0.2,-1.1,Ho Train,0,1,False,False
+2025,6,Beers,"Slye, Joey",K,7,56.0,-1.1,Otters,7,0,False,True
+2025,3,Scooter's Boozers,"Waller, Darren",WR,4,29.6,-1.1,Beers; Ho Train,3,1,False,False
+2025,2,Otters,"Rodriguez, Chris",RB,1,0.2,-1.1,Manic Moose,1,0,False,False
+2026,1,Carter's Commandos,"McCarthy, J.J.",QB,1,12.7,-1.1,F-Jackie,1,0,False,False
+2010,8,OakalDoakals,"Gano, Graham",K,4,26.0,-1.2,Beers; F-Jackie; Iron City Pounders,1,3,True,True
+2011,1,Iron City Pounders,"Stephens-Howling, LaRod",RB,5,29.0,-1.2,Beers,0,5,True,True
+2012,8,Beers,"Davis, Fred",TE,2,0.0,-1.2,Dunbar Dogs,0,2,True,True
+2012,1,Dunbar Dogs,"Titans, Tennessee",Def,7,40.0,-1.2,F-Jackie; Otters,3,4,True,True
+2012,1,OakalDoakals,"Smith, Kevin",RB,2,5.0,-1.2,Da Funk,2,0,True,True
+2013,12,Scooter's Boozers,"Cundiff, Billy",K,3,19.0,-1.2,Ho Train,0,3,True,True
+2013,8,F-Jackie,"Titans, Tennessee",Def,3,11.0,-1.2,Otters,3,0,True,True
+2013,0,Beers,"Powell, Bilal",RB,4,20.0,-1.2,Manic Moose,4,0,True,False
+2014,7,Beers,"Stanton, Drew",QB,1,12.0,-1.2,Tally Wackers,1,0,True,True
+2015,8,OakalDoakals,"Gano, Graham",K,15,138.0,-1.2,F-Jackie; Scooter's Boozers; Tally Wackers,3,12,True,True
+2015,6,Dunbar Dogs,"Walford, Clive",TE,2,0.0,-1.2,Beers; OakalDoakals,1,1,True,False
+2015,6,Iron City Pounders,"Nugent, Mike",K,4,29.0,-1.2,Karpet Munchers; Manic Moose,0,4,True,True
+2015,5,OakalDoakals,"Ertz, Zach",TE,2,0.0,-1.2,Otters,1,1,True,True
+2016,8,Bunchalosers,"Allen, Dwayne",TE,2,0.0,-1.2,OakalDoakals; Scooter's Boozers,1,1,True,False
+2016,7,Blitzkrieg,"Jets, New York",Def,4,13.0,-1.2,Beers; Bunchalosers,3,1,True,True
+2016,7,OakalDoakals,"Kearse, Jermaine",WR,4,16.0,-1.2,Texas Nashvillians,0,4,True,True
+2016,5,OakalDoakals,"Doyle, Jack",TE,13,58.0,-1.2,Beers; Bunchalosers,5,8,True,True
+2016,1,Otters,"Ellington, Bruce",WR,3,9.0,-1.2,Da Funk,0,3,True,False
+2017,11,F-Jackie,"Titans, Tennessee",Def,11,52.0,-1.2,Dunbar Dogs,0,11,True,True
+2018,8,Otters,"Vinatieri, Adam",K,5,29.0,-1.2,Beers; Blitzkrieg; Manic Moose; OakalDoakals,2,3,True,False
+2018,7,Ho Train,"Ginn Jr., Ted",WR,5,41.4,-1.2,Texas Nashvillians,0,5,True,False
+2018,4,Iron City Pounders,"Bengals, Cincinnati",Def,3,3.0,-1.2,Beers; F-Jackie,3,0,True,True
+2020,7,Otters,"Broncos, Denver",Def,11,49.0,-1.2,Blitzkrieg; Carter's Commandos; Couchfire; Scooter's Boozers,4,7,True,False
+2021,17,Karpet Munchers,"Colts, Indianapolis",Def,5,15.0,-1.2,Couchfire; Scooter's Boozers,0,5,True,False
+2021,15,Carter's Commandos,"Titans, Tennessee",Def,13,61.0,-1.2,OakalDoakals,0,13,True,True
+2021,12,Ho Train,"Brissett, Jacoby",QB,1,11.7,-1.2,Otters,0,1,True,True
+2021,9,Blitzkrieg,"Smith, Jonnu",TE,2,2.7,-1.2,Carter's Commandos,2,0,True,True
+2022,13,Beers,"Dicker, Cameron",K,6,42.0,-1.2,F-Jackie,0,6,True,True
+2022,9,Manic Moose,"Joseph, Greg",K,5,32.0,-1.2,Otters,0,5,True,True
+2023,4,Otters,"Titans, Tennessee",Def,10,49.0,-1.2,Blitzkrieg; Carter's Commandos; F-Jackie; Iron City Pounders,6,4,True,True
+2024,11,Texas Nashvillians,"Butker, Harrison",K,10,84.0,-1.2,Da Funk; F-Jackie,1,9,True,False
+2025,16,Karpet Munchers,"Lutz, Wil",K,3,16.0,-1.2,Beers,0,3,False,True
+2025,14,Karpet Munchers,"Pineiro, Eddy",K,6,47.0,-1.2,Da Funk,0,6,False,True
+2009,11,Beers,"Buccaneers, Tampa Bay",Def,7,39.0,-1.3,Carter's Commandos; OakalDoakals,0,7,True,True
+2009,3,Scooter's Boozers,"Buccaneers, Tampa Bay",Def,7,39.0,-1.3,Carter's Commandos; OakalDoakals,0,7,True,False
+2010,12,Karpet Munchers,"Vikings, Minnesota",Def,8,46.0,-1.3,F-Jackie,0,8,True,True
+2010,5,Carter's Commandos,"Jones, Julius",RB,2,6.0,-1.3,Dunbar Dogs,2,0,True,False
+2012,9,Texas Nashvillians,"Browns, Cleveland",Def,6,32.0,-1.3,Karpet Munchers; Manic Moose,1,5,True,True
+2013,7,F-Jackie,"Colts, Indianapolis",Def,2,2.0,-1.3,Bunchalosers; Manic Moose,2,0,True,True
+2013,4,Otters,"Jets, New York",Def,4,17.0,-1.3,Ho Train; Texas Nashvillians,1,3,True,True
+2014,15,Beers,"McFadden, Darren",RB,6,36.0,-1.3,F-Jackie,0,6,True,False
+2015,9,Manic Moose,"Dolphins, Miami",Def,11,56.0,-1.3,Beers; Bunchalosers; Dunbar Dogs; F-Jackie; Otters,5,6,True,True
+2016,10,Beers,"Farrow, Kenneth",RB,1,-3.0,-1.3,Iron City Pounders,1,0,True,True
+2017,11,Manic Moose,"Patriots, New England",Def,12,62.0,-1.3,Beers; Bunchalosers; Couchfire,1,11,True,True
+2017,5,Beers,"Hopkins, Dustin",K,9,68.0,-1.3,OakalDoakals; Texas Nashvillians,0,9,True,False
+2018,16,F-Jackie,"Gore, Frank",RB,4,36.8,-1.3,Scooter's Boozers,0,4,True,False
+2018,15,Otters,"Browns, Cleveland",Def,9,46.0,-1.3,Blitzkrieg; F-Jackie; Karpet Munchers,2,7,True,True
+2018,7,OakalDoakals,"Bryant, Matt",K,9,60.0,-1.3,Blitzkrieg; Otters,1,8,True,False
+2019,12,Karpet Munchers,"Akins, Jordan",TE,6,27.9,-1.3,Blitzkrieg,0,6,True,True
+2019,4,Couchfire,"Akins, Jordan",TE,6,27.9,-1.3,Blitzkrieg,0,6,True,True
+2020,12,Beers,"Alie-Cox, Mo",TE,2,0.5,-1.3,OakalDoakals,0,2,True,True
+2021,15,F-Jackie,"Bengals, Cincinnati",Def,9,37.0,-1.3,Iron City Pounders,0,9,True,True
+2021,10,Iron City Pounders,"Moreau, Foster",TE,4,17.5,-1.3,Da Funk; Manic Moose,1,3,True,True
+2022,14,Dunbar Dogs,"Gano, Graham",K,8,59.0,-1.3,F-Jackie,0,8,True,True
+2022,11,Ho Train,"Gano, Graham",K,8,59.0,-1.3,F-Jackie,0,8,True,True
+2022,2,Otters,"Minshew, Gardner",QB,3,58.8,-1.3,Couchfire,0,3,True,False
+2023,12,Beers,"Redskins, Washington",Def,7,26.0,-1.3,Blitzkrieg; F-Jackie,0,7,True,True
+2024,17,Tally Wackers,"49ers, San Francisco",Def,11,44.0,-1.3,Karpet Munchers; Scooter's Boozers,0,11,True,True
+2025,17,F-Jackie,"Borregales, Andres",K,5,36.0,-1.3,Scooter's Boozers,0,5,False,True
+2025,14,Carter's Commandos,"Panthers, Carolina",Def,3,-1.0,-1.3,Iron City Pounders,0,3,False,True
+2025,14,F-Jackie,"Borregales, Andres",K,5,36.0,-1.3,Scooter's Boozers,0,5,False,True
+2025,8,Texas Nashvillians,"Cardinals, Arizona",Def,5,11.0,-1.3,Iron City Pounders,5,0,False,True
+2025,3,Karpet Munchers,"Lutz, Wil",K,7,54.0,-1.3,Beers; Dunbar Dogs,4,3,False,True
+2009,12,Dunbar Dogs,"Nedney, Joe",K,4,21.0,-1.4,Tally Wackers,0,4,True,True
+2010,6,Otters,"Gano, Graham",K,5,33.0,-1.4,Beers; F-Jackie; Iron City Pounders; OakalDoakals,2,3,True,True
+2010,3,Scooter's Boozers,"Succop, Ryan",K,5,31.0,-1.4,Dunbar Dogs; Karpet Munchers,4,1,True,False
+2010,2,Bunchalosers,"Pettigrew, Brandon",TE,14,54.0,-1.4,OakalDoakals; Otters,11,3,True,True
+2011,12,Carter's Commandos,"Cook, Jared",TE,12,50.0,-1.4,Da Funk,0,12,True,True
+2011,9,Manic Moose,"Cook, Jared",TE,13,55.0,-1.4,Carter's Commandos; Da Funk,1,12,True,True
+2011,7,Da Funk,"Bengals, Cincinnati",Def,17,113.0,-1.4,Bunchalosers; Carter's Commandos; F-Jackie,6,11,True,True
+2012,11,Ho Train,"Bironas, Rob",K,11,100.0,-1.4,Dunbar Dogs,3,8,True,True
+2012,5,Scooter's Boozers,"Lions, Detroit",Def,3,9.0,-1.4,Manic Moose,3,0,True,False
+2012,4,OakalDoakals,"Browns, Cleveland",Def,7,38.0,-1.4,Karpet Munchers; Manic Moose; Texas Nashvillians,2,5,True,True
+2013,8,Otters,"Ravens, Baltimore",Def,6,31.0,-1.4,Beers; Blitzkrieg; Iron City Pounders,3,3,True,True
+2015,15,Bunchalosers,"Lambo, Josh",K,12,108.0,-1.4,Manic Moose,0,12,True,True
+2015,8,Otters,"Allen, Dwayne",TE,7,27.0,-1.4,Bunchalosers; OakalDoakals,0,7,True,False
+2015,5,Blitzkrieg,"Steelers, Pittsburgh",Def,14,75.0,-1.4,Da Funk; Iron City Pounders,7,7,True,True
+2015,4,Scooter's Boozers,"Sanu, Mohamed",WR,5,24.0,-1.4,OakalDoakals; Tally Wackers,2,3,True,False
+2015,1,Scooter's Boozers,"Steelers, Pittsburgh",Def,14,75.0,-1.4,Da Funk; Iron City Pounders,7,7,True,False
+2017,10,Scooter's Boozers,"Gano, Graham",K,5,36.0,-1.4,Bunchalosers; Tally Wackers,2,3,True,False
+2017,9,Bunchalosers,"Bullock, Randy",K,6,39.0,-1.4,Carter's Commandos,0,6,True,True
+2017,5,Karpet Munchers,"Titans, Tennessee",Def,12,57.0,-1.4,Dunbar Dogs; F-Jackie,1,11,True,False
+2017,1,Scooter's Boozers,"Miller, Zach",TE,6,18.0,-1.4,Blitzkrieg,6,0,True,False
+2018,11,Da Funk,"Cowboys, Dallas",Def,9,46.0,-1.4,Beers; Carter's Commandos; Couchfire,0,9,True,True
+2018,10,Carter's Commandos,"Broncos, Denver",Def,9,44.0,-1.4,F-Jackie; Karpet Munchers; Otters,3,6,True,False
+2018,10,Scooter's Boozers,"Roberts, Seth",WR,3,17.3,-1.4,Da Funk,3,0,True,True
+2018,7,OakalDoakals,"Packers, Green Bay",Def,9,46.0,-1.4,Couchfire; Texas Nashvillians,1,8,True,True
+2018,6,Beers,"Watson, Ben",TE,2,0.6,-1.4,Ho Train,2,0,True,True
+2018,5,OakalDoakals,"Panthers, Carolina",Def,15,83.0,-1.4,Couchfire; Ho Train; Karpet Munchers,5,10,True,False
+2018,4,Beers,"James, Jesse",TE,3,8.7,-1.4,Karpet Munchers,3,0,True,True
+2018,3,Beers,"Watson, Ben",TE,2,0.6,-1.4,Ho Train,2,0,True,True
+2019,11,Tally Wackers,"Gould, Robbie",K,10,80.0,-1.4,Texas Nashvillians,0,10,True,False
+2019,10,Beers,"Titans, Tennessee",Def,11,51.0,-1.4,Manic Moose,3,8,True,True
+2019,5,Iron City Pounders,"Gostkowski, Stephen",K,5,31.0,-1.4,Couchfire; Karpet Munchers,0,5,True,False
+2021,17,Manic Moose,"Moreau, Foster",TE,3,7.5,-1.4,Da Funk,0,3,True,True
+2021,8,Beers,"Robinson, Demarcus",WR,5,36.5,-1.4,Carter's Commandos,0,5,True,True
+2022,17,Beers,"Folk, Nick",K,13,104.0,-1.4,Manic Moose,0,13,True,True
+2022,16,Couchfire,"Packers, Green Bay",Def,7,29.0,-1.4,Beers; Blitzkrieg; F-Jackie; Ho Train,0,7,True,True
+2022,16,Couchfire,"Dicker, Cameron",K,11,85.0,-1.4,Beers; F-Jackie,1,10,True,True
+2022,10,Iron City Pounders,"Bengals, Cincinnati",Def,10,49.0,-1.4,Blitzkrieg; F-Jackie; Texas Nashvillians,1,9,True,False
+2022,9,Otters,"Gano, Graham",K,9,67.0,-1.4,F-Jackie; Ho Train,1,8,True,True
+2022,2,Beers,"Slayton, Darius",WR,4,28.0,-1.4,Carter's Commandos,0,4,True,True
+2023,17,Karpet Munchers,"Colts, Indianapolis",Def,14,66.0,-1.4,OakalDoakals,0,14,True,True
+2023,14,Beers,"Colts, Indianapolis",Def,14,66.0,-1.4,OakalDoakals,0,14,True,True
+2023,2,Texas Nashvillians,"Slayton, Darius",WR,4,28.0,-1.4,Carter's Commandos,4,0,True,False
+2024,13,Dunbar Dogs,"Slye, Joey",K,9,72.0,-1.4,Beers; Otters,0,9,True,True
+2024,12,Blitzkrieg,"Shepard, Sterling",WR,2,4.3,-1.4,Otters,0,2,True,True
+2010,16,Beers,"Brown, Josh",K,4,24.0,-1.5,Ho Train,0,4,True,True
+2010,8,Manic Moose,"Brown, Josh",K,4,24.0,-1.5,Ho Train,0,4,True,True
+2011,14,F-Jackie,"Davis, Fred",TE,5,12.0,-1.5,Beers,0,5,True,True
+2011,5,Carter's Commandos,"Falcons, Atlanta",Def,14,89.0,-1.5,Blitzkrieg; OakalDoakals,7,7,True,False
+2011,2,OakalDoakals,"Alexander, Danario",WR,2,0.0,-1.5,Bunchalosers,2,0,True,True
+2012,7,Bunchalosers,"Dolphins, Miami",Def,5,23.0,-1.5,Beers; F-Jackie; Otters,2,3,True,True
+2014,8,OakalDoakals,"Nugent, Mike",K,12,103.0,-1.5,Beers; Iron City Pounders,5,7,True,True
+2015,13,Karpet Munchers,"Donnell, Larry",TE,2,-3.0,-1.5,Carter's Commandos,0,2,True,False
+2015,10,Scooter's Boozers,"Carpenter, Dan",K,8,64.0,-1.5,Ho Train; Manic Moose,4,4,True,True
+2015,10,Bunchalosers,"Tamme, Jacob",TE,5,15.0,-1.5,OakalDoakals,0,5,True,True
+2015,5,Bunchalosers,"Tamme, Jacob",TE,5,15.0,-1.5,OakalDoakals,0,5,True,True
+2017,8,Carter's Commandos,"LaFell, Brandon",WR,2,0.0,-1.5,Bunchalosers,2,0,True,False
+2017,4,Otters,"Hollins, Mack",WR,2,0.0,-1.5,OakalDoakals,2,0,True,True
+2017,4,F-Jackie,"Panthers, Carolina",Def,12,60.0,-1.5,Bunchalosers; Ho Train; OakalDoakals,4,8,True,False
+2017,2,Otters,"Hollins, Mack",WR,2,0.0,-1.5,OakalDoakals,2,0,True,True
+2018,16,Beers,"Pascal, Zach",WR,6,49.0,-1.5,Blitzkrieg,0,6,True,True
+2018,12,F-Jackie,"Broncos, Denver",Def,8,37.0,-1.5,Karpet Munchers; Otters,2,6,True,True
+2019,9,Ho Train,"Isabella, Andy",WR,2,5.1,-1.5,Da Funk; Scooter's Boozers,1,1,True,True
+2020,4,Scooter's Boozers,"Williams, Darrel",RB,8,89.3,-1.5,Manic Moose,0,8,True,True
+2020,3,Otters,"Succop, Ryan",K,16,129.0,-1.5,Da Funk; Tally Wackers,3,13,True,False
+2021,14,Couchfire,"Saints, New Orleans",Def,12,52.0,-1.5,Ho Train; Texas Nashvillians,2,10,True,True
+2021,10,Da Funk,"Harry, N'Keal",WR,3,14.3,-1.5,Couchfire,0,3,True,False
+2021,9,Scooter's Boozers,"Conklin, Tyler",TE,8,48.6,-1.5,F-Jackie; Ho Train; Iron City Pounders,6,2,True,True
+2021,5,Couchfire,"Saints, New Orleans",Def,12,52.0,-1.5,Ho Train; Texas Nashvillians,2,10,True,True
+2021,1,Couchfire,"Saints, New Orleans",Def,12,52.0,-1.5,Ho Train; Texas Nashvillians,2,10,True,True
+2022,13,Karpet Munchers,"Thomas, Logan",QB,1,6.5,-1.5,Beers,0,1,True,False
+2022,11,Couchfire,"Slye, Joey",K,3,10.0,-1.5,Beers; Carter's Commandos,0,3,True,True
+2022,9,Otters,"Ingram, Keaontay",RB,2,6.1,-1.5,F-Jackie,0,2,True,True
+2022,9,Couchfire,"Slye, Joey",K,3,10.0,-1.5,Beers; Carter's Commandos,0,3,True,True
+2023,5,Otters,"Thompson-Robinson, Dorian",QB,1,7.2,-1.5,Couchfire,1,0,True,True
+2023,1,F-Jackie,"Thompson-Robinson, Dorian",QB,1,7.2,-1.5,Couchfire,1,0,True,False
+2024,14,Beers,"Romo, John Parker",K,3,11.0,-1.5,F-Jackie; Manic Moose,0,3,True,True
+2024,5,Otters,"Moore, Elijah",WR,2,3.6,-1.5,Couchfire; Manic Moose,1,1,True,False
+2024,5,F-Jackie,"Nailor, Jalen",WR,2,3.7,-1.5,Dunbar Dogs; Karpet Munchers,1,1,True,True
+2025,5,OakalDoakals,"Browning, Jake",QB,2,33.6,-1.5,Texas Nashvillians,2,0,False,True
+2009,5,Blitzkrieg,"Lindell, Rian",K,5,28.0,-1.6,Texas Nashvillians,0,5,True,True
+2009,2,Tally Wackers,"Lindell, Rian",K,5,28.0,-1.6,Texas Nashvillians,0,5,True,False
+2010,10,Iron City Pounders,"Nugent, Mike",K,5,33.0,-1.6,Bunchalosers,0,5,True,True
+2011,9,Beers,"Williams, Mike",WR,3,6.0,-1.6,Iron City Pounders,3,0,True,True
+2011,8,Iron City Pounders,"Chandler, Scott",TE,4,6.0,-1.6,Blitzkrieg; Scooter's Boozers,3,1,True,True
+2011,5,Bunchalosers,"Hagan, Derek",WR,2,0.0,-1.6,Iron City Pounders,0,2,True,True
+2012,5,OakalDoakals,"Massaquoi, Mohamed",WR,2,0.0,-1.6,Ho Train,2,0,True,True
+2012,1,Otters,"Cundiff, Billy",K,3,15.0,-1.6,Da Funk; Scooter's Boozers; Texas Nashvillians,2,1,True,False
+2013,14,Beers,"Gresham, Jermaine",TE,3,0.0,-1.6,Texas Nashvillians,0,3,True,True
+2013,10,Carter's Commandos,"Folk, Nick",K,2,5.0,-1.6,Manic Moose,2,0,True,True
+2013,9,Beers,"Gano, Graham",K,15,137.0,-1.6,Carter's Commandos; Texas Nashvillians,4,11,True,True
+2013,8,Iron City Pounders,"Hoyer, Brian",QB,1,8.0,-1.6,Karpet Munchers,0,1,True,True
+2013,8,Scooter's Boozers,"Gresham, Jermaine",TE,3,0.0,-1.6,Texas Nashvillians,0,3,True,False
+2013,2,Beers,"Tamme, Jacob",TE,3,0.0,-1.6,Dunbar Dogs,0,3,True,False
+2014,12,OakalDoakals,"Lewis, Marcedes",TE,3,0.0,-1.6,Beers,0,3,True,True
+2014,4,Carter's Commandos,"Janikowski, Sebastian",K,10,81.0,-1.6,Dunbar Dogs; Tally Wackers,1,9,True,False
+2017,10,Beers,"Treadwell, Laquon",WR,2,2.3,-1.6,Couchfire,0,2,True,True
+2018,6,Texas Nashvillians,"Hopkins, Dustin",K,8,55.0,-1.6,OakalDoakals,8,0,True,False
+2019,6,Da Funk,"Isabella, Andy",WR,2,2.9,-1.6,Ho Train; Scooter's Boozers,2,0,True,False
+2020,14,Couchfire,"Bourne, Kendrick",WR,3,14.6,-1.6,Blitzkrieg,0,3,True,False
+2020,9,Couchfire,"McNichols, Jeremy",RB,2,6.6,-1.6,Blitzkrieg,0,2,True,True
+2020,9,Karpet Munchers,"Johnson, D'Ernest",RB,6,60.4,-1.6,Couchfire,0,6,True,True
+2020,5,Manic Moose,"Jaguars, Jacksonville",Def,5,9.0,-1.6,Blitzkrieg; Ho Train,3,2,True,True
+2021,17,Karpet Munchers,"Samuel, Curtis",WR,8,66.6,-1.6,Manic Moose,0,8,True,False
+2021,8,Blitzkrieg,"Raiders, Oakland",Def,5,9.0,-1.6,Carter's Commandos; Couchfire; F-Jackie; OakalDoakals,3,2,True,True
+2021,7,Beers,"McNichols, Jeremy",RB,2,6.6,-1.6,Blitzkrieg,2,0,True,True
+2021,4,Blitzkrieg,"Vikings, Minnesota",Def,12,50.0,-1.6,Beers; F-Jackie; Ho Train; Karpet Munchers; Scooter's Boozers; Texas Nashvillians,7,5,True,True
+2022,14,Tally Wackers,"Folk, Nick",K,15,120.0,-1.6,Beers; Manic Moose,2,13,True,False
+2022,8,Beers,"Austin III, Calvin",WR,2,3.0,-1.6,Otters,0,2,True,False
+2022,7,Couchfire,"Huntley, Caleb",RB,2,5.6,-1.6,F-Jackie,2,0,True,True
+2023,12,Manic Moose,"Fant, Noah",TE,6,29.0,-1.6,OakalDoakals,0,6,True,False
+2024,6,Beers,"Prater, Matt",K,8,60.0,-1.6,Couchfire; Ho Train; Scooter's Boozers,0,8,True,False
+2025,4,Karpet Munchers,"Engram, Evan",TE,4,16.4,-1.6,Couchfire; Scooter's Boozers,3,1,False,False
+2009,10,Karpet Munchers,"Daniels, Owen",TE,6,13.0,-1.7,F-Jackie; Manic Moose,0,6,True,False
+2009,1,OakalDoakals,"Boss, Kevin",TE,12,45.0,-1.7,Beers; Blitzkrieg; Carter's Commandos,7,5,True,True
+2012,5,Manic Moose,"Bironas, Rob",K,12,107.0,-1.7,Dunbar Dogs; Ho Train,4,8,True,False
+2013,7,Bunchalosers,"Cunningham, Benny",RB,2,0.0,-1.7,Beers; Manic Moose,1,1,True,True
+2013,3,OakalDoakals,"James, Mike",RB,2,0.0,-1.7,Ho Train,2,0,True,False
+2013,2,Ho Train,"Ravens, Baltimore",Def,10,57.0,-1.7,Beers; Blitzkrieg; Iron City Pounders; Otters,7,3,True,False
+2014,15,Manic Moose,"Dixon, Anthony",RB,2,0.0,-1.7,Beers; Texas Nashvillians,0,2,True,True
+2014,12,F-Jackie,"Saints, New Orleans",Def,4,10.0,-1.7,Bunchalosers,0,4,True,True
+2015,8,Bunchalosers,"Redskins, Washington",Def,10,45.0,-1.7,F-Jackie; OakalDoakals,3,7,True,True
+2015,7,Bunchalosers,"Givens, Chris",WR,4,15.0,-1.7,Otters,4,0,True,True
+2015,5,Beers,"Robinson, Denard",RB,2,0.0,-1.7,Bunchalosers; OakalDoakals,2,0,True,False
+2017,13,F-Jackie,"Rogers, Chester",WR,4,24.5,-1.7,Iron City Pounders,0,4,True,True
+2018,16,Couchfire,"Lions, Detroit",Def,6,21.0,-1.7,Dunbar Dogs; Texas Nashvillians,0,6,True,True
+2018,13,Scooter's Boozers,"Rudolph, Mason",QB,1,6.5,-1.7,Iron City Pounders,0,1,True,False
+2018,6,Scooter's Boozers,"Lions, Detroit",Def,6,21.0,-1.7,Dunbar Dogs; Texas Nashvillians,0,6,True,True
+2019,3,Couchfire,"Jarwin, Blake",TE,4,11.6,-1.7,Texas Nashvillians,3,1,True,True
+2019,2,Ho Train,"Rudolph, Mason",QB,1,6.5,-1.7,Iron City Pounders,1,0,True,False
+2019,2,Couchfire,"Richard, Jalen",RB,2,3.4,-1.7,Beers; Dunbar Dogs,1,1,True,False
+2020,7,Blitzkrieg,"Perriman, Breshad",WR,4,25.2,-1.7,Beers; Tally Wackers,3,1,True,False
+2021,12,F-Jackie,"Vikings, Minnesota",Def,7,20.0,-1.7,Beers; Ho Train; Karpet Munchers; Scooter's Boozers; Texas Nashvillians,2,5,True,True
+2022,9,Beers,"Johnson, Juwan",WR,5,33.2,-1.7,Otters; Texas Nashvillians,4,1,True,True
+2023,5,Otters,"Johnson, Juwan",WR,3,12.6,-1.7,OakalDoakals,0,3,True,True
+2023,3,F-Jackie,"Giants, New York",Def,7,22.0,-1.7,Otters; Scooter's Boozers,2,5,True,True
+2023,2,Beers,"Shakir, Khalil",WR,13,124.5,-1.7,Tally Wackers,7,6,True,False
+2024,15,Otters,"Smith-Schuster, JuJu",WR,3,11.2,-1.7,Blitzkrieg,0,3,True,True
+2024,2,OakalDoakals,"Smith-Schuster, JuJu",WR,3,11.2,-1.7,Blitzkrieg,0,3,True,False
+2025,17,Couchfire,"Bills, Buffalo",Def,6,8.0,-1.7,Dunbar Dogs,0,6,False,False
+2009,9,Bunchalosers,"Avant, Jason",WR,3,6.0,-1.8,Ho Train; Otters,1,2,True,True
+2009,6,Otters,"Nedney, Joe",K,6,35.0,-1.8,Dunbar Dogs; F-Jackie; Tally Wackers,2,4,True,True
+2010,10,OakalDoakals,"Moore, Matt",QB,2,27.0,-1.8,Manic Moose; Otters,0,2,True,True
+2010,2,F-Jackie,"Boss, Kevin",TE,7,17.0,-1.8,Carter's Commandos; OakalDoakals,5,2,True,False
+2013,10,Karpet Munchers,"Fitzpatrick, Ryan",QB,3,55.0,-1.8,Ho Train; Iron City Pounders,1,2,True,True
+2013,8,Da Funk,"Cook, Jared",TE,3,0.0,-1.8,Carter's Commandos; Karpet Munchers; Otters,2,1,True,False
+2014,15,Manic Moose,"Cunningham, Benny",RB,3,7.0,-1.8,F-Jackie,0,3,True,True
+2015,13,OakalDoakals,"Clay, Charles",RB,5,28.0,-1.8,Blitzkrieg; F-Jackie,0,5,True,True
+2015,2,OakalDoakals,"Clay, Charles",RB,5,28.0,-1.8,Blitzkrieg; F-Jackie,0,5,True,True
+2016,8,Scooter's Boozers,"West, Charcandrick",RB,2,0.0,-1.8,Beers; Carter's Commandos,1,1,True,True
+2016,7,Scooter's Boozers,"Gano, Graham",K,8,66.0,-1.8,Bunchalosers; F-Jackie,6,2,True,False
+2017,5,Scooter's Boozers,"Watson, Ben",TE,4,6.6,-1.8,Blitzkrieg; Ho Train,2,2,True,True
+2018,6,Texas Nashvillians,"Kearse, Jermaine",WR,2,0.0,-1.8,Beers; Scooter's Boozers,2,0,True,True
+2019,12,Otters,"Smith, Tre'Quan",WR,6,48.3,-1.8,Ho Train,0,6,True,False
+2020,7,Couchfire,"Cardinals, Arizona",Def,12,47.0,-1.8,Beers; Manic Moose; Otters,3,9,True,True
+2021,7,F-Jackie,"Patterson, Jaret",RB,2,4.5,-1.8,Couchfire,2,0,True,False
+2023,15,OakalDoakals,"Darnold, Sam",QB,1,4.0,-1.8,Otters,0,1,True,False
+2023,10,Otters,"Giants, New York",Def,6,14.0,-1.8,F-Jackie; Scooter's Boozers,0,6,True,True
+2010,16,Beers,"Graham, Earnest",RB,3,10.0,-1.9,Bunchalosers,0,3,True,True
+2010,12,Otters,"Chiefs, Kansas City",Def,2,-3.0,-1.9,F-Jackie,0,2,True,True
+2010,10,Da Funk,"Scheffler, Tony",TE,5,9.0,-1.9,Beers; Blitzkrieg,0,5,True,True
+2010,10,Beers,"Graham, Earnest",RB,3,10.0,-1.9,Bunchalosers,0,3,True,True
+2010,6,Da Funk,"Scheffler, Tony",TE,5,9.0,-1.9,Beers; Blitzkrieg,0,5,True,True
+2011,0,Otters,"Graham, Earnest",RB,3,10.0,-1.9,Bunchalosers,3,0,True,False
+2012,9,Scooter's Boozers,"Colts, Indianapolis",Def,3,4.0,-1.9,Bunchalosers; F-Jackie; Manic Moose,0,3,True,True
+2012,8,Ho Train,"Avant, Jason",WR,2,-3.0,-1.9,Manic Moose,0,2,True,False
+2014,8,Bunchalosers,"Miller, Heath",TE,12,44.0,-1.9,Carter's Commandos; Karpet Munchers,4,8,True,False
+2015,16,OakalDoakals,"Draughn, Shaun",RB,2,0.0,-1.9,Bunchalosers; F-Jackie,0,2,True,True
+2015,10,OakalDoakals,"Draughn, Shaun",RB,2,0.0,-1.9,Bunchalosers; F-Jackie,0,2,True,True
+2016,5,Scooter's Boozers,"Goodwin, Marquise",WR,7,30.0,-1.9,Ho Train,0,7,True,True
+2016,2,OakalDoakals,"Johnson, Chris",RB,2,0.0,-1.9,Bunchalosers,2,0,True,False
+2016,1,Bunchalosers,"Toussaint, Fitzgerald",RB,2,0.0,-1.9,Scooter's Boozers,2,0,True,False
+2017,9,Texas Nashvillians,"Cowboys, Dallas",Def,10,46.0,-1.9,Blitzkrieg; Da Funk,5,5,True,True
+2017,9,Iron City Pounders,"Reynolds, Josh",WR,4,22.3,-1.9,F-Jackie,0,4,True,False
+2018,5,F-Jackie,"Chargers, San Diego",Def,18,98.0,-1.9,Da Funk; Karpet Munchers,6,12,True,False
+2019,14,Scooter's Boozers,"Bryant, Dez",WR,2,0.0,-1.9,Couchfire,0,2,True,True
+2019,6,Scooter's Boozers,"Bryant, Dez",WR,2,0.0,-1.9,Couchfire,0,2,True,True
+2019,4,Couchfire,"Ficken, Sam",K,10,61.0,-1.9,Ho Train; Iron City Pounders,9,1,True,True
+2019,3,Scooter's Boozers,"Bryant, Dez",WR,2,0.0,-1.9,Couchfire,0,2,True,True
+2019,2,Karpet Munchers,"Everett, Gerald",TE,7,32.7,-1.9,Manic Moose,5,2,True,False
+2021,10,Otters,"Johnson, Juwan",WR,5,30.5,-1.9,Beers; Texas Nashvillians,0,5,True,True
+2021,2,Beers,"Bourne, Kendrick",WR,4,21.8,-1.9,Blitzkrieg,3,1,True,True
+2022,14,Couchfire,"Chark, D.J.",WR,7,55.9,-1.9,Iron City Pounders,0,7,True,True
+2022,6,Otters,"Johnson, Juwan",WR,5,30.5,-1.9,Beers; Texas Nashvillians,5,0,True,True
+2022,6,Dunbar Dogs,"Chargers, San Diego",Def,10,39.0,-1.9,Blitzkrieg; Da Funk; Iron City Pounders,5,5,True,False
+2023,15,Manic Moose,"Brown, Noah",WR,4,20.0,-1.9,Dunbar Dogs,0,4,True,True
+2024,16,F-Jackie,"Redskins, Washington",Def,10,31.0,-1.9,Iron City Pounders; Otters,0,10,True,True
+2024,8,Beers,"Brown, Noah",WR,4,20.0,-1.9,Dunbar Dogs,4,0,True,True
+2024,6,Scooter's Boozers,"Perine, Samaje",RB,2,3.9,-1.9,Blitzkrieg; F-Jackie,1,1,True,False
+2025,17,Couchfire,"Elliott, Jake",K,6,38.0,-1.9,Ho Train,0,6,False,True
+2025,14,Manic Moose,"Elliott, Jake",K,6,38.0,-1.9,Ho Train,0,6,False,True
+2025,6,OakalDoakals,"Ryland, Chad",K,5,26.0,-1.9,Scooter's Boozers,5,0,False,True
+2025,3,F-Jackie,"Neal, Devin",RB,2,4.3,-1.9,Ho Train,2,0,False,True
+2009,7,Bunchalosers,"Jackson, Brandon",RB,7,45.0,-2.0,Otters,0,7,True,False
+2010,4,Otters,"Moore, Mewelde",RB,2,0.0,-2.0,Bunchalosers; Scooter's Boozers,1,1,True,False
+2012,6,Blitzkrieg,"Redskins, Washington",Def,5,19.0,-2.0,Carter's Commandos; OakalDoakals,5,0,True,True
+2016,14,Beers,"Fitzpatrick, Ryan",QB,1,3.0,-2.0,Scooter's Boozers,0,1,True,True
+2016,9,Karpet Munchers,"Nugent, Mike",K,5,35.0,-2.0,Blitzkrieg; Manic Moose,1,4,True,False
+2016,3,Scooter's Boozers,"Brown, Jaron",WR,5,16.0,-2.0,Otters,0,5,True,True
+2016,3,F-Jackie,"Jets, New York",Def,5,12.0,-2.0,Beers; Blitzkrieg; Bunchalosers,4,1,True,False
+2017,2,Bunchalosers,"Brown, Jaron",WR,5,16.0,-2.0,Otters,5,0,True,False
+2018,8,F-Jackie,"Gallman, Wayne",RB,2,1.4,-2.0,OakalDoakals,0,2,True,False
+2019,10,Karpet Munchers,"Mullens, Nick",QB,2,33.1,-2.0,Carter's Commandos,0,2,True,False
+2019,2,Beers,"Cowboys, Dallas",Def,10,44.0,-2.0,Carter's Commandos; Couchfire; Otters,8,2,True,True
+2020,6,Beers,"Mullens, Nick",QB,2,33.1,-2.0,Carter's Commandos,2,0,True,True
+2021,4,Manic Moose,"Edwards, Gus",RB,3,13.1,-2.0,Beers,0,3,True,False
+2021,1,Manic Moose,"McKinnon, Jerick",RB,3,13.9,-2.0,Couchfire; Iron City Pounders,1,2,True,False
+2024,16,Manic Moose,"Otton, Cade",TE,6,29.9,-2.0,Da Funk,0,6,True,True
+2024,14,Blitzkrieg,"Redskins, Washington",Def,11,36.0,-2.0,F-Jackie; Iron City Pounders; Otters,1,10,True,True
+2025,12,Dunbar Dogs,"Lutz, Wil",K,5,26.0,-2.0,Beers; Karpet Munchers,2,3,False,True
+2010,5,Iron City Pounders,"Fasano, Anthony",TE,4,0.0,-2.1,Beers,4,0,True,True
+2010,2,Iron City Pounders,"Broncos, Denver",Def,5,17.0,-2.1,Carter's Commandos; F-Jackie; Karpet Munchers,1,4,True,True
+2013,5,Manic Moose,"Escobar, Gavin",TE,4,0.0,-2.1,Da Funk,0,4,True,True
+2014,4,F-Jackie,"Titans, Tennessee",Def,11,53.0,-2.1,Scooter's Boozers,0,11,True,True
+2016,6,Beers,"Dolphins, Miami",Def,16,88.0,-2.1,Bunchalosers; Carter's Commandos; F-Jackie,4,12,True,True
+2017,15,Otters,"Seferian-Jenkins, Austin",TE,3,0.0,-2.1,Dunbar Dogs,0,3,True,True
+2018,6,Otters,"Seferian-Jenkins, Austin",TE,3,0.0,-2.1,Dunbar Dogs,3,0,True,True
+2018,5,Otters,"Ficken, Sam",K,11,66.0,-2.1,Couchfire; Iron City Pounders,0,11,True,True
+2019,11,Couchfire,"Crosby, Mason",K,13,94.0,-2.1,Carter's Commandos; F-Jackie,4,9,True,True
+2019,7,Dunbar Dogs,"Lions, Detroit",Def,6,15.0,-2.1,Couchfire; Texas Nashvillians,5,1,True,True
+2019,5,Otters,"Hill, Taysom",QB,1,0.9,-2.1,Couchfire,1,0,True,True
+2020,17,Otters,"Bears, Chicago",Def,10,31.0,-2.1,Tally Wackers,0,10,True,True
+2021,16,Ho Train,"Vikings, Minnesota",Def,5,4.0,-2.1,Beers; Karpet Munchers; Scooter's Boozers; Texas Nashvillians,0,5,True,True
+2021,14,Scooter's Boozers,"Broncos, Denver",Def,12,45.0,-2.1,F-Jackie; Otters,0,12,True,True
+2021,12,Couchfire,"Bengals, Cincinnati",Def,11,38.0,-2.1,F-Jackie; Iron City Pounders,1,10,True,True
+2022,11,Beers,"Walker, Phillip",QB,1,0.0,-2.1,Otters,0,1,True,True
+2022,11,Karpet Munchers,"Chark, D.J.",WR,8,64.5,-2.1,Couchfire; Iron City Pounders,1,7,True,False
+2022,10,F-Jackie,"Packers, Green Bay",Def,6,15.0,-2.1,Beers; Blitzkrieg; Ho Train,0,6,True,False
+2022,2,Beers,"Marshall, Terrace",WR,5,28.5,-2.1,Ho Train; Manic Moose,4,1,True,False
+2023,7,Beers,"Fournette, Leonard",RB,2,0.0,-2.1,Couchfire,2,0,True,True
+2023,4,Otters,"Fournette, Leonard",RB,2,0.0,-2.1,Couchfire,2,0,True,False
+2023,3,Couchfire,"Bengals, Cincinnati",Def,17,81.0,-2.1,Blitzkrieg; Dunbar Dogs; Texas Nashvillians,9,8,True,True
+2023,2,Couchfire,"Mayer, Michael",TE,4,6.2,-2.1,Manic Moose; Otters,1,3,True,False
+2024,15,Beers,"Cowboys, Dallas",Def,12,39.0,-2.1,Manic Moose,0,12,True,True
+2024,11,Couchfire,"Hutchinson, Xavier",WR,3,5.8,-2.1,Iron City Pounders,0,3,True,True
+2024,8,Texas Nashvillians,"Hutchinson, Xavier",WR,3,5.8,-2.1,Iron City Pounders,0,3,True,True
+2024,7,Da Funk,"Cowboys, Dallas",Def,19,81.0,-2.1,Beers; Manic Moose,7,12,True,False
+2025,3,OakalDoakals,"Sanders, Shedeur",QB,1,0.0,-2.1,Tally Wackers,1,0,False,False
+2009,2,Bunchalosers,"Thigpen, Tyler",QB,1,0.0,-2.2,Tally Wackers,1,0,True,True
+2010,16,Beers,"Chargers, San Diego",Def,5,16.0,-2.2,Blitzkrieg,0,5,True,True
+2010,3,Otters,"Edwards, Trent",QB,1,0.0,-2.2,OakalDoakals,1,0,True,False
+2011,3,OakalDoakals,"Pettigrew, Brandon",TE,8,22.0,-2.2,F-Jackie; Ho Train; Otters,2,6,True,True
+2012,15,Manic Moose,"Browns, Cleveland",Def,5,16.0,-2.2,Karpet Munchers,0,5,True,True
+2014,7,OakalDoakals,"Brown, Bryce",RB,3,3.0,-2.2,F-Jackie,3,0,True,True
+2015,10,Tally Wackers,"Cowboys, Dallas",Def,9,32.0,-2.2,F-Jackie; Scooter's Boozers,0,9,True,True
+2015,6,Bunchalosers,"Williams, Damien",RB,5,24.0,-2.2,Karpet Munchers,0,5,True,True
+2015,2,Scooter's Boozers,"Daniels, Owen",TE,4,0.0,-2.2,Bunchalosers; F-Jackie,4,0,True,True
+2016,13,F-Jackie,"Clay, Charles",RB,9,51.0,-2.2,Beers; Blitzkrieg; Scooter's Boozers,1,8,True,True
+2016,4,F-Jackie,"Clay, Charles",RB,9,51.0,-2.2,Beers; Blitzkrieg; Scooter's Boozers,1,8,True,True
+2016,4,F-Jackie,"Clay, Charles",RB,9,51.0,-2.2,Beers; Blitzkrieg; Scooter's Boozers,1,8,True,True
+2017,10,Scooter's Boozers,"Richard, Jalen",RB,4,28.7,-2.2,Texas Nashvillians,0,4,True,True
+2017,9,Bunchalosers,"Steelers, Pittsburgh",Def,13,63.0,-2.2,Ho Train; Iron City Pounders,5,8,True,False
+2017,2,OakalDoakals,"Blue, Alfred",RB,4,28.0,-2.2,Carter's Commandos,0,4,True,False
+2018,14,Otters,"McCoy, Colt",QB,1,0.0,-2.2,Texas Nashvillians,0,1,True,True
+2018,9,Otters,"Bridgewater, Teddy",QB,1,0.0,-2.2,Da Funk,0,1,True,True
+2018,5,Otters,"Bridgewater, Teddy",QB,1,0.0,-2.2,Da Funk,0,1,True,True
+2019,3,Scooter's Boozers,"Higbee, Tyler",TE,10,46.1,-2.2,Tally Wackers,0,10,True,True
+2020,11,Ho Train,"Bears, Chicago",Def,11,36.0,-2.2,Otters; Tally Wackers,1,10,True,False
+2021,10,Scooter's Boozers,"Keenum, Case",QB,1,0.0,-2.2,Manic Moose,0,1,True,True
+2021,7,Otters,"Bengals, Cincinnati",Def,12,43.0,-2.2,Couchfire; F-Jackie; Iron City Pounders,2,10,True,True
+2021,6,Otters,"Brate, Cameron",TE,6,21.7,-2.2,Manic Moose; Scooter's Boozers,1,5,True,True
+2022,17,Beers,"Lions, Detroit",Def,10,40.0,-2.2,F-Jackie,0,10,True,True
+2022,12,Beers,"Renfrow, Hunter",WR,3,8.1,-2.2,Da Funk,0,3,True,False
+2022,9,Couchfire,"Lions, Detroit",Def,10,40.0,-2.2,F-Jackie,0,10,True,True
+2023,12,Beers,"Slye, Joey",K,3,2.0,-2.2,Carter's Commandos; Dunbar Dogs,2,1,True,True
+2024,12,Carter's Commandos,"Grupe, Blake",K,6,32.0,-2.2,Dunbar Dogs; Scooter's Boozers,2,4,True,True
+2011,14,Otters,"Walter, Kevin",WR,3,0.0,-2.3,Beers; OakalDoakals,1,2,True,False
+2011,13,OakalDoakals,"Boss, Kevin",TE,4,0.0,-2.3,Tally Wackers,0,4,True,True
+2011,7,OakalDoakals,"Boss, Kevin",TE,4,0.0,-2.3,Tally Wackers,0,4,True,True
+2011,1,Otters,"Roberts, Andre",WR,9,45.0,-2.3,F-Jackie,0,9,True,False
+2015,3,Manic Moose,"Hawkins, Andrew",WR,3,0.0,-2.3,Blitzkrieg,0,3,True,False
+2016,9,OakalDoakals,"Butler, Brice",WR,3,0.0,-2.3,Otters,0,3,True,True
+2016,2,Manic Moose,"Hawkins, Andrew",WR,3,0.0,-2.3,Blitzkrieg,3,0,True,False
+2018,15,Scooter's Boozers,"Burkhead, Rex",RB,4,24.9,-2.3,OakalDoakals,0,4,True,True
+2018,9,Manic Moose,"Pascal, Zach",WR,7,50.7,-2.3,Beers; Blitzkrieg,1,6,True,True
+2018,4,F-Jackie,"Burkhead, Rex",RB,4,24.9,-2.3,OakalDoakals,0,4,True,False
+2019,9,Beers,"Crosby, Mason",K,15,109.0,-2.3,Carter's Commandos; Couchfire; F-Jackie,6,9,True,False
+2020,10,Manic Moose,"Fitzpatrick, Ryan",QB,1,0.0,-2.3,OakalDoakals,1,0,True,False
+2020,5,Scooter's Boozers,"Rypien, Brett",QB,1,0.0,-2.3,Manic Moose,1,0,True,True
+2021,11,Blitzkrieg,"Broncos, Denver",Def,13,48.0,-2.3,F-Jackie; Otters; Scooter's Boozers,1,12,True,True
+2024,4,OakalDoakals,"Rush, Cooper",QB,1,-2.4,-2.3,Manic Moose,0,1,True,False
+2025,2,Otters,"Cardinals, Arizona",Def,8,15.0,-2.3,Iron City Pounders; Texas Nashvillians,8,0,False,True
+2009,12,Bunchalosers,"Scobee, Josh",K,8,46.0,-2.4,Tally Wackers,0,8,True,True
+2009,9,Scooter's Boozers,"Fasano, Anthony",TE,6,6.0,-2.4,Beers; Iron City Pounders,0,6,True,False
+2011,7,Texas Nashvillians,"Redskins, Washington",Def,6,22.0,-2.4,Blitzkrieg; Carter's Commandos; OakalDoakals,0,6,True,True
+2011,4,Blitzkrieg,"Williams, Mike",WR,4,6.0,-2.4,Beers; Iron City Pounders,4,0,True,False
+2011,4,Otters,"Jones, James",WR,11,57.0,-2.4,Blitzkrieg; Bunchalosers,4,7,True,False
+2012,9,Otters,"Pettis, Austin",WR,5,15.0,-2.4,F-Jackie; OakalDoakals,0,5,True,True
+2012,3,Otters,"Raiders, Oakland",Def,5,15.0,-2.4,Carter's Commandos,3,2,True,True
+2012,1,Iron City Pounders,"Redskins, Washington",Def,6,22.0,-2.4,Blitzkrieg; Carter's Commandos; OakalDoakals,6,0,True,False
+2013,9,F-Jackie,"Falcons, Atlanta",Def,10,50.0,-2.4,Texas Nashvillians,0,10,True,True
+2013,2,Otters,"Kerley, Jeremy",WR,3,0.0,-2.4,Manic Moose,3,0,True,False
+2015,5,Bunchalosers,"Green, Virgil",TE,4,0.0,-2.4,Karpet Munchers,0,4,True,True
+2015,0,Scooter's Boozers,"Bengals, Cincinnati",Def,18,89.0,-2.4,Ho Train,7,11,True,False
+2016,4,Otters,"Dolphins, Miami",Def,17,91.0,-2.4,Beers; Bunchalosers; Carter's Commandos; F-Jackie,5,12,True,True
+2017,6,Da Funk,"Treadwell, Laquon",WR,3,2.3,-2.4,Beers; Couchfire,1,2,True,False
+2018,14,OakalDoakals,"Eagles, Philadelphia",Def,4,-1.0,-2.4,Beers; Couchfire; F-Jackie; Scooter's Boozers,0,4,True,True
+2019,4,Karpet Munchers,"Cole, Keelan",WR,6,40.9,-2.4,F-Jackie,0,6,True,False
+2021,8,Couchfire,"Broncos, Denver",Def,14,52.0,-2.4,Blitzkrieg; F-Jackie; Otters; Scooter's Boozers,2,12,True,False
+2021,5,Scooter's Boozers,"Smith, Jonnu",TE,5,13.1,-2.4,Blitzkrieg; Carter's Commandos,5,0,True,False
+2023,10,Carter's Commandos,"Parham, Donald",TE,4,3.8,-2.4,Karpet Munchers,4,0,True,True
+2023,6,Texas Nashvillians,"Parham, Donald",TE,6,19.1,-2.4,Carter's Commandos; Karpet Munchers,6,0,True,True
+2009,7,Iron City Pounders,"Colts, Indianapolis",Def,11,66.0,-2.5,Beers; Otters,9,2,True,True
+2010,2,OakalDoakals,"Doucet, Early",WR,7,28.0,-2.5,Bunchalosers; F-Jackie,4,3,True,True
+2011,6,Scooter's Boozers,"Morgan, Josh",WR,4,6.0,-2.5,Carter's Commandos,0,4,True,True
+2011,6,Iron City Pounders,"Nugent, Mike",K,15,125.0,-2.5,Bunchalosers; Dunbar Dogs; F-Jackie,5,10,True,True
+2011,4,Beers,"Morgan, Josh",WR,5,13.0,-2.5,Carter's Commandos; Scooter's Boozers,1,4,True,False
+2012,0,Manic Moose,"Clay, Charles",RB,4,8.0,-2.5,Carter's Commandos; OakalDoakals,0,4,True,False
+2013,5,Carter's Commandos,"Floyd, Malcolm",WR,9,49.0,-2.5,Bunchalosers,0,9,True,False
+2013,1,Ho Train,"Gerhart, Toby",RB,3,0.0,-2.5,Iron City Pounders,1,2,True,False
+2014,9,Otters,"Quick, Brian",WR,3,0.0,-2.5,Texas Nashvillians,0,3,True,False
+2014,6,Manic Moose,"Amendola, Danny",WR,3,0.0,-2.5,Bunchalosers; Iron City Pounders,1,2,True,False
+2014,5,OakalDoakals,"Williams, Damien",RB,3,0.0,-2.5,Bunchalosers,1,2,True,True
+2014,2,Da Funk,"Williams, Damien",RB,3,0.0,-2.5,Bunchalosers,1,2,True,False
+2016,10,Bunchalosers,"Jones, Landry",QB,1,0.0,-2.5,Blitzkrieg,1,0,True,True
+2021,10,Karpet Munchers,"Hurst, Hayden",TE,10,50.3,-2.5,OakalDoakals,0,10,True,True
+2021,7,F-Jackie,"Dalton, Andy",QB,10,233.5,-2.5,Tally Wackers,0,10,True,False
+2023,7,Texas Nashvillians,"Bengals, Cincinnati",Def,16,70.0,-2.5,Blitzkrieg; Dunbar Dogs,8,8,True,True
+2024,11,Beers,"Ryland, Chad",K,9,57.0,-2.5,Carter's Commandos; OakalDoakals; Scooter's Boozers,3,6,True,True
+2024,3,Couchfire,"Fant, Noah",TE,8,35.4,-2.5,OakalDoakals,6,2,True,True
+2011,10,Carter's Commandos,"Dawson, Phil",K,11,84.0,-2.6,Otters; Texas Nashvillians,4,7,True,True
+2012,4,Ho Train,"Henery, Alex",K,8,57.0,-2.6,F-Jackie; Manic Moose,6,2,True,False
+2014,10,Bunchalosers,"Schaub, Matt",QB,1,0.0,-2.6,Tally Wackers,0,1,True,False
+2014,5,Scooter's Boozers,"Cunningham, Benny",RB,4,7.0,-2.6,F-Jackie; Manic Moose,1,3,True,False
+2015,1,OakalDoakals,"Manuel, E.J.",QB,1,0.0,-2.6,Texas Nashvillians,1,0,True,False
+2016,4,Beers,"Kelley, Rob",RB,15,102.0,-2.6,OakalDoakals,7,8,True,True
+2018,5,Iron City Pounders,"Eifert, Tyler",TE,5,9.6,-2.6,Carter's Commandos,0,5,True,False
+2021,8,F-Jackie,"Brissett, Jacoby",QB,2,21.6,-2.6,Ho Train; Otters,1,1,True,True
+2024,9,Scooter's Boozers,"Gray, Noah",TE,6,20.4,-2.6,Beers; Dunbar Dogs,2,4,True,True
+2024,2,Beers,"Zaccheaus, Olamide",WR,6,31.4,-2.6,Iron City Pounders,0,6,True,False
+2009,7,Carter's Commandos,"Scobee, Josh",K,9,52.0,-2.7,Bunchalosers; Tally Wackers,1,8,True,True
+2010,4,Texas Nashvillians,"Ball, Lance",RB,3,3.0,-2.7,Bunchalosers,0,3,True,True
+2011,6,OakalDoakals,"Jones, Donald",WR,5,11.0,-2.7,Beers; Bunchalosers; Ho Train,2,3,True,True
+2011,0,OakalDoakals,"Tate, Brandon",WR,3,-3.0,-2.7,Iron City Pounders,0,3,True,False
+2012,10,OakalDoakals,"Simpson, Jerome",WR,4,5.0,-2.7,Ho Train,0,4,True,True
+2012,8,OakalDoakals,"Lewis, Marcedes",TE,5,3.0,-2.7,Beers; Dunbar Dogs,1,4,True,True
+2012,6,Otters,"McCluster, Dexter",WR,3,-3.0,-2.7,Iron City Pounders,3,0,True,True
+2012,3,Ho Train,"Royal, Eddie",WR,3,-3.0,-2.7,Carter's Commandos,0,3,True,False
+2012,2,Dunbar Dogs,"Saints, New Orleans",Def,9,41.0,-2.7,Carter's Commandos; F-Jackie; Iron City Pounders,4,5,True,True
+2013,12,Bunchalosers,"Nugent, Mike",K,6,35.0,-2.7,Beers; OakalDoakals,0,6,True,True
+2014,8,Iron City Pounders,"Daniels, Owen",TE,5,0.0,-2.7,Bunchalosers; F-Jackie,1,4,True,False
+2016,9,Bunchalosers,"Hogan, Kevin",QB,1,-3.0,-2.7,Beers,0,1,True,True
+2016,7,F-Jackie,"Cowboys, Dallas",Def,12,51.0,-2.7,Blitzkrieg; Scooter's Boozers; Texas Nashvillians,6,6,True,True
+2017,10,Karpet Munchers,"Lynch, Paxton",QB,1,-3.0,-2.7,Iron City Pounders,1,0,True,True
+2017,5,Karpet Munchers,"Lynch, Paxton",QB,1,-3.0,-2.7,Iron City Pounders,1,0,True,True
+2023,2,F-Jackie,"Packers, Green Bay",Def,11,37.0,-2.7,Beers; Blitzkrieg; Ho Train; Karpet Munchers,6,5,True,False
+2024,16,Beers,"Ravens, Baltimore",Def,10,21.0,-2.7,Da Funk,0,10,True,True
+2024,11,F-Jackie,"Ravens, Baltimore",Def,10,21.0,-2.7,Da Funk,0,10,True,True
+2024,11,Beers,"Wentz, Carson",QB,3,44.7,-2.7,Manic Moose,0,3,True,True
+2025,14,OakalDoakals,"Dobbins, J.K.",RB,6,45.7,-2.7,Beers,0,6,False,False
+2009,3,Scooter's Boozers,"Tate, Brandon",WR,4,5.0,-2.8,OakalDoakals,0,4,True,False
+2010,12,Bunchalosers,"Watson, Ben",TE,5,0.0,-2.8,OakalDoakals,0,5,True,True
+2010,10,Bunchalosers,"Watson, Ben",TE,5,0.0,-2.8,OakalDoakals,0,5,True,True
+2011,11,Manic Moose,"Quinn, Brady",QB,1,-3.0,-2.8,F-Jackie,0,1,True,True
+2012,7,Manic Moose,"Quinn, Brady",QB,1,-3.0,-2.8,F-Jackie,1,0,True,True
+2012,4,OakalDoakals,"Kaepernick, Colin",QB,9,189.0,-2.8,Beers,1,8,True,True
+2013,12,Carter's Commandos,"Bengals, Cincinnati",Def,9,39.0,-2.8,Manic Moose; Otters,2,7,True,False
+2013,10,Beers,"Kearse, Jermaine",WR,4,5.0,-2.8,OakalDoakals,0,4,True,True
+2013,3,F-Jackie,"Chargers, San Diego",Def,16,91.0,-2.8,Bunchalosers; Dunbar Dogs; Iron City Pounders,8,8,True,False
+2014,16,Manic Moose,"Dawson, Phil",K,5,21.0,-2.8,Beers; OakalDoakals,0,5,True,False
+2020,3,Texas Nashvillians,"Vaughn, Ke'Shawn",RB,3,0.0,-2.8,Ho Train,3,0,True,True
+2021,15,Blitzkrieg,"Chargers, San Diego",Def,11,30.0,-2.8,Beers; Dunbar Dogs; Iron City Pounders,1,10,True,True
+2021,10,Blitzkrieg,"Chargers, San Diego",Def,11,30.0,-2.8,Beers; Dunbar Dogs; Iron City Pounders,1,10,True,True
+2021,6,Blitzkrieg,"Chargers, San Diego",Def,11,30.0,-2.8,Beers; Dunbar Dogs; Iron City Pounders,1,10,True,True
+2022,14,F-Jackie,"Higbee, Tyler",TE,9,39.1,-2.8,Carter's Commandos; Ho Train,0,9,True,False
+2009,5,Blitzkrieg,"Douglas, Harry",WR,5,11.0,-2.9,Texas Nashvillians,0,5,True,False
+2010,4,Scooter's Boozers,"Scheffler, Tony",TE,7,9.0,-2.9,Beers; Blitzkrieg; Da Funk,2,5,True,False
+2012,7,Otters,"Streater, Rod",WR,6,18.0,-2.9,OakalDoakals,0,6,True,True
+2013,2,Bunchalosers,"Falcons, Atlanta",Def,11,52.0,-2.9,F-Jackie; Texas Nashvillians,1,10,True,False
+2016,10,F-Jackie,"Dolphins, Miami",Def,15,75.0,-2.9,Bunchalosers; Carter's Commandos,3,12,True,True
+2020,8,Beers,"Sanders, Emmanuel",WR,9,66.5,-2.9,OakalDoakals,0,9,True,True
+2009,10,Beers,"Kuhn, John",RB,3,0.0,-3.0,Scooter's Boozers,0,3,True,True
+2009,4,Manic Moose,"Graham, Earnest",RB,3,0.0,-3.0,Beers,1,2,True,False
+2010,10,Carter's Commandos,"Chargers, San Diego",Def,6,16.0,-3.0,Beers; Blitzkrieg,1,5,True,False
+2010,4,OakalDoakals,"Buccaneers, Tampa Bay",Def,15,81.0,-3.0,Carter's Commandos; Ho Train,6,9,True,True
+2010,2,Da Funk,"Shockey, Jeremy",TE,8,12.0,-3.0,Blitzkrieg; Iron City Pounders,4,4,True,False
+2013,4,Manic Moose,"Kearse, Jermaine",WR,5,11.0,-3.0,Beers; OakalDoakals,1,4,True,True
+2015,11,Ho Train,"James, Jesse",TE,8,18.0,-3.0,Blitzkrieg,0,8,True,True
+2015,1,OakalDoakals,"Walsh, Blair",K,9,62.0,-3.0,Ho Train,0,9,True,True
+2016,8,Carter's Commandos,"Giants, New York",Def,14,68.0,-3.0,Manic Moose; OakalDoakals,2,12,True,False
+2020,6,Iron City Pounders,"Snead, Willie",WR,4,9.5,-3.0,Carter's Commandos,4,0,True,False
+2009,7,Iron City Pounders,"Jaguars, Jacksonville",Def,6,22.0,-3.1,Carter's Commandos,6,0,True,True
+2010,7,Otters,"Nugent, Mike",K,8,46.0,-3.1,Bunchalosers; Iron City Pounders,2,6,True,True
+2011,9,Manic Moose,"Hartline, Brian",WR,8,30.0,-3.1,Texas Nashvillians,0,8,True,True
+2016,13,OakalDoakals,"Giants, New York",Def,12,56.0,-3.1,Manic Moose,0,12,True,True
+2012,3,OakalDoakals,"Sanu, Mohamed",WR,4,0.0,-3.2,Otters,0,4,True,False
+2013,9,Da Funk,"Nugent, Mike",K,7,40.0,-3.2,Beers; Bunchalosers; OakalDoakals,1,6,True,True
+2013,0,Texas Nashvillians,"Cowboys, Dallas",Def,20,116.0,-3.2,Bunchalosers,11,9,True,False
+2017,3,Blitzkrieg,"Redskins, Washington",Def,14,64.0,-3.2,Da Funk; F-Jackie,8,6,True,False
+2018,16,Couchfire,"Badgley, Mike",K,8,27.0,-3.2,Da Funk,0,8,True,True
+2019,4,Beers,"Wilkins, Jordan",RB,5,20.5,-3.2,OakalDoakals,1,4,True,True
+2019,4,Da Funk,"McKinnon, Jerick",RB,10,78.3,-3.2,Texas Nashvillians,0,10,True,False
+2021,4,Scooter's Boozers,"Collins, Alex",RB,4,14.1,-3.2,Otters,4,0,True,True
+2024,6,Scooter's Boozers,"Ravens, Baltimore",Def,13,33.0,-3.2,Da Funk; F-Jackie,3,10,True,False
+2025,7,Couchfire,"Lloyd, MarShawn",RB,5,27.5,-3.2,Beers,0,5,False,True
+2025,5,Texas Nashvillians,"Elliott, Jake",K,10,62.0,-3.2,Ho Train; Manic Moose,4,6,False,False
+2025,5,Manic Moose,"Lloyd, MarShawn",RB,5,27.5,-3.2,Beers,0,5,False,False
+2011,0,Texas Nashvillians,"Simpson, Jerome",WR,5,6.0,-3.3,Beers; OakalDoakals,1,4,True,False
+2012,6,Manic Moose,"Ogbonnaya, Chris",RB,4,0.0,-3.3,Bunchalosers,0,4,True,True
+2012,6,Iron City Pounders,"Lewis, Marcedes",TE,6,3.0,-3.3,Beers; Dunbar Dogs; OakalDoakals,2,4,True,False
+2016,2,Texas Nashvillians,"Gould, Robbie",K,7,43.0,-3.3,Tally Wackers,3,4,True,False
+2018,11,Karpet Munchers,"Eagles, Philadelphia",Def,7,6.0,-3.3,Beers; Couchfire; F-Jackie; OakalDoakals; Scooter's Boozers,3,4,True,False
+2019,3,Ho Train,"Richardson, Paul",WR,4,4.0,-3.3,Da Funk,4,0,True,False
+2024,4,OakalDoakals,"Gainwell, Kenneth",RB,9,83.8,-3.3,Texas Nashvillians,1,8,True,False
+2013,11,Ho Train,"Flynn, Matt",QB,1,-9.0,-3.4,Iron City Pounders,1,0,True,False
+2013,4,Carter's Commandos,"Saints, New Orleans",Def,6,11.0,-3.4,F-Jackie,4,2,True,True
+2015,7,Beers,"Thompson, Chris",RB,4,4.0,-3.4,Bunchalosers,0,4,True,True
+2015,5,Otters,"Zuerlein, Greg",K,14,105.0,-3.4,Da Funk; Texas Nashvillians,7,7,True,False
+2016,11,Iron City Pounders,"Hooper, Austin",TE,14,41.0,-3.4,Bunchalosers; Karpet Munchers,1,13,True,False
+2016,1,OakalDoakals,"Wright, Kendall",WR,10,40.0,-3.4,Bunchalosers,7,3,True,False
+2017,7,Beers,"Richard, Jalen",RB,5,25.7,-3.4,Scooter's Boozers; Texas Nashvillians,1,4,True,True
+2017,5,F-Jackie,"Richard, Jalen",RB,5,25.7,-3.4,Scooter's Boozers; Texas Nashvillians,1,4,True,False
+2018,10,Otters,"Mostert, Raheem",RB,7,50.6,-3.4,Texas Nashvillians,0,7,True,True
+2021,3,Karpet Munchers,"Chargers, San Diego",Def,18,63.0,-3.4,Beers; Blitzkrieg; Dunbar Dogs; Iron City Pounders,8,10,True,False
+2024,17,Beers,"Bengals, Cincinnati",Def,9,7.0,-3.4,Tally Wackers,0,9,True,True
+2024,11,Texas Nashvillians,"49ers, San Francisco",Def,16,48.0,-3.4,Karpet Munchers; Scooter's Boozers; Tally Wackers,5,11,True,False
+2024,9,Dunbar Dogs,"Bengals, Cincinnati",Def,9,7.0,-3.4,Tally Wackers,0,9,True,False
+2024,4,Couchfire,"Grupe, Blake",K,12,74.0,-3.4,Carter's Commandos; Dunbar Dogs; Scooter's Boozers,8,4,True,True
+2011,13,Carter's Commandos,"McCluster, Dexter",WR,4,-3.0,-3.5,Iron City Pounders; Otters,0,4,True,True
+2012,1,Karpet Munchers,"McCluster, Dexter",WR,4,-3.0,-3.5,Iron City Pounders; Otters,4,0,True,False
+2022,17,Karpet Munchers,"Berrios, Braxton",WR,4,3.0,-3.5,Iron City Pounders,0,4,True,True
+2023,4,Couchfire,"Dalton, Andy",QB,5,85.9,-3.5,Ho Train,0,5,True,True
+2024,7,Scooter's Boozers,"McNichols, Jeremy",RB,4,11.8,-3.5,Karpet Munchers; Texas Nashvillians,1,3,True,True
+2024,5,F-Jackie,"McNichols, Jeremy",RB,4,11.8,-3.5,Karpet Munchers; Texas Nashvillians,1,3,True,True
+2014,12,Bunchalosers,"Chargers, San Diego",Def,9,26.0,-3.6,Dunbar Dogs,0,9,True,True
+2014,10,Iron City Pounders,"Chargers, San Diego",Def,10,33.0,-3.6,Bunchalosers; Dunbar Dogs,1,9,True,True
+2020,4,Karpet Munchers,"Brissett, Jacoby",QB,2,9.9,-3.6,F-Jackie; Ho Train,0,2,True,False
+2011,11,Manic Moose,"Raiders, Oakland",Def,6,10.0,-3.7,Carter's Commandos; Karpet Munchers; Otters,2,4,True,True
+2013,11,OakalDoakals,"Clay, Charles",RB,7,20.0,-3.8,Carter's Commandos; Karpet Munchers,2,5,True,True
+2014,6,Manic Moose,"Vick, Michael",QB,2,12.0,-3.8,Iron City Pounders; Scooter's Boozers,1,1,True,True
+2014,5,Otters,"Vick, Michael",QB,2,12.0,-3.8,Iron City Pounders; Scooter's Boozers,1,1,True,True
+2014,2,Bunchalosers,"Vick, Michael",QB,2,12.0,-3.8,Iron City Pounders; Scooter's Boozers,1,1,True,False
+2015,6,Da Funk,"Artis-Payne, Cameron",RB,4,0.0,-3.8,Karpet Munchers,0,4,True,False
+2016,1,Beers,"Amendola, Danny",WR,6,7.0,-3.8,Carter's Commandos; Texas Nashvillians,3,3,True,False
+2019,15,Iron City Pounders,"Olsen, Greg",TE,12,39.9,-3.8,Carter's Commandos,0,12,True,False
+2024,11,OakalDoakals,"Austin III, Calvin",WR,10,59.9,-3.8,Dunbar Dogs,3,7,True,False
+2010,4,OakalDoakals,"Graham, Earnest",RB,5,10.0,-3.9,Beers; Bunchalosers,2,3,True,True
+2011,7,Beers,"Hartline, Brian",WR,9,30.0,-3.9,Manic Moose; Texas Nashvillians,1,8,True,True
+2017,8,F-Jackie,"Fitzpatrick, Ryan",QB,4,65.9,-3.9,Scooter's Boozers,1,3,True,True
+2017,6,Beers,"Clay, Charles",RB,5,6.0,-3.9,Scooter's Boozers,4,1,True,True
+2023,7,Blitzkrieg,"Abanikanda, Israel",RB,4,2.1,-3.9,Dunbar Dogs,4,0,True,False
+2016,10,Tally Wackers,"Coleman, Brandon",WR,6,5.0,-4.0,Scooter's Boozers,0,6,True,False
+2021,5,Texas Nashvillians,"Zaccheaus, Olamide",WR,8,37.8,-4.0,Carter's Commandos,0,8,True,True
+2011,1,Bunchalosers,"Avery, Donnie",WR,6,6.0,-4.1,Carter's Commandos,0,6,True,False
+2023,6,F-Jackie,"Chandler, Ty",RB,9,64.9,-4.2,OakalDoakals,5,4,True,False
+2009,13,Otters,"Murphy, Louis",WR,9,29.0,-4.3,OakalDoakals,0,9,True,True
+2009,11,F-Jackie,"Murphy, Louis",WR,9,29.0,-4.3,OakalDoakals,0,9,True,False
+2013,5,Bunchalosers,"Clark, Dallas",TE,8,6.0,-4.3,Dunbar Dogs,8,0,True,False
+2013,3,Iron City Pounders,"Succop, Ryan",K,11,72.0,-4.3,F-Jackie; Karpet Munchers; Manic Moose,7,4,True,False
+2016,10,Blitzkrieg,"James, Jesse",TE,10,12.0,-4.4,Manic Moose,0,10,True,True
+2017,8,Ho Train,"McManus, Brandon",K,17,120.0,-4.4,Scooter's Boozers,4,13,True,True
+2020,2,Beers,"Meyers, Jakobi",WR,16,129.0,-4.4,Otters,5,11,True,False
+2016,11,Manic Moose,"Brissett, Jacoby",QB,11,184.0,-4.5,Tally Wackers,0,11,True,True
+2016,7,Texas Nashvillians,"Brissett, Jacoby",QB,11,184.0,-4.5,Tally Wackers,0,11,True,True
+2023,16,Couchfire,"Minshew, Gardner",QB,5,73.4,-4.5,Da Funk; Texas Nashvillians,0,5,True,True
+2023,3,Couchfire,"Minshew, Gardner",QB,5,73.4,-4.5,Da Funk; Texas Nashvillians,0,5,True,True
+2011,3,Dunbar Dogs,"Miller, Zach",TE,9,5.0,-4.6,Tally Wackers,9,0,True,False
+2019,13,F-Jackie,"Bailey, Dan",K,14,79.0,-4.6,Da Funk,0,14,True,True
+2012,9,Manic Moose,"Edelman, Julian",WR,8,16.0,-4.7,Da Funk,1,7,True,True
+2016,10,Otters,"Fitzpatrick, Ryan",QB,2,0.0,-4.8,Beers; Scooter's Boozers,1,1,True,True
+2019,8,Karpet Munchers,"Bailey, Dan",K,19,118.0,-4.8,Da Funk; F-Jackie,5,14,True,False
+2016,1,Scooter's Boozers,"Redskins, Washington",Def,15,52.0,-4.9,F-Jackie,7,8,True,False
+2011,1,Ho Train,"McCluster, Dexter",WR,6,-3.0,-5.0,Carter's Commandos; Iron City Pounders; Otters,2,4,True,False
+2015,11,Iron City Pounders,"Jones, Landry",QB,2,0.0,-5.0,Blitzkrieg; Bunchalosers,0,2,True,True
+2015,7,Scooter's Boozers,"Jones, Landry",QB,2,0.0,-5.0,Blitzkrieg; Bunchalosers,0,2,True,True
+2015,3,Scooter's Boozers,"Pryor, Terrelle",QB,2,0.0,-5.0,Carter's Commandos,0,2,True,True
+2024,3,Beers,"Douglas, Demario",WR,14,88.4,-5.1,F-Jackie; Iron City Pounders,7,7,True,False
+2016,6,Beers,"McCown, Josh",QB,3,18.0,-5.2,Texas Nashvillians,2,1,True,True
+2023,6,Couchfire,"Robinson, Wan'Dale",WR,17,124.7,-5.2,Otters,7,10,True,True
+2023,2,Blitzkrieg,"Robinson, Wan'Dale",WR,17,124.7,-5.2,Otters,7,10,True,False
+2014,2,Otters,"Britt, Kenny",WR,16,75.0,-5.5,OakalDoakals,4,12,True,False
+2015,6,Bunchalosers,"Roberts, Seth",WR,8,7.0,-5.5,Scooter's Boozers,1,7,True,True
+2016,7,Iron City Pounders,"Fitzpatrick, Ryan",QB,3,16.0,-5.6,Beers; Otters; Scooter's Boozers,2,1,True,False
+2016,5,Otters,"Cutler, Jay",QB,4,33.0,-5.7,Beers,1,3,True,True
+2016,3,F-Jackie,"Cutler, Jay",QB,4,33.0,-5.7,Beers,1,3,True,True
+2015,11,Ho Train,"McCown, Josh",QB,2,-9.0,-5.9,Texas Nashvillians,0,2,True,False
+2018,3,Da Funk,"Falcons, Atlanta",Def,12,7.0,-6.0,Carter's Commandos; Texas Nashvillians,4,8,True,False
+2017,2,Otters,"McManus, Brandon",K,19,124.0,-6.4,Ho Train; Scooter's Boozers,6,13,True,False
+2022,9,Carter's Commandos,"Kelley, Joshua",RB,8,22.0,-6.4,F-Jackie,0,8,True,True
+2013,11,Beers,"Kaepernick, Colin",QB,5,45.0,-7.7,Bunchalosers,0,5,True,True
+2022,9,Scooter's Boozers,"Winston, Jameis",QB,4,2.0,-8.1,Texas Nashvillians,0,4,True,True

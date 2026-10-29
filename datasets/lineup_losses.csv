@@ -1,0 +1,736 @@
+season,week,stage,team,opponent,score,best_possible,opponent_score,best_lineup_margin
+2019,14,playoffs,Otters,Beers,112.3,181.6,114.5,67.1
+2018,14,playoffs,Scooter's Boozers,Beers,98.5,150.2,102.3,47.9
+2025,15,playoffs,Manic Moose,Da Funk,143.4,186.4,147.3,39.1
+2012,14,playoffs,F-Jackie,Blitzkrieg,43.0,123.0,84.0,39.0
+2017,14,playoffs,Beers,Iron City Pounders,65.0,106.0,69.0,37.0
+2008,16,playoffs,Manic Moose,Karpet Munchers,101.0,150.0,114.0,36.0
+2023,15,playoffs,Blitzkrieg,Manic Moose,131.6,178.3,142.7,35.6
+2019,16,playoffs,F-Jackie,Beers,118.3,169.4,135.4,34.0
+2024,15,playoffs,Otters,Couchfire,140.6,174.3,141.0,33.3
+2019,15,playoffs,Manic Moose,F-Jackie,167.7,210.1,176.9,33.2
+2012,15,playoffs,Blitzkrieg,Manic Moose,101.0,142.0,110.0,32.0
+2016,15,playoffs,Iron City Pounders,Blitzkrieg,57.0,93.0,62.0,31.0
+2010,15,playoffs,Carter's Commandos,Manic Moose,65.0,116.0,87.0,29.0
+2014,14,playoffs,OakalDoakals,Manic Moose,68.0,100.0,71.0,29.0
+2025,16,playoffs,Da Funk,Blitzkrieg,121.7,176.8,149.5,27.3
+2025,15,playoffs,Ho Train,Karpet Munchers,125.1,176.7,149.6,27.1
+2016,16,playoffs,OakalDoakals,Blitzkrieg,89.0,138.0,112.0,26.0
+2019,14,playoffs,OakalDoakals,F-Jackie,106.7,139.8,114.0,25.8
+2023,16,playoffs,OakalDoakals,Manic Moose,76.9,117.0,92.8,24.2
+2010,16,playoffs,Manic Moose,Otters,57.0,88.0,66.0,22.0
+2022,15,playoffs,Karpet Munchers,Scooter's Boozers,85.3,110.0,88.9,21.1
+2012,14,playoffs,Beers,Karpet Munchers,105.0,134.0,113.0,21.0
+2021,16,playoffs,Beers,Ho Train,90.4,122.7,102.1,20.6
+2012,15,playoffs,Karpet Munchers,Ho Train,98.0,140.0,120.0,20.0
+2013,15,playoffs,Manic Moose,Dunbar Dogs,80.0,117.0,98.0,19.0
+2020,14,playoffs,Iron City Pounders,Scooter's Boozers,136.2,185.4,168.5,16.9
+2024,16,playoffs,Manic Moose,Tally Wackers,110.4,142.8,127.4,15.4
+2009,16,playoffs,Otters,F-Jackie,22.0,76.0,61.0,15.0
+2016,15,playoffs,Carter's Commandos,OakalDoakals,112.0,132.0,117.0,15.0
+2008,14,playoffs,Beers,Karpet Munchers,70.0,96.0,82.0,14.0
+2025,15,playoffs,Carter's Commandos,Blitzkrieg,188.2,203.7,190.6,13.1
+2018,14,playoffs,Ho Train,Tally Wackers,99.4,130.1,117.6,12.5
+2023,15,playoffs,Karpet Munchers,Beers,88.7,118.7,106.2,12.5
+2011,15,playoffs,OakalDoakals,F-Jackie,66.0,95.0,83.0,12.0
+2016,14,playoffs,Tally Wackers,Iron City Pounders,60.0,83.0,71.0,12.0
+2010,14,playoffs,Dunbar Dogs,Manic Moose,67.0,95.0,84.0,11.0
+2014,14,playoffs,Otters,Karpet Munchers,82.0,129.0,118.0,11.0
+2019,15,playoffs,Karpet Munchers,Beers,119.9,131.3,121.6,9.7
+2015,14,playoffs,Ho Train,Iron City Pounders,61.0,82.0,73.0,9.0
+2017,14,playoffs,Bunchalosers,Ho Train,57.0,85.0,76.0,9.0
+2024,15,playoffs,F-Jackie,Manic Moose,153.0,169.1,161.3,7.8
+2018,15,playoffs,OakalDoakals,Karpet Munchers,67.5,112.1,105.5,6.6
+2011,14,playoffs,Manic Moose,OakalDoakals,96.0,121.0,115.0,6.0
+2013,14,playoffs,Ho Train,Texas Nashvillians,60.0,81.0,76.0,5.0
+2015,15,playoffs,Texas Nashvillians,OakalDoakals,84.0,90.0,85.0,5.0
+2022,16,playoffs,Scooter's Boozers,Beers,60.2,104.9,99.9,5.0
+2021,15,playoffs,Carter's Commandos,F-Jackie,84.6,96.6,92.0,4.6
+2009,14,playoffs,Dunbar Dogs,Tally Wackers,88.0,108.0,105.0,3.0
+2009,15,playoffs,Tally Wackers,F-Jackie,119.0,130.0,127.0,3.0
+2017,14,playoffs,Texas Nashvillians,Dunbar Dogs,78.0,119.0,116.0,3.0
+2009,15,playoffs,Ho Train,Otters,90.0,124.0,122.0,2.0
+2017,16,playoffs,Otters,Ho Train,65.0,76.0,74.0,2.0
+2024,15,playoffs,Da Funk,Tally Wackers,98.5,124.1,122.1,2.0
+2023,15,playoffs,Tally Wackers,OakalDoakals,113.0,127.3,126.1,1.2
+2017,10,regular,Dunbar Dogs,Otters,41.0,160.0,74.0,86.0
+2018,3,regular,Blitzkrieg,Karpet Munchers,123.2,201.7,123.7,78.0
+2023,12,regular,Carter's Commandos,Tally Wackers,70.7,153.2,78.5,74.7
+2019,1,regular,Karpet Munchers,Iron City Pounders,104.2,180.8,109.1,71.7
+2018,5,regular,Blitzkrieg,Ho Train,104.5,187.3,116.7,70.6
+2010,3,regular,Manic Moose,Otters,91.0,163.0,97.0,66.0
+2015,5,regular,Bunchalosers,Tally Wackers,74.0,152.0,88.0,64.0
+2012,2,regular,Scooter's Boozers,Tally Wackers,44.0,113.0,50.0,63.0
+2016,6,regular,F-Jackie,Carter's Commandos,98.0,166.0,104.0,62.0
+2008,13,regular,Karpet Munchers,Ho Train,80.0,141.0,83.0,58.0
+2012,11,regular,Scooter's Boozers,Iron City Pounders,38.0,103.0,46.0,57.0
+2019,11,regular,Ho Train,Beers,71.5,140.9,84.4,56.5
+2025,2,regular,Otters,Tally Wackers,76.0,135.3,79.1,56.2
+2009,13,regular,Beers,Bunchalosers,60.0,117.0,61.0,56.0
+2015,10,regular,Carter's Commandos,Manic Moose,67.0,139.0,83.0,56.0
+2018,1,regular,Blitzkrieg,Scooter's Boozers,98.1,168.2,112.2,56.0
+2020,7,regular,Otters,Iron City Pounders,91.4,147.4,91.9,55.5
+2016,6,regular,Otters,Karpet Munchers,76.0,136.0,81.0,55.0
+2019,1,regular,Dunbar Dogs,OakalDoakals,113.8,184.8,129.9,54.9
+2025,14,regular,Iron City Pounders,Couchfire,69.5,129.3,75.5,53.8
+2019,1,regular,Beers,Scooter's Boozers,106.5,161.2,109.8,51.4
+2023,8,regular,Texas Nashvillians,Blitzkrieg,114.6,168.0,116.6,51.4
+2024,6,regular,Texas Nashvillians,Otters,116.2,172.8,121.5,51.3
+2018,12,regular,Blitzkrieg,Ho Train,90.5,163.8,113.0,50.8
+2019,13,regular,Karpet Munchers,Otters,92.4,167.2,116.6,50.6
+2015,4,regular,Ho Train,Da Funk,47.0,98.0,48.0,50.0
+2017,4,regular,Tally Wackers,Beers,53.0,115.0,66.0,49.0
+2018,4,regular,Manic Moose,Dunbar Dogs,105.0,175.2,126.3,48.9
+2021,12,regular,Blitzkrieg,Manic Moose,61.1,122.2,73.7,48.5
+2015,3,regular,Dunbar Dogs,Da Funk,68.0,122.0,74.0,48.0
+2024,11,regular,Carter's Commandos,F-Jackie,99.6,149.2,101.9,47.3
+2008,4,regular,Beers,Scooter's Boozers,74.0,123.0,76.0,47.0
+2014,10,regular,OakalDoakals,Blitzkrieg,60.0,108.0,62.0,46.0
+2016,8,regular,Beers,Manic Moose,72.0,136.0,90.0,46.0
+2009,1,regular,Karpet Munchers,Ho Train,31.0,88.0,43.0,45.0
+2014,7,regular,Scooter's Boozers,Texas Nashvillians,38.0,107.0,62.0,45.0
+2012,4,regular,F-Jackie,Blitzkrieg,112.0,162.0,118.0,44.0
+2020,13,regular,Texas Nashvillians,Beers,160.5,205.6,162.5,43.1
+2009,9,regular,Manic Moose,Bunchalosers,50.0,97.0,54.0,43.0
+2017,6,regular,Iron City Pounders,Blitzkrieg,71.0,118.0,75.0,43.0
+2013,3,regular,Iron City Pounders,Tally Wackers,63.0,120.0,78.0,42.0
+2014,5,regular,Tally Wackers,OakalDoakals,113.0,181.0,139.0,42.0
+2019,13,regular,Couchfire,Beers,62.5,132.3,90.3,42.0
+2020,10,regular,Carter's Commandos,Da Funk,70.6,128.9,87.0,41.9
+2020,2,regular,F-Jackie,Karpet Munchers,93.1,161.8,120.2,41.6
+2024,2,regular,Couchfire,Manic Moose,70.5,146.2,104.7,41.5
+2026,4,regular,OakalDoakals,Tally Wackers,129.7,178.3,137.1,41.2
+2015,2,regular,Otters,Beers,71.0,133.0,92.0,41.0
+2016,11,regular,Texas Nashvillians,Dunbar Dogs,85.0,135.0,94.0,41.0
+2020,8,regular,Texas Nashvillians,OakalDoakals,70.3,120.3,79.9,40.4
+2022,9,regular,Dunbar Dogs,Scooter's Boozers,90.1,137.3,96.9,40.4
+2019,6,regular,Ho Train,Scooter's Boozers,69.7,121.0,81.8,39.2
+2021,11,regular,Beers,Otters,103.7,148.6,109.5,39.1
+2023,10,regular,Da Funk,Carter's Commandos,74.5,171.6,132.5,39.1
+2008,12,regular,Karpet Munchers,Iron City Pounders,74.0,123.0,84.0,39.0
+2010,1,regular,Blitzkrieg,Da Funk,47.0,95.0,56.0,39.0
+2012,6,regular,Ho Train,Scooter's Boozers,91.0,131.0,92.0,39.0
+2014,8,regular,OakalDoakals,Texas Nashvillians,71.0,114.0,75.0,39.0
+2019,1,regular,Carter's Commandos,Tally Wackers,115.0,174.1,136.0,38.1
+2019,13,regular,Ho Train,Iron City Pounders,112.3,159.4,122.3,37.1
+2011,5,regular,Da Funk,Blitzkrieg,62.0,102.0,65.0,37.0
+2016,6,regular,Dunbar Dogs,OakalDoakals,80.0,151.0,114.0,37.0
+2017,3,regular,Iron City Pounders,Karpet Munchers,59.0,120.0,83.0,37.0
+2017,6,regular,Da Funk,Bunchalosers,96.0,136.0,99.0,37.0
+2017,7,regular,Otters,Texas Nashvillians,79.0,157.0,120.0,37.0
+2017,12,regular,Tally Wackers,Bunchalosers,62.0,113.0,76.0,37.0
+2018,1,regular,Manic Moose,F-Jackie,101.2,143.9,107.1,36.8
+2025,14,regular,Tally Wackers,Blitzkrieg,70.4,142.0,105.5,36.5
+2011,4,regular,Carter's Commandos,Tally Wackers,57.0,97.0,61.0,36.0
+2017,5,regular,Carter's Commandos,Texas Nashvillians,69.0,106.0,70.0,36.0
+2009,3,regular,Ho Train,Tally Wackers,64.0,100.0,65.0,35.0
+2010,11,regular,Tally Wackers,Manic Moose,116.0,152.0,117.0,35.0
+2014,8,regular,Iron City Pounders,F-Jackie,89.0,133.0,98.0,35.0
+2008,4,regular,Carter's Commandos,Tally Wackers,64.0,101.0,67.0,34.0
+2009,1,regular,Otters,Iron City Pounders,61.0,97.0,63.0,34.0
+2010,13,regular,Iron City Pounders,Karpet Munchers,33.0,93.0,59.0,34.0
+2012,4,regular,Karpet Munchers,Ho Train,75.0,111.0,77.0,34.0
+2012,8,regular,F-Jackie,Iron City Pounders,51.0,94.0,60.0,34.0
+2020,8,regular,Karpet Munchers,Blitzkrieg,93.6,140.4,106.4,34.0
+2021,8,regular,Carter's Commandos,Karpet Munchers,122.5,165.7,132.4,33.3
+2024,4,regular,Beers,Scooter's Boozers,118.9,158.5,125.3,33.2
+2015,7,regular,Da Funk,Blitzkrieg,71.0,112.0,79.0,33.0
+2020,7,regular,Tally Wackers,Dunbar Dogs,117.9,151.5,118.7,32.8
+2023,10,regular,Karpet Munchers,Texas Nashvillians,108.8,145.7,113.1,32.6
+2018,2,regular,OakalDoakals,Tally Wackers,109.9,144.8,112.4,32.4
+2011,3,regular,Karpet Munchers,Carter's Commandos,53.0,87.0,55.0,32.0
+2011,10,regular,Manic Moose,OakalDoakals,102.0,137.0,105.0,32.0
+2011,11,regular,OakalDoakals,F-Jackie,103.0,143.0,111.0,32.0
+2013,9,regular,Bunchalosers,Blitzkrieg,106.0,140.0,108.0,32.0
+2013,10,regular,Da Funk,OakalDoakals,33.0,82.0,50.0,32.0
+2015,4,regular,Karpet Munchers,Manic Moose,80.0,118.0,86.0,32.0
+2017,11,regular,Da Funk,Beers,66.0,100.0,68.0,32.0
+2023,9,regular,Texas Nashvillians,F-Jackie,107.0,145.8,113.8,32.0
+2022,5,regular,Couchfire,Scooter's Boozers,72.7,114.9,83.8,31.1
+2011,1,regular,Otters,Ho Train,95.0,142.0,111.0,31.0
+2013,8,regular,Bunchalosers,Da Funk,43.0,104.0,73.0,31.0
+2015,12,regular,Scooter's Boozers,Da Funk,87.0,129.0,98.0,31.0
+2019,1,regular,F-Jackie,Manic Moose,173.6,237.0,206.3,30.7
+2023,14,regular,Ho Train,Scooter's Boozers,131.2,168.9,138.2,30.7
+2022,7,regular,Blitzkrieg,Da Funk,111.8,159.6,129.1,30.5
+2024,8,regular,OakalDoakals,Iron City Pounders,88.9,124.0,93.9,30.1
+2009,12,regular,Blitzkrieg,F-Jackie,62.0,106.0,76.0,30.0
+2010,5,regular,Otters,Karpet Munchers,71.0,109.0,79.0,30.0
+2012,11,regular,Beers,Otters,106.0,156.0,126.0,30.0
+2013,7,regular,Manic Moose,Blitzkrieg,89.0,123.0,93.0,30.0
+2015,5,regular,Beers,Iron City Pounders,56.0,93.0,63.0,30.0
+2017,3,regular,OakalDoakals,Ho Train,84.0,119.0,89.0,30.0
+2020,9,regular,Carter's Commandos,Texas Nashvillians,81.8,113.2,83.6,29.6
+2022,3,regular,Karpet Munchers,Da Funk,107.5,147.9,118.3,29.6
+2023,11,regular,Da Funk,Dunbar Dogs,57.7,88.6,59.4,29.2
+2009,5,regular,Iron City Pounders,Karpet Munchers,100.0,134.0,105.0,29.0
+2012,3,regular,Dunbar Dogs,Bunchalosers,108.0,145.0,116.0,29.0
+2012,3,regular,Blitzkrieg,Otters,68.0,120.0,91.0,29.0
+2014,6,regular,Beers,Karpet Munchers,87.0,139.0,110.0,29.0
+2015,10,regular,Dunbar Dogs,Texas Nashvillians,59.0,131.0,102.0,29.0
+2020,12,regular,Iron City Pounders,Karpet Munchers,92.1,127.6,98.6,29.0
+2018,12,regular,Manic Moose,Karpet Munchers,135.7,169.1,140.2,28.9
+2026,5,regular,Tally Wackers,Carter's Commandos,94.6,127.0,98.2,28.8
+2026,1,regular,Iron City Pounders,Otters,118.2,162.0,133.3,28.7
+2025,12,regular,Tally Wackers,Dunbar Dogs,69.7,103.8,75.3,28.5
+2023,2,regular,Otters,Carter's Commandos,100.3,145.1,116.8,28.3
+2024,8,regular,Couchfire,Blitzkrieg,118.7,150.4,122.1,28.3
+2026,1,regular,Karpet Munchers,Ho Train,76.0,121.9,93.8,28.1
+2012,7,regular,Ho Train,Iron City Pounders,86.0,129.0,101.0,28.0
+2013,5,regular,Beers,Bunchalosers,59.0,95.0,67.0,28.0
+2016,13,regular,Texas Nashvillians,Otters,67.0,104.0,76.0,28.0
+2020,12,regular,Texas Nashvillians,Scooter's Boozers,86.0,123.7,95.8,27.9
+2019,1,regular,Blitzkrieg,Da Funk,122.0,151.9,124.1,27.8
+2024,13,regular,F-Jackie,Manic Moose,111.2,146.9,119.1,27.8
+2022,2,regular,Blitzkrieg,Karpet Munchers,71.5,102.6,74.9,27.7
+2024,6,regular,Karpet Munchers,Couchfire,124.3,155.2,127.5,27.7
+2022,12,regular,Manic Moose,Blitzkrieg,94.0,139.1,111.5,27.6
+2009,6,regular,Beers,Ho Train,60.0,151.0,124.0,27.0
+2009,6,regular,Iron City Pounders,Texas Nashvillians,114.0,146.0,119.0,27.0
+2010,10,regular,Tally Wackers,Da Funk,92.0,160.0,133.0,27.0
+2012,10,regular,Ho Train,Texas Nashvillians,64.0,140.0,113.0,27.0
+2013,9,regular,Karpet Munchers,Carter's Commandos,87.0,117.0,90.0,27.0
+2015,4,regular,Beers,Tally Wackers,70.0,98.0,71.0,27.0
+2018,3,regular,Beers,Otters,164.5,196.8,170.1,26.7
+2025,1,regular,Beers,Scooter's Boozers,102.2,142.0,115.9,26.1
+2008,8,regular,Beers,Carter's Commandos,69.0,101.0,75.0,26.0
+2009,1,regular,F-Jackie,Manic Moose,109.0,144.0,118.0,26.0
+2010,5,regular,F-Jackie,Da Funk,77.0,104.0,78.0,26.0
+2012,13,regular,Carter's Commandos,Dunbar Dogs,66.0,111.0,85.0,26.0
+2013,5,regular,Iron City Pounders,Karpet Munchers,67.0,101.0,75.0,26.0
+2014,1,regular,Beers,Bunchalosers,73.0,110.0,84.0,26.0
+2015,1,regular,Dunbar Dogs,Manic Moose,94.0,133.0,107.0,26.0
+2019,1,regular,Couchfire,Texas Nashvillians,66.0,92.3,66.4,25.9
+2019,4,regular,Tally Wackers,Dunbar Dogs,101.1,130.8,105.2,25.6
+2021,5,regular,Scooter's Boozers,Couchfire,134.1,165.3,139.7,25.6
+2022,3,regular,Blitzkrieg,Iron City Pounders,105.5,133.6,108.0,25.6
+2021,5,regular,Da Funk,F-Jackie,152.2,198.1,172.7,25.4
+2023,5,regular,Beers,Texas Nashvillians,122.0,150.5,125.1,25.4
+2023,6,regular,Dunbar Dogs,F-Jackie,64.6,92.4,67.0,25.4
+2010,8,regular,Manic Moose,Karpet Munchers,75.0,113.0,88.0,25.0
+2011,10,regular,Beers,Iron City Pounders,78.0,117.0,92.0,25.0
+2012,9,regular,Ho Train,F-Jackie,73.0,108.0,83.0,25.0
+2013,6,regular,Bunchalosers,Iron City Pounders,83.0,125.0,100.0,25.0
+2014,3,regular,Tally Wackers,Texas Nashvillians,86.0,121.0,96.0,25.0
+2016,3,regular,Bunchalosers,F-Jackie,34.0,71.0,46.0,25.0
+2017,3,regular,Beers,F-Jackie,56.0,108.0,83.0,25.0
+2017,13,regular,F-Jackie,Manic Moose,41.0,88.0,63.0,25.0
+2023,14,regular,Beers,Otters,93.7,119.5,94.5,25.0
+2025,10,regular,Scooter's Boozers,Otters,93.5,121.9,96.9,25.0
+2020,5,regular,Otters,Ho Train,99.5,132.9,108.2,24.7
+2018,12,regular,Carter's Commandos,Otters,101.7,147.9,123.4,24.5
+2018,13,regular,Scooter's Boozers,Ho Train,94.9,123.4,99.0,24.4
+2022,3,regular,Ho Train,F-Jackie,128.3,167.8,143.4,24.4
+2020,10,regular,Dunbar Dogs,F-Jackie,126.6,173.0,148.8,24.2
+2025,14,regular,Otters,Beers,87.2,116.1,91.9,24.2
+2024,1,regular,Dunbar Dogs,Carter's Commandos,94.7,144.7,120.6,24.1
+2025,6,regular,Couchfire,Ho Train,100.9,141.7,117.6,24.1
+2009,3,regular,Da Funk,Texas Nashvillians,34.0,79.0,55.0,24.0
+2009,13,regular,F-Jackie,Da Funk,56.0,92.0,68.0,24.0
+2010,4,regular,OakalDoakals,Dunbar Dogs,30.0,90.0,66.0,24.0
+2011,9,regular,Manic Moose,Texas Nashvillians,63.0,89.0,65.0,24.0
+2013,12,regular,Da Funk,Manic Moose,87.0,117.0,93.0,24.0
+2021,8,regular,Dunbar Dogs,Iron City Pounders,75.1,114.9,90.9,24.0
+2022,8,regular,Texas Nashvillians,OakalDoakals,124.2,156.0,132.0,24.0
+2024,7,regular,Tally Wackers,OakalDoakals,90.2,132.2,108.3,23.9
+2023,12,regular,F-Jackie,Manic Moose,108.8,145.8,122.2,23.6
+2022,14,regular,Tally Wackers,Blitzkrieg,110.1,136.7,113.2,23.5
+2023,14,regular,Carter's Commandos,F-Jackie,54.3,121.4,98.0,23.4
+2008,11,regular,Iron City Pounders,Scooter's Boozers,64.0,88.0,65.0,23.0
+2024,10,regular,Dunbar Dogs,Manic Moose,85.0,146.2,123.2,23.0
+2021,1,regular,Ho Train,Karpet Munchers,107.6,153.0,130.1,22.9
+2025,5,regular,F-Jackie,Manic Moose,108.2,136.2,113.5,22.7
+2021,7,regular,Karpet Munchers,Ho Train,104.1,145.8,123.3,22.5
+2022,2,regular,Scooter's Boozers,OakalDoakals,87.0,126.4,103.9,22.5
+2019,11,regular,Blitzkrieg,Tally Wackers,99.1,129.5,107.1,22.4
+2026,6,regular,Beers,Karpet Munchers,78.4,117.3,94.9,22.4
+2024,9,regular,Scooter's Boozers,Manic Moose,107.5,133.0,110.7,22.3
+2008,12,regular,Dunbar Dogs,Carter's Commandos,65.0,93.0,71.0,22.0
+2010,12,regular,Bunchalosers,Texas Nashvillians,64.0,109.0,87.0,22.0
+2010,12,regular,Beers,Scooter's Boozers,88.0,112.0,90.0,22.0
+2014,8,regular,Ho Train,Manic Moose,103.0,135.0,113.0,22.0
+2015,3,regular,Otters,Bunchalosers,56.0,86.0,64.0,22.0
+2017,8,regular,Carter's Commandos,Blitzkrieg,52.0,85.0,63.0,22.0
+2023,4,regular,Karpet Munchers,Otters,114.1,151.4,129.4,22.0
+2026,4,regular,Otters,Karpet Munchers,113.3,161.1,139.1,22.0
+2020,1,regular,Couchfire,Texas Nashvillians,98.0,131.4,109.8,21.6
+2022,2,regular,Iron City Pounders,F-Jackie,111.7,134.8,113.2,21.6
+2024,7,regular,Scooter's Boozers,Texas Nashvillians,92.1,120.0,98.4,21.6
+2019,2,regular,F-Jackie,Beers,122.8,173.4,152.1,21.3
+2009,1,regular,Texas Nashvillians,Bunchalosers,73.0,96.0,75.0,21.0
+2010,7,regular,F-Jackie,Manic Moose,82.0,106.0,85.0,21.0
+2014,7,regular,Beers,Bunchalosers,42.0,90.0,69.0,21.0
+2015,13,regular,Iron City Pounders,Bunchalosers,92.0,122.0,101.0,21.0
+2016,7,regular,Tally Wackers,Beers,114.0,140.0,119.0,21.0
+2017,2,regular,Manic Moose,Beers,56.0,85.0,64.0,21.0
+2017,4,regular,Ho Train,Da Funk,65.0,96.0,75.0,21.0
+2019,3,regular,Iron City Pounders,Carter's Commandos,94.0,124.7,103.7,21.0
+2020,1,regular,Carter's Commandos,OakalDoakals,76.4,106.3,85.3,21.0
+2022,12,regular,Da Funk,F-Jackie,117.0,158.7,138.0,20.7
+2019,7,regular,Karpet Munchers,Iron City Pounders,142.5,199.4,178.8,20.6
+2020,5,regular,Da Funk,F-Jackie,120.4,146.2,125.7,20.5
+2021,8,regular,Otters,Tally Wackers,82.5,112.5,92.0,20.5
+2018,2,regular,F-Jackie,Blitzkrieg,110.1,133.4,113.3,20.1
+2009,8,regular,Beers,Da Funk,50.0,82.0,62.0,20.0
+2010,1,regular,Bunchalosers,Scooter's Boozers,69.0,104.0,84.0,20.0
+2010,13,regular,Manic Moose,Da Funk,79.0,107.0,87.0,20.0
+2011,1,regular,Dunbar Dogs,Carter's Commandos,67.0,107.0,87.0,20.0
+2012,3,regular,Scooter's Boozers,Carter's Commandos,77.0,112.0,92.0,20.0
+2012,12,regular,Manic Moose,Blitzkrieg,110.0,131.0,111.0,20.0
+2014,4,regular,Blitzkrieg,F-Jackie,81.0,108.0,88.0,20.0
+2014,4,regular,Bunchalosers,Scooter's Boozers,73.0,94.0,74.0,20.0
+2015,11,regular,Texas Nashvillians,Karpet Munchers,69.0,94.0,74.0,20.0
+2016,10,regular,OakalDoakals,F-Jackie,109.0,134.0,114.0,20.0
+2019,2,regular,Manic Moose,Scooter's Boozers,83.5,123.3,103.3,20.0
+2021,14,regular,Otters,Texas Nashvillians,120.5,147.9,127.9,20.0
+2018,12,regular,F-Jackie,Dunbar Dogs,116.9,143.6,123.7,19.9
+2022,14,regular,Iron City Pounders,Scooter's Boozers,108.5,150.4,130.5,19.9
+2023,7,regular,Texas Nashvillians,Couchfire,68.7,97.2,77.3,19.9
+2026,2,regular,Iron City Pounders,F-Jackie,109.5,140.8,121.0,19.8
+2020,12,regular,Dunbar Dogs,Carter's Commandos,50.5,81.2,61.7,19.5
+2022,2,regular,Couchfire,Dunbar Dogs,104.4,144.3,124.8,19.5
+2018,7,regular,Otters,Texas Nashvillians,121.3,150.4,131.0,19.4
+2025,4,regular,Couchfire,Scooter's Boozers,105.0,157.0,137.9,19.1
+2010,11,regular,Beers,Iron City Pounders,59.0,87.0,68.0,19.0
+2012,4,regular,Scooter's Boozers,Texas Nashvillians,100.0,123.0,104.0,19.0
+2012,8,regular,Da Funk,Karpet Munchers,93.0,114.0,95.0,19.0
+2012,13,regular,Texas Nashvillians,Scooter's Boozers,53.0,84.0,65.0,19.0
+2017,2,regular,Da Funk,Otters,99.0,137.0,118.0,19.0
+2026,6,regular,Carter's Commandos,Da Funk,80.9,107.0,88.1,18.9
+2024,2,regular,F-Jackie,Texas Nashvillians,59.4,117.3,98.5,18.8
+2021,14,regular,Da Funk,Dunbar Dogs,107.0,128.6,109.9,18.7
+2018,11,regular,Blitzkrieg,Couchfire,115.4,136.4,117.8,18.6
+2024,8,regular,Ho Train,Dunbar Dogs,102.2,121.5,102.9,18.6
+2024,9,regular,Karpet Munchers,Dunbar Dogs,47.7,73.6,55.0,18.6
+2024,8,regular,Manic Moose,Texas Nashvillians,104.6,167.9,149.4,18.5
+2024,5,regular,Blitzkrieg,F-Jackie,124.4,144.4,126.0,18.4
+2024,4,regular,Couchfire,Texas Nashvillians,118.7,138.1,119.8,18.3
+2009,2,regular,F-Jackie,Beers,41.0,63.0,45.0,18.0
+2011,12,regular,Karpet Munchers,Ho Train,62.0,111.0,93.0,18.0
+2015,3,regular,Manic Moose,Ho Train,85.0,119.0,101.0,18.0
+2015,6,regular,Bunchalosers,Ho Train,66.0,85.0,67.0,18.0
+2018,1,regular,OakalDoakals,Carter's Commandos,126.6,175.4,157.4,18.0
+2025,9,regular,Beers,Da Funk,91.2,114.8,96.8,18.0
+2021,3,regular,Blitzkrieg,Texas Nashvillians,85.3,113.9,96.1,17.8
+2025,5,regular,OakalDoakals,Carter's Commandos,91.3,140.6,122.9,17.7
+2025,6,regular,Iron City Pounders,Beers,97.0,135.0,117.4,17.6
+2019,12,regular,Dunbar Dogs,Carter's Commandos,113.9,133.4,115.9,17.5
+2025,2,regular,Blitzkrieg,Beers,97.0,118.1,100.7,17.4
+2021,4,regular,Couchfire,Beers,98.8,144.4,127.2,17.2
+2024,4,regular,Dunbar Dogs,Tally Wackers,118.5,153.2,136.1,17.1
+2009,10,regular,Otters,Beers,84.0,107.0,90.0,17.0
+2010,2,regular,Texas Nashvillians,Dunbar Dogs,40.0,71.0,54.0,17.0
+2010,3,regular,F-Jackie,Ho Train,96.0,149.0,132.0,17.0
+2011,10,regular,Bunchalosers,Karpet Munchers,62.0,105.0,88.0,17.0
+2014,7,regular,Blitzkrieg,Manic Moose,74.0,96.0,79.0,17.0
+2015,4,regular,Blitzkrieg,Scooter's Boozers,74.0,95.0,78.0,17.0
+2015,5,regular,Otters,Carter's Commandos,93.0,113.0,96.0,17.0
+2015,6,regular,Beers,Scooter's Boozers,72.0,113.0,96.0,17.0
+2015,7,regular,Carter's Commandos,Texas Nashvillians,98.0,137.0,120.0,17.0
+2015,8,regular,Dunbar Dogs,Scooter's Boozers,39.0,75.0,58.0,17.0
+2016,2,regular,Texas Nashvillians,Ho Train,100.0,123.0,106.0,17.0
+2017,1,regular,Blitzkrieg,Ho Train,65.0,93.0,76.0,17.0
+2026,6,regular,F-Jackie,Tally Wackers,97.2,116.7,99.8,16.9
+2024,7,regular,Dunbar Dogs,Carter's Commandos,70.6,109.9,93.1,16.8
+2026,1,regular,Dunbar Dogs,Tally Wackers,107.8,141.6,124.8,16.8
+2023,5,regular,OakalDoakals,Dunbar Dogs,118.3,140.6,123.9,16.7
+2020,1,regular,Blitzkrieg,Da Funk,92.5,110.4,93.8,16.6
+2025,2,regular,Karpet Munchers,OakalDoakals,121.9,142.3,125.8,16.5
+2025,4,regular,Dunbar Dogs,Carter's Commandos,106.2,171.5,155.0,16.5
+2024,5,regular,Carter's Commandos,Tally Wackers,87.9,123.8,107.5,16.3
+2022,1,regular,Texas Nashvillians,Scooter's Boozers,88.5,141.1,124.9,16.2
+2008,6,regular,Ho Train,Scooter's Boozers,70.0,103.0,87.0,16.0
+2009,3,regular,Carter's Commandos,Karpet Munchers,48.0,71.0,55.0,16.0
+2010,5,regular,Beers,Scooter's Boozers,39.0,81.0,65.0,16.0
+2012,1,regular,Da Funk,Blitzkrieg,83.0,107.0,91.0,16.0
+2013,1,regular,Da Funk,F-Jackie,60.0,111.0,95.0,16.0
+2014,5,regular,Karpet Munchers,Otters,114.0,141.0,125.0,16.0
+2014,9,regular,Da Funk,Ho Train,83.0,112.0,96.0,16.0
+2016,1,regular,Carter's Commandos,Otters,117.0,167.0,151.0,16.0
+2016,10,regular,Otters,Dunbar Dogs,128.0,160.0,144.0,16.0
+2016,12,regular,Otters,OakalDoakals,83.0,102.0,86.0,16.0
+2017,13,regular,Karpet Munchers,Dunbar Dogs,48.0,123.0,107.0,16.0
+2019,13,regular,Da Funk,F-Jackie,135.8,160.3,144.3,16.0
+2024,6,regular,Dunbar Dogs,F-Jackie,89.8,111.0,95.2,15.8
+2026,7,regular,OakalDoakals,Carter's Commandos,91.7,124.7,109.0,15.7
+2023,4,regular,Beers,Couchfire,119.3,146.4,130.9,15.5
+2024,12,regular,OakalDoakals,Dunbar Dogs,71.6,97.8,82.4,15.4
+2022,3,regular,OakalDoakals,Beers,64.2,101.1,85.8,15.3
+2024,6,regular,OakalDoakals,Manic Moose,39.8,98.6,83.3,15.3
+2010,1,regular,Ho Train,Karpet Munchers,38.0,61.0,46.0,15.0
+2011,4,regular,Beers,Scooter's Boozers,63.0,84.0,69.0,15.0
+2011,5,regular,Scooter's Boozers,Bunchalosers,102.0,131.0,116.0,15.0
+2011,6,regular,Bunchalosers,Ho Train,74.0,96.0,81.0,15.0
+2012,2,regular,Otters,F-Jackie,43.0,107.0,92.0,15.0
+2013,10,regular,Iron City Pounders,Texas Nashvillians,21.0,42.0,27.0,15.0
+2015,8,regular,Da Funk,Karpet Munchers,83.0,99.0,84.0,15.0
+2016,2,regular,Scooter's Boozers,Otters,88.0,117.0,102.0,15.0
+2017,6,regular,Karpet Munchers,Otters,61.0,78.0,63.0,15.0
+2024,3,regular,Manic Moose,Beers,100.2,116.9,101.9,15.0
+2024,1,regular,Blitzkrieg,Manic Moose,51.0,96.2,81.3,14.9
+2024,1,regular,Iron City Pounders,Otters,100.0,121.0,106.5,14.5
+2026,4,regular,Blitzkrieg,Manic Moose,86.6,101.4,86.9,14.5
+2019,3,regular,Beers,Manic Moose,140.7,163.8,149.4,14.4
+2025,1,regular,Texas Nashvillians,Couchfire,97.3,126.4,112.0,14.4
+2025,5,regular,Couchfire,Beers,150.6,172.6,158.2,14.4
+2025,11,regular,Blitzkrieg,OakalDoakals,117.1,137.7,123.3,14.4
+2022,13,regular,OakalDoakals,Tally Wackers,98.4,116.7,102.4,14.3
+2019,12,regular,Texas Nashvillians,Beers,95.1,110.5,96.4,14.1
+2021,1,regular,Da Funk,Manic Moose,131.8,148.3,134.2,14.1
+2009,3,regular,Bunchalosers,F-Jackie,87.0,102.0,88.0,14.0
+2010,1,regular,F-Jackie,Manic Moose,65.0,91.0,77.0,14.0
+2010,3,regular,Carter's Commandos,Scooter's Boozers,51.0,96.0,82.0,14.0
+2010,8,regular,Tally Wackers,Texas Nashvillians,59.0,86.0,72.0,14.0
+2012,1,regular,Bunchalosers,Scooter's Boozers,84.0,139.0,125.0,14.0
+2012,2,regular,Blitzkrieg,Iron City Pounders,99.0,125.0,111.0,14.0
+2013,2,regular,Beers,Blitzkrieg,73.0,114.0,100.0,14.0
+2015,6,regular,F-Jackie,Texas Nashvillians,63.0,100.0,86.0,14.0
+2015,13,regular,Carter's Commandos,OakalDoakals,124.0,146.0,132.0,14.0
+2016,11,regular,Scooter's Boozers,Beers,57.0,72.0,58.0,14.0
+2016,13,regular,Beers,Bunchalosers,87.0,111.0,97.0,14.0
+2017,4,regular,Iron City Pounders,Bunchalosers,53.0,74.0,60.0,14.0
+2017,6,regular,Texas Nashvillians,Manic Moose,65.0,88.0,74.0,14.0
+2017,6,regular,Scooter's Boozers,Beers,76.0,91.0,77.0,14.0
+2018,4,regular,OakalDoakals,Otters,127.0,188.7,174.7,14.0
+2026,2,regular,Carter's Commandos,Scooter's Boozers,76.3,114.0,100.0,14.0
+2024,2,regular,Iron City Pounders,Carter's Commandos,123.4,137.6,123.7,13.9
+2023,5,regular,Da Funk,Blitzkrieg,95.9,111.6,97.8,13.8
+2019,8,regular,Dunbar Dogs,Iron City Pounders,68.6,88.4,74.7,13.7
+2018,8,regular,Iron City Pounders,Texas Nashvillians,70.9,121.6,108.3,13.3
+2018,6,regular,Carter's Commandos,Manic Moose,89.3,118.9,105.8,13.1
+2018,7,regular,F-Jackie,Manic Moose,83.0,113.4,100.3,13.1
+2020,3,regular,Dunbar Dogs,Beers,96.4,139.4,126.3,13.1
+2008,10,regular,Iron City Pounders,Texas Nashvillians,81.0,107.0,94.0,13.0
+2009,4,regular,Karpet Munchers,Otters,60.0,87.0,74.0,13.0
+2009,9,regular,Tally Wackers,Iron City Pounders,111.0,129.0,116.0,13.0
+2012,2,regular,Texas Nashvillians,OakalDoakals,75.0,90.0,77.0,13.0
+2012,2,regular,Manic Moose,Karpet Munchers,69.0,100.0,87.0,13.0
+2012,8,regular,Dunbar Dogs,Texas Nashvillians,64.0,94.0,81.0,13.0
+2013,3,regular,Texas Nashvillians,Blitzkrieg,55.0,74.0,61.0,13.0
+2013,13,regular,Bunchalosers,Texas Nashvillians,109.0,139.0,126.0,13.0
+2014,13,regular,Da Funk,Manic Moose,76.0,113.0,100.0,13.0
+2015,5,regular,Da Funk,Scooter's Boozers,44.0,77.0,64.0,13.0
+2016,3,regular,Iron City Pounders,Manic Moose,85.0,120.0,107.0,13.0
+2016,11,regular,Karpet Munchers,Carter's Commandos,67.0,110.0,97.0,13.0
+2017,5,regular,Manic Moose,Dunbar Dogs,20.0,96.0,83.0,13.0
+2017,5,regular,Blitzkrieg,Da Funk,92.0,107.0,94.0,13.0
+2017,8,regular,Bunchalosers,Dunbar Dogs,42.0,57.0,44.0,13.0
+2022,12,regular,Scooter's Boozers,Couchfire,95.2,132.7,119.7,13.0
+2022,1,regular,Otters,Karpet Munchers,109.1,124.1,111.2,12.9
+2023,5,regular,Ho Train,Karpet Munchers,128.5,143.3,130.6,12.7
+2020,4,regular,F-Jackie,Blitzkrieg,107.6,120.4,107.9,12.5
+2023,12,regular,Ho Train,Karpet Munchers,74.3,92.2,79.7,12.5
+2024,13,regular,Dunbar Dogs,Tally Wackers,137.9,158.5,146.2,12.3
+2024,13,regular,Karpet Munchers,Iron City Pounders,94.9,127.5,115.2,12.3
+2021,8,regular,Blitzkrieg,Beers,65.2,106.5,94.3,12.2
+2022,3,regular,Carter's Commandos,Scooter's Boozers,88.4,122.3,110.1,12.2
+2025,2,regular,F-Jackie,Scooter's Boozers,108.2,121.2,109.1,12.1
+2025,7,regular,Scooter's Boozers,Beers,95.3,117.0,104.9,12.1
+2008,3,regular,Otters,Manic Moose,81.0,98.0,86.0,12.0
+2010,9,regular,Beers,OakalDoakals,63.0,79.0,67.0,12.0
+2011,7,regular,Scooter's Boozers,Texas Nashvillians,38.0,63.0,51.0,12.0
+2012,3,regular,Iron City Pounders,Da Funk,58.0,130.0,118.0,12.0
+2012,12,regular,Beers,Scooter's Boozers,78.0,99.0,87.0,12.0
+2013,1,regular,Bunchalosers,Scooter's Boozers,71.0,96.0,84.0,12.0
+2013,4,regular,Carter's Commandos,Dunbar Dogs,72.0,85.0,73.0,12.0
+2013,6,regular,Otters,Beers,87.0,109.0,97.0,12.0
+2013,8,regular,Scooter's Boozers,Blitzkrieg,69.0,108.0,96.0,12.0
+2013,13,regular,Da Funk,Blitzkrieg,77.0,93.0,81.0,12.0
+2015,3,regular,Texas Nashvillians,Beers,83.0,108.0,96.0,12.0
+2023,5,regular,Scooter's Boozers,Couchfire,90.1,117.2,105.2,12.0
+2022,9,regular,Texas Nashvillians,Tally Wackers,84.3,106.0,94.1,11.9
+2018,9,regular,Da Funk,Manic Moose,101.7,135.3,123.5,11.8
+2024,2,regular,Da Funk,Scooter's Boozers,108.6,136.1,124.3,11.8
+2019,3,regular,F-Jackie,Couchfire,104.0,132.7,121.1,11.6
+2022,14,regular,Texas Nashvillians,Ho Train,76.5,108.7,97.2,11.5
+2019,4,regular,Beers,Couchfire,83.0,103.2,91.8,11.4
+2019,8,regular,Otters,Carter's Commandos,104.1,131.3,119.9,11.4
+2022,11,regular,F-Jackie,Dunbar Dogs,115.3,146.4,135.0,11.4
+2023,6,regular,Iron City Pounders,Scooter's Boozers,79.3,95.8,84.5,11.3
+2020,13,regular,Da Funk,Manic Moose,110.4,141.7,130.5,11.2
+2023,9,regular,Manic Moose,Beers,86.9,120.5,109.3,11.2
+2021,10,regular,Da Funk,Carter's Commandos,86.0,120.0,108.9,11.1
+2025,4,regular,Otters,Karpet Munchers,97.4,116.3,105.2,11.1
+2008,2,regular,Beers,Tally Wackers,84.0,101.0,90.0,11.0
+2008,3,regular,Da Funk,Karpet Munchers,64.0,95.0,84.0,11.0
+2008,10,regular,Bunchalosers,Otters,107.0,122.0,111.0,11.0
+2009,2,regular,Karpet Munchers,Tally Wackers,92.0,127.0,116.0,11.0
+2009,4,regular,OakalDoakals,Dunbar Dogs,76.0,117.0,106.0,11.0
+2011,5,regular,OakalDoakals,Carter's Commandos,90.0,103.0,92.0,11.0
+2011,13,regular,Blitzkrieg,Manic Moose,49.0,109.0,98.0,11.0
+2011,13,regular,Karpet Munchers,Otters,74.0,123.0,112.0,11.0
+2012,2,regular,Carter's Commandos,Bunchalosers,112.0,144.0,133.0,11.0
+2013,10,regular,Karpet Munchers,Scooter's Boozers,84.0,96.0,85.0,11.0
+2015,1,regular,Otters,OakalDoakals,79.0,97.0,86.0,11.0
+2015,9,regular,Texas Nashvillians,Bunchalosers,88.0,105.0,94.0,11.0
+2016,8,regular,Texas Nashvillians,Scooter's Boozers,128.0,140.0,129.0,11.0
+2023,11,regular,OakalDoakals,Manic Moose,127.2,144.2,133.2,11.0
+2023,6,regular,Beers,Karpet Munchers,96.7,109.8,99.0,10.8
+2020,5,regular,Couchfire,Beers,123.5,150.2,139.6,10.6
+2018,2,regular,Ho Train,Dunbar Dogs,136.1,166.4,156.0,10.4
+2020,8,regular,Da Funk,Otters,85.8,120.1,109.7,10.4
+2021,6,regular,Blitzkrieg,Carter's Commandos,86.7,143.6,133.2,10.4
+2018,6,regular,Karpet Munchers,Texas Nashvillians,138.0,150.8,140.5,10.3
+2023,2,regular,Ho Train,OakalDoakals,86.0,122.1,111.9,10.2
+2023,2,regular,Blitzkrieg,Couchfire,117.6,137.1,126.9,10.2
+2025,3,regular,Ho Train,Tally Wackers,83.6,96.3,86.1,10.2
+2018,2,regular,Carter's Commandos,Couchfire,108.7,135.9,125.8,10.1
+2022,14,regular,OakalDoakals,F-Jackie,108.5,130.7,120.6,10.1
+2008,4,regular,Otters,Iron City Pounders,55.0,85.0,75.0,10.0
+2008,9,regular,OakalDoakals,Beers,72.0,83.0,73.0,10.0
+2009,5,regular,Bunchalosers,Scooter's Boozers,34.0,82.0,72.0,10.0
+2009,10,regular,OakalDoakals,Manic Moose,61.0,78.0,68.0,10.0
+2010,10,regular,Blitzkrieg,Dunbar Dogs,81.0,127.0,117.0,10.0
+2011,1,regular,Iron City Pounders,Karpet Munchers,78.0,99.0,89.0,10.0
+2012,6,regular,Carter's Commandos,Blitzkrieg,84.0,96.0,86.0,10.0
+2013,2,regular,Texas Nashvillians,Manic Moose,89.0,103.0,93.0,10.0
+2013,6,regular,Scooter's Boozers,Ho Train,81.0,104.0,94.0,10.0
+2014,8,regular,Da Funk,Otters,81.0,115.0,105.0,10.0
+2014,10,regular,Iron City Pounders,Scooter's Boozers,115.0,133.0,123.0,10.0
+2015,5,regular,Blitzkrieg,Ho Train,113.0,133.0,123.0,10.0
+2015,13,regular,Scooter's Boozers,Blitzkrieg,70.0,95.0,85.0,10.0
+2016,2,regular,Manic Moose,Bunchalosers,57.0,97.0,87.0,10.0
+2016,10,regular,Tally Wackers,Ho Train,40.0,79.0,69.0,10.0
+2016,12,regular,Iron City Pounders,Beers,73.0,104.0,94.0,10.0
+2017,2,regular,Iron City Pounders,Dunbar Dogs,41.0,88.0,78.0,10.0
+2017,9,regular,Texas Nashvillians,Ho Train,77.0,89.0,79.0,10.0
+2020,8,regular,Dunbar Dogs,Couchfire,70.0,84.0,74.1,9.9
+2023,14,regular,Karpet Munchers,Couchfire,79.3,125.6,115.7,9.9
+2018,7,regular,Ho Train,Da Funk,67.3,101.0,91.4,9.6
+2022,13,regular,Karpet Munchers,Iron City Pounders,94.0,115.7,106.2,9.5
+2020,1,regular,Otters,Iron City Pounders,164.2,183.1,173.7,9.4
+2018,9,regular,Carter's Commandos,Iron City Pounders,85.5,97.3,88.2,9.1
+2009,10,regular,Blitzkrieg,Dunbar Dogs,69.0,80.0,71.0,9.0
+2010,3,regular,Iron City Pounders,Da Funk,92.0,104.0,95.0,9.0
+2010,6,regular,Manic Moose,Dunbar Dogs,92.0,126.0,117.0,9.0
+2012,3,regular,OakalDoakals,Beers,57.0,76.0,67.0,9.0
+2012,11,regular,Blitzkrieg,Tally Wackers,42.0,79.0,70.0,9.0
+2013,5,regular,Otters,Ho Train,84.0,97.0,88.0,9.0
+2013,7,regular,Texas Nashvillians,Beers,62.0,88.0,79.0,9.0
+2014,1,regular,Tally Wackers,Dunbar Dogs,116.0,137.0,128.0,9.0
+2014,4,regular,Iron City Pounders,Otters,109.0,121.0,112.0,9.0
+2016,2,regular,F-Jackie,Beers,66.0,78.0,69.0,9.0
+2016,10,regular,Bunchalosers,Blitzkrieg,70.0,80.0,71.0,9.0
+2017,7,regular,OakalDoakals,Carter's Commandos,94.0,140.0,131.0,9.0
+2021,2,regular,Ho Train,Carter's Commandos,109.3,122.6,113.6,9.0
+2019,10,regular,Carter's Commandos,Manic Moose,104.1,119.1,110.2,8.9
+2020,11,regular,Beers,Karpet Munchers,123.9,141.6,132.8,8.8
+2021,6,regular,Beers,Iron City Pounders,125.6,148.6,139.9,8.7
+2021,12,regular,Ho Train,Iron City Pounders,90.3,141.7,133.0,8.7
+2024,4,regular,F-Jackie,Manic Moose,66.0,132.7,124.2,8.5
+2018,11,regular,Scooter's Boozers,Tally Wackers,95.4,111.1,102.7,8.4
+2023,14,regular,Da Funk,OakalDoakals,92.0,112.8,104.5,8.3
+2018,4,regular,Ho Train,Scooter's Boozers,143.5,162.8,154.6,8.2
+2019,11,regular,Dunbar Dogs,F-Jackie,132.5,153.2,145.0,8.2
+2008,6,regular,Iron City Pounders,Bunchalosers,87.0,99.0,91.0,8.0
+2010,2,regular,Blitzkrieg,Ho Train,102.0,130.0,122.0,8.0
+2011,3,regular,Bunchalosers,F-Jackie,73.0,129.0,121.0,8.0
+2012,1,regular,Otters,Karpet Munchers,96.0,119.0,111.0,8.0
+2012,7,regular,Otters,Karpet Munchers,111.0,123.0,115.0,8.0
+2012,9,regular,Carter's Commandos,Texas Nashvillians,40.0,52.0,44.0,8.0
+2012,11,regular,Da Funk,Carter's Commandos,58.0,69.0,61.0,8.0
+2014,10,regular,F-Jackie,Dunbar Dogs,70.0,96.0,88.0,8.0
+2016,7,regular,Karpet Munchers,F-Jackie,65.0,85.0,77.0,8.0
+2016,9,regular,F-Jackie,Iron City Pounders,104.0,114.0,106.0,8.0
+2017,10,regular,Beers,Blitzkrieg,60.0,74.0,66.0,8.0
+2017,11,regular,Tally Wackers,Blitzkrieg,57.0,80.0,72.0,8.0
+2020,13,regular,Tally Wackers,Carter's Commandos,86.3,97.3,89.4,7.9
+2023,9,regular,Carter's Commandos,Iron City Pounders,82.5,91.9,84.2,7.7
+2024,2,regular,OakalDoakals,Karpet Munchers,48.6,63.8,56.2,7.6
+2019,1,regular,Otters,Ho Train,118.8,130.2,122.7,7.5
+2019,9,regular,Beers,Blitzkrieg,87.5,107.9,100.5,7.4
+2024,8,regular,Scooter's Boozers,F-Jackie,95.9,104.2,96.8,7.4
+2018,12,regular,Scooter's Boozers,Da Funk,139.2,149.6,142.4,7.2
+2020,13,regular,Scooter's Boozers,Couchfire,99.9,112.2,105.1,7.1
+2026,6,regular,Otters,Texas Nashvillians,123.1,141.1,134.0,7.1
+2008,1,regular,Blitzkrieg,Da Funk,81.0,96.0,89.0,7.0
+2008,7,regular,Iron City Pounders,Ho Train,109.0,118.0,111.0,7.0
+2008,11,regular,Ho Train,Bunchalosers,62.0,85.0,78.0,7.0
+2009,6,regular,Da Funk,Carter's Commandos,71.0,97.0,90.0,7.0
+2009,9,regular,Da Funk,Scooter's Boozers,58.0,102.0,95.0,7.0
+2010,7,regular,OakalDoakals,Carter's Commandos,60.0,110.0,103.0,7.0
+2010,12,regular,F-Jackie,Da Funk,80.0,94.0,87.0,7.0
+2011,1,regular,Manic Moose,Da Funk,109.0,135.0,128.0,7.0
+2012,1,regular,F-Jackie,Manic Moose,107.0,128.0,121.0,7.0
+2012,12,regular,Da Funk,F-Jackie,78.0,127.0,120.0,7.0
+2013,13,regular,Karpet Munchers,Ho Train,39.0,97.0,90.0,7.0
+2014,1,regular,Carter's Commandos,OakalDoakals,79.0,102.0,95.0,7.0
+2014,1,regular,Texas Nashvillians,Scooter's Boozers,59.0,70.0,63.0,7.0
+2014,7,regular,Carter's Commandos,OakalDoakals,51.0,94.0,87.0,7.0
+2014,11,regular,Otters,Scooter's Boozers,88.0,101.0,94.0,7.0
+2014,12,regular,Karpet Munchers,Otters,51.0,112.0,105.0,7.0
+2015,12,regular,Karpet Munchers,Dunbar Dogs,87.0,97.0,90.0,7.0
+2017,1,regular,Bunchalosers,Beers,66.0,102.0,95.0,7.0
+2018,2,regular,Manic Moose,Scooter's Boozers,86.7,114.5,107.7,6.8
+2022,7,regular,Carter's Commandos,OakalDoakals,81.0,90.7,83.9,6.8
+2019,2,regular,Otters,OakalDoakals,93.7,157.4,150.8,6.6
+2019,9,regular,Couchfire,Manic Moose,94.7,131.6,125.2,6.4
+2020,11,regular,Texas Nashvillians,Iron City Pounders,91.4,101.3,94.9,6.4
+2024,12,regular,Da Funk,Manic Moose,142.2,160.1,153.7,6.4
+2018,4,regular,Beers,Couchfire,121.3,139.6,133.3,6.3
+2019,11,regular,Manic Moose,OakalDoakals,68.9,110.9,104.6,6.3
+2018,1,regular,Iron City Pounders,Beers,107.3,133.0,126.9,6.1
+2025,13,regular,Couchfire,Scooter's Boozers,116.8,146.6,140.5,6.1
+2008,5,regular,Beers,Bunchalosers,87.0,96.0,90.0,6.0
+2008,8,regular,OakalDoakals,Scooter's Boozers,29.0,47.0,41.0,6.0
+2008,9,regular,Texas Nashvillians,Carter's Commandos,30.0,45.0,39.0,6.0
+2010,6,regular,F-Jackie,Tally Wackers,117.0,127.0,121.0,6.0
+2010,10,regular,F-Jackie,OakalDoakals,84.0,122.0,116.0,6.0
+2011,4,regular,Otters,Karpet Munchers,100.0,112.0,106.0,6.0
+2012,10,regular,Iron City Pounders,Beers,29.0,102.0,96.0,6.0
+2012,10,regular,Bunchalosers,Otters,91.0,103.0,97.0,6.0
+2013,11,regular,Bunchalosers,Ho Train,70.0,79.0,73.0,6.0
+2014,3,regular,Iron City Pounders,Manic Moose,91.0,109.0,103.0,6.0
+2015,2,regular,F-Jackie,Da Funk,69.0,113.0,107.0,6.0
+2015,6,regular,Carter's Commandos,Karpet Munchers,88.0,101.0,95.0,6.0
+2016,6,regular,Beers,Blitzkrieg,53.0,80.0,74.0,6.0
+2016,11,regular,Blitzkrieg,Tally Wackers,53.0,62.0,56.0,6.0
+2017,12,regular,Texas Nashvillians,Carter's Commandos,89.0,122.0,116.0,6.0
+2017,12,regular,Beers,Iron City Pounders,43.0,98.0,92.0,6.0
+2022,12,regular,Karpet Munchers,Ho Train,94.9,125.5,119.5,6.0
+2024,3,regular,Carter's Commandos,Karpet Munchers,93.1,103.2,97.3,5.9
+2026,3,regular,Otters,Blitzkrieg,108.5,134.8,128.9,5.9
+2021,4,regular,Iron City Pounders,Karpet Munchers,105.6,132.7,126.9,5.8
+2021,9,regular,F-Jackie,Beers,87.3,96.7,91.0,5.7
+2022,9,regular,OakalDoakals,Couchfire,89.4,100.3,94.6,5.7
+2024,4,regular,Blitzkrieg,Da Funk,88.2,112.6,107.0,5.6
+2024,3,regular,Tally Wackers,Otters,71.4,97.9,92.4,5.5
+2026,4,regular,Ho Train,Iron City Pounders,120.8,139.5,134.0,5.5
+2024,1,regular,Beers,Couchfire,113.9,133.6,128.3,5.3
+2024,1,regular,Texas Nashvillians,Scooter's Boozers,79.8,102.0,96.8,5.2
+2024,11,regular,Scooter's Boozers,Otters,102.8,108.1,102.9,5.2
+2021,7,regular,OakalDoakals,Tally Wackers,55.3,82.3,77.2,5.1
+2008,10,regular,Ho Train,Beers,57.0,71.0,66.0,5.0
+2008,11,regular,Blitzkrieg,Carter's Commandos,62.0,72.0,67.0,5.0
+2009,5,regular,Da Funk,Manic Moose,74.0,84.0,79.0,5.0
+2009,6,regular,Bunchalosers,Otters,60.0,75.0,70.0,5.0
+2009,10,regular,Tally Wackers,Da Funk,38.0,64.0,59.0,5.0
+2010,11,regular,F-Jackie,Dunbar Dogs,137.0,148.0,143.0,5.0
+2012,5,regular,Scooter's Boozers,Beers,53.0,96.0,91.0,5.0
+2013,6,regular,Karpet Munchers,Texas Nashvillians,75.0,100.0,95.0,5.0
+2013,7,regular,Carter's Commandos,Tally Wackers,100.0,125.0,120.0,5.0
+2014,2,regular,Blitzkrieg,Ho Train,52.0,95.0,90.0,5.0
+2014,6,regular,Texas Nashvillians,Otters,90.0,98.0,93.0,5.0
+2014,13,regular,Ho Train,Karpet Munchers,59.0,131.0,126.0,5.0
+2015,2,regular,Karpet Munchers,Blitzkrieg,69.0,79.0,74.0,5.0
+2015,6,regular,Blitzkrieg,Iron City Pounders,67.0,84.0,79.0,5.0
+2015,12,regular,Iron City Pounders,Beers,51.0,103.0,98.0,5.0
+2017,10,regular,Carter's Commandos,Karpet Munchers,68.0,81.0,76.0,5.0
+2026,7,regular,Karpet Munchers,Ho Train,90.1,99.0,94.0,5.0
+2022,4,regular,Carter's Commandos,Dunbar Dogs,94.0,121.5,116.6,4.9
+2023,1,regular,F-Jackie,Da Funk,65.3,99.7,94.9,4.8
+2018,8,regular,OakalDoakals,Couchfire,144.1,151.0,146.3,4.7
+2026,3,regular,F-Jackie,Ho Train,109.6,119.7,115.0,4.7
+2020,1,regular,Manic Moose,F-Jackie,97.6,132.1,127.6,4.5
+2023,4,regular,OakalDoakals,Tally Wackers,86.4,102.7,98.2,4.5
+2018,11,regular,Ho Train,Beers,127.3,187.8,183.4,4.4
+2023,4,regular,Scooter's Boozers,Texas Nashvillians,75.9,107.4,103.0,4.4
+2020,9,regular,F-Jackie,Iron City Pounders,110.1,153.0,148.7,4.3
+2023,8,regular,Carter's Commandos,Ho Train,127.9,151.7,147.4,4.3
+2026,1,regular,OakalDoakals,Carter's Commandos,99.9,133.9,129.6,4.3
+2021,13,regular,Scooter's Boozers,Texas Nashvillians,88.0,97.3,93.1,4.2
+2009,13,regular,Iron City Pounders,Ho Train,109.0,115.0,111.0,4.0
+2010,2,regular,Iron City Pounders,Manic Moose,70.0,86.0,82.0,4.0
+2010,7,regular,Blitzkrieg,Da Funk,72.0,106.0,102.0,4.0
+2014,8,regular,Karpet Munchers,Blitzkrieg,49.0,99.0,95.0,4.0
+2014,12,regular,Dunbar Dogs,Carter's Commandos,29.0,93.0,89.0,4.0
+2015,1,regular,Tally Wackers,Iron City Pounders,115.0,123.0,119.0,4.0
+2017,3,regular,Tally Wackers,Dunbar Dogs,79.0,101.0,97.0,4.0
+2017,4,regular,Otters,Carter's Commandos,118.0,158.0,154.0,4.0
+2017,10,regular,Manic Moose,OakalDoakals,78.0,96.0,92.0,4.0
+2017,13,regular,Beers,Tally Wackers,41.0,52.0,48.0,4.0
+2025,13,regular,Dunbar Dogs,Carter's Commandos,89.1,117.3,113.3,4.0
+2018,3,regular,Couchfire,Texas Nashvillians,77.9,93.5,89.8,3.7
+2021,13,regular,Da Funk,Blitzkrieg,93.9,117.5,113.8,3.7
+2024,10,regular,F-Jackie,Tally Wackers,83.7,97.0,93.4,3.6
+2026,1,regular,Couchfire,Texas Nashvillians,84.3,105.6,102.0,3.6
+2023,5,regular,Carter's Commandos,Tally Wackers,72.9,76.8,73.3,3.5
+2025,10,regular,Carter's Commandos,Blitzkrieg,101.4,142.6,139.1,3.5
+2022,6,regular,Texas Nashvillians,Karpet Munchers,109.2,123.3,120.0,3.3
+2019,10,regular,Scooter's Boozers,Karpet Munchers,87.7,97.0,93.9,3.1
+2008,3,regular,F-Jackie,Iron City Pounders,66.0,81.0,78.0,3.0
+2008,5,regular,Blitzkrieg,Manic Moose,48.0,56.0,53.0,3.0
+2010,13,regular,Bunchalosers,Beers,80.0,91.0,88.0,3.0
+2013,13,regular,Scooter's Boozers,Beers,62.0,68.0,65.0,3.0
+2014,1,regular,Ho Train,Otters,55.0,96.0,93.0,3.0
+2014,3,regular,Bunchalosers,OakalDoakals,84.0,92.0,89.0,3.0
+2015,1,regular,Blitzkrieg,Da Funk,81.0,106.0,103.0,3.0
+2016,1,regular,Karpet Munchers,F-Jackie,71.0,120.0,117.0,3.0
+2016,2,regular,Karpet Munchers,Tally Wackers,101.0,125.0,122.0,3.0
+2016,3,regular,Tally Wackers,Dunbar Dogs,69.0,100.0,97.0,3.0
+2017,2,regular,Scooter's Boozers,Texas Nashvillians,114.0,120.0,117.0,3.0
+2017,6,regular,Carter's Commandos,F-Jackie,61.0,69.0,66.0,3.0
+2022,3,regular,Couchfire,Tally Wackers,79.3,85.8,82.8,3.0
+2022,5,regular,Manic Moose,Blitzkrieg,78.0,86.0,83.0,3.0
+2018,10,regular,Scooter's Boozers,Beers,109.6,129.3,126.4,2.9
+2022,5,regular,Beers,Texas Nashvillians,118.7,138.8,135.9,2.9
+2019,8,regular,Tally Wackers,Karpet Munchers,120.2,139.9,137.1,2.8
+2020,12,regular,F-Jackie,Da Funk,170.7,177.7,174.9,2.8
+2021,1,regular,Carter's Commandos,Dunbar Dogs,122.5,130.2,127.4,2.8
+2022,13,regular,Texas Nashvillians,Couchfire,94.9,113.8,111.1,2.7
+2026,3,regular,Karpet Munchers,Da Funk,78.1,93.0,90.3,2.7
+2024,11,regular,Blitzkrieg,OakalDoakals,84.2,109.2,106.6,2.6
+2021,8,regular,Couchfire,F-Jackie,91.4,103.2,100.7,2.5
+2024,12,regular,Karpet Munchers,Otters,85.3,93.1,90.8,2.3
+2018,8,regular,Ho Train,Karpet Munchers,108.6,121.8,119.6,2.2
+2025,3,regular,Beers,F-Jackie,119.8,133.8,131.6,2.2
+2009,13,regular,Otters,Karpet Munchers,62.0,99.0,97.0,2.0
+2010,2,regular,Bunchalosers,Carter's Commandos,79.0,82.0,80.0,2.0
+2010,4,regular,Otters,Ho Train,57.0,63.0,61.0,2.0
+2010,5,regular,Carter's Commandos,Dunbar Dogs,76.0,82.0,80.0,2.0
+2011,5,regular,Texas Nashvillians,Beers,98.0,113.0,111.0,2.0
+2012,2,regular,Dunbar Dogs,Beers,61.0,86.0,84.0,2.0
+2012,5,regular,Iron City Pounders,Karpet Munchers,84.0,87.0,85.0,2.0
+2012,6,regular,Tally Wackers,Da Funk,41.0,63.0,61.0,2.0
+2013,4,regular,Otters,Iron City Pounders,85.0,103.0,101.0,2.0
+2013,12,regular,Scooter's Boozers,Texas Nashvillians,56.0,104.0,102.0,2.0
+2014,6,regular,Iron City Pounders,Bunchalosers,82.0,86.0,84.0,2.0
+2014,9,regular,Iron City Pounders,Blitzkrieg,54.0,68.0,66.0,2.0
+2015,11,regular,Tally Wackers,Blitzkrieg,87.0,93.0,91.0,2.0
+2016,8,regular,F-Jackie,Tally Wackers,75.0,84.0,82.0,2.0
+2016,9,regular,Beers,Dunbar Dogs,60.0,66.0,64.0,2.0
+2017,4,regular,Dunbar Dogs,Karpet Munchers,63.0,87.0,85.0,2.0
+2022,1,regular,Carter's Commandos,OakalDoakals,69.3,94.8,92.9,1.9
+2024,4,regular,Carter's Commandos,OakalDoakals,77.9,89.1,87.2,1.9
+2018,3,regular,Iron City Pounders,OakalDoakals,78.4,83.5,81.8,1.7
+2019,13,regular,Texas Nashvillians,Scooter's Boozers,86.2,114.6,113.0,1.6
+2026,1,regular,Blitzkrieg,Da Funk,145.9,154.3,152.7,1.6
+2021,11,regular,Blitzkrieg,Dunbar Dogs,56.3,90.8,89.3,1.5
+2019,9,regular,Dunbar Dogs,Karpet Munchers,107.2,109.1,107.7,1.4
+2021,2,regular,Karpet Munchers,Dunbar Dogs,114.7,146.3,145.2,1.1
+2023,13,regular,Couchfire,Beers,125.1,144.7,143.6,1.1
+2026,6,regular,Dunbar Dogs,Manic Moose,107.0,121.8,120.7,1.1
+2008,7,regular,F-Jackie,Manic Moose,50.0,54.0,53.0,1.0
+2008,9,regular,Dunbar Dogs,Scooter's Boozers,66.0,89.0,88.0,1.0
+2009,2,regular,Ho Train,Dunbar Dogs,128.0,156.0,155.0,1.0
+2009,3,regular,Dunbar Dogs,Iron City Pounders,98.0,118.0,117.0,1.0
+2009,8,regular,OakalDoakals,Ho Train,37.0,46.0,45.0,1.0
+2011,10,regular,Scooter's Boozers,Ho Train,17.0,67.0,66.0,1.0
+2011,13,regular,Scooter's Boozers,Beers,51.0,77.0,76.0,1.0
+2012,2,regular,Da Funk,Ho Train,46.0,97.0,96.0,1.0
+2012,4,regular,Iron City Pounders,Otters,106.0,123.0,122.0,1.0
+2012,6,regular,OakalDoakals,F-Jackie,85.0,118.0,117.0,1.0
+2012,9,regular,Blitzkrieg,Karpet Munchers,80.0,101.0,100.0,1.0
+2014,3,regular,Dunbar Dogs,Beers,51.0,83.0,82.0,1.0
+2015,1,regular,Scooter's Boozers,Ho Train,78.0,102.0,101.0,1.0
+2016,3,regular,Otters,Ho Train,68.0,82.0,81.0,1.0
+2016,3,regular,OakalDoakals,Blitzkrieg,104.0,119.0,118.0,1.0
+2016,10,regular,Texas Nashvillians,Karpet Munchers,84.0,115.0,114.0,1.0
+2016,11,regular,Otters,F-Jackie,67.0,72.0,71.0,1.0
+2017,8,regular,Manic Moose,Tally Wackers,95.0,102.0,101.0,1.0
+2017,9,regular,Dunbar Dogs,Beers,61.0,66.0,65.0,1.0
+2023,13,regular,Dunbar Dogs,Carter's Commandos,57.3,82.9,81.9,1.0
+2021,5,regular,OakalDoakals,Dunbar Dogs,158.0,159.1,158.2,0.9
+2023,2,regular,Texas Nashvillians,Manic Moose,94.4,124.7,123.8,0.9
+2021,10,regular,Couchfire,Otters,96.8,100.6,99.9,0.7
+2026,2,regular,Beers,OakalDoakals,120.3,133.0,132.3,0.7
+2026,3,regular,Iron City Pounders,Manic Moose,89.6,122.7,122.0,0.7
+2024,13,regular,OakalDoakals,Carter's Commandos,78.2,96.3,95.7,0.6
+2024,7,regular,Ho Train,Karpet Munchers,103.8,110.2,109.7,0.5
+2023,1,regular,Otters,Ho Train,67.7,107.1,106.7,0.4
+2018,5,regular,Manic Moose,Karpet Munchers,139.6,141.7,141.4,0.3
+2022,11,regular,Carter's Commandos,Da Funk,98.4,106.1,105.9,0.2
+2025,4,regular,Tally Wackers,OakalDoakals,114.6,131.3,131.1,0.2
+2025,5,regular,Ho Train,Karpet Munchers,109.8,115.1,114.9,0.2
+2018,4,regular,Da Funk,Blitzkrieg,114.3,135.6,135.5,0.1
+2022,11,regular,Manic Moose,Tally Wackers,94.4,100.5,100.4,0.1

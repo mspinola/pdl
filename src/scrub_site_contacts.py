@@ -11,6 +11,11 @@ the league pages. It left three things this one handles:
    "Email to Entire League" menu links. MyFantasyLeague's own addresses stay.
 3. Owner first names in prose ("Thanks <name>!") and owner labels in brackets
    after a team name, as the 2002 waiver page writes them.
+4. The 2000 to 2002 transaction pages, which name each team by its owner's
+   label in a preformatted list ("5.   <label>   Release   <player>"). Each
+   label becomes its team, from private/legacy_site/transaction_labels.json,
+   which was resolved with scrub_owners.py's own matching and checked against
+   the 2001 and 2002 schedules' "Team -- Owner" pairs (16 of 16 agree).
 
 Names come from private/owners.json, so this file names nobody. ffl/ is left
 alone, as before.
@@ -113,6 +118,27 @@ def redact_text(body, bare, paren, allowed, alt, counts):
     return "".join(done)
 
 
+# "5.   <label>   Release", and the variants "2    <label>   Trade" (no period)
+# and "2.   <label> Waiver - Acquire" (one space)
+ROW = re.compile(r"^(\s*\d+\.?\s+)(\S+(?: [A-Z](?=\s))?)(\s+)(?=Release|Acquire|Waiver|Trade|Free)", re.M)
+
+
+def relabel_rows(rel, body, counts):
+    """Owner labels in a transaction page's rows become team names."""
+    path = f"{BASE}/private/legacy_site/transaction_labels.json"
+    labels = json.load(open(path)).get(rel) if os.path.exists(path) else None
+    if not labels:
+        return body
+
+    def repl(m):
+        team = labels.get(m.group(2))
+        if not team:
+            return m.group(0)
+        counts["row"] = counts.get("row", 0) + 1
+        return m.group(1) + team.ljust(20) + "  "   # the longest team name is 18 characters
+    return ROW.sub(repl, body)
+
+
 def main(site, apply):
     n = names()
     bare, paren, allowed, alt = patterns(n)
@@ -123,7 +149,7 @@ def main(site, apply):
             continue
         body = open(path, encoding="utf-8", errors="surrogateescape").read()
         counts = {}
-        new = redact_text(strip_contacts(body, counts), bare, paren, allowed, alt, counts)
+        new = redact_text(relabel_rows(rel, strip_contacts(body, counts), counts), bare, paren, allowed, alt, counts)
         if new != body:
             changed[rel] = counts
             for k, v in counts.items():

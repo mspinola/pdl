@@ -188,6 +188,21 @@ prefix match now needs four characters.
 `raw/` is gitignored. It is the superseded working cache, and it once held
 unscrubbed copies of the legacy pages.
 
+## Analyses
+
+| Report | Script | What it answers |
+|---|---|---|
+| [docs/transactions.md](docs/transactions.md) | `src/transactions.py`, then `src/transactions_analysis.py` | who works the waiver wire: claims, free agent pickups, timing, streaming, and the points pickups scored, 2000 on |
+| [docs/lineups-and-luck.md](docs/lineups-and-luck.md) | `src/lineups_luck.py` | points left on the bench and games lost to the lineup (2008 on), and schedule luck against an all-play record (2000 on) |
+| [docs/got-away.md](docs/got-away.md) | `src/got_away.py` | players dropped who went on to start for someone else |
+| [docs/draft-value.md](docs/draft-value.md) | `src/draft_value.py` | what each pick gave the team that made it over three seasons, by round, slot and owner (2008 on) |
+| `analysis.txt`, `h2h_report.txt` | `src/analyze.py`, `src/h2h.py` | trading behaviour, head-to-head records |
+
+The lineup-based ones read `mfl_archive/<season>/weeks/`, every week's lineups
+and scores, through `src/weekly.py`. Value is measured against the average
+starter at the player's position that season, so positions and the eras either
+side of the 2018 scoring change compare.
+
 ## The rule book
 
 Online at <https://mspinola.github.io/pdl/>, rebuilt on every push.

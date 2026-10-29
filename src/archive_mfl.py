@@ -22,7 +22,7 @@ What MFL will not give up, and so is not here: the message board, the league
 calendar and polls all require a logged-in commissioner. If that history
 matters it has to be saved from the site by hand while the league still exists.
 """
-import hashlib, json, os, shutil, sys, time, urllib.parse, urllib.request
+import hashlib, json, os, shutil, sys, time, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -44,6 +44,8 @@ KINDS = {
     "draft_results": {"TYPE": "draftResults"},
     "future_draft_picks": {"TYPE": "futureDraftPicks"},
     "player_scores": {"TYPE": "playerScores"},
+    # MFL answers W=ALL with week 1 only, so weekly_results.json is week 1, and
+    # every week is captured on its own under weeks/ (capture_weeks below)
     "weekly_results": {"TYPE": "weeklyResults", "W": "ALL"},
     "rules": {"TYPE": "rules"},
     "players": {"TYPE": "players", "DETAILS": 0},
@@ -109,6 +111,62 @@ def capture(year, lid, kind, params, force=False):
     return ("error" if note else "fetched"), note
 
 
+def capture_weeks(year, lid, force=False):
+    """Every week's lineups and scores: weeks/weekly_results_wNN.json.
+
+    The weeks are the ones the season's schedule lists. A week with no matchups
+    yet (later weeks of the season in progress) is skipped, so a re-run with
+    --season fills it in once it is played.
+    """
+    sched = f"{ARCHIVE}/{year}/schedule.json"
+    if not os.path.exists(sched):
+        return {}, []
+    weeks = json.load(open(sched)).get("schedule", {}).get("weeklySchedule", [])
+    weeks = weeks if isinstance(weeks, list) else [weeks]
+    out_dir = f"{ARCHIVE}/{year}/weeks"
+    tally, notes = {}, []
+    for w in weeks:
+        m = w.get("matchup")
+        if not m or not any(isinstance(x, dict) and x.get("franchise") for x in (m if isinstance(m, list) else [m])):
+            continue
+        week = int(w["week"])
+        played = any(f.get("score") not in (None, "", "0") for x in (m if isinstance(m, list) else [m])
+                     for f in (x.get("franchise") or []) if isinstance(f, dict))
+        if not played:
+            continue
+        dest = f"{out_dir}/weekly_results_w{week:02d}.json"
+        if os.path.exists(dest) and os.path.getsize(dest) > 2 and not force:
+            tally["have"] = tally.get("have", 0) + 1
+            continue
+        os.makedirs(out_dir, exist_ok=True)
+        body, err = None, None
+        for attempt in range(6):
+            try:
+                body, _ = fetch(year, {"TYPE": "weeklyResults", "W": week, "L": lid, "JSON": 1})
+                json.loads(body)
+                break
+            except urllib.error.HTTPError as e:
+                err = str(e)
+                if e.code != 429:
+                    break
+                # MFL rate-limits bursts: wait as long as it asks, or back off
+                wait = int(e.headers.get("Retry-After") or 0) or 20 * (attempt + 1)
+                time.sleep(min(wait, 180))
+                body = None
+            except Exception as e:  # noqa: BLE001
+                err, body = str(e), None
+                break
+        if body is None:
+            notes.append((year, f"week {week}", err))
+            tally["failed"] = tally.get("failed", 0) + 1
+            continue
+        with open(dest, "w") as f:
+            f.write(body)
+        tally["fetched"] = tally.get("fetched", 0) + 1
+        time.sleep(2.5)
+    return tally, notes
+
+
 # The league's own pages, which are the only source for the seasons MFL has
 # nothing for. These matter more than the MFL half: the spinola.co copies MFL
 # links to are already gone. The whole legacy site lives in the mspinola/mspinola
@@ -141,6 +199,9 @@ LEGACY = [
     # rule book as Word exported it in 2004.
     "setup/changes.html",
     "pdl2002/setup/changes2002.html",
+    # every add and drop before MFL kept a transaction log (it starts in 2008)
+    "pdl2000/trans.html", "pdl2001/trans.html", "pdl2002/trans.html", "pdl2003/trans.html",
+    "pdl2004/trans.html", "pdl2005/trans.html", "pdl2006/trans.html", "pdl2007/trans.html",
     "setup/PDL_Rules.htm",
 ]
 
@@ -179,7 +240,7 @@ def capture_legacy(force=False):
             continue
         open(dest, "w", encoding="utf-8").write(body)
         tally["fetched"] = tally.get("fetched", 0) + 1
-        time.sleep(0.8)
+        time.sleep(2.5)
     return tally, notes
 
 
@@ -268,6 +329,11 @@ def main(force=False, only=None):
             marks.append(f"{kind}:{state[0]}")
             if note:
                 notes.append((year, kind, state, note))
+        wtally, wnotes = capture_weeks(year, lid, force=refresh)
+        for k, v in wtally.items():
+            tally[f"week {k}"] = tally.get(f"week {k}", 0) + v
+        notes += [(y, k, "failed", n) for y, k, n in wnotes]
+        marks.append(f"weeks:{sum(wtally.values())}")
         print(f"  {year}  " + " ".join(marks))
 
     manifest = {
@@ -285,12 +351,13 @@ def main(force=False, only=None):
         if not os.path.isdir(d):
             continue
         files = {}
-        for name in sorted(os.listdir(d)):
-            p = f"{d}/{name}"
-            size = os.path.getsize(p)
-            total += size
-            files[name] = {"bytes": size, "sha256": sha256(p)}
-        manifest["seasons"][str(year)] = {"league_id": LEAGUES[year], "files": files}
+        for root, _, names in os.walk(d):
+            for name in names:
+                p = f"{root}/{name}"
+                size = os.path.getsize(p)
+                total += size
+                files[os.path.relpath(p, d)] = {"bytes": size, "sha256": sha256(p)}
+        manifest["seasons"][str(year)] = {"league_id": LEAGUES[year], "files": dict(sorted(files.items()))}
     legacy_dir = f"{ARCHIVE}/legacy"
     if os.path.isdir(legacy_dir):
         files = {}
