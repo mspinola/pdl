@@ -133,9 +133,10 @@ values in data tables stay authoritative. Team names only, as everywhere.
   snaps back. About 20 lines of plain JavaScript.
 
 **The running moose.** A redesign of the animated GIF from twenty years of
-league-wide emails: `site/assets/manic-moose.svg`, drawn for the site. Angry
-brow, darting eye, palmate antlers, steam from the nostril, a stars-and-stripes
-saddle cloth for America's Team, galloping legs, speed lines and dust. Pure SVG
+league-wide emails: `site/assets/manic-moose.svg`, drawn for the site. A
+lowered, charging head with a glowing red eye under a heavy brow, a muscled
+dark hide over a big shoulder hump, the bell under the throat, wide palmate
+antlers, flared steaming nostrils, long galloping legs and kicked-up dust. Pure SVG
 and CSS, so it is sharp at any size, has no licensing question, and stops
 moving for readers who ask their system for reduced motion.
 
