@@ -930,6 +930,16 @@
      ]
     }
    ]
+  },
+  "2026-website": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "1.2",
+     "find": "The league website is located at http://www.andrew.cmu.edu/user/mspinola.",
+     "to": "The league website is located at https://mspinola.github.io/pdl/."
+    }
+   ]
   }
  },
  "mfl_known_differences": [

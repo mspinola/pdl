@@ -2,9 +2,55 @@
  "source": "Outcomes confirmed by the commissioner where the written record left them unsettled.",
  "note": "Each entry settles a question the emails, polls and board did not. Dated by when it was confirmed, not when it was decided.",
  "entries": [
-  {"meeting": 2019, "topic": "draft", "proposal": "A draft clock of 2 minutes a pick, with one 2-minute timeout per team.", "outcome": "failed", "source": {"kind": "commissioner", "date": "2026-10-29"}},
-  {"meeting": 2021, "topic": "retainments", "proposal": "Buy up to 3 extra retainment slots a season at $25 each.", "outcome": "failed", "source": {"kind": "commissioner", "date": "2026-10-29"}},
-  {"meeting": 2023, "topic": "tiebreaker", "proposal": "For a tie of three or more teams, seed the top team, then restart the tiebreak for the next seed.", "outcome": "passed", "source": {"kind": "commissioner", "date": "2026-10-29"}},
-  {"meeting": 2026, "topic": "administration", "proposal": "The last-place team organizes the next summer meeting, rotating each year.", "outcome": "passed", "source": {"kind": "commissioner", "date": "2026-10-29"}}
+  {
+   "meeting": 2019,
+   "topic": "draft",
+   "proposal": "A draft clock of 2 minutes a pick, with one 2-minute timeout per team.",
+   "outcome": "failed",
+   "source": {
+    "kind": "commissioner",
+    "date": "2026-10-29"
+   }
+  },
+  {
+   "meeting": 2021,
+   "topic": "retainments",
+   "proposal": "Buy up to 3 extra retainment slots a season at $25 each.",
+   "outcome": "failed",
+   "source": {
+    "kind": "commissioner",
+    "date": "2026-10-29"
+   }
+  },
+  {
+   "meeting": 2023,
+   "topic": "tiebreaker",
+   "proposal": "For a tie of three or more teams, seed the top team, then restart the tiebreak for the next seed.",
+   "outcome": "passed",
+   "source": {
+    "kind": "commissioner",
+    "date": "2026-10-29"
+   }
+  },
+  {
+   "meeting": 2026,
+   "topic": "administration",
+   "proposal": "The last-place team organizes the next summer meeting, rotating each year.",
+   "outcome": "passed",
+   "source": {
+    "kind": "commissioner",
+    "date": "2026-10-29"
+   }
+  },
+  {
+   "meeting": 2026,
+   "topic": "administration",
+   "proposal": "The league website moves from the old university address to the GitHub site, https://mspinola.github.io/pdl/.",
+   "outcome": "passed",
+   "source": {
+    "kind": "commissioner",
+    "date": "2026-10-29"
+   }
+  }
  ]
 }

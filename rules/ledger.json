@@ -892,6 +892,23 @@
      "match": "last-place team organizes"
     }
    ]
+  },
+  {
+   "id": "2026-website",
+   "meeting": 2026,
+   "effective": 2026,
+   "status": "adopted",
+   "sections": [
+    "1.2"
+   ],
+   "change": "The league website is the GitHub site, https://mspinola.github.io/pdl/, replacing the old university address.",
+   "sources": [
+    {
+     "file": "commissioner",
+     "meeting": 2026,
+     "match": "league website moves"
+    }
+   ]
   }
  ]
 }
