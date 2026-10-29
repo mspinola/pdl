@@ -49,8 +49,8 @@ fills these.
 
 ### Steps
 
-Steps 1 to 4 are done. What they found, and how to re-run them, is in
-[rulebook/README.md](rulebook/README.md).
+Steps 1 to 7 are done, except putting the pages online. What they found, and
+how to re-run them, is in [rulebook/README.md](rulebook/README.md).
 
 1. **Settle the baseline edition.** *(Done: the 2006 edition.)* Diff the 2004, 2006 and older editions
    section by section, and check which of the changes recorded as passed (2002
@@ -255,7 +255,7 @@ These go to the league to confirm, rather than further searching.
 
 ## Tasks
 
-- [ ] **Create the new rule book**: an HTML rule book built from the baseline
+- [x] **Create the new rule book**: an HTML rule book built from the baseline
       edition, with each year's changes from `changes.html` layered in, and the
       gaps filled from email (steps 1 to 7 above)
 - [x] Email pass: 39 entries for the 2018 to 2026 meetings in

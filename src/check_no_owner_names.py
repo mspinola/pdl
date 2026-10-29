@@ -60,7 +60,8 @@ ALLOWED = re.compile(r"\b(?:Carter's Commandos|Scooter's Boozers)\b")
 
 def tracked_files():
     out = []
-    for pattern in ("mfl_archive/**/*", "datasets/*", "*.json", "*.md", "src/*"):
+    for pattern in ("mfl_archive/**/*", "datasets/*", "*.json", "*.md", "src/*", "rules/**/*", "docs/**/*",
+                    "site/**/*"):
         for p in glob.glob(f"{BASE}/{pattern}", recursive=True):
             if os.path.isfile(p) and "/raw/" not in p and "__pycache__" not in p:
                 out.append(p)
@@ -68,7 +69,7 @@ def tracked_files():
 
 
 # where a bare first name would be prose rather than a player list
-PROSE = re.compile(r"^(mfl_archive/legacy/.*\.html?|.*\.md|docs/.*|rules/.*|src/.*\.py)$")
+PROSE = re.compile(r"^(mfl_archive/legacy/.*\.html?|.*\.md|docs/.*|rules/.*|src/.*\.py|site/.*\.(?:py|html|css))$")
 
 
 def private_name_check():

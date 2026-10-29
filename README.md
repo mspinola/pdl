@@ -197,6 +197,9 @@ See [docs/rulebook/README.md](docs/rulebook/README.md).
 python3 src/rulebook_editions.py   # which edition is the baseline
 python3 src/rulebook_baseline.py   # rules/baseline.json, checked against the PDF
 python3 src/rulebook_ledger.py     # rules/ledger.json, checked against rules/sources/
+python3 src/rulebook_build.py      # rules/amendments.json applied, season by season
+python3 src/rulebook_mfl_check.py  # the layered book against what MFL ran
+python3 site/build.py              # the rule book pages, in site/dist/
 ```
 
 ## Pipeline

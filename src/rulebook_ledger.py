@@ -13,7 +13,7 @@ import json, os, sys
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RULES = f"{BASE}/rules"
 SOURCE_FILES = {"changes_html": "entries", "email": "entries", "message_board": "entries", "polls": "polls",
-                "commissioner": "entries"}
+                "commissioner": "entries", "drive": "entries"}
 STATUSES = {"adopted", "in practice", "one season", "open"}
 
 
@@ -58,6 +58,9 @@ def cite(ref, entry):
 
 def check(ledger, baseline, src):
     ids = {s["id"] for s in baseline["sections"]}
+    # sections a change adds, such as 2.4 Toilet Bowl, count too
+    for ch in load("amendments.json")["changes"].values():
+        ids |= {op["id"] for op in ch["ops"] if op["op"] == "add_section"}
     problems, seen = [], set()
     for c in ledger["changes"]:
         if c["id"] in seen:
@@ -86,6 +89,8 @@ def check(ledger, baseline, src):
 
 def report(ledger, baseline, src):
     titles = {s["id"]: s["title"] for s in baseline["sections"]}
+    for ch in load("amendments.json")["changes"].values():
+        titles.update({op["id"]: op["title"] for op in ch["ops"] if op["op"] == "add_section"})
     by_section = {}
     for c in ledger["changes"]:
         for s in c["sections"]:

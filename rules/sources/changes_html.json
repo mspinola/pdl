@@ -1,91 +1,488 @@
 {
  "source": "The legacy site's rule-change page, pdl/setup/changes.html and pdl/pdl2002/setup/changes2002.html, archived as mfl_archive/legacy/setup_changes.html and pdl2002_setup_changes2002.html.",
  "note": "Paraphrased, one entry per proposal, 2002 to 2017. The page also covers 2018 to 2023, but those meetings are recorded from the announcement emails and the polls (email.json, polls.json), which say the same and more. Proposals were often quoted from owners' emails; only the substance is kept here. Meetings to 2006 are already in the 2006 rule book, which is how its date is confirmed (in_baseline).",
- "coverage": {"meetings": [2002, 2003, 2004, 2005, 2006, 2007, 2008, 2010, 2011, 2012, 2013, 2014, 2015], "no_changes": [2009], "empty": [2016, 2017]},
+ "coverage": {
+  "meetings": [
+   2002,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015
+  ],
+  "no_changes": [
+   2009
+  ],
+  "empty": [
+   2016,
+   2017
+  ]
+ },
  "entries": [
-  {"meeting": 2002, "topic": "waivers", "proposal": "Every pickup drops the claiming owner's waiver priority, not only contested claims.", "outcome": "passed", "in_baseline": "7.2"},
-  {"meeting": 2002, "topic": "waivers", "proposal": "Allow free agent pickups after the Friday morning waiver deadline.", "outcome": "failed"},
-  {"meeting": 2002, "topic": "retainments", "proposal": "Change the TE retainment values.", "outcome": "failed"},
-  {"meeting": 2002, "topic": "retainments", "proposal": "Base retainment values on stats through week 13 instead of week 17.", "outcome": "passed as week 16", "in_baseline": "4.3"},
-  {"meeting": 2002, "topic": "scoring", "proposal": "1 point per 10 yards rushing and receiving, 1 per 20 yards passing.", "outcome": "failed"},
-  {"meeting": 2002, "topic": "scoring", "proposal": "Eliminate double-point touchdowns.", "outcome": "failed"},
-  {"meeting": 2002, "topic": "scoring", "proposal": "Make all touchdowns worth 6 points.", "outcome": "failed"},
-  {"meeting": 2002, "topic": "transactions", "proposal": "Move the no-transaction period from NFL week 17 through the Pro Bowl to NFL weeks 14 through 17.", "outcome": "failed"},
-  {"meeting": 2002, "topic": "tiebreaker", "proposal": "Remove items 3 and 4 from the playoff tie-breaking list.", "outcome": "passed", "in_baseline": "6.2", "note": "The list was not renumbered, which is why the 2006 book reads 1, 2, 5."},
-  {"meeting": 2002, "topic": "trades", "proposal": "Trade protests: the board is to vote on the philosophy of the league when the commissioner raises a trade for veto.", "outcome": "clarified", "in_baseline": "10.5"},
-  {"meeting": 2002, "topic": "trades", "proposal": "Limit trades of future picks to one draft ahead instead of two.", "outcome": "passed", "in_baseline": "7.1"},
-  {"meeting": 2002, "topic": "governance", "proposal": "An owner contesting a commissioner's decision is responsible for contacting the Governing Board.", "outcome": "passed", "in_baseline": "10.1"},
-
-  {"meeting": 2003, "topic": "draft", "proposal": "A draft lottery for the non-playoff teams, the last-place team getting 8 entries down to 1 for the eighth-worst, from the 2004 draft.", "outcome": "passed", "note": "Repealed at the 2004 meeting."},
-  {"meeting": 2003, "topic": "finance", "proposal": "Raise the $25 entry fee enough to deter tanking.", "outcome": "failed"},
-  {"meeting": 2003, "topic": "retainments", "proposal": "The top 3 TEs, not the top 5, cost 2 retainment slots.", "outcome": "passed from after the 2003 season", "in_baseline": "4.3"},
-  {"meeting": 2003, "topic": "roster", "proposal": "Carry 2 kickers and 2 defenses all season.", "outcome": "passed as modified: a roster must always hold a full starting lineup", "in_baseline": "4.1"},
-  {"meeting": 2003, "topic": "waivers", "proposal": "Allow a pickup between Friday and Sunday.", "outcome": "deferred to the move to an online stats site"},
-
-  {"meeting": 2004, "topic": "tiebreaker", "proposal": "No ties: a tied game goes to the team with the highest-scoring individual player or defense, then the next highest, and so on.", "outcome": "passed", "in_baseline": "6.1"},
-  {"meeting": 2004, "topic": "tiebreaker", "proposal": "A tiebreaker for the Super Bowl, using the same method.", "outcome": "passed", "in_baseline": "6.1"},
-  {"meeting": 2004, "topic": "waivers", "proposal": "Allow free agent pickups after the Friday morning waiver deadline.", "outcome": "failed"},
-  {"meeting": 2004, "topic": "draft", "proposal": "Soften the lottery so the last-place team falls no lower than third or fourth.", "outcome": "failed"},
-  {"meeting": 2004, "topic": "draft", "proposal": "Remove the draft lottery and handle tanking instead by complaint to the commissioner, a Governing Board hearing, and moving a tanking owner's first-round pick to last in the round (the second-round pick for a second offence, and so on).", "outcome": "passed", "in_baseline": "3.2, 10.8"},
-  {"meeting": 2004, "topic": "finance", "proposal": "Entry fee for 2004.", "outcome": "$50"},
-
-  {"meeting": 2005, "topic": "divisions", "proposal": "Realignment.", "outcome": "failed"},
-  {"meeting": 2005, "topic": "finance", "proposal": "Entry fee for 2005.", "outcome": "$50"},
-  {"meeting": 2005, "topic": "draft", "proposal": "Each owner submits the dates between July 4 and the NFL season they cannot draft, with the retainments by July 4, from 2006.", "outcome": "passed", "in_baseline": "3.4"},
-  {"meeting": 2005, "topic": "finance", "proposal": "Payout: $25 to each playoff team, then 75% to the winner and 25% to the runner-up.", "outcome": "set", "in_baseline": "1.5"},
-  {"meeting": 2005, "topic": "governance", "proposal": "The Governing Board is the last 5 champions, a repeat champion's seat going to the most recent champion not already on it.", "outcome": "passed", "in_baseline": "9.2"},
-
-  {"meeting": 2006, "topic": "finance", "proposal": "A team playing an unpaid, forfeiting team plays against the league average for the week instead of winning outright.", "outcome": "passed", "in_baseline": "1.6"},
-  {"meeting": 2006, "topic": "retainments", "proposal": "Cut retainment slots from 12 to 10.", "outcome": "failed"},
-  {"meeting": 2006, "topic": "retainments", "proposal": "Retaining a top-3 player costs the first-round pick.", "outcome": "failed"},
-  {"meeting": 2006, "topic": "trades", "proposal": "Allow conditional draft picks, the conditions recorded on the trade history page.", "outcome": "passed", "in_baseline": "7.1"},
-  {"meeting": 2006, "topic": "trophy", "proposal": "The new champion collects the trophy from the previous one and pays for the engraving.", "outcome": "passed", "in_baseline": "1.1"},
-  {"meeting": 2006, "topic": "finance", "proposal": "Entry fee $60, covering website fees, engraving, and draft food and drink.", "outcome": "passed", "in_baseline": "1.6"},
-
-  {"meeting": 2007, "topic": "waivers", "proposal": "In a week with a Thursday game, process waivers on Thursday morning as well as Friday; a player cut on Thursday is not available until the following week.", "outcome": "not recorded"},
-
-  {"meeting": 2008, "topic": "retainments", "proposal": "Rank QBs, RBs and WRs together for retainment values, with 15 players at 3 slots and 40 at 2.", "outcome": "failed"},
-  {"meeting": 2008, "topic": "roster", "proposal": "Reduce rosters to 17.", "outcome": "failed"},
-  {"meeting": 2008, "topic": "lineups", "proposal": "Close the Thursday-game loophole: a player's lineup status freezes when his game kicks off, so an owner cannot wait to see Thursday's results before deciding whether to submit a lineup.", "outcome": "passed"},
-  {"meeting": 2008, "topic": "retainments", "proposal": "Players tied for a retainment level all take the higher level, so a level can hold more than its nominal count.", "outcome": "passed"},
-  {"meeting": 2008, "topic": "retainments", "proposal": "The top 2 players at any position cost 4 slots.", "outcome": "failed"},
-  {"meeting": 2008, "topic": "retainments", "proposal": "Lower the number of retainment slots.", "outcome": "failed"},
-  {"meeting": 2008, "topic": "transactions", "proposal": "The no-trade period runs from the week 10 trade deadline to the end of the PDL Super Bowl, instead of to the NFL Pro Bowl.", "outcome": "passed"},
-  {"meeting": 2008, "topic": "waivers", "proposal": "After the weekly waiver run, every player not just dropped is a free agent, first come first served, until his game starts, when he goes back on waivers.", "outcome": "passed"},
-
-  {"meeting": 2010, "topic": "scoring", "proposal": "1 point per 10 yards rushing and receiving for RBs, WRs and TEs.", "outcome": "passed as modified: QBs 1 point per 10 yards passing from 200 yards, RBs and WRs 1 point per 10 yards rushing or receiving from 50 yards, TEs unchanged"},
-
-  {"meeting": 2011, "topic": "retainments", "proposal": "The NFL lockout: retainments postponed until at least a week after the lockout ends.", "outcome": "one season only"},
-  {"meeting": 2011, "topic": "scoring", "proposal": "Change double points.", "outcome": "no change"},
-  {"meeting": 2011, "topic": "tiebreaker", "proposal": "Change the playoff tiebreaker.", "outcome": "no change, narrowly"},
-  {"meeting": 2011, "topic": "scoring", "proposal": "Change yardage points.", "outcome": "no change"},
-  {"meeting": 2011, "topic": "trades", "proposal": "Move the trade deadline from the end of week 10 to the end of week 12.", "outcome": "passed"},
-  {"meeting": 2011, "topic": "retainments", "proposal": "Change retainments.", "outcome": "no change"},
-  {"meeting": 2011, "topic": "roster", "proposal": "Change roster size.", "outcome": "no change"},
-  {"meeting": 2011, "topic": "finance", "proposal": "Entry fee.", "outcome": "$50"},
-  {"meeting": 2011, "topic": "finance", "proposal": "Stop paying $25 to each playoff team: 75% to the winner, 25% to second.", "outcome": "passed"},
-  {"meeting": 2011, "topic": "trophy", "proposal": "Add face plates to the back of the trophy rather than buy a new one.", "outcome": "agreed"},
-
-  {"meeting": 2012, "topic": "retainments", "proposal": "Retainments due two weeks before the draft instead of July 4, effective immediately.", "outcome": "passed"},
-  {"meeting": 2012, "topic": "draft", "proposal": "Draft availability still due July 4, and the commissioner picks the draft date then.", "outcome": "kept"},
-  {"meeting": 2012, "topic": "divisions", "proposal": "Realignment.", "outcome": "discussed, not voted"},
-
-  {"meeting": 2013, "topic": "draft", "proposal": "Sealed bids of a future draft round for players taken in the NFL supplemental draft.", "outcome": "failed as unnecessary"},
-  {"meeting": 2013, "topic": "waivers", "proposal": "Keep a picked-up player on the roster at least a week, so an owner cannot lock the pool by adding and dropping.", "outcome": "favoured, but the site could not enforce it, so no change"},
-  {"meeting": 2013, "topic": "roster", "proposal": "Injured reserve.", "outcome": "failed"},
-  {"meeting": 2013, "topic": "schedule", "proposal": "Scheduling changes.", "outcome": "failed"},
-  {"meeting": 2013, "topic": "schedule", "proposal": "Scrap divisions and conferences for a 14-team top flight that plays everyone once, an 8-team reseeded playoff, two teams relegated to a second flight each year, and a lottery for the non-playoff draft picks.", "outcome": "a hoax", "note": "Labelled a hoax on the page itself, though written up as passed 3 to 2. MFL shows it never ran: the 2014 season still has 16 franchises in 4 divisions with the alignment unchanged since 2007."},
-
-  {"meeting": 2014, "topic": "lineups", "proposal": "Fill a missing lineup from a ratings site's projections instead of copying the previous week.", "outcome": "failed"},
-  {"meeting": 2014, "topic": "roster", "proposal": "Injured reserve.", "outcome": "failed"},
-  {"meeting": 2014, "topic": "trophy", "proposal": "Order blank name plates, at about $2 an owner.", "outcome": "agreed"},
-  {"meeting": 2014, "topic": "tiebreaker", "proposal": "Head-to-head result first for a two-team tie (skipped when three or more are tied), then points, then a coin toss.", "outcome": "passed"},
-  {"meeting": 2014, "topic": "schedule", "proposal": "A balanced schedule.", "outcome": "failed in favour of realignment"},
-  {"meeting": 2014, "topic": "divisions", "proposal": "Realign from 2015 and every 5 years after: each owner draws a division from a hat at the time of his original first-round pick, at the 2014 draft.", "outcome": "passed", "evidence": "MFL's divisions change for 2015, the first change since at least 2007, when the archive's division data begins."},
-  {"meeting": 2014, "topic": "draft", "proposal": "Anti-tanking: the eight non-playoff teams draft in order of potential points (the season total with the optimal lineup each week), not record.", "outcome": "passed"},
-  {"meeting": 2014, "topic": "playoffs", "proposal": "A toilet bowl: the bottom 8 play a bracket in weeks 14 to 16, and the winner's next entry fee is paid by the other owners at $4 each.", "outcome": "passed"},
-  {"meeting": 2014, "topic": "finance", "proposal": "Entry fee.", "outcome": "$50 plus $5 website and $2 trophy plates, with food collected at the draft"},
-
-  {"meeting": 2015, "topic": "finance", "proposal": "Entry fee.", "outcome": "$50 plus $5 website, $2 trophy plates and $4 toilet bowl, with food collected at the draft"}
+  {
+   "meeting": 2002,
+   "topic": "waivers",
+   "proposal": "Every pickup drops the claiming owner's waiver priority, not only contested claims.",
+   "outcome": "passed",
+   "in_baseline": "7.2"
+  },
+  {
+   "meeting": 2002,
+   "topic": "waivers",
+   "proposal": "Allow free agent pickups after the Friday morning waiver deadline.",
+   "outcome": "failed"
+  },
+  {
+   "meeting": 2002,
+   "topic": "retainments",
+   "proposal": "Change the TE retainment values.",
+   "outcome": "failed"
+  },
+  {
+   "meeting": 2002,
+   "topic": "retainments",
+   "proposal": "Base retainment values on stats through week 13 instead of week 17.",
+   "outcome": "passed as week 16",
+   "in_baseline": "4.3"
+  },
+  {
+   "meeting": 2002,
+   "topic": "scoring",
+   "proposal": "1 point per 10 yards rushing and receiving, 1 per 20 yards passing.",
+   "outcome": "failed"
+  },
+  {
+   "meeting": 2002,
+   "topic": "scoring",
+   "proposal": "Eliminate double-point touchdowns.",
+   "outcome": "failed"
+  },
+  {
+   "meeting": 2002,
+   "topic": "scoring",
+   "proposal": "Make all touchdowns worth 6 points.",
+   "outcome": "failed"
+  },
+  {
+   "meeting": 2002,
+   "topic": "transactions",
+   "proposal": "Move the no-transaction period from NFL week 17 through the Pro Bowl to NFL weeks 14 through 17.",
+   "outcome": "failed"
+  },
+  {
+   "meeting": 2002,
+   "topic": "tiebreaker",
+   "proposal": "Remove items 3 and 4 from the playoff tie-breaking list.",
+   "outcome": "passed",
+   "in_baseline": "6.2",
+   "note": "The list was not renumbered, which is why the 2006 book reads 1, 2, 5."
+  },
+  {
+   "meeting": 2002,
+   "topic": "trades",
+   "proposal": "Trade protests: the board is to vote on the philosophy of the league when the commissioner raises a trade for veto.",
+   "outcome": "clarified",
+   "in_baseline": "10.5"
+  },
+  {
+   "meeting": 2002,
+   "topic": "trades",
+   "proposal": "Limit trades of future picks to one draft ahead instead of two.",
+   "outcome": "passed",
+   "in_baseline": "7.1"
+  },
+  {
+   "meeting": 2002,
+   "topic": "governance",
+   "proposal": "An owner contesting a commissioner's decision is responsible for contacting the Governing Board.",
+   "outcome": "passed",
+   "in_baseline": "10.1"
+  },
+  {
+   "meeting": 2003,
+   "topic": "draft",
+   "proposal": "A draft lottery for the non-playoff teams, the last-place team getting 8 entries down to 1 for the eighth-worst, from the 2004 draft.",
+   "outcome": "passed",
+   "note": "Repealed at the 2004 meeting."
+  },
+  {
+   "meeting": 2003,
+   "topic": "finance",
+   "proposal": "Raise the $25 entry fee enough to deter tanking.",
+   "outcome": "failed"
+  },
+  {
+   "meeting": 2003,
+   "topic": "retainments",
+   "proposal": "The top 3 TEs, not the top 5, cost 2 retainment slots.",
+   "outcome": "passed from after the 2003 season",
+   "in_baseline": "4.3"
+  },
+  {
+   "meeting": 2003,
+   "topic": "roster",
+   "proposal": "Carry 2 kickers and 2 defenses all season.",
+   "outcome": "passed as modified: a roster must always hold a full starting lineup",
+   "in_baseline": "4.1"
+  },
+  {
+   "meeting": 2003,
+   "topic": "waivers",
+   "proposal": "Allow a pickup between Friday and Sunday.",
+   "outcome": "deferred to the move to an online stats site"
+  },
+  {
+   "meeting": 2004,
+   "topic": "tiebreaker",
+   "proposal": "No ties: a tied game goes to the team with the highest-scoring individual player or defense, then the next highest, and so on.",
+   "outcome": "passed",
+   "in_baseline": "6.1"
+  },
+  {
+   "meeting": 2004,
+   "topic": "tiebreaker",
+   "proposal": "A tiebreaker for the Super Bowl, using the same method.",
+   "outcome": "passed",
+   "in_baseline": "6.1"
+  },
+  {
+   "meeting": 2004,
+   "topic": "waivers",
+   "proposal": "Allow free agent pickups after the Friday morning waiver deadline.",
+   "outcome": "failed"
+  },
+  {
+   "meeting": 2004,
+   "topic": "draft",
+   "proposal": "Soften the lottery so the last-place team falls no lower than third or fourth.",
+   "outcome": "failed"
+  },
+  {
+   "meeting": 2004,
+   "topic": "draft",
+   "proposal": "Remove the draft lottery and handle tanking instead by complaint to the commissioner, a Governing Board hearing, and moving a tanking owner's first-round pick to last in the round (the second-round pick for a second offence, and so on).",
+   "outcome": "passed",
+   "in_baseline": "3.2, 10.8"
+  },
+  {
+   "meeting": 2004,
+   "topic": "finance",
+   "proposal": "Entry fee for 2004.",
+   "outcome": "$50"
+  },
+  {
+   "meeting": 2005,
+   "topic": "divisions",
+   "proposal": "Realignment.",
+   "outcome": "failed"
+  },
+  {
+   "meeting": 2005,
+   "topic": "finance",
+   "proposal": "Entry fee for 2005.",
+   "outcome": "$50"
+  },
+  {
+   "meeting": 2005,
+   "topic": "draft",
+   "proposal": "Each owner submits the dates between July 4 and the NFL season they cannot draft, with the retainments by July 4, from 2006.",
+   "outcome": "passed",
+   "in_baseline": "3.4"
+  },
+  {
+   "meeting": 2005,
+   "topic": "finance",
+   "proposal": "Payout: $25 to each playoff team, then 75% to the winner and 25% to the runner-up.",
+   "outcome": "set",
+   "in_baseline": "1.5"
+  },
+  {
+   "meeting": 2005,
+   "topic": "governance",
+   "proposal": "The Governing Board is the last 5 champions, a repeat champion's seat going to the most recent champion not already on it.",
+   "outcome": "passed",
+   "in_baseline": "9.2"
+  },
+  {
+   "meeting": 2006,
+   "topic": "finance",
+   "proposal": "A team playing an unpaid, forfeiting team plays against the league average for the week instead of winning outright.",
+   "outcome": "passed",
+   "in_baseline": "1.6"
+  },
+  {
+   "meeting": 2006,
+   "topic": "retainments",
+   "proposal": "Cut retainment slots from 12 to 10.",
+   "outcome": "failed"
+  },
+  {
+   "meeting": 2006,
+   "topic": "retainments",
+   "proposal": "Retaining a top-3 player costs the first-round pick.",
+   "outcome": "failed"
+  },
+  {
+   "meeting": 2006,
+   "topic": "trades",
+   "proposal": "Allow conditional draft picks, the conditions recorded on the trade history page.",
+   "outcome": "passed",
+   "in_baseline": "7.1"
+  },
+  {
+   "meeting": 2006,
+   "topic": "trophy",
+   "proposal": "The new champion collects the trophy from the previous one and pays for the engraving.",
+   "outcome": "passed",
+   "in_baseline": "1.1"
+  },
+  {
+   "meeting": 2006,
+   "topic": "finance",
+   "proposal": "Entry fee $60, covering website fees, engraving, and draft food and drink.",
+   "outcome": "passed",
+   "in_baseline": "1.6"
+  },
+  {
+   "meeting": 2007,
+   "topic": "waivers",
+   "proposal": "In a week with a Thursday game, process waivers on Thursday morning as well as Friday; a player cut on Thursday is not available until the following week.",
+   "outcome": "not recorded"
+  },
+  {
+   "meeting": 2008,
+   "topic": "retainments",
+   "proposal": "Rank QBs, RBs and WRs together for retainment values, with 15 players at 3 slots and 40 at 2.",
+   "outcome": "failed"
+  },
+  {
+   "meeting": 2008,
+   "topic": "roster",
+   "proposal": "Reduce rosters to 17.",
+   "outcome": "failed"
+  },
+  {
+   "meeting": 2008,
+   "topic": "lineups",
+   "proposal": "Close the Thursday-game loophole: a player's lineup status freezes when his game kicks off, so an owner cannot wait to see Thursday's results before deciding whether to submit a lineup.",
+   "outcome": "passed"
+  },
+  {
+   "meeting": 2008,
+   "topic": "retainments",
+   "proposal": "Players tied for a retainment level all take the higher level, so a level can hold more than its nominal count.",
+   "outcome": "passed"
+  },
+  {
+   "meeting": 2008,
+   "topic": "retainments",
+   "proposal": "The top 2 players at any position cost 4 slots.",
+   "outcome": "failed"
+  },
+  {
+   "meeting": 2008,
+   "topic": "retainments",
+   "proposal": "Lower the number of retainment slots.",
+   "outcome": "failed"
+  },
+  {
+   "meeting": 2008,
+   "topic": "transactions",
+   "proposal": "The no-trade period runs from the week 10 trade deadline to the end of the PDL Super Bowl, instead of to the NFL Pro Bowl.",
+   "outcome": "passed"
+  },
+  {
+   "meeting": 2008,
+   "topic": "waivers",
+   "proposal": "After the weekly waiver run, every player not just dropped is a free agent, first come first served, until his game starts, when he goes back on waivers.",
+   "outcome": "passed"
+  },
+  {
+   "meeting": 2010,
+   "topic": "scoring",
+   "proposal": "1 point per 10 yards rushing and receiving for RBs, WRs and TEs.",
+   "outcome": "passed as modified: QBs 1 point per 10 yards passing from 200 yards, RBs and WRs 1 point per 10 yards rushing or receiving from 50 yards, TEs unchanged"
+  },
+  {
+   "meeting": 2011,
+   "topic": "retainments",
+   "proposal": "The NFL lockout: retainments postponed until at least a week after the lockout ends.",
+   "outcome": "one season only"
+  },
+  {
+   "meeting": 2011,
+   "topic": "scoring",
+   "proposal": "Eliminate or reduce double points for out-of-position scoring, such as an RB's receiving or a QB's rushing.",
+   "outcome": "no change",
+   "detail_from": "the 2011 agenda (drive.json)"
+  },
+  {
+   "meeting": 2011,
+   "topic": "tiebreaker",
+   "proposal": "Reorder the playoff tiebreak to put record against the tied teams first, then overall points, then a coin flip.",
+   "outcome": "no change, narrowly",
+   "detail_from": "the 2011 agenda (drive.json)"
+  },
+  {
+   "meeting": 2011,
+   "topic": "scoring",
+   "proposal": "Yardage at 1 point per 10 yards for RBs, WRs and TEs, and 1 per 25 passing yards for QBs.",
+   "outcome": "no change",
+   "detail_from": "the 2011 agenda (drive.json)"
+  },
+  {
+   "meeting": 2011,
+   "topic": "trades",
+   "proposal": "Move the trade deadline from the end of week 10 to the end of week 12.",
+   "outcome": "passed"
+  },
+  {
+   "meeting": 2011,
+   "topic": "retainments",
+   "proposal": "Lower the number of retainment slots, so that more players reach the draft.",
+   "outcome": "no change",
+   "detail_from": "the 2011 agenda (drive.json)"
+  },
+  {
+   "meeting": 2011,
+   "topic": "roster",
+   "proposal": "Change roster size.",
+   "outcome": "no change"
+  },
+  {
+   "meeting": 2011,
+   "topic": "finance",
+   "proposal": "Entry fee.",
+   "outcome": "$50"
+  },
+  {
+   "meeting": 2011,
+   "topic": "finance",
+   "proposal": "Stop paying $25 to each playoff team: 75% to the winner, 25% to second.",
+   "outcome": "passed"
+  },
+  {
+   "meeting": 2011,
+   "topic": "trophy",
+   "proposal": "Add face plates to the back of the trophy rather than buy a new one.",
+   "outcome": "agreed"
+  },
+  {
+   "meeting": 2012,
+   "topic": "retainments",
+   "proposal": "Retainments due two weeks before the draft instead of July 4, effective immediately.",
+   "outcome": "passed"
+  },
+  {
+   "meeting": 2012,
+   "topic": "draft",
+   "proposal": "Draft availability still due July 4, and the commissioner picks the draft date then.",
+   "outcome": "kept"
+  },
+  {
+   "meeting": 2012,
+   "topic": "divisions",
+   "proposal": "Realignment.",
+   "outcome": "discussed, not voted"
+  },
+  {
+   "meeting": 2013,
+   "topic": "draft",
+   "proposal": "Sealed bids of a future draft round for players taken in the NFL supplemental draft.",
+   "outcome": "failed as unnecessary"
+  },
+  {
+   "meeting": 2013,
+   "topic": "waivers",
+   "proposal": "Keep a picked-up player on the roster at least a week, so an owner cannot lock the pool by adding and dropping.",
+   "outcome": "favoured, but the site could not enforce it, so no change"
+  },
+  {
+   "meeting": 2013,
+   "topic": "roster",
+   "proposal": "Injured reserve.",
+   "outcome": "failed"
+  },
+  {
+   "meeting": 2013,
+   "topic": "schedule",
+   "proposal": "Scheduling changes.",
+   "outcome": "failed"
+  },
+  {
+   "meeting": 2013,
+   "topic": "schedule",
+   "proposal": "Scrap divisions and conferences for a 14-team top flight that plays everyone once, an 8-team reseeded playoff, two teams relegated to a second flight each year, and a lottery for the non-playoff draft picks.",
+   "outcome": "a hoax",
+   "note": "Labelled a hoax on the page itself, though written up as passed 3 to 2. MFL shows it never ran: the 2014 season still has 16 franchises in 4 divisions with the alignment unchanged since 2007."
+  },
+  {
+   "meeting": 2014,
+   "topic": "lineups",
+   "proposal": "Fill a missing lineup from a ratings site's projections instead of copying the previous week.",
+   "outcome": "failed"
+  },
+  {
+   "meeting": 2014,
+   "topic": "roster",
+   "proposal": "Injured reserve.",
+   "outcome": "failed"
+  },
+  {
+   "meeting": 2014,
+   "topic": "trophy",
+   "proposal": "Order blank name plates, at about $2 an owner.",
+   "outcome": "agreed"
+  },
+  {
+   "meeting": 2014,
+   "topic": "tiebreaker",
+   "proposal": "Head-to-head result first for a two-team tie (skipped when three or more are tied), then points, then a coin toss.",
+   "outcome": "passed"
+  },
+  {
+   "meeting": 2014,
+   "topic": "schedule",
+   "proposal": "A balanced schedule.",
+   "outcome": "failed in favour of realignment"
+  },
+  {
+   "meeting": 2014,
+   "topic": "divisions",
+   "proposal": "Realign from 2015 and every 5 years after: each owner draws a division from a hat at the time of his original first-round pick, at the 2014 draft.",
+   "outcome": "passed",
+   "evidence": "MFL's divisions change for 2015, the first change since at least 2007, when the archive's division data begins."
+  },
+  {
+   "meeting": 2014,
+   "topic": "draft",
+   "proposal": "Anti-tanking: the eight non-playoff teams draft in order of potential points (the season total with the optimal lineup each week), not record.",
+   "outcome": "passed"
+  },
+  {
+   "meeting": 2014,
+   "topic": "playoffs",
+   "proposal": "A toilet bowl: the bottom 8 play a bracket in weeks 14 to 16, and the winner's next entry fee is paid by the other owners at $4 each.",
+   "outcome": "passed"
+  },
+  {
+   "meeting": 2014,
+   "topic": "finance",
+   "proposal": "Entry fee.",
+   "outcome": "$50 plus $5 website and $2 trophy plates, with food collected at the draft"
+  },
+  {
+   "meeting": 2015,
+   "topic": "finance",
+   "proposal": "Entry fee.",
+   "outcome": "$50 plus $5 website, $2 trophy plates and $4 toilet bowl, with food collected at the draft"
+  }
  ]
 }

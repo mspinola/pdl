@@ -1,0 +1,114 @@
+:root {
+  --bg: #fbfaf7; --surface: #ffffff; --ink: #1d1f22; --ink-2: #4b5058; --ink-3: #747a83;
+  --rule: #e4e1da; --accent: #6b3d1f; --accent-soft: #f3ebe3; --mark: #2f5d50; --mark-soft: #e6f0ec;
+  --warn: #8a5a00; --warn-soft: #fbf1dc; --open: #7a3b5c; --open-soft: #f6e9f0;
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #16171a; --surface: #1d1f23; --ink: #e8e6e1; --ink-2: #b7b4ad; --ink-3: #8c8a85;
+    --rule: #33353a; --accent: #e0a47a; --accent-soft: #2c231d; --mark: #8cc7b4; --mark-soft: #1c2a26;
+    --warn: #e3b866; --warn-soft: #2b2416; --open: #e1a3c4; --open-soft: #2c1f27;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #16171a; --surface: #1d1f23; --ink: #e8e6e1; --ink-2: #b7b4ad; --ink-3: #8c8a85;
+  --rule: #33353a; --accent: #e0a47a; --accent-soft: #2c231d; --mark: #8cc7b4; --mark-soft: #1c2a26;
+  --warn: #e3b866; --warn-soft: #2b2416; --open: #e1a3c4; --open-soft: #2c1f27;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 var(--serif); }
+a { color: var(--accent); text-underline-offset: 2px; }
+.masthead { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;
+  padding: .8rem 16px; border-bottom: 1px solid var(--rule); font-family: var(--sans); font-size: .9rem; }
+.brand { font-weight: 650; color: var(--ink); text-decoration: none; letter-spacing: .01em; }
+.masthead nav { display: flex; gap: 1.2rem; }
+.masthead nav a { color: var(--ink-2); text-decoration: none; }
+.masthead nav a:hover { color: var(--accent); }
+main { max-width: 72rem; margin: 0 auto; padding: 0 16px 4rem; }
+h1 { font-size: 2.1rem; line-height: 1.2; margin: 2.2rem 0 .6rem; font-weight: 600; }
+.lede { color: var(--ink-2); max-width: 44rem; margin: 0 0 1.4rem; }
+.foot { max-width: 72rem; margin: 0 auto; padding: 1.5rem 16px 3rem; border-top: 1px solid var(--rule);
+  color: var(--ink-3); font: .82rem/1.5 var(--sans); }
+
+/* the book */
+.book { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 3rem; }
+.book > h1, .book > .lede, .book > .seasonbar { grid-column: 1 / -1; }
+@media (min-width: 960px) {
+  .book { grid-template-columns: 15rem minmax(0, 44rem); }
+  .toc { position: sticky; top: 1rem; align-self: start; max-height: calc(100vh - 2rem); overflow: auto; }
+}
+.seasonbar { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; padding: .7rem .9rem;
+  background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; margin-bottom: 1.6rem;
+  font: .88rem var(--sans); }
+.seasonbar label { color: var(--ink-2); }
+.seasonbar select, .seasonbar button { font: inherit; color: var(--ink); background: var(--bg);
+  border: 1px solid var(--rule); border-radius: 6px; padding: .25rem .5rem; cursor: pointer; }
+.seasonbar .pn a { margin-right: .4rem; }
+.seasonbar button { margin-left: auto; }
+.toc h2 { font: 600 .78rem var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); margin: 0 0 .5rem; }
+.toc ol { list-style: none; padding: 0; margin: 0 0 1.5rem; font: .9rem/1.4 var(--sans); }
+.toc li { margin: .3rem 0; }
+.toc a { color: var(--ink-2); text-decoration: none; }
+.toc a:hover { color: var(--accent); }
+.rule { scroll-margin-top: 1rem; }
+.rule h2 { font-size: 1.45rem; margin: 2.4rem 0 .4rem; padding-top: 1rem; border-top: 1px solid var(--rule); font-weight: 600; }
+.rule h3 { font-size: 1.12rem; margin: 1.6rem 0 .3rem; font-weight: 600; }
+.rule h4 { font: 600 .95rem var(--sans); margin: 1rem 0 .2rem; color: var(--ink-2); }
+.rule p, .rule li { max-width: 44rem; }
+.num { color: var(--ink-3); font-family: var(--sans); font-weight: 500; font-size: .85em; margin-right: .3rem; }
+.changed { font: 500 .72rem var(--sans); color: var(--mark); background: var(--mark-soft); border-radius: 99px;
+  padding: .1rem .55rem; margin-left: .4rem; vertical-align: .15em; white-space: nowrap; }
+.changed a { color: inherit; }
+.note { font: .88rem/1.5 var(--sans); border-left: 3px solid var(--warn); background: var(--warn-soft);
+  padding: .55rem .8rem; margin: .8rem 0; border-radius: 0 6px 6px 0; max-width: 44rem; }
+.note-open { border-color: var(--open); background: var(--open-soft); }
+.note-in-practice { border-color: var(--mark); background: var(--mark-soft); }
+.history { font: .85rem/1.5 var(--sans); color: var(--ink-2); margin: .6rem 0 0; max-width: 44rem; }
+.history summary { cursor: pointer; color: var(--ink-3); }
+.history ul { margin: .4rem 0 0; padding-left: 1.1rem; }
+.table-wrap { overflow-x: auto; margin: .8rem 0 1.2rem; }
+table.scoring { border-collapse: collapse; font: .86rem/1.35 var(--sans); width: 100%; min-width: 30rem; background: var(--surface); }
+.scoring td { width: 9%; }
+.scoring th, .scoring td { padding: .35rem .6rem; border-bottom: 1px solid var(--rule); text-align: center; }
+.scoring thead th { font-weight: 650; border-bottom: 2px solid var(--ink-3); }
+.scoring thead th:first-child, .scoring tbody th { text-align: left; font-weight: 500; }
+.scoring tr.group th { font-weight: 650; color: var(--ink-2); background: var(--bg); padding-top: .6rem; }
+.scoring td.na { color: var(--ink-3); }
+
+/* the timeline */
+.timeline { max-width: 50rem; }
+.years { display: flex; flex-wrap: wrap; gap: .3rem .8rem; font: .85rem var(--sans); margin-bottom: 1rem; }
+.meeting h2 { font-size: 1.4rem; margin: 2.2rem 0 .3rem; padding-top: 1rem; border-top: 1px solid var(--rule); font-weight: 600; scroll-margin-top: 1rem; }
+.meeting h3 { font: 600 .8rem var(--sans); text-transform: uppercase; letter-spacing: .07em; color: var(--ink-3); margin: 1.2rem 0 .4rem; }
+.meeting ul { padding-left: 1.1rem; }
+.meeting li { margin: .55rem 0; }
+.changes li { scroll-margin-top: 1rem; }
+.changes li:target { background: var(--accent-soft); outline: 6px solid var(--accent-soft); border-radius: 2px; }
+.status { font: 600 .72rem var(--sans); text-transform: uppercase; letter-spacing: .05em; color: var(--mark);
+  background: var(--mark-soft); border-radius: 4px; padding: .1rem .4rem; margin-right: .3rem; }
+.status-one-season { color: var(--warn); background: var(--warn-soft); }
+.status-open { color: var(--open); background: var(--open-soft); }
+.meta, .evidence, .where, .outcome { font: .82rem/1.5 var(--sans); color: var(--ink-3); }
+.meta, .evidence { margin: .25rem 0 0; }
+.others li { color: var(--ink-2); }
+
+/* home */
+.doors { list-style: none; padding: 0; display: grid; gap: .8rem; max-width: 40rem; }
+.doors li { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: .9rem 1.1rem; }
+.doors a { font-size: 1.15rem; font-weight: 600; text-decoration: none; display: block; }
+.doors span { font: .88rem var(--sans); color: var(--ink-3); }
+
+@media print {
+  body { background: #fff; color: #000; font-size: 11pt; }
+  .masthead nav, .seasonbar, .toc, .foot, .years { display: none; }
+  main { max-width: none; padding: 0; }
+  .book { display: block; }
+  .rule h2 { break-after: avoid; }
+  .rule, .table-wrap { break-inside: avoid-page; }
+  .changed { background: none; border: 1px solid #999; color: #000; }
+  .history summary { list-style: none; }
+  a { color: #000; text-decoration: none; }
+}

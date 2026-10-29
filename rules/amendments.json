@@ -1,0 +1,945 @@
+{
+ "note": "The exact edits each ledger change makes to the 2006 text (rules/baseline.json), and the facts it sets that MFL can confirm. Applied in order by src/rulebook_build.py. Every edit must find its target exactly once. A change with no edits appears only in its section's history. Notes are shown beside the text: from the effective season on for 'in practice' and 'open' changes, in that season only for 'one season' ones, whose facts also hold for that season only.",
+ "ops_help": {
+  "edit": "replace the text `find` with `to`, inside one paragraph, heading or list item",
+  "set": "replace the whole section with `blocks`",
+  "replace_block": "replace the block containing `find` with `blocks`",
+  "insert_after": "add `blocks` after the block containing `find`, or at the end with \"at\": \"end\"",
+  "remove_block": "remove the block containing `find`",
+  "insert_item": "add list item `text` after the item `after_item`",
+  "add_section": "add section `id` titled `title` after section `after`",
+  "table_group": "in table `table`, replace group `group` with `label` and `rows`",
+  "table_row": "in table `table`, group `group`, add a row (or replace the row with the same label)",
+  "note": "show `text` beside the section"
+ },
+ "baseline_facts": {
+  "roster_size": 20,
+  "starters": {
+   "QB": 1,
+   "RB": 2,
+   "WR": 3,
+   "TE": 1,
+   "K": 1,
+   "Def": 1
+  },
+  "injured_reserve": 0,
+  "regular_season_weeks": 13,
+  "playoff_weeks": [
+   14,
+   15,
+   16
+  ],
+  "schedule": [
+   6,
+   4,
+   3
+  ],
+  "touchdowns": {
+   "passing": {
+    "QB": [
+     6,
+     9,
+     12
+    ],
+    "RB": [
+     12,
+     18,
+     24
+    ],
+    "WR": [
+     12,
+     18,
+     24
+    ],
+    "TE": [
+     12,
+     18,
+     24
+    ]
+   },
+   "rushing": {
+    "QB": [
+     12,
+     18,
+     24
+    ],
+    "RB": [
+     6,
+     9,
+     12
+    ],
+    "WR": [
+     12,
+     18,
+     24
+    ],
+    "TE": [
+     12,
+     18,
+     24
+    ]
+   },
+   "receiving": {
+    "QB": [
+     12,
+     18,
+     24
+    ],
+    "RB": [
+     12,
+     18,
+     24
+    ],
+    "WR": [
+     6,
+     9,
+     12
+    ],
+    "TE": [
+     6,
+     9,
+     12
+    ]
+   }
+  },
+  "yardage_from": {
+   "passing": {
+    "QB": 200,
+    "RB": 50,
+    "WR": 50,
+    "TE": 50
+   },
+   "rushing": 50,
+   "receiving": 50
+  },
+  "yardage_per_yard": null,
+  "field_goals": [
+   [
+    0,
+    39,
+    3
+   ],
+   [
+    40,
+    49,
+    5
+   ],
+   [
+    50,
+    999,
+    10
+   ]
+  ],
+  "receptions": 0
+ },
+ "changes": {
+  "2008-lineup-lock": {
+   "ops": [
+    {
+     "op": "set",
+     "section": "5.2",
+     "blocks": [
+      "Starting lineups are set on the league website. Each player locks at the kickoff of his own NFL game: until then an owner may move him into or out of the starting lineup, and after it he stays where he is. Players not in the starting lineup at their kickoff do not score for the team.",
+      "The website always uses the last lineup saved, so an owner may change his starting lineup as often as he likes before each player's kickoff."
+     ]
+    },
+    {
+     "op": "edit",
+     "section": "5.3",
+     "find": "If an owner fails to submit a starting lineup by the deadline, then the previous week's lineup will serve as the default-starting lineup.",
+     "to": "If an owner does not submit a starting lineup, the previous week's lineup serves as the default starting lineup, and the owner may still change any player in it before that player's kickoff."
+    }
+   ]
+  },
+  "2008-retainment-ties": {
+   "ops": [
+    {
+     "op": "insert_after",
+     "section": "4.3",
+     "find": "superstar level shall cost three retainment slots.",
+     "blocks": [
+      "Players tied for a level all belong to the higher level, so a level can hold more players than its count. If the third and fourth RBs finish with the same points, for example, both are superstars."
+     ]
+    }
+   ]
+  },
+  "2008-no-trade-period": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "7.3",
+     "find": "No transactions will be allowed beginning the last week of the NFL regular season and continuing through to the day of the NFL Pro Bowl game. The day after the Pro Bowl game is the first day that trades may be made.",
+     "to": "No trades are allowed from the trade deadline (section 7.1) until the PDL Super Bowl is over. The day after the Super Bowl is the first day that trades may be made."
+    }
+   ]
+  },
+  "2008-waivers": {
+   "ops": [
+    {
+     "op": "set",
+     "section": "7.2",
+     "blocks": [
+      "Players are placed on waivers to give every owner an equal chance to acquire them. After the draft, any player not on a roster is on waivers, and so is any player a team drops.",
+      "Waiver claims are processed once a week by the league website, on Wednesday night. If only one team claims a player, that team gets him. If two or more teams claim the same player, the team with the higher waiver priority gets him. An owner who claims more than one player ranks his claims, and they are awarded in that order.",
+      "Waiver priority is a season-long rolling order. It starts in draft order, and a team whose claim succeeds drops to the bottom of the list.",
+      "After waivers are processed, every player not just dropped is a free agent, first come first served, until his game kicks off, and signing a free agent does not affect waiver priority. A player dropped in the waiver run stays on waivers until the next week's run. A free agent not signed by his kickoff goes back on waivers."
+     ]
+    }
+   ],
+   "facts": {}
+  },
+  "2010-yardage": {
+   "ops": [
+    {
+     "op": "table_group",
+     "section": "8.1",
+     "table": "Passing Points",
+     "group": "Passing Yardage Bonuses",
+     "label": "Passing Yardage",
+     "rows": [
+      [
+       "1 point per 10 yards, from 200 yards",
+       1,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       "1 point per 10 yards, from 50 yards",
+       null,
+       1,
+       1,
+       1,
+       1,
+       null
+      ]
+     ]
+    },
+    {
+     "op": "table_group",
+     "section": "8.1",
+     "table": "Rushing Points",
+     "group": "Rushing Yardage Bonuses",
+     "label": "Rushing Yardage",
+     "rows": [
+      [
+       "1 point per 10 yards, from 50 yards",
+       1,
+       1,
+       1,
+       1,
+       1,
+       null
+      ]
+     ]
+    },
+    {
+     "op": "table_group",
+     "section": "8.1",
+     "table": "Receiving Points",
+     "group": "Receiving Yardage Bonuses",
+     "label": "Receiving Yardage",
+     "rows": [
+      [
+       "1 point per 10 yards, from 50 yards",
+       1,
+       1,
+       1,
+       1,
+       1,
+       null
+      ]
+     ]
+    }
+   ],
+   "facts": {
+    "yardage_per_yard": {
+     "passing": 0.1,
+     "rushing": 0.1,
+     "receiving": 0.1
+    }
+   }
+  },
+  "2011-trade-deadline": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "7.1",
+     "find": "up to the conclusion of week 10",
+     "to": "up to the conclusion of week 12"
+    }
+   ]
+  },
+  "2011-payout": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "1.5",
+     "find": "Each playoff team will receive $25. The league champion takes home 75% of the remaining prize money and the runner up receives 25%.",
+     "to": "The league champion takes home 75% of the prize money and the runner up receives 25%."
+    }
+   ]
+  },
+  "2011-fee": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "1.6",
+     "find": "A yearly entry fee of $60 will be collected at the draft. $10 of the entry fee will be applied to website fees and draft food and beverage costs.",
+     "to": "A yearly entry fee of $50 will be collected at the draft."
+    }
+   ]
+  },
+  "2011-lockout": {
+   "ops": [
+    {
+     "op": "note",
+     "section": "4.3",
+     "text": "Because of the NFL lockout, retainments were due at least a week after the lockout ended rather than on the usual date."
+    }
+   ]
+  },
+  "2012-retainment-deadline": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "4.3",
+     "find": "July 4th of every off season marks the deadline for submitting the reduced roster to the commissioner.",
+     "to": "Retainments, the reduced roster, are due to the commissioner two weeks before the draft."
+    },
+    {
+     "op": "edit",
+     "section": "3.4",
+     "find": "This draft availability must be submitted with the retainments by July 4th of each off season.",
+     "to": "This draft availability must be submitted by July 4th of each off season, and the commissioner sets the draft date then."
+    }
+   ]
+  },
+  "2014-seeding-tiebreaker": {
+   "ops": [
+    {
+     "op": "replace_block",
+     "section": "6.2",
+     "find": "Most Overall Points.",
+     "blocks": [
+      {
+       "type": "list",
+       "ordered": true,
+       "items": [
+        "Head-to-head result between the tied teams (skipped when three or more teams are tied).",
+        "Most overall points.",
+        "Coin toss."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "2014-realignment": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "1.3",
+     "find": "Teams will remain in their original divisions for the duration of PDL.",
+     "to": "Divisions are redrawn every five years, starting in 2015 (section 10.6)."
+    },
+    {
+     "op": "insert_after",
+     "section": "10.6",
+     "at": "end",
+     "blocks": [
+      "From 2015, divisions are redrawn every five years. At the draft, each owner draws his new division from a hat when his original first-round pick comes up."
+     ]
+    }
+   ]
+  },
+  "2014-draft-order": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "3.2",
+     "find": "Non-playoff teams will comprise picks 8 through 1. The worst team from last year picks first, the 2nd worst team picks 2nd, … , the 8th worst team picks 8th.",
+     "to": "Non-playoff teams will comprise picks 1 through 8, in order of potential points, fewest first. A team's potential points are its season total had it started its best possible lineup every week, as the league website calculates them."
+    }
+   ]
+  },
+  "2014-toilet-bowl": {
+   "ops": [
+    {
+     "op": "add_section",
+     "after": "2.3",
+     "id": "2.4",
+     "title": "Toilet Bowl",
+     "blocks": [
+      "The eight teams that miss the playoffs play a bracket of their own, the toilet bowl, during the playoff weeks. The winner's entry fee for the next season is paid by the other owners."
+     ]
+    }
+   ]
+  },
+  "2014-fee": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "1.6",
+     "find": "A yearly entry fee of $50 will be collected at the draft.",
+     "to": "A yearly entry fee of $50, plus $5 for the website and $2 for trophy plates, will be collected at the draft. Draft food is collected separately."
+    }
+   ]
+  },
+  "2015-fee": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "1.6",
+     "find": "plus $5 for the website and $2 for trophy plates,",
+     "to": "plus $5 for the website, $2 for trophy plates and $4 toward the toilet bowl winner's entry fee,"
+    }
+   ]
+  },
+  "2018-yardage-from-zero": {
+   "ops": [
+    {
+     "op": "table_group",
+     "section": "8.1",
+     "table": "Passing Points",
+     "group": "Passing Yardage",
+     "label": "Passing Yardage",
+     "rows": [
+      [
+       "1 point per 20 yards, from the first yard",
+       1,
+       1,
+       1,
+       1,
+       1,
+       null
+      ]
+     ]
+    },
+    {
+     "op": "table_group",
+     "section": "8.1",
+     "table": "Rushing Points",
+     "group": "Rushing Yardage",
+     "label": "Rushing Yardage",
+     "rows": [
+      [
+       "1 point per 10 yards, from the first yard",
+       1,
+       1,
+       1,
+       1,
+       1,
+       null
+      ]
+     ]
+    },
+    {
+     "op": "table_group",
+     "section": "8.1",
+     "table": "Receiving Points",
+     "group": "Receiving Yardage",
+     "label": "Receiving Yardage",
+     "rows": [
+      [
+       "1 point per 10 yards, from the first yard",
+       1,
+       1,
+       1,
+       1,
+       1,
+       null
+      ]
+     ]
+    }
+   ],
+   "facts": {
+    "yardage_from": {
+     "passing": {
+      "QB": 0,
+      "RB": 0,
+      "WR": 0,
+      "TE": 0
+     },
+     "rushing": 0,
+     "receiving": 0
+    },
+    "yardage_per_yard": {
+     "passing": 0.05,
+     "rushing": 0.1,
+     "receiving": 0.1
+    }
+   }
+  },
+  "2018-fractional-yardage": {
+   "ops": [
+    {
+     "op": "table_group",
+     "section": "8.1",
+     "table": "Passing Points",
+     "group": "Passing Yardage",
+     "label": "Passing Yardage",
+     "rows": [
+      [
+       "Per 2 yards, in fractions from the first yard",
+       0.1,
+       0.1,
+       0.1,
+       0.1,
+       0.1,
+       null
+      ]
+     ]
+    },
+    {
+     "op": "table_group",
+     "section": "8.1",
+     "table": "Rushing Points",
+     "group": "Rushing Yardage",
+     "label": "Rushing Yardage",
+     "rows": [
+      [
+       "Per yard, in fractions from the first yard",
+       0.1,
+       0.1,
+       0.1,
+       0.1,
+       0.1,
+       null
+      ]
+     ]
+    },
+    {
+     "op": "table_group",
+     "section": "8.1",
+     "table": "Receiving Points",
+     "group": "Receiving Yardage",
+     "label": "Receiving Yardage",
+     "rows": [
+      [
+       "Per yard, in fractions from the first yard",
+       0.1,
+       0.1,
+       0.1,
+       0.1,
+       0.1,
+       null
+      ]
+     ]
+    }
+   ]
+  },
+  "2018-kicking": {
+   "ops": [
+    {
+     "op": "table_group",
+     "section": "8.2",
+     "table": "Kicking Points",
+     "group": "Field Goals",
+     "label": "Field Goals",
+     "rows": [
+      [
+       "0 - 39 yards",
+       3,
+       3,
+       3,
+       3,
+       3,
+       null
+      ],
+      [
+       "40 - 49 yards",
+       5,
+       5,
+       5,
+       5,
+       5,
+       null
+      ],
+      [
+       "50 - 59 yards",
+       7,
+       7,
+       7,
+       7,
+       7,
+       null
+      ],
+      [
+       "60+ yards",
+       10,
+       10,
+       10,
+       10,
+       10,
+       null
+      ]
+     ]
+    }
+   ],
+   "facts": {
+    "field_goals": [
+     [
+      0,
+      39,
+      3
+     ],
+     [
+      40,
+      49,
+      5
+     ],
+     [
+      50,
+      59,
+      7
+     ],
+     [
+      60,
+      999,
+      10
+     ]
+    ]
+   }
+  },
+  "2018-ppr": {
+   "ops": [
+    {
+     "op": "table_row",
+     "section": "8.1",
+     "table": "Miscellaneous Points",
+     "group": null,
+     "row": [
+      "Receptions",
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      null,
+      null
+     ]
+    }
+   ],
+   "facts": {
+    "receptions": 0.5
+   }
+  },
+  "2018-draft-date": {
+   "ops": [
+    {
+     "op": "set",
+     "section": "3.4",
+     "blocks": [
+      "The draft is held on the Tuesday after Labor Day. If the NFL starts week 1 before Labor Day, the draft moves earlier to fit. The draft coordinator (section 9.1) chooses the place and time."
+     ]
+    }
+   ]
+  },
+  "2018-officers": {
+   "ops": [
+    {
+     "op": "insert_after",
+     "section": "9.1",
+     "find": "Raise a trade for a veto vote by the Governing Board.",
+     "blocks": [
+      "Two league officers assist the commissioner: a draft coordinator, who collects owners' availability and chooses the draft date and place, and a summer meeting coordinator, who schedules the summer meeting and chooses its place."
+     ]
+    }
+   ]
+  },
+  "2019-divisions": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "1.3",
+     "find": "Divisions are redrawn every five years, starting in 2015 (section 10.6).",
+     "to": "Teams remain in their original divisions, as restored in 2019."
+    },
+    {
+     "op": "remove_block",
+     "section": "10.6",
+     "find": "From 2015, divisions are redrawn every five years."
+    }
+   ]
+  },
+  "2020-hybrid-player": {
+   "ops": [
+    {
+     "op": "note",
+     "section": "4.2",
+     "text": "A league vote listed the hybrid QB/TE player as a WR for the season."
+    }
+   ]
+  },
+  "2020-covid": {
+   "ops": [
+    {
+     "op": "note",
+     "section": "4.4",
+     "text": "Players the league website listed as out with COVID, or as opted out, could sit on a COVID reserve list without counting against the 20-man roster: 5 spots per team on the website that season. Each had to return to the roster or be dropped when his designation ended."
+    },
+    {
+     "op": "note",
+     "section": "1.6",
+     "text": "A contingency plan would have refunded fees, less website costs, and set retainments and draft order differently had the NFL completed fewer than 7 games."
+    }
+   ],
+   "facts": {
+    "injured_reserve": 5
+   }
+  },
+  "2020-fee": {
+   "ops": []
+  },
+  "2021-18-week-season": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "1.5",
+     "find": "The 13-week regular season",
+     "to": "The 14-week regular season"
+    },
+    {
+     "op": "edit",
+     "section": "1.5",
+     "find": "finishes on NFL 13.",
+     "to": "finishes on NFL week 14."
+    },
+    {
+     "op": "edit",
+     "section": "2.2",
+     "find": "thirteen games: six division games (two against each division opponent), four non-division conference games, and three games against an alternating non-conference division.",
+     "to": "fourteen games: six division games (two against each division opponent), four non-division conference games, and four games against an alternating non-conference division."
+    },
+    {
+     "op": "edit",
+     "section": "2.3",
+     "find": "Playoffs commence on NFL week 14, and finish on NFL week 16.",
+     "to": "Playoffs commence on NFL week 15, and finish on NFL week 17."
+    },
+    {
+     "op": "edit",
+     "section": "4.3",
+     "find": "(through week 16)",
+     "to": "(through week 17)"
+    },
+    {
+     "op": "edit",
+     "section": "7.1",
+     "find": "up to the conclusion of week 12",
+     "to": "up to the conclusion of week 13"
+    }
+   ],
+   "facts": {
+    "regular_season_weeks": 14,
+    "playoff_weeks": [
+     15,
+     16,
+     17
+    ],
+    "schedule": [
+     6,
+     4,
+     4
+    ]
+   }
+  },
+  "2021-draft-and-retainments": {
+   "ops": []
+  },
+  "2021-position-override": {
+   "ops": [
+    {
+     "op": "insert_after",
+     "section": "4.2",
+     "at": "end",
+     "blocks": [
+      "The commissioner may override a player's position on the league website when common sense calls for it. Any owner can raise a case with the commissioner."
+     ]
+    },
+    {
+     "op": "insert_item",
+     "section": "9.1",
+     "after_item": "Settle all position eligibility questions.",
+     "text": "Override a player's position on the league website when common sense calls for it."
+    }
+   ]
+  },
+  "2021-toilet-bowl-prize": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "2.4",
+     "find": "The winner's entry fee for the next season is paid by the other owners.",
+     "to": "The winner chooses between next season's entry fee, paid by the other owners, and a bonus draft pick between the first and second rounds (pick 17). If he takes the pick, the prize money goes to the championship pot."
+    },
+    {
+     "op": "insert_after",
+     "section": "3.2",
+     "find": "potential points are its season total",
+     "blocks": [
+      "If the toilet bowl winner takes the bonus pick (section 2.4), it is pick 17, between the first and second rounds."
+     ]
+    }
+   ]
+  },
+  "2021-fee": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "1.6",
+     "find": "A yearly entry fee of $50, plus $5 for the website, $2 for trophy plates and $4 toward the toilet bowl winner's entry fee, will be collected at the draft. Draft food is collected separately.",
+     "to": "A yearly entry fee of $65 will be collected at the draft."
+    },
+    {
+     "op": "edit",
+     "section": "1.5",
+     "find": "The league champion takes home 75% of the prize money and the runner up receives 25%.",
+     "to": "From the prize money, $100 goes to the trophy and the website, and the toilet bowl winner's entry fee is paid if he takes it (section 2.4). The league champion takes home 75% of the rest and the runner up receives 25%."
+    }
+   ]
+  },
+  "2023-multi-team-tiebreaker": {
+   "ops": [
+    {
+     "op": "insert_after",
+     "section": "6.2",
+     "find": "Coin toss.",
+     "blocks": [
+      "When three or more teams are tied, the top team is seeded first, and the tiebreak then restarts among the remaining teams for the next seed."
+     ]
+    }
+   ]
+  },
+  "2023-hybrid-player": {
+   "ops": [
+    {
+     "op": "note",
+     "section": "4.2",
+     "text": "The 2023 poll on the hybrid QB/TE player tied 4 to 4 between making him unavailable and listing him as a TE, and no result was announced."
+    }
+   ]
+  },
+  "2023-fee": {
+   "ops": []
+  },
+  "2024-fee": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "1.6",
+     "find": "A yearly entry fee of $65 will be collected at the draft.",
+     "to": "A yearly entry fee of $100 will be collected at the draft."
+    }
+   ]
+  },
+  "2025-waivers": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "7.2",
+     "find": "every player not just dropped is a free agent, first come first served, until his game kicks off, and signing a free agent does not affect waiver priority. A player dropped in the waiver run stays on waivers until the next week's run.",
+     "to": "every player is a free agent, first come first served, until his game kicks off, including any player dropped in the waiver run, and signing a free agent does not affect waiver priority. A player dropped between the waiver run and his kickoff is a free agent at once."
+    }
+   ]
+  },
+  "2025-hybrid-player": {
+   "ops": [
+    {
+     "op": "note",
+     "section": "4.2",
+     "text": "The hybrid QB/TE player was not available to any PDL team for the season."
+    }
+   ]
+  },
+  "2025-fee": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "1.6",
+     "find": "A yearly entry fee of $100 will be collected at the draft.",
+     "to": "A yearly entry fee of $100, including league fees, will be collected at the draft."
+    }
+   ]
+  },
+  "2025-voting": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "10.2",
+     "find": "All votes occur at the annual Summer Meetings.",
+     "to": "Proposals are discussed at the annual Summer Meeting, then voted in a league poll on the website, open for one week."
+    },
+    {
+     "op": "edit",
+     "section": "10.2",
+     "find": "If a majority of the attending Committee of the Whole members vote to adopt the amendment the amendment passes. Absentee votes are allowed, if prearranged with the commissioner.",
+     "to": "If a majority of those voting adopt the amendment, it passes."
+    }
+   ]
+  },
+  "2025-playoff-format": {
+   "ops": [
+    {
+     "op": "note",
+     "section": "2.3",
+     "text": "In each conference, seed 1 plays seed 4 and seed 2 plays seed 3 in week 15, the conference championships are in week 16, and the Super Bowl is in week 17. The toilet bowl is seeded 1 against 8 through 4 against 5."
+    }
+   ]
+  },
+  "2025-seeding-ties": {
+   "ops": []
+  },
+  "2026-ir": {
+   "ops": [
+    {
+     "op": "set",
+     "section": "4.4",
+     "blocks": [
+      "Each team has one injured reserve spot during the regular season. A player in it must carry an official NFL designation: injured reserve, injured reserve designated to return, physically unable to perform, or non-football injury. The team must make room for him on the roster the moment he is eligible to return."
+     ]
+    }
+   ],
+   "facts": {
+    "injured_reserve": 1
+   }
+  },
+  "2026-payout": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "1.5",
+     "find": "The league champion takes home 75% of the rest and the runner up receives 25%.",
+     "to": "Of the rest, the league champion takes home 67%, the runner up 20%, third place 6.5%, and the team scoring the most regular-season points 6.5%."
+    }
+   ]
+  },
+  "2026-fee": {
+   "ops": []
+  },
+  "2026-meeting-organizer": {
+   "ops": [
+    {
+     "op": "replace_block",
+     "section": "9.1",
+     "find": "Two league officers assist the commissioner",
+     "blocks": [
+      "A draft coordinator assists the commissioner: he collects owners' availability and chooses the draft date and place. The summer meeting is organized by the team that finished last the season before, so the role rotates each year."
+     ]
+    }
+   ]
+  }
+ },
+ "mfl_known_differences": [
+  {
+   "seasons": [
+    2006,
+    2007
+   ],
+   "fact": "yardage_from",
+   "why": "MFL's 2006 and 2007 yardage rules are in an older encoding, with overlapping ranges (50 and up at '0/0' alongside 100 and up at 1 per 10), that cannot be read as the book's bonus table. From 2008 MFL spells the tiers out, and they match the book: 5 points at 50 yards, 10 at 100, and 5 for a QB at 200 passing yards."
+  }
+ ]
+}

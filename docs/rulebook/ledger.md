@@ -46,7 +46,7 @@ Seasons not listed kept the previous fee, as far as the record shows.
 - **2011**: Playoff teams no longer receive $25. The champion takes 75% of the pot and the runner-up 25%.
   - Sources: changes.html, 2011 meeting
 - **2021**: For the NFL's 18-week season: the regular season runs through week 14, the playoffs in weeks 15 to 17, and the trade deadline and the retainment-value cutoff each move one week later (values through week 17).
-  - Evidence: MFL's schedules: 13 regular-season weeks and playoffs in weeks 14 to 16 every season to 2020, then 14 weeks and playoffs in weeks 15 to 17 from 2021.
+  - Evidence: MFL's schedules: 13 regular-season weeks and playoffs in weeks 14 to 16 every season to 2020, then 14 weeks and playoffs in weeks 15 to 17 from 2021. The extra game is a fourth one against the alternating non-conference division: each division now plays every team in both of its non-division pairings, where before it played 3 of the 4 in one of them.
   - Sources: email 2021-07-23, "summer meeting"
 - **2021**: Entry fee $65. From the pot: $100 to the trophy and website, then the toilet bowl winner's fee if taken, then 75% of the rest to the champion and 25% to the runner-up.
   - Sources: email 2021-08-17, "PDL (voting results)" and league poll 2021 ($65 4, $75 1, $100 5, Don't care 5)
@@ -79,20 +79,23 @@ Seasons not listed kept the previous fee, as far as the record shows.
 ### 2.2 Regular Season
 
 - **2021**: For the NFL's 18-week season: the regular season runs through week 14, the playoffs in weeks 15 to 17, and the trade deadline and the retainment-value cutoff each move one week later (values through week 17).
-  - Evidence: MFL's schedules: 13 regular-season weeks and playoffs in weeks 14 to 16 every season to 2020, then 14 weeks and playoffs in weeks 15 to 17 from 2021.
+  - Evidence: MFL's schedules: 13 regular-season weeks and playoffs in weeks 14 to 16 every season to 2020, then 14 weeks and playoffs in weeks 15 to 17 from 2021. The extra game is a fourth one against the alternating non-conference division: each division now plays every team in both of its non-division pairings, where before it played 3 of the 4 in one of them.
   - Sources: email 2021-07-23, "summer meeting"
 
 ### 2.3 Playoffs
 
-- **2014**: A toilet bowl: the eight non-playoff teams play a bracket in the playoff weeks, and the winner's next entry fee is paid by the other owners.
-  - Sources: changes.html, 2014 meeting
 - **2021**: For the NFL's 18-week season: the regular season runs through week 14, the playoffs in weeks 15 to 17, and the trade deadline and the retainment-value cutoff each move one week later (values through week 17).
-  - Evidence: MFL's schedules: 13 regular-season weeks and playoffs in weeks 14 to 16 every season to 2020, then 14 weeks and playoffs in weeks 15 to 17 from 2021.
+  - Evidence: MFL's schedules: 13 regular-season weeks and playoffs in weeks 14 to 16 every season to 2020, then 14 weeks and playoffs in weeks 15 to 17 from 2021. The extra game is a fourth one against the alternating non-conference division: each division now plays every team in both of its non-division pairings, where before it played 3 of the 4 in one of them.
   - Sources: email 2021-07-23, "summer meeting"
-- **2021, from 2022**: The toilet bowl winner chooses between the paid entry fee and a bonus pick between the first and second rounds (pick 17). If the pick is taken, the prize money goes to the championship pot.
-  - Sources: email 2021-08-17, "PDL (voting results)" and league poll 2021 (Yes 10, No 4, Don't care 1)
 - **2025** *(in practice)*: Each conference plays a 4-team bracket in week 15 (seed 1 against 4, 2 against 3), conference championships in week 16 and the final in week 17.
   - Sources: message board 2025-12-09
+
+### 2.4 Toilet Bowl
+
+- **2014**: A toilet bowl: the eight non-playoff teams play a bracket in the playoff weeks, and the winner's next entry fee is paid by the other owners.
+  - Sources: changes.html, 2014 meeting
+- **2021, from 2022**: The toilet bowl winner chooses between the paid entry fee and a bonus pick between the first and second rounds (pick 17). If the pick is taken, the prize money goes to the championship pot.
+  - Sources: email 2021-08-17, "PDL (voting results)" and league poll 2021 (Yes 10, No 4, Don't care 1)
 
 ### 3.2 Draft Order
 
@@ -132,7 +135,7 @@ Seasons not listed kept the previous fee, as far as the record shows.
 - **2020** *(one season)*: A COVID contingency plan set refunds and retainment rules for a shortened NFL season, and a reserve list let players out with COVID or opted out sit off the 20-man roster.
   - Sources: email 2020-08-20, "Summer Meeting Results", email 2020-08-20, "Summer Meeting Results" and league poll 2020 (Yes 12, No 1)
 - **2021**: For the NFL's 18-week season: the regular season runs through week 14, the playoffs in weeks 15 to 17, and the trade deadline and the retainment-value cutoff each move one week later (values through week 17).
-  - Evidence: MFL's schedules: 13 regular-season weeks and playoffs in weeks 14 to 16 every season to 2020, then 14 weeks and playoffs in weeks 15 to 17 from 2021.
+  - Evidence: MFL's schedules: 13 regular-season weeks and playoffs in weeks 14 to 16 every season to 2020, then 14 weeks and playoffs in weeks 15 to 17 from 2021. The extra game is a fourth one against the alternating non-conference division: each division now plays every team in both of its non-division pairings, where before it played 3 of the 4 in one of them.
   - Sources: email 2021-07-23, "summer meeting"
 - **2021**: Confirmed: the draft is the Tuesday after Labor Day, and retainments are due two weeks before it.
   - Sources: email 2021-07-23, "summer meeting"
@@ -168,7 +171,7 @@ Seasons not listed kept the previous fee, as far as the record shows.
 - **2011**: The trade deadline moves from the end of week 10 to the end of week 12.
   - Sources: changes.html, 2011 meeting
 - **2021**: For the NFL's 18-week season: the regular season runs through week 14, the playoffs in weeks 15 to 17, and the trade deadline and the retainment-value cutoff each move one week later (values through week 17).
-  - Evidence: MFL's schedules: 13 regular-season weeks and playoffs in weeks 14 to 16 every season to 2020, then 14 weeks and playoffs in weeks 15 to 17 from 2021.
+  - Evidence: MFL's schedules: 13 regular-season weeks and playoffs in weeks 14 to 16 every season to 2020, then 14 weeks and playoffs in weeks 15 to 17 from 2021. The extra game is a fourth one against the alternating non-conference division: each division now plays every team in both of its non-division pairings, where before it played 3 of the 4 in one of them.
   - Sources: email 2021-07-23, "summer meeting"
 
 ### 7.2 Free Agents / Waivers
@@ -186,7 +189,7 @@ Seasons not listed kept the previous fee, as far as the record shows.
 ### 8.1 Offensive Points
 
 - **2010**: Yardage scores 1 point per 10 yards once a threshold is reached: 200 yards passing for a QB, 50 yards rushing or receiving otherwise. This replaces the yardage bonuses. TEs unchanged.
-  - Evidence: MFL's scoring rules: QB passing changes from 5 points at 200 and 1 per 10 from 250 (2003 to 2009) to 1 per 10 from 200 (2010 to 2017). WR receiving loses its 100-yard tier. RB rushing keeps a 5-point step at 50 yards, then 1 per 10 from 60, which no written source mentions.
+  - Evidence: MFL's scoring rules: QB passing changes from 5 points at 200 and 1 per 10 from 250 (2003 to 2009) to 1 per 10 from 200 (2010 to 2017), and WR receiving loses its 100-yard tier. RB rushing is encoded as 5 points for 50 to 59 yards and 1 per 10 from 60, which scores the same as 1 per 10 from 50.
   - Sources: changes.html, 2010 meeting
 - **2018**: Yardage scores from the first yard, with no thresholds: 1 point per 10 yards rushing or receiving, 1 per 20 yards passing.
   - Sources: email 2018-07-26, "Summer Meeting Updates"

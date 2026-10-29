@@ -23,6 +23,20 @@ One line in `src/fetch_mfl.py`. The league has kept id 16177 since 2016:
 
 Every script derives its season range from `LEAGUES`, so nothing else changes.
 
+## On MFL, as commissioner
+
+The league's own season set-up, from the commissioner's checklist
+(`private/drive/New Season Prep.docx`). The archive steps below capture the
+result, so do these first. The legacy site's pages are no longer updated by
+hand: the new site is built from the archive.
+
+| When | On MFL |
+|---|---|
+| Summer meeting | pay for the website, roll the rosters into the new season, set the draft order for every round, import traded picks, post the agenda, then the results |
+| Retainments due | post the retainments, set the rosters for the new season, set waiver priority to draft order |
+| Before the draft | set up the draft, and print the draft sheets |
+| After the draft | finish the draft by importing the picks and skipping unmade ones, set the schedule (from `private/drive/schedule.xlsx`: update the team names, franchise ids and year), and set the waiver and free agent schedule |
+
 ## 1. Capture the season from MFL
 
 ```bash
@@ -144,5 +158,9 @@ one is what keeps the board and poll copies offsite.
 
 - The dashboard reads the datasets that were uploaded when it was published.
   After a season, re-publish it so the new season shows.
-- The rule book is generated from `rules/baseline.json` and `rules/ledger.json`
-  (see `docs/rulebook/README.md`), so a ledger entry is all a new rule needs.
+- A rule change needs a ledger entry and its edit in `rules/amendments.json`.
+  Then rebuild and check the rule book:
+
+  ```bash
+  python3 src/rulebook_build.py && python3 src/rulebook_mfl_check.py && python3 site/build.py
+  ```

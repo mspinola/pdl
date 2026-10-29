@@ -1,13 +1,16 @@
 # The rule book
 
-Work toward a current, HTML rule book: the 2006 text with every change since
-layered in. Steps 1 to 4 of the plan in [../site-plan.md](../site-plan.md) are
-done. Layering (5), the MFL check (6) and publishing (7) are next.
+A current, HTML rule book: the 2006 text with every change since layered in,
+and the rules as of any season from 2006. All seven steps of the plan in
+[../site-plan.md](../site-plan.md) are done, except putting the pages online.
 
 ```bash
 python3 src/rulebook_editions.py   # compare the editions  -> docs/rulebook/editions.md
 python3 src/rulebook_baseline.py   # parse the baseline    -> rules/baseline.json, checked
 python3 src/rulebook_ledger.py     # check the ledger      -> docs/rulebook/ledger.md
+python3 src/rulebook_build.py      # apply every change, check each edit lands
+python3 src/rulebook_mfl_check.py  # compare with MFL      -> docs/rulebook/mfl-check.md
+python3 site/build.py              # the pages            -> site/dist/rules/
 ```
 
 ## 1. The baseline is the 2006 edition
@@ -82,9 +85,8 @@ confirm the ledger where they can see it:
   as passed but labelled a hoax on the page, never ran: 2014 still has 16 teams
   in 4 divisions.
 
-MFL also shows one thing no written source mentions: from 2010, RBs score a
-5-point step at 50 rushing yards, then 1 per 10 from 60, where everyone else
-scores 1 per 10 from 50. Step 6 should decide whether the rule book states it.
+MFL encodes RB rushing from 2010 as 5 points for 50 to 59 yards and 1 per 10
+from 60, which scores exactly as 1 per 10 from 50, so it is not a separate rule.
 
 ### What only the league can answer
 
@@ -96,3 +98,57 @@ multi-team tiebreaker and the 2026 rotating organizer passed.
 One remains, listed in [ledger.md](ledger.md): the 2023 poll on the hybrid
 QB/TE player, tied 4 to 4. Until it is answered, the layered rule book shows it
 as unconfirmed and does not change the text.
+
+## 5. Layering
+
+[`rules/amendments.json`](../../rules/amendments.json) holds the exact edit each
+ledger change makes to the text: replace this sentence, add that paragraph,
+rewrite this scoring row, add section 2.4 Toilet Bowl. `src/rulebook_build.py`
+applies them in order of the season they took effect, so the book can be read as
+of any season. Every edit must find its target exactly once, so a change applied
+out of order, or to text an earlier change already replaced, stops the build
+rather than being skipped. A one-season rule (the 2011 lockout, the 2020 COVID
+reserve, the hybrid player rulings) and the one unconfirmed question appear as
+notes beside the text and never change it. 22 of the 53 sections have changed
+by 2026.
+
+Where the record says what changed but not the new wording, the amendment
+writes the rule in the book's own terms. Two of those rest on MFL rather than a
+written source: the 2021 schedule (the fourteenth game is a fourth one against
+the alternating non-conference division, which is what every 2021 to 2025
+schedule shows) and the 2020 reserve list (MFL gave each team 5 spots).
+
+## 6. Checked against MFL
+
+Each change also states the facts MFL can confirm: roster size, the starting
+lineup, injured reserve spots, regular-season and playoff weeks, how the
+schedule splits between division and other opponents, and the scoring for
+touchdowns, yardage, field goals and receptions. `src/rulebook_mfl_check.py`
+compares them with MFL's archive for every season from 2006
+([mfl-check.md](mfl-check.md)): 224 comparisons agree, 2 differ for a recorded
+reason, and none differ otherwise. The recorded reason is 2006 and 2007, when
+MFL's yardage rules are in an older encoding that cannot be read as the book's
+bonus table. From 2008 MFL spells the tiers out and they match.
+
+It also found one rule the ledger had only as a note: the 2020 COVID reserve
+list, which MFL shows as 5 reserve spots that season.
+
+The retainment spreadsheets (2010 to 2018, `rules/sources/drive.json`) agree
+with section 4.3: every team uses 12 slots or fewer through 2017, and most
+seasons have exactly 9 three-slot players. Two to check: 2016 lists 11 three-slot
+players, and 2018 has one team at 13 slots.
+
+## 7. The pages
+
+`python3 site/build.py` writes the rule book to `site/dist/rules/`: the rules in
+force now, the rules as of each season from 2006, and every meeting from 2002
+with what passed, what failed and the sources. Each changed section is marked
+with the seasons it changed and links to the record. Pages print cleanly and
+read in light or dark mode. To look at them locally:
+
+```bash
+python3 -m http.server 8010 --directory site/dist
+```
+
+They are not online yet. The plan is a GitHub Actions workflow that runs the
+build and publishes `site/dist/` to GitHub Pages.

@@ -15,3 +15,6 @@ private/
 
 # by-product of the link_franchises.py check, read by nothing
 owner_map.json
+
+# the built site: python3 site/build.py regenerates it
+site/dist/
