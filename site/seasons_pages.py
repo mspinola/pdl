@@ -127,12 +127,12 @@ def draft_section(season):
     picks.sort(key=lambda p: int(p["pick"]))
     complete = picks[0]["complete"] == "True"
     rows = "".join(f"<tr><td>{p['pick']}</td><td class='l'>{team_link(p['team'])}</td><td class='l'>{E(p['player'])}</td>"
-                   f"<td>{E(p['position'] or '')}</td><td>{p['starts']}</td><td>{p['starts_any_team']}</td></tr>" for p in picks)
+                   f"<td>{E(p['position'] or '')}</td><td>{p['starts_any_team']}</td><td>{p['starts']}</td></tr>" for p in picks)
     note = ("Starts are regular-season starts in this and the next two seasons"
             + ("." if complete else ", so far."))
     return (f"<h2 id='draft'>The draft's first round</h2><p class='meta'>{note} The full draft, every round, is in "
             f"<code>datasets/draft_value.csv</code>.</p><div class='table-wrap'><table class='data'><thead><tr><th>Pick</th>"
-            f"<th class='l'>Team</th><th class='l'>Player</th><th>Pos</th><th>Starts for the team</th><th>Starts anywhere</th>"
+            f"<th class='l'>Team</th><th class='l'>Player</th><th>Pos</th><th>Starts</th><th>For the drafting team</th>"
             f"</tr></thead><tbody>{rows}</tbody></table></div>")
 
 

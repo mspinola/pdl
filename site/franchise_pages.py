@@ -95,11 +95,13 @@ def franchise_page(team, ident, owners):
                                            f"({float(lk['luck_z']):+.1f} standard deviations)"))
     dr = owners["draft"].get(team)
     if dr:
-        style.append(fact("Drafting", f"{dr['hit_rate']}% of picks hit, {float(dr['starts_over_slot']):+.2f} starts a pick over the slot "
-                                      f"for the team, {float(dr['any_team_over_slot']):+.2f} for anyone"))
-    best = sorted([p for p in d.draft_value() if p["team"] == team], key=lambda p: -float(p["value"]))[:5]
+        style.append(fact("Drafting", f"{dr['hit_rate']}% of picks became starters, {dr['kept_rate']}% for this team. "
+                                      f"{float(dr['any_team_over_slot']):+.2f} starts a pick over the slot"))
+    best = sorted([p for p in d.draft_value() if p["team"] == team], key=lambda p: -float(p["value_any_team"]))[:5]
     best_rows = "".join(f"<li>{season_link(p['season'])}, round {p['round']} pick {p['pick']}: {E(p['player'])} "
-                        f"({E(p['position'] or '')}), {p['starts']} starts</li>" for p in best)
+                        f"({E(p['position'] or '')}), {p['starts_any_team']} starts"
+                        + (f", {p['starts']} of them for {E(team)}" if p['starts'] != p['starts_any_team'] else "")
+                        + "</li>" for p in best)
     away = [g for g in d.got_away() if g["dropped_by"] == team and g["position"] not in ("K", "Def")][:3]
     away_rows = "".join(f"<li>{season_link(g['season'])}: {E(g['player'])} ({E(g['position'] or '')}), "
                         f"{g['starts_elsewhere']} starts elsewhere</li>" for g in away)
@@ -110,7 +112,7 @@ def franchise_page(team, ident, owners):
             + (f"<h2>How it is run</h2><div class='facts'>{''.join(style)}</div>" if style else "")
             + "<h2>Season by season</h2>" + seasons_table(team, seasons)
             + "<h2>Head to head</h2><p class='meta'>Every game, regular season and postseason.</p>" + h2h_table(team)
-            + (f"<h2>Best draft picks</h2><p class='meta'>By value to the team over three seasons, 2008 on.</p><ul>{best_rows}</ul>" if best_rows else "")
+            + (f"<h2>Best draft picks</h2><p class='meta'>By value over three seasons, for whichever teams started him, 2008 on.</p><ul>{best_rows}</ul>" if best_rows else "")
             + (f"<h2>The ones that got away</h2><ul>{away_rows}</ul>" if away_rows else "")
             + "</div>")
     return page(f"{team}, PDL", body, description=f"The {team} franchise in the Premiere Dynasty League.")
