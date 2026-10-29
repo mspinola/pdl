@@ -1,0 +1,77 @@
+/* The league's MFL pages in the site's colours. MFL's "League Cascading Style Sheet
+   (CSS) URL" setting points at https://mspinola.github.io/pdl/mfl.css, so a commit
+   here changes MFL on the next publish.
+
+   It sits on top of MFL's Onyx skin and changes colour and type only: no layout,
+   widths or menus, because MFL's markup is MFL's and moves between seasons. The
+   palette is the dark side of site.css (the retired dashboard's). */
+:root {
+  --pdl-bg: #0b0b0b; --pdl-surface: #1a1a19; --pdl-row: #141413; --pdl-rule: #2e2d2b;
+  --pdl-ink: #f4f3ef; --pdl-ink-2: #c4c2bb; --pdl-ink-3: #a5a49a;
+  --pdl-accent: #2a78d6; --pdl-link: #5598e7; --pdl-accent-2: #eb6834; --pdl-mark: #1baf7a;
+  --pdl-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* the page */
+html { background: var(--pdl-bg); }
+body { background: var(--pdl-bg) none; color: var(--pdl-ink-2); font-family: var(--pdl-sans); }
+.pagetitle h1 { color: var(--pdl-ink); letter-spacing: .02em; }
+.pagetitle h1 a:link, .pagetitle h1 a:visited { color: var(--pdl-ink); }
+
+/* links: the site's blue, your own franchise in its orange */
+a:link, a:active, a:visited { color: var(--pdl-link); text-underline-offset: 2px; }
+.oddtablerow a:link, .oddtablerow a:active, .oddtablerow a:visited,
+.eventablerow a:link, .eventablerow a:active, .eventablerow a:visited { color: var(--pdl-link); }
+/* tables are dense, so their links go without the underline until hovered */
+.oddtablerow a:link, .oddtablerow a:visited, .eventablerow a:link, .eventablerow a:visited { text-decoration: none; }
+.oddtablerow a:hover, .eventablerow a:hover, a:hover { color: var(--pdl-ink); text-decoration: underline; }
+a.myfranchise, a.myfranchise:link, a.myfranchise:visited, a.myfranchise:active { color: var(--pdl-accent-2); }
+.pageheader a:link, .pageheader a:active, .pageheader a:visited,
+.pagefooter a:link, .pagefooter a:active, .pagefooter a:visited { color: var(--pdl-ink-2); }
+
+/* menus */
+.myfantasyleague_menu, .myfantasyleague_menu ul, .myfantasyleague_menu ul li ul,
+.myfantasyleague_menu ul ul li, .myfantasyleague_tabmenu { background: var(--pdl-surface); }
+.myfantasyleague_menu { border-bottom-color: var(--pdl-rule); }
+.myfantasyleague_menu li:hover > a, .myfantasyleague_menu ul li ul li:hover > a,
+.myfantasyleague_tabmenu #homepagetabs li:hover { background-color: var(--pdl-rule); }
+.myfantasyleague_tabmenu { border-color: var(--pdl-rule); box-shadow: none; }
+.myfantasyleague_tabmenu #homepagetabs li.currenttab,
+.myfantasyleague_tabmenu #homepagetabs li.currenttab:hover { background: var(--pdl-accent); }
+.myfantasyleague_tabmenu #homepagetabs li.currenttab a { color: #fff; }
+#hsubmenu { background: var(--pdl-surface); border-color: var(--pdl-rule); box-shadow: none; }
+#hsubmenu ul li { border-left-color: var(--pdl-rule); }
+#hsubmenu a:link, #hsubmenu a:visited { color: var(--pdl-ink-2); text-decoration: none; }
+#hsubmenu ul li:hover { background: var(--pdl-rule); }
+#hsubmenu ul li:hover a { color: var(--pdl-ink); }
+.pagetitle h1 a:link, .pagetitle h1 a:visited { text-decoration: none; }
+
+/* module headers: flat, with the banner's orange rule */
+caption, .homepagemodule caption, .homepagecolumn .homepagemodule caption {
+  background: var(--pdl-surface) none; color: var(--pdl-ink); font-family: var(--pdl-sans); font-weight: 700;
+  letter-spacing: .03em; border-color: var(--pdl-rule); border-bottom: 3px solid var(--pdl-accent-2);
+}
+caption a:link, caption a:active, caption a:visited { color: var(--pdl-ink) !important; }
+h2 { background: var(--pdl-surface); color: var(--pdl-ink); }
+h3 { color: var(--pdl-ink); }
+#standings h3, .homepagecolumn #standings h3, .homepagecolumn #brief_standings h3, #brief_standings h3 {
+  background: var(--pdl-surface) none; color: var(--pdl-ink); border-color: var(--pdl-rule);
+  border-left: 4px solid var(--pdl-accent);
+}
+
+/* tables */
+th { background: var(--pdl-surface); color: var(--pdl-ink-3); border-bottom: 2px solid var(--pdl-rule); letter-spacing: .04em; }
+th a:link, th a:active, th a:visited { color: var(--pdl-ink-2); }
+.oddtablerow { background: var(--pdl-surface); color: var(--pdl-ink-2) !important; }
+.eventablerow { background: var(--pdl-row); color: var(--pdl-ink-2) !important; }
+.newposition td, .newposition th { border-top-color: var(--pdl-rule); }
+
+/* warnings and hints, which Onyx paints gold */
+.warning, th.warning, body div.hint, abbr, .homepagemessage span.warning, .homepagemessage h4.warning,
+#MFLPlayerPopupContainer .warning { color: var(--pdl-accent-2); }
+.oddtablerow td.status span.freeagent, .eventablerow td.status span.freeagent { color: var(--pdl-mark); }
+.franchise_online::after { background: var(--pdl-mark); }
+
+/* buttons */
+input[type="button"], input[type="submit"] { background: var(--pdl-accent); color: #fff; border-color: var(--pdl-accent); }
+input[type="button"]:hover, input[type="submit"]:hover { background: var(--pdl-link); color: #fff; border-color: var(--pdl-link); }

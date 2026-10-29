@@ -326,6 +326,7 @@ def main():
     os.makedirs(f"{DIST}/rules")
     os.makedirs(f"{DIST}/assets")
     shutil.copy(f"{SITE}/site.css", f"{DIST}/assets/site.css")
+    shutil.copy(f"{SITE}/mfl.css", f"{DIST}/mfl.css")   # what MFL's league CSS setting points at
     for name in os.listdir(f"{SITE}/assets"):   # the moose, and the script that sets it loose
         shutil.copy(f"{SITE}/assets/{name}", f"{DIST}/assets/{name}")
     last = rb.latest_season()
