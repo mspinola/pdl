@@ -19,7 +19,9 @@ the other five are 2012, evidently written before that season's last weeks.
     python3 src/legacy_record_book.py ~/code/mspinola --apply
 
 Each run adds the seasons the page does not have yet, so after a season ends
-the next run adds that one.
+the next run adds that one. --correct-dry-run and --correct rewrite the kept
+entries that the games contradict (team records for every season, position
+records from 2008), and mark the page as corrected.
 """
 import json, os, re, sys
 
@@ -168,7 +170,48 @@ def apply(site, write):
     return 0
 
 
+POSITION_RELIABLE = 2008   # MFL's scoring follows the rule book from 2008 (docs/rulebook/mfl-check.md)
+CORRECTED = ("<P><I>Corrected on 2026-10-29 to match the games: team records for every season, and a position's "
+             "best game from 2008. Before 2008 the position records are as they were kept, since the archive's "
+             "scoring for those seasons does not follow the rule book.</I></P>")
+
+
+def correct(site, write):
+    """Rewrite the entries the games contradict, from 2000 to the last kept season."""
+    path = f"{site}/{PAGE}"
+    html = open(path, encoding="latin-1").read()
+    fixed = []
+    for y in range(2000, FIRST_NEW):
+        computed = team_entries(y)
+        if y >= POSITION_RELIABLE:
+            computed.update(player_entries(y))
+        for cat, (v, who) in computed.items():
+            head = f"<h3>{cat}</h3></i>"
+            i = html.find(head)
+            if i < 0:
+                continue
+            j = html.find("<h3>", i + len(head))
+            seg = html[i:j if j > 0 else len(html)]
+            m = re.search(rf"\n<li><B>{y}</B>\s*\((-?[\d.]+)\)[^\n]*", seg)
+            if not m or round(float(m.group(1)), 1) == round(v, 1):
+                continue
+            line = f"\n<li><B>{y}</B> ({pts(v, y)}) {who}"
+            fixed.append((y, cat, m.group(0).strip(), line.strip()))
+            html = html[:i] + seg.replace(m.group(0), line, 1) + html[i + len(seg):]
+    if fixed and CORRECTED not in html:
+        first_cat = html.find("<i><h3>")
+        html = html[:first_cat] + CORRECTED + "\n" + html[first_cat:]
+    for y, cat, was, now in fixed:
+        print(f"  {y} {cat}: {re.sub('<[^>]+>', '', was)}  ->  {re.sub('<[^>]+>', '', now)}")
+    print(f"{'corrected' if write else 'would correct'} {len(fixed)} entries")
+    if write:
+        open(path, "w", encoding="latin-1").write(html)
+    return 0
+
+
 if __name__ == "__main__":
+    if len(sys.argv) >= 3 and sys.argv[2] in ("--correct-dry-run", "--correct"):
+        sys.exit(correct(os.path.expanduser(sys.argv[1]), sys.argv[2] == "--correct"))
     if len(sys.argv) < 3 or sys.argv[2] not in ("--dry-run", "--apply"):
         print(__doc__)
         sys.exit(2)
