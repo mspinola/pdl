@@ -359,20 +359,26 @@ html.outage-on body { animation: outage-crt-on .6s ease-out; }
 @media print { .train { display: none; } }
 /* the Tally Wackers' tank (site/assets/tank.js): it rolls in under a report card on the tank season */
 .tank { position: fixed; left: 0; bottom: 8px; z-index: 50; width: min(60vw, 240px); cursor: pointer;
-  animation: tank-cross 16s linear forwards; }
+  animation: tank-cross 21s linear forwards; }
 .tank svg { display: block; width: 100%; height: auto; }
+/* 21 seconds: in by 2.7, parked under the card to 13.7, into the wall at 15.1 (40px wide), a
+   bounce, then burning until it fades */
 @keyframes tank-cross {
   0% { transform: translateX(-110%); animation-timing-function: ease-out; }
-  16% { transform: translateX(calc(50vw - 50%)); }
-  85% { transform: translateX(calc(50vw - 50%)); animation-timing-function: ease-in; }
-  100% { transform: translateX(100vw); } }
-.tank-wheel { animation: tank-wheel 16s linear forwards; }
-@keyframes tank-wheel { 0% { transform: rotate(0); } 16%, 85% { transform: rotate(900deg); } 100% { transform: rotate(1500deg); } }
+  13% { transform: translateX(calc(50vw - 50%)); }
+  65% { transform: translateX(calc(50vw - 50%)); animation-timing-function: ease-in; }
+  72% { transform: translateX(calc(100vw - 100% - 40px)); }
+  73.5% { transform: translateX(calc(100vw - 100% - 58px)) rotate(-4deg); }
+  75.5% { transform: translateX(calc(100vw - 100% - 48px)) rotate(1.5deg); }
+  77%, 95% { transform: translateX(calc(100vw - 100% - 50px)) rotate(0); opacity: 1; }
+  100% { transform: translateX(calc(100vw - 100% - 50px)); opacity: 0; } }
+.tank-wheel { animation: tank-wheel 21s linear forwards; }
+@keyframes tank-wheel { 0% { transform: rotate(0); } 13%, 65% { transform: rotate(900deg); } 72%, 100% { transform: rotate(1500deg); } }
 .tank-card { position: absolute; bottom: 100%; left: 50%; width: max-content; max-width: min(86vw, 300px); margin-bottom: 4px;
   padding: 10px 14px 10px 12px; color: #111; background: #fffdf5; border: 1px solid #d8d2bf; border-radius: 6px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, .35); font: 14px/1.35 var(--sans); opacity: 0; transform: translateX(-50%);
-  animation: tank-talk 16s linear forwards; }
-@keyframes tank-talk { 0%, 17% { opacity: 0; } 19%, 83% { opacity: 1; } 85%, 100% { opacity: 0; } }
+  animation: tank-talk 21s linear forwards; }
+@keyframes tank-talk { 0%, 13.5% { opacity: 0; } 15%, 63% { opacity: 1; } 64.5%, 100% { opacity: 0; } }
 .tank-card b { display: block; margin: 0 0 6px; letter-spacing: .06em; text-transform: uppercase; font-size: 12px; }
 .tank-card ul { margin: 0; padding-left: 1.1em; }
 .tank-grade { display: block; margin-top: 6px; color: #c0281c; font: 700 22px/1 "Marker Felt", "Segoe Print", "Comic Sans MS", cursive;
@@ -381,6 +387,28 @@ html.outage-on body { animation: outage-crt-on .6s ease-out; }
 .tank-calm .tank-card { left: 0; opacity: 1; transform: none; animation: none; }
 .tank-calm .tank-wheel { animation: none; }
 @media print { .tank { display: none; } }
+/* the crash: flames and smoke from 15.1 seconds, and the wall, which rises at 12.5 and shakes on impact */
+.tank-fire { opacity: 0; animation: tank-ignite .25s ease-out 15.1s forwards; }
+@keyframes tank-ignite { to { opacity: 1; } }
+.tank-fire path { transform-box: fill-box; transform-origin: 50% 100%; animation: tank-flicker .22s ease-in-out infinite alternate; }
+.tank-fire path:nth-of-type(2n) { animation-duration: .3s; animation-delay: -.1s; }
+@keyframes tank-flicker { from { transform: scale(.85, .8) skewX(-4deg); } to { transform: scale(1.05, 1.15) skewX(4deg); } }
+.tank-smoke circle { fill: #a8a8a8; transform-box: fill-box; transform-origin: center; animation: tank-puff 1.4s ease-out infinite; }
+.tank-smoke circle:nth-child(2) { animation-delay: .45s; }
+.tank-smoke circle:nth-child(3) { animation-delay: .9s; }
+@keyframes tank-puff { from { opacity: .8; transform: translateY(8px) scale(.6); } to { opacity: 0; transform: translateY(-34px) scale(1.8); } }
+.tank-wall { position: fixed; right: 0; bottom: 0; z-index: 49; width: 40px; height: 190px; pointer-events: none;
+  background-color: #8e3b2a;
+  background-image: linear-gradient(#5b241a 2px, transparent 2px), linear-gradient(90deg, #5b241a 2px, transparent 2px),
+    linear-gradient(90deg, #5b241a 2px, transparent 2px);
+  background-size: 40px 20px, 40px 40px, 40px 40px; background-position: 0 0, 10px 0, 30px 20px;
+  box-shadow: -3px 0 10px rgba(0, 0, 0, .4); transform: translateY(105%);
+  animation: tank-wall-up .6s ease-out 12.5s forwards, tank-wall-hit .35s ease-in-out 15.1s, tank-wall-down .5s ease-in 20.4s forwards; }
+@keyframes tank-wall-up { to { transform: none; } }
+@keyframes tank-wall-hit { 0%, 100% { transform: none; } 25% { transform: translateX(5px); } 60% { transform: translateX(-3px); } }
+@keyframes tank-wall-down { from { transform: none; } to { transform: translateY(105%); } }
+.tank-calm .tank-fire { display: none; }
+@media print { .tank-wall { display: none; } }
 
 /* the Tally Wackers' attendance sheet (eggs.attendance, shown by site/assets/clip.js): a clipboard,
    in its own colours whatever the site's theme */

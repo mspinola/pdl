@@ -1,7 +1,7 @@
 // The Tally Wackers' tank. See site/eggs.json "tank": loaded only on their franchise page.
 // A tank flying the tank season's flag rolls in from the left, stops mid-screen under a report
-// card on that season (from eggs.tank_card()), and rolls off to the right. Reduced motion gets
-// it parked at the left with the card up.
+// card on that season (from eggs.tank_card()), then charges a brick wall at the right edge,
+// bounces off it and burns. Reduced motion gets it parked at the left with the card up.
 (function () {
   // 240 by 150, facing right, the flag's words filled in
   function tank(flag) {
@@ -20,6 +20,15 @@
           "<circle cx='" + x + "' cy='122' r='11' fill='#5c6148'/>" +
           "<path d='M" + x + " 113 V131 M" + (x - 9) + " 122 H" + (x + 9) + "' stroke='#2f3326' stroke-width='2'/></g>";
       }).join("") +
+      // the fire after the crash: three flames and their smoke, at the front of the tank
+      "<g class='tank-fire'>" +
+      "<g class='tank-smoke'><circle cx='170' cy='34' r='12'/><circle cx='190' cy='24' r='10'/><circle cx='150' cy='22' r='9'/></g>" +
+      "<path d='M150 104 C140 80 160 70 156 46 C176 64 182 84 172 104 Z' fill='#ff7a1a'/>" +
+      "<path d='M178 104 C168 74 192 62 186 30 C210 58 214 86 200 104 Z' fill='#ff4d1a'/>" +
+      "<path d='M120 104 C114 86 128 78 126 60 C142 74 146 90 138 104 Z' fill='#ff9a1a'/>" +
+      "<path d='M184 104 C178 86 192 78 190 60 C202 76 204 92 196 104 Z' fill='#ffd84a'/>" +
+      "<path d='M154 104 C150 90 160 84 158 72 C168 82 170 94 164 104 Z' fill='#ffd84a'/>" +
+      "</g>" +
       "</svg>";
   }
 
@@ -56,9 +65,17 @@
     document.body.appendChild(el);
     // the page and its styles can be a deploy apart for a few minutes: skip this visit rather than show it unstyled
     if (getComputedStyle(el).position !== "fixed") { el.remove(); return; }
-    el.addEventListener("click", function () { el.remove(); });
-    el.addEventListener("animationend", function (e) { if (e.target === el) el.remove(); });
-    if (calm) setTimeout(function () { el.remove(); }, 14000);
+    // the wall it hits, at the right edge (none for reduced motion, which never drives off)
+    var wall = null;
+    if (!calm) {
+      wall = document.createElement("div");
+      wall.className = "tank-wall";
+      document.body.appendChild(wall);
+    }
+    function done() { el.remove(); if (wall) wall.remove(); }
+    el.addEventListener("click", done);
+    el.addEventListener("animationend", function (e) { if (e.target === el) done(); });
+    if (calm) setTimeout(done, 14000);
   }
   window.pdlTank = roll;
 })();
