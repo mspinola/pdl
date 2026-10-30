@@ -15,6 +15,20 @@
 /* the page */
 html { background: var(--pdl-bg); }
 body { background: var(--pdl-bg) none; color: var(--pdl-ink-2); font-family: var(--pdl-sans); }
+
+/* Each owner can pick their own skin, and this loads after whichever it is. The
+   rules above match Onyx, the league's skin; these hold the rest down (MFL's own
+   skin, for one, paints the page and its tables light with white cell borders). */
+.pageheader, .pagebody, #withmenus, #contentframe { background-color: var(--pdl-bg) !important; background-image: none !important; }
+table.report, .homepagemodule, tr.reportfooter, tr.reportfooter td {
+  background-color: var(--pdl-surface) !important; background-image: none !important; color: var(--pdl-ink-2);
+}
+table, td, th, table.report, .homepagemodule { border-color: var(--pdl-rule) !important; }
+.pageheader td.welcome { background: transparent !important; color: var(--pdl-ink-2) !important; }
+/* the team skins (Steel City and the like) hide the league banner and draw their
+   own logo over the header; the league's banner stays */
+td.bannerimage { display: table-cell !important; }
+table.pageheader::before { display: none !important; }
 .pagetitle h1 { color: var(--pdl-ink); letter-spacing: .02em; }
 .pagetitle h1 a:link, .pagetitle h1 a:visited { color: var(--pdl-ink); }
 
