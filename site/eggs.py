@@ -389,6 +389,21 @@ def rx():
             f"<p class='rx-second'>{E(r['second'])}</p>{sign}</div></aside></template>")
 
 
+def page_heckle(h):
+    """A quote pinned to a franchise page, signed, with a line checked against the record: {playoffs},
+    {finals} and {titles} for the team, and {next_team} and {next_playoffs}, the most playoff trips
+    of any other team without a title."""
+    done = [y for y in d.seasons() if y in d.champions()]
+    def counts(t):
+        return (sum(1 for y in done if d.finish(y, t)), sum(1 for y in done if d.finish(y, t) in ("champion", "runner-up")),
+                sum(1 for y in done if d.champions()[y] == t))
+    playoffs, finals, titles = counts(h["team"])
+    rest = sorted(((counts(t)[0], t) for t in d.identities() if t != h["team"] and counts(t)[2] == 0), reverse=True)
+    facts = {"playoffs": playoffs, "finals": finals, "titles": titles, "next_team": rest[0][1], "next_playoffs": rest[0][0]}
+    return (f"<p class='page-heckle'>\u201c{E(h['text'])}\u201d<i>{E(h['by'])}</i>"
+            f"<small>{E(h['check'].format(**facts))}</small></p>")
+
+
 def build(dist):
     with open(f"{dist}/404.html", "w") as f:
         f.write(not_found())
@@ -431,6 +446,12 @@ def build(dist):
     k = config()["tank"]
     arrive(dist, k["team"], f"pdlTank({json.dumps(tank_card())}); setTimeout(() => pdlCard('pdl-attendance', "
                             f"{k['sheet_seconds']}), {k['sheet_after_ms']})", ["tank.js"], attendance())
+    # other teams' quotes, pinned under a franchise's facts for good, each with a check from the record
+    for h in config()["page_heckles"]:
+        p = f"{dist}/franchises/{slug(h['team'])}.html"
+        if os.path.exists(p):
+            html = open(p).read().replace("<h2>How it is run</h2>", page_heckle(h) + "<h2>How it is run</h2>", 1)
+            open(p, "w").write(html)
     # the Iron City Pounders: the Autumn Bowl program on arrival, and the plaque on the wall
     ic = config()["iron_city"]
     arrive(dist, ic["team"], f"pdlCard('pdl-autumn', {ic['program_seconds']})", ["clip.js"], autumn())

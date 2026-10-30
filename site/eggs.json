@@ -330,5 +330,14 @@
   ],
   "script": "Take two Barneys and call me in the morning.",
   "second": "Second opinion, Texas Nashvillians: “The dumbest doctor I know.”"
- }
+ },
+ "page_heckles": [
+  {
+   "team": "Tally Wackers",
+   "by": "Otters",
+   "text": "I can't believe the Tally Wackers have made the playoffs 19 times and have never won a championship. That might be more impressive than actually winning every now and then. Is Tomlin coaching them?",
+   "check": "Record check: {playoffs} playoff trips, {finals} Super Bowls, {titles} titles. The most playoff trips without a title by anyone else: {next_team}, {next_playoffs}."
+  }
+ ],
+ "page_heckles_note": "Quotes from other teams, pinned under a franchise's facts on its page for good, each with a check from the record beneath it. eggs.page_heckle()."
 }

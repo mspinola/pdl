@@ -510,6 +510,13 @@ html.outage-on body { animation: outage-crt-on .6s ease-out; }
 .rx-sign { display: block; width: 130px; height: 30px; margin: 4px 0 0 auto; }
 @media (prefers-reduced-motion: reduce) { .rx, .rx.up { transition: none; transform: none; } }
 @media print { .rx { display: none; } }
+/* other teams' quotes pinned to a franchise page (eggs.page_heckle): a sticky note, its own colours */
+.page-heckle { max-width: 440px; margin: 4px 0 26px; padding: 10px 12px; color: #1d1d1d; background: #9fe3ff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .3); transform: rotate(-1.2deg);
+  font: 15px/1.35 "Marker Felt", "Segoe Print", "Comic Sans MS", cursive; }
+.page-heckle i { display: block; margin-top: 4px; font-style: normal; text-align: right; }
+.page-heckle small { display: block; margin-top: 6px; padding-top: 5px; border-top: 1px dashed rgba(0, 0, 0, .3);
+  font: 12px/1.35 var(--sans); }
 /* the commissioner's build log (site/assets/commish.js), on the Moose's page: a terminal, so its
    own dark colours whatever the site's theme */
 .commish { position: fixed; right: 16px; bottom: 16px; z-index: 50; width: min(calc(100vw - 32px), 500px);
