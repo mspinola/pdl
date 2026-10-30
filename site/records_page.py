@@ -10,7 +10,8 @@ from collections import defaultdict
 import league_data as d
 from frame import E, num, page, record, slug
 
-ERAS = [("2000 to 2017", 2000, 2017), ("2018 on", 2018, 9999)]
+# the current era first, so the page opens on records still in play
+ERAS = [("2018 on", 2018, 9999), ("2000 to 2017", 2000, 2017)]
 
 
 def team_link(t):
@@ -94,6 +95,24 @@ def seasons_records():
     return "".join(out)
 
 
+def year_by_year(games):
+    """One row a finished season, newest first, as the original site's record book ran."""
+    rows = []
+    for y in sorted((y for y in d.seasons() if y in d.champions()), reverse=True):
+        st = d.standings(y)
+        best = max(st, key=lambda r: ((r["w"] + 0.5 * r["t"]) / max(1, r["w"] + r["l"] + r["t"]), r["pf"]))
+        most = max(st, key=lambda r: r["pf"])
+        high = max(((s, t) for g in games if g["season"] == y and g["stage"] == "regular" for t, s, *_ in sides(g)),
+                   default=None)
+        rows.append(f"<tr><td><a href='../seasons/{y}.html'>{y}</a></td><td class='l'>{team_link(d.champions()[y])}</td>"
+                    f"<td class='l'>{team_link(best['team'])} {record(best['w'], best['l'], best['t'])}</td>"
+                    f"<td class='l'>{team_link(most['team'])} {num(most['pf'])}</td>"
+                    f"<td class='l'>{team_link(high[1]) + ' ' + num(high[0]) if high else ''}</td></tr>")
+    return ("<p class='meta'>Regular season only, as the original site's record book counts it. Best record breaks "
+            "ties on points. Points are not comparable across 2018, when scoring rose by about half.</p>"
+            + table([("Season", ""), ("Champion", "l"), ("Best record", "l"), ("Most points", "l"), ("Top game", "l")], rows))
+
+
 def streaks():
     by_team = defaultdict(list)
     for g in sorted([g for g in d.games() if g["stage"] == "regular"], key=lambda g: (g["season"], g["week"])):
@@ -164,8 +183,9 @@ def build(dist):
     body = ("<div class='season'><h1>The record book</h1><p class='lede'>Computed from every game since 2000: the regular "
             "season and the championship playoffs, not the toilet bowl. Points records are split at 2018, when the rule "
             "changes raised scoring by about half. The season in progress is left out of season and franchise records.</p>"
-            "<nav class='pn'><a href='#games'>Games</a><a href='#seasons'>Seasons</a><a href='#streaks'>Streaks</a>"
-            "<a href='#franchises'>Franchises</a><a href='#lineups'>Lineups</a></nav>"
+            "<nav class='pn'><a href='#years'>Year by year</a><a href='#games'>Games</a><a href='#seasons'>Seasons</a>"
+            "<a href='#streaks'>Streaks</a><a href='#franchises'>Franchises</a><a href='#lineups'>Lineups</a></nav>"
+            f"<h2 id='years'>Year by year</h2>{year_by_year(games)}"
             f"<h2 id='games'>Single games</h2>{single_games(games)}"
             f"<h2 id='seasons'>Seasons</h2>{seasons_records()}"
             f"<h2 id='streaks'>Streaks</h2>{streaks()}"
