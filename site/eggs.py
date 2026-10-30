@@ -12,7 +12,7 @@ import json, os, re
 from functools import lru_cache
 
 import league_data as d
-from frame import E, num, page, record, slug
+from frame import E, num, page, record, slug, ver
 
 SITE = os.path.dirname(os.path.abspath(__file__))
 
@@ -138,7 +138,7 @@ def build(dist):
     for c in config()["clips"]:
         p = f"{dist}/franchises/{slug(c['team'])}.html"
         if os.path.exists(p):
-            html = open(p).read().replace("</body>", "<script src='../assets/clip.js'></script><script>addEventListener("
+            html = open(p).read().replace("</body>", f"<script src='../assets/clip.js?v={ver('assets/clip.js')}'></script><script>addEventListener("
                                           f"'load', () => pdlClip({json.dumps(c['clip'])}, {c['seconds']}, {json.dumps(c.get('youtube'))}));</script></body>", 1)
             open(p, "w").write(html)
     # the antlers go on last, over every finished page

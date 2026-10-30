@@ -1,7 +1,16 @@
 """The page frame every site page shares, and small formatting helpers."""
-import html, re
+import hashlib, html, os, re
+from functools import lru_cache
 
 E = html.escape
+SITE = os.path.dirname(os.path.abspath(__file__))
+
+
+@lru_cache(maxsize=None)
+def ver(path):
+    """A fingerprint of a site/ source file, for its link: GitHub Pages lets a browser keep
+    an asset ten minutes, so a page could otherwise run with the previous script or styles."""
+    return hashlib.sha1(open(f"{SITE}/{path}", "rb").read()).hexdigest()[:8]
 
 
 def slug(name):
@@ -32,10 +41,10 @@ def page(title, body, depth=1, description=""):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{E(title)}</title>
 <meta name="description" content="{E(description)}">
-<link rel="stylesheet" href="{up}assets/site.css">
+<link rel="stylesheet" href="{up}assets/site.css?v={ver("site.css")}">
 <script>addEventListener("beforeprint", () => document.querySelectorAll("details").forEach(d => d.open = true));</script>
-<script src="{up}assets/moose.js" defer></script>
-<script src="{up}assets/barney.js" defer></script>
+<script src="{up}assets/moose.js?v={ver("assets/moose.js")}" defer></script>
+<script src="{up}assets/barney.js?v={ver("assets/barney.js")}" defer></script>
 </head>
 <body>
 <header class="masthead">

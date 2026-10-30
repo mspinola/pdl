@@ -4,7 +4,7 @@
     if (document.querySelector(".barney-pop")) return;
     document.documentElement.classList.add("barney-mode");
     var img = new Image();
-    img.src = document.querySelector("link[rel=stylesheet]").href.replace("site.css", "barney.jpg");
+    img.src = document.querySelector("link[rel=stylesheet]").href.replace(/site\.css.*$/, "barney.jpg");
     img.alt = "";
     img.className = "barney-pop";
     document.body.appendChild(img);

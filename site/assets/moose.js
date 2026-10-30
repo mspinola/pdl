@@ -12,7 +12,7 @@
     var calm = matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (!calm) {
       var img = new Image();
-      img.src = document.querySelector("link[rel=stylesheet]").href.replace("site.css", "manic-moose.svg");
+      img.src = document.querySelector("link[rel=stylesheet]").href.replace(/site\.css.*$/, "manic-moose.svg");
       img.alt = "";
       img.className = "moose-run";
       document.body.appendChild(img);

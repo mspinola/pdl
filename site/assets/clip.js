@@ -4,7 +4,7 @@
   // video in YouTube's own player (muted, so the browser lets it start on its own)
   function clip(name, seconds, youtube) {
     if (document.querySelector(".clip-pop")) return;
-    var base = document.querySelector("link[rel=stylesheet]").href.replace("site.css", "");
+    var base = document.querySelector("link[rel=stylesheet]").href.replace(/site\.css.*$/, "");
     var calm = matchMedia("(prefers-reduced-motion: reduce)").matches;
     var still = youtube ? "https://i.ytimg.com/vi/" + youtube + "/hqdefault.jpg" : base + name + ".jpg";
     // reduced motion gets the still frame, not the clip
