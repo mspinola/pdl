@@ -5,7 +5,8 @@
     season_tooltip(season)   a tooltip on a season's title
     rivalry_caption(a, b, r) a line on the team's best series and every series it loses
     build(dist)              the 404 page and the unlinked museum at /moose/, and the F-Jackie
-                             egg's hint (the egg itself, typing "barney", is assets/barney.js)
+                             egg's hint (the egg itself, typing "barney", is assets/barney.js),
+                             and the arrival eggs on three franchise pages
 """
 import json, os, re
 from functools import lru_cache
@@ -122,7 +123,8 @@ def build(dist):
     with open(f"{dist}/{config()['museum']['path']}/index.html", "w") as f:
         f.write(museum())
     # each team's own franchise page sets its egg off on arrival: Barney for F-Jackie (whose
-    # title also carries the hint), Moose mode for the Moose. The scripts are assets/*.js.
+    # title also carries the hint), Moose mode for the Moose, the tube man for the Tally
+    # Wackers. The scripts are assets/*.js.
     b = config()["barney"]
     for t, call, hint in ((b["team"], "pdlBarney", b["hint"]), (team(), "pdlMoose", None)):
         p = f"{dist}/franchises/{slug(t)}.html"
@@ -132,6 +134,12 @@ def build(dist):
                 html = html.replace("<h1>", f"<h1 title='{E(hint)}'>", 1)
             html = html.replace("</body>", f"<script>addEventListener('load', () => window.{call} && {call}());</script></body>", 1)
             open(p, "w").write(html)
+    # the Tally Wackers' tube man has no other trigger, so his script loads on their page alone
+    p = f"{dist}/franchises/{slug(config()['tube_man']['team'])}.html"
+    if os.path.exists(p):
+        html = open(p).read().replace("</body>", "<script src='../assets/tubeman.js'></script>"
+                                      "<script>addEventListener('load', () => pdlTubeMan());</script></body>", 1)
+        open(p, "w").write(html)
     # the antlers go on last, over every finished page
     n = 0
     for root, _, files in os.walk(dist):

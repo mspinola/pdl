@@ -26,5 +26,9 @@
   "word": "barney",
   "what": "Typing barney on any page turns the site purple, pops up F-Jackie's Barney logo for a few seconds, and renames F-Jackie to Barney in every table until he leaves. Script: site/assets/barney.js. The image is F-Jackie's MFL logo since 2019, from the original site's images/logos. Picking F-Jackie in the trades page's team filter calls him too. He also pops up on arrival at F-Jackie's franchise page.",
   "hint": "Someone purple is never far away. Try typing his name."
+ },
+ "tube_man": {
+  "team": "Tally Wackers",
+  "what": "Arriving at the Tally Wackers' franchise page, an inflatable tube man slides up in the corner and flails for nine seconds (a click sends him off). Script: site/assets/tubeman.js, loaded on that page only. The clip is site/assets/tube-man.mp4, made from the GIF the commissioner supplied in 2026, with tube-man.jpg as its still for reduced motion."
  }
 }
