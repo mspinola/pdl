@@ -212,13 +212,14 @@ img.barney-pop.up { transform: translateY(0) rotate(-3deg); animation: barney-bo
 @keyframes barney-bob { to { transform: translateY(-10px) rotate(3deg); } }
 @media (prefers-reduced-motion: reduce) { img.barney-pop, img.barney-pop.up { transition: none; animation: none; transform: none; } }
 @media print { img.barney-pop { display: none; } }
-/* the Tally Wackers egg (site/assets/tubeman.js): the inflatable tube man slides up and flails */
-.tube-pop { position: fixed; right: 16px; bottom: 16px; width: min(40vw, 180px); z-index: 50; cursor: pointer;
+/* the arrival clips (site/assets/clip.js): a clip slides up in the corner and plays */
+/* sized by height, so a square clip comes out wider than a tall one */
+.clip-pop { position: fixed; right: 16px; bottom: 16px; height: min(40vh, 260px); width: auto; max-width: 45vw; z-index: 50; cursor: pointer;
   border-radius: 10px; box-shadow: 0 6px 24px rgba(0, 0, 0, .35); transform: translateY(130%);
   transition: transform .6s cubic-bezier(.2, 1.4, .4, 1); }
-.tube-pop.up { transform: translateY(0); }
-@media (prefers-reduced-motion: reduce) { .tube-pop, .tube-pop.up { transition: none; transform: none; } }
-@media print { .tube-pop { display: none; } }
+.clip-pop.up { transform: translateY(0); }
+@media (prefers-reduced-motion: reduce) { .clip-pop, .clip-pop.up { transition: none; transform: none; } }
+@media print { .clip-pop { display: none; } }
 @media print { .moose::before, .banner.moose-title::after { display: none; } }
 .bar.later .b { background: var(--accent-2); }
 .bar .y a { color: inherit; text-decoration: none; }
