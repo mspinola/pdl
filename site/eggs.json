@@ -119,5 +119,23 @@
   ],
   "best": "Back in {year} we went {record} and nobody made a fuss.",
   "now": "{record} this season. Don't talk to me."
+ },
+ "build_log": {
+  "team": "Manic Moose",
+  "delay_ms": 3600,
+  "what": "Once Moose mode has run on the Moose's franchise page, a terminal slides up in the corner and types out the commissioner's site build, its counts from the record, the rule book's ledger and the built site. It closes itself after, or with its button. Script: site/assets/commish.js. A line starting \"$ \" is typed out, and a \"|\" is a pause.",
+  "lines": [
+   "$ python3 build.py --commissioner-mode",
+   "Loading {seasons} seasons, {games} games...| done",
+   "Computing all-play, luck and standard deviations nobody asked for...| done",
+   "Applying {changes} rule changes since 2000...| done",
+   "Checking the rule book for bias toward the Moose...| 0 found",
+   "Re-checking...| still 0",
+   "Counting Moose titles...| {titles} ({title_years})",
+   "Checking 2017 again...| still {titles}",
+   "Writing {pages} pages nobody will read...| done",
+   "WARNING: commissioner has not gone outside since August",
+   "$ git commit -m \"small fix\""
+  ]
  }
 }

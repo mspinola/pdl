@@ -357,6 +357,24 @@ html.outage-on body { animation: outage-crt-on .6s ease-out; }
 .train-calm .train-bubble { left: auto; right: 0; opacity: 1; animation: none; }
 .train-calm .train-wheel, .train-calm .train-smoke circle { animation: none; }
 @media print { .train { display: none; } }
+/* the commissioner's build log (site/assets/commish.js), on the Moose's page: a terminal, so its
+   own dark colours whatever the site's theme */
+.commish { position: fixed; right: 16px; bottom: 16px; z-index: 50; width: min(calc(100vw - 32px), 500px);
+  overflow: hidden; color: #d6e2d6; background: #0d1210; border: 1px solid #2c3a31; border-radius: 10px;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, .5); transform: translateY(130%); transition: transform .6s cubic-bezier(.2, 1.2, .4, 1); }
+.commish.up { transform: none; }
+.commish-bar { display: flex; align-items: center; gap: 6px; padding: 7px 10px; background: #1b231e; }
+.commish-bar span { width: 11px; height: 11px; border-radius: 50%; background: #ff5f57; }
+.commish-bar span:nth-child(2) { background: #febc2e; }
+.commish-bar span:nth-child(3) { background: #28c840; }
+.commish-bar b { flex: 1; color: #9fb0a4; font: 500 12px/1 var(--sans); text-align: center; }
+.commish-bar button { padding: 0 4px; color: #9fb0a4; background: none; border: 0; font: 18px/1 var(--sans); cursor: pointer; }
+.commish pre { height: min(20em, 55vh); margin: 0; padding: 10px 12px; overflow: auto; white-space: pre-wrap;
+  font: 12.5px/1.5 ui-monospace, Menlo, Consolas, monospace; }
+.commish pre::after { content: "\2588"; color: #5fd38d; animation: commish-blink 1s steps(1) infinite; }
+@keyframes commish-blink { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .commish { transition: none; } .commish pre::after { animation: none; } }
+@media print { .commish { display: none; } }
 @media print { .moose::before, .banner.moose-title::after { display: none; } }
 .bar.later .b { background: var(--accent-2); }
 .bar .y a { color: inherit; text-decoration: none; }

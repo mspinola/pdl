@@ -180,6 +180,19 @@ def grumbles():
     return lines
 
 
+def build_log(dist):
+    """The commissioner's build log, eggs.json's lines filled in from the record and the site."""
+    root = os.path.dirname(SITE)
+    titles = sorted(y for y, t in d.champions().items() if t == team())
+    facts = {
+        "seasons": len(d.seasons()), "games": f"{len(d.games()):,}",
+        "changes": len(json.load(open(f"{root}/rules/ledger.json"))["changes"]),
+        "titles": len(titles), "title_years": ", ".join(map(str, titles)),
+        "pages": sum(f.endswith(".html") for _, _, fs in os.walk(dist) for f in fs),
+    }
+    return [line.format(**facts) for line in config()["build_log"]["lines"]]
+
+
 def build(dist):
     with open(f"{dist}/404.html", "w") as f:
         f.write(not_found())
@@ -197,6 +210,9 @@ def build(dist):
         open(p, "w").write(html)
     arrive(dist, b["team"], "window.pdlBarney && pdlBarney()")
     arrive(dist, team(), "window.pdlMoose && pdlMoose()")
+    # and once the moose has run, the commissioner's build log
+    arrive(dist, team(), f"setTimeout(() => pdlBuildLog({json.dumps(build_log(dist))}), {config()['build_log']['delay_ms']})",
+           ["commish.js"])
     # the rest have no other trigger, so their scripts load on those pages alone
     for c in config()["clips"]:
         arrive(dist, c["team"], f"pdlClip({json.dumps(c['clip'])}, {c['seconds']}, {json.dumps(c.get('youtube'))}, "
