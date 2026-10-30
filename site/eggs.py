@@ -152,12 +152,18 @@ def magazine():
     got = sum(int(r["starts_any_team"]) for r in picks)
     usual = round(sum(float(r["expected_starts"]) for r in picks))
     since = d.identities()[m["team"]]["first_season"]
+    # the Pounders' and the Otters' heckles, the Munchers' own trades and seasons filled in
+    trades = sum(1 for x in d.trades() if m["team"] in (x["team_a"], x["team_b"]))
+    facts = {"trades": trades, "seasons": len(d.identities()[m["team"]]["seasons"])}
+    heckles = "".join(f"<p class='mag-heckle mag-heckle-{i}'>{E(h['text'].format(**facts))}<i>{E(h['by'])}</i></p>"
+                      for i, h in enumerate(m["heckles"], 1))
     return (f"<template id='pdl-magazine'><aside class='mag' title='Click to close'>"
             f"<div class='mag-top'><span>{max(d.seasons())} Draft Guide</span><span>$7.99 US<br>$9.99 CAN</span></div>"
             f"<div class='mag-title'>PDL<small>Fantasy Football</small></div>"
             f"<div class='mag-burst'>300 players ranked!</div>"
             f"<div class='mag-line'><b>Can't-miss sleepers!</b><ul>{names}</ul></div>"
             f"<div class='mag-line mag-small'>{E(m['cover_line'])} Mock drafts! Bye weeks!</div>"
+            f"{heckles}"
             f"<div class='mag-foot'><div class='mag-label'>{E(m['team']).upper()}<br>SUBSCRIBER SINCE {since}</div>"
             f"<div class='mag-barcode'></div></div>"
             f"<p class='mag-note'>Printed in June, before training camp. Drafted {ordinal(slots[0])} to "
@@ -292,6 +298,66 @@ def beers():
     return notes, rumors
 
 
+@lru_cache(maxsize=None)
+def roster_runs():
+    """Every run of seasons in a row a player spent on one team's roster, from the archived MFL
+    rosters (2003 on): (seasons, first, last, player id, team), longest first."""
+    root = os.path.dirname(SITE)
+    on = {}
+    years = sorted(int(y) for y in os.listdir(f"{root}/mfl_archive") if y.isdigit())
+    for yr in years:
+        names = {f["id"]: f["name"] for f in json.load(open(f"{root}/mfl_archive/{yr}/league.json"))["league"]["franchises"]["franchise"]}
+        for f in json.load(open(f"{root}/mfl_archive/{yr}/rosters.json"))["rosters"]["franchise"]:
+            for pl in (f["player"] if isinstance(f.get("player"), list) else [f["player"]] if f.get("player") else []):
+                on.setdefault((names[f["id"]], pl["id"]), []).append(yr)
+    runs = []
+    for (t, pid), ys in on.items():
+        start = prev = ys[0]
+        for y in ys[1:] + [None]:
+            if y != prev + 1 if y is not None else True:
+                runs.append((prev - start + 1, start, prev, pid, t))
+                start = y
+            prev = y if y is not None else prev
+    return sorted(runs, reverse=True), years[0]
+
+
+def player_name(pid):
+    idx = json.load(open(f"{os.path.dirname(SITE)}/player_index.json"))
+    last, _, first = idx.get(pid, {}).get("name", pid).partition(", ")
+    return f"{first} {last}".strip()
+
+
+def plaque():
+    """The Iron City Pounders' plaque: their longest-kept player, if it is the archive's longest
+    run on any roster, the runner-up on their own roster, and their trades over that run."""
+    ic = config()["iron_city"]
+    runs, since = roster_runs()
+    mine = [r for r in runs if r[4] == ic["team"]]
+    n, start, end, pid, _ = mine[0]
+    record = runs[0][4] == ic["team"]
+    in_run = [x for x in d.trades() if ic["team"] in (x["team_a"], x["team_b"]) and start <= int(x["season"]) <= end]
+    quiet = [y for y in range(start, end + 1) if not any(int(x["season"]) == y for x in in_run)]
+    facts = {"player": player_name(pid), "n": n, "start": start, "end": end, "since": since,
+             "runner": player_name(mine[1][3]), "runner_n": mine[1][0], "trades": len(in_run), "quiet": len(quiet),
+             "record": ic["record"].format(since=since) if record else ""}
+    lines = "".join(f"<p>{E(line.format(**facts))}</p>" for line in ic["plaque_lines"])
+    return (f"<div class='plaque' title='{E(ic['plaque_hint'])}'><div class='plaque-brass'><b>{E(ic['plaque_title'])}</b>"
+            f"<small>{E(ic['plaque_sub'].format(**facts))}</small><strong>{E(facts['player'])}</strong>{lines}"
+            f"<em>{E(ic['motto'])}</em></div></div>")
+
+
+def autumn():
+    """The Iron City Pounders' Autumn Bowl program, a <template> for assets/clip.js."""
+    ic = config()["iron_city"]
+    b = ic["program"]
+    return (f"<template id='pdl-autumn'><aside class='bowl' title='Click to close'>"
+            f"<p class='bowl-parish'>{E(b['masthead'])}</p><h3>{E(b['title'])}</h3>"
+            f"<p class='bowl-vs'>{E(b['home'])}<span>vs.</span>{E(b['away'])}</p>"
+            + "".join(f"<p>{E(t)}</p>" for t in b["details"])
+            + f"<hr><p class='bowl-feat'>{E(b['featuring'].format(team=ic['team']))}</p>"
+            f"<p class='bowl-small'>{E(b['footer'])}</p></aside></template>")
+
+
 def build(dist):
     with open(f"{dist}/404.html", "w") as f:
         f.write(not_found())
@@ -331,6 +397,13 @@ def build(dist):
     k = config()["tank"]
     arrive(dist, k["team"], f"pdlTank({json.dumps(tank_card())}); setTimeout(() => pdlCard('pdl-attendance', "
                             f"{k['sheet_seconds']}), {k['sheet_after_ms']})", ["tank.js"], attendance())
+    # the Iron City Pounders: the Autumn Bowl program on arrival, and the plaque on the wall
+    ic = config()["iron_city"]
+    arrive(dist, ic["team"], f"pdlCard('pdl-autumn', {ic['program_seconds']})", ["clip.js"], autumn())
+    p = f"{dist}/franchises/{slug(ic['team'])}.html"
+    if os.path.exists(p):
+        html = open(p).read().replace("</h1>", "</h1>" + plaque(), 1)
+        open(p, "w").write(html)
     bc = config()["beers"]
     notes, rumors = beers()
     arrive(dist, bc["team"], f"setTimeout(() => pdlNotes({json.dumps(notes)}), {bc['notes_after_ms']}); "

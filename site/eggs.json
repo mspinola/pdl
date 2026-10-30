@@ -78,9 +78,19 @@
  "magazine": {
   "team": "Karpet Munchers",
   "seconds": 14,
-  "what": "Arriving at the Karpet Munchers' franchise page, a glossy draft-guide magazine slides up in the corner. Its can't-miss sleepers are their own four worst early picks (rounds 1 and 2, 2008 on, by starts under what the slot usually yields), and a sticky note gives the starts. Built by eggs.magazine(), shown by site/assets/clip.js. A click closes it. The cover line and the Leshoure line on the note are the league's own story of the 2011 pick (5th overall, A.J. Green 6th, per the draft data).",
+  "what": "Arriving at the Karpet Munchers' franchise page, a glossy draft-guide magazine slides up in the corner. Its can't-miss sleepers are their own four worst early picks (rounds 1 and 2, 2008 on, by starts under what the slot usually yields), and a sticky note gives the starts. Built by eggs.magazine(), shown by site/assets/clip.js. A click closes it. The cover line and the Leshoure line on the note are the league's own story of the 2011 pick (5th overall, A.J. Green 6th, per the draft data). Two heckles are stuck on it, from the Pounders and the Otters, the trade count from the record.",
   "cover_line": "Exclusive: Achilles tendons are overrated!",
-  "note_extra": "Leshoure went one pick ahead of A.J. Green, with a torn Achilles."
+  "note_extra": "Leshoure went one pick ahead of A.J. Green, with a torn Achilles.",
+  "heckles": [
+   {
+    "text": "{trades} trades in {seasons} years. Do you own a phone?",
+    "by": "ICP"
+   },
+   {
+    "text": "Leshoure over A.J. Green. We'll never forget.",
+    "by": "Otters"
+   }
+  ]
  },
  "outage": {
   "team": "Texas Nashvillians",
@@ -269,5 +279,33 @@
   "from": "Super Bowl losses",
   "to": "Super Bowl appearances",
   "what": "On the Moose's own franchise page, the Super Bowl losses fact is labelled with \"Super Bowl losses\" struck through and \"Super Bowl appearances\" after it. The years listed are the same."
+ },
+ "iron_city": {
+  "team": "Iron City Pounders",
+  "what": "On the Iron City Pounders' franchise page, a typed parish-bulletin program for the Autumn Bowl (St. Sebastian's vs. St. Bonaventure's) slides up on arrival, and a plaque hangs under the team's name for good: its longest-kept player from the archived rosters (2003 on), the runner-up on its own roster, and its trades over that run. eggs.autumn() and eggs.plaque(); the program is shown by site/assets/clip.js.",
+  "program_seconds": 16,
+  "program": {
+   "masthead": "Parish Bulletin, Sports Supplement",
+   "title": "THE AUTUMN BOWL",
+   "home": "ST. SEBASTIAN'S",
+   "away": "ST. BONAVENTURE'S",
+   "details": [
+    "Kickoff after the 10 o'clock Mass.",
+    "Bake sale at halftime.",
+    "Please do not park on the rectory lawn."
+   ],
+   "featuring": "FEATURING the {team}, who will now tell you about it. Again.",
+   "footer": "Estimated length of story: 45 minutes."
+  },
+  "plaque_title": "EMPLOYEE OF THE MONTH",
+  "plaque_sub": "every month, {start} to {end}",
+  "plaque_lines": [
+   "{n} seasons on the roster. {record}",
+   "Runner-up: {runner}, {runner_n}.",
+   "Trades in that time: {trades}. Seasons without one: {quiet}."
+  ],
+  "record": "A PDL record (rosters kept since {since}).",
+  "plaque_hint": "From the archived MFL rosters, end of each season, 2003 on.",
+  "motto": "We don't trade. We wait."
  }
 }
