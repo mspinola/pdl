@@ -44,6 +44,8 @@
     el.appendChild(card);
     el.insertAdjacentHTML("beforeend", tank(c.flag));
     document.body.appendChild(el);
+    // the page and its styles can be a deploy apart for a few minutes: skip this visit rather than show it unstyled
+    if (getComputedStyle(el).position !== "fixed") { el.remove(); return; }
     el.addEventListener("click", function () { el.remove(); });
     el.addEventListener("animationend", function (e) { if (e.target === el) el.remove(); });
     if (calm) setTimeout(function () { el.remove(); }, 14000);

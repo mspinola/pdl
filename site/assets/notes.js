@@ -55,6 +55,8 @@
     html += "<div class='pad pad-board' style='--r:-2deg;--d:" + (pages.length * 0.08 + 0.2).toFixed(2) + "s;--s:0s'>" + board(c) + "</div>";
     el.innerHTML = html;
     document.body.appendChild(el);
+    // the page and its styles can be a deploy apart for a few minutes: skip this visit rather than show it unstyled
+    if (getComputedStyle(el).position !== "fixed") { el.remove(); return; }
     var gone = false;
     function sweep() {
       if (gone) return;

@@ -21,6 +21,8 @@
     el.appendChild(track);
     el.appendChild(x);
     document.body.appendChild(el);
+    // the page and its styles can be a deploy apart for a few minutes: skip this visit rather than show it unstyled
+    if (getComputedStyle(el).position !== "fixed") { el.remove(); return; }
     var timer;
     if (calm) {
       var i = 0;

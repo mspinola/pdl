@@ -11,6 +11,8 @@
     el.innerHTML = "<div class='commish-bar'><span></span><span></span><span></span>" +
       "<b>commissioner@pdl: ~/pdl</b><button type='button' aria-label='Close'>×</button></div><pre></pre>";
     document.body.appendChild(el);
+    // the page and its styles can be a deploy apart for a few minutes: skip this visit rather than show it unstyled
+    if (getComputedStyle(el).position !== "fixed") { el.remove(); return; }
     var pre = el.querySelector("pre");
     el.getBoundingClientRect();
     el.classList.add("up");

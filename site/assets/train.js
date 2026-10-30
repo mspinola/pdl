@@ -40,6 +40,8 @@
     el.appendChild(bubble);
     el.insertAdjacentHTML("beforeend", ENGINE);
     document.body.appendChild(el);
+    // the page and its styles can be a deploy apart for a few minutes: skip this visit rather than show it unstyled
+    if (getComputedStyle(el).position !== "fixed") { el.remove(); return; }
     el.addEventListener("click", function () { el.remove(); });
     // the crossing is a CSS animation; when it ends, so does the engine
     el.addEventListener("animationend", function (e) { if (e.target === el) el.remove(); });

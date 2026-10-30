@@ -19,6 +19,8 @@
       "<div class='trade-buttons'><button type='button' class='trade-yes'>Accept</button>" +
       "<button type='button' class='trade-no'>Decline</button></div></div>";
     document.body.appendChild(back);
+    // the page and its styles can be a deploy apart for a few minutes: skip this visit rather than show it unstyled
+    if (getComputedStyle(back).position !== "fixed") { back.remove(); return; }
     var card = back.querySelector(".trade-offer");
     var yes = back.querySelector(".trade-yes"), no = back.querySelector(".trade-no");
     var result = back.querySelector(".trade-result");

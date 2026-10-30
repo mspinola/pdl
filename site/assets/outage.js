@@ -44,9 +44,21 @@
     "<path class='spark' d='M312 18 L316 28 L326 24 L318 32 L328 38 L316 36 L312 46 L308 36 L296 38 L306 32 L298 24 L308 28 Z'/>" +
     "</svg>";
 
+  // the page and its styles can be a deploy apart for a few minutes: this is false until they match
+  function styled(cls, prop, want) {
+    var p = document.createElement("div");
+    p.className = cls;
+    p.hidden = true;
+    document.body.appendChild(p);
+    var ok = getComputedStyle(p)[prop] === want;
+    p.remove();
+    return ok;
+  }
+
   function outage() {
     var root = document.documentElement;
     if (root.classList.contains("outage")) return;
+    if (!styled("outage-scene", "position", "fixed")) return;
     var calm = matchMedia("(prefers-reduced-motion: reduce)").matches;
     var scene = document.createElement("div");
     scene.className = "outage-scene";

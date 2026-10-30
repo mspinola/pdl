@@ -53,6 +53,8 @@
   // slide el up in the corner, and off again after seconds (0 stays) or a click on closer
   function pop(el, seconds, closer) {
     document.body.appendChild(el);
+    // the page and its styles can be a deploy apart for a few minutes: skip this visit rather than show it unstyled
+    if (getComputedStyle(el).position !== "fixed") { el.remove(); return; }
     // read the layout first, so the slide starts from below rather than jumping
     el.getBoundingClientRect();
     el.classList.add("up");
