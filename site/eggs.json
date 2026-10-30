@@ -20,11 +20,11 @@
   "title": "America's Team",
   "text": "A franchise museum. There is no link to it, and the Moose would like it kept that way."
  },
- "konami": "Up up down down left right left right B A: the accent turns moose brown, the moose runs across the screen, and for a moment every team in the standings is the Moose. Picking the Moose in the trades page's team filter does the same.",
+ "konami": "Up up down down left right left right B A: the accent turns moose brown, the moose runs across the screen, and for a moment every team in the standings is the Moose. Picking the Moose in the trades page's team filter does the same. Arriving at the Moose's franchise page does too.",
  "barney": {
   "team": "F-Jackie",
   "word": "barney",
-  "what": "Typing barney on any page turns the site purple, pops up F-Jackie's Barney logo for a few seconds, and renames F-Jackie to Barney in every table until he leaves. Script: site/assets/barney.js. The image is F-Jackie's MFL logo since 2019, from the original site's images/logos. Picking F-Jackie in the trades page's team filter calls him too.",
+  "what": "Typing barney on any page turns the site purple, pops up F-Jackie's Barney logo for a few seconds, and renames F-Jackie to Barney in every table until he leaves. Script: site/assets/barney.js. The image is F-Jackie's MFL logo since 2019, from the original site's images/logos. Picking F-Jackie in the trades page's team filter calls him too. He also pops up on arrival at F-Jackie's franchise page.",
   "hint": "Someone purple is never far away. Try typing his name."
  }
 }

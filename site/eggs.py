@@ -121,12 +121,17 @@ def build(dist):
     os.makedirs(f"{dist}/{config()['museum']['path']}", exist_ok=True)
     with open(f"{dist}/{config()['museum']['path']}/index.html", "w") as f:
         f.write(museum())
-    # the F-Jackie egg's hint, as a tooltip on that team's page title (the egg itself is assets/barney.js)
+    # each team's own franchise page sets its egg off on arrival: Barney for F-Jackie (whose
+    # title also carries the hint), Moose mode for the Moose. The scripts are assets/*.js.
     b = config()["barney"]
-    p = f"{dist}/franchises/{slug(b['team'])}.html"
-    if os.path.exists(p):
-        html = open(p).read()
-        open(p, "w").write(html.replace("<h1>", f"<h1 title='{E(b['hint'])}'>", 1))
+    for t, call, hint in ((b["team"], "pdlBarney", b["hint"]), (team(), "pdlMoose", None)):
+        p = f"{dist}/franchises/{slug(t)}.html"
+        if os.path.exists(p):
+            html = open(p).read()
+            if hint:
+                html = html.replace("<h1>", f"<h1 title='{E(hint)}'>", 1)
+            html = html.replace("</body>", f"<script>addEventListener('load', () => window.{call} && {call}());</script></body>", 1)
+            open(p, "w").write(html)
     # the antlers go on last, over every finished page
     n = 0
     for root, _, files in os.walk(dist):
