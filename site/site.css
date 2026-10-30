@@ -406,35 +406,35 @@ html.outage-on body { animation: outage-crt-on .6s ease-out; }
 /* the Beers egg (site/assets/notes.js): a heap of legal-pad notes, the switchboard on top. Paper
    colours whatever the site's theme */
 .notes { position: fixed; inset: 0; z-index: 60; cursor: pointer; overflow: hidden; }
-.note { position: absolute; padding: 8px 10px 10px 26px; color: #1b2a6b; background: #fff7a8;
+.pad { position: absolute; padding: 8px 10px 10px 26px; color: #1b2a6b; background: #fff7a8;
   background-image: linear-gradient(90deg, transparent 18px, #e88 18px 19px, transparent 19px),
     repeating-linear-gradient(transparent 0 17px, #a9c4e8 17px 18px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, .35); font: 14px/18px "Bradley Hand", "Marker Felt", "Segoe Print", "Comic Sans MS", cursive;
-  transform: rotate(var(--r)); animation: note-drop .7s cubic-bezier(.3, .8, .4, 1.1) var(--d) both; }
-.note b { display: block; font-weight: 700; letter-spacing: .02em; }
-.note p { margin: 0; }
-.note s { color: #8a2b2b; }
-.note.ring::after { content: ""; position: absolute; right: 8px; bottom: 6px; width: 56px; height: 56px; border-radius: 50%;
+  transform: rotate(var(--r)); animation: pad-drop .7s cubic-bezier(.3, .8, .4, 1.1) var(--d) both; }
+.pad b { display: block; font-weight: 700; letter-spacing: .02em; }
+.pad p { margin: 0; }
+.pad s { color: #8a2b2b; }
+.pad.ring::after { content: ""; position: absolute; right: 8px; bottom: 6px; width: 56px; height: 56px; border-radius: 50%;
   border: 5px solid rgba(120, 72, 30, .28); }
-@keyframes note-drop { from { transform: translateY(-120vh) rotate(calc(var(--r) * 4)); } to { transform: rotate(var(--r)); } }
-.note-board { left: 50%; top: 50%; width: min(94vw, 480px); margin: 0; padding: 10px 12px 6px 30px;
-  transform: translate(-50%, -50%) rotate(var(--r)); animation-name: note-drop-mid; }
-@keyframes note-drop-mid { from { transform: translate(-50%, -170vh) rotate(-30deg); } to { transform: translate(-50%, -50%) rotate(var(--r)); } }
-.note-board svg { display: block; width: 100%; height: auto; overflow: visible; }
-.note-board line { stroke: #1b2a6b; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1;
-  animation: note-ink .5s ease-out forwards; }
-@keyframes note-ink { to { stroke-dashoffset: 0; } }
-.note-board text { fill: #1b2a6b; font: 10.5px "Bradley Hand", "Marker Felt", "Segoe Print", "Comic Sans MS", cursive; }
-.note-board .nb-title { font-size: 17px; font-weight: 700; letter-spacing: .08em; }
-.note-board .nb-me { font-size: 13px; font-weight: 700; }
-.note-board .nb-total { fill: #b3261e; font-size: 14px; font-weight: 700; }
-.note-board circle { fill: #fff7a8; stroke: #1b2a6b; stroke-width: 2; }
-.note-board ellipse { fill: none; stroke: #b3261e; stroke-width: 1.6; }
-.notes.sweep .note { animation: note-sweep .8s ease-in var(--s) forwards; }
-.notes.sweep .note-board { animation-name: note-sweep-mid; }
-@keyframes note-sweep { from { transform: rotate(var(--r)); } to { transform: translate(130vw, 30vh) rotate(60deg); } }
-@keyframes note-sweep-mid { from { transform: translate(-50%, -50%) rotate(var(--r)); } to { transform: translate(130vw, -20vh) rotate(50deg); } }
-.notes-calm .note, .notes-calm .note-board line { animation: none; stroke-dashoffset: 0; }
+@keyframes pad-drop { from { transform: translateY(-120vh) rotate(calc(var(--r) * 4)); } to { transform: rotate(var(--r)); } }
+.pad-board { left: 50%; top: 50%; width: min(94vw, 480px); margin: 0; padding: 10px 12px 6px 30px;
+  transform: translate(-50%, -50%) rotate(var(--r)); animation-name: pad-drop-mid; }
+@keyframes pad-drop-mid { from { transform: translate(-50%, -170vh) rotate(-30deg); } to { transform: translate(-50%, -50%) rotate(var(--r)); } }
+.pad-board svg { display: block; width: 100%; height: auto; overflow: visible; }
+.pad-board line { stroke: #1b2a6b; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1;
+  animation: pad-ink .5s ease-out forwards; }
+@keyframes pad-ink { to { stroke-dashoffset: 0; } }
+.pad-board text { fill: #1b2a6b; font: 10.5px "Bradley Hand", "Marker Felt", "Segoe Print", "Comic Sans MS", cursive; }
+.pad-board .nb-title { font-size: 17px; font-weight: 700; letter-spacing: .08em; }
+.pad-board .nb-me { font-size: 13px; font-weight: 700; }
+.pad-board .nb-total { fill: #b3261e; font-size: 14px; font-weight: 700; }
+.pad-board circle { fill: #fff7a8; stroke: #1b2a6b; stroke-width: 2; }
+.pad-board ellipse { fill: none; stroke: #b3261e; stroke-width: 1.6; }
+.notes.sweep .pad { animation: pad-sweep .8s ease-in var(--s) forwards; }
+.notes.sweep .pad-board { animation-name: pad-sweep-mid; }
+@keyframes pad-sweep { from { transform: rotate(var(--r)); } to { transform: translate(130vw, 30vh) rotate(60deg); } }
+@keyframes pad-sweep-mid { from { transform: translate(-50%, -50%) rotate(var(--r)); } to { transform: translate(130vw, -20vh) rotate(50deg); } }
+.notes-calm .pad, .notes-calm .pad-board line { animation: none; stroke-dashoffset: 0; }
 @media print { .notes { display: none; } }
 
 /* the Beers rumor mill (site/assets/rumor.js): a news ticker along the bottom, in its own colours */

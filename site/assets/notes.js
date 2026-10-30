@@ -46,13 +46,13 @@
     var vw = innerWidth, vh = innerHeight, pw = Math.min(170, vw * 0.42), html = "";
     pages.forEach(function (p, i) {
       var x = rand(-10, vw - pw + 10), y = rand(40, Math.max(60, vh - 210));
-      html += "<div class='note" + (Math.random() < 0.3 ? " ring" : "") + "' style='left:" + x.toFixed(0) + "px;top:" +
+      html += "<div class='pad" + (Math.random() < 0.3 ? " ring" : "") + "' style='left:" + x.toFixed(0) + "px;top:" +
         y.toFixed(0) + "px;width:" + pw.toFixed(0) + "px;--r:" + rand(-18, 18).toFixed(1) + "deg;--d:" + (i * 0.08).toFixed(2) +
         "s;--s:" + rand(0, 0.25).toFixed(2) + "s'>" + p.map(function (t, j) { return (j ? "<p>" : "<b>") + line(t) + (j ? "</p>" : "</b>"); }).join("") +
         "</div>";
     });
     // the switchboard lands last, on top, in the middle
-    html += "<div class='note note-board' style='--r:-2deg;--d:" + (pages.length * 0.08 + 0.2).toFixed(2) + "s;--s:0s'>" + board(c) + "</div>";
+    html += "<div class='pad pad-board' style='--r:-2deg;--d:" + (pages.length * 0.08 + 0.2).toFixed(2) + "s;--s:0s'>" + board(c) + "</div>";
     el.innerHTML = html;
     document.body.appendChild(el);
     var gone = false;

@@ -41,6 +41,10 @@ def page(title, body, depth=1, description=""):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{E(title)}</title>
 <meta name="description" content="{E(description)}">
+<!-- the site has its own light and dark themes, so a browser's automatic dark mode (Chrome's,
+     Dark Reader) must not repaint it: it turns the eggs' paper and cards dark and their ink light -->
+<meta name="color-scheme" content="light dark">
+<meta name="darkreader-lock">
 <link rel="stylesheet" href="{up}assets/site.css?v={ver("site.css")}">
 <script>addEventListener("beforeprint", () => document.querySelectorAll("details").forEach(d => d.open = true));</script>
 <script src="{up}assets/moose.js?v={ver("assets/moose.js")}" defer></script>
