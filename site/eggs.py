@@ -169,7 +169,8 @@ def build(dist):
     b = config()["barney"]
     p = f"{dist}/franchises/{slug(b['team'])}.html"
     if os.path.exists(p):
-        open(p, "w").write(open(p).read().replace("<h1>", f"<h1 title='{E(b['hint'])}'>", 1))
+        html = open(p).read().replace("<h1>", f"<h1 title='{E(b['hint'])}'>", 1)
+        open(p, "w").write(html)
     arrive(dist, b["team"], "window.pdlBarney && pdlBarney()")
     arrive(dist, team(), "window.pdlMoose && pdlMoose()")
     # the rest have no other trigger, so their scripts load on those pages alone

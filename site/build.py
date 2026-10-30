@@ -346,6 +346,12 @@ def main():
                      home(), depth=0, description="The Premier Dynasty League."))
     banner.build(DIST)   # the image MFL's banner setting points at
     eggs.build(DIST)   # last: the antlers go over every finished page
+    # a page rewritten in place can come out empty (eggs once opened one for writing before
+    # reading it), and an empty page deploys without complaint, so the build refuses one
+    empty = [os.path.relpath(os.path.join(r, f), DIST) for r, _, fs in os.walk(DIST) for f in fs
+             if f.endswith(".html") and os.path.getsize(os.path.join(r, f)) == 0]
+    if empty:
+        sys.exit(f"empty pages: {', '.join(empty)}")
     n = len(os.listdir(f"{DIST}/rules"))
     print(f"built site/dist: {n} rule book pages, {n_seasons} season pages, {n_franchises} franchise pages, "
           f"{n_other} more (head to head, trades, drafts, records, analysis)")
