@@ -359,20 +359,20 @@ html.outage-on body { animation: outage-crt-on .6s ease-out; }
 @media print { .train { display: none; } }
 /* the Tally Wackers' tank (site/assets/tank.js): it rolls in under a report card on the tank season */
 .tank { position: fixed; left: 0; bottom: 8px; z-index: 50; width: min(60vw, 240px); cursor: pointer;
-  animation: tank-cross 9.5s linear forwards; }
+  animation: tank-cross 16s linear forwards; }
 .tank svg { display: block; width: 100%; height: auto; }
 @keyframes tank-cross {
   0% { transform: translateX(-110%); animation-timing-function: ease-out; }
-  26% { transform: translateX(calc(50vw - 50%)); }
-  79% { transform: translateX(calc(50vw - 50%)); animation-timing-function: ease-in; }
+  16% { transform: translateX(calc(50vw - 50%)); }
+  85% { transform: translateX(calc(50vw - 50%)); animation-timing-function: ease-in; }
   100% { transform: translateX(100vw); } }
-.tank-wheel { animation: tank-wheel 9.5s linear forwards; }
-@keyframes tank-wheel { 0% { transform: rotate(0); } 26%, 79% { transform: rotate(900deg); } 100% { transform: rotate(1500deg); } }
+.tank-wheel { animation: tank-wheel 16s linear forwards; }
+@keyframes tank-wheel { 0% { transform: rotate(0); } 16%, 85% { transform: rotate(900deg); } 100% { transform: rotate(1500deg); } }
 .tank-card { position: absolute; bottom: 100%; left: 50%; width: max-content; max-width: min(86vw, 300px); margin-bottom: 4px;
   padding: 10px 14px 10px 12px; color: #111; background: #fffdf5; border: 1px solid #d8d2bf; border-radius: 6px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, .35); font: 14px/1.35 var(--sans); opacity: 0; transform: translateX(-50%);
-  animation: tank-talk 9.5s linear forwards; }
-@keyframes tank-talk { 0%, 27% { opacity: 0; } 30%, 76% { opacity: 1; } 79%, 100% { opacity: 0; } }
+  animation: tank-talk 16s linear forwards; }
+@keyframes tank-talk { 0%, 17% { opacity: 0; } 19%, 83% { opacity: 1; } 85%, 100% { opacity: 0; } }
 .tank-card b { display: block; margin: 0 0 6px; letter-spacing: .06em; text-transform: uppercase; font-size: 12px; }
 .tank-card ul { margin: 0; padding-left: 1.1em; }
 .tank-grade { display: block; margin-top: 6px; color: #c0281c; font: 700 22px/1 "Marker Felt", "Segoe Print", "Comic Sans MS", cursive;

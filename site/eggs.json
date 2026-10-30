@@ -172,7 +172,7 @@
  "tank": {
   "team": "Tally Wackers",
   "player": "Luck, Andrew",
-  "what": "On the Tally Wackers' franchise page, while the tube man flails, a tank flying a SUCK FOR LUCK flag rolls in, stops under a report card on the season before they took Andrew Luck 1st overall (record, points against the next-lowest team, his starts in his first three seasons, titles since, all from the record), and rolls off. Then their sign-in sheet for the draft and summer meeting slides up: present in the years below, absent in every other. The attendance is the league's lore, not a record. Scripts: site/assets/tank.js and clip.js.",
+  "what": "On the Tally Wackers' franchise page, while the tube man flails, a tank flying a SUCK FOR LUCK flag rolls in, stops under a report card on the season before they took Andrew Luck 1st overall (record, points against the next-lowest team, his starts in his first three seasons, titles since, all from the record), and rolls off. Once the tank has gone, their sign-in sheet for the draft and summer meeting slides up: present in the years below, absent in every other. The attendance is the league's lore, not a record. Scripts: site/assets/tank.js and clip.js.",
   "flag": "SUCK FOR LUCK {year}",
   "title": "{year} report card",
   "grade": "F (on purpose)",
@@ -183,7 +183,7 @@
    "{last}'s starts, first three seasons: {starts}",
    "Titles since: {titles}"
   ],
-  "sheet_after_ms": 10000,
+  "sheet_after_ms": 16500,
   "sheet_seconds": 16,
   "attendance": {
    "title": "PDL Draft and Summer Meeting",
@@ -191,7 +191,7 @@
     2000
    ],
    "notes": [
-    "Auto-draft is not a strategy.",
+    "Picks submitted online. Again.",
     "1st overall pick, {draft_year}: present."
    ]
   }

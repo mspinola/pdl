@@ -46,7 +46,7 @@
     document.body.appendChild(el);
     el.addEventListener("click", function () { el.remove(); });
     el.addEventListener("animationend", function (e) { if (e.target === el) el.remove(); });
-    if (calm) setTimeout(function () { el.remove(); }, 8000);
+    if (calm) setTimeout(function () { el.remove(); }, 14000);
   }
   window.pdlTank = roll;
 })();
