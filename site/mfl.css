@@ -74,6 +74,7 @@ caption span.ownername, span.ownername { color: var(--pdl-ink-3) !important; }
 .myfantasyleague_menu > ul > li.has-sub > a:after { border-top-color: var(--pdl-ink-3); }
 .myfantasyleague_menu ul ul > li.has-sub > a:after { border-left-color: var(--pdl-ink-3); }
 .homepagemodule, table.report { box-shadow: none !important; }
+div.mobile-wrap { border-color: var(--pdl-rule) !important; box-shadow: none !important; }
 .myfantasyleague_menu, .myfantasyleague_menu ul, .myfantasyleague_menu ul li ul,
 .myfantasyleague_menu ul ul li, .myfantasyleague_tabmenu { background: var(--pdl-surface); }
 .myfantasyleague_menu { border-bottom-color: var(--pdl-rule); }
