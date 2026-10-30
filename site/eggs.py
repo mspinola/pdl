@@ -4,7 +4,8 @@
     banner_class(champion)   the title-season watermark
     season_tooltip(season)   a tooltip on a season's title
     rivalry_caption(a, b, r) a line on the team's best series and every series it loses
-    build(dist)              the 404 page and the unlinked museum at /moose/
+    build(dist)              the 404 page and the unlinked museum at /moose/, and the F-Jackie
+                             egg's hint (the egg itself, typing "barney", is assets/barney.js)
 """
 import json, os, re
 from functools import lru_cache
@@ -120,6 +121,12 @@ def build(dist):
     os.makedirs(f"{dist}/{config()['museum']['path']}", exist_ok=True)
     with open(f"{dist}/{config()['museum']['path']}/index.html", "w") as f:
         f.write(museum())
+    # the F-Jackie egg's hint, as a tooltip on that team's page title (the egg itself is assets/barney.js)
+    b = config()["barney"]
+    p = f"{dist}/franchises/{slug(b['team'])}.html"
+    if os.path.exists(p):
+        html = open(p).read()
+        open(p, "w").write(html.replace("<h1>", f"<h1 title='{E(b['hint'])}'>", 1))
     # the antlers go on last, over every finished page
     n = 0
     for root, _, files in os.walk(dist):

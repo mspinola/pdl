@@ -35,6 +35,7 @@ def page(title, body, depth=1, description=""):
 <link rel="stylesheet" href="{up}assets/site.css">
 <script>addEventListener("beforeprint", () => document.querySelectorAll("details").forEach(d => d.open = true));</script>
 <script src="{up}assets/moose.js" defer></script>
+<script src="{up}assets/barney.js" defer></script>
 </head>
 <body>
 <header class="masthead">

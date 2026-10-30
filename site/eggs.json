@@ -3,13 +3,28 @@
  "team": "Manic Moose",
  "antlers": "Wherever the team appears in a table, an antler fades in above the name on hover.",
  "title_watermark": "The champion banner carries a moose watermark in the team's title seasons, whichever they are.",
- "season_tooltips": {"2017": "The Year of the Moose."},
+ "season_tooltips": {
+  "2017": "The Year of the Moose."
+ },
  "rivalry_captions": {
   "best": "America's Team owns this one: {team} lead the series {w}-{l}.",
   "losing": "In fairness, {opp} have the Moose's number: {l}-{w} against them."
  },
- "not_found": {"title": "This page has been retained by the Moose", "text": "Whatever was here cost three retainment slots, and the Moose paid them."},
+ "not_found": {
+  "title": "This page has been retained by the Moose",
+  "text": "Whatever was here cost three retainment slots, and the Moose paid them."
+ },
  "console": "Moose are loose!",
- "museum": {"path": "moose", "title": "America's Team", "text": "A franchise museum. There is no link to it, and the Moose would like it kept that way."},
- "konami": "Up up down down left right left right B A: the accent turns moose brown, the moose runs across the screen, and for a moment every team in the standings is the Moose."
+ "museum": {
+  "path": "moose",
+  "title": "America's Team",
+  "text": "A franchise museum. There is no link to it, and the Moose would like it kept that way."
+ },
+ "konami": "Up up down down left right left right B A: the accent turns moose brown, the moose runs across the screen, and for a moment every team in the standings is the Moose.",
+ "barney": {
+  "team": "F-Jackie",
+  "word": "barney",
+  "what": "Typing barney on any page turns the site purple, pops up F-Jackie's Barney logo for a few seconds, and renames F-Jackie to Barney in every table until he leaves. Script: site/assets/barney.js. The image is F-Jackie's MFL logo since 2019, from the original site's images/logos.",
+  "hint": "Someone purple is never far away. Try typing his name."
+ }
 }
