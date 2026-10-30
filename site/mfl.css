@@ -56,7 +56,7 @@ a.myfranchise, a.myfranchise:link, a.myfranchise:visited, a.myfranchise:active {
 .pagefooter a:link, .pagefooter a:active, .pagefooter a:visited { color: var(--pdl-ink-2); }
 .pagefooter, .pagefooter td, .pagefooter b { color: var(--pdl-ink-3) !important; }
 tr.reportfooter a:link, tr.reportfooter a:visited { color: var(--pdl-link) !important; }
-.oddtablerow td.franchisename, .eventablerow td.franchisename { color: var(--pdl-ink-2); }
+.oddtablerow td.franchisename, .eventablerow td.franchisename { color: var(--pdl-ink-2) !important; }
 
 /* menus. Onyx sets their text pale gray for its dark bars, so the text is set here too */
 .myfantasyleague_menu ul li a, .myfantasyleague_menu ul li:hover ul li a,
