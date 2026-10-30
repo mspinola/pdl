@@ -128,8 +128,8 @@ def arrive(dist, t, call, scripts=(), extra=""):
 
 def caption(c):
     """A clip's caption, if it has one, with {playoffs} and {seasons}: the team's playoff trips and
-    finished seasons. A clip with a "pick" (season and player) also gets {pick}, that pick with his
-    starts, and {next}, the next three picks with theirs (starts in a player's first three seasons)."""
+    finished seasons. A clip with a "pick" (season and player) also gets {pick}, that pick, and
+    {next}, the next three picks. A newline in a caption is kept."""
     if "caption" not in c:
         return None
     done = [y for y in d.seasons() if y in d.champions()]
@@ -139,9 +139,9 @@ def caption(c):
         board = sorted((r for r in d.all_drafts() if r["season"] == str(c["pick"]["season"])), key=lambda r: int(r["overall"]))
         i = next(i for i, r in enumerate(board) if r["player"] == c["pick"]["player"])
         name = lambda r: " ".join(reversed(r["player"].split(", ")))
-        facts.update(pick=f"{name(board[i])}, {board[i]['starts_any_team']} starts", overall=ordinal(int(board[i]["overall"])),
-                     year=c["pick"]["season"],
-                     next=", ".join(f"{name(r)} ({r['starts_any_team']})" for r in board[i + 1:i + 4]))
+        after = [name(r) for r in board[i + 1:i + 4]]
+        facts.update(pick=name(board[i]), overall=ordinal(int(board[i]["overall"])), year=c["pick"]["season"],
+                     next=", ".join(after[:-1]) + " and " + after[-1])
     return c["caption"].format(**facts)
 
 
