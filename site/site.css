@@ -190,8 +190,8 @@ a.chip:hover { border-color: var(--link); }
   background: no-repeat center/contain url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 20'%3E%3Cpath fill='%238a5a2b' d='M18 19c-1-4-4-6-8-7-3-1-6-3-7-7 2 2 4 2 5 1-1-2-1-4 0-5 1 2 2 3 4 3 0-2 1-3 2-4 0 2 1 4 3 5 1 2 1 5 1 8zm4 0c1-4 4-6 8-7 3-1 6-3 7-7-2 2-4 2-5 1 1-2 1-4 0-5-1 2-2 3-4 3 0-2-1-3-2-4 0 2-1 4-3 5-1 2-1 5-1 8z'/%3E%3C/svg%3E"); }
 a:hover .moose::before, .moose:hover::before { opacity: 1; transform: translate(-50%, 0); }
 .banner.moose-title { position: relative; overflow: hidden; }
-.banner.moose-title::after { content: ""; position: absolute; right: .5rem; top: 50%; width: 5.5rem; height: 3.6rem;
-  transform: translateY(-50%); opacity: .14; pointer-events: none;
+.banner.moose-title::after { content: ""; position: absolute; right: .5rem; top: 50%; width: 7rem; height: 4.6rem;
+  transform: translateY(-50%); opacity: .4; pointer-events: none;
   background: no-repeat center/contain url("../assets/manic-moose.svg"); }
 .egg { font: italic .9rem var(--sans); color: var(--link); margin: .2rem 0 .8rem; }
 .runner svg { width: min(22rem, 90%); height: auto; display: block; margin: 1rem 0; }
@@ -201,6 +201,17 @@ img.moose-run { position: fixed; bottom: 8vh; left: -30vw; width: 26vw; min-widt
   pointer-events: none; animation: moose-run 4s linear forwards; }
 @keyframes moose-run { to { left: 110vw; } }
 @media (prefers-reduced-motion: reduce) { img.moose-run { display: none; } .moose::before { transition: none; } }
+/* the F-Jackie egg (site/assets/barney.js): the site goes purple and Barney pops up */
+html.barney-mode { --accent: #6b3fa0; --link: #6b3fa0; --accent-soft: #efe7f8; --accent-2: #3f8f3a; }
+@media (prefers-color-scheme: dark) { html.barney-mode:not([data-theme="light"]) { --accent: #b794e8; --link: #b794e8; --accent-soft: #2a1f3d; --accent-2: #7cc46f; } }
+html[data-theme="dark"].barney-mode { --accent: #b794e8; --link: #b794e8; --accent-soft: #2a1f3d; --accent-2: #7cc46f; }
+img.barney-pop { position: fixed; right: 16px; bottom: 16px; width: min(45vw, 225px); z-index: 50; pointer-events: none;
+  border-radius: 10px; box-shadow: 0 6px 24px rgba(0, 0, 0, .35); transform: translateY(130%) rotate(-6deg);
+  transition: transform .6s cubic-bezier(.2, 1.4, .4, 1); }
+img.barney-pop.up { transform: translateY(0) rotate(-3deg); animation: barney-bob 1.2s ease-in-out .6s infinite alternate; }
+@keyframes barney-bob { to { transform: translateY(-10px) rotate(3deg); } }
+@media (prefers-reduced-motion: reduce) { img.barney-pop, img.barney-pop.up { transition: none; animation: none; transform: none; } }
+@media print { img.barney-pop { display: none; } }
 @media print { .moose::before, .banner.moose-title::after { display: none; } }
 .bar.later .b { background: var(--accent-2); }
 .bar .y a { color: inherit; text-decoration: none; }
