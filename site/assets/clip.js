@@ -1,5 +1,5 @@
-// The arrival clips, and the Karpet Munchers' magazine. See site/eggs.json "clips" and
-// "magazine": loaded only on those teams' franchise pages.
+// The arrival clips, and the cards built into a page (the Karpet Munchers' magazine, the Tally
+// Wackers' attendance sheet). See site/eggs.json: loaded only on those teams' franchise pages.
 (function () {
   // a clip is a local <name>.mp4 with <name>.jpg as its still, or, given youtube, that
   // video in YouTube's own player (muted, so the browser lets it start on its own), under
@@ -64,12 +64,14 @@
     if (seconds) setTimeout(leave, seconds * 1000);
   }
 
-  // the magazine is built into its page as a <template>
-  function magazine(seconds) {
+  // a card built into its page as a <template id>: the magazine, the attendance sheet
+  function card(id, seconds) {
     if (document.querySelector(".clip-pop")) return;
-    var el = document.getElementById("pdl-magazine").content.firstElementChild.cloneNode(true);
+    var el = document.getElementById(id).content.firstElementChild.cloneNode(true);
     pop(el, seconds, el);
   }
+  function magazine(seconds) { card("pdl-magazine", seconds); }
   window.pdlClip = clip;
   window.pdlMagazine = magazine;
+  window.pdlCard = card;
 })();

@@ -357,6 +357,52 @@ html.outage-on body { animation: outage-crt-on .6s ease-out; }
 .train-calm .train-bubble { left: auto; right: 0; opacity: 1; animation: none; }
 .train-calm .train-wheel, .train-calm .train-smoke circle { animation: none; }
 @media print { .train { display: none; } }
+/* the Tally Wackers' tank (site/assets/tank.js): it rolls in under a report card on the tank season */
+.tank { position: fixed; left: 0; bottom: 8px; z-index: 50; width: min(60vw, 240px); cursor: pointer;
+  animation: tank-cross 9.5s linear forwards; }
+.tank svg { display: block; width: 100%; height: auto; }
+@keyframes tank-cross {
+  0% { transform: translateX(-110%); animation-timing-function: ease-out; }
+  26% { transform: translateX(calc(50vw - 50%)); }
+  79% { transform: translateX(calc(50vw - 50%)); animation-timing-function: ease-in; }
+  100% { transform: translateX(100vw); } }
+.tank-wheel { animation: tank-wheel 9.5s linear forwards; }
+@keyframes tank-wheel { 0% { transform: rotate(0); } 26%, 79% { transform: rotate(900deg); } 100% { transform: rotate(1500deg); } }
+.tank-card { position: absolute; bottom: 100%; left: 50%; width: max-content; max-width: min(86vw, 300px); margin-bottom: 4px;
+  padding: 10px 14px 10px 12px; color: #111; background: #fffdf5; border: 1px solid #d8d2bf; border-radius: 6px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .35); font: 14px/1.35 var(--sans); opacity: 0; transform: translateX(-50%);
+  animation: tank-talk 9.5s linear forwards; }
+@keyframes tank-talk { 0%, 27% { opacity: 0; } 30%, 76% { opacity: 1; } 79%, 100% { opacity: 0; } }
+.tank-card b { display: block; margin: 0 0 6px; letter-spacing: .06em; text-transform: uppercase; font-size: 12px; }
+.tank-card ul { margin: 0; padding-left: 1.1em; }
+.tank-grade { display: block; margin-top: 6px; color: #c0281c; font: 700 22px/1 "Marker Felt", "Segoe Print", "Comic Sans MS", cursive;
+  transform: rotate(-3deg); transform-origin: left; }
+.tank-calm { animation: none; left: 16px; }
+.tank-calm .tank-card { left: 0; opacity: 1; transform: none; animation: none; }
+.tank-calm .tank-wheel { animation: none; }
+@media print { .tank { display: none; } }
+
+/* the Tally Wackers' attendance sheet (eggs.attendance, shown by site/assets/clip.js): a clipboard,
+   in its own colours whatever the site's theme */
+.attend { position: fixed; right: 16px; bottom: 16px; z-index: 50; width: min(calc(100vw - 32px), 300px); cursor: pointer;
+  padding: 26px 12px 12px; background: #b88a4e; border-radius: 10px; box-shadow: 0 10px 30px rgba(0, 0, 0, .45);
+  transform: translateY(130%) rotate(4deg); transition: transform .7s cubic-bezier(.2, 1.3, .4, 1); }
+.attend.up { transform: translateY(0) rotate(-1.5deg); }
+.attend::before { content: ""; position: absolute; top: 8px; left: 50%; width: 90px; height: 26px; margin-left: -45px;
+  background: linear-gradient(#e2e2e2, #9a9a9a); border-radius: 5px 5px 3px 3px; }
+.attend-paper { padding: 10px 12px 12px; color: #1d1d1d; background: #ffffff;
+  background-image: repeating-linear-gradient(transparent 0 21px, #dbe6f3 21px 22px); font: 12px/1.35 var(--sans); }
+.attend-paper h3 { margin: 0 0 2px; font: 700 13px/1.25 var(--sans); text-transform: uppercase; letter-spacing: .04em; }
+.attend-paper p { margin: 0 0 8px; }
+.attend-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3px 6px; margin-bottom: 8px; }
+.attend-grid span { display: flex; align-items: center; gap: 4px; font-size: 11px; }
+.attend-grid i { font-style: normal; }
+.attend-no { padding: 0 2px; color: #c0281c; border: 1.5px solid #c0281c; font: 700 8px/1.3 var(--sans); letter-spacing: .04em;
+  transform: rotate(-6deg); }
+.attend-yes { color: #1f4fbf; font: 700 14px/1 "Marker Felt", "Segoe Print", "Comic Sans MS", cursive; }
+.attend-note { margin: 4px 0 0 !important; color: #1f4fbf; font: 14px/1.3 "Marker Felt", "Segoe Print", "Comic Sans MS", cursive; }
+@media (prefers-reduced-motion: reduce) { .attend, .attend.up { transition: none; transform: none; } }
+@media print { .attend { display: none; } }
 /* the commissioner's build log (site/assets/commish.js), on the Moose's page: a terminal, so its
    own dark colours whatever the site's theme */
 .commish { position: fixed; right: 16px; bottom: 16px; z-index: 50; width: min(calc(100vw - 32px), 500px);

@@ -122,7 +122,7 @@ def arrive(dist, t, call, scripts=(), extra=""):
     if not os.path.exists(p):
         return
     tag = "".join(f"<script src='../assets/{sc}?v={ver('assets/' + sc)}'></script>" for sc in scripts)
-    html = open(p).read().replace("</body>", f"{extra}{tag}<script>addEventListener('load', () => {call});</script></body>", 1)
+    html = open(p).read().replace("</body>", f"{extra}{tag}<script>addEventListener('load', () => {{ {call}; }});</script></body>", 1)
     open(p, "w").write(html)
 
 
@@ -233,6 +233,41 @@ def y2k():
             f"<button type='button' class='y2k-off'>{E(y['button'])}</button></div></template>")
 
 
+def tank_facts():
+    """The tank season: the year before the team drafted the player 1st overall, its record and
+    points against the next-lowest, his starts, and the titles since."""
+    k = config()["tank"]
+    pick = next(r for r in d.all_drafts() if r["team"] == k["team"] and r["player"] == k["player"])
+    drafted = int(pick["season"])
+    st = d.standings(drafted - 1)
+    me = next(r for r in st if r["team"] == k["team"])
+    others = min(r["pf"] for r in st if r["team"] != k["team"])
+    first, last = (pick["player"].split(", ") + [""])[1], pick["player"].split(", ")[0]
+    return {"year": drafted - 1, "draft_year": drafted, "record": record(me["w"], me["l"], me["t"]),
+            "pf": num(me["pf"]), "gap": num(others - me["pf"]), "player": f"{first} {last}", "last": last,
+            "overall": ordinal(int(pick["overall"])), "starts": pick["starts_any_team"],
+            "titles": sum(1 for y, t in d.champions().items() if t == k["team"] and y >= drafted)}
+
+
+def tank_card():
+    k, f = config()["tank"], tank_facts()
+    return {"flag": E(k["flag"].format(**f)), "title": k["title"].format(**f), "grade": k["grade"],
+            "lines": [line.format(**f) for line in k["lines"]]}
+
+
+def attendance():
+    """The Tally Wackers' draft and meeting sign-in sheet, a <template> for assets/clip.js: present
+    in eggs.json's years, absent in every other season."""
+    k, f = config()["tank"], tank_facts()
+    a = k["attendance"]
+    cells = "".join(f"<span>{y} " + ("<i class='attend-yes'>&#10003;</i>" if y in a["present"] else "<i class='attend-no'>ABSENT</i>")
+                    + "</span>" for y in d.seasons())
+    notes = "".join(f"<p class='attend-note'>{E(n.format(**f))}</p>" for n in a["notes"])
+    return (f"<template id='pdl-attendance'><aside class='attend' title='Click to close'><div class='attend-paper'>"
+            f"<h3>{E(a['title'])}</h3><p>Sign-in sheet: {E(k['team'])}</p><div class='attend-grid'>{cells}</div>"
+            f"{notes}</div></aside></template>")
+
+
 def build(dist):
     with open(f"{dist}/404.html", "w") as f:
         f.write(not_found())
@@ -260,6 +295,11 @@ def build(dist):
     m = config()["magazine"]
     arrive(dist, m["team"], f"pdlMagazine({m['seconds']})", ["clip.js"], magazine())
     arrive(dist, config()["outage"]["team"], "pdlOutage()", ["outage.js"])
+    # the Tally Wackers' tank rolls through while the tube man flails, and the attendance sheet
+    # follows once he has gone
+    k = config()["tank"]
+    arrive(dist, k["team"], f"pdlTank({json.dumps(tank_card())}); setTimeout(() => pdlCard('pdl-attendance', "
+                            f"{k['sheet_seconds']}), {k['sheet_after_ms']})", ["tank.js"], attendance())
     y = config()["y2k"]
     arrive(dist, y["team"], f"setTimeout(pdlY2K, {y['delay_ms']})", ["y2k.js"], y2k())
     t = config()["trade_offer"]
