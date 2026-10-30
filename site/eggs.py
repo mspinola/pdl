@@ -392,8 +392,9 @@ def rx():
 def page_heckle(h):
     """A quote pinned to a franchise page, signed, with a line checked against the record if it has a
     "check": {playoffs},
-    {finals} and {titles} for the team, and {next_team} and {next_playoffs}, the most playoff trips
-    of any other team without a title."""
+    {finals} and {titles} for the team, {next_team} and {next_playoffs}, the most playoff trips
+    of any other team without a title, and {season}, {record_now}, {rank_now} and {teams} for this
+    season so far."""
     done = [y for y in d.seasons() if y in d.champions()]
     def counts(t):
         return (sum(1 for y in done if d.finish(y, t)), sum(1 for y in done if d.finish(y, t) in ("champion", "runner-up")),
@@ -404,7 +405,15 @@ def page_heckle(h):
         return quote + "</p>"
     playoffs, finals, titles = counts(h["team"])
     rest = sorted(((counts(t)[0], t) for t in d.identities() if t != h["team"] and counts(t)[2] == 0), reverse=True)
-    facts = {"playoffs": playoffs, "finals": finals, "titles": titles, "next_team": rest[0][1], "next_playoffs": rest[0][0]}
+    # and this season so far: {record_now}, {rank_now} of {teams}
+    now = max(d.seasons())
+    table = sorted(d.standings(now), key=lambda r: (-(r["w"] + .5 * r["t"]) / max(1, r["w"] + r["l"] + r["t"]), -r["pf"]))
+    facts = {"playoffs": playoffs, "finals": finals, "titles": titles, "next_team": rest[0][1], "next_playoffs": rest[0][0],
+             "season": now, "teams": len(table)}
+    # a franchise no longer playing has no season so far
+    rank, me = next(((i, r) for i, r in enumerate(table, 1) if r["team"] == h["team"]), (None, None))
+    if me:
+        facts.update(record_now=record(me["w"], me["l"], me["t"]), rank_now=ordinal(rank))
     return quote + f"<small>{E(h['check'].format(**facts))}</small></p>"
 
 
@@ -439,6 +448,35 @@ def out_of_office():
     return (f"<template id='pdl-ooo'><aside class='ooo' title='Click to close'><div class='ooo-head'>{envelope}"
             f"{E(oo['app'])}</div><div class='ooo-body'><p class='ooo-from'>From: {E(oo['from'])}</p>"
             f"<p class='ooo-subject'>{E(oo['subject'].format(team=oo['team']))}</p>{body}<p>{rules}</p></div></aside></template>")
+
+
+def texts():
+    """Blitzkrieg's unanswered texts, a <template> for assets/clip.js. Each sender's {n} is their
+    trades with the team, from the record, and {next} one more; the last line is its latest title."""
+    tx = config()["texts"]
+    me = tx["team"]
+    pairs = {}
+    for x in d.trades():
+        if me in (x["team_a"], x["team_b"]):
+            other = x["team_b"] if x["team_a"] == me else x["team_a"]
+            pairs[other] = pairs.get(other, 0) + 1
+    seasons = len(d.identities()[me]["seasons"])
+    msgs = ""
+    for i, m in enumerate(tx["messages"]):
+        n = pairs.get(m["from"], 0)
+        text = m["text"].format(n=n, next=n + 1, seasons=seasons)
+        msgs += (f"<p class='sms-from' style='--i:{i}'>{E(m['from'])}</p>"
+                 f"<p class='sms-msg' style='--i:{i}'>{E(text)}</p>")
+    last = len(tx["messages"]) - 1
+    msgs += f"<p class='sms-status' style='--i:{last}'>Delivered</p>"
+    at = round(.7 + .9 * len(tx["messages"]) + .4, 1)
+    titles = sorted(y for y, t in d.champions().items() if t == me)
+    system = E(tx["system"]).replace("{title}", f"<b>{titles[-1]}</b>") if titles else ""
+    return (f"<template id='pdl-texts'><aside class='sms' title='Click to close' style='--at:{at};--wait:{tx['typing_seconds']}'>"
+            f"<div class='sms-head'><span class='sms-avatar'>{E(me[0])}</span><b>{E(me)}</b>"
+            f"<small>{E(tx['status'].format(seasons=seasons))}</small></div><div class='sms-body'>{msgs}"
+            f"<div class='sms-end'><span class='sms-typing' aria-label='typing'><i></i><i></i><i></i></span>"
+            f"<p class='sms-system'>{system}</p></div></div></aside></template>")
 
 
 def build(dist):
@@ -502,6 +540,9 @@ def build(dist):
     # Scooter's Boozers: the draft card, once the clip has gone
     g = config()["draft_grade"]
     arrive(dist, g["team"], f"setTimeout(() => pdlCard('pdl-grade', {g['seconds']}), {g['after_ms']})", ["clip.js"], draft_grade())
+    # Blitzkrieg: the texts nobody answers
+    tx = config()["texts"]
+    arrive(dist, tx["team"], f"setTimeout(() => pdlCard('pdl-texts', {tx['seconds']}), {tx['after_ms']})", ["clip.js"], texts())
     bc = config()["beers"]
     notes, rumors = beers()
     arrive(dist, bc["team"], f"setTimeout(() => pdlNotes({json.dumps(notes)}), {bc['notes_after_ms']}); "

@@ -187,7 +187,7 @@
  "tank": {
   "team": "Tally Wackers",
   "player": "Luck, Andrew",
-  "what": "On the Tally Wackers' franchise page, while the tube man flails, a tank flying a SUCK FOR LUCK flag rolls in, stops under a report card on the season before they took Andrew Luck 1st overall (record, points against the next-lowest team, his starts in his first three seasons, titles since, all from the record), then charges a brick wall at the right edge, bounces off it and catches fire. Once the tank has gone, their sign-in sheet for the draft and summer meeting slides up: present in the years below, absent in every other. The attendance is the league's lore, not a record. Scripts: site/assets/tank.js and clip.js. A heckle from the Texas Nashvillians is stuck to the report card.",
+  "what": "On the Tally Wackers' franchise page, while the tube man flails, a tank flying a SUCK FOR LUCK flag rolls in, stops under a report card on the season before they took Andrew Luck 1st overall (record, points against the next-lowest team, his starts in his first three seasons, titles since, all from the record), then charges a brick wall at the right edge, bounces off it and catches fire. Once the tank has gone, their sign-in sheet for the draft and summer meeting slides up: present in the years below, absent in every other. The attendance is the league's lore, not a record. Scripts: site/assets/tank.js and clip.js.",
   "flag": "SUCK FOR LUCK {year}",
   "title": "{year} report card",
   "grade": "F (on purpose)",
@@ -209,10 +209,6 @@
     "Picks submitted online. Again.",
     "1st overall pick, {draft_year}: present."
    ]
-  },
-  "heckle": {
-   "text": "He's not sucking for Luck. He's just sucking to suck.",
-   "by": "Texas Nashvillians"
   }
  },
  "beers": {
@@ -342,6 +338,12 @@
    "team": "Scooter's Boozers",
    "by": "Beers",
    "text": "He's gotten better at not making bad trade offers."
+  },
+  {
+   "team": "F-Jackie",
+   "by": "Texas Nashvillians",
+   "text": "At least the Tally Wackers were sucking for Luck. F-Jackie is just sucking to suck.",
+   "check": "Record check: {record_now} in {season}, {rank_now} of {teams}. On October 11, Josh Allen was traded for Joe Burrow, and Joe Burrow for J.J. McCarthy, the same day."
   }
  ],
  "page_heckles_note": "Quotes from other teams, pinned under a franchise's facts on its page for good, each with a check from the record beneath it. eggs.page_heckle(). A quote without a \"check\" has none (trade offers, for one, are not in the record).",
@@ -378,5 +380,40 @@
   ],
   "rules": "The {link} is here: {changes} changes since 2000. I read all of them. So that one of us had.",
   "link_text": "rule book"
+ },
+ "texts": {
+  "team": "Blitzkrieg",
+  "after_ms": 600,
+  "seconds": 20,
+  "typing_seconds": 3.4,
+  "what": "On Blitzkrieg's franchise page, a phone thread slides up: texts from other teams arrive one at a time, every one delivered and none answered (the trade counts in them are each sender's trades with Blitzkrieg, from the record), Blitzkrieg starts typing and gives up, and the last line is its latest title. eggs.texts(), shown by site/assets/clip.js.",
+  "status": "{seasons} seasons. Last seen: draft day",
+  "messages": [
+   {
+    "from": "Manic Moose",
+    "text": "{n} trades in {seasons} years. Lucky {next}?"
+   },
+   {
+    "from": "Beers",
+    "text": "We've traded {n} times. Wanna make it {next}?"
+   },
+   {
+    "from": "Texas Nashvillians",
+    "text": "you there?"
+   },
+   {
+    "from": "Couchfire",
+    "text": "Sent you an offer. Also sent it to 19 other leagues."
+   },
+   {
+    "from": "Ho Train",
+    "text": "Forget it."
+   },
+   {
+    "from": "Otters",
+    "text": "??"
+   }
+  ],
+  "system": "Blitzkrieg won the {title} championship."
  }
 }
