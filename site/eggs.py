@@ -116,6 +116,46 @@ def museum():
     return page(c["title"], body, description="America's Team.")
 
 
+def arrive(dist, t, call, script=None, extra=""):
+    """Run call when team t's franchise page loads, after extra (markup) and script (in assets/)."""
+    p = f"{dist}/franchises/{slug(t)}.html"
+    if not os.path.exists(p):
+        return
+    tag = f"<script src='../assets/{script}?v={ver('assets/' + script)}'></script>" if script else ""
+    html = open(p).read().replace("</body>", f"{extra}{tag}<script>addEventListener('load', () => {call});</script></body>", 1)
+    open(p, "w").write(html)
+
+
+def ordinal(n):
+    return f"{n}{'th' if 10 <= n % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')}"
+
+
+def magazine():
+    """The Karpet Munchers' draft guide, a <template> for assets/clip.js. Its can't-miss sleepers
+    are the team's four worst early picks: rounds 1 and 2, 2008 on, by starts under what the
+    slot usually yields."""
+    m = config()["magazine"]
+    picks = sorted((r for r in d.draft_value() if r["team"] == m["team"] and r["complete"] == "True" and int(r["round"]) <= 2),
+                   key=lambda r: float(r["starts_over_slot"]))[:4]
+    names = "".join(f"<li>{E(' '.join(reversed(r['player'].split(', '))))}</li>" for r in picks)
+    slots = sorted(int(r["overall"]) for r in picks)
+    got = sum(int(r["starts_any_team"]) for r in picks)
+    usual = round(sum(float(r["expected_starts"]) for r in picks))
+    since = d.identities()[m["team"]]["first_season"]
+    return (f"<template id='pdl-magazine'><aside class='mag' title='Click to close'>"
+            f"<div class='mag-top'><span>{max(d.seasons())} Draft Guide</span><span>$7.99 US<br>$9.99 CAN</span></div>"
+            f"<div class='mag-title'>PDL<small>Fantasy Football</small></div>"
+            f"<div class='mag-burst'>300 players ranked!</div>"
+            f"<div class='mag-line'><b>Can't-miss sleepers!</b><ul>{names}</ul></div>"
+            f"<div class='mag-line mag-small'>Mock drafts! Bye weeks! Who to handcuff!</div>"
+            f"<div class='mag-foot'><div class='mag-label'>{E(m['team']).upper()}<br>SUBSCRIBER SINCE {since}</div>"
+            f"<div class='mag-barcode'></div></div>"
+            f"<p class='mag-note'>Printed in June, before training camp. Drafted {ordinal(slots[0])} to "
+            f"{ordinal(slots[-1])} overall by the {E(m['team'])}, these four started {got} PDL games between "
+            f"them in their first three seasons. Those draft slots usually yield {usual}.</p>"
+            f"</aside></template>")
+
+
 def build(dist):
     with open(f"{dist}/404.html", "w") as f:
         f.write(not_found())
@@ -124,23 +164,20 @@ def build(dist):
         f.write(museum())
     # each team's own franchise page sets its egg off on arrival: Barney for F-Jackie (whose
     # title also carries the hint), Moose mode for the Moose, a clip for the teams in
-    # eggs.json's "clips". The scripts are assets/*.js.
+    # eggs.json's "clips", the draft guide for the Karpet Munchers and the power cut for the
+    # Texas Nashvillians. The scripts are assets/*.js.
     b = config()["barney"]
-    for t, call, hint in ((b["team"], "pdlBarney", b["hint"]), (team(), "pdlMoose", None)):
-        p = f"{dist}/franchises/{slug(t)}.html"
-        if os.path.exists(p):
-            html = open(p).read()
-            if hint:
-                html = html.replace("<h1>", f"<h1 title='{E(hint)}'>", 1)
-            html = html.replace("</body>", f"<script>addEventListener('load', () => window.{call} && {call}());</script></body>", 1)
-            open(p, "w").write(html)
-    # the arrival clips have no other trigger, so their script loads on those pages alone
+    p = f"{dist}/franchises/{slug(b['team'])}.html"
+    if os.path.exists(p):
+        open(p, "w").write(open(p).read().replace("<h1>", f"<h1 title='{E(b['hint'])}'>", 1))
+    arrive(dist, b["team"], "window.pdlBarney && pdlBarney()")
+    arrive(dist, team(), "window.pdlMoose && pdlMoose()")
+    # the rest have no other trigger, so their scripts load on those pages alone
     for c in config()["clips"]:
-        p = f"{dist}/franchises/{slug(c['team'])}.html"
-        if os.path.exists(p):
-            html = open(p).read().replace("</body>", f"<script src='../assets/clip.js?v={ver('assets/clip.js')}'></script><script>addEventListener("
-                                          f"'load', () => pdlClip({json.dumps(c['clip'])}, {c['seconds']}, {json.dumps(c.get('youtube'))}));</script></body>", 1)
-            open(p, "w").write(html)
+        arrive(dist, c["team"], f"pdlClip({json.dumps(c['clip'])}, {c['seconds']}, {json.dumps(c.get('youtube'))})", "clip.js")
+    m = config()["magazine"]
+    arrive(dist, m["team"], f"pdlMagazine({m['seconds']})", "clip.js", magazine())
+    arrive(dist, config()["outage"]["team"], "pdlOutage()", "outage.js")
     # the antlers go on last, over every finished page
     n = 0
     for root, _, files in os.walk(dist):

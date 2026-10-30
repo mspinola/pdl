@@ -72,5 +72,14 @@
    "what": "A green army man throws his red cup: go commando. Made from a GIF the commissioner supplied in 2026, set on white because the GIF's background is transparent."
   }
  ],
- "clips_note": "Arriving at each team's franchise page, its clip slides up in the corner and plays for the seconds given (a click sends it off, and 0 keeps it until closed). Script: site/assets/clip.js, loaded on those pages only. Each clip is site/assets/<clip>.mp4, re-encoded from the GIF, with <clip>.jpg as its still for reduced motion. An entry with \"youtube\" (a video id) embeds that video instead, and \"clip\" is only the player's title."
+ "clips_note": "Arriving at each team's franchise page, its clip slides up in the corner and plays for the seconds given (a click sends it off, and 0 keeps it until closed). Script: site/assets/clip.js, loaded on those pages only. Each clip is site/assets/<clip>.mp4, re-encoded from the GIF, with <clip>.jpg as its still for reduced motion. An entry with \"youtube\" (a video id) embeds that video instead, and \"clip\" is only the player's title.",
+ "magazine": {
+  "team": "Karpet Munchers",
+  "seconds": 14,
+  "what": "Arriving at the Karpet Munchers' franchise page, a glossy draft-guide magazine slides up in the corner. Its can't-miss sleepers are their own four worst early picks (rounds 1 and 2, 2008 on, by starts under what the slot usually yields), and a sticky note gives the starts. Built by eggs.magazine(), shown by site/assets/clip.js. A click closes it."
+ },
+ "outage": {
+  "team": "Texas Nashvillians",
+  "what": "Arriving at the Texas Nashvillians' franchise page, the page flickers and switches off like an old television, an outage notice comes up, and a bucket truck drives in, raises its boom to the pole and restores the power. About seven seconds, and a click restores it at once. Reduced motion gets the notice alone, briefly. Script: site/assets/outage.js."
+ }
 }
