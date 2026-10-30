@@ -116,12 +116,12 @@ def museum():
     return page(c["title"], body, description="America's Team.")
 
 
-def arrive(dist, t, call, script=None, extra=""):
-    """Run call when team t's franchise page loads, after extra (markup) and script (in assets/)."""
+def arrive(dist, t, call, scripts=(), extra=""):
+    """Run call when team t's franchise page loads, after extra (markup) and scripts (in assets/)."""
     p = f"{dist}/franchises/{slug(t)}.html"
     if not os.path.exists(p):
         return
-    tag = f"<script src='../assets/{script}?v={ver('assets/' + script)}'></script>" if script else ""
+    tag = "".join(f"<script src='../assets/{sc}?v={ver('assets/' + sc)}'></script>" for sc in scripts)
     html = open(p).read().replace("</body>", f"{extra}{tag}<script>addEventListener('load', () => {call});</script></body>", 1)
     open(p, "w").write(html)
 
@@ -156,6 +156,20 @@ def magazine():
             f"</aside></template>")
 
 
+def grumbles():
+    """Ho Train's lines: eggs.json's, and two from the record, its best season and this one."""
+    g = config()["grumpy_train"]
+    done = [y for y in d.seasons() if y in d.champions()]
+    rows = [(y, r) for y in d.seasons() for r in d.standings(y) if r["team"] == g["team"]]
+    pct = lambda r: (r["w"] + 0.5 * r["t"]) / max(1, r["w"] + r["l"] + r["t"])
+    by, br = max(((y, r) for y, r in rows if y in done), key=lambda x: (pct(x[1]), x[1]["pf"]))
+    lines = list(g["lines"]) + [g["best"].format(year=by, record=record(br["w"], br["l"], br["t"]))]
+    ny, nr = rows[-1]
+    if ny not in done:
+        lines.append(g["now"].format(record=record(nr["w"], nr["l"], nr["t"])))
+    return lines
+
+
 def build(dist):
     with open(f"{dist}/404.html", "w") as f:
         f.write(not_found())
@@ -164,8 +178,8 @@ def build(dist):
         f.write(museum())
     # each team's own franchise page sets its egg off on arrival: Barney for F-Jackie (whose
     # title also carries the hint), Moose mode for the Moose, a clip for the teams in
-    # eggs.json's "clips", the draft guide for the Karpet Munchers and the power cut for the
-    # Texas Nashvillians. The scripts are assets/*.js.
+    # eggs.json's "clips", the draft guide for the Karpet Munchers, the power cut for the Texas
+    # Nashvillians, the trade offer for Couchfire and the grumpy engine for Ho Train. The scripts are assets/*.js.
     b = config()["barney"]
     p = f"{dist}/franchises/{slug(b['team'])}.html"
     if os.path.exists(p):
@@ -175,10 +189,14 @@ def build(dist):
     arrive(dist, team(), "window.pdlMoose && pdlMoose()")
     # the rest have no other trigger, so their scripts load on those pages alone
     for c in config()["clips"]:
-        arrive(dist, c["team"], f"pdlClip({json.dumps(c['clip'])}, {c['seconds']}, {json.dumps(c.get('youtube'))})", "clip.js")
+        arrive(dist, c["team"], f"pdlClip({json.dumps(c['clip'])}, {c['seconds']}, {json.dumps(c.get('youtube'))})", ["clip.js"])
     m = config()["magazine"]
-    arrive(dist, m["team"], f"pdlMagazine({m['seconds']})", "clip.js", magazine())
-    arrive(dist, config()["outage"]["team"], "pdlOutage()", "outage.js")
+    arrive(dist, m["team"], f"pdlMagazine({m['seconds']})", ["clip.js"], magazine())
+    arrive(dist, config()["outage"]["team"], "pdlOutage()", ["outage.js"])
+    t = config()["trade_offer"]
+    arrive(dist, t["team"], f"setTimeout(() => pdlTradeOffer({json.dumps({k: v for k, v in t.items() if k != 'what'})}), 800)", ["clip.js", "trade.js"])
+    g = config()["grumpy_train"]
+    arrive(dist, g["team"], f"pdlGrumpyTrain({json.dumps(grumbles())})", ["train.js"])
     # the antlers go on last, over every finished page
     n = 0
     for root, _, files in os.walk(dist):

@@ -41,12 +41,6 @@
    "what": "A rider on an electric scooter between two beer steins: don't drink and drive. Made from a GIF the commissioner supplied in 2026."
   },
   {
-   "team": "Couchfire",
-   "clip": "couch-fire",
-   "seconds": 8,
-   "what": "Someone reads the paper on a sofa that is on fire. Made from a GIF the commissioner supplied in 2026."
-  },
-  {
    "team": "Beers",
    "clip": "beers",
    "seconds": 6,
@@ -81,5 +75,39 @@
  "outage": {
   "team": "Texas Nashvillians",
   "what": "Arriving at the Texas Nashvillians' franchise page, the page flickers and switches off like an old television, an outage notice comes up, and a bucket truck drives in, raises its boom to the pole and restores the power. About seven seconds, and a click restores it at once. Reduced motion gets the notice alone, briefly. Script: site/assets/outage.js."
+ },
+ "trade_offer": {
+  "team": "Couchfire",
+  "from": "Couchfire",
+  "what": "Arriving at Couchfire's franchise page, a trade proposal comes up. Decline runs from the pointer three times before it gives in, Accept is already too late, and however it ends, the couch-on-fire clip plays (site/assets/couch-fire.mp4, from a GIF the commissioner supplied in 2026). Script: site/assets/trade.js. Its words are below.",
+  "give": [
+   "Your two best players",
+   "Your 2027 1st-round pick"
+  ],
+  "get": [
+   "A kicker",
+   "A tight end who retired in 2019",
+   "A 2031 7th-round pick",
+   "Future considerations"
+  ],
+  "note": "Trust me, this helps both of us.",
+  "accepted": "Too late. Couchfire already made this trade in one of his other 19 leagues.",
+  "declined": "Declined. Couchfire has countered: the same trade, plus his backup kicker.",
+  "dodges": 3,
+  "clip": "couch-fire",
+  "clip_seconds": 8
+ },
+ "grumpy_train": {
+  "team": "Ho Train",
+  "what": "Arriving at Ho Train's franchise page, a scowling steam engine chugs in from the right, stops mid-screen to grumble one line at random, and chugs off to the left (a click sends it away). Two lines come from the record: the best finished season and, while one is in progress, this season. Script: site/assets/train.js, the engine drawn for the site.",
+  "lines": [
+   "Get off my tracks.",
+   "Who asked for a website?",
+   "Your lineup is wrong. I didn't look. I can tell.",
+   "Don't click on me.",
+   "The rules change every year. I hated all of them."
+  ],
+  "best": "Back in {year} we went {record} and nobody made a fuss.",
+  "now": "{record} this season. Don't talk to me."
  }
 }
