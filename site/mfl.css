@@ -58,7 +58,10 @@ a.myfranchise, a.myfranchise:link, a.myfranchise:visited, a.myfranchise:active {
 tr.reportfooter a:link, tr.reportfooter a:visited { color: var(--pdl-link) !important; }
 .oddtablerow td.franchisename, .eventablerow td.franchisename { color: var(--pdl-ink-2) !important; }
 h3 a:link, h3 a:visited, h3 a:active { color: var(--pdl-link); }
-.reportnavigation, .reportnavigation a:link, .reportnavigation a:visited { color: var(--pdl-ink-2); }
+.reportnavigation, .reportnavigation span { color: var(--pdl-ink-2) !important; }
+.reportnavigation a:link, .reportnavigation a:visited { color: var(--pdl-link); }
+.oddtablerow td.points, .eventablerow td.points { color: var(--pdl-ink-2) !important; }
+caption span.module_expand { color: var(--pdl-ink-3) !important; }
 .reportnavigationheader { color: var(--pdl-ink) !important; }
 caption span.ownername, span.ownername { color: var(--pdl-ink-3) !important; }
 
