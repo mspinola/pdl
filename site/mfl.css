@@ -4,12 +4,24 @@
 
    It sits on top of MFL's Onyx skin and changes colour and type only: no layout,
    widths or menus, because MFL's markup is MFL's and moves between seasons. The
-   palette is the dark side of site.css (the retired dashboard's). */
+   palette is site.css's (the retired dashboard's): dark by default, since Onyx is,
+   and light for a viewer whose device is set to light, as the league site does. */
 :root {
   --pdl-bg: #0b0b0b; --pdl-surface: #1a1a19; --pdl-row: #141413; --pdl-rule: #2e2d2b;
   --pdl-ink: #f4f3ef; --pdl-ink-2: #c4c2bb; --pdl-ink-3: #a5a49a;
-  --pdl-accent: #2a78d6; --pdl-link: #5598e7; --pdl-accent-2: #eb6834; --pdl-mark: #1baf7a;
+  --pdl-accent: #256abf; --pdl-link: #5598e7; --pdl-accent-2: #eb6834; --pdl-mark: #1baf7a;
+  --pdl-flag: #eb6834;   /* orange as text: warnings, your own franchise */
   --pdl-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+@media (prefers-color-scheme: light) {
+  /* every text colour here clears 4.5:1 on the surfaces it sits on; the banner
+     orange is too light for text on white, so text takes a darker one */
+  :root {
+    --pdl-bg: #f9f9f7; --pdl-surface: #ffffff; --pdl-row: #f3f2ee; --pdl-rule: #e2e0da;
+    --pdl-ink: #0b0b0b; --pdl-ink-2: #52514e; --pdl-ink-3: #6d6b67;
+    --pdl-accent: #256abf; --pdl-link: #256abf; --pdl-accent-2: #eb6834; --pdl-mark: #127a55;
+    --pdl-flag: #b84a17;
+  }
 }
 
 /* the page */
@@ -39,11 +51,30 @@ a:link, a:active, a:visited { color: var(--pdl-link); text-underline-offset: 2px
 /* tables are dense, so their links go without the underline until hovered */
 .oddtablerow a:link, .oddtablerow a:visited, .eventablerow a:link, .eventablerow a:visited { text-decoration: none; }
 .oddtablerow a:hover, .eventablerow a:hover, a:hover { color: var(--pdl-ink); text-decoration: underline; }
-a.myfranchise, a.myfranchise:link, a.myfranchise:visited, a.myfranchise:active { color: var(--pdl-accent-2); }
+a.myfranchise, a.myfranchise:link, a.myfranchise:visited, a.myfranchise:active { color: var(--pdl-flag); }
 .pageheader a:link, .pageheader a:active, .pageheader a:visited,
 .pagefooter a:link, .pagefooter a:active, .pagefooter a:visited { color: var(--pdl-ink-2); }
+.pagefooter, .pagefooter td, .pagefooter b { color: var(--pdl-ink-3) !important; }
+tr.reportfooter a:link, tr.reportfooter a:visited { color: var(--pdl-link) !important; }
+.oddtablerow td.franchisename, .eventablerow td.franchisename { color: var(--pdl-ink-2) !important; }
+h3 a:link, h3 a:visited, h3 a:active { color: var(--pdl-link); }
+.reportnavigation, .reportnavigation span { color: var(--pdl-ink-2) !important; }
+.reportnavigation a:link, .reportnavigation a:visited { color: var(--pdl-link); }
+.oddtablerow td.points, .eventablerow td.points { color: var(--pdl-ink-2) !important; }
+caption span.module_expand { color: var(--pdl-ink-3) !important; }
+.reportnavigationheader { color: var(--pdl-ink) !important; }
+caption span.ownername, span.ownername { color: var(--pdl-ink-3) !important; }
 
-/* menus */
+/* menus. Onyx sets their text pale gray for its dark bars, so the text is set here too */
+.myfantasyleague_menu ul li a, .myfantasyleague_menu ul li:hover ul li a,
+.myfantasyleague_menu ul li ul li:hover ul li a,
+.myfantasyleague_tabmenu #homepagetabs li a { color: var(--pdl-ink-2); }
+.myfantasyleague_menu ul li:hover a, .myfantasyleague_menu ul li ul li:hover a,
+.myfantasyleague_tabmenu #homepagetabs li:hover a { color: var(--pdl-ink); }
+.myfantasyleague_menu > ul > li.has-sub > a:after { border-top-color: var(--pdl-ink-3); }
+.myfantasyleague_menu ul ul > li.has-sub > a:after { border-left-color: var(--pdl-ink-3); }
+.homepagemodule, table.report { box-shadow: none !important; }
+div.mobile-wrap { border-color: var(--pdl-rule) !important; box-shadow: none !important; }
 .myfantasyleague_menu, .myfantasyleague_menu ul, .myfantasyleague_menu ul li ul,
 .myfantasyleague_menu ul ul li, .myfantasyleague_tabmenu { background: var(--pdl-surface); }
 .myfantasyleague_menu { border-bottom-color: var(--pdl-rule); }
@@ -82,7 +113,7 @@ th a:link, th a:active, th a:visited { color: var(--pdl-ink-2); }
 
 /* warnings and hints, which Onyx paints gold */
 .warning, th.warning, body div.hint, abbr, .homepagemessage span.warning, .homepagemessage h4.warning,
-#MFLPlayerPopupContainer .warning { color: var(--pdl-accent-2); }
+#MFLPlayerPopupContainer .warning { color: var(--pdl-flag); }
 .oddtablerow td.status span.freeagent, .eventablerow td.status span.freeagent { color: var(--pdl-mark); }
 .franchise_online::after { background: var(--pdl-mark); }
 
