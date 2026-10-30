@@ -268,6 +268,30 @@ def attendance():
             f"{notes}</div></aside></template>")
 
 
+def beers():
+    """Beers' notes and rumors, for assets/notes.js and rumor.js: a page on every franchise they
+    have traded with (trades from the record, the scrawl from eggs.json), and the rumor mill with
+    its blanks filled in from the same counts."""
+    b = config()["beers"]
+    partners = {}
+    for x in d.trades():
+        for me, them in ((x["team_a"], x["team_b"]), (x["team_b"], x["team_a"])):
+            if me == b["team"]:
+                partners[them] = partners.get(them, 0) + 1
+    total = sum(partners.values())
+    ranked = sorted(partners.items(), key=lambda kv: -kv[1])
+    scrawl = b["scrawl"]
+    pages = [[t.upper(), f"{n} trades w/ us", b["about"].get(t, scrawl[i % len(scrawl)])] for i, (t, n) in enumerate(ranked)]
+    pages += b["extra_pages"]
+    most = max(sum(1 for x in d.trades() if t in (x["team_a"], x["team_b"])) for t in d.identities() if t != b["team"])
+    facts = {"team": b["team"], "total": total, "franchises": len(partners), "top": ranked[0][0], "top_n": ranked[0][1],
+             "top_next": ranked[0][1] + 1, "next_most": most}
+    notes = {"team": b["team"], "seconds": b["notes_seconds"], "pages": pages,
+             "partners": [{"team": t, "n": n} for t, n in ranked], "total": b["total"].format(**facts)}
+    rumors = {"label": b["label"], "rumors": [r.format(**facts) for r in b["rumors"]]}
+    return notes, rumors
+
+
 def build(dist):
     with open(f"{dist}/404.html", "w") as f:
         f.write(not_found())
@@ -285,6 +309,13 @@ def build(dist):
         open(p, "w").write(html)
     arrive(dist, b["team"], "window.pdlBarney && pdlBarney()")
     arrive(dist, team(), "window.pdlMoose && pdlMoose()")
+    # the Moose's own page crosses out its Super Bowl losses in favour of appearances
+    r = config()["relabel"]
+    p = f"{dist}/franchises/{slug(team())}.html"
+    if os.path.exists(p):
+        html = open(p).read().replace(f"<span class='k'>{E(r['from'])}</span>",
+                                      f"<span class='k'><s>{E(r['from'])}</s> {E(r['to'])}</span>", 1)
+        open(p, "w").write(html)
     # and once the moose has run, the commissioner's build log
     arrive(dist, team(), f"setTimeout(() => pdlBuildLog({json.dumps(build_log(dist))}), {config()['build_log']['delay_ms']})",
            ["commish.js"])
@@ -300,6 +331,11 @@ def build(dist):
     k = config()["tank"]
     arrive(dist, k["team"], f"pdlTank({json.dumps(tank_card())}); setTimeout(() => pdlCard('pdl-attendance', "
                             f"{k['sheet_seconds']}), {k['sheet_after_ms']})", ["tank.js"], attendance())
+    bc = config()["beers"]
+    notes, rumors = beers()
+    arrive(dist, bc["team"], f"setTimeout(() => pdlNotes({json.dumps(notes)}), {bc['notes_after_ms']}); "
+                             f"setTimeout(() => pdlRumors({json.dumps(rumors)}), {bc['rumors_after_ms']})",
+           ["notes.js", "rumor.js"])
     y = config()["y2k"]
     arrive(dist, y["team"], f"setTimeout(pdlY2K, {y['delay_ms']})", ["y2k.js"], y2k())
     t = config()["trade_offer"]

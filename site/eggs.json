@@ -195,5 +195,79 @@
     "1st overall pick, {draft_year}: present."
    ]
   }
+ },
+ "beers": {
+  "team": "Beers",
+  "what": "On Beers' franchise page, while the beer clip plays, dozens of messy legal-pad pages flutter down and land in a heap: one on every franchise Beers have traded with (the trade counts from the record, the scrawl below) and a few more, and on top the switchboard, Beers in the middle with a line to every franchise as thick as their trades. A click, Escape or 20 seconds sweeps them away. Once the clip has gone, the rumor mill crawls along the bottom: every rumor is made up, and says so by being absurd. Scripts: site/assets/notes.js and rumor.js.",
+  "notes_after_ms": 400,
+  "notes_seconds": 20,
+  "rumors_after_ms": 7000,
+  "total": "{total} TRADES, MOST EVER",
+  "about": {
+   "Texas Nashvillians": "call again!!",
+   "Da Funk": "wants RB?? or WR. ask",
+   "Scooter's Boozers": "~buy~ sell. no, buy",
+   "Manic Moose": "careful, he's the commish",
+   "Couchfire": "do NOT open his offers",
+   "Karpet Munchers": "mail him a magazine?",
+   "Ho Train": "don't call, he's grumpy",
+   "Tally Wackers": "will he show up? (no)",
+   "Dunbar Dogs": "only wants WRs. and 2000",
+   "F-Jackie": "purple??"
+  },
+  "scrawl": [
+   "ask about '27 1st",
+   "has a kicker?",
+   "owes me one",
+   "~sell high~ buy low",
+   "call after draft",
+   "maybe???"
+  ],
+  "extra_pages": [
+   [
+    "DRAFT",
+    "who has a kicker",
+    "~RB~ ~WR~ BPA!!",
+    "ask everyone about '27 1sts"
+   ],
+   [
+    "BYE WEEKS",
+    "check!!!",
+    "check again"
+   ],
+   [
+    "TO DO",
+    "~trade~",
+    "trade more",
+    "find pen"
+   ],
+   [
+    "HANDCUFFS",
+    "all of them",
+    "~some~ ALL"
+   ]
+  ],
+  "label": "Beers hears",
+  "rumors": [
+   "{top} and Beers are talking again. That would be trade {top_next}.",
+   "Couchfire has sent the same trade offer to 19 other leagues.",
+   "Karpet Munchers have pre-ordered next summer's draft magazine.",
+   "Ho Train says he is not grumpy. Ho Train is grumpy.",
+   "Dunbar Dogs have filed a protest against the year 2001.",
+   "Tally Wackers will attend the next meeting. Source: none.",
+   "A Manic Moose trade was approved in record time. By the commissioner.",
+   "F-Jackie seen buying something purple.",
+   "OakalDoakals are drawing up a halfback pass.",
+   "Scooter's Boozers have arranged a ride home.",
+   "Otters are growing moustaches for the playoffs.",
+   "Texas Nashvillians would like everyone to stop emailing.",
+   "Beers have made {total} trades. Second place has {next_most}.",
+   "Beers would like a word about your 2027 1st."
+  ]
+ },
+ "relabel": {
+  "from": "Super Bowl losses",
+  "to": "Super Bowl appearances",
+  "what": "On the Moose's own franchise page, the Super Bowl losses fact is labelled with \"Super Bowl losses\" struck through and \"Super Bowl appearances\" after it. The years listed are the same."
  }
 }
