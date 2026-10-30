@@ -218,6 +218,12 @@ img.barney-pop.up { transform: translateY(0) rotate(-3deg); animation: barney-bo
   border-radius: 10px; box-shadow: 0 6px 24px rgba(0, 0, 0, .35); transform: translateY(130%);
   transition: transform .6s cubic-bezier(.2, 1.4, .4, 1); }
 .clip-pop.up { transform: translateY(0); }
+/* a YouTube clip: 16:9, the player takes its own clicks, and a button closes it */
+.clip-pop.clip-yt { height: auto; width: min(90vw, 420px); max-width: none; aspect-ratio: 16 / 9; overflow: hidden;
+  background: #000; cursor: auto; }
+.clip-yt iframe { width: 100%; height: 100%; border: 0; display: block; }
+.clip-yt button { position: absolute; top: 6px; right: 6px; width: 28px; height: 28px; border: 0; border-radius: 50%;
+  background: rgba(0, 0, 0, .7); color: #fff; font: 20px/28px var(--sans, sans-serif); cursor: pointer; }
 @media (prefers-reduced-motion: reduce) { .clip-pop, .clip-pop.up { transition: none; transform: none; } }
 @media print { .clip-pop { display: none; } }
 @media print { .moose::before, .banner.moose-title::after { display: none; } }

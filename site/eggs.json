@@ -57,7 +57,20 @@
    "clip": "otters",
    "seconds": 6,
    "what": "A raft of sea otters, every one wearing a moustache. Made from a GIF the commissioner supplied in 2026."
+  },
+  {
+   "team": "OakalDoakals",
+   "clip": "Travis Henry's halfback pass",
+   "youtube": "NSZ7Q6kIyzQ",
+   "seconds": 0,
+   "what": "Travis Henry's infamous halfback pass, Dolphins at Bills, September 21, 2003, embedded from the Buffalo Archives Now YouTube channel rather than copied, and starting muted in YouTube's own player, which takes clicks for play and sound, and stays until its close button is pressed. If the upload is taken down, the egg shows an empty player: drop this entry."
+  },
+  {
+   "team": "Carter's Commandos",
+   "clip": "commandos",
+   "seconds": 6,
+   "what": "A green army man throws his red cup: go commando. Made from a GIF the commissioner supplied in 2026, set on white because the GIF's background is transparent."
   }
  ],
- "clips_note": "Arriving at each team's franchise page, its clip slides up in the corner and plays for the seconds given (a click sends it off). Script: site/assets/clip.js, loaded on those pages only. Each clip is site/assets/<clip>.mp4, re-encoded from the GIF, with <clip>.jpg as its still for reduced motion."
+ "clips_note": "Arriving at each team's franchise page, its clip slides up in the corner and plays for the seconds given (a click sends it off, and 0 keeps it until closed). Script: site/assets/clip.js, loaded on those pages only. Each clip is site/assets/<clip>.mp4, re-encoded from the GIF, with <clip>.jpg as its still for reduced motion. An entry with \"youtube\" (a video id) embeds that video instead, and \"clip\" is only the player's title."
 }
