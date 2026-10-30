@@ -152,5 +152,21 @@
    "Computing schedule luck...| {luck} wins, the most in the league",
    "Crediting it to skill...| done"
   ]
+ },
+ "y2k": {
+  "team": "Dunbar Dogs",
+  "delay_ms": 700,
+  "what": "A moment after arriving at the Dunbar Dogs' franchise page, it turns into a home page from 2000: gray, Times New Roman, blue underlined links, a scrolling marquee, an under-construction banner, a hit counter and a news box. The news comes from the rule book's ledger (the divisions drawn from a hat, then restored) and the team's draft picks. A button brings 2026 back. Script: site/assets/y2k.js, built by eggs.y2k().",
+  "redraw": "2014-realignment",
+  "restore": "2019-divisions",
+  "marquee": "*** RESTORE THE ORIGINAL DIVISIONS *** WELCOME TO THE DUNBAR DOGS HOME PAGE *** NO RULE CHANGES PLEASE *** SIGN MY GUESTBOOK ***",
+  "welcome": "Welcome to the {team} Home Page!!!",
+  "news": [
+   "{restored}: The ORIGINAL DIVISIONS are RESTORED!!! (After {hat_seasons} seasons of drawing them out of a hat.)",
+   "Rule changes since 2000: {changes}. Rule changes the {team} wanted: 0.",
+   "Wide receivers drafted: {wr} ({wr_pct}% of our picks). Running backs are a fad."
+  ],
+  "footer": "Best viewed in Netscape Navigator 4.0 at 800x600. Guestbook coming soon! Last updated: August 2000.",
+  "button": "Fine, show me 2026"
  }
 }

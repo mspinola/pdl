@@ -210,6 +210,29 @@ def build_log(dist):
     return [line.format(**facts) for line in lines]
 
 
+def y2k():
+    """The Dunbar Dogs' home page from 2000, a <template> for assets/y2k.js, its news from the rule
+    book's ledger (the divisions drawn from a hat, then restored) and the team's draft picks."""
+    y = config()["y2k"]
+    ledger = {c["id"]: c for c in json.load(open(f"{os.path.dirname(SITE)}/rules/ledger.json"))["changes"]}
+    hat, back = int(ledger[y["redraw"]]["effective"]), int(ledger[y["restore"]]["effective"])
+    picks = [r for r in d.all_drafts() if r["team"] == y["team"]]
+    wr = sum(r["position"] == "WR" for r in picks)
+    facts = {"restored": back, "hat_seasons": back - hat, "changes": len(ledger), "wr": wr,
+             "wr_pct": round(100 * wr / len(picks)), "team": y["team"]}
+    new = "<b class='y2k-new'>NEW!</b>"
+    news = "".join(f"<tr><td>{new if i == 0 else ''}</td><td>{E(line.format(**facts))}</td></tr>"
+                   for i, line in enumerate(y["news"]))
+    return (f"<template id='pdl-y2k'><div class='y2k-top'>"
+            f"<div class='y2k-marquee'><span>{E(y['marquee'])}</span></div>"
+            f"<p class='y2k-h'>{E(y['welcome'].format(**facts))}</p>"
+            f"<div class='y2k-construction'><span>UNDER CONSTRUCTION</span></div>"
+            f"<table class='y2k-news'><tr><th colspan='2'>LEAGUE NEWS</th></tr>{news}</table>"
+            f"<p class='y2k-counter'>You are visitor number <span></span></p>"
+            f"<p class='y2k-small'>{E(y['footer'])}</p>"
+            f"<button type='button' class='y2k-off'>{E(y['button'])}</button></div></template>")
+
+
 def build(dist):
     with open(f"{dist}/404.html", "w") as f:
         f.write(not_found())
@@ -237,6 +260,8 @@ def build(dist):
     m = config()["magazine"]
     arrive(dist, m["team"], f"pdlMagazine({m['seconds']})", ["clip.js"], magazine())
     arrive(dist, config()["outage"]["team"], "pdlOutage()", ["outage.js"])
+    y = config()["y2k"]
+    arrive(dist, y["team"], f"setTimeout(pdlY2K, {y['delay_ms']})", ["y2k.js"], y2k())
     t = config()["trade_offer"]
     arrive(dist, t["team"], f"setTimeout(() => pdlTradeOffer({json.dumps({k: v for k, v in t.items() if k != 'what'})}), 800)", ["clip.js", "trade.js"])
     g = config()["grumpy_train"]

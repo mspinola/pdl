@@ -48,7 +48,8 @@
       }, q[0]));
     });
     timers.push(setTimeout(function () { pre.classList.add("idle"); }, t));
-    timers.push(setTimeout(leave, t + 7000));
+    // there is a lot to read, so it stays half a minute after the last line
+    timers.push(setTimeout(leave, t + 30000));
   }
   window.pdlBuildLog = log;
 })();
