@@ -36,9 +36,9 @@
   },
   {
    "team": "Scooter's Boozers",
-   "clip": "deal",
+   "clip": "dont-drink",
    "seconds": 6,
-   "what": "A flame in a suit, giving a thumbs up: you got yourself a deal. Made from a GIF the commissioner supplied in 2026."
+   "what": "A rider on an electric scooter between two beer steins: don't drink and drive. Made from a GIF the commissioner supplied in 2026."
   }
  ],
  "clips_note": "Arriving at each team's franchise page, its clip slides up in the corner and plays for the seconds given (a click sends it off). Script: site/assets/clip.js, loaded on those pages only. Each clip is site/assets/<clip>.mp4, re-encoded from the GIF, with <clip>.jpg as its still for reduced motion."
