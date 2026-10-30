@@ -41,6 +41,16 @@
     card.appendChild(h);
     card.appendChild(ul);
     card.appendChild(grade);
+    // a heckle stuck to the card, if there is one
+    if (c.heckle) {
+      var hk = document.createElement("p");
+      hk.className = "tank-heckle";
+      hk.textContent = c.heckle.text;
+      var by = document.createElement("i");
+      by.textContent = c.heckle.by;
+      hk.appendChild(by);
+      card.appendChild(hk);
+    }
     el.appendChild(card);
     el.insertAdjacentHTML("beforeend", tank(c.flag));
     document.body.appendChild(el);

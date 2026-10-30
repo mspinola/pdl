@@ -182,7 +182,7 @@
  "tank": {
   "team": "Tally Wackers",
   "player": "Luck, Andrew",
-  "what": "On the Tally Wackers' franchise page, while the tube man flails, a tank flying a SUCK FOR LUCK flag rolls in, stops under a report card on the season before they took Andrew Luck 1st overall (record, points against the next-lowest team, his starts in his first three seasons, titles since, all from the record), and rolls off. Once the tank has gone, their sign-in sheet for the draft and summer meeting slides up: present in the years below, absent in every other. The attendance is the league's lore, not a record. Scripts: site/assets/tank.js and clip.js.",
+  "what": "On the Tally Wackers' franchise page, while the tube man flails, a tank flying a SUCK FOR LUCK flag rolls in, stops under a report card on the season before they took Andrew Luck 1st overall (record, points against the next-lowest team, his starts in his first three seasons, titles since, all from the record), and rolls off. Once the tank has gone, their sign-in sheet for the draft and summer meeting slides up: present in the years below, absent in every other. The attendance is the league's lore, not a record. Scripts: site/assets/tank.js and clip.js. A heckle from the Texas Nashvillians is stuck to the report card.",
   "flag": "SUCK FOR LUCK {year}",
   "title": "{year} report card",
   "grade": "F (on purpose)",
@@ -204,6 +204,10 @@
     "Picks submitted online. Again.",
     "1st overall pick, {draft_year}: present."
    ]
+  },
+  "heckle": {
+   "text": "He's not sucking for Luck. He's just sucking to suck.",
+   "by": "Texas Nashvillians"
   }
  },
  "beers": {
@@ -307,5 +311,19 @@
   "record": "A PDL record (rosters kept since {since}).",
   "plaque_hint": "From the archived MFL rosters, end of each season, 2003 on.",
   "motto": "We don't trade. We wait."
+ },
+ "rx": {
+  "team": "F-Jackie",
+  "after_ms": 5600,
+  "seconds": 16,
+  "what": "On F-Jackie's franchise page, once Barney has gone, a doctor's prescription slides up. The diagnosis is the team's schedule luck from the luck table the franchise pages use (the worst in the league, and by how much), and the second opinion is the Texas Nashvillians'. eggs.rx(), shown by site/assets/clip.js.",
+  "doctor": "F-JACKIE, M.D.",
+  "clinic": "Premier Dynasty League Clinic",
+  "lines": [
+   "Patient: {team}",
+   "Diagnosis: chronic bad luck. {luck} wins against what the scoring was worth, {rank} ({other_label}: {other}, {other_luck})."
+  ],
+  "script": "Take two Barneys and call me in the morning.",
+  "second": "Second opinion, Texas Nashvillians: “The dumbest doctor I know.”"
  }
 }

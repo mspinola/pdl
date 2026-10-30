@@ -258,7 +258,7 @@ def tank_facts():
 def tank_card():
     k, f = config()["tank"], tank_facts()
     return {"flag": E(k["flag"].format(**f)), "title": k["title"].format(**f), "grade": k["grade"],
-            "lines": [line.format(**f) for line in k["lines"]]}
+            "lines": [line.format(**f) for line in k["lines"]], "heckle": k.get("heckle")}
 
 
 def attendance():
@@ -358,6 +358,28 @@ def autumn():
             f"<p class='bowl-small'>{E(b['footer'])}</p></aside></template>")
 
 
+def rx():
+    """F-Jackie's prescription, a <template> for assets/clip.js: the diagnosis is the team's schedule
+    luck against the league's, from the luck table the franchise pages use."""
+    r = config()["rx"]
+    luck = sorted(d.by_owner("luck_owners.csv").items(), key=lambda kv: float(kv[1]["luck"]))
+    names = [t for t, _ in luck]
+    rank = names.index(r["team"]) + 1
+    other = luck[1] if rank == 1 else luck[0]
+    facts = {"team": r["team"], "luck": f"{float(dict(luck)[r['team']]['luck']):+.1f}",
+             "rank": "the worst in the league" if rank == 1 else f"{ordinal(rank)} worst in the league",
+             "other": other[0], "other_luck": f"{float(other[1]['luck']):+.1f}",
+             "other_label": "next worst" if rank == 1 else "worst"}
+    # a scrawled signature
+    sign = ("<svg class='rx-sign' viewBox='0 0 130 30' aria-hidden='true'><path d='M4 22 C14 2 20 30 28 14 S40 4 44 18 "
+            "S58 26 62 12 S74 2 80 20 S96 28 102 10 S118 6 126 16' fill='none' stroke='#1b3f8f' stroke-width='2'/></svg>")
+    body = "".join(f"<p>{E(line.format(**facts))}</p>" for line in r["lines"])
+    return (f"<template id='pdl-rx'><aside class='rx' title='Click to close'><div class='rx-head'><b>{E(r['doctor'])}</b>"
+            f"<small>{E(r['clinic'])}</small></div><div class='rx-body'>{body}"
+            f"<span class='rx-sym'>&#8478;</span><p class='rx-script'>{E(r['script'])}</p>"
+            f"<p class='rx-second'>{E(r['second'])}</p>{sign}</div></aside></template>")
+
+
 def build(dist):
     with open(f"{dist}/404.html", "w") as f:
         f.write(not_found())
@@ -374,6 +396,9 @@ def build(dist):
         html = open(p).read().replace("<h1>", f"<h1 title='{E(b['hint'])}'>", 1)
         open(p, "w").write(html)
     arrive(dist, b["team"], "window.pdlBarney && pdlBarney()")
+    # and once Barney has gone, the doctor's prescription
+    rx_cfg = config()["rx"]
+    arrive(dist, rx_cfg["team"], f"setTimeout(() => pdlCard('pdl-rx', {rx_cfg['seconds']}), {rx_cfg['after_ms']})", ["clip.js"], rx())
     arrive(dist, team(), "window.pdlMoose && pdlMoose()")
     # the Moose's own page crosses out its Super Bowl losses in favour of appearances
     r = config()["relabel"]

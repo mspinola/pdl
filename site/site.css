@@ -489,6 +489,27 @@ html.outage-on body { animation: outage-crt-on .6s ease-out; }
 /* both hang off the cover's top edge, so the sleepers and the note stay readable */
 .mag-heckle-1 { top: -40px; left: -8px; background: #9fe3ff; transform: rotate(-8deg); }
 .mag-heckle-2 { top: -46px; right: -6px; background: #ffb3d1; transform: rotate(6deg); }
+.tank-heckle { position: absolute; top: -38px; right: -8px; width: 150px; margin: 0; padding: 6px 8px; color: #222;
+  background: #9fe3ff; box-shadow: 0 4px 10px rgba(0, 0, 0, .35); transform: rotate(5deg);
+  font: 400 12px/1.3 "Marker Felt", "Segoe Print", "Comic Sans MS", cursive; }
+.tank-heckle i { display: block; margin-top: 2px; font-style: normal; text-align: right; }
+
+/* F-Jackie's prescription (eggs.rx, shown by site/assets/clip.js): a doctor's pad, in its own colours */
+.rx { position: fixed; right: 16px; bottom: 16px; z-index: 50; width: min(calc(100vw - 32px), 290px); cursor: pointer;
+  overflow: hidden; color: #1d2433; background: #ffffff; border-radius: 4px; box-shadow: 0 10px 30px rgba(0, 0, 0, .45);
+  font: 13px/1.4 var(--sans); transform: translateY(130%) rotate(4deg); transition: transform .7s cubic-bezier(.2, 1.3, .4, 1); }
+.rx.up { transform: translateY(0) rotate(-1.5deg); }
+.rx-head { padding: 10px 14px 8px; color: #ffffff; background: #1f5fa8; text-align: center; }
+.rx-head b { display: block; font: 700 17px/1.2 var(--serif); letter-spacing: .04em; }
+.rx-head small { font-size: 11px; letter-spacing: .06em; }
+.rx-body { padding: 10px 14px 12px; background-image: repeating-linear-gradient(transparent 0 23px, #e4e9f2 23px 24px); }
+.rx-body p { margin: 0 0 7px; }
+.rx-body .rx-sym { float: left; margin: -4px 8px 0 0; color: #1f5fa8; font: 700 34px/1 var(--serif); }
+.rx-script { color: #1b3f8f; font: 15px/1.3 "Bradley Hand", "Marker Felt", "Segoe Print", "Comic Sans MS", cursive; }
+.rx-second { clear: both; padding-top: 6px; border-top: 1px dashed #b9c3d6; font-style: italic; }
+.rx-sign { display: block; width: 130px; height: 30px; margin: 4px 0 0 auto; }
+@media (prefers-reduced-motion: reduce) { .rx, .rx.up { transition: none; transform: none; } }
+@media print { .rx { display: none; } }
 /* the commissioner's build log (site/assets/commish.js), on the Moose's page: a terminal, so its
    own dark colours whatever the site's theme */
 .commish { position: fixed; right: 16px; bottom: 16px; z-index: 50; width: min(calc(100vw - 32px), 500px);
