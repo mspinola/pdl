@@ -39,6 +39,12 @@
    "clip": "dont-drink",
    "seconds": 6,
    "what": "A rider on an electric scooter between two beer steins: don't drink and drive. Made from a GIF the commissioner supplied in 2026."
+  },
+  {
+   "team": "Couchfire",
+   "clip": "couch-fire",
+   "seconds": 8,
+   "what": "Someone reads the paper on a sofa that is on fire. Made from a GIF the commissioner supplied in 2026."
   }
  ],
  "clips_note": "Arriving at each team's franchise page, its clip slides up in the corner and plays for the seconds given (a click sends it off). Script: site/assets/clip.js, loaded on those pages only. Each clip is site/assets/<clip>.mp4, re-encoded from the GIF, with <clip>.jpg as its still for reduced motion."
