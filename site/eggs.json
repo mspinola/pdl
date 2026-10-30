@@ -57,7 +57,12 @@
    "clip": "Travis Henry's halfback pass",
    "youtube": "NSZ7Q6kIyzQ",
    "seconds": 0,
-   "what": "Travis Henry's infamous halfback pass, Dolphins at Bills, September 21, 2003, embedded from the Buffalo Archives Now YouTube channel rather than copied, and starting muted in YouTube's own player, which takes clicks for play and sound, and stays until its close button is pressed. If the upload is taken down, the egg shows an empty player: drop this entry."
+   "what": "Travis Henry's infamous halfback pass, Dolphins at Bills, September 21, 2003, embedded from the Buffalo Archives Now YouTube channel rather than copied, and starting muted in YouTube's own player, which takes clicks for play and sound, and stays until its close button is pressed. If the upload is taken down, the egg shows an empty player: drop this entry. The caption is the league's reason for it: the OakalDoakals took Henry 1st overall in 2007, ahead of the three picks after him, all from the draft data.",
+   "pick": {
+    "season": 2007,
+    "player": "Henry, Travis"
+   },
+   "caption": "{overall} overall, {year}: {pick}. The next three picks: {next}. In his honor, Travis Henry at quarterback."
   },
   {
    "team": "Carter's Commandos",
