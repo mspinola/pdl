@@ -1,14 +1,7 @@
 // The F-Jackie egg. See site/eggs.json: type "barney" anywhere on the site.
 (function () {
-  var word = "barney";
-  var typed = "";
-  addEventListener("keydown", function (e) {
-    var t = e.target;
-    if (t && (t.isContentEditable || /^(input|textarea|select)$/i.test(t.tagName))) return;
-    if (e.key.length !== 1) return;
-    typed = (typed + e.key.toLowerCase()).slice(-word.length);
-    if (typed !== word || document.querySelector(".barney-pop")) return;
-    typed = "";
+  function barney() {
+    if (document.querySelector(".barney-pop")) return;
     document.documentElement.classList.add("barney-mode");
     var img = new Image();
     img.src = document.querySelector("link[rel=stylesheet]").href.replace("site.css", "barney.jpg");
@@ -27,5 +20,19 @@
       document.documentElement.classList.remove("barney-mode");
       setTimeout(function () { img.remove(); }, 700);
     }, 4500);
+  }
+  // the trades page's team filter calls him too
+  window.pdlBarney = barney;
+
+  var word = "barney";
+  var typed = "";
+  addEventListener("keydown", function (e) {
+    var t = e.target;
+    if (t && (t.isContentEditable || /^(input|textarea|select)$/i.test(t.tagName))) return;
+    if (e.key.length !== 1) return;
+    typed = (typed + e.key.toLowerCase()).slice(-word.length);
+    if (typed !== word) return;
+    typed = "";
+    barney();
   });
 })();

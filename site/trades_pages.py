@@ -1,8 +1,9 @@
 """Trades: trades/index.html, every trade since 2000 with who trades and with whom."""
-import os
+import json, os
 from collections import Counter
 
 import league_data as d
+import eggs
 from frame import E, page, slug
 
 
@@ -59,6 +60,9 @@ def build(dist):
             " const t = e.target.value;"
             " document.querySelectorAll('#log li').forEach(li => li.hidden = t && !li.dataset.teams.split('|').includes(t));"
             " document.querySelectorAll('#log details').forEach(d => d.hidden = ![...d.querySelectorAll('li')].some(li => !li.hidden));"
+            # the easter eggs (site/eggs.json): picking the Moose or F-Jackie sets them loose
+            f" if (t === {json.dumps(eggs.team())} && window.pdlMoose) pdlMoose();"
+            f" if (t === {json.dumps(eggs.config()['barney']['team'])} && window.pdlBarney) pdlBarney();"
             "});</script></div>")
     with open(f"{dist}/trades/index.html", "w") as f:
         f.write(page("PDL trades", body, description="Every PDL trade since 2000."))
