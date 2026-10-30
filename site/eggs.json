@@ -363,5 +363,20 @@
    "Revised grade: <b>C-</b>",
    "Since {since}: {recent}%, league {recent_league}%. Trending up."
   ]
+ },
+ "out_of_office": {
+  "team": "F-Jackie",
+  "after_ms": 1200,
+  "seconds": 14,
+  "what": "On F-Jackie's franchise page, an email notification slides in at the top right: an automatic reply from Buddy, the team's former co-manager, who did the work until he left. The rule book's changes are counted from its ledger. eggs.out_of_office(), shown by site/assets/clip.js. The commissioner chose to name him.",
+  "app": "New mail",
+  "from": "Buddy",
+  "subject": "Automatic reply: Re: {team}",
+  "body": [
+   "I no longer manage {team}.",
+   "For questions about lineups, waivers or the rules, please contact the remaining owner, who will not know."
+  ],
+  "rules": "The {link} is here: {changes} changes since 2000. I read all of them. So that one of us had.",
+  "link_text": "rule book"
  }
 }

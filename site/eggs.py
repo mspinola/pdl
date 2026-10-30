@@ -427,6 +427,20 @@ def draft_grade():
             f"<div class='grade-revised'>{revised}</div></aside></template>")
 
 
+def out_of_office():
+    """F-Jackie's former co-manager's automatic reply, a <template> for assets/clip.js, the rule
+    book's changes counted from its ledger."""
+    oo = config()["out_of_office"]
+    changes = len(json.load(open(f"{os.path.dirname(SITE)}/rules/ledger.json"))["changes"])
+    body = "".join(f"<p>{E(line.format(team=oo['team']))}</p>" for line in oo["body"])
+    rules = E(oo["rules"]).replace("{link}", f"<a href='../rules/index.html'>{E(oo['link_text'])}</a>").replace("{changes}", str(changes))
+    envelope = ("<svg viewBox='0 0 16 12' aria-hidden='true'><rect x='.5' y='.5' width='15' height='11' rx='1.5' fill='none' "
+                "stroke='#555'/><path d='M1 1 L8 7 L15 1' fill='none' stroke='#555'/></svg>")
+    return (f"<template id='pdl-ooo'><aside class='ooo' title='Click to close'><div class='ooo-head'>{envelope}"
+            f"{E(oo['app'])}</div><div class='ooo-body'><p class='ooo-from'>From: {E(oo['from'])}</p>"
+            f"<p class='ooo-subject'>{E(oo['subject'].format(team=oo['team']))}</p>{body}<p>{rules}</p></div></aside></template>")
+
+
 def build(dist):
     with open(f"{dist}/404.html", "w") as f:
         f.write(not_found())
@@ -443,6 +457,9 @@ def build(dist):
         html = open(p).read().replace("<h1>", f"<h1 title='{E(b['hint'])}'>", 1)
         open(p, "w").write(html)
     arrive(dist, b["team"], "window.pdlBarney && pdlBarney()")
+    # the former co-manager's out-of-office reply, up top while Barney is below
+    oo = config()["out_of_office"]
+    arrive(dist, oo["team"], f"setTimeout(() => pdlCard('pdl-ooo', {oo['seconds']}), {oo['after_ms']})", ["clip.js"], out_of_office())
     # and once Barney has gone, the doctor's prescription
     rx_cfg = config()["rx"]
     arrive(dist, rx_cfg["team"], f"setTimeout(() => pdlCard('pdl-rx', {rx_cfg['seconds']}), {rx_cfg['after_ms']})", ["clip.js"], rx())

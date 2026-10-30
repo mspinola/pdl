@@ -540,6 +540,23 @@ html.outage-on body { animation: outage-crt-on .6s ease-out; }
   .grade-mark::after { transform: rotate(-12deg); }
   .grade-stamp { transform: rotate(-14deg); opacity: .9; } }
 @media print { .grade { display: none; } }
+/* F-Jackie's out-of-office reply (eggs.out_of_office, shown by site/assets/clip.js): an email
+   notification at the top right, clear of Barney and the prescription below. Its own colours */
+.ooo { position: fixed; top: 64px; right: 16px; z-index: 50; width: min(calc(100vw - 32px), 340px); cursor: pointer;
+  color: #1d1d1d; background: #ffffff; border-radius: 10px; box-shadow: 0 10px 30px rgba(0, 0, 0, .45);
+  font: 13px/1.45 var(--sans); overflow: hidden; transform: translateX(calc(100% + 24px));
+  transition: transform .5s cubic-bezier(.2, 1.1, .4, 1); }
+.ooo.up { transform: none; }
+.ooo-head { display: flex; align-items: center; gap: 8px; padding: 8px 12px; color: #555; background: #f1f3f6;
+  font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
+.ooo-head svg { width: 16px; height: 12px; }
+.ooo-body { padding: 10px 14px 12px; }
+.ooo-body p { margin: 0 0 6px; }
+.ooo-from { color: #555; font-size: 12px; }
+.ooo-subject { font-weight: 700; }
+.ooo-body a { color: #1f5fa8; }
+@media (prefers-reduced-motion: reduce) { .ooo, .ooo.up { transition: none; transform: none; } }
+@media print { .ooo { display: none; } }
 /* other teams' quotes pinned to a franchise page (eggs.page_heckle): a sticky note, its own colours */
 .page-heckle { max-width: 440px; margin: 4px 0 26px; padding: 10px 12px; color: #1d1d1d; background: #9fe3ff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, .3); transform: rotate(-1.2deg);
