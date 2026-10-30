@@ -72,6 +72,16 @@
     "kind": "commissioner",
     "date": "2026-10-29"
    }
+  },
+  {
+   "meeting": 2026,
+   "topic": "administration",
+   "proposal": "The league's name is spelled the Premier Dynasty League, correcting the 2006 rule book's \"Premiere\".",
+   "outcome": "passed",
+   "source": {
+    "kind": "commissioner",
+    "date": "2026-10-29"
+   }
   }
  ]
 }

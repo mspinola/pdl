@@ -957,6 +957,16 @@
      4
     ]
    }
+  },
+  "2026-name-spelling": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "1.1",
+     "find": "The Premiere Dynasty League (PDL)",
+     "to": "The Premier Dynasty League (PDL)"
+    }
+   ]
   }
  },
  "mfl_known_differences": [

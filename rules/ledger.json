@@ -938,6 +938,23 @@
      "match": "league website moves"
     }
    ]
+  },
+  {
+   "id": "2026-name-spelling",
+   "meeting": 2026,
+   "effective": 2026,
+   "status": "adopted",
+   "sections": [
+    "1.1"
+   ],
+   "change": "The league's name is spelled the Premier Dynasty League. The 2006 book and some of the original site's pages had \"Premiere\", and others had \"Premier\".",
+   "sources": [
+    {
+     "file": "commissioner",
+     "meeting": 2026,
+     "match": "spelled the Premier Dynasty League"
+    }
+   ]
   }
  ]
 }
