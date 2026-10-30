@@ -126,6 +126,16 @@ def arrive(dist, t, call, scripts=(), extra=""):
     open(p, "w").write(html)
 
 
+def caption(c):
+    """A clip's caption, if it has one, with {playoffs} and {seasons}: the team's playoff trips and
+    finished seasons."""
+    if "caption" not in c:
+        return None
+    done = [y for y in d.seasons() if y in d.champions()]
+    seasons = [y for y in d.identities()[c["team"]]["seasons"] if y in done]
+    return c["caption"].format(playoffs=sum(1 for y in seasons if d.finish(y, c["team"])), seasons=len(seasons))
+
+
 def ordinal(n):
     return f"{n}{'th' if 10 <= n % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')}"
 
@@ -147,12 +157,12 @@ def magazine():
             f"<div class='mag-title'>PDL<small>Fantasy Football</small></div>"
             f"<div class='mag-burst'>300 players ranked!</div>"
             f"<div class='mag-line'><b>Can't-miss sleepers!</b><ul>{names}</ul></div>"
-            f"<div class='mag-line mag-small'>Mock drafts! Bye weeks! Who to handcuff!</div>"
+            f"<div class='mag-line mag-small'>{E(m['cover_line'])} Mock drafts! Bye weeks!</div>"
             f"<div class='mag-foot'><div class='mag-label'>{E(m['team']).upper()}<br>SUBSCRIBER SINCE {since}</div>"
             f"<div class='mag-barcode'></div></div>"
             f"<p class='mag-note'>Printed in June, before training camp. Drafted {ordinal(slots[0])} to "
             f"{ordinal(slots[-1])} overall by the {E(m['team'])}, these four started {got} PDL games between "
-            f"them in their first three seasons. Those draft slots usually yield {usual}.</p>"
+            f"them in their first three seasons. Those draft slots usually yield {usual}. {E(m['note_extra'])}</p>"
             f"</aside></template>")
 
 
@@ -189,7 +199,8 @@ def build(dist):
     arrive(dist, team(), "window.pdlMoose && pdlMoose()")
     # the rest have no other trigger, so their scripts load on those pages alone
     for c in config()["clips"]:
-        arrive(dist, c["team"], f"pdlClip({json.dumps(c['clip'])}, {c['seconds']}, {json.dumps(c.get('youtube'))})", ["clip.js"])
+        arrive(dist, c["team"], f"pdlClip({json.dumps(c['clip'])}, {c['seconds']}, {json.dumps(c.get('youtube'))}, "
+                                f"{json.dumps(caption(c))})", ["clip.js"])
     m = config()["magazine"]
     arrive(dist, m["team"], f"pdlMagazine({m['seconds']})", ["clip.js"], magazine())
     arrive(dist, config()["outage"]["team"], "pdlOutage()", ["outage.js"])

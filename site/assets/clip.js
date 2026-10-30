@@ -2,8 +2,9 @@
 // "magazine": loaded only on those teams' franchise pages.
 (function () {
   // a clip is a local <name>.mp4 with <name>.jpg as its still, or, given youtube, that
-  // video in YouTube's own player (muted, so the browser lets it start on its own)
-  function clip(name, seconds, youtube) {
+  // video in YouTube's own player (muted, so the browser lets it start on its own), under
+  // caption if there is one
+  function clip(name, seconds, youtube, caption) {
     if (document.querySelector(".clip-pop")) return;
     var base = document.querySelector("link[rel=stylesheet]").href.replace(/site\.css.*$/, "");
     var calm = matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -15,12 +16,22 @@
       el.src = still;
     } else if (youtube) {
       el = document.createElement("div");
+      // an optional caption sits above the 16:9 frame
+      if (caption) {
+        var c = document.createElement("p");
+        c.className = "clip-caption";
+        c.textContent = caption;
+        el.appendChild(c);
+      }
+      var box = document.createElement("div");
+      box.className = "clip-frame";
       var f = document.createElement("iframe");
       f.src = "https://www.youtube-nocookie.com/embed/" + youtube +
         "?autoplay=1&mute=1&playsinline=1&rel=0&modestbranding=1";
       f.allow = "autoplay; encrypted-media";
       f.title = name;
-      el.appendChild(f);
+      box.appendChild(f);
+      el.appendChild(box);
       // the player takes its own clicks (play, sound), so it gets a close button
       var x = document.createElement("button");
       x.type = "button"; x.textContent = "\u00d7"; x.setAttribute("aria-label", "Close");

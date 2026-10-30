@@ -219,9 +219,10 @@ img.barney-pop.up { transform: translateY(0) rotate(-3deg); animation: barney-bo
   transition: transform .6s cubic-bezier(.2, 1.4, .4, 1); }
 .clip-pop.up { transform: translateY(0); }
 /* a YouTube clip: 16:9, the player takes its own clicks, and a button closes it */
-.clip-pop.clip-yt { height: auto; width: min(90vw, 420px); max-width: none; aspect-ratio: 16 / 9; overflow: hidden;
-  background: #000; cursor: auto; }
+.clip-pop.clip-yt { height: auto; width: min(90vw, 420px); max-width: none; overflow: hidden; background: #000; cursor: auto; }
+.clip-frame { aspect-ratio: 16 / 9; }
 .clip-yt iframe { width: 100%; height: 100%; border: 0; display: block; }
+.clip-caption { margin: 0; padding: 10px 44px 10px 14px; color: #fff; background: #111; font: 600 14px/1.35 var(--sans); }
 .clip-yt button { position: absolute; top: 6px; right: 6px; width: 28px; height: 28px; border: 0; border-radius: 50%;
   background: rgba(0, 0, 0, .7); color: #fff; font: 20px/28px var(--sans, sans-serif); cursor: pointer; }
 @media (prefers-reduced-motion: reduce) { .clip-pop, .clip-pop.up { transition: none; transform: none; } }
