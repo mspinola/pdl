@@ -54,8 +54,19 @@ a:link, a:active, a:visited { color: var(--pdl-link); text-underline-offset: 2px
 a.myfranchise, a.myfranchise:link, a.myfranchise:visited, a.myfranchise:active { color: var(--pdl-flag); }
 .pageheader a:link, .pageheader a:active, .pageheader a:visited,
 .pagefooter a:link, .pagefooter a:active, .pagefooter a:visited { color: var(--pdl-ink-2); }
+.pagefooter, .pagefooter td, .pagefooter b { color: var(--pdl-ink-3) !important; }
+tr.reportfooter a:link, tr.reportfooter a:visited { color: var(--pdl-link) !important; }
+.oddtablerow td.franchisename, .eventablerow td.franchisename { color: var(--pdl-ink-2); }
 
-/* menus */
+/* menus. Onyx sets their text pale gray for its dark bars, so the text is set here too */
+.myfantasyleague_menu ul li a, .myfantasyleague_menu ul li:hover ul li a,
+.myfantasyleague_menu ul li ul li:hover ul li a,
+.myfantasyleague_tabmenu #homepagetabs li a { color: var(--pdl-ink-2); }
+.myfantasyleague_menu ul li:hover a, .myfantasyleague_menu ul li ul li:hover a,
+.myfantasyleague_tabmenu #homepagetabs li:hover a { color: var(--pdl-ink); }
+.myfantasyleague_menu > ul > li.has-sub > a:after { border-top-color: var(--pdl-ink-3); }
+.myfantasyleague_menu ul ul > li.has-sub > a:after { border-left-color: var(--pdl-ink-3); }
+.homepagemodule, table.report { box-shadow: none !important; }
 .myfantasyleague_menu, .myfantasyleague_menu ul, .myfantasyleague_menu ul li ul,
 .myfantasyleague_menu ul ul li, .myfantasyleague_tabmenu { background: var(--pdl-surface); }
 .myfantasyleague_menu { border-bottom-color: var(--pdl-rule); }
