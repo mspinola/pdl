@@ -337,7 +337,31 @@
    "by": "Otters",
    "text": "I can't believe the Tally Wackers have made the playoffs 19 times and have never won a championship. That might be more impressive than actually winning every now and then. Is Tomlin coaching them?",
    "check": "Record check: {playoffs} playoff trips, {finals} Super Bowls, {titles} titles. The most playoff trips without a title by anyone else: {next_team}, {next_playoffs}."
+  },
+  {
+   "team": "Scooter's Boozers",
+   "by": "Beers",
+   "text": "He's gotten better at not making bad trade offers."
   }
  ],
- "page_heckles_note": "Quotes from other teams, pinned under a franchise's facts on its page for good, each with a check from the record beneath it. eggs.page_heckle()."
+ "page_heckles_note": "Quotes from other teams, pinned under a franchise's facts on its page for good, each with a check from the record beneath it. eggs.page_heckle(). A quote without a \"check\" has none (trade offers, for one, are not in the record).",
+ "draft_grade": {
+  "team": "Scooter's Boozers",
+  "after_ms": 7000,
+  "seconds": 16,
+  "since": 2016,
+  "what": "On Scooter's Boozers' franchise page, once the clip has gone, a draft report card slides up: A+, graded by the team two minutes after the draft. Four seconds later the A+ is struck out and REVISED stamped over it, with the record's numbers: the share of picks that became starters (finished drafts, 2008 on, as the franchise pages count it), the league's, and both since 2016. eggs.draft_grade(), shown by site/assets/clip.js.",
+  "title": "Draft report card",
+  "meta": [
+   "Team: {team}",
+   "Graded by: {team}",
+   "Time since the draft ended: 2 minutes"
+  ],
+  "grade": "A+",
+  "revised": [
+   "Picks that became starters: <b>{rate}%</b> (league: {league}%).",
+   "Revised grade: <b>C-</b>",
+   "Since {since}: {recent}%, league {recent_league}%. Trending up."
+  ]
+ }
 }

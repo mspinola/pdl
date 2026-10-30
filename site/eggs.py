@@ -390,18 +390,41 @@ def rx():
 
 
 def page_heckle(h):
-    """A quote pinned to a franchise page, signed, with a line checked against the record: {playoffs},
+    """A quote pinned to a franchise page, signed, with a line checked against the record if it has a
+    "check": {playoffs},
     {finals} and {titles} for the team, and {next_team} and {next_playoffs}, the most playoff trips
     of any other team without a title."""
     done = [y for y in d.seasons() if y in d.champions()]
     def counts(t):
         return (sum(1 for y in done if d.finish(y, t)), sum(1 for y in done if d.finish(y, t) in ("champion", "runner-up")),
                 sum(1 for y in done if d.champions()[y] == t))
+    quote = f"<p class='page-heckle'>\u201c{E(h['text'])}\u201d<i>{E(h['by'])}</i>"
+    # the check is optional: some things said (trade offers, for one) are not in the record
+    if "check" not in h:
+        return quote + "</p>"
     playoffs, finals, titles = counts(h["team"])
     rest = sorted(((counts(t)[0], t) for t in d.identities() if t != h["team"] and counts(t)[2] == 0), reverse=True)
     facts = {"playoffs": playoffs, "finals": finals, "titles": titles, "next_team": rest[0][1], "next_playoffs": rest[0][0]}
-    return (f"<p class='page-heckle'>\u201c{E(h['text'])}\u201d<i>{E(h['by'])}</i>"
-            f"<small>{E(h['check'].format(**facts))}</small></p>")
+    return quote + f"<small>{E(h['check'].format(**facts))}</small></p>"
+
+
+def draft_grade():
+    """Scooter's Boozers' self-graded draft card, a <template> for assets/clip.js: the A+, then the
+    record's revision, the share of picks that became starters (finished drafts, 2008 on, as the
+    franchise pages count it) for the team and the league, overall and since eggs.json's year."""
+    g = config()["draft_grade"]
+    picks = [r for r in d.draft_value() if r["complete"] == "True"]
+    rate = lambda rs: round(100 * sum(r["hit"] == "True" for r in rs) / max(1, len(rs)), 1)
+    mine = [r for r in picks if r["team"] == g["team"]]
+    recent = lambda rs: [r for r in rs if int(r["season"]) >= g["since"]]
+    facts = {"team": g["team"], "rate": rate(mine), "league": rate(picks), "since": g["since"],
+             "last": max(int(r["season"]) for r in picks),
+             "recent": round(rate(recent(mine))), "recent_league": round(rate(recent(picks)))}
+    revised = "".join(f"<p>{line.format(**{k: E(str(v)) for k, v in facts.items()})}</p>" for line in g["revised"])
+    return (f"<template id='pdl-grade'><aside class='grade' title='Click to close'><h3>{E(g['title'])}</h3>"
+            + "".join(f"<p class='grade-meta'>{E(line.format(**facts))}</p>" for line in g["meta"])
+            + f"<span class='grade-mark'>{E(g['grade'])}</span><span class='grade-stamp'>REVISED</span>"
+            f"<div class='grade-revised'>{revised}</div></aside></template>")
 
 
 def build(dist):
@@ -459,6 +482,9 @@ def build(dist):
     if os.path.exists(p):
         html = open(p).read().replace("</h1>", "</h1>" + plaque(), 1)
         open(p, "w").write(html)
+    # Scooter's Boozers: the draft card, once the clip has gone
+    g = config()["draft_grade"]
+    arrive(dist, g["team"], f"setTimeout(() => pdlCard('pdl-grade', {g['seconds']}), {g['after_ms']})", ["clip.js"], draft_grade())
     bc = config()["beers"]
     notes, rumors = beers()
     arrive(dist, bc["team"], f"setTimeout(() => pdlNotes({json.dumps(notes)}), {bc['notes_after_ms']}); "
