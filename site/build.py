@@ -147,7 +147,7 @@ def render_book(season, current, seasons):
     return page(f"PDL rules {season}" if not current else "PDL rule book",
                 f'<div class="book">{intro}{bar}<nav class="toc" aria-label="Contents"><h2>Contents</h2><ol>{"".join(toc)}</ol></nav>'
                 f'<div class="text">{"".join(body)}</div></div>',
-                description=f"The Premiere Dynasty League rules in force for {season}.")
+                description=f"The Premier Dynasty League rules in force for {season}.")
 
 
 # ---------------------------------------------------------------- the timeline
@@ -292,7 +292,7 @@ def home():
     from frame import slug
     last = max(d.champions())
     champ = d.champions()[last]
-    return (f"<div class='home'><h1>Premiere Dynasty League</h1><p class='lede'>A dynasty fantasy football league "
+    return (f"<div class='home'><h1>Premier Dynasty League</h1><p class='lede'>A dynasty fantasy football league "
             f"since 2000. Sixteen franchises, the same league ever since, and one change of owner.</p>"
             f"<div class='banner'><span class='label'>{last} champion</span> <strong><a href='franchises/{slug(champ)}.html'>"
             f"{E(champ)}</a></strong> <a class='meta' href='seasons/{last}.html'>the {last} season</a></div>"
@@ -342,8 +342,8 @@ def main():
     n_franchises = franchise_pages.build(DIST)
     n_other = sum(m.build(DIST) for m in (h2h_pages, trades_pages, drafts_pages, records_page, analysis_pages))
     with open(f"{DIST}/index.html", "w") as f:
-        f.write(page("Premiere Dynasty League",
-                     home(), depth=0, description="The Premiere Dynasty League."))
+        f.write(page("Premier Dynasty League",
+                     home(), depth=0, description="The Premier Dynasty League."))
     banner.build(DIST)   # the image MFL's banner setting points at
     eggs.build(DIST)   # last: the antlers go over every finished page
     n = len(os.listdir(f"{DIST}/rules"))

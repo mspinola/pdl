@@ -38,7 +38,7 @@ def page(title, body, depth=1, description=""):
 </head>
 <body>
 <header class="masthead">
-  <a class="brand" href="{up}index.html">Premiere Dynasty League</a>
+  <a class="brand" href="{up}index.html">Premier Dynasty League</a>
   <nav><a href="{up}seasons/index.html">Seasons</a><a href="{up}franchises/index.html">Franchises</a><a href="{up}h2h/index.html">Head to head</a><a href="{up}trades/index.html">Trades</a><a href="{up}drafts/index.html">Drafts</a><a href="{up}records/index.html">Records</a><a href="{up}analysis/index.html">Analysis</a><a href="{up}rules/index.html">Rule book</a></nav>
 </header>
 <main>

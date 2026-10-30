@@ -115,7 +115,7 @@ def franchise_page(team, ident, owners):
             + (f"<h2>Best draft picks</h2><p class='meta'>By value over three seasons, for whichever teams started him, 2008 on.</p><ul>{best_rows}</ul>" if best_rows else "")
             + (f"<h2>The ones that got away</h2><ul>{away_rows}</ul>" if away_rows else "")
             + "</div>")
-    return page(f"{team}, PDL", body, description=f"The {team} franchise in the Premiere Dynasty League.")
+    return page(f"{team}, PDL", body, description=f"The {team} franchise in the Premier Dynasty League.")
 
 
 def index_page(idents, owners):

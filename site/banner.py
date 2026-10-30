@@ -78,12 +78,12 @@ def season_lines():
 
 def svg():
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
-             f'font-family="{SANS}" role="img" aria-label="Premiere Dynasty League">',
+             f'font-family="{SANS}" role="img" aria-label="Premier Dynasty League">',
              f'<rect width="{W}" height="{H}" fill="{BG}"/>',
              # the wordmark
              f'<text x="28" y="112" font-size="78" font-weight="800" fill="{INK}" letter-spacing="2">PDL</text>',
              f'<rect x="30" y="128" width="64" height="4" fill="{ORANGE}"/>',
-             f'<text x="30" y="160" font-size="17" font-weight="600" fill="{INK}">Premiere Dynasty League</text>',
+             f'<text x="30" y="160" font-size="17" font-weight="600" fill="{INK}">Premier Dynasty League</text>',
              f'<text x="30" y="184" font-size="14" fill="{INK2}">Since 2000</text>']
     champs = titles()
     latest = d.champions()[max(d.champions())]
