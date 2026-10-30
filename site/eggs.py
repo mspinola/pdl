@@ -190,7 +190,24 @@ def build_log(dist):
         "titles": len(titles), "title_years": ", ".join(map(str, titles)),
         "pages": sum(f.endswith(".html") for _, _, fs in os.walk(dist) for f in fs),
     }
-    return [line.format(**facts) for line in config()["build_log"]["lines"]]
+    losses = [y for y in d.seasons() if d.finish(y, team()) == "runner-up"]
+    facts.update(losses=len(losses), loss_years=", ".join(map(str, losses)))
+    # schedule luck, as the franchise pages give it: wins against what the scoring was worth
+    luck = sorted(d.by_owner("luck_owners.csv").items(), key=lambda kv: -float(kv[1]["luck"]))
+    rank = [t for t, _ in luck].index(team()) + 1
+    facts.update(luck=f"{float(dict(luck)[team()]['luck']):+.1f}", luck_rank=ordinal(rank),
+                 luckier=luck[0][0], luckier_luck=f"{float(luck[0][1]['luck']):+.1f}")
+    # trades the record marks as processed by the commissioner, the Moose's and everyone else's
+    mine = [x for x in d.trades() if team() in (x["team_a"], x["team_b"])]
+    others = [x for x in d.trades() if team() not in (x["team_a"], x["team_b"])]
+    facts.update(trades=len(mine), by_commish=sum(x["by_commish"] for x in mine),
+                 mine_rate=round(100 * sum(x["by_commish"] for x in mine) / max(1, len(mine))),
+                 others_rate=round(100 * sum(x["by_commish"] for x in others) / max(1, len(others))))
+    b = config()["build_log"]
+    lines = []
+    for line in b["lines"]:
+        lines += b["luck_lines" if rank > 1 else "luck_first_lines"] if line == "{luck_block}" else [line]
+    return [line.format(**facts) for line in lines]
 
 
 def build(dist):

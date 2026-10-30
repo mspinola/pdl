@@ -369,7 +369,7 @@ html.outage-on body { animation: outage-crt-on .6s ease-out; }
 .commish-bar span:nth-child(3) { background: #28c840; }
 .commish-bar b { flex: 1; color: #9fb0a4; font: 500 12px/1 var(--sans); text-align: center; }
 .commish-bar button { padding: 0 4px; color: #9fb0a4; background: none; border: 0; font: 18px/1 var(--sans); cursor: pointer; }
-.commish pre { height: min(20em, 55vh); margin: 0; padding: 10px 12px; overflow: auto; white-space: pre-wrap;
+.commish pre { height: min(35em, 62vh); margin: 0; padding: 10px 12px; overflow: auto; white-space: pre-wrap;
   font: 12.5px/1.5 ui-monospace, Menlo, Consolas, monospace; }
 .commish pre::after { content: "\2588"; color: #5fd38d; animation: commish-blink 1s steps(1) infinite; }
 @keyframes commish-blink { 50% { opacity: 0; } }

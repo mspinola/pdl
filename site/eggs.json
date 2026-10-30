@@ -123,7 +123,7 @@
  "build_log": {
   "team": "Manic Moose",
   "delay_ms": 3600,
-  "what": "Once Moose mode has run on the Moose's franchise page, a terminal slides up in the corner and types out the commissioner's site build, its counts from the record, the rule book's ledger and the built site. It closes itself after, or with its button. Script: site/assets/commish.js. A line starting \"$ \" is typed out, and a \"|\" is a pause.",
+  "what": "Once Moose mode has run on the Moose's franchise page, a terminal slides up in the corner and types out the commissioner's site build, its counts from the record, the rule book's ledger and the built site. It closes itself after, or with its button. Script: site/assets/commish.js. A line starting \"$ \" is typed out, and a \"|\" is a pause. Schedule luck comes from the luck table on the franchise pages: while another team has had more, the log names it and protests, and once the Moose lead, it credits skill instead. The trade lines count trades the record marks as processed by the commissioner, the Moose's against everyone else's.",
   "lines": [
    "$ python3 build.py --commissioner-mode",
    "Loading {seasons} seasons, {games} games...| done",
@@ -133,9 +133,24 @@
    "Re-checking...| still 0",
    "Counting Moose titles...| {titles} ({title_years})",
    "Checking 2017 again...| still {titles}",
+   "Counting Super Bowl losses...| {losses} ({loss_years})",
+   "Reclassifying them as Super Bowl appearances...| done",
+   "{luck_block}",
+   "Reviewing {trades} Moose trades for fairness...| {by_commish} processed by the commissioner ({mine_rate}%)",
+   "Same rate for everyone else's trades...| {others_rate}%",
+   "Approving them all again...| done",
    "Writing {pages} pages nobody will read...| done",
    "WARNING: commissioner has not gone outside since August",
    "$ git commit -m \"small fix\""
+  ],
+  "luck_lines": [
+   "Computing schedule luck...| {luck} wins, {luck_rank} in the league",
+   "Checking who is luckier...| {luckier}, {luckier_luck}",
+   "Filing a protest with the commissioner...| denied"
+  ],
+  "luck_first_lines": [
+   "Computing schedule luck...| {luck} wins, the most in the league",
+   "Crediting it to skill...| done"
   ]
  }
 }
