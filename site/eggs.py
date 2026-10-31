@@ -590,8 +590,22 @@ def funk_chat():
             f"</div></aside></template>")
 
 
+def win_streaks():
+    """Regular-season winning runs, carried across seasons: each franchise's current run and the
+    longest run on record by anyone, {team: current}, longest."""
+    now, longest = {}, 0
+    for g in sorted(d.games(), key=lambda g: (g["season"], g["week"])):
+        if g["stage"] != "regular":
+            continue
+        for t, mine, theirs in ((g["team_a"], g["score_a"], g["score_b"]), (g["team_b"], g["score_b"], g["score_a"])):
+            now[t] = now.get(t, 0) + 1 if mine > theirs else 0
+            longest = max(longest, now[t])
+    return now, longest
+
+
 def champagne():
-    """Da Funk's bottle on ice, a <template> for assets/clip.js: this season's record, and, from
+    """Da Funk's bottle on ice, a <template> for assets/clip.js: this season's record and its
+    regular-season winning run (if long), and, from
     the playoff brackets, its playoff record, the #1-seed exits, who knocked it out most and the
     seasons it led the league in points and still went out."""
     c = config()["champagne"]
@@ -612,9 +626,14 @@ def champagne():
              "top_exits": " and ".join(f"{g['season']}, to the {g['opp_seed']}-seed {g['opp']} ({score(g['me'])}-{score(g['them'])})"
                                        for g in lost if g["seed"] == 1),
              "knock": knock, "knock_n": sum(g["opp"] == knock for g in lost), "led": " and ".join(led)}
+    run, longest = win_streaks()
+    facts["streak"] = run[me]
     unbeaten = now["l"] == 0 and now["t"] == 0 and now["w"] > 0
     v = c["unbeaten"] if unbeaten else c["beaten"]
     lines = "".join(f"<p>{E(line.format(**facts))}</p>" for line in c["lines"] if "{led}" not in line or led)
+    # the winning run, if it is a long one, and whether anyone has had a longer
+    if run[me] >= c["streak_min"]:
+        lines = f"<p>{E(c['streak' if run[me] == longest else 'streak_short'].format(**facts))}</p>" + lines
     bottle = ("<svg class='bubbly-art' viewBox='0 0 80 130' aria-hidden='true'>"
               "<g class='bubbly-cork'><rect x='33' y='4' width='14' height='12' rx='3' fill='#c9a36a'/></g>"
               "<path d='M34 14 H46 V36 C46 44 56 48 56 60 V96 H24 V60 C24 48 34 44 34 36 Z' fill='#1f5b3a'/>"

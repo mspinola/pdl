@@ -449,7 +449,7 @@
   "team": "Da Funk",
   "after_ms": 12500,
   "seconds": 20,
-  "what": "On Da Funk's franchise page, once the towels have gone, a champagne bottle on ice slides up, in the manner of the 1972 Dolphins' bottle for the day the last unbeaten team loses. While Da Funk is unbeaten this season the bottle is reserved for it, otherwise it goes back in the fridge. Then the playoff record, the #1-seed exits, who knocked it out most and the seasons it led the league in points and still went out, all from the playoff brackets. eggs.champagne(), shown by site/assets/clip.js.",
+  "what": "On Da Funk's franchise page, once the towels have gone, a champagne bottle on ice slides up, in the manner of the 1972 Dolphins' bottle for the day the last unbeaten team loses. While Da Funk is unbeaten this season the bottle is reserved for it, otherwise it goes back in the fridge. Then its regular-season winning run if it is six or more (and whether it is the league's longest), the playoff record, the #1-seed exits, who knocked it out most and the seasons it led the league in points and still went out, all from the playoff brackets. eggs.champagne(), shown by site/assets/clip.js.",
   "title": "ON ICE",
   "unbeaten": {
    "tag": "Reserved: {team}, {w}-0",
@@ -465,7 +465,10 @@
    "{knock} eliminations: {knock_n}.",
    "Led the league in points in {led} and went out in the playoffs anyway."
   ],
-  "close": "The 1972 Dolphins also won their playoff games."
+  "close": "The 1972 Dolphins also won their playoff games.",
+  "streak_min": 6,
+  "streak": "{streak} regular-season wins in a row, the longest run in league history.",
+  "streak_short": "{streak} regular-season wins in a row."
  },
  "scoreboard": {
   "team": "Carter's Commandos",
