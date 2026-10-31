@@ -479,6 +479,239 @@ def texts():
             f"<p class='sms-system'>{system}</p></div></div></aside></template>")
 
 
+@lru_cache(maxsize=None)
+def nfl_teams(season):
+    """Each player's NFL team in that season's archived MFL player list (2003 on), by id and by name."""
+    p = f"{os.path.dirname(SITE)}/mfl_archive/{season}/players.json"
+    if not os.path.exists(p):
+        return {}, {}
+    ps = json.load(open(p))["players"]["player"]
+    return {x["id"]: x["team"] for x in ps}, {x["name"]: x["team"] for x in ps}
+
+
+def nfl_team(r):
+    """A draft pick's NFL team in that season's archived player list, by its MFL id or, without one, its name."""
+    by_id, by_name = nfl_teams(int(r["season"]))
+    return by_id.get(r.get("player_id") or "") or by_name.get(r["player"])
+
+
+def pick_name(r):
+    """A draft pick's name, first name first, from the player index when the pick has an id."""
+    if r.get("player_id"):
+        name = player_name(r["player_id"])
+    else:
+        last, _, first = r["player"].partition(", ")
+        name = f"{first} {last}".strip()
+    return name + (" defense" if r["position"] == "Def" else "")
+
+
+@lru_cache(maxsize=None)
+def roster_share(nfl):
+    """Each franchise's share of its end-of-season roster spots (2003 on, players only, not team
+    units) on one NFL team: {franchise: percent}."""
+    root = os.path.dirname(SITE)
+    slot = {(int(y), s): t for t, v in d.identities().items() for y, s in v["slots"].items()}
+    on, total = {}, {}
+    for yr in sorted(int(y) for y in os.listdir(f"{root}/mfl_archive") if y.isdigit()):
+        p = f"{root}/mfl_archive/{yr}/players.json"
+        if not os.path.exists(p):
+            continue
+        players = {x["id"]: x for x in d.as_list(json.load(open(p))["players"]["player"])}
+        for f in d.as_list(json.load(open(f"{root}/mfl_archive/{yr}/rosters.json"))["rosters"]["franchise"]):
+            t = slot.get((yr, f["id"]))
+            for pl in d.as_list(f.get("player")):
+                x = players.get(pl["id"])
+                if not t or not x or x["position"] == "Def" or x["position"].startswith("TM"):
+                    continue
+                total[t] = total.get(t, 0) + 1
+                on[t] = on.get(t, 0) + (x["team"] == nfl)
+    return {t: round(100 * on[t] / total[t], 1) for t in total}
+
+
+def score(x):
+    return f"{x:g}"
+
+
+def playoff_games(me):
+    """Every playoff game a franchise played: season, opponent, both seeds and both scores."""
+    out = []
+    for s in d.seasons():
+        sd = d.seeds(s) or {}
+        for g in d.postseason(s)[0]:
+            if me in (g["team_a"], g["team_b"]):
+                a = g["team_a"] == me
+                opp = g["team_b"] if a else g["team_a"]
+                mine, theirs = (g["score_a"], g["score_b"]) if a else (g["score_b"], g["score_a"])
+                out.append({"season": s, "opp": opp, "seed": sd.get(me), "opp_seed": sd.get(opp),
+                            "me": mine, "them": theirs, "won": mine > theirs})
+    return out
+
+
+def towels():
+    """Da Funk's Terrible Towel row with one Dolphins flag, a <template> for assets/clip.js: the
+    league's most Steelers roster against Da Funk's Dolphins share, and the Dolphins it drafted."""
+    tw = config()["towels"]
+    me = tw["team"]
+    mia, pit = roster_share("MIA"), roster_share("PIT")
+    ranked = sorted(mia, key=lambda t: -mia[t])
+    above = [t for t in ranked if mia[t] > mia[me]]
+    steel = max(pit, key=pit.get)
+    picks = {}
+    for r in d.all_drafts():
+        if r["team"] == me and nfl_team(r) == "MIA":
+            picks.setdefault(pick_name(r), []).append(r["season"])
+    facts = {"team": me, "mia": mia[me], "mia_rank": ordinal(ranked.index(me) + 1), "steel": steel, "pit": pit[steel],
+             "above": ", ".join(above[:-1]) + (" and " if len(above) > 1 else "") + above[-1] if above else "nobody",
+             "fins": ", ".join(f"{n} ({' and '.join(ys)})" for n, ys in picks.items())}
+    row = "".join("<span class='fins-flag'><b>" + E(tw["flag"]) + "</b></span>" if i == tw["count"] // 2 else
+                  f"<span class='towel' style='--d:{(i * 37) % 9 / 10}s'></span>" for i in range(tw["count"]))
+    lines = "".join(f"<p>{E(line.format(**facts))}</p>" for line in tw["lines"])
+    return (f"<template id='pdl-towels'><aside class='towels' title='Click to close'>"
+            f"<div class='towels-sign'><h3>{E(tw['title'])}</h3>{lines}</div>"
+            f"<div class='towels-row' aria-hidden='true'>{row}</div></aside></template>")
+
+
+def funk_chat():
+    """Da Funk in the league chat, a <template> for assets/clip.js: it enters, types, thinks
+    better of it and leaves, over its waiver adds and trades a season from the activity tables."""
+    fc = config()["funk_chat"]
+    me = fc["team"]
+    adds = d.by_owner("transaction_owners.csv")
+    fewest = sorted(adds, key=lambda t: float(adds[t]["adds_per_season"]))
+    facts = {"team": me, "adds": adds[me]["adds_per_season"], "adds_rank": ordinal(fewest.index(me) + 1),
+             "trades": d.by_owner("owner_activity.csv")[me]["per_season"]}
+    s = fc["steps"]
+    return (f"<template id='pdl-fchat'><aside class='fchat' title='Click to close'>"
+            f"<div class='fchat-head'># {E(fc['channel'])}</div><div class='fchat-body'>"
+            f"<p class='fchat-sys' style='--t:{s[0]}'>{E(fc['enter'].format(**facts))}</p>"
+            f"<span class='sms-typing' style='--at:{s[1]};--wait:{s[2]}' aria-label='typing'><i></i><i></i><i></i></span>"
+            f"<p class='fchat-sys' style='--t:{s[1] + s[2] + .2:g}'>{E(fc['leave'].format(**facts))}</p>"
+            f"<p class='fchat-foot' style='--t:{s[1] + s[2] + .9:g}'>{E(fc['foot'].format(**facts))}</p>"
+            f"</div></aside></template>")
+
+
+def champagne():
+    """Da Funk's bottle on ice, a <template> for assets/clip.js: this season's record, and, from
+    the playoff brackets, its playoff record, the #1-seed exits, who knocked it out most and the
+    seasons it led the league in points and still went out."""
+    c = config()["champagne"]
+    me = c["team"]
+    now = next(r for r in d.standings(d.seasons()[-1]) if r["team"] == me)
+    games = playoff_games(me)
+    lost = [g for g in games if not g["won"]]
+    knock = max({g["opp"] for g in lost}, key=lambda t: sum(g["opp"] == t for g in lost))
+    led = []
+    for s in d.seasons()[:-1]:
+        st = d.standings(s)
+        top = max(st, key=lambda r: r["pf"])
+        if top["team"] == me and top["playoffs"] and d.champions().get(s) != me:
+            led.append(str(s))
+    titles = sum(t == me for t in d.champions().values())
+    facts = {"team": me, "w": now["w"], "l": now["l"], "pw": len(games) - len(lost), "pl": len(lost),
+             "titles": "no titles" if not titles else f"{titles} title" + "s" * (titles > 1),
+             "top_exits": " and ".join(f"{g['season']}, to the {g['opp_seed']}-seed {g['opp']} ({score(g['me'])}-{score(g['them'])})"
+                                       for g in lost if g["seed"] == 1),
+             "knock": knock, "knock_n": sum(g["opp"] == knock for g in lost), "led": " and ".join(led)}
+    unbeaten = now["l"] == 0 and now["t"] == 0 and now["w"] > 0
+    v = c["unbeaten"] if unbeaten else c["beaten"]
+    lines = "".join(f"<p>{E(line.format(**facts))}</p>" for line in c["lines"] if "{led}" not in line or led)
+    bottle = ("<svg class='bubbly-art' viewBox='0 0 80 130' aria-hidden='true'>"
+              "<g class='bubbly-cork'><rect x='33' y='4' width='14' height='12' rx='3' fill='#c9a36a'/></g>"
+              "<path d='M34 14 H46 V36 C46 44 56 48 56 60 V96 H24 V60 C24 48 34 44 34 36 Z' fill='#1f5b3a'/>"
+              "<path d='M33 12 H47 V30 H33 Z' fill='#d8b23c'/>"
+              "<rect x='27' y='66' width='26' height='18' rx='2' fill='#f4ead2'/>"
+              "<path d='M8 74 H72 L64 126 H16 Z' fill='#c9d1d6' stroke='#8d979e' stroke-width='2'/>"
+              "<rect x='14' y='68' width='14' height='12' rx='2' fill='#e8f6fb' opacity='.9' transform='rotate(-12 21 74)'/>"
+              "<rect x='50' y='67' width='15' height='13' rx='2' fill='#e8f6fb' opacity='.9' transform='rotate(10 57 73)'/>"
+              "<rect x='36' y='70' width='12' height='10' rx='2' fill='#e8f6fb' opacity='.85'/></svg>")
+    return (f"<template id='pdl-bubbly'><aside class='bubbly' title='Click to close'><div class='bubbly-head'>{E(c['title'])}</div>"
+            f"<div class='bubbly-body'>{bottle}<div><span class='bubbly-tag'>{E(v['tag'].format(**facts))}</span>"
+            f"<p>{E(v['intro'].format(**facts))}</p>{lines}<p class='bubbly-close'>{E(c['close'])}</p></div></div></aside></template>")
+
+
+def scoreboard():
+    """Carter's Commandos' scoreboard, a <template> for assets/clip.js: it flips between its
+    lowest-scoring title game and its highest-scoring playoff loss, then the season it scored
+    the most and still missed the playoffs, all from the record."""
+    sb = config()["scoreboard"]
+    me = sb["team"]
+    finals = []
+    for s, t in d.champions().items():
+        f = d.final(s)
+        if t == me and f:
+            a = f["team_a"] == me
+            finals.append((f["score_a"] if a else f["score_b"], s, f["team_b"] if a else f["team_a"], f["score_b"] if a else f["score_a"]))
+    title = min(finals)
+    loss = max((g for g in playoff_games(me) if not g["won"]), key=lambda g: g["me"])
+    worst = max(min(g["score_a"], g["score_b"]) for s in d.seasons() for g in d.postseason(s)[0])
+    seasons = []
+    every = []
+    for s in d.seasons()[:-1]:
+        st = d.standings(s)
+        by_pf = sorted(st, key=lambda r: -r["pf"])
+        every += [r.get("luck") or 0 for r in st]
+        r = next(r for r in st if r["team"] == me)
+        if not r["playoffs"]:
+            seasons.append((by_pf.index(r) + 1, r.get("luck") or 0, s, r))
+    rank, luck, bad, r = min(seasons)
+    facts = {"title_season": title[1], "title_score": score(title[0]), "loss_season": loss["season"],
+             "loss_score": score(loss["me"]), "bad": bad, "bad_rank": ordinal(rank), "bad_record": f"{r['w']}-{r['l']}",
+             "luck": f"{luck:+.1f}", "luck_rank": ordinal(sorted(every).index(luck) + 1)}
+
+    def panel(label, opp, mine, theirs, result):
+        return (f"<div class='board-panel'><p class='board-label'>{E(label)}</p>"
+                f"<p class='board-row'><span>{E(sb['short'])}</span><b>{score(mine)}</b></p>"
+                f"<p class='board-row'><span>{E(opp.upper())}</span><b>{score(theirs)}</b></p>"
+                f"<p class='board-final board-{result.lower()}'>FINAL: {result}</p></div>")
+    notes = "".join(f"<p>{E(line.format(**facts))}</p>" for line in sb["lines"])
+    if loss["me"] == worst:
+        notes += f"<p>{E(sb['record'])}</p>"
+    return (f"<template id='pdl-board'><aside class='board' title='Click to close'><p class='board-title'>{E(sb['title'])}</p>"
+            f"<div class='board-panels'>{panel(sb['title_label'].format(**facts), title[2], title[0], title[3], 'WIN')}"
+            f"{panel(sb['loss_label'].format(**facts), loss['opp'], loss['me'], loss['them'], 'LOSS')}</div>"
+            f"<div class='board-notes'><h3>{E(sb['headline'])}</h3>{notes}</div></aside></template>")
+
+
+def giant_killer():
+    """Carter's Commandos' trophy, on their page for good: every playoff win over a #1 seed
+    from a lower seed, from the playoff brackets. Empty if there are none."""
+    gk = config()["giant_killer"]
+    wins = [g for g in playoff_games(gk["team"]) if g["won"] and g["opp_seed"] == 1 and (g["seed"] or 0) > 1]
+    if not wins:
+        return ""
+    lines = "".join(f"<p>{E(gk['line'].format(season=g['season'], seed=g['seed'], opp=g['opp'], me=score(g['me']), them=score(g['them'])))}</p>"
+                    for g in wins)
+    cup = ("<svg viewBox='0 0 48 60' aria-hidden='true'><path d='M12 6 H36 V20 C36 30 30 35 24 35 C18 35 12 30 12 20 Z' fill='#d4a017'/>"
+           "<path d='M12 10 H5 C5 20 9 24 13 25 M36 10 H43 C43 20 39 24 35 25' fill='none' stroke='#d4a017' stroke-width='3'/>"
+           "<rect x='21' y='35' width='6' height='10' fill='#b8860b'/><rect x='13' y='45' width='22' height='8' rx='1' fill='#5a3a1a'/></svg>")
+    return (f"<div class='trophy' title='{E(gk['hint'])}'>{cup}<div><b>{E(gk['title'])}</b>{lines}</div></div>")
+
+
+def steeler_board():
+    """Carter's Commandos' first-round draft board, a <template> for assets/clip.js: Steelers
+    circled (the NFL team the season each was taken), first-rounders who never really started
+    crossed out (finished drafts only), and the team's Steelers share of roster spots."""
+    sb = config()["steeler_board"]
+    me = sb["team"]
+    busts = {(r["season"], r["overall"]): int(r["starts"]) for r in d.draft_value()
+             if r["team"] == me and r["round"] == "1" and r["complete"] == "True" and int(r["starts"]) <= sb["bust_starts"]}
+    pit = roster_share("PIT")
+    items = ""
+    for r in d.all_drafts():
+        if r["team"] != me or r["round"] != "1":
+            continue
+        key = (r["season"], r["overall"])
+        label = f"{r['season']}, {ordinal(int(r['overall']))} overall: {pick_name(r)}"
+        if nfl_team(r) == "PIT":
+            items += f"<li class='dpick-pit'><span>{E(label)}</span> {E(sb['pit_note'])}</li>"
+        elif key in busts:
+            items += f"<li class='dpick-bust'><s>{E(label)}</s> ({busts[key]} start{'s' * (busts[key] != 1)})</li>"
+    facts = {"pit": pit[me], "pit_rank": ordinal(sorted(pit, key=lambda t: -pit[t]).index(me) + 1)}
+    return (f"<template id='pdl-dboard'><aside class='dboard' title='Click to close'><div class='dboard-head'>{E(sb['title'])}</div>"
+            f"<p class='dboard-key'>{E(sb['key'])}</p><ul>{items}</ul>"
+            f"<p class='dboard-foot'>{E(sb['foot'].format(**facts))}</p></aside></template>")
+
+
 def build(dist):
     with open(f"{dist}/404.html", "w") as f:
         f.write(not_found())
@@ -554,6 +787,21 @@ def build(dist):
     arrive(dist, t["team"], f"setTimeout(() => pdlTradeOffer({json.dumps({k: v for k, v in t.items() if k != 'what'})}), 800)", ["clip.js", "trade.js"])
     g = config()["grumpy_train"]
     arrive(dist, g["team"], f"pdlGrumpyTrain({json.dumps(grumbles())})", ["train.js"])
+    # Da Funk: the towels and the chat, then the champagne on ice
+    tw, fc, ch = config()["towels"], config()["funk_chat"], config()["champagne"]
+    arrive(dist, tw["team"], f"setTimeout(() => pdlCard('pdl-towels', {tw['seconds']}), {tw['after_ms']}); "
+                             f"setTimeout(() => pdlCard('pdl-fchat', {fc['seconds']}), {fc['after_ms']}); "
+                             f"setTimeout(() => pdlCard('pdl-bubbly', {ch['seconds']}), {ch['after_ms']})",
+           ["clip.js"], towels() + funk_chat() + champagne())
+    # Carter's Commandos: the scoreboard and the draft board once the clip has gone, and the trophy on the shelf
+    sb, db = config()["scoreboard"], config()["steeler_board"]
+    arrive(dist, sb["team"], f"setTimeout(() => pdlCard('pdl-board', {sb['seconds']}), {sb['after_ms']}); "
+                             f"setTimeout(() => pdlCard('pdl-dboard', {db['seconds']}), {db['after_ms']})",
+           ["clip.js"], scoreboard() + steeler_board())
+    p = f"{dist}/franchises/{slug(config()['giant_killer']['team'])}.html"
+    if os.path.exists(p):
+        html = open(p).read().replace("</h1>", "</h1>" + giant_killer(), 1)
+        open(p, "w").write(html)
     # the antlers go on last, over every finished page
     n = 0
     for root, _, files in os.walk(dist):

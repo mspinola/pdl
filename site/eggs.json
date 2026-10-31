@@ -415,5 +415,90 @@
    }
   ],
   "system": "Blitzkrieg won the {title} championship."
+ },
+ "towels": {
+  "team": "Da Funk",
+  "after_ms": 600,
+  "seconds": 11,
+  "count": 15,
+  "what": "On Da Funk's franchise page, a row of waving yellow towels rises along the bottom with one Dolphins flag in the middle. The sign above it compares the league's most Steelers-heavy rosters with Da Funk's Dolphins share (end-of-season rosters from 2003 on, players only) and lists the Dolphins it drafted (a pick counts if the player was on Miami's roster that season, by the archived MFL player list). eggs.towels(), shown by site/assets/clip.js.",
+  "flag": "PHINS UP",
+  "title": "The only Dolphins fan in Pittsburgh",
+  "lines": [
+   "{steel} rosters: {pit}% Steelers.",
+   "{team} rosters: {mia}% Dolphins, {mia_rank} in the league. {above} have rostered more Dolphins than the Dolphins fan.",
+   "Dolphins drafted (on Miami's roster that season): {fins}."
+  ]
+ },
+ "funk_chat": {
+  "team": "Da Funk",
+  "after_ms": 1200,
+  "seconds": 10,
+  "steps": [
+   0.5,
+   1.4,
+   3.2
+  ],
+  "what": "On Da Funk's franchise page, a league chat window opens at the top right: Da Funk enters, starts typing, thinks better of it and leaves. Underneath, its waiver adds a season (and where that ranks) and trades a season, from the activity tables. eggs.funk_chat(), shown by site/assets/clip.js.",
+  "channel": "pdl-league-chat",
+  "enter": "{team} has entered the chat.",
+  "leave": "{team} has left the chat.",
+  "foot": "{adds} waiver adds a season, the {adds_rank} fewest in the league. {trades} trades a season."
+ },
+ "champagne": {
+  "team": "Da Funk",
+  "after_ms": 12500,
+  "seconds": 20,
+  "what": "On Da Funk's franchise page, once the towels have gone, a champagne bottle on ice slides up, in the manner of the 1972 Dolphins' bottle for the day the last unbeaten team loses. While Da Funk is unbeaten this season the bottle is reserved for it, otherwise it goes back in the fridge. Then the playoff record, the #1-seed exits, who knocked it out most and the seasons it led the league in points and still went out, all from the playoff brackets. eggs.champagne(), shown by site/assets/clip.js.",
+  "title": "ON ICE",
+  "unbeaten": {
+   "tag": "Reserved: {team}, {w}-0",
+   "intro": "The 1972 Dolphins keep a bottle on ice for the day the last unbeaten team loses. This one is for {team}."
+  },
+  "beaten": {
+   "tag": "Back in the fridge",
+   "intro": "The cork stays in: {team} is {w}-{l}. Maybe next year."
+  },
+  "lines": [
+   "Playoffs: {pw}-{pl}, {titles}.",
+   "Lost as the #1 seed: {top_exits}.",
+   "{knock} eliminations: {knock_n}.",
+   "Led the league in points in {led} and went out in the playoffs anyway."
+  ],
+  "close": "The 1972 Dolphins also won their playoff games."
+ },
+ "scoreboard": {
+  "team": "Carter's Commandos",
+  "after_ms": 7400,
+  "seconds": 16,
+  "short": "COMMANDOS",
+  "what": "On Carter's Commandos' franchise page, once the clip has gone, a stadium scoreboard flips between two finals: its lowest-scoring title game and its highest-scoring playoff loss (and says so if no team has scored more in a playoff loss). Below, the season it ranked highest in points and still missed the playoffs, with its schedule luck and where that ranks among every season. eggs.scoreboard(), shown by site/assets/clip.js.",
+  "title": "SCOREBOARD",
+  "title_label": "{title_season} CHAMPIONSHIP",
+  "loss_label": "{loss_season} PLAYOFFS",
+  "headline": "Explain that.",
+  "lines": [
+   "{title_score} points won a title in {title_season}. {loss_score} lost a playoff game in {loss_season}.",
+   "And {bad}: {bad_rank} in points, {bad_record}, no playoffs. The {luck_rank} unluckiest season on record ({luck} wins)."
+  ],
+  "record": "No team has ever scored more in a playoff loss."
+ },
+ "giant_killer": {
+  "team": "Carter's Commandos",
+  "what": "On Carter's Commandos' franchise page, a small gold trophy sits under the title for good: every playoff win over a #1 seed as a lower seed, from the playoff brackets. eggs.giant_killer().",
+  "title": "GIANT KILLER",
+  "line": "Beat the #1 seed in {season} as the {seed}-seed. Victim: {opp}, {me}-{them}.",
+  "hint": "From the playoff brackets"
+ },
+ "steeler_board": {
+  "team": "Carter's Commandos",
+  "after_ms": 24400,
+  "seconds": 16,
+  "bust_starts": 1,
+  "what": "On Carter's Commandos' franchise page, after the scoreboard, its first-round draft board: Steelers circled (the player's NFL team that season, by the archived MFL player list), first-rounders with one start or fewer crossed out (finished drafts only), and the team's Steelers share of roster spots with its rank. eggs.steeler_board(), shown by site/assets/clip.js.",
+  "title": "War room: round 1",
+  "key": "Circled: Steelers. Crossed out: first-rounders with one start or fewer.",
+  "pit_note": "Here we go.",
+  "foot": "Steelers: {pit}% of the team's roster spots since 2003, {pit_rank} in the league."
  }
 }

@@ -682,3 +682,105 @@ html.y2k .y2k-h { margin: 16px 0 8px; color: #ff0000; font: 700 2rem/1.2 "Comic 
 @media print { .moose::before, .banner.moose-title::after { display: none; } }
 .bar.later .b { background: var(--accent-2); }
 .bar .y a { color: inherit; text-decoration: none; }
+
+/* Da Funk's towels (eggs.towels, shown by site/assets/clip.js): a row of waving towels along the
+   bottom with one Dolphins flag, and the sign above it. Its own colours */
+.towels { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; cursor: pointer; transform: translateY(110%);
+  transition: transform .6s cubic-bezier(.2, 1.1, .4, 1); }
+.towels.up { transform: none; }
+.towels-sign { width: min(calc(100vw - 32px), 380px); margin: 0 auto 8px; padding: 10px 14px; color: #1d1d1d;
+  background: #ffffff; border-top: 4px solid #008e97; border-radius: 8px; box-shadow: 0 10px 30px rgba(0, 0, 0, .45);
+  font: 13px/1.4 var(--sans); }
+.towels-sign h3 { margin: 0 0 4px; color: #00666d; font: 700 14px/1.3 var(--sans); }
+.towels-sign p { margin: 0 0 4px; }
+.towels-row { display: flex; justify-content: center; align-items: flex-end; gap: 14px; height: 88px; overflow: hidden;
+  padding-bottom: 8px; background: linear-gradient(transparent, rgba(0, 0, 0, .55)); }
+.towel, .fins-flag { flex: none; transform-origin: 50% 100%; animation: towel-wave .8s ease-in-out var(--d, 0s) infinite alternate; }
+.towel { width: 30px; height: 46px; border-radius: 3px;
+  background: linear-gradient(#ffb612 0 28%, #101820 28% 36%, #ffb612 36% 64%, #101820 64% 72%, #ffb612 72%); }
+.fins-flag { display: grid; place-items: center; width: 74px; height: 50px; margin-bottom: 14px; color: #ffffff;
+  background: #008e97; border-left: 4px solid #d8d8d8; border-radius: 0 4px 4px 0; font: 800 11px/1.1 var(--sans);
+  letter-spacing: .06em; text-align: center; }
+.fins-flag b { color: #ffffff; border-bottom: 2px solid #fc4c02; }
+@keyframes towel-wave { from { transform: rotate(-12deg); } to { transform: rotate(12deg); } }
+
+/* Da Funk in the league chat (eggs.funk_chat): enters, types, leaves. Top right, clear of the towels */
+.fchat { position: fixed; top: 64px; right: 16px; z-index: 50; width: min(calc(100vw - 32px), 290px); cursor: pointer;
+  overflow: hidden; color: #dcddde; background: #313338; border-radius: 8px; box-shadow: 0 10px 30px rgba(0, 0, 0, .5);
+  font: 13px/1.4 var(--sans); transform: translateX(calc(100% + 24px)); transition: transform .5s cubic-bezier(.2, 1.1, .4, 1); }
+.fchat.up { transform: none; }
+.fchat-head { padding: 8px 12px; color: #ffffff; background: #1e1f22; font-weight: 700; }
+.fchat-body { display: grid; gap: 6px; padding: 10px 12px 12px; }
+.fchat-sys, .fchat-foot { margin: 0; opacity: 0; animation: sms-in .3s ease-out calc(var(--t) * 1s) forwards; }
+.fchat-sys { color: #949ba4; font-style: italic; }
+.fchat-foot { padding-top: 6px; color: #dcddde; border-top: 1px solid #3f4147; font-size: 12px; }
+.fchat .sms-typing { background: #404249; }
+
+/* Da Funk's champagne on ice (eggs.champagne): Dolphins aqua and orange, the cork wiggles and stays in */
+.bubbly { position: fixed; right: 16px; bottom: 16px; z-index: 50; width: min(calc(100vw - 32px), 340px); cursor: pointer;
+  overflow: hidden; color: #1d1d1d; background: #f7fbfb; border-radius: 8px; box-shadow: 0 10px 30px rgba(0, 0, 0, .45);
+  font: 13px/1.4 var(--sans); transform: translateY(130%); transition: transform .7s cubic-bezier(.2, 1.3, .4, 1); }
+.bubbly.up { transform: none; }
+.bubbly-head { padding: 7px 14px; color: #ffffff; background: #008e97; border-bottom: 3px solid #fc4c02;
+  font: 800 13px/1.2 var(--sans); letter-spacing: .14em; }
+.bubbly-body { display: grid; grid-template-columns: 70px 1fr; gap: 10px; padding: 10px 14px 12px; }
+.bubbly-art { width: 70px; height: 114px; }
+.bubbly-body p { margin: 0 0 5px; }
+.bubbly-tag { display: inline-block; margin-bottom: 6px; padding: 2px 8px; color: #5a3a00; background: #fff3c4;
+  border: 1px dashed #b8902c; transform: rotate(-2deg); font: 13px/1.3 "Marker Felt", "Segoe Print", "Comic Sans MS", cursive; }
+.bubbly-close { color: #00666d; font-style: italic; }
+.bubbly-cork { transform-box: fill-box; transform-origin: 50% 100%; animation: cork-wiggle .5s ease-in-out 2.5s 3; }
+@keyframes cork-wiggle { 0%, 100% { transform: none; } 30% { transform: translateY(-3px) rotate(-8deg); } 70% { transform: translateY(-3px) rotate(8deg); } }
+
+/* Carter's Commandos' scoreboard (eggs.scoreboard): two finals flip in turn, lamp-yellow on black */
+.board { position: fixed; right: 16px; bottom: 16px; z-index: 50; width: min(calc(100vw - 32px), 320px); cursor: pointer;
+  overflow: hidden; color: #ffcc33; background: #111111; border: 5px solid #3a3a3a; border-radius: 6px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .55); font: 700 13px/1.3 "Courier New", Courier, monospace;
+  transform: translateY(130%); transition: transform .7s cubic-bezier(.2, 1.3, .4, 1); }
+.board.up { transform: none; }
+.board p { margin: 0; }
+.board-title { padding: 4px 0; color: #ffffff; background: #8a1c1c; letter-spacing: .3em; text-align: center; }
+.board-panels { display: grid; padding: 10px 12px; perspective: 400px; }
+.board-panel { grid-area: 1 / 1; animation: board-flip 8s linear infinite; }
+.board-panel + .board-panel { animation-delay: -4s; }
+@keyframes board-flip { 0%, 46% { opacity: 1; transform: none; } 50%, 96% { opacity: 0; transform: rotateX(90deg); } 100% { opacity: 1; transform: none; } }
+.board-label { margin-bottom: 4px; color: #ffffff; letter-spacing: .08em; }
+.board-row { display: flex; justify-content: space-between; gap: 8px; font-size: 16px; text-shadow: 0 0 6px rgba(255, 204, 51, .55); }
+.board-row b { font-size: 22px; }
+.board-final { margin-top: 4px; letter-spacing: .1em; }
+.board-win { color: #5ee36a; }
+.board-loss { color: #ff5a4f; }
+.board-notes { padding: 8px 12px 10px; color: #eeeeee; background: #1c1c1c; font: 12.5px/1.4 var(--sans); }
+.board-notes h3 { margin: 0 0 4px; color: #ffcc33; font: 700 15px/1.2 var(--sans); }
+.board-notes p { margin: 0 0 4px; }
+
+/* Carter's Commandos' trophy (eggs.giant_killer), on their page for good: gold on cream */
+.trophy { display: flex; align-items: center; gap: 10px; max-width: 380px; margin: 6px 0 22px; padding: 8px 12px;
+  color: #3b2a08; background: #f6f1e3; border: 1px solid #d9c78f; border-radius: 6px; font: 13px/1.35 var(--sans); }
+.trophy svg { flex: none; width: 40px; height: 50px; }
+.trophy b { display: block; letter-spacing: .14em; }
+.trophy p { margin: 2px 0 0; }
+
+/* Carter's Commandos' first-round board (eggs.steeler_board): black and gold, circles and cross-outs */
+.dboard { position: fixed; right: 16px; bottom: 16px; z-index: 50; width: min(calc(100vw - 32px), 330px); cursor: pointer;
+  overflow: hidden; color: #1d1d1d; background: #fdfdfb; border-radius: 6px; box-shadow: 0 10px 30px rgba(0, 0, 0, .45);
+  font: 13px/1.4 var(--sans); transform: translateY(130%) rotate(3deg); transition: transform .7s cubic-bezier(.2, 1.3, .4, 1); }
+.dboard.up { transform: rotate(-1deg); }
+.dboard-head { padding: 7px 14px; color: #ffb612; background: #101820; font: 800 13px/1.2 var(--sans); letter-spacing: .1em;
+  text-transform: uppercase; }
+.dboard-key { margin: 8px 14px 4px; color: #555555; font-size: 12px; }
+.dboard ul { margin: 0; padding: 0 14px; list-style: none; }
+.dboard li { margin: 5px 0; }
+.dpick-pit span { padding: 1px 6px; border: 2px solid #ffb612; border-radius: 999px; }
+.dpick-pit { color: #101820; font-weight: 700; }
+.dpick-bust { color: #666666; }
+.dpick-bust s { text-decoration-color: #c0281c; text-decoration-thickness: 2px; }
+.dboard-foot { margin: 8px 14px 12px; padding-top: 6px; border-top: 1px dashed #c9c9c9; font-size: 12px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .towels, .towels.up, .fchat, .fchat.up, .bubbly, .bubbly.up, .board, .board.up, .dboard, .dboard.up { transition: none; transform: none; }
+  .towel, .fins-flag, .bubbly-cork { animation: none; }
+  .fchat-sys, .fchat-foot { opacity: 1; animation: none; }
+  .board-panel { position: static; grid-area: auto; animation: none; }
+  .board-panel + .board-panel { margin-top: 10px; } }
+@media print { .towels, .fchat, .bubbly, .board, .dboard { display: none; } }
