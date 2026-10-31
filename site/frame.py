@@ -7,7 +7,7 @@ SITE = os.path.dirname(os.path.abspath(__file__))
 
 # GoatCounter, page counts without cookies or personal data: the site's code at goatcounter.com
 # (the CODE in CODE.goatcounter.com), or "" to count nothing. Its dashboard is at that address.
-GOATCOUNTER = ""
+GOATCOUNTER = "pdl"
 
 
 def counter():
