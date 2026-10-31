@@ -261,6 +261,11 @@ def best_pickups():
 
 
 @lru_cache(maxsize=None)
+def trade_value():
+    return read_csv("trade_value.csv")
+
+
+@lru_cache(maxsize=None)
 def draft_value():
     return read_csv("draft_value.csv")
 

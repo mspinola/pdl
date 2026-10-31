@@ -10,7 +10,7 @@ cd "$(dirname "$0")/.."
 export TZ=America/New_York
 for step in link_franchises owners identities archive trades export_bundle analyze \
             archive_games results h2h transactions transactions_analysis \
-            lineups_luck got_away draft_value legacy_drafts \
+            lineups_luck got_away trade_value draft_value legacy_drafts \
             rulebook_ledger rulebook_build rulebook_mfl_check; do
   echo "== $step"
   python3 "src/$step.py" > /dev/null

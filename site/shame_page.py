@@ -201,12 +201,38 @@ def office_cards():
                     f"Dropped {E(first)} {E(last)} ({ga['position']}), who went on to start {ga['starts_elsewhere']} games for "
                     f"{names(ga['started_for'].split('; '))} and score {num(ga['points_elsewhere'])} points.",
                     "Somebody else's championship, from your waiver wire."))
+    out.append(worst_trade())
     oa = d.by_owner("owner_activity.csv")
     t = min(oa, key=lambda t: int(oa[t]["net_picks"]))
     out.append(card(oa[t]["net_picks"], "Most draft picks traded away", link(t),
                     f"{abs(int(oa[t]['net_picks']))} more draft picks traded away than taken in, over {oa[t]['trades']} trades.",
                     "The future is now. It was always now."))
     return out
+
+
+def first_last(name):
+    last, _, first = name.partition(", ")
+    return f"{E(first)} {E(last)}"
+
+
+def worst_trade():
+    """The biggest gap between what two teams got from a trade, among trades with no draft picks (src/trade_value.py)."""
+    sides = []
+    for r in d.trade_value():
+        if r["a_got_picks"] != "0" or r["b_got_picks"] != "0":
+            continue
+        sides += [(float(r["b_got_points"]) - float(r["a_got_points"]), r, "a", "b"),
+                  (float(r["a_got_points"]) - float(r["b_got_points"]), r, "b", "a")]
+    gap, r, me, them = max(sides, key=lambda s: s[0])
+    gave, got = r[f"{them}_got_players"].split("; "), r[f"{me}_got_players"].split("; ")
+    titles = r[f"{them}_got_titles"].split("; ") if r[f"{them}_got_titles"] else []
+    return card(num(round(gap, 1)), "Worst trade", f"{link(r[f'team_{me}'])} ({season_link(r['season'])})",
+                f"Traded {', '.join(map(first_last, gave))} to {link(r[f'team_{them}'])} for {', '.join(map(first_last, got))}. "
+                f"{link(r[f'team_{them}'])} got {r[f'{them}_got_starts']} starts and {num(r[f'{them}_got_points'])} points out of it"
+                + (f", and a title in {', '.join(map(season_link, titles))}" if titles else "")
+                + f". {link(r[f'team_{me}'])} got {r[f'{me}_got_starts']} starts and {num(r[f'{me}_got_points'])} points, a gap of {num(round(gap, 1))}. "
+                "Trades with draft picks are left out, since a pick is worth whoever gets taken with it.",
+                "Both sides agreed it was fair. One of them was right.")
 
 
 def grid(cards):
