@@ -20,6 +20,12 @@ every draft of the picks within two places of it, overall. An owner's draft
 skill is his picks' average starts above their slot's expectation, using only
 drafts whose three seasons are complete.
 
+Kickers and team defenses are kept in the pick table but left out of everything
+that grades drafting (skill = False): every lineup starts one of each, so they
+become starters almost by default and would flatter whoever drafts them. The
+slot expectations, the owner figures and the best and worst lists use skill
+players only.
+
     python3 src/draft_value.py      # datasets/draft_value.csv, draft_owners.csv, docs/draft-value.md
 """
 import csv, json, os, statistics, sys
@@ -33,6 +39,7 @@ from fetch_mfl import LAST_SEASON
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HORIZON = 3
 HIT = 10
+NOT_SKILL = ("K", "Def")
 
 
 def as_list(x):
@@ -88,9 +95,11 @@ def main():
         p["hit"] = p["starts_any_team"] >= HIT
         p["kept"] = len(window) >= HIT
         p["complete"] = p["season"] + HORIZON - 1 < LAST_SEASON
+        p["skill"] = p["position"] not in NOT_SKILL
     done = [p for p in out if p["complete"]]
+    graded = [p for p in done if p["skill"]]
     by_overall, any_overall = defaultdict(list), defaultdict(list)
-    for p in done:
+    for p in graded:
         by_overall[p["overall"]].append(p["starts"])
         any_overall[p["overall"]].append(p["starts_any_team"])
     for p in out:
@@ -102,14 +111,14 @@ def main():
 
     cols = ["season", "round", "pick", "overall", "team", "player", "position", "starts_any_team", "starts",
             "hit", "kept", "value_any_team", "value", "any_team_over_slot", "expected_starts", "starts_over_slot",
-            "complete"]
+            "complete", "skill"]
     with open(f"{BASE}/datasets/draft_value.csv", "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(cols)
         w.writerows([[p[c] for c in cols] for p in out])
 
     owners = defaultdict(list)
-    for p in done:
+    for p in graded:
         owners[p["team"]].append(p)
     orows = []
     for team, ps in owners.items():
@@ -170,8 +179,9 @@ def report(out, done, orows):
                  f"{rate(ps, 'kept')} | {statistics.mean(p['starts_any_team'] for p in ps):.1f} | "
                  f"{100 * sum(p['starts_any_team'] == 0 for p in ps) / len(ps):.0f}% |")
     first = [p for p in done if p["round"] == 1]
+    first_skill = [p for p in first if p["skill"]]
     tops = defaultdict(list)
-    for p in first:
+    for p in first_skill:
         tops[min(p["pick"], 17)].append(p)
     L += ["", "## The first round, pick by pick", "",
           "| Pick | Drafts | Hit rate | Kept | Starts per pick |", "|---|---|---|---|---|"]
@@ -188,7 +198,8 @@ def report(out, done, orows):
           "give, so an owner is not rewarded for drafting early. The first is for any team (did he pick players who "
           "became starters), the second for his own team (did he keep them). The margin is two standard errors on the "
           "first: inside it, a figure is indistinguishable from an average drafter. With 17 owners, about one lands "
-          "outside it by chance alone. Started elsewhere is the share of his draftees' starts made for other teams.", "",
+          "outside it by chance alone. Started elsewhere is the share of his draftees' starts made for other teams. "
+          "Kickers and defenses are left out, here and in every list below.", "",
           "| | Owner | Picks | Hit rate | Kept | First-round hit rate | Over slot, any team | Margin | Over slot, his team | Started elsewhere |",
           "|---|---|---|---|---|---|---|---|---|---|"]
     for i, r in enumerate(orows, 1):
@@ -196,7 +207,8 @@ def report(out, done, orows):
         L.append(f"| {i} | {r['owner']} | {r['picks']} | {r['hit_rate']}% | {r['kept_rate']}% | "
                  f"{r['first_round_hit_rate']}% | {r['any_team_over_slot']:+}{flag} | {r['any_team_margin']} | "
                  f"{r['starts_over_slot']:+} | {r['started_elsewhere']}% |")
-    best = sorted(out, key=lambda p: -p["value_any_team"])
+    skill = [p for p in out if p["skill"]]
+    best = sorted(skill, key=lambda p: -p["value_any_team"])
     L += ["", "## Best picks", "", "By value over the three seasons, for whichever teams started him (or so far, "
           "for recent drafts).", "",
           "| Season | Round | Pick | Team | Player | Pos | Starts | For the drafting team | Value |",
@@ -204,20 +216,20 @@ def report(out, done, orows):
     for p in best[:15]:
         L.append(f"| {p['season']} | {p['round']} | {p['pick']} | {p['team']} | {p['player']} | {p['position']} | "
                  f"{p['starts_any_team']} | {p['starts']} | {p['value_any_team']:+} |")
-    steals = sorted([p for p in done if p["round"] >= 3], key=lambda p: -p["value_any_team"])
+    steals = sorted([p for p in done if p["round"] >= 3 and p["skill"]], key=lambda p: -p["value_any_team"])
     L += ["", "## Best late picks (round 3 on)", "",
           "| Season | Round | Pick | Team | Player | Pos | Starts | For the drafting team | Value |",
           "|---|---|---|---|---|---|---|---|---|"]
     for p in steals[:10]:
         L.append(f"| {p['season']} | {p['round']} | {p['pick']} | {p['team']} | {p['player']} | {p['position']} | "
                  f"{p['starts_any_team']} | {p['starts']} | {p['value_any_team']:+} |")
-    busts = sorted([p for p in first if p["pick"] <= 8], key=lambda p: (p["starts_any_team"], p["value_any_team"]))
+    busts = sorted([p for p in first_skill if p["pick"] <= 8], key=lambda p: (p["starts_any_team"], p["value_any_team"]))
     L += ["", "## Top-8 picks that never paid", "",
           "First-round picks in the top 8 with the fewest starts for anyone in their three seasons.", "",
           "| Season | Pick | Team | Player | Pos | Starts |", "|---|---|---|---|---|---|"]
     for p in busts[:10]:
         L.append(f"| {p['season']} | {p['pick']} | {p['team']} | {p['player']} | {p['position']} | {p['starts_any_team']} |")
-    traded = sorted([p for p in done if p["hit"] and not p["kept"]], key=lambda p: -p["starts_any_team"])
+    traded = sorted([p for p in done if p["hit"] and not p["kept"] and p["skill"]], key=lambda p: -p["starts_any_team"])
     L += ["", "## Hits that started elsewhere", "",
           "Picks that became starters, but mostly for other teams: traded, dropped, or kept on the bench.", "",
           "| Season | Round | Pick | Drafted by | Player | Pos | Starts | For the drafting team |", "|---|---|---|---|---|---|---|---|"]

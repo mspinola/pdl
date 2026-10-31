@@ -154,7 +154,8 @@ def magazine():
     are the team's four worst early picks: rounds 1 and 2, 2008 on, by starts under what the
     slot usually yields."""
     m = config()["magazine"]
-    picks = sorted((r for r in d.draft_value() if r["team"] == m["team"] and r["complete"] == "True" and int(r["round"]) <= 2),
+    picks = sorted((r for r in d.draft_value() if r["team"] == m["team"] and r["complete"] == "True" and r["skill"] == "True"
+                    and int(r["round"]) <= 2),
                    key=lambda r: float(r["starts_over_slot"]))[:4]
     names = "".join(f"<li>{E(' '.join(reversed(r['player'].split(', '))))}</li>" for r in picks)
     slots = sorted(int(r["overall"]) for r in picks)
@@ -422,7 +423,7 @@ def draft_grade():
     record's revision, the share of picks that became starters (finished drafts, 2008 on, as the
     franchise pages count it) for the team and the league, overall and since eggs.json's year."""
     g = config()["draft_grade"]
-    picks = [r for r in d.draft_value() if r["complete"] == "True"]
+    picks = [r for r in d.draft_value() if r["complete"] == "True" and r["skill"] == "True"]
     rate = lambda rs: round(100 * sum(r["hit"] == "True" for r in rs) / max(1, len(rs)), 1)
     mine = [r for r in picks if r["team"] == g["team"]]
     recent = lambda rs: [r for r in rs if int(r["season"]) >= g["since"]]
@@ -713,7 +714,8 @@ def steeler_board():
     sb = config()["steeler_board"]
     me = sb["team"]
     busts = {(r["season"], r["overall"]): int(r["starts"]) for r in d.draft_value()
-             if r["team"] == me and r["round"] == "1" and r["complete"] == "True" and int(r["starts"]) <= sb["bust_starts"]}
+             if r["team"] == me and r["round"] == "1" and r["complete"] == "True" and r["skill"] == "True"
+             and int(r["starts"]) <= sb["bust_starts"]}
     pit = roster_share("PIT")
     items = ""
     for r in d.all_drafts():

@@ -57,27 +57,27 @@ Every pick 17 so far, including drafts still inside their three seasons:
 
 ## Owners
 
-Over slot is the average number of starts a pick gave above what picks at that point in the draft usually give, so an owner is not rewarded for drafting early. The first is for any team (did he pick players who became starters), the second for his own team (did he keep them). The margin is two standard errors on the first: inside it, a figure is indistinguishable from an average drafter. With 17 owners, about one lands outside it by chance alone. Started elsewhere is the share of his draftees' starts made for other teams.
+Over slot is the average number of starts a pick gave above what picks at that point in the draft usually give, so an owner is not rewarded for drafting early. The first is for any team (did he pick players who became starters), the second for his own team (did he keep them). The margin is two standard errors on the first: inside it, a figure is indistinguishable from an average drafter. With 17 owners, about one lands outside it by chance alone. Started elsewhere is the share of his draftees' starts made for other teams. Kickers and defenses are left out, here and in every list below.
 
 | | Owner | Picks | Hit rate | Kept | First-round hit rate | Over slot, any team | Margin | Over slot, his team | Started elsewhere |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | Tally Wackers | 177 | 50.8% | 30.5% | 62.5% | +2.12 (outside) | 1.59 | +1.33 | 42.2% |
-| 2 | Ho Train | 174 | 51.1% | 24.1% | 66.7% | +0.94 | 1.47 | +0.49 | 46.8% |
-| 3 | Karpet Munchers | 192 | 44.3% | 21.9% | 47.1% | +0.91 | 1.51 | -0.05 | 53.0% |
-| 4 | F-Jackie | 178 | 48.3% | 24.2% | 81.8% | +0.43 | 1.44 | -0.05 | 47.7% |
-| 5 | Iron City Pounders | 174 | 42.5% | 23.0% | 64.3% | +0.28 | 1.69 | +0.13 | 47.7% |
-| 6 | Carter's Commandos | 165 | 45.5% | 32.1% | 73.7% | +0.27 | 1.61 | +0.92 | 36.8% |
-| 7 | Texas Nashvillians | 181 | 42.0% | 26.5% | 83.3% | +0.2 | 1.48 | +0.2 | 47.2% |
-| 8 | Beers | 186 | 43.5% | 16.1% | 88.9% | +0.18 | 1.42 | -0.85 | 59.1% |
-| 9 | Blitzkrieg | 170 | 47.1% | 34.7% | 64.7% | -0.13 | 1.55 | +0.71 | 37.8% |
-| 10 | Bunchalosers | 109 | 42.2% | 22.0% | 66.7% | -0.21 | 2.01 | -0.18 | 49.5% |
-| 11 | Scooter's Boozers | 169 | 38.5% | 21.3% | 58.3% | -0.25 | 1.62 | -1.01 | 56.4% |
-| 12 | OakalDoakals | 165 | 42.4% | 27.9% | 78.6% | -0.47 | 1.54 | -0.4 | 48.1% |
-| 13 | Da Funk | 174 | 43.7% | 32.2% | 83.3% | -0.51 | 1.5 | +0.52 | 37.0% |
-| 14 | Couchfire | 68 | 42.6% | 23.5% | 87.5% | -0.63 | 2.37 | -0.62 | 46.8% |
-| 15 | Dunbar Dogs | 183 | 37.2% | 23.5% | 58.8% | -1.05 | 1.57 | +0.43 | 35.7% |
-| 16 | Manic Moose | 197 | 35.0% | 15.7% | 80.0% | -1.23 | 1.33 | -1.05 | 57.7% |
-| 17 | Otters | 184 | 38.0% | 16.8% | 64.7% | -1.23 | 1.51 | -0.76 | 48.3% |
+| 1 | Ho Train | 131 | 41.2% | 19.1% | 66.7% | +1.37 | 1.45 | +0.47 | 39.6% |
+| 2 | Tally Wackers | 130 | 37.7% | 23.8% | 62.5% | +1.1 | 1.49 | +0.81 | 30.4% |
+| 3 | F-Jackie | 140 | 38.6% | 22.9% | 81.8% | +0.85 | 1.38 | +0.18 | 38.1% |
+| 4 | Karpet Munchers | 143 | 28.0% | 18.2% | 47.1% | +0.34 | 1.49 | +0.37 | 35.8% |
+| 5 | Beers | 145 | 30.3% | 9.7% | 88.9% | +0.28 | 1.23 | -0.86 | 55.3% |
+| 6 | Carter's Commandos | 127 | 33.1% | 29.1% | 73.7% | +0.23 | 1.54 | +1.27 | 19.8% |
+| 7 | Iron City Pounders | 138 | 30.4% | 16.7% | 64.3% | +0.12 | 1.5 | +0.19 | 35.2% |
+| 8 | Texas Nashvillians | 142 | 29.6% | 19.7% | 83.3% | +0.02 | 1.14 | +0.31 | 33.3% |
+| 9 | Bunchalosers | 82 | 31.7% | 15.9% | 66.7% | +0.01 | 1.78 | -0.33 | 42.0% |
+| 10 | Da Funk | 141 | 34.0% | 23.4% | 83.3% | -0.07 | 1.34 | +0.31 | 28.7% |
+| 11 | Otters | 153 | 30.7% | 14.4% | 64.7% | -0.45 | 1.25 | -0.41 | 38.5% |
+| 12 | Manic Moose | 162 | 23.5% | 8.0% | 80.0% | -0.47 | 1.02 | -1.0 | 55.7% |
+| 13 | Blitzkrieg | 129 | 34.9% | 25.6% | 64.7% | -0.54 | 1.44 | +0.36 | 23.3% |
+| 14 | OakalDoakals | 128 | 30.5% | 19.5% | 78.6% | -0.68 | 1.32 | -0.43 | 36.0% |
+| 15 | Dunbar Dogs | 150 | 27.3% | 16.7% | 58.8% | -0.68 | 1.34 | +0.23 | 26.2% |
+| 16 | Scooter's Boozers | 130 | 23.8% | 13.1% | 58.3% | -0.92 | 1.18 | -1.32 | 48.8% |
+| 17 | Couchfire | 51 | 29.4% | 25.5% | 87.5% | -0.92 | 1.94 | +0.29 | 17.7% |
 
 ## Best picks
 
@@ -139,16 +139,16 @@ Picks that became starters, but mostly for other teams: traded, dropped, or kept
 
 | Season | Round | Pick | Drafted by | Player | Pos | Starts | For the drafting team |
 |---|---|---|---|---|---|---|---|
-| 2011 | 6 | 6 | Texas Nashvillians | Gostkowski, Stephen | K | 37 | 6 |
 | 2020 | 3 | 10 | Ho Train | Hockenson, T.J. | TE | 37 | 1 |
-| 2022 | 8 | 4 | Couchfire | Cowboys, Dallas | Def | 36 | 0 |
-| 2009 | 6 | 10 | Da Funk | Eagles, Philadelphia | Def | 34 | 9 |
-| 2019 | 4 | 3 | F-Jackie | Tucker, Justin | K | 34 | 7 |
-| 2019 | 7 | 12 | Otters | Steelers, Pittsburgh | Def | 34 | 1 |
-| 2023 | 5 | 7 | Texas Nashvillians | Boswell, Chris | K | 34 | 9 |
-| 2010 | 5 | 2 | Carter's Commandos | Gostkowski, Stephen | K | 33 | 4 |
-| 2011 | 3 | 9 | Bunchalosers | Packers, Green Bay | Def | 33 | 7 |
-| 2011 | 11 | 7 | Tally Wackers | Akers, David | K | 33 | 6 |
+| 2017 | 1 | 3 | Texas Nashvillians | McCaffrey, Christian | RB | 33 | 9 |
+| 2019 | 1 | 7 | Manic Moose | Metcalf, DK | WR | 33 | 2 |
+| 2019 | 2 | 6 | Carter's Commandos | Hockenson, T.J. | TE | 32 | 8 |
+| 2009 | 8 | 1 | Blitzkrieg | Keller, Dustin | TE | 31 | 0 |
+| 2012 | 6 | 8 | Iron City Pounders | Olsen, Greg | TE | 31 | 7 |
+| 2014 | 6 | 7 | Iron City Pounders | Bennett, Martellus | TE | 31 | 7 |
+| 2010 | 8 | 1 | OakalDoakals | Johnson, Steve | WR | 30 | 0 |
+| 2014 | 1 | 9 | Bunchalosers | Matthews, Jordan | WR | 30 | 4 |
+| 2022 | 1 | 1 | F-Jackie | Hall, Breece | RB | 30 | 6 |
 
 ## Notes
 

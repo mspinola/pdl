@@ -95,10 +95,10 @@ def franchise_page(team, ident, owners):
                                            f"({float(lk['luck_z']):+.1f} standard deviations)"))
     dr = owners["draft"].get(team)
     if dr:
-        style.append(fact("Drafting", f"{dr['hit_rate']}% of picks became starters, {dr['kept_rate']}% for this team. "
+        style.append(fact("Drafting", f"{dr['hit_rate']}% of picks (kickers and defenses aside) became starters, {dr['kept_rate']}% for this team. "
                                       f"{float(dr['any_team_over_slot']):+.2f} starts a pick over the slot"))
-    # kickers and team defenses are left out: they start every week by rule, so a starter there says little about the pick
-    best = sorted([p for p in d.draft_value() if p["team"] == team and p["position"] not in ("K", "Def")],
+    # skill players only (src/draft_value.py): a kicker or defense starts every week once drafted
+    best = sorted([p for p in d.draft_value() if p["team"] == team and p["skill"] == "True"],
                   key=lambda p: -float(p["value_any_team"]))[:5]
     best_rows = "".join(f"<li>{season_link(p['season'])}, round {p['round']} pick {p['pick']}: {E(p['player'])} "
                         f"({E(p['position'] or '')}), {p['starts_any_team']} starts"

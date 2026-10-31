@@ -105,7 +105,8 @@ def index_page(by_year):
             f"</thead><tbody>{rrows}</tbody></table></div>"
             "<h2>Who drafts well</h2><p class='meta'>Starts a pick above what that point in the draft usually yields, "
             "for any team (did he pick a player who became a starter) and for the drafting team (did that player "
-            "start for him). Differences under about 1.5 starts a pick are within chance. The full method is in the "
+            "start for him). Kickers and defenses are left out. Differences under about 1.4 starts a pick are within "
+            "chance. The full method is in the "
             "<a href='../analysis/draft-value.html'>draft value report</a>.</p><div class='table-wrap'><table class='data'>"
             "<thead><tr><th class='l'>Team</th><th>Picks</th><th>Hit rate</th><th>Kept</th><th>Over slot, any team</th><th>Over slot, his team</th>"
             f"<th>Started elsewhere</th></tr></thead><tbody>{orows}</tbody></table></div></div>")

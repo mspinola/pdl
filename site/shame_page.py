@@ -180,7 +180,7 @@ def franchise_cards(done):
 
 def office_cards():
     out = []
-    dv = [r for r in d.draft_value() if r["complete"] == "True" and r["round"] == "1" and int(r["starts"]) == 0]
+    dv = [r for r in d.draft_value() if r["complete"] == "True" and r["skill"] == "True" and r["round"] == "1" and int(r["starts"]) == 0]
     r = min(dv, key=lambda r: int(r["overall"]))
     last, _, first = r["player"].partition(", ")
     out.append(card(f"#{r['overall']}", "Worst first-round pick", f"{link(r['team'])} ({season_link(r['season'])})",
@@ -192,7 +192,7 @@ def office_cards():
     tr = d.by_owner("team_records.csv")
     top = max(tr, key=lambda t: float(tr[t]["win_pct"]))
     out.append(card(f"{do[t]['hit_rate']}%", "Worst drafter", link(t),
-                    f"The lowest share of picks that became starters (finished drafts, 2008 on)."
+                    f"The lowest share of picks that became starters (finished drafts, 2008 on, kickers and defenses left out)."
                     + (" Also the best win percentage in league history." if top == t else ""),
                     "Can't draft. Wins anyway. Nobody can explain it." if top == t else "Picks made, players not."))
     ga = max(d.got_away(), key=lambda r: float(r["points_elsewhere"]))
