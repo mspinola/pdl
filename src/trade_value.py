@@ -5,7 +5,9 @@ regular-season points each team got from what it received, for as long as it
 held it. An asset traded on is followed: the team is credited with a share of
 whatever came back, and that is followed in turn, so a trade's value includes
 the trades it made possible. When a team sends several assets in one deal, each
-carries an equal share of the return. A drop ends the trail.
+carries a share of the return in proportion to what it went on to score for the
+team that got it (directly, while held, a pick as the player taken with it), and
+an equal share only when none of them scored. A drop ends the trail.
 
 A draft pick is followed until it is used, then becomes the player taken with
 it: the draft results name the slot (this season's picks), and a future pick
@@ -151,30 +153,39 @@ class Trees:
                     elif stage == "playoffs" and self.champs.get(season) == team:
                         v.titles.add(season)
             if out and t_out < drop:
-                v.add(*self.flip(team, out[1]))
+                v.add(*self.flip(team, out[1], key))
         elif key[0] == "k" and key[1:] in self.by_slot:
             _, pid, drafter, dts = self.by_slot[key[1:]]
             if out and t_out < dts:
-                v.add(*self.flip(team, out[1]))
+                v.add(*self.flip(team, out[1], key))
             elif drafter == team:
                 v.add(self.value(team, ("p", pid), dts, follow))
         elif out:
-            v.add(*self.flip(team, out[1]))
+            v.add(*self.flip(team, out[1], key))
         else:
             v.pending += 1
         return v
 
-    def flip(self, team, i):
-        """What a team got back for the assets it sent in trade i, followed on, and the share each sent asset carries."""
+    def flip(self, team, i, key):
+        """What a team got back for the assets it sent in trade i, followed on, and the share of it that the
+        sent asset `key` carries: its part of what the sent assets scored, directly, for the team that got them."""
         if (team, i) not in self.memo:
             t = self.trades[i]
+            other = t["team_b"] if t["team_a"] == team else t["team_a"]
             sent, got = (t["a_gave"], t["b_gave"]) if t["team_a"] == team else (t["b_gave"], t["a_gave"])
             v = self.side(team, got, t["season"], t["timestamp"])
-            v.flips = [{"date": t["date"], "team": team, "to": t["team_b"] if t["team_a"] == team else t["team_a"],
+            v.flips = [{"date": t["date"], "team": team, "to": other,
                         "sent": [self.label(a, t["season"]) for a in sent],
                         "got": [self.label(a, t["season"]) for a in got]}] + v.flips
-            self.memo[(team, i)] = (v, 1 / max(1, len(sent)))
-        return self.memo[(team, i)]
+            worth = defaultdict(float)
+            for a in sent:
+                k = self.key(a, t["season"])
+                worth[k] += self.value(other, k, t["timestamp"], follow=False).points
+            total = sum(worth.values())
+            shares = {k: (w / total if total else 1 / len(worth)) for k, w in worth.items()}
+            self.memo[(team, i)] = (v, shares)
+        v, shares = self.memo[(team, i)]
+        return v, shares.get(key, 0.0)
 
 
 def main():

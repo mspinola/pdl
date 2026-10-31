@@ -263,7 +263,8 @@ def build(dist):
             "turned its haul into, trading it on, so a bad trade it flipped into a good one is forgiven. The side that won "
             f"gets what it got directly.</p>{grid(trade_cards())}"
             "<h2>The spiderwebs</h2><p class='lede'>The trades that kept paying, followed through every trade they led to. "
-            "When several players go out in one deal, each carries an equal share of what came back. Every link is "
+            "When several players go out in one deal, each carries a share of what came back in proportion to what he "
+            "went on to score for the team that got him. Every link is "
             f"somebody else's trade.</p>{grid(web_cards())}</div>")
     with open(f"{dist}/records/shame.html", "w") as f:
         f.write(page("PDL wall of shame", body, description="The PDL records nobody wants, computed from every game since 2000."))
