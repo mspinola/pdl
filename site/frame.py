@@ -5,6 +5,18 @@ from functools import lru_cache
 E = html.escape
 SITE = os.path.dirname(os.path.abspath(__file__))
 
+# GoatCounter, page counts without cookies or personal data: the site's code at goatcounter.com
+# (the CODE in CODE.goatcounter.com), or "" to count nothing. Its dashboard is at that address.
+GOATCOUNTER = ""
+
+
+def counter():
+    """The GoatCounter script for every page's head, or nothing when no code is set."""
+    if not GOATCOUNTER:
+        return ""
+    return (f'<script data-goatcounter="https://{E(GOATCOUNTER)}.goatcounter.com/count" async '
+            f'src="https://gc.zgo.at/count.js"></script>\n')
+
 
 @lru_cache(maxsize=None)
 def ver(path):
@@ -45,7 +57,7 @@ def page(title, body, depth=1, description=""):
      Dark Reader) must not repaint it: it turns the eggs' paper and cards dark and their ink light -->
 <meta name="color-scheme" content="light dark">
 <meta name="darkreader-lock">
-<link rel="stylesheet" href="{up}assets/site.css?v={ver("site.css")}">
+{counter()}<link rel="stylesheet" href="{up}assets/site.css?v={ver("site.css")}">
 <script>addEventListener("beforeprint", () => document.querySelectorAll("details").forEach(d => d.open = true));</script>
 <script src="{up}assets/moose.js?v={ver("assets/moose.js")}" defer></script>
 <script src="{up}assets/barney.js?v={ver("assets/barney.js")}" defer></script>
