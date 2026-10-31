@@ -937,3 +937,19 @@ html.y2k .y2k-h { margin: 16px 0 8px; color: #ff0000; font: 700 2rem/1.2 "Comic 
 .receipt .receipt-quip { display: block; margin-top: 10px; font-style: italic; }
 .receipt-foot { margin-top: 10px; text-align: center; font-size: 11px; letter-spacing: .06em; color: #666; }
 @media print { .receipt { box-shadow: none; -webkit-mask: none; mask: none; border: 1px solid #999; } }
+.receipt-flips { margin: 4px 0 6px; }
+.receipt-flips span { display: block; }
+.receipt-flips i { display: block; padding-left: 12px; font-style: normal; font-size: 12px; color: #555; }
+
+/* the trade tree: a team's biggest chain of trades, on its franchise page (eggs.family_tree) */
+.ttree { max-width: 560px; margin: 8px 0 26px; padding: 12px 16px; border-left: 4px solid var(--accent, #c8742c);
+  background: rgba(127, 127, 127, .08); }
+.ttree-root { margin: 0 0 6px; font-weight: 700; }
+.ttree ul { margin: 0; padding: 0 0 0 4px; list-style: none; }
+.ttree li { position: relative; margin: 0; padding: 3px 0 3px 22px; }
+.ttree li::before { content: ""; position: absolute; left: 6px; top: 0; bottom: 0; border-left: 2px solid currentColor; opacity: .35; }
+.ttree li::after { content: ""; position: absolute; left: 6px; top: 13px; width: 11px; border-top: 2px solid currentColor; opacity: .35; }
+.ttree li:last-child::before { bottom: auto; height: 14px; }
+.ttree-sum { margin: 8px 0 0; }
+.ttree-quip { margin: 6px 0 0; font-style: italic; opacity: .85; }
+@media print { .ttree { background: none; border-left-color: #999; } }

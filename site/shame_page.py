@@ -10,7 +10,7 @@ import os
 
 import league_data as d
 import records_page as R
-from eggs import and_list, bad_trades, config, ordinal, playoff_games
+from eggs import and_list, bad_trades, config, ordinal, playoff_games, spiderwebs
 from frame import E, num, page, record
 
 link = R.team_link
@@ -210,15 +210,34 @@ def office_cards():
 
 
 def trade_cards():
-    """The worst trades, from eggs.bad_trades(): the points gap between what the two sides got."""
+    """The worst trades, from eggs.bad_trades(): what the winner got from it, against everything the loser
+    made of its side, trades on included."""
     out = []
     for t in bad_trades()[:config()["trade_regret"]["shame_count"]]:
-        won = link(t["winner"])
-        out.append(card(num(t["gap"]), f"Traded {and_list(t['gave'])}", f"{link(t['loser'])} ({season_link(t['season'])})",
-                        f"To {won} for {E(and_list(t['got']))}. {won} got {t['their_starts']} starts and {num(t['their_points'])} "
-                        f"points out of it" + (f", and a title in {', '.join(map(season_link, t['titles']))}" if t["titles"] else "")
-                        + f". {link(t['loser'])} got {t['our_starts']} starts and {num(t['our_points'])} points.",
+        won, lost = link(t["winner"]), link(t["loser"])
+        flips = (f" Then flipped it: {E(t['flips'][0])}" + (f", and {len(t['flips']) - 1} more" if len(t["flips"]) > 1 else "") + "."
+                 ) if t["flips"] else ""
+        out.append(card(num(t["gap"]), f"Traded {and_list(t['gave'])}", f"{lost} ({season_link(t['season'])})",
+                        f"To {won} for {E(and_list(t['got']))}.{flips} {won} got {t['their_starts']} starts and "
+                        f"{num(t['their_points'])} points out of it"
+                        + (f", and a title in {', '.join(map(season_link, t['titles']))}" if t["titles"] else "")
+                        + f". {lost} got {num(round(t['our_points'], 1))} points"
+                        + (" all told" if t["flips"] else "")
+                        + (f", and a title in {', '.join(map(season_link, t['our_titles']))}" if t["our_titles"] else "") + ".",
                         t["quip"]))
+    return out
+
+
+def web_cards():
+    """The biggest trade trees, from eggs.spiderwebs(): one per team, the chain spelled out."""
+    out = []
+    for w in spiderwebs()[:config()["spiderweb"]["shame_count"]]:
+        chain = " ".join(f"{E(x)}." for x in w["flips"][:4]) + (f" And {len(w['flips']) - 4} more." if len(w["flips"]) > 4 else "")
+        out.append(card(f"+{num(w['grew'])}", f"{and_list(w['got'])}, traded on", f"{link(w['team'])} ({season_link(w['season'])})",
+                        f"From {link(w['from'])}, worth {num(w['direct'])} points as received. Then: {chain} "
+                        f"All told, {num(round(w['points'], 1))} points"
+                        + (f" and a title in {', '.join(map(season_link, w['titles']))}" if w["titles"] else "") + ".",
+                        w["quip"]))
     return out
 
 
@@ -239,9 +258,13 @@ def build(dist):
             f"<h2>The playoffs</h2>{grid(playoff_cards(done))}"
             f"<h2>Franchises</h2>{grid(franchise_cards(done))}"
             f"<h2>The front office</h2>{grid(office_cards())}"
-            "<h2>The worst trades</h2><p class='lede'>The points each side got from what it received, for as long as it kept "
-            "it. A draft pick counts as the player taken with it. Trades with a pick still to be made, or flipped before the "
-            f"draft, are left out.</p>{grid(trade_cards())}</div>")
+            "<h2>The worst trades</h2><p class='lede'>Regular-season points from what each side received, for as long as it "
+            "held it. A draft pick counts as the player taken with it. The side that lost gets credit for everything it "
+            "turned its haul into, trading it on, so a bad trade it flipped into a good one is forgiven. The side that won "
+            f"gets what it got directly.</p>{grid(trade_cards())}"
+            "<h2>The spiderwebs</h2><p class='lede'>The trades that kept paying, followed through every trade they led to. "
+            "When several players go out in one deal, each carries an equal share of what came back. Every link is "
+            f"somebody else's trade.</p>{grid(web_cards())}</div>")
     with open(f"{dist}/records/shame.html", "w") as f:
         f.write(page("PDL wall of shame", body, description="The PDL records nobody wants, computed from every game since 2000."))
     return 1

@@ -890,62 +890,121 @@ def player_names():
     return {k: v["name"] for k, v in json.load(open(f"{os.path.dirname(SITE)}/player_index.json")).items()}
 
 
-def trade_assets(players, picks):
-    """A side's players as "First Last", and its picks as "2018 1st-round pick (Golden Tate)"."""
-    out = [f"{f} {l}" for l, _, f in (p.partition(", ") for p in players.split("; ") if p)]
-    for p in (p for p in picks.split("; ") if p):
-        label, pid = p.split("=")
-        y, r, _ = label.split()
+def asset_name(label):
+    """A trade asset as the page says it: "Josh Allen", "a 2017 3rd-round pick (Patrick Mahomes)", or
+    "a 2028 1st-round pick" for one not yet made."""
+    if "=" in label or label[:4].isdigit():
+        label, _, pid = label.partition("=")
+        y, r = label.split()[:2]
         l, _, f = player_names().get(pid, "").partition(", ")
-        out.append(f"a {y} {ordinal(int(r[1:]))}-round pick ({f} {l})")
-    return out
+        return f"a {y} {ordinal(int(r[1:]))}-round pick" + (f" ({f} {l})" if l else "")
+    l, _, f = label.partition(", ")
+    return f"{f} {l}" if f else l
 
 
-@lru_cache(maxsize=None)
-def bad_trades():
-    """Every scored trade from the side that lost it, worst first (src/trade_value.py). A trade with a
-    pick not yet made, or flipped before the draft, is left out: half its story is another trade."""
-    tr = config()["trade_regret"]
+def trade_assets(players, picks):
+    return [asset_name(x) for x in players.split("; ") + picks.split("; ") if x]
+
+
+def flip_lines(flips):
+    """A tree's trades in date order, each as "2020: Saquon Barkley, Diontae Johnson and Ian Thomas to Ho Train
+    for Dalvin Cook, ...". Everything sent is named, including what came from outside the tree."""
     out = []
-    for r in d.trade_value():
-        if any(r[f"{s}_got_{k}"] != "0" for s in "ab" for k in ("pending", "flipped")):
-            continue
-        for me, them in (("a", "b"), ("b", "a")):
-            gap = float(r[f"{them}_got_points"]) - float(r[f"{me}_got_points"])
-            if gap <= 0:
-                continue
-            loser, winner = r[f"team_{me}"], r[f"team_{them}"]
-            out.append({"season": int(r["season"]), "date": r["date"], "loser": loser, "winner": winner, "gap": round(gap, 1),
-                        "gave": trade_assets(r[f"{them}_got_players"], r[f"{them}_got_picks"]),
-                        "got": trade_assets(r[f"{me}_got_players"], r[f"{me}_got_picks"]),
-                        "their_starts": int(r[f"{them}_got_starts"]), "their_points": float(r[f"{them}_got_points"]),
-                        "our_starts": int(r[f"{me}_got_starts"]), "our_points": float(r[f"{me}_got_points"]),
-                        "titles": [int(y) for y in r[f"{them}_got_titles"].split("; ") if y],
-                        "quip": tr["quips"].get(f"{r['date']} {loser}", tr["fallback"])})
-    return sorted(out, key=lambda t: -t["gap"])
+    for f in sorted(flips, key=lambda f: f["date"]):
+        sent = [asset_name(x) for x in f["sent"]]
+        out.append(f"{f['date'][:4]}: {and_list(sent)} to {f['to']} for {and_list([asset_name(x) for x in f['got']])}")
+    return out
 
 
 def and_list(xs):
     return xs[0] if len(xs) == 1 else ", ".join(xs[:-1]) + " and " + xs[-1]
 
 
+@lru_cache(maxsize=None)
+def bad_trades():
+    """Every scored trade from the side that lost it, worst first (src/trade_value.py). The side that lost
+    is credited with its whole tree, what it went on to make of what it got. The side that won is credited
+    with what it got directly: its later trades are its own doing, not this trade's."""
+    tr = config()["trade_regret"]
+    out = []
+    for r in d.trade_value():
+        for me, them in (("a", "b"), ("b", "a")):
+            gap = float(r[f"{them}_got_direct_points"]) - float(r[f"{me}_got_points"])
+            if gap <= 0:
+                continue
+            loser = r[f"team_{me}"]
+            out.append({"season": int(r["season"]), "date": r["date"], "loser": loser, "winner": r[f"team_{them}"],
+                        "gap": round(gap, 1),
+                        "gave": trade_assets(r[f"{them}_got_players"], r[f"{them}_got_picks"]),
+                        "got": trade_assets(r[f"{me}_got_players"], r[f"{me}_got_picks"]),
+                        "their_starts": int(r[f"{them}_got_direct_starts"]), "their_points": float(r[f"{them}_got_direct_points"]),
+                        "titles": [int(y) for y in r[f"{them}_got_direct_titles"].split("; ") if y],
+                        "our_points": float(r[f"{me}_got_points"]), "our_direct": float(r[f"{me}_got_direct_points"]),
+                        "our_titles": [int(y) for y in r[f"{me}_got_titles"].split("; ") if y],
+                        "flips": flip_lines(json.loads(r[f"{me}_got_flips"])),
+                        "quip": tr["quips"].get(f"{r['date']} {loser}", tr["fallback"])})
+    return sorted(out, key=lambda t: -t["gap"])
+
+
+@lru_cache(maxsize=None)
+def spiderwebs():
+    """Each team's biggest trade tree, biggest first: the trade whose haul it grew most by trading it on,
+    tree points over direct points (src/trade_value.py)."""
+    sw = config()["spiderweb"]
+    best = {}
+    for r in d.trade_value():
+        for me, them in (("a", "b"), ("b", "a")):
+            grew = float(r[f"{me}_got_points"]) - float(r[f"{me}_got_direct_points"])
+            team = r[f"team_{me}"]
+            if grew > best.get(team, {"grew": 0})["grew"]:
+                best[team] = {"team": team, "from": r[f"team_{them}"], "date": r["date"], "season": int(r["season"]),
+                              "grew": round(grew, 1), "points": float(r[f"{me}_got_points"]),
+                              "direct": float(r[f"{me}_got_direct_points"]),
+                              "got": trade_assets(r[f"{me}_got_players"], r[f"{me}_got_picks"]),
+                              "titles": [int(y) for y in r[f"{me}_got_titles"].split("; ") if y],
+                              "flips": flip_lines(json.loads(r[f"{me}_got_flips"])),
+                              "quip": sw["quips"].get(f"{r['date']} {team}", sw["fallback"])}
+    return sorted((w for w in best.values() if w["grew"] >= sw["min_grew"]), key=lambda w: -w["grew"])
+
+
 def receipt(team):
     """The team's worst trade as a store receipt, for its franchise page, or "" if it never lost one by
-    eggs.json's min_gap."""
+    eggs.json's min_gap. What the team flipped its haul into is on the receipt, and counts."""
     tr = config()["trade_regret"]
     t = next((t for t in bad_trades() if t["loser"] == team), None)
     if not t or t["gap"] < tr["min_gap"]:
         return ""
     rc = tr["receipt"]
     row = lambda k, v: f"<p><span>{E(k)}</span><b>{E(v)}</b></p>"
-    lines = (row(rc["sold"], and_list(t["gave"])) + row(rc["received"], and_list(t["got"]))
+    n = rc["flips_shown"]
+    flips = (f"<div class='receipt-flips'><span>{E(rc['flipped'])}</span>"
+             + "".join(f"<i>{E(x)}</i>" for x in t["flips"][:n])
+             + (f"<i>{E(rc['more'].format(n=len(t['flips']) - n))}</i>" if len(t["flips"]) > n else "") + "</div>") if t["flips"] else ""
+    lines = (row(rc["sold"], and_list(t["gave"])) + row(rc["received"], and_list(t["got"])) + flips
              + row(rc["them"].format(team=t["winner"]), f"{t['their_starts']}, {score(t['their_points'])}")
-             + row(rc["us"], f"{t['our_starts']}, {score(t['our_points'])}")
+             + row(rc["us_flips"] if t["flips"] else rc["us"], score(round(t["our_points"], 1)))
              + (row(rc["titles"].format(team=t["winner"]), ", ".join(map(str, t["titles"]))) if t["titles"] else ""))
     return (f"<h2>{E(tr['heading'])}</h2><div class='receipt'><div class='receipt-head'>{E(rc['head'])}<br>{E(t['date'])}"
             f"<br>{E(team)} to {E(t['winner'])}</div>{lines}<p class='receipt-total'><span>{E(rc['gap'])}</span>"
             f"<b>{score(t['gap'])} pts</b></p><p class='receipt-quip'>{E(t['quip'])}</p>"
             f"<div class='receipt-foot'>{E(rc['foot'])}</div></div>")
+
+
+def family_tree(team):
+    """The team's biggest trade tree, for its franchise page, or "" if it never grew one by eggs.json's
+    min_grew: the trade at the root, then every trade it led to, in order."""
+    sw = config()["spiderweb"]
+    w = next((w for w in spiderwebs() if w["team"] == team), None)
+    if not w:
+        return ""
+    n = sw["flips_shown"]
+    steps = "".join(f"<li>{E(x)}</li>" for x in w["flips"][:n]) + (
+        f"<li>{E(sw['more'].format(n=len(w['flips']) - n))}</li>" if len(w["flips"]) > n else "")
+    title = f" {E(sw['title_line'].format(years=', '.join(map(str, w['titles']))))}" if w["titles"] else ""
+    return (f"<h2>{E(sw['heading'])}</h2><div class='ttree'><p class='ttree-root'>{E(w['date'][:4])}: "
+            f"{E(and_list(w['got']))} from {E(w['from'])}</p><ul>{steps}</ul>"
+            f"<p class='ttree-sum'>{E(sw['sum'].format(direct=score(w['direct']), points=score(round(w['points'], 1))))}{title}</p>"
+            f"<p class='ttree-quip'>{E(w['quip'])}</p></div>")
 
 
 def build(dist):
@@ -1067,6 +1126,13 @@ def build(dist):
             anchor = "<h2>The ones that got away</h2>"
             html = html.replace(anchor, receipt(t) + anchor, 1) if anchor in html else html.replace("</main>", receipt(t) + "</main>", 1)
             open(p, "w").write(html)
+    # every franchise that grew a big enough trade tree: the tree, before the trade it would take back
+    for w in spiderwebs():
+        p = f"{dist}/franchises/{slug(w['team'])}.html"
+        if os.path.exists(p):
+            html = open(p).read()
+            anchor = next((a for a in (f"<h2>{E(config()['trade_regret']['heading'])}</h2>", "<h2>The ones that got away</h2>") if a in html), "</main>")
+            open(p, "w").write(html.replace(anchor, family_tree(w["team"]) + anchor, 1))
     # the antlers go on last, over every finished page
     n = 0
     for root, _, files in os.walk(dist):
