@@ -548,5 +548,53 @@
   ],
   "by": "Pinned by the {rival}",
   "hint": "From head to head and the playoff brackets"
+ },
+ "departures": {
+  "team": "Ho Train",
+  "what": "On Ho Train's franchise page, a station departure board under the title for good: from the playoff brackets, every title (arrived) and every season it went out in its first playoff game as the #1 seed (cancelled, and by whom), then its playoff record against the team it has the worst playoff record against. eggs.departures().",
+  "heading": "DEPARTURES",
+  "cols": [
+   "Year",
+   "Destination",
+   "Status"
+  ],
+  "title": "Title",
+  "top_seed": "Title, #1 seed",
+  "arrived": "ARRIVED",
+  "cancelled": "CANCELLED",
+  "by": "by the {seed}-seed {opp}",
+  "line": "{rival} line: {w}-{l} in the playoffs since {since}. Service suspended.",
+  "hint": "From the playoff brackets"
+ },
+ "complaint": {
+  "team": "Ho Train",
+  "after_ms": 8600,
+  "seconds": 18,
+  "what": "On Ho Train's franchise page, once the engine has gone, a letter of complaint to the commissioner slides up and is stamped RECEIVED. Its points come from the record: the team Ho Train has the worst head-to-head record against and the playoff meetings, its schedule luck, its draft hit rate's rank and the points scored against it. eggs.complaint(), shown by site/assets/clip.js.",
+  "form": "Formal complaint, form 1 of many",
+  "to": "The Commissioner",
+  "re": "Everything",
+  "items": [
+   "The {rival}. {w}-{l} against them all time, {pw}-{pl} in the playoffs. Investigate.",
+   "My luck: {luck} wins in {seasons} seasons ({wins} won, {expected} deserved). Every one earned. Nobody says thank you.",
+   "I am {hit_rank} drafter in this league ({hit}% of picks became starters). Nobody mentions it.",
+   "Points scored against me: the {pa_rank} most in the league. Everyone saves their best week for me."
+  ],
+  "sign": "Not regards, {team}",
+  "ps": "P.S. Get off my tracks.",
+  "stamp": "RECEIVED"
+ },
+ "autumn_tape": {
+  "after_ms": 17500,
+  "seconds": 18,
+  "what": "On the Iron City Pounders' franchise page, once the Autumn Bowl program has gone, the VHS tape of the game: a TV rewinds it and plays it again, with the tape's label and a note setting the times it has been watched against the team's trades since 2000 (from the activity table). eggs.autumn_tape(), shown by site/assets/clip.js.",
+  "clock": "0:00:00",
+  "label": "AUTUMN BOWL. DO NOT TAPE OVER.",
+  "label_sub": "Recorded off Channel 11. Tracking: adjust by hand.",
+  "notes": [
+   "Rewound again.",
+   "Times this tape has been watched: more than the {team}' {trades} trades since {first}.",
+   "Ask about the goal-line stand. Actually, don't. It is coming either way."
+  ]
  }
 }

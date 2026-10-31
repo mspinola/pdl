@@ -818,6 +818,73 @@ def released():
             f"<p class='released-then'>{E(rc['then'].format(**facts))}</p></div></aside></template>")
 
 
+def departures():
+    """Ho Train's departure board, on its page for good: from the playoff brackets, every title
+    (arrived) and every season it went out in its first game as the #1 seed (cancelled, and by
+    whom), then the line to its worst playoff opponent."""
+    db = config()["departures"]
+    me = db["team"]
+    games = playoff_games(me)
+    rows = [(s, db["title"], db["arrived"], "") for s, t in d.champions().items() if t == me]
+    for s in sorted({g["season"] for g in games}):
+        first = next(g for g in games if g["season"] == s)
+        if first["seed"] == 1 and not first["won"]:
+            rows.append((s, db["top_seed"], db["cancelled"], db["by"].format(opp=first["opp"], seed=first["opp_seed"])))
+    rival = min({g["opp"] for g in games}, key=lambda t: sum(g["won"] for g in games if g["opp"] == t)
+                - sum(not g["won"] for g in games if g["opp"] == t))
+    meet = [g for g in games if g["opp"] == rival]
+    won = sum(g["won"] for g in meet)
+    body = "".join(f"<tr><td>{s}</td><td>{E(dest)}</td><td class='dep-{'ok' if st == db['arrived'] else 'no'}'>{E(st)}"
+                   f"{'<small>' + E(note) + '</small>' if note else ''}</td></tr>" for s, dest, st, note in sorted(rows))
+    foot = db["line"].format(rival=rival, w=won, l=len(meet) - won, since=min(g["season"] for g in meet))
+    return (f"<div class='departures' title='{E(db['hint'])}'><p class='dep-head'><span>{E(db['heading'])}</span>"
+            f"<span>{E(me.upper())}</span></p><table><thead><tr><th>{E(db['cols'][0])}</th><th>{E(db['cols'][1])}</th>"
+            f"<th>{E(db['cols'][2])}</th></tr></thead><tbody>{body}</tbody></table><p class='dep-foot'>{E(foot)}</p></div>")
+
+
+def complaint():
+    """Ho Train's letter of complaint to the commissioner, a <template> for assets/clip.js: its
+    worst head-to-head series and playoff record against that team, its schedule luck, its draft
+    hit rate's rank and the points scored against it, all from the record."""
+    c = config()["complaint"]
+    me = c["team"]
+    h = d.head_to_head()[me]
+    rival = min(h, key=lambda t: h[t]["w"] - h[t]["l"])
+    meet = [g for g in playoff_games(me) if g["opp"] == rival]
+    won = sum(g["won"] for g in meet)
+    luck = d.by_owner("luck_owners.csv")[me]
+    hit = d.by_owner("draft_owners.csv")
+    pa = d.by_owner("team_records.csv")
+    facts = {"rival": rival, "w": h[rival]["w"], "l": h[rival]["l"], "pw": won, "pl": len(meet) - won,
+             "luck": f"{float(luck['luck']):+.1f}", "wins": luck["wins"].removesuffix(".0") if luck["wins"].endswith(".0") else luck["wins"],
+             "expected": luck["expected_wins"], "seasons": luck["seasons"], "hit": hit[me]["hit_rate"],
+             "hit_rank": (lambda n: "the best" if n == 1 else f"the {ordinal(n)}-best")(sorted(hit, key=lambda t: -float(hit[t]["hit_rate"])).index(me) + 1),
+             "pa_rank": ordinal(sorted(pa, key=lambda t: -float(pa[t]["points_against_index"])).index(me) + 1)}
+    items = "".join(f"<li>{E(line.format(**facts))}</li>" for line in c["items"])
+    return (f"<template id='pdl-complaint'><aside class='complaint' title='Click to close'><p class='complaint-head'>{E(c['form'])}</p>"
+            f"<p><b>To:</b> {E(c['to'])}<br><b>From:</b> {E(me)}<br><b>Re:</b> {E(c['re'])}</p><ol>{items}</ol>"
+            f"<p class='complaint-sign'>{E(c['sign'].format(team=me))}</p><p class='complaint-ps'>{E(c['ps'])}</p>"
+            f"<span class='complaint-stamp'>{E(c['stamp'])}</span></aside></template>")
+
+
+def autumn_tape():
+    """The Iron City Pounders' tape of the Autumn Bowl, a <template> for assets/clip.js: a TV
+    rewinding then playing it, the tape's label, and its trades since 2000 from the activity table
+    for the times the tape has been watched to beat."""
+    t = config()["autumn_tape"]
+    ic = config()["iron_city"]
+    b = ic["program"]
+    oa = d.by_owner("owner_activity.csv")[ic["team"]]
+    facts = {"trades": oa["trades"], "first": oa["first_season"], "team": ic["team"]}
+    notes = "".join(f"<p>{E(line.format(**facts))}</p>" for line in t["notes"])
+    return (f"<template id='pdl-autumn-tape'><aside class='atape' title='Click to close'><div class='atape-tv'><div class='atape-screen'>"
+            f"<span class='atape-osd atape-rew'>&#9664;&#9664; REW</span><span class='atape-osd atape-play'>PLAY &#9654;</span>"
+            f"<span class='atape-clock'>{E(t['clock'])}</span><p class='atape-title'>{E(b['title'])}</p>"
+            f"<p class='atape-vs'>{E(b['home'])}<br>vs.<br>{E(b['away'])}</p><i class='atape-track'></i></div></div>"
+            f"<div class='atape-label'><b>{E(t['label'])}</b><small>{E(t['label_sub'])}</small></div>"
+            f"<div class='atape-notes'>{notes}</div></aside></template>")
+
+
 def build(dist):
     with open(f"{dist}/404.html", "w") as f:
         f.write(not_found())
@@ -918,6 +985,17 @@ def build(dist):
     if os.path.exists(p):
         html = open(p).read().replace("</h1>", "</h1>" + fact_check(), 1)
         open(p, "w").write(html)
+    # Ho Train: the departure board for good, and once the engine has gone, the letter of complaint
+    cp = config()["complaint"]
+    arrive(dist, cp["team"], f"setTimeout(() => pdlCard('pdl-complaint', {cp['seconds']}), {cp['after_ms']})", ["clip.js"], complaint())
+    p = f"{dist}/franchises/{slug(config()['departures']['team'])}.html"
+    if os.path.exists(p):
+        html = open(p).read().replace("</h1>", "</h1>" + departures(), 1)
+        open(p, "w").write(html)
+    # the Iron City Pounders: once the program has gone, the tape of the game, rewound again
+    at = config()["autumn_tape"]
+    arrive(dist, config()["iron_city"]["team"], f"setTimeout(() => pdlCard('pdl-autumn-tape', {at['seconds']}), {at['after_ms']})",
+           ["clip.js"], autumn_tape())
     # the antlers go on last, over every finished page
     n = 0
     for root, _, files in os.walk(dist):
