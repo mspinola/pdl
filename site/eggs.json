@@ -47,12 +47,6 @@
    "what": "A bearded man studies his pint. Made from a GIF the commissioner supplied in 2026."
   },
   {
-   "team": "Otters",
-   "clip": "otters",
-   "seconds": 6,
-   "what": "A raft of sea otters, every one wearing a moustache. Made from a GIF the commissioner supplied in 2026."
-  },
-  {
    "team": "OakalDoakals",
    "clip": "Travis Henry's halfback pass",
    "youtube": "NSZ7Q6kIyzQ",
@@ -503,5 +497,56 @@
   "key": "Circled: Steelers. Crossed out: first-rounders with one start or fewer.",
   "pit_note": "Here we go.",
   "foot": "Steelers: {pit}% of the team's roster spots since 2003, {pit_rank} in the league."
+ },
+ "otter": {
+  "team": "Otters",
+  "after_ms": 600,
+  "label": "Waiver adds",
+  "what": "On the Otters' franchise page, an otter floats on its back across the bottom of the screen with a waiver claim on its belly, under a bubble counting up its waiver adds (and saying so if no team has made more), its draft hit rate's rank from the bottom and its top-3 finishes in points (finished seasons). eggs.otter(), shown by site/assets/otter.js. It replaced the moustached-otters clip, a first attempt.",
+  "record": "The most in league history.",
+  "lines": [
+   "Draft hit rate: {hit}%, the {hit_rank} worst.",
+   "Top 3 in points anyway: {top3} seasons{top3_note}."
+  ]
+ },
+ "released": {
+  "team": "Otters",
+  "after_ms": 1500,
+  "seconds": 12,
+  "what": "On the Otters' franchise page, a transaction notice slides in at the top right: the player they dropped who scored the most for other teams afterwards, from the got-away table, stamped RELEASED. eggs.released(), shown by site/assets/clip.js.",
+  "head": "Transaction",
+  "what_line": "{season}, week {week}: {team} release {player}.",
+  "then": "Then: {starts} starts and {points} points for {teams}."
+ },
+ "vhs": {
+  "team": "Otters",
+  "after_ms": 15500,
+  "seconds": 20,
+  "what": "On the Otters' franchise page, once the otter has floated off, a VHS tape slides up: their December highlights, from the playoff record. The lowest score in a final they lost, the costliest playoff benching, the closest playoff loss (and whether the winner took the title) and the most points given up in one. The label counts the titles, not shown. eggs.vhs(), shown by site/assets/clip.js.",
+  "title": "{team}: DECEMBER HIGHLIGHTS",
+  "footer": "{n} titles ({years}) not shown",
+  "stamps": [
+   "00:00",
+   "03:12",
+   "07:45",
+   "11:20"
+  ],
+  "final": "{season} final: {me} points. {opp} {them}.",
+  "bench": "{season}: lost to {opp} by {by}, with {bench} points on the bench.",
+  "close": "{season}: {seed}, lost to {opp} by {by}.",
+  "close_champ": " {opp} went on to win the title.",
+  "allowed": "{season}: gave up {them} to {opp}."
+ },
+ "fact_check": {
+  "team": "Otters",
+  "rival": "Karpet Munchers",
+  "what": "On the Otters' franchise page, a fact-check sticky note under the title for good: their all-time series with the Karpet Munchers, whom they like to mock, and the playoff meetings, which the Munchers lead. eggs.fact_check().",
+  "title": "FACT CHECK",
+  "lines": [
+   "{team} vs. {rival}, all time: {w}-{l}.",
+   "In the playoffs: {rival} {pl}, {team} {pw}."
+  ],
+  "by": "Pinned by the {rival}",
+  "hint": "From head to head and the playoff brackets"
  }
 }

@@ -784,3 +784,78 @@ html.y2k .y2k-h { margin: 16px 0 8px; color: #ff0000; font: 700 2rem/1.2 "Comic 
   .board-panel { position: static; grid-area: auto; animation: none; }
   .board-panel + .board-panel { margin-top: 10px; } }
 @media print { .towels, .fchat, .bubbly, .board, .dboard { display: none; } }
+
+/* the Otters' otter (eggs.otter, site/assets/otter.js): floats on its back across the bottom, bobbing */
+.otter { position: fixed; left: 0; bottom: 6px; z-index: 50; width: 240px; cursor: pointer;
+  animation: otter-float 15s linear forwards; }
+.otter-art { display: block; width: 220px; height: 90px; animation: otter-bob 1.6s ease-in-out infinite alternate; }
+@keyframes otter-float { 0% { transform: translateX(-260px); } 92% { opacity: 1; } 100% { transform: translateX(calc(100vw + 20px)); opacity: 0; } }
+@keyframes otter-bob { from { transform: translateY(0) rotate(-1.5deg); } to { transform: translateY(4px) rotate(1.5deg); } }
+.otter-bubble { position: relative; width: 220px; margin-bottom: 6px; padding: 8px 11px; color: #1d1d1d; background: #ffffff;
+  border-radius: 10px; box-shadow: 0 8px 22px rgba(0, 0, 0, .4); font: 12.5px/1.35 var(--sans); }
+.otter-bubble::after { content: ""; position: absolute; left: 46px; bottom: -7px; border: 7px solid transparent;
+  border-bottom: 0; border-top-color: #ffffff; }
+.otter-bubble p { margin: 0 0 3px; }
+.otter-count { color: #1d5f8a; font-weight: 700; }
+.otter-count b { font-size: 17px; }
+.otter-calm { animation: none; }
+.otter-calm .otter-art { animation: none; }
+@media print { .otter { display: none; } }
+
+/* the Otters' costliest drop (eggs.released): a transaction notice, top right, with a stamp */
+.released { position: fixed; top: 64px; right: 16px; z-index: 50; width: min(calc(100vw - 32px), 300px); cursor: pointer;
+  overflow: hidden; color: #1d1d1d; background: #ffffff; border-radius: 8px; box-shadow: 0 10px 30px rgba(0, 0, 0, .45);
+  font: 13px/1.4 var(--sans); transform: translateX(calc(100% + 24px)); transition: transform .5s cubic-bezier(.2, 1.1, .4, 1); }
+.released.up { transform: none; }
+.released-head { padding: 6px 12px; color: #555555; background: #eef1f4; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+.released-body { position: relative; padding: 10px 12px 12px; }
+.released-body p { margin: 0 0 6px; }
+.released-then { opacity: 0; animation: grade-in .4s ease-out 2.6s forwards; }
+.released-stamp { display: inline-block; margin: 0 0 8px 4px; padding: 1px 7px; color: #c0281c; border: 3px solid #c0281c;
+  font: 800 15px/1.2 var(--sans); letter-spacing: .1em; opacity: 0; transform: rotate(-12deg) scale(2.2);
+  animation: grade-stamp .25s ease-in 1.8s forwards; }
+
+/* the Otters' highlights tape (eggs.vhs): a cassette with turning reels, then the chapters */
+.vhs { position: fixed; right: 16px; bottom: 16px; z-index: 50; width: min(calc(100vw - 32px), 330px); cursor: pointer;
+  overflow: hidden; color: #eeeeee; background: #1b1b1b; border-radius: 6px; box-shadow: 0 10px 30px rgba(0, 0, 0, .55);
+  font: 12.5px/1.4 var(--sans); transform: translateY(130%); transition: transform .7s cubic-bezier(.2, 1.3, .4, 1); }
+.vhs.up { transform: none; }
+.vhs-shell { position: relative; margin: 10px; padding: 22px 10px 8px; background: #111111; border: 2px solid #2c2c2c; border-radius: 4px; }
+.vhs-rec { position: absolute; top: 6px; right: 8px; color: #ff3b30; font: 700 11px/1 "Courier New", monospace; animation: vhs-blink 1s steps(1) infinite; }
+.vhs-rec::before { content: "\25CF  "; }
+@keyframes vhs-blink { 50% { opacity: 0; } }
+.vhs-label { padding: 6px 8px; color: #1d1d1d; background: #fbf8ee; border-top: 4px solid #c0281c; border-radius: 2px; }
+.vhs-label b { display: block; font: 15px/1.25 "Marker Felt", "Segoe Print", "Comic Sans MS", cursive; }
+.vhs-label small { color: #666666; }
+.vhs-reels { display: flex; justify-content: center; gap: 44px; margin-top: 8px; }
+.vhs-reels i { width: 34px; height: 34px; border: 6px dotted #8a8a8a; border-radius: 50%; animation: vhs-spin 2s linear infinite; }
+@keyframes vhs-spin { to { transform: rotate(360deg); } }
+.vhs-list { margin: 0; padding: 4px 14px 12px 14px; list-style: none; }
+.vhs-list li { margin: 5px 0; }
+.vhs-list span { display: inline-block; min-width: 46px; color: #ffcc33; font: 700 12px/1.4 "Courier New", monospace; }
+
+/* the Otters' fact check (eggs.fact_check), on their page for good: a sticky note */
+.sticky-fc { max-width: 300px; margin: 6px 0 22px; padding: 10px 12px 8px; color: #2b2410; background: #fff38a;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, .25); transform: rotate(-1.5deg);
+  font: 14px/1.35 "Marker Felt", "Segoe Print", "Comic Sans MS", cursive; }
+.sticky-fc b { display: block; color: #c0281c; letter-spacing: .1em; }
+.sticky-fc p { margin: 3px 0 0; }
+.sticky-fc i { display: block; margin-top: 6px; font-size: 12px; font-style: normal; text-align: right; }
+
+@media (prefers-reduced-motion: reduce) {
+  .released, .released.up, .vhs, .vhs.up { transition: none; transform: none; }
+  .released-then, .released-stamp { opacity: 1; animation: none; }
+  .released-stamp { transform: rotate(-12deg); }
+  .vhs-rec, .vhs-reels i { animation: none; } }
+@media print { .released, .vhs { display: none; } }
+
+/* the wall of shame (shame_page.py): a card a record, in the page's own tokens */
+.shame-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); gap: 14px; margin: 0 0 1.6rem; }
+.shame-card { padding: 12px 14px; background: var(--surface); border: 1px solid var(--rule); border-left: 4px solid var(--accent-2);
+  border-radius: 6px; font: .9rem/1.45 var(--sans); }
+.shame-card p { margin: 0 0 6px; }
+.shame-card h3 { margin: 0 0 4px; color: var(--ink-2); font: 700 .78rem/1.3 var(--sans); letter-spacing: .08em; text-transform: uppercase; }
+.shame-num { color: var(--accent-2); font: 700 1.9rem/1.1 var(--serif); }
+.shame-who { font-weight: 650; }
+.shame-detail { color: var(--ink-2); }
+.shame-quip { margin-bottom: 0; color: var(--ink-3); font-style: italic; }

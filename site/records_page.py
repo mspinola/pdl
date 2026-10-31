@@ -184,7 +184,7 @@ def build(dist):
             "season and the championship playoffs, not the toilet bowl. Points records are split at 2018, when the rule "
             "changes raised scoring by about half. The season in progress is left out of season and franchise records.</p>"
             "<nav class='pn'><a href='#years'>Year by year</a><a href='#games'>Games</a><a href='#seasons'>Seasons</a>"
-            "<a href='#streaks'>Streaks</a><a href='#franchises'>Franchises</a><a href='#lineups'>Lineups</a></nav>"
+            "<a href='#streaks'>Streaks</a><a href='#franchises'>Franchises</a><a href='#lineups'>Lineups</a><a href='shame.html'>Wall of shame</a></nav>"
             f"<h2 id='years'>Year by year</h2>{year_by_year(games)}"
             f"<h2 id='games'>Single games</h2>{single_games(games)}"
             f"<h2 id='seasons'>Seasons</h2>{seasons_records()}"

@@ -29,6 +29,7 @@ import h2h_pages
 import trades_pages
 import drafts_pages
 import records_page
+import shame_page
 import analysis_pages
 import eggs
 import banner
@@ -340,7 +341,7 @@ def main():
         f.write(render_changes(seasons))
     n_seasons = seasons_pages.build(DIST)
     n_franchises = franchise_pages.build(DIST)
-    n_other = sum(m.build(DIST) for m in (h2h_pages, trades_pages, drafts_pages, records_page, analysis_pages))
+    n_other = sum(m.build(DIST) for m in (h2h_pages, trades_pages, drafts_pages, records_page, shame_page, analysis_pages))
     with open(f"{DIST}/index.html", "w") as f:
         f.write(page("Premier Dynasty League",
                      home(), depth=0, description="The Premier Dynasty League."))

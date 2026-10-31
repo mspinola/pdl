@@ -731,6 +731,93 @@ def steeler_board():
             f"<p class='dboard-foot'>{E(sb['foot'].format(**facts))}</p></aside></template>")
 
 
+def otter():
+    """The Otters' otter's figures, for assets/otter.js: its waiver adds (and whether anyone has
+    made more), its draft hit rate's rank from the bottom and its top-3 finishes in points."""
+    o = config()["otter"]
+    me = o["team"]
+    adds = d.by_owner("transaction_owners.csv")
+    hit = d.by_owner("draft_owners.csv")
+    top3 = {}
+    for s in d.seasons():
+        if s not in d.champions():
+            continue
+        for r in sorted(d.standings(s), key=lambda r: -r["pf"])[:3]:
+            top3[r["team"]] = top3.get(r["team"], 0) + 1
+    most = max(top3.values())
+    facts = {"hit": hit[me]["hit_rate"], "hit_rank": ordinal(sorted(hit, key=lambda t: float(hit[t]["hit_rate"])).index(me) + 1),
+             "top3": top3[me], "top3_note": (", the most" if sum(n == most for n in top3.values()) == 1 else ", tied for the most")
+             if top3[me] == most else ""}
+    record = int(adds[me]["adds"]) == max(int(r["adds"]) for r in adds.values())
+    return {"count": int(adds[me]["adds"]), "label": o["label"],
+            "lines": ([o["record"]] if record else []) + [line.format(**facts) for line in o["lines"]]}
+
+
+def vhs():
+    """The Otters' December highlights tape, a <template> for assets/clip.js: from the playoff
+    record, its lowest score in a lost final, its costliest playoff benching, its closest playoff
+    loss (and whether the winner took the title) and the most points it gave up in one."""
+    v = config()["vhs"]
+    me = v["team"]
+    games = playoff_games(me)
+    lost = [g for g in games if not g["won"]]
+    chapters = []
+    finals = [(d.final(s), s) for s in d.seasons() if d.final(s) and me in (d.final(s)["team_a"], d.final(s)["team_b"])
+              and d.champions().get(s) != me]
+    if finals:
+        f, s = min(finals, key=lambda x: x[0]["score_a"] if x[0]["team_a"] == me else x[0]["score_b"])
+        a = f["team_a"] == me
+        chapters.append(v["final"].format(season=s, me=score(f["score_a"] if a else f["score_b"]),
+                                          opp=f["team_b"] if a else f["team_a"], them=score(f["score_b"] if a else f["score_a"])))
+    bench = [r for r in d.lineup_losses() if r["team"] == me and r["stage"] == "playoffs"]
+    if bench:
+        r = max(bench, key=lambda r: float(r["best_lineup_margin"]))
+        chapters.append(v["bench"].format(season=r["season"], bench=score(round(float(r["best_possible"]) - float(r["score"]), 1)),
+                                          by=score(round(float(r["opponent_score"]) - float(r["score"]), 1)), opp=r["opponent"]))
+    g = min(lost, key=lambda g: g["them"] - g["me"])
+    chapters.append(v["close"].format(season=g["season"], by=score(round(g["them"] - g["me"], 1)), opp=g["opp"],
+                                      seed=f"the #{g['seed']} seed" if g["seed"] else "a playoff team")
+                    + (v["close_champ"].format(opp=g["opp"]) if d.champions().get(g["season"]) == g["opp"] else ""))
+    g = max(lost, key=lambda g: g["them"])
+    chapters.append(v["allowed"].format(season=g["season"], them=score(g["them"]), opp=g["opp"]))
+    titles = sorted(s for s, t in d.champions().items() if t == me)
+    reel = "".join(f"<li><span>{E(stamp)}</span>{E(c)}</li>" for stamp, c in zip(v["stamps"], chapters))
+    return (f"<template id='pdl-vhs'><aside class='vhs' title='Click to close'><div class='vhs-shell'>"
+            f"<span class='vhs-rec'>REC</span><div class='vhs-label'><b>{E(v['title'].format(team=me.upper()))}</b>"
+            f"<small>{E(v['footer'].format(n=len(titles), years=', '.join(map(str, titles))))}</small></div>"
+            f"<div class='vhs-reels'><i></i><i></i></div></div><ol class='vhs-list'>{reel}</ol></aside></template>")
+
+
+def fact_check():
+    """A fact-check sticky on the Otters' page, for good: their all-time series with the Karpet
+    Munchers, whom they like to mock, and the playoff meetings, which the Munchers lead."""
+    fc = config()["fact_check"]
+    me, them = fc["team"], fc["rival"]
+    h = d.head_to_head()[me][them]
+    meet = [g for g in playoff_games(me) if g["opp"] == them]
+    won = sum(g["won"] for g in meet)
+    facts = {"team": me, "rival": them, "w": h["w"], "l": h["l"], "pw": won, "pl": len(meet) - won}
+    lines = "".join(f"<p>{E(line.format(**facts))}</p>" for line in fc["lines"])
+    return f"<div class='sticky-fc' title='{E(fc['hint'])}'><b>{E(fc['title'])}</b>{lines}<i>{E(fc['by'].format(**facts))}</i></div>"
+
+
+def released():
+    """The Otters' costliest drop, a <template> for assets/clip.js: the player they let go who
+    scored most for other teams afterwards, from the got-away table."""
+    rc = config()["released"]
+    me = rc["team"]
+    r = max((r for r in d.got_away() if r["dropped_by"] == me), key=lambda r: float(r["points_elsewhere"]))
+    last, _, first = r["player"].partition(", ")
+    who = f"{first} {last}" + (" defense" if r["position"] == "Def" else "")
+    teams = r["started_for"].split("; ")
+    facts = {"team": me, "season": r["season"], "week": r["week"], "player": who, "starts": r["starts_elsewhere"],
+             "points": score(float(r["points_elsewhere"])),
+             "teams": teams[0] if len(teams) == 1 else ", ".join(teams[:-1]) + " and " + teams[-1]}
+    return (f"<template id='pdl-released'><aside class='released' title='Click to close'><div class='released-head'>{E(rc['head'])}</div>"
+            f"<div class='released-body'><p>{E(rc['what_line'].format(**facts))}</p><span class='released-stamp'>RELEASED</span>"
+            f"<p class='released-then'>{E(rc['then'].format(**facts))}</p></div></aside></template>")
+
+
 def build(dist):
     with open(f"{dist}/404.html", "w") as f:
         f.write(not_found())
@@ -820,6 +907,16 @@ def build(dist):
     p = f"{dist}/franchises/{slug(config()['giant_killer']['team'])}.html"
     if os.path.exists(p):
         html = open(p).read().replace("</h1>", "</h1>" + giant_killer(), 1)
+        open(p, "w").write(html)
+    # the Otters: the otter on the water and its costliest drop, then the highlights tape, and the fact check for good
+    ot, rl, vh = config()["otter"], config()["released"], config()["vhs"]
+    arrive(dist, ot["team"], f"setTimeout(() => pdlOtter({json.dumps(otter())}), {ot['after_ms']}); "
+                             f"setTimeout(() => pdlCard('pdl-released', {rl['seconds']}), {rl['after_ms']}); "
+                             f"setTimeout(() => pdlCard('pdl-vhs', {vh['seconds']}), {vh['after_ms']})",
+           ["clip.js", "otter.js"], released() + vhs())
+    p = f"{dist}/franchises/{slug(config()['fact_check']['team'])}.html"
+    if os.path.exists(p):
+        html = open(p).read().replace("</h1>", "</h1>" + fact_check(), 1)
         open(p, "w").write(html)
     # the antlers go on last, over every finished page
     n = 0
