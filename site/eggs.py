@@ -885,6 +885,69 @@ def autumn_tape():
             f"<div class='atape-notes'>{notes}</div></aside></template>")
 
 
+@lru_cache(maxsize=None)
+def player_names():
+    return {k: v["name"] for k, v in json.load(open(f"{os.path.dirname(SITE)}/player_index.json")).items()}
+
+
+def trade_assets(players, picks):
+    """A side's players as "First Last", and its picks as "2018 1st-round pick (Golden Tate)"."""
+    out = [f"{f} {l}" for l, _, f in (p.partition(", ") for p in players.split("; ") if p)]
+    for p in (p for p in picks.split("; ") if p):
+        label, pid = p.split("=")
+        y, r, _ = label.split()
+        l, _, f = player_names().get(pid, "").partition(", ")
+        out.append(f"a {y} {ordinal(int(r[1:]))}-round pick ({f} {l})")
+    return out
+
+
+@lru_cache(maxsize=None)
+def bad_trades():
+    """Every scored trade from the side that lost it, worst first (src/trade_value.py). A trade with a
+    pick not yet made, or flipped before the draft, is left out: half its story is another trade."""
+    tr = config()["trade_regret"]
+    out = []
+    for r in d.trade_value():
+        if any(r[f"{s}_got_{k}"] != "0" for s in "ab" for k in ("pending", "flipped")):
+            continue
+        for me, them in (("a", "b"), ("b", "a")):
+            gap = float(r[f"{them}_got_points"]) - float(r[f"{me}_got_points"])
+            if gap <= 0:
+                continue
+            loser, winner = r[f"team_{me}"], r[f"team_{them}"]
+            out.append({"season": int(r["season"]), "date": r["date"], "loser": loser, "winner": winner, "gap": round(gap, 1),
+                        "gave": trade_assets(r[f"{them}_got_players"], r[f"{them}_got_picks"]),
+                        "got": trade_assets(r[f"{me}_got_players"], r[f"{me}_got_picks"]),
+                        "their_starts": int(r[f"{them}_got_starts"]), "their_points": float(r[f"{them}_got_points"]),
+                        "our_starts": int(r[f"{me}_got_starts"]), "our_points": float(r[f"{me}_got_points"]),
+                        "titles": [int(y) for y in r[f"{them}_got_titles"].split("; ") if y],
+                        "quip": tr["quips"].get(f"{r['date']} {loser}", tr["fallback"])})
+    return sorted(out, key=lambda t: -t["gap"])
+
+
+def and_list(xs):
+    return xs[0] if len(xs) == 1 else ", ".join(xs[:-1]) + " and " + xs[-1]
+
+
+def receipt(team):
+    """The team's worst trade as a store receipt, for its franchise page, or "" if it never lost one by
+    eggs.json's min_gap."""
+    tr = config()["trade_regret"]
+    t = next((t for t in bad_trades() if t["loser"] == team), None)
+    if not t or t["gap"] < tr["min_gap"]:
+        return ""
+    rc = tr["receipt"]
+    row = lambda k, v: f"<p><span>{E(k)}</span><b>{E(v)}</b></p>"
+    lines = (row(rc["sold"], and_list(t["gave"])) + row(rc["received"], and_list(t["got"]))
+             + row(rc["them"].format(team=t["winner"]), f"{t['their_starts']}, {score(t['their_points'])}")
+             + row(rc["us"], f"{t['our_starts']}, {score(t['our_points'])}")
+             + (row(rc["titles"].format(team=t["winner"]), ", ".join(map(str, t["titles"]))) if t["titles"] else ""))
+    return (f"<h2>{E(tr['heading'])}</h2><div class='receipt'><div class='receipt-head'>{E(rc['head'])}<br>{E(t['date'])}"
+            f"<br>{E(team)} to {E(t['winner'])}</div>{lines}<p class='receipt-total'><span>{E(rc['gap'])}</span>"
+            f"<b>{score(t['gap'])} pts</b></p><p class='receipt-quip'>{E(t['quip'])}</p>"
+            f"<div class='receipt-foot'>{E(rc['foot'])}</div></div>")
+
+
 def build(dist):
     with open(f"{dist}/404.html", "w") as f:
         f.write(not_found())
@@ -996,6 +1059,14 @@ def build(dist):
     at = config()["autumn_tape"]
     arrive(dist, config()["iron_city"]["team"], f"setTimeout(() => pdlCard('pdl-autumn-tape', {at['seconds']}), {at['after_ms']})",
            ["clip.js"], autumn_tape())
+    # every franchise that lost a trade badly enough: the receipt, before the ones that got away
+    for t in {t["loser"] for t in bad_trades()}:
+        p = f"{dist}/franchises/{slug(t)}.html"
+        if os.path.exists(p) and receipt(t):
+            html = open(p).read()
+            anchor = "<h2>The ones that got away</h2>"
+            html = html.replace(anchor, receipt(t) + anchor, 1) if anchor in html else html.replace("</main>", receipt(t) + "</main>", 1)
+            open(p, "w").write(html)
     # the antlers go on last, over every finished page
     n = 0
     for root, _, files in os.walk(dist):

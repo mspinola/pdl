@@ -596,5 +596,40 @@
    "Times this tape has been watched: more than the {team}' {trades} trades since {first}.",
    "Ask about the goal-line stand. Actually, don't. It is coming either way."
   ]
+ },
+ "trade_regret": {
+  "what": "The worst trades, from datasets/trade_value.csv: what each side got from what it received, picks scored as the player taken. On the Wall of Shame the worst five, and on each franchise page that lost one by enough, a receipt for its worst, before the ones that got away. The quips are keyed by date and the team that lost. eggs.bad_trades(), eggs.receipt().",
+  "min_gap": 300,
+  "shame_count": 5,
+  "heading": "The trade they'd take back",
+  "fallback": "Both sides agreed it was fair. One of them was right.",
+  "quips": {
+   "2018-10-11 Beers": "In fairness, nobody knew Josh Allen would learn to throw. Except F-Jackie.",
+   "2019-10-17 Manic Moose": "Three players for three players. That is where the resemblance ends.",
+   "2021-07-05 F-Jackie": "Both sides won a title out of it, so nobody complained. The spreadsheet complains.",
+   "2021-10-15 Scooter's Boozers": "A third-round pick is a throwaway. This one started at quarterback for the Munchers.",
+   "2018-01-03 Texas Nashvillians": "Traded Christian McCaffrey for the right to draft Golden Tate. The right was exercised.",
+   "2012-11-22 F-Jackie": "Made on Thanksgiving Day. The turkey was the one holding the phone.",
+   "2018-01-03 Otters": "Travis Kelce for Anthony Miller. Beers sent a thank-you note the next season. It was a trophy.",
+   "2017-09-12 Manic Moose": "Drew Brees, sold for Donte Moncrief. Somewhere a pawn shop is impressed.",
+   "2019-07-19 Iron City Pounders": "Traded down one spot to take a tight end. Kyler Murray did the rest.",
+   "2023-08-09 Manic Moose": "Gave up Mike Evans and Nico Collins, then won the title anyway. Nobody learned anything.",
+   "2017-09-12 OakalDoakals": "Odell Beckham was going to be the best receiver in football. Just not on this roster.",
+   "2022-10-06 Couchfire": "Couchfire got its title anyway. It just took the scenic route.",
+   "2021-08-23 Da Funk": "A quiet trade. Ho Train threw a loud parade with it.",
+   "2016-08-10 Bunchalosers": "Emmanuel Sanders for a fourth-round tight end. The rebuild continues.",
+   "2011-08-14 Karpet Munchers": "Lost the trade on paper. Won two titles with Marshawn Lynch. Paper is overrated.",
+   "2021-11-09 Carter's Commandos": "Gave up Keenan Allen for the pick that became Kenny Pickett. A Steelers fan had no choice."
+  },
+  "receipt": {
+   "head": "PDL TRADE DESK",
+   "sold": "SOLD",
+   "received": "RECEIVED",
+   "them": "Starts, points for {team}",
+   "us": "Starts, points for you",
+   "titles": "Titles it won {team}",
+   "gap": "BALANCE DUE",
+   "foot": "ALL SALES FINAL. NO RETURNS. NO EXCHANGES."
+  }
  }
 }

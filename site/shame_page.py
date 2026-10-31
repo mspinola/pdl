@@ -10,7 +10,7 @@ import os
 
 import league_data as d
 import records_page as R
-from eggs import ordinal, playoff_games
+from eggs import and_list, bad_trades, config, ordinal, playoff_games
 from frame import E, num, page, record
 
 link = R.team_link
@@ -201,7 +201,6 @@ def office_cards():
                     f"Dropped {E(first)} {E(last)} ({ga['position']}), who went on to start {ga['starts_elsewhere']} games for "
                     f"{names(ga['started_for'].split('; '))} and score {num(ga['points_elsewhere'])} points.",
                     "Somebody else's championship, from your waiver wire."))
-    out.append(worst_trade())
     oa = d.by_owner("owner_activity.csv")
     t = min(oa, key=lambda t: int(oa[t]["net_picks"]))
     out.append(card(oa[t]["net_picks"], "Most draft picks traded away", link(t),
@@ -210,29 +209,17 @@ def office_cards():
     return out
 
 
-def first_last(name):
-    last, _, first = name.partition(", ")
-    return f"{E(first)} {E(last)}"
-
-
-def worst_trade():
-    """The biggest gap between what two teams got from a trade, among trades with no draft picks (src/trade_value.py)."""
-    sides = []
-    for r in d.trade_value():
-        if r["a_got_picks"] != "0" or r["b_got_picks"] != "0":
-            continue
-        sides += [(float(r["b_got_points"]) - float(r["a_got_points"]), r, "a", "b"),
-                  (float(r["a_got_points"]) - float(r["b_got_points"]), r, "b", "a")]
-    gap, r, me, them = max(sides, key=lambda s: s[0])
-    gave, got = r[f"{them}_got_players"].split("; "), r[f"{me}_got_players"].split("; ")
-    titles = r[f"{them}_got_titles"].split("; ") if r[f"{them}_got_titles"] else []
-    return card(num(round(gap, 1)), "Worst trade", f"{link(r[f'team_{me}'])} ({season_link(r['season'])})",
-                f"Traded {', '.join(map(first_last, gave))} to {link(r[f'team_{them}'])} for {', '.join(map(first_last, got))}. "
-                f"{link(r[f'team_{them}'])} got {r[f'{them}_got_starts']} starts and {num(r[f'{them}_got_points'])} points out of it"
-                + (f", and a title in {', '.join(map(season_link, titles))}" if titles else "")
-                + f". {link(r[f'team_{me}'])} got {r[f'{me}_got_starts']} starts and {num(r[f'{me}_got_points'])} points, a gap of {num(round(gap, 1))}. "
-                "Trades with draft picks are left out, since a pick is worth whoever gets taken with it.",
-                "Both sides agreed it was fair. One of them was right.")
+def trade_cards():
+    """The worst trades, from eggs.bad_trades(): the points gap between what the two sides got."""
+    out = []
+    for t in bad_trades()[:config()["trade_regret"]["shame_count"]]:
+        won = link(t["winner"])
+        out.append(card(num(t["gap"]), f"Traded {and_list(t['gave'])}", f"{link(t['loser'])} ({season_link(t['season'])})",
+                        f"To {won} for {E(and_list(t['got']))}. {won} got {t['their_starts']} starts and {num(t['their_points'])} "
+                        f"points out of it" + (f", and a title in {', '.join(map(season_link, t['titles']))}" if t["titles"] else "")
+                        + f". {link(t['loser'])} got {t['our_starts']} starts and {num(t['our_points'])} points.",
+                        t["quip"]))
+    return out
 
 
 def grid(cards):
@@ -251,7 +238,10 @@ def build(dist):
             f"<h2>Seasons</h2>{grid(seasons_cards(done))}"
             f"<h2>The playoffs</h2>{grid(playoff_cards(done))}"
             f"<h2>Franchises</h2>{grid(franchise_cards(done))}"
-            f"<h2>The front office</h2>{grid(office_cards())}</div>")
+            f"<h2>The front office</h2>{grid(office_cards())}"
+            "<h2>The worst trades</h2><p class='lede'>The points each side got from what it received, for as long as it kept "
+            "it. A draft pick counts as the player taken with it. Trades with a pick still to be made, or flipped before the "
+            f"draft, are left out.</p>{grid(trade_cards())}</div>")
     with open(f"{dist}/records/shame.html", "w") as f:
         f.write(page("PDL wall of shame", body, description="The PDL records nobody wants, computed from every game since 2000."))
     return 1

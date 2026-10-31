@@ -924,3 +924,16 @@ html.y2k .y2k-h { margin: 16px 0 8px; color: #ff0000; font: 700 2rem/1.2 "Comic 
   .atape-rew { display: none; }
   .atape-play, .atape-title, .atape-vs { opacity: 1; animation: none; } }
 @media print { .complaint, .atape { display: none; } }
+
+/* the trade they'd take back: a store receipt on the franchise page (eggs.receipt) */
+.receipt { max-width: 340px; margin: 8px 0 26px; padding: 16px 18px 12px; color: #222; background: #fbfaf5;
+  font: 13px/1.45 "Courier New", Courier, monospace; box-shadow: 0 2px 8px rgba(0, 0, 0, .25);
+  -webkit-mask: radial-gradient(circle 5px at 50% 100%, transparent 98%, #000) 0 0 / 12px 100% repeat-x;
+          mask: radial-gradient(circle 5px at 50% 100%, transparent 98%, #000) 0 0 / 12px 100% repeat-x; padding-bottom: 20px; }
+.receipt-head { text-align: center; font-weight: 700; letter-spacing: .08em; border-bottom: 1px dashed #888; padding-bottom: 8px; margin-bottom: 8px; }
+.receipt p { display: flex; justify-content: space-between; gap: 12px; margin: 3px 0; }
+.receipt p b { text-align: right; font-weight: 700; }
+.receipt .receipt-total { border-top: 1px dashed #888; padding-top: 6px; margin-top: 8px; font-size: 15px; color: #b3261e; }
+.receipt .receipt-quip { display: block; margin-top: 10px; font-style: italic; }
+.receipt-foot { margin-top: 10px; text-align: center; font-size: 11px; letter-spacing: .06em; color: #666; }
+@media print { .receipt { box-shadow: none; -webkit-mask: none; mask: none; border: 1px solid #999; } }
