@@ -5,7 +5,8 @@
    It sits on top of MFL's Onyx skin and changes colour and type only: no layout,
    widths or menus, because MFL's markup is MFL's and moves between seasons. The
    palette is site.css's (the retired dashboard's): dark by default, since Onyx is,
-   and light for a viewer whose device is set to light, as the league site does. */
+   light for a viewer whose device is set to light, as the league site does, and
+   light for an owner who picks MFL's own skin (below). */
 :root {
   --pdl-bg: #0b0b0b; --pdl-surface: #1a1a19; --pdl-row: #141413; --pdl-rule: #2e2d2b;
   --pdl-ink: #f4f3ef; --pdl-ink-2: #c4c2bb; --pdl-ink-3: #a5a49a;
@@ -25,6 +26,18 @@
     --pdl-accent: #256abf; --pdl-link: #256abf; --pdl-accent-2: #eb6834; --pdl-mark: #127a55;
     --pdl-flag: #b84a17;
   }
+}
+/* An owner whose phone is in dark mode can still have the light version: pick MFL's
+   own skin (Franchise Setup, then the Skin tab, then "MFL") and the page goes light
+   whatever the device says. Commish Choice and Onyx stay dark. The skin arrives as a
+   stylesheet link, which :has() can see from html; a browser too old for :has()
+   (before late 2022) ignores this and keeps following the device. Same values as
+   the light block above. */
+html:has(link[href*="/skins17/MFL/"]) {
+  --pdl-bg: #f9f9f7; --pdl-surface: #ffffff; --pdl-row: #f3f2ee; --pdl-rule: #e2e0da;
+  --pdl-ink: #0b0b0b; --pdl-ink-2: #52514e; --pdl-ink-3: #6d6b67;
+  --pdl-accent: #256abf; --pdl-link: #256abf; --pdl-accent-2: #eb6834; --pdl-mark: #127a55;
+  --pdl-flag: #b84a17;
 }
 
 /* the page */
