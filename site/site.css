@@ -212,13 +212,6 @@ img.barney-pop.up { transform: translateY(0) rotate(-3deg); animation: barney-bo
 @keyframes barney-bob { to { transform: translateY(-10px) rotate(3deg); } }
 @media (prefers-reduced-motion: reduce) { img.barney-pop, img.barney-pop.up { transition: none; animation: none; transform: none; } }
 @media print { img.barney-pop { display: none; } }
-/* and the small one that peeks out beside the cursor over F-Jackie's name */
-img.barney-peek { position: fixed; width: 120px; z-index: 60; pointer-events: none; border-radius: 8px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, .3); opacity: 0; transform: scale(.6) rotate(-8deg);
-  transition: opacity .15s, transform .25s cubic-bezier(.2, 1.4, .4, 1); }
-img.barney-peek.up { opacity: 1; transform: scale(1) rotate(-3deg); }
-@media (prefers-reduced-motion: reduce) { img.barney-peek { transition: none; transform: none; } }
-@media print { img.barney-peek { display: none; } }
 /* the arrival clips (site/assets/clip.js): a clip slides up in the corner and plays */
 /* sized by height, so a square clip comes out wider than a tall one */
 .clip-pop { position: fixed; right: 16px; bottom: 16px; height: min(40vh, 260px); width: auto; max-width: 45vw; z-index: 50; cursor: pointer;
@@ -960,3 +953,21 @@ html.y2k .y2k-h { margin: 16px 0 8px; color: #ff0000; font: 700 2rem/1.2 "Comic 
 .ttree-sum { margin: 8px 0 0; }
 .ttree-quip { margin: 6px 0 0; font-style: italic; opacity: .85; }
 @media print { .ttree { background: none; border-left-color: #999; } }
+/* the hover peeks (site/assets/peek.js): something small beside the cursor over a team's name */
+.peek { position: fixed; z-index: 60; pointer-events: none; opacity: 0; transform: scale(.6) rotate(-8deg);
+  transition: opacity .15s, transform .25s cubic-bezier(.2, 1.4, .4, 1); }
+.peek.up { opacity: 1; transform: scale(1) rotate(-3deg); }
+img.peek-barney { width: 120px; border-radius: 8px; box-shadow: 0 4px 14px rgba(0, 0, 0, .3); }
+.peek-flag { width: 150px; filter: drop-shadow(0 3px 6px rgba(0, 0, 0, .3)); }
+.peek-flag svg { display: block; width: 100%; height: auto; }
+.peek-flag.up svg { animation: peek-wave .5s ease-in-out infinite alternate; transform-origin: left center; }
+@keyframes peek-wave { to { transform: skewY(-4deg) scaleX(.96); } }
+.peek-missing { display: none; box-sizing: border-box; width: 170px; padding: 8px 10px 10px; background: #fffdf3; color: #222;
+  border: 1px solid #c9c1a5; text-align: center; font: 12px/1.35 Arial, sans-serif; }
+.peek-missing b { display: block; color: #c0281c; font-size: 20px; letter-spacing: .12em; text-transform: uppercase; }
+.peek-trophy { display: block; font-size: 34px; line-height: 1.2; filter: grayscale(.6); }
+.peek-flag.peek-alt { width: auto; }
+.peek-flag.peek-alt svg { display: none; }
+.peek-flag.peek-alt .peek-missing { display: block; }
+@media (prefers-reduced-motion: reduce) { .peek, .peek.up { transition: none; transform: none; } .peek-flag.up svg { animation: none; } }
+@media print { .peek { display: none; } }

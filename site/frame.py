@@ -61,6 +61,7 @@ def page(title, body, depth=1, description=""):
 <script>addEventListener("beforeprint", () => document.querySelectorAll("details").forEach(d => d.open = true));</script>
 <script src="{up}assets/moose.js?v={ver("assets/moose.js")}" defer></script>
 <script src="{up}assets/barney.js?v={ver("assets/barney.js")}" defer></script>
+<script src="{up}assets/peek.js?v={ver("assets/peek.js")}" defer></script>
 </head>
 <body>
 <header class="masthead">
