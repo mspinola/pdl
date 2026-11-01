@@ -24,7 +24,7 @@
  "barney": {
   "team": "F-Jackie",
   "word": "barney",
-  "what": "Typing barney on any page turns the site purple, pops up F-Jackie's Barney logo for a few seconds, and renames F-Jackie to Barney in every table until he leaves. Script: site/assets/barney.js. The image is F-Jackie's MFL logo since 2019, from the original site's images/logos. Picking F-Jackie in the trades page's team filter calls him too. He also pops up on arrival at F-Jackie's franchise page, and a small Barney peeks out beside the cursor whenever it rests on F-Jackie's name (mouse only, site/assets/peek.js).",
+  "what": "Typing barney on any page turns the site purple, pops up F-Jackie's Barney logo for a few seconds, and renames F-Jackie to Barney in every table until he leaves. Script: site/assets/barney.js. The image is F-Jackie's MFL logo since 2019, from the original site's images/logos. Picking F-Jackie in the trades page's team filter calls him too. He also pops up on arrival at F-Jackie's franchise page, and a small Barney peeks out beside the cursor whenever it rests on F-Jackie's name (see \"peeks\").",
   "hint": "Someone purple is never far away. Try typing his name."
  },
  "clips": [
@@ -181,7 +181,7 @@
  "tank": {
   "team": "Tally Wackers",
   "player": "Luck, Andrew",
-  "what": "On the Tally Wackers' franchise page, while the tube man flails, a tank flying a SUCK FOR LUCK flag rolls in, stops under a report card on the season before they took Andrew Luck 1st overall (record, points against the next-lowest team, his starts in his first three seasons, titles since, all from the record), then charges a brick wall at the right edge, bounces off it and catches fire. Once the tank has gone, their sign-in sheet for the draft and summer meeting slides up: present in the years below, absent in every other. The attendance is the league's lore, not a record. Scripts: site/assets/tank.js and clip.js. Anywhere on the site, the tank's flag (SUCK FOR LUCK) peeks out beside the cursor whenever it rests on the Tally Wackers' name, or about one time in three a MISSING poster from the title they have never won, asking whether anyone has seen it in the last couple of decades (mouse only, site/assets/peek.js).",
+  "what": "On the Tally Wackers' franchise page, while the tube man flails, a tank flying a SUCK FOR LUCK flag rolls in, stops under a report card on the season before they took Andrew Luck 1st overall (record, points against the next-lowest team, his starts in his first three seasons, titles since, all from the record), then charges a brick wall at the right edge, bounces off it and catches fire. Once the tank has gone, their sign-in sheet for the draft and summer meeting slides up: present in the years below, absent in every other. The attendance is the league's lore, not a record. Scripts: site/assets/tank.js and clip.js. Their hover peeks (the flag, or a MISSING poster from the title) are in \"peeks\".",
   "flag": "SUCK FOR LUCK {year}",
   "title": "{year} report card",
   "grade": "F (on purpose)",
@@ -662,5 +662,179 @@
    "2019-07-18 Couchfire": "Stefon Diggs became Calvin Ridley became Cam Ward became Jeremiyah Love, with a title in the middle. Nobody at Couchfire can follow it either.",
    "2015-08-31 Scooter's Boozers": "Kirk Cousins, bought with the pick that became Patrick Mahomes, then traded on for eight years. Russell Wilson and DK Metcalf turned up along the way. It does not make up for Mahomes."
   }
+ },
+ "peeks": {
+  "what": "Anywhere on the site, something small peeks out beside the cursor while it rests on a team's name (links to its page and plain-text mentions alike), and on a few players' names. Each team's peeks are below, weighted by w; its logo, where it has one here, takes logo_share of the hovers instead. Blanks are filled from the record by eggs.peeks(), drawn by site/assets/peek.js. Mouse only: touch has no hover.",
+  "logo_share": 0.25,
+  "logos": {
+   "F-Jackie": "barney.jpg",
+   "Manic Moose": "manic-moose.svg",
+   "Ho Train": "logo-ho-train.gif",
+   "Iron City Pounders": "logo-iron-city-pounders.gif"
+  },
+  "teams": {
+   "Tally Wackers": [
+    {
+     "kind": "flag",
+     "text": "SUCK FOR LUCK",
+     "w": 2
+    },
+    {
+     "kind": "missing",
+     "title": "Missing",
+     "text": "Has anyone seen me in the last couple of decades? The Tally Wackers have been looking since {first}."
+    }
+   ],
+   "Beers": [
+    {
+     "kind": "note",
+     "style": "receipt",
+     "title": "Receipt",
+     "lines": [
+      "1 x Josh Allen",
+      "for 1 x Jordan Howard"
+     ],
+     "foot": "All sales final"
+    }
+   ],
+   "Blitzkrieg": [
+    {
+     "kind": "sms",
+     "text": "Got a minute to talk trade?",
+     "foot": "Delivered"
+    }
+   ],
+   "Manic Moose": [
+    {
+     "kind": "moose",
+     "lines": [
+      "Drafting: {hit_rank} ({hit}%)",
+      "Winning: {pct_rank} ({pct})"
+     ]
+    }
+   ],
+   "Texas Nashvillians": [
+    {
+     "kind": "tv",
+     "text": "NO SIGNAL"
+    }
+   ],
+   "Da Funk": [
+    {
+     "kind": "pennant",
+     "text": "PHINS UP"
+    }
+   ],
+   "Ho Train": [
+    {
+     "kind": "board",
+     "line": "HO TRAIN",
+     "status": "DELAYED",
+     "w": 2
+    },
+    {
+     "kind": "board",
+     "line": "{title} TITLE",
+     "status": "ARRIVED",
+     "per_title": true
+    }
+   ],
+   "Couchfire": [
+    {
+     "kind": "note",
+     "style": "stamp",
+     "title": "Trade offer pending"
+    }
+   ],
+   "Otters": [
+    {
+     "kind": "note",
+     "style": "claim",
+     "title": "Waiver claim #{adds}",
+     "foot": "Status: approved"
+    }
+   ],
+   "Dunbar Dogs": [
+    {
+     "kind": "note",
+     "style": "construction",
+     "title": "Under construction",
+     "w": 2
+    },
+    {
+     "kind": "note",
+     "style": "motion",
+     "title": "New business",
+     "lines": [
+      "Twenty roster spots isn't enough.",
+      "Motion to expand the roster."
+     ]
+    }
+   ],
+   "Scooter's Boozers": [
+    {
+     "kind": "note",
+     "style": "grade",
+     "title": "A+",
+     "foot": "(self-graded)"
+    }
+   ],
+   "Carter's Commandos": [
+    {
+     "kind": "trophy",
+     "title": "Giant killer",
+     "text": "{upsets} over a #1 seed"
+    }
+   ],
+   "Iron City Pounders": [
+    {
+     "kind": "note",
+     "style": "bulletin",
+     "title": "St. Sebastian's",
+     "lines": [
+      "Bingo Thursday",
+      "Autumn Bowl Sunday"
+     ]
+    }
+   ],
+   "Karpet Munchers": [
+    {
+     "kind": "note",
+     "style": "burst",
+     "title": "Sleeper alert!"
+    }
+   ]
+  },
+  "players": [
+   {
+    "names": [
+     "Josh Allen",
+     "Allen, Josh"
+    ],
+    "peeks": [
+     {
+      "kind": "note",
+      "style": "plain",
+      "lines": [
+       "Beers drafted me in round 5.",
+       "Then traded me for Jordan Howard."
+      ]
+     }
+    ]
+   },
+   {
+    "names": [
+     "Andrew Luck",
+     "Luck, Andrew"
+    ],
+    "peeks": [
+     {
+      "kind": "flag",
+      "text": "SUCK FOR LUCK",
+      "foot": "1st overall, {luck_year}, Tally Wackers"
+     }
+    ]
+   }
+  ]
  }
 }

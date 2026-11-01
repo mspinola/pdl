@@ -953,21 +953,67 @@ html.y2k .y2k-h { margin: 16px 0 8px; color: #ff0000; font: 700 2rem/1.2 "Comic 
 .ttree-sum { margin: 8px 0 0; }
 .ttree-quip { margin: 6px 0 0; font-style: italic; opacity: .85; }
 @media print { .ttree { background: none; border-left-color: #999; } }
-/* the hover peeks (site/assets/peek.js): something small beside the cursor over a team's name */
+/* the hover peeks (site/assets/peek.js): something small beside the cursor over a team's name.
+   Their own colours, like the other eggs' paper, so they read the same in light and dark */
 .peek { position: fixed; z-index: 60; pointer-events: none; opacity: 0; transform: scale(.6) rotate(-8deg);
-  transition: opacity .15s, transform .25s cubic-bezier(.2, 1.4, .4, 1); }
+  transition: opacity .15s, transform .25s cubic-bezier(.2, 1.4, .4, 1); color: #222; font: 12px/1.35 Arial, sans-serif; }
 .peek.up { opacity: 1; transform: scale(1) rotate(-3deg); }
-img.peek-barney { width: 120px; border-radius: 8px; box-shadow: 0 4px 14px rgba(0, 0, 0, .3); }
+.peek b, .peek span, .peek small { display: block; }
+.peek small { font-size: 10px; opacity: .75; }
+img.peek-img { width: 120px; border-radius: 8px; box-shadow: 0 4px 14px rgba(0, 0, 0, .3); background: #fff; }
 .peek-flag { width: 150px; filter: drop-shadow(0 3px 6px rgba(0, 0, 0, .3)); }
 .peek-flag svg { display: block; width: 100%; height: auto; }
+.peek-flag small { margin: 2px 0 0 6px; color: #fff; opacity: 1; text-shadow: 0 1px 2px #000; }
 .peek-flag.up svg { animation: peek-wave .5s ease-in-out infinite alternate; transform-origin: left center; }
 @keyframes peek-wave { to { transform: skewY(-4deg) scaleX(.96); } }
-.peek-missing { display: none; box-sizing: border-box; width: 170px; padding: 8px 10px 10px; background: #fffdf3; color: #222;
-  border: 1px solid #c9c1a5; text-align: center; font: 12px/1.35 Arial, sans-serif; }
-.peek-missing b { display: block; color: #c0281c; font-size: 20px; letter-spacing: .12em; text-transform: uppercase; }
-.peek-trophy { display: block; font-size: 34px; line-height: 1.2; filter: grayscale(.6); }
-.peek-flag.peek-alt { width: auto; }
-.peek-flag.peek-alt svg { display: none; }
-.peek-flag.peek-alt .peek-missing { display: block; }
-@media (prefers-reduced-motion: reduce) { .peek, .peek.up { transition: none; transform: none; } .peek-flag.up svg { animation: none; } }
+.peek-missing { box-sizing: border-box; width: 170px; padding: 8px 10px 10px; background: #fffdf3; border: 1px solid #c9c1a5;
+  text-align: center; box-shadow: 0 4px 14px rgba(0, 0, 0, .3); }
+.peek-missing b { color: #c0281c; font-size: 20px; letter-spacing: .12em; text-transform: uppercase; }
+.peek-missing i { display: block; font-style: normal; font-size: 34px; line-height: 1.2; filter: grayscale(.6); }
+/* the paper cards: one base, a style each */
+.peek-note { box-sizing: border-box; max-width: 190px; padding: 8px 10px; background: #fffdf3; border: 1px solid #c9c1a5;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .3); }
+.peek-note b { margin-bottom: 2px; }
+.peek-receipt { width: 170px; font-family: "Courier New", monospace; border-style: dashed none; text-align: center; }
+.peek-receipt b { letter-spacing: .3em; text-transform: uppercase; }
+.peek-receipt small { margin-top: 4px; text-transform: uppercase; }
+.peek-stamp { background: #fff; border: 3px double #c0281c; color: #c0281c; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; padding: 6px 10px; }
+.peek-stamp.up { transform: scale(1) rotate(-10deg); }
+.peek-claim { font-family: "Courier New", monospace; border-left: 4px solid #4fa3d9; }
+.peek-construction { background: #ffd400; border: 6px solid transparent; font: 700 13px/1.2 "Times New Roman", serif;
+  text-transform: uppercase; text-align: center; border-image: repeating-linear-gradient(45deg, #111 0 8px, #ffd400 8px 16px) 6; }
+.peek-motion { background: #fff8a6; border: none; font-family: "Marker Felt", "Segoe Print", "Comic Sans MS", cursive; font-size: 13px; }
+.peek-motion b { text-transform: uppercase; font-size: 11px; letter-spacing: .08em; }
+.peek-grade { text-align: center; padding: 6px 14px; }
+.peek-grade b { color: #c0281c; font: 700 34px/1 "Marker Felt", "Segoe Print", "Comic Sans MS", cursive; }
+.peek-bulletin { width: 160px; font-family: "Courier New", monospace; text-align: center; }
+.peek-bulletin b { border-bottom: 1px solid #222; margin-bottom: 4px; }
+.peek-burst { width: 120px; height: 120px; display: grid; place-items: center; padding: 0; border: none; background: #ffd400;
+  color: #c0281c; font: 700 15px/1.1 Impact, "Arial Black", sans-serif; text-transform: uppercase; text-align: center;
+  clip-path: polygon(50% 0, 61% 18%, 82% 10%, 79% 32%, 100% 40%, 84% 55%, 96% 75%, 73% 76%, 68% 98%, 50% 85%, 32% 98%,
+  27% 76%, 4% 75%, 16% 55%, 0 40%, 21% 32%, 18% 10%, 39% 18%); box-shadow: none; }
+.peek-burst b { width: 70px; }
+.peek-sms { max-width: 190px; filter: drop-shadow(0 3px 6px rgba(0, 0, 0, .3)); }
+.peek-sms span { background: #1f8bff; color: #fff; padding: 7px 11px; border-radius: 16px 16px 4px 16px; font-size: 13px; }
+.peek-sms small { text-align: right; margin-top: 3px; color: #fff; opacity: 1; text-shadow: 0 1px 2px #000; }
+.peek-moose { width: 130px; text-align: center; filter: drop-shadow(0 3px 6px rgba(0, 0, 0, .3)); }
+.peek-moose svg { display: block; width: 100px; margin: 0 auto -6px; }
+.peek-plate { background: #fff; border: 2px solid #111; border-radius: 4px; padding: 3px 4px; font-weight: 700; font-size: 11px; }
+.peek-tv { width: 130px; padding: 8px 8px 14px; background: #5a4632; border-radius: 10px; box-shadow: 0 4px 14px rgba(0, 0, 0, .35); }
+.peek-screen { height: 78px; border-radius: 14px / 10px; display: grid; place-items: center; background-color: #999;
+  background-image: repeating-linear-gradient(0deg, rgba(0, 0, 0, .25) 0 1px, transparent 1px 3px),
+  repeating-linear-gradient(90deg, rgba(255, 255, 255, .35) 0 2px, rgba(0, 0, 0, .3) 2px 3px, transparent 3px 7px); }
+.peek-tv.up .peek-screen { animation: peek-static .15s steps(2) infinite; }
+@keyframes peek-static { to { background-position: 3px 2px, 5px 0; } }
+.peek-screen span { background: #111; color: #fff; padding: 2px 6px; font: 700 12px/1 "Courier New", monospace; letter-spacing: .1em; }
+.peek-trophy { display: flex; gap: 8px; align-items: center; max-width: 200px; padding: 8px 10px; background: #fffdf3;
+  border: 1px solid #c9c1a5; box-shadow: 0 4px 14px rgba(0, 0, 0, .3); }
+.peek-trophy svg { width: 34px; flex: none; }
+.peek-board { display: flex; gap: 10px; align-items: center; padding: 6px 10px; background: #111; border-radius: 4px;
+  font: 700 13px/1 "Courier New", monospace; color: #ffd400; letter-spacing: .08em; box-shadow: 0 4px 14px rgba(0, 0, 0, .35); }
+.peek-board .peek-late { color: #ff5a4e; }
+.peek-board .peek-ok { color: #6fe07a; }
+@media (prefers-reduced-motion: reduce) { .peek, .peek.up, .peek-stamp.up { transition: none; transform: none; }
+  .peek-flag.up svg, .peek-tv.up .peek-screen { animation: none; } }
 @media print { .peek { display: none; } }

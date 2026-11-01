@@ -733,6 +733,53 @@ def steeler_board():
             f"<p class='dboard-foot'>{E(sb['foot'].format(**facts))}</p></aside></template>")
 
 
+def peeks():
+    """The hover peeks for assets/peek.js: each team's from eggs.json with its blanks filled from the
+    record ({first} its first season, and the Moose's, Otters', Commandos' and Ho Train's figures), its
+    logo, and the players who get one too. Ho Train's title board becomes one peek per title, sharing
+    its weight, so a hover picks one of them."""
+    p = config()["peeks"]
+    hit = d.by_owner("draft_owners.csv")
+    moose = team()
+    rates = sorted(((w + 0.5 * t) / max(1, w + l + t), o) for o in d.identities() for w, l, t in [d.regular_record(o)])
+    pct, _ = next(x for x in rates if x[1] == moose)
+    pct_rank = [o for _, o in reversed(rates)].index(moose) + 1
+    hit_rank = sorted(hit, key=lambda t: float(hit[t]["hit_rate"])).index(moose) + 1
+    gk = config()["giant_killer"]["team"]
+    luck = tank_facts()
+    facts = {"hit": hit[moose]["hit_rate"], "hit_rank": "worst" if hit_rank == 1 else f"{ordinal(hit_rank)} worst",
+             "pct": f"{pct:.3f}".replace("0.", ".", 1), "pct_rank": "best" if pct_rank == 1 else ordinal(pct_rank),
+             "adds": d.by_owner("transaction_owners.csv")[config()["otter"]["team"]]["adds"],
+             "upsets": sum(1 for g in playoff_games(gk) if g["won"] and g["opp_seed"] == 1 and (g["seed"] or 0) > 1),
+             "luck_year": luck["draft_year"]}
+
+    facts["upsets"] = f"{facts['upsets']} playoff win{'s' * (facts['upsets'] != 1)}"
+
+    def fill(v, **more):
+        if isinstance(v, str):
+            return v.format(**facts, **more)
+        if isinstance(v, list):
+            return [fill(x, **more) for x in v]
+        if isinstance(v, dict):
+            return {k: fill(x, **more) for k, x in v.items()}
+        return v
+
+    teams = []
+    for t in sorted(set(p["teams"]) | set(p["logos"])):
+        first = d.identities()[t]["seasons"][0]
+        out = []
+        for pk in p["teams"].get(t, []):
+            if pk.get("per_title"):
+                titles = sorted(y for y, c in d.champions().items() if c == t)
+                out += [fill({**pk, "w": pk.get("w", 1) / len(titles)}, first=first, title=y) for y in titles]
+            else:
+                out.append(fill({**pk, "w": pk.get("w", 1)}, first=first))
+        teams.append({"name": t, "slug": slug(t), "logo": p["logos"].get(t), "peeks": out})
+    return {"logo_share": p["logo_share"], "teams": teams,
+            "players": [{"names": x["names"], "peeks": [fill({**pk, "w": pk.get("w", 1)}) for pk in x["peeks"]]}
+                        for x in p["players"]]}
+
+
 def otter():
     """The Otters' otter's figures, for assets/otter.js: its waiver adds (and whether anyone has
     made more), its draft hit rate's rank from the bottom and its top-3 finishes in points."""
@@ -1019,6 +1066,10 @@ def build(dist):
     # title also carries the hint), Moose mode for the Moose, a clip for the teams in
     # eggs.json's "clips", the draft guide for the Karpet Munchers, the power cut for the Texas
     # Nashvillians, the trade offer for Couchfire and the grumpy engine for Ho Train. The scripts are assets/*.js.
+    # the hover peeks' words and figures, written into their script
+    pk = f"{dist}/assets/peek.js"
+    js = open(pk).read()
+    open(pk, "w").write(js.replace("var data = null;", f"var data = {json.dumps(peeks())};", 1))
     b = config()["barney"]
     p = f"{dist}/franchises/{slug(b['team'])}.html"
     if os.path.exists(p):
