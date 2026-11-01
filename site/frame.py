@@ -44,10 +44,11 @@ def record(w, l, t=0):
 
 
 
-def page(title, body, depth=1, description=""):
+def page(title, body, depth=1, description="", light=False):
+    """light: this page is always the light theme, whatever the visitor's setting."""
     up = "../" * depth
     return f"""<!doctype html>
-<html lang="en">
+<html lang="en"{' data-theme="light"' if light else ""}>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -55,7 +56,7 @@ def page(title, body, depth=1, description=""):
 <meta name="description" content="{E(description)}">
 <!-- the site has its own light and dark themes, so a browser's automatic dark mode (Chrome's,
      Dark Reader) must not repaint it: it turns the eggs' paper and cards dark and their ink light -->
-<meta name="color-scheme" content="light dark">
+<meta name="color-scheme" content="{"light" if light else "light dark"}">
 <meta name="darkreader-lock">
 {counter()}<link rel="stylesheet" href="{up}assets/site.css?v={ver("site.css")}">
 <script>addEventListener("beforeprint", () => document.querySelectorAll("details").forEach(d => d.open = true));</script>

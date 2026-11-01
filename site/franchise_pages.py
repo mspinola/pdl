@@ -117,7 +117,9 @@ def franchise_page(team, ident, owners):
             + (f"<h2>Best draft picks</h2><p class='meta'>By value over three seasons, for whichever teams started him, 2008 on. Kickers and defenses left out.</p><ul>{best_rows}</ul>" if best_rows else "")
             + (f"<h2>The ones that got away</h2><ul>{away_rows}</ul>" if away_rows else "")
             + "</div>")
-    return page(f"{team}, PDL", body, description=f"The {team} franchise in the Premier Dynasty League.")
+    # the Texas Nashvillians asked for a white website, like 2002, and their own page is one
+    return page(f"{team}, PDL", body, description=f"The {team} franchise in the Premier Dynasty League.",
+                light=team == "Texas Nashvillians")
 
 
 def index_page(idents, owners):
