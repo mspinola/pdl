@@ -1010,6 +1010,17 @@ img.peek-img { width: 120px; border-radius: 8px; box-shadow: 0 4px 14px rgba(0, 
 .peek-trophy { display: flex; gap: 8px; align-items: center; max-width: 200px; padding: 8px 10px; background: #fffdf3;
   border: 1px solid #c9c1a5; box-shadow: 0 4px 14px rgba(0, 0, 0, .3); }
 .peek-trophy svg { width: 34px; flex: none; }
+.peek-dialog { width: 230px; background: #ece9d8; border: 1px solid #0831d9; border-radius: 7px 7px 0 0;
+  font: 11px/1.35 Tahoma, Verdana, sans-serif; box-shadow: 2px 4px 14px rgba(0, 0, 0, .4); }
+.peek-titlebar { display: flex; justify-content: space-between; align-items: center; padding: 3px 4px 3px 7px; border-radius: 6px 6px 0 0;
+  background: linear-gradient(#0a5fe4, #0842c6 60%, #0a3fb8); color: #fff; font-weight: 700; }
+.peek-titlebar i { display: block; width: 16px; height: 16px; border-radius: 3px; background: #e2502b; border: 1px solid #fff;
+  font: 700 13px/14px Tahoma, sans-serif; font-style: normal; text-align: center; }
+.peek-dialog-body { display: flex; gap: 10px; align-items: flex-start; padding: 12px 10px 6px; }
+.peek-warn { flex: none; display: block; width: 28px; height: 28px; border-radius: 50%; background: #f5c400; color: #000;
+  font: 700 20px/28px Tahoma, sans-serif; font-style: normal; text-align: center; border: 1px solid #b58f00; }
+.peek .peek-button { width: max-content; min-width: 70px; margin: 4px auto 10px; padding: 3px 10px; text-align: center; font-weight: 400;
+  background: linear-gradient(#fff, #e3e3db); border: 1px solid #003c74; border-radius: 3px; }
 .peek-board { display: flex; gap: 10px; align-items: center; padding: 6px 10px; background: #111; border-radius: 4px;
   font: 700 13px/1 "Courier New", monospace; color: #ffd400; letter-spacing: .08em; box-shadow: 0 4px 14px rgba(0, 0, 0, .35); }
 .peek-board .peek-late { color: #ff5a4e; }

@@ -90,6 +90,20 @@
       box.appendChild(words(el("div"), p));
       return box;
     },
+    // a Windows XP error box, 2002 or so
+    dialog: function (p) {
+      var box = el("div", "peek peek-dialog");
+      var bar = el("div", "peek-titlebar");
+      bar.appendChild(el("span", null, p.title));
+      bar.appendChild(el("i", null, "\u00D7"));
+      box.appendChild(bar);
+      var body = el("div", "peek-dialog-body");
+      body.appendChild(el("i", "peek-warn", "!"));
+      body.appendChild(el("span", null, p.text));
+      box.appendChild(body);
+      box.appendChild(el("b", "peek-button", p.button));
+      return box;
+    },
     // a split-flap departure board's one row
     board: function (p) {
       var box = el("div", "peek peek-board");
@@ -163,10 +177,16 @@
     var e = made[id] || (made[id] = document.body.appendChild(draw[w.peeks[i].kind](w.peeks[i])));
     place(e, ev);
     e.classList.add("up");
+    // a peek with light set turns the page to the light theme while it shows
+    var root = document.documentElement, theme = root.getAttribute("data-theme");
+    if (w.peeks[i].light) root.setAttribute("data-theme", "light");
     var move = function (m) { place(e, m); };
     var out = function (o) {
       if (o.relatedTarget && target.contains(o.relatedTarget)) return;
       e.classList.remove("up");
+      if (w.peeks[i].light) {
+        if (theme === null) root.removeAttribute("data-theme"); else root.setAttribute("data-theme", theme);
+      }
       target.removeEventListener("mousemove", move);
       target.removeEventListener("mouseout", out);
     };

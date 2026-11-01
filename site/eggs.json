@@ -664,7 +664,7 @@
   }
  },
  "peeks": {
-  "what": "Anywhere on the site, something small peeks out beside the cursor while it rests on a team's name (links to its page and plain-text mentions alike), and on a few players' names. Each team's peeks are below, weighted by w; its logo, where it has one here, takes logo_share of the hovers instead. Blanks are filled from the record by eggs.peeks(), drawn by site/assets/peek.js. Mouse only: touch has no hover.",
+  "what": "Anywhere on the site, something small peeks out beside the cursor while it rests on a team's name (links to its page and plain-text mentions alike), and on a few players' names. Each team's peeks are below, weighted by w; its logo, where it has one here, takes logo_share of the hovers instead. Blanks are filled from the record by eggs.peeks(), drawn by site/assets/peek.js. A peek with light set (the Texas Nashvillians' complaints about the dark theme) also turns the whole page to the light theme while it shows. Mouse only: touch has no hover.",
   "logo_share": 0.25,
   "logos": {
    "Beers": "logo-beers.jpg",
@@ -728,6 +728,34 @@
     {
      "kind": "tv",
      "text": "NO SIGNAL"
+    },
+    {
+     "kind": "dialog",
+     "light": true,
+     "title": "Texas Nashvillians",
+     "text": "This website is too dark. Make it white like a normal website.",
+     "button": "OK"
+    },
+    {
+     "kind": "dialog",
+     "light": true,
+     "title": "Texas Nashvillians",
+     "text": "Websites were white in 2002 and they worked fine.",
+     "button": "Make it 2002"
+    },
+    {
+     "kind": "dialog",
+     "light": true,
+     "title": "Texas Nashvillians",
+     "text": "My computer is broken again. The whole screen went black.",
+     "button": "Call the commissioner"
+    },
+    {
+     "kind": "dialog",
+     "light": true,
+     "title": "Texas Nashvillians",
+     "text": "I printed the standings and it used up the whole black cartridge.",
+     "button": "Cancel print"
     }
    ],
    "Da Funk": [
