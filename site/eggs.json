@@ -24,7 +24,7 @@
  "barney": {
   "team": "F-Jackie",
   "word": "barney",
-  "what": "Typing barney on any page turns the site purple, pops up F-Jackie's Barney logo for a few seconds, and renames F-Jackie to Barney in every table until he leaves. Script: site/assets/barney.js. The image is F-Jackie's MFL logo since 2019, from the original site's images/logos. Picking F-Jackie in the trades page's team filter calls him too. He also pops up on arrival at F-Jackie's franchise page.",
+  "what": "Typing barney on any page turns the site purple, pops up F-Jackie's Barney logo for a few seconds, and renames F-Jackie to Barney in every table until he leaves. Script: site/assets/barney.js. The image is F-Jackie's MFL logo since 2019, from the original site's images/logos. Picking F-Jackie in the trades page's team filter calls him too. He also pops up on arrival at F-Jackie's franchise page, and a small Barney peeks out beside the cursor whenever it rests on F-Jackie's name (mouse only).",
   "hint": "Someone purple is never far away. Try typing his name."
  },
  "clips": [

@@ -212,6 +212,13 @@ img.barney-pop.up { transform: translateY(0) rotate(-3deg); animation: barney-bo
 @keyframes barney-bob { to { transform: translateY(-10px) rotate(3deg); } }
 @media (prefers-reduced-motion: reduce) { img.barney-pop, img.barney-pop.up { transition: none; animation: none; transform: none; } }
 @media print { img.barney-pop { display: none; } }
+/* and the small one that peeks out beside the cursor over F-Jackie's name */
+img.barney-peek { position: fixed; width: 120px; z-index: 60; pointer-events: none; border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .3); opacity: 0; transform: scale(.6) rotate(-8deg);
+  transition: opacity .15s, transform .25s cubic-bezier(.2, 1.4, .4, 1); }
+img.barney-peek.up { opacity: 1; transform: scale(1) rotate(-3deg); }
+@media (prefers-reduced-motion: reduce) { img.barney-peek { transition: none; transform: none; } }
+@media print { img.barney-peek { display: none; } }
 /* the arrival clips (site/assets/clip.js): a clip slides up in the corner and plays */
 /* sized by height, so a square clip comes out wider than a tall one */
 .clip-pop { position: fixed; right: 16px; bottom: 16px; height: min(40vh, 260px); width: auto; max-width: 45vw; z-index: 50; cursor: pointer;
