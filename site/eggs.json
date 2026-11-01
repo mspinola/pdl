@@ -667,11 +667,22 @@
   "what": "Anywhere on the site, something small peeks out beside the cursor while it rests on a team's name (links to its page and plain-text mentions alike), and on a few players' names. Each team's peeks are below, weighted by w; its logo, where it has one here, takes logo_share of the hovers instead. Blanks are filled from the record by eggs.peeks(), drawn by site/assets/peek.js. Mouse only: touch has no hover.",
   "logo_share": 0.25,
   "logos": {
+   "Beers": "logo-beers.jpg",
+   "Blitzkrieg": "logo-blitzkrieg.jpg",
+   "Carter's Commandos": "logo-carters-commandos.gif",
+   "Couchfire": "logo-couchfire.jpg",
+   "Dunbar Dogs": "logo-dunbar-dogs.gif",
    "F-Jackie": "barney.jpg",
-   "Manic Moose": "manic-moose.svg",
    "Ho Train": "logo-ho-train.gif",
-   "Iron City Pounders": "logo-iron-city-pounders.gif"
+   "Iron City Pounders": "logo-iron-city-pounders.gif",
+   "Karpet Munchers": "logo-karpet-munchers.gif",
+   "Manic Moose": "logo-manic-moose.jpg",
+   "OakalDoakals": "logo-oakaldoakals.jpg",
+   "Otters": "logo-otters.jpg",
+   "Scooter's Boozers": "logo-scooters-boozers.png",
+   "Tally Wackers": "logo-tally-wackers.jpg"
   },
+  "logos_note": "Each team's logo on MFL in November 2026, saved from MFL. Left out: the Texas Nashvillians' (a photo of a person, undressed) and Da Funk's (no longer loads). The Moose's is its icon, the MANIC MOOSE crest: its logo slot on MFL shows the Iron City Pounders' bottle.",
   "teams": {
    "Tally Wackers": [
     {
