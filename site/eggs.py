@@ -81,7 +81,8 @@ def not_found():
                .replace('href="franchises/', 'href="/pdl/franchises/').replace('href="h2h/', 'href="/pdl/h2h/') \
                .replace('href="trades/', 'href="/pdl/trades/').replace('href="drafts/', 'href="/pdl/drafts/') \
                .replace('href="records/', 'href="/pdl/records/').replace('href="analysis/', 'href="/pdl/analysis/') \
-               .replace('href="rules/', 'href="/pdl/rules/')
+               .replace('href="rules/', 'href="/pdl/rules/') \
+               .replace('href="manifest.webmanifest"', 'href="/pdl/manifest.webmanifest"').replace('register("sw.js")', 'register("/pdl/sw.js")')
 
 
 def museum():

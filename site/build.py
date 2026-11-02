@@ -33,6 +33,7 @@ import shame_page
 import analysis_pages
 import eggs
 import banner
+import app
 
 DIST = f"{SITE}/dist"
 
@@ -346,6 +347,7 @@ def main():
         f.write(page("Premier Dynasty League",
                      home(), depth=0, description="The Premier Dynasty League."))
     banner.build(DIST)   # the image MFL's banner setting points at
+    app.build(DIST)   # the manifest, icons and service worker that make the site installable
     eggs.build(DIST)   # last: the antlers go over every finished page
     # a page rewritten in place can come out empty (eggs once opened one for writing before
     # reading it), and an empty page deploys without complaint, so the build refuses one

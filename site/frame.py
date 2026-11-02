@@ -2,6 +2,8 @@
 import hashlib, html, os, re
 from functools import lru_cache
 
+import app
+
 E = html.escape
 SITE = os.path.dirname(os.path.abspath(__file__))
 
@@ -58,7 +60,7 @@ def page(title, body, depth=1, description="", light=False):
      Dark Reader) must not repaint it: it turns the eggs' paper and cards dark and their ink light -->
 <meta name="color-scheme" content="{"light" if light else "light dark"}">
 <meta name="darkreader-lock">
-{counter()}<link rel="stylesheet" href="{up}assets/site.css?v={ver("site.css")}">
+{counter()}{app.head(up)}<link rel="stylesheet" href="{up}assets/site.css?v={ver("site.css")}">
 <script>addEventListener("beforeprint", () => document.querySelectorAll("details").forEach(d => d.open = true));</script>
 <script src="{up}assets/moose.js?v={ver("assets/moose.js")}" defer></script>
 <script src="{up}assets/barney.js?v={ver("assets/barney.js")}" defer></script>
