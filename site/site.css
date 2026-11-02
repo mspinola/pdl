@@ -115,7 +115,9 @@ table.scoring { border-collapse: collapse; font: .86rem/1.35 var(--sans); width:
 
 /* data pages: seasons and franchises */
 .season, .franchise { max-width: 56rem; }
-.pn { display: flex; gap: 1rem; font: .88rem var(--sans); margin: -.2rem 0 1rem; }
+/* wraps onto a second line on a phone rather than running off the edge, a link at a time */
+.pn { display: flex; flex-wrap: wrap; gap: .3rem 1rem; font: .88rem var(--sans); margin: -.2rem 0 1rem; }
+.pn a { white-space: nowrap; }
 .banner { display: flex; flex-wrap: wrap; align-items: baseline; gap: .3rem .7rem; background: var(--accent-soft);
   border-radius: 8px; padding: .7rem 1rem; margin: 0 0 1.4rem; }
 .banner .label { font: 600 .72rem var(--sans); text-transform: uppercase; letter-spacing: .07em; color: var(--link); }
