@@ -81,7 +81,7 @@ def not_found():
                .replace('href="franchises/', 'href="/pdl/franchises/').replace('href="h2h/', 'href="/pdl/h2h/') \
                .replace('href="trades/', 'href="/pdl/trades/').replace('href="drafts/', 'href="/pdl/drafts/') \
                .replace('href="records/', 'href="/pdl/records/').replace('href="analysis/', 'href="/pdl/analysis/') \
-               .replace('href="rules/', 'href="/pdl/rules/') \
+               .replace('href="rules/', 'href="/pdl/rules/').replace('href="shame/', 'href="/pdl/shame/') \
                .replace('href="manifest.webmanifest"', 'href="/pdl/manifest.webmanifest"').replace('register("sw.js")', 'register("/pdl/sw.js")')
 
 
@@ -1113,7 +1113,7 @@ def build(dist):
         arrive(dist, c["team"], f"pdlClip({json.dumps(c['clip'])}, {c['seconds']}, {json.dumps(c.get('youtube'))}, "
                                 f"{json.dumps(caption(c))})", ["clip.js"])
     c = config()["shame_clip"]
-    on_load(f"{dist}/records/shame.html", f"pdlClip({json.dumps(c['clip'])}, {c['seconds']}, {json.dumps(c['youtube'])}, "
+    on_load(f"{dist}/shame/index.html", f"pdlClip({json.dumps(c['clip'])}, {c['seconds']}, {json.dumps(c['youtube'])}, "
                                           f"{json.dumps(shame_caption())}, {json.dumps(c.get('tall', False))})", ["clip.js"])
     m = config()["magazine"]
     arrive(dist, m["team"], f"pdlMagazine({m['seconds']})", ["clip.js"], magazine())

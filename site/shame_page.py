@@ -1,4 +1,4 @@
-"""The wall of shame: records/shame.html, the records nobody wants.
+"""The wall of shame: shame/index.html, the records nobody wants.
 
 Computed from the same games as the record book (records_page.real_games: the regular season and
 the championship playoffs, not the toilet bowl) and the same datasets as the franchise pages. Game
@@ -246,11 +246,11 @@ def grid(cards):
 
 
 def build(dist):
-    os.makedirs(f"{dist}/records", exist_ok=True)
+    os.makedirs(f"{dist}/shame", exist_ok=True)
     games = R.real_games()
     done = [y for y in d.seasons() if y in d.champions()]
     body = ("<div class='season shame'><h1>The wall of shame</h1><p class='lede'>Every record nobody wants, computed from the "
-            "same games as the <a href='index.html'>record book</a>: the regular season and the championship playoffs, not the "
+            "same games as the <a href='../records/index.html'>record book</a>: the regular season and the championship playoffs, not the "
             "toilet bowl. Game and streak records count the season in progress. Season, playoff and franchise records use "
             "finished seasons. The numbers are the record. The jokes are not.</p>"
             f"<h2>Single games</h2>{grid(games_cards(games))}"
@@ -266,6 +266,12 @@ def build(dist):
             "When several players go out in one deal, each carries a share of what came back in proportion to what he "
             "went on to score for the team that got him. Every link is "
             f"somebody else's trade.</p>{grid(web_cards())}</div>")
-    with open(f"{dist}/records/shame.html", "w") as f:
+    with open(f"{dist}/shame/index.html", "w") as f:
         f.write(page("PDL wall of shame", body, description="The PDL records nobody wants, computed from every game since 2000."))
+    # it lived under the record book until 2026-11, and links to it are out there
+    os.makedirs(f"{dist}/records", exist_ok=True)
+    with open(f"{dist}/records/shame.html", "w") as f:
+        f.write("<!doctype html><meta charset='utf-8'><title>PDL wall of shame</title>"
+                "<link rel='canonical' href='../shame/index.html'><meta http-equiv='refresh' content='0; url=../shame/index.html'>"
+                "<p><a href='../shame/index.html'>The wall of shame has moved.</a></p>")
     return 1
