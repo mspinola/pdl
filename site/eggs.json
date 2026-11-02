@@ -74,6 +74,14 @@
   }
  ],
  "clips_note": "Arriving at each team's franchise page, its clip slides up in the corner and plays for the seconds given (a click sends it off, and 0 keeps it until closed). Script: site/assets/clip.js, loaded on those pages only. Each clip is site/assets/<clip>.mp4, re-encoded from the GIF, with <clip>.jpg as its still for reduced motion. An entry with \"youtube\" (a video id) embeds that video instead, and \"clip\" is only the player's title.",
+ "shame_clip": {
+  "what": "Arriving at the Wall of Shame, Steelers guard Mason McCormick slamming Jared Verse (Browns vs Steelers, by the upload's title) slides up in the corner, embedded from the Letsfugingo YouTube channel rather than copied, starting muted in YouTube's own player and staying until closed. The caption is the biggest beating on record, from the same games as the Single games card. If the upload is taken down, the egg shows an empty player: drop this entry.",
+  "clip": "Jared Verse gets launched",
+  "youtube": "HsFy_M-pTDE",
+  "tall": true,
+  "seconds": 0,
+  "caption": "{winner} {ws}, {loser} {ls}, {season} week {week}.\nThe biggest beating on record, as the {loser} saw it."
+ },
  "magazine": {
   "team": "Karpet Munchers",
   "seconds": 14,

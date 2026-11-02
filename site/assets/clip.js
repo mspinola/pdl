@@ -3,8 +3,8 @@
 (function () {
   // a clip is a local <name>.mp4 with <name>.jpg as its still, or, given youtube, that
   // video in YouTube's own player (muted, so the browser lets it start on its own), under
-  // caption if there is one
-  function clip(name, seconds, youtube, caption) {
+  // caption if there is one, in a tall frame for a Short
+  function clip(name, seconds, youtube, caption, tall) {
     if (document.querySelector(".clip-pop")) return;
     var base = document.querySelector("link[rel=stylesheet]").href.replace(/site\.css.*$/, "");
     var calm = matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -37,6 +37,7 @@
       x.type = "button"; x.textContent = "\u00d7"; x.setAttribute("aria-label", "Close");
       el.appendChild(x);
       el.classList.add("clip-yt");
+      if (tall) el.classList.add("clip-tall");
     } else {
       el = document.createElement("video");
       el.muted = true; el.playsInline = true; el.autoplay = true; el.loop = true;

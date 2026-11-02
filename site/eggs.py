@@ -118,12 +118,26 @@ def museum():
 
 def arrive(dist, t, call, scripts=(), extra=""):
     """Run call when team t's franchise page loads, after extra (markup) and scripts (in assets/)."""
-    p = f"{dist}/franchises/{slug(t)}.html"
+    on_load(f"{dist}/franchises/{slug(t)}.html", call, scripts, extra)
+
+
+def on_load(p, call, scripts=(), extra=""):
+    """Run call when the page at p, one folder down from the site root, loads."""
     if not os.path.exists(p):
         return
     tag = "".join(f"<script src='../assets/{sc}?v={ver('assets/' + sc)}'></script>" for sc in scripts)
     html = open(p).read().replace("</body>", f"{extra}{tag}<script>addEventListener('load', () => {{ {call}; }});</script></body>", 1)
     open(p, "w").write(html)
+
+
+def shame_caption():
+    """The Wall of Shame clip's caption: the biggest beating on record, from the record book's games."""
+    import records_page as R
+    c = config()["shame_clip"]
+    g = max(R.real_games(), key=lambda g: abs(g["score_a"] - g["score_b"]))
+    w, ws, l, ls = ((g["team_a"], g["score_a"], g["team_b"], g["score_b"]) if g["score_a"] > g["score_b"]
+                    else (g["team_b"], g["score_b"], g["team_a"], g["score_a"]))
+    return c["caption"].format(winner=w, ws=num(ws), loser=l, ls=num(ls), season=g["season"], week=g["week"])
 
 
 def caption(c):
@@ -1097,6 +1111,9 @@ def build(dist):
     for c in config()["clips"]:
         arrive(dist, c["team"], f"pdlClip({json.dumps(c['clip'])}, {c['seconds']}, {json.dumps(c.get('youtube'))}, "
                                 f"{json.dumps(caption(c))})", ["clip.js"])
+    c = config()["shame_clip"]
+    on_load(f"{dist}/records/shame.html", f"pdlClip({json.dumps(c['clip'])}, {c['seconds']}, {json.dumps(c['youtube'])}, "
+                                          f"{json.dumps(shame_caption())}, {json.dumps(c.get('tall', False))})", ["clip.js"])
     m = config()["magazine"]
     arrive(dist, m["team"], f"pdlMagazine({m['seconds']})", ["clip.js"], magazine())
     arrive(dist, config()["outage"]["team"], "pdlOutage()", ["outage.js"])
