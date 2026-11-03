@@ -115,7 +115,8 @@ def weeks_section(season):
     for w in sorted({g["week"] for g in reg}):
         gs = [g for g in reg if g["week"] == w]
         top = max(max(g["score_a"], g["score_b"]) for g in gs)
-        out.append(f"<details class='week'><summary>Week {w} <span class='meta'>high score {num(top)}</span></summary>"
+        # the id sits on the summary so a link to #week-N opens the details (browsers reveal a fragment's ancestors)
+        out.append(f"<details class='week'><summary id='week-{w}'>Week {w} <span class='meta'>high score {num(top)}</span></summary>"
                    f"<ul class='games'>{''.join(game_line(g) for g in gs)}</ul></details>")
     return "\n".join(out)
 
