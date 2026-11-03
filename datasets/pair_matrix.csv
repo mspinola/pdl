@@ -1,10 +1,10 @@
 owner_a,owner_b,trades,shared_seasons,could_trade
-Beers,Texas Nashvillians,18,26,yes
+Beers,Texas Nashvillians,19,26,yes
 Beers,Da Funk,14,26,yes
 Beers,Scooter's Boozers,13,26,yes
+Beers,Manic Moose,12,26,yes
 Manic Moose,OakalDoakals,12,26,yes
 Scooter's Boozers,Texas Nashvillians,12,27,yes
-Beers,Manic Moose,11,26,yes
 OakalDoakals,Scooter's Boozers,11,26,yes
 Manic Moose,Scooter's Boozers,10,27,yes
 Beers,Bunchalosers,9,17,yes
@@ -27,6 +27,7 @@ Ho Train,Texas Nashvillians,6,27,yes
 Iron City Pounders,Manic Moose,6,27,yes
 Da Funk,Scooter's Boozers,5,27,yes
 Manic Moose,Otters,5,27,yes
+Manic Moose,Texas Nashvillians,5,27,yes
 Scooter's Boozers,Tally Wackers,5,27,yes
 Beers,Dunbar Dogs,4,26,yes
 Beers,Iron City Pounders,4,26,yes
@@ -34,13 +35,13 @@ Bunchalosers,Dunbar Dogs,4,18,yes
 Bunchalosers,Scooter's Boozers,4,18,yes
 Carter's Commandos,Manic Moose,4,27,yes
 Couchfire,Dunbar Dogs,4,9,yes
+Couchfire,F-Jackie,4,9,yes
 Dunbar Dogs,Texas Nashvillians,4,27,yes
 F-Jackie,Ho Train,4,27,yes
 Ho Train,Scooter's Boozers,4,27,yes
 Iron City Pounders,Otters,4,27,yes
 Iron City Pounders,Texas Nashvillians,4,27,yes
 Manic Moose,Tally Wackers,4,27,yes
-Manic Moose,Texas Nashvillians,4,27,yes
 Otters,Scooter's Boozers,4,27,yes
 Beers,Blitzkrieg,3,26,yes
 Beers,Carter's Commandos,3,26,yes
@@ -48,7 +49,6 @@ Blitzkrieg,Scooter's Boozers,3,27,yes
 Bunchalosers,Otters,3,18,yes
 Bunchalosers,Texas Nashvillians,3,18,yes
 Carter's Commandos,Texas Nashvillians,3,27,yes
-Couchfire,F-Jackie,3,9,yes
 Couchfire,Otters,3,9,yes
 Couchfire,Scooter's Boozers,3,9,yes
 Couchfire,Texas Nashvillians,3,9,yes

@@ -2846,44 +2846,44 @@ season,round,pick,overall,team,player,position,starts_any_team,starts,hit,kept,v
 2023,13,16,173,F-Jackie,"McLaughlin, Jaleel",RB,12,11,True,True,-6.3,-5.8,9.0,1.0,10.0,True,True
 2023,14,6,174,Manic Moose,"Hasty, JaMycal",RB,0,0,False,False,0,0,-2.2,0.4,-0.4,True,True
 2024,1,1,1,Dunbar Dogs,"Harrison Jr., Marvin",WR,31,31,True,True,-3.9,-3.9,7.3,21.6,9.4,False,True
-2024,1,2,2,Iron City Pounders,"Nabers, Malik",WR,20,20,True,True,5.5,5.5,-3.5,21.2,-1.2,False,True
+2024,1,2,2,Iron City Pounders,"Nabers, Malik",WR,20,20,True,True,5.6,5.6,-3.5,21.2,-1.2,False,True
 2024,1,3,3,Texas Nashvillians,"Williams, Caleb",QB,22,0,True,False,2.0,0,-0.6,20.5,-20.5,False,True
-2024,1,4,4,Dunbar Dogs,"Daniels, Jayden",QB,15,15,True,True,0.5,0.5,-6.1,18.8,-3.8,False,True
-2024,1,5,5,F-Jackie,"Odunze, Rome",WR,27,27,True,True,-4.0,-4.0,7.4,16.9,10.1,False,True
-2024,1,6,6,Da Funk,"Maye, Drake",QB,22,22,True,True,6.2,6.2,2.8,16.8,5.2,False,True
+2024,1,4,4,Dunbar Dogs,"Daniels, Jayden",QB,16,16,True,True,-0.1,-0.1,-5.1,18.8,-2.8,False,True
+2024,1,5,5,F-Jackie,"Odunze, Rome",WR,28,28,True,True,-4.0,-4.0,8.4,16.9,11.1,False,True
+2024,1,6,6,Da Funk,"Maye, Drake",QB,23,23,True,True,7.9,7.9,3.8,16.8,6.2,False,True
 2024,1,7,7,Otters,"Thomas Jr., Brian",WR,25,16,True,True,0.3,1.8,7.5,15.3,0.7,False,True
-2024,1,8,8,Ho Train,"Bowers, Brock",TE,26,26,True,True,12.1,12.1,9.4,14.3,11.7,False,True
+2024,1,8,8,Ho Train,"Bowers, Brock",TE,27,27,True,True,13.5,13.5,10.4,14.3,12.7,False,True
 2024,1,9,9,Carter's Commandos,"Legette, Xavier",WR,9,9,False,False,-2.4,-2.4,-7.1,14.6,-5.6,False,True
-2024,1,10,10,Blitzkrieg,"Worthy, Xavier",WR,23,19,True,True,-5.8,-4.5,7.7,14.1,4.9,False,True
-2024,1,11,11,Tally Wackers,"Brooks, Jonathon",RB,4,4,False,False,-3.6,-3.6,-9.8,12.6,-8.6,False,True
+2024,1,10,10,Blitzkrieg,"Worthy, Xavier",WR,24,19,True,True,-6.4,-4.5,8.7,14.1,4.9,False,True
+2024,1,11,11,Tally Wackers,"Brooks, Jonathon",RB,5,5,False,False,-4.7,-4.7,-8.8,12.6,-7.6,False,True
 2024,1,12,12,Karpet Munchers,"Coleman, Keon",WR,18,18,True,True,-4.4,-4.4,3.9,12.4,5.6,False,True
 2024,1,13,13,Beers,"Mitchell, Adonai",WR,5,0,False,False,-2.2,0,-8.6,11.9,-11.9,False,True
 2024,1,14,14,OakalDoakals,"Estime, Audric",RB,3,3,False,False,-2.4,-2.4,-10.0,10.9,-7.9,False,True
 2024,1,15,15,Couchfire,"Benson, Trey",RB,2,0,False,False,-1.6,0,-11.0,10.5,-10.5,False,True
-2024,1,16,16,Manic Moose,"McConkey, Ladd",WR,22,21,True,True,-0.6,0.1,9.8,9.4,11.6,False,True
-2024,1,17,17,Otters,"Corum, Blake",RB,4,4,False,False,0.7,0.7,-7.7,9.1,-5.1,False,True
+2024,1,16,16,Manic Moose,"McConkey, Ladd",WR,23,21,True,True,-0.6,0.1,10.8,9.4,11.6,False,True
+2024,1,17,17,Otters,"Corum, Blake",RB,5,5,False,False,1.0,1.0,-6.7,9.1,-4.1,False,True
 2024,2,1,18,Carter's Commandos,"Nix, Bo",QB,16,16,True,True,4.1,4.1,5.2,8.0,8.0,False,True
 2024,2,2,19,Iron City Pounders,"Mostert, Raheem",RB,2,2,False,False,-1.3,-1.3,-9.2,8.3,-6.3,False,True
 2024,2,3,20,Texas Nashvillians,"Polk, Ja'Lynn",WR,3,3,False,False,-2.4,-2.4,-8.7,8.3,-5.3,False,True
 2024,2,4,21,Manic Moose,"Pearsall, Ricky",WR,5,0,False,False,-0.6,0,-7.4,8.6,-8.6,False,True
-2024,2,5,22,F-Jackie,"Lloyd, MarShawn",RB,5,0,False,False,-3.2,0,-7.4,8.0,-8.0,False,True
-2024,2,6,23,Da Funk,"Kittle, George",TE,24,18,True,True,11.4,8.1,10.9,8.7,9.3,False,True
-2024,2,7,24,Otters,"Wright, Jaylen",RB,4,1,False,False,-3.9,-0.8,-7.8,7.4,-6.4,False,True
+2024,2,5,22,F-Jackie,"Lloyd, MarShawn",RB,5,0,False,False,-3.1,0,-7.4,8.0,-8.0,False,True
+2024,2,6,23,Da Funk,"Kittle, George",TE,24,18,True,True,11.3,8.1,10.9,8.7,9.3,False,True
+2024,2,7,24,Otters,"Wright, Jaylen",RB,5,1,False,False,-4.9,-0.8,-6.8,7.4,-6.4,False,True
 2024,2,8,25,Ho Train,"Burton, Jermaine",WR,0,0,False,False,0,0,-11.6,7.8,-7.8,False,True
 2024,2,9,26,Scooter's Boozers,"Engram, Evan",TE,8,5,False,False,-2.7,-1.2,-2.8,6.9,-1.9,False,True
 2024,2,10,27,Blitzkrieg,"Baker, Javon",WR,0,0,False,False,0,0,-10.4,7.2,-7.2,False,True
 2024,2,11,28,Tally Wackers,"Ekeler, Austin",RB,7,4,False,False,-2.2,0.2,-3.9,7.3,-3.3,False,True
 2024,2,12,29,Karpet Munchers,"Edwards, Gus",RB,4,4,False,False,-2.8,-2.8,-6.9,7.2,-3.2,False,True
-2024,2,13,30,Dunbar Dogs,"Irving, Bucky",RB,18,18,True,True,5.2,5.2,7.0,6.7,11.3,False,True
+2024,2,13,30,Dunbar Dogs,"Irving, Bucky",RB,19,19,True,True,5.8,5.8,8.0,6.7,12.3,False,True
 2024,2,14,31,OakalDoakals,"Chubb, Nick",RB,13,13,True,True,-5.1,-5.1,1.7,7.7,5.3,False,True
 2024,2,15,32,Blitzkrieg,"Wilson, Roman",WR,1,0,False,False,-0.7,0,-9.9,7.7,-7.7,False,True
 2024,2,16,33,F-Jackie,"Davis, Ray",RB,5,5,False,False,-1.6,-1.6,-4.8,6.6,-1.6,False,True
-2024,3,1,34,Dunbar Dogs,"Washington, Malik",WR,5,1,False,False,-1.6,-0.6,-4.9,6.6,-5.6,False,True
+2024,3,1,34,Dunbar Dogs,"Washington, Malik",WR,6,1,False,False,-1.4,-0.6,-3.9,6.6,-5.6,False,True
 2024,3,2,35,Iron City Pounders,"McCaffrey, Luke",WR,3,2,False,False,-2.3,-1.4,-5.9,6.1,-4.1,False,True
-2024,3,3,36,Texas Nashvillians,"Allen, Braelon",RB,9,3,False,False,-3.6,-2.7,0.7,5.5,-2.5,False,True
+2024,3,3,36,Texas Nashvillians,"Allen, Braelon",RB,10,3,True,False,-2.6,-2.7,1.7,5.5,-2.5,False,True
 2024,3,4,37,Carter's Commandos,"McMillan, Jalen",WR,4,4,False,False,-2.7,-2.7,-4.1,4.7,-0.7,False,True
 2024,3,5,38,F-Jackie,"Palmer, Josh",WR,4,2,False,False,-1.4,-1.4,-4.8,6.2,-4.2,False,True
-2024,3,6,39,Da Funk,"Shaheed, Rashid",WR,10,3,True,False,-1.8,0.1,0.8,6.5,-3.5,False,True
+2024,3,6,39,Da Funk,"Shaheed, Rashid",WR,10,3,True,False,-1.7,0.1,0.8,6.5,-3.5,False,True
 2024,3,7,40,Otters,"Whittington, Jordan",WR,0,0,False,False,0,0,-9.8,6.6,-6.6,False,True
 2024,3,8,41,Ho Train,"Njoku, David",TE,6,0,False,False,-2.4,0,-4.1,6.8,-6.8,False,True
 2024,3,9,42,Scooter's Boozers,"Vidal, Kimani",RB,7,0,False,False,0.4,0,-3.2,6.9,-6.9,False,True
@@ -2895,15 +2895,15 @@ season,round,pick,overall,team,player,position,starts_any_team,starts,hit,kept,v
 2024,3,15,48,Scooter's Boozers,"McCarthy, J.J.",QB,2,1,False,False,-3.3,-2.1,-5.5,4.7,-3.7,False,True
 2024,3,16,49,Manic Moose,"Johnson, Roschon",RB,2,2,False,False,-1.6,-1.6,-6.6,5.5,-3.5,False,True
 2024,4,1,50,Scooter's Boozers,"Ravens, Baltimore",Def,20,5,True,False,-4.1,-1.2,11.5,4.8,0.2,False,False
-2024,4,2,51,Manic Moose,"Cousins, Kirk",QB,6,1,False,False,-2.0,-1.2,-3.7,5.9,-4.9,False,True
-2024,4,3,52,Texas Nashvillians,"49ers, San Francisco",Def,23,7,True,False,-1.5,1.0,14.0,6.0,1.0,False,False
+2024,4,2,51,Manic Moose,"Cousins, Kirk",QB,7,1,False,False,-0.4,-1.2,-2.7,5.9,-4.9,False,True
+2024,4,3,52,Texas Nashvillians,"49ers, San Francisco",Def,23,7,True,False,-1.6,1.0,14.0,6.0,1.0,False,False
 2024,4,4,53,Carter's Commandos,"Lockett, Tyler",WR,9,8,False,False,-4.0,-3.5,0.4,5.4,2.6,False,True
-2024,4,5,54,Scooter's Boozers,"Smith, Geno",QB,12,2,True,False,-3.3,-0.1,3.8,5.0,-3.0,False,True
+2024,4,5,54,Scooter's Boozers,"Smith, Geno",QB,12,2,True,False,-3.2,-0.1,3.8,5.0,-3.0,False,True
 2024,4,6,55,Da Funk,"Minshew, Gardner",QB,5,4,False,False,-4.5,-3.6,-3.0,5.0,-1.0,False,True
-2024,4,7,56,Otters,"Darnold, Sam",QB,7,1,False,False,-3.5,-1.8,-0.1,3.8,-2.8,False,True
+2024,4,7,56,Otters,"Darnold, Sam",QB,8,1,False,False,-3.3,-1.8,0.9,3.8,-2.8,False,True
 2024,4,8,57,Ho Train,"Elliott, Ezekiel",RB,0,0,False,False,0,0,-7.5,3.8,-3.8,False,True
 2024,4,9,58,Scooter's Boozers,"Tracy, Tyrone",RB,10,2,True,False,-1.3,0.5,3.3,3.8,-1.8,False,True
-2024,4,10,59,Blitzkrieg,"Penix Jr., Michael",QB,9,0,False,False,-4.6,0,2.4,4.1,-4.1,False,True
+2024,4,10,59,Blitzkrieg,"Penix Jr., Michael",QB,10,0,True,False,-7.2,0,3.4,4.1,-4.1,False,True
 2024,4,11,60,Tally Wackers,"Wilson, Russell",QB,1,1,False,False,0.2,0.2,-4.9,3.6,-2.6,False,True
 2024,4,12,61,Karpet Munchers,"Jets, New York",Def,10,8,True,False,-2.6,-1.4,4.0,3.4,4.6,False,False
 2024,4,13,62,Beers,"Jones, Daniel",QB,15,2,True,False,-10.7,-2.2,8.5,3.5,-1.5,False,True
@@ -2911,32 +2911,32 @@ season,round,pick,overall,team,player,position,starts_any_team,starts,hit,kept,v
 2024,4,15,64,Couchfire,"Mims, Marvin",WR,2,0,False,False,0.4,0,-5.6,3.5,-3.5,False,True
 2024,4,16,65,Manic Moose,"Herbert, Khalil",RB,1,1,False,False,-1.1,-1.1,-7.8,4.9,-3.9,False,True
 2024,5,1,66,Dunbar Dogs,"Shipley, Will",RB,0,0,False,False,0,0,-8.3,5.3,-5.3,False,True
-2024,5,2,67,Iron City Pounders,"Bills, Buffalo",Def,23,13,True,True,-0.6,1.2,15.3,5.0,8.0,False,False
+2024,5,2,67,Iron City Pounders,"Bills, Buffalo",Def,23,13,True,True,-0.7,1.2,15.3,5.0,8.0,False,False
 2024,5,3,68,Couchfire,"Samuel, Curtis",WR,0,0,False,False,0,0,-8.9,5.8,-5.8,False,True
 2024,5,4,69,Carter's Commandos,"Steele, Carson",RB,0,0,False,False,0,0,-8.2,5.5,-5.5,False,True
 2024,5,5,70,F-Jackie,"Miller, Kendre",RB,2,0,False,False,-1.1,0,-4.9,4.2,-4.2,False,True
-2024,5,6,71,Da Funk,"Cowboys, Dallas",Def,29,6,True,False,-4.2,-1.5,22.2,4.2,1.8,False,False
-2024,5,7,72,Otters,"Robinson, Wan'Dale",WR,18,10,True,True,-5.1,-2.1,11.0,4.4,5.6,False,True
-2024,5,8,73,Ho Train,"Steelers, Pittsburgh",Def,30,11,True,True,4.5,1.7,24.6,3.4,7.6,False,False
+2024,5,6,71,Da Funk,"Cowboys, Dallas",Def,30,6,True,False,-4.2,-1.5,23.2,4.2,1.8,False,False
+2024,5,7,72,Otters,"Robinson, Wan'Dale",WR,19,10,True,True,-4.7,-2.1,12.0,4.4,5.6,False,True
+2024,5,8,73,Ho Train,"Steelers, Pittsburgh",Def,31,11,True,True,5.2,1.7,25.6,3.4,7.6,False,False
 2024,5,9,74,Scooter's Boozers,"Sanders, Ja'Tavion",TE,0,0,False,False,0,0,-5.4,3.1,-3.1,False,True
 2024,5,10,75,Blitzkrieg,"Gibson, Antonio",RB,8,8,False,False,-5.5,-5.5,2.1,3.0,5.0,False,True
-2024,5,11,76,Tally Wackers,"Browns, Cleveland",Def,18,14,True,True,1.5,0.8,11.4,3.2,10.8,False,False
+2024,5,11,76,Tally Wackers,"Browns, Cleveland",Def,19,14,True,True,1.0,0.8,12.4,3.2,10.8,False,False
 2024,5,12,77,Karpet Munchers,"Mooney, Darnell",WR,14,14,True,True,0.3,0.3,8.3,2.6,11.4,False,True
-2024,5,13,78,Beers,"Douglas, Demario",WR,16,2,True,False,-6.4,-1.3,9.2,3.6,-1.6,False,True
+2024,5,13,78,Beers,"Douglas, Demario",WR,17,3,True,False,-5.6,-0.5,10.2,3.6,-0.6,False,True
 2024,5,14,79,OakalDoakals,"Johnson, Juwan",WR,7,3,False,False,-3.2,-1.7,-0.1,3.9,-0.9,False,True
 2024,5,15,80,Couchfire,"Chiefs, Kansas City",Def,18,4,True,False,-0.1,0.3,11.5,3.7,0.3,False,False
 2024,5,16,81,Manic Moose,"Mason, Jordan",RB,17,6,True,False,-5.2,-1.0,10.8,3.9,2.1,False,True
 2024,6,1,82,Dunbar Dogs,"Bell, Jaheim",TE,0,0,False,False,0,0,-6.5,4.1,-4.1,False,True
-2024,6,2,83,Iron City Pounders,"Aubrey, Brandon",K,31,13,True,True,8.0,4.3,25.0,3.4,9.6,False,False
-2024,6,3,84,Texas Nashvillians,"Butker, Harrison",K,23,8,True,False,-1.4,-0.7,17.6,3.8,4.2,False,False
-2024,6,4,85,Carter's Commandos,"Gesicki, Mike",TE,10,9,True,False,-2.2,-2.0,3.5,4.2,4.8,False,True
+2024,6,2,83,Iron City Pounders,"Aubrey, Brandon",K,32,13,True,True,8.5,4.3,26.0,3.4,9.6,False,False
+2024,6,3,84,Texas Nashvillians,"Butker, Harrison",K,24,8,True,False,-1.4,-0.7,18.6,3.8,4.2,False,False
+2024,6,4,85,Carter's Commandos,"Gesicki, Mike",TE,11,9,True,False,-1.4,-2.0,4.5,4.2,4.8,False,True
 2024,6,5,86,F-Jackie,"Corley, Malachi",WR,0,0,False,False,0,0,-6.3,3.8,-3.8,False,True
-2024,6,6,87,Da Funk,"Elliott, Jake",K,27,13,True,True,-5.6,-2.1,20.8,3.8,9.2,False,False
+2024,6,6,87,Da Funk,"Elliott, Jake",K,27,13,True,True,-5.5,-2.1,20.8,3.8,9.2,False,False
 2024,6,7,88,Otters,"Conklin, Tyler",TE,2,2,False,False,-0.5,-0.5,-4.4,3.6,-1.6,False,True
 2024,6,8,89,Ho Train,"Brown, Dyami",WR,1,0,False,False,-0.8,0,-5.8,2.7,-2.7,False,True
 2024,6,9,90,Scooter's Boozers,"Perine, Samaje",RB,2,0,False,False,-1.9,0,-3.8,2.5,-2.5,False,True
-2024,6,10,91,Blitzkrieg,"Eagles, Philadelphia",Def,22,5,True,False,-1.4,-1.2,15.5,3.6,1.4,False,False
-2024,6,11,92,Tally Wackers,"Johnson, Theo",TE,12,2,True,False,-3.2,-1.3,5.0,3.3,-1.3,False,True
+2024,6,10,91,Blitzkrieg,"Eagles, Philadelphia",Def,22,5,True,False,-1.5,-1.2,15.5,3.6,1.4,False,False
+2024,6,11,92,Tally Wackers,"Johnson, Theo",TE,12,2,True,False,-3.3,-1.3,5.0,3.3,-1.3,False,True
 2024,6,12,93,Karpet Munchers,"Sanders, Jason",K,9,3,False,False,0.9,-0.8,2.6,3.2,-0.2,False,False
 2024,6,13,94,Beers,"Hill, Justice",RB,4,4,False,False,-2.1,-2.1,-1.6,3.0,1.0,False,True
 2024,6,14,95,OakalDoakals,"Colts, Indianapolis",Def,23,14,True,True,-1.5,-1.4,16.7,3.5,10.5,False,False
@@ -2952,32 +2952,32 @@ season,round,pick,overall,team,player,position,starts_any_team,starts,hit,kept,v
 2024,7,8,105,Ho Train,"Burks, Treylon",WR,0,0,False,False,0,0,-5.1,2.3,-2.3,False,True
 2024,7,9,106,Scooter's Boozers,"Dicker, Cameron",K,21,4,True,False,1.8,-0.0,15.7,2.3,1.7,False,False
 2024,7,10,107,Blitzkrieg,"Koo, Younghoe",K,13,12,True,True,0.6,0.6,7.4,2.7,9.3,False,False
-2024,7,11,108,Tally Wackers,"McPherson, Evan",K,28,19,True,True,-0.3,-1.1,22.3,2.9,16.1,False,False
+2024,7,11,108,Tally Wackers,"McPherson, Evan",K,29,20,True,True,-0.5,-1.4,23.3,2.9,17.1,False,False
 2024,7,12,109,Karpet Munchers,"Patterson, Cordarrelle",WR,1,1,False,False,-0.9,-0.9,-5.2,3.4,-2.4,False,True
-2024,7,13,110,Beers,"Otton, Cade",TE,14,0,True,False,-0.0,0,7.3,3.5,-3.5,False,True
+2024,7,13,110,Beers,"Otton, Cade",TE,15,0,True,False,-0.8,0,8.3,3.5,-3.5,False,True
 2024,7,14,111,OakalDoakals,"Austin III, Calvin",WR,17,7,True,False,-4.8,-1.0,10.3,2.7,4.3,False,True
 2024,7,15,112,Couchfire,"Dolphins, Miami",Def,3,1,False,False,0.3,-0.1,-4,2.8,-1.8,False,False
 2024,7,16,113,Manic Moose,"Guerendo, Isaac",RB,1,1,False,False,1.0,1.0,-6.2,2.8,-1.8,False,True
 2024,8,1,114,Dunbar Dogs,"Watson, Blake",RB,0,0,False,False,0,0,-6.6,2.3,-2.3,False,True
 2024,8,2,115,Iron City Pounders,"Robinson, Demarcus",WR,4,4,False,False,-1.5,-1.5,-3.2,2.7,1.3,False,True
-2024,8,3,116,Texas Nashvillians,"Gay, Matt",K,11,0,True,False,-0.3,0,4.6,2.9,-2.9,False,False
+2024,8,3,116,Texas Nashvillians,"Gay, Matt",K,12,0,True,False,-0.1,0,5.6,2.9,-2.9,False,False
 2024,8,4,117,Carter's Commandos,"Sermon, Trey",RB,2,2,False,False,-2.0,-2.0,-3.4,2.2,-0.2,False,True
-2024,8,5,118,F-Jackie,"Packers, Green Bay",Def,22,5,True,False,2.0,1.9,16.3,2.1,2.9,False,False
+2024,8,5,118,F-Jackie,"Packers, Green Bay",Def,23,5,True,False,2.3,1.9,17.3,2.1,2.9,False,False
 2024,8,6,119,Da Funk,"Dortch, Greg",WR,1,0,False,False,0.6,0,-5.5,2.6,-2.6,False,True
 2024,8,7,120,Otters,"Moore, Elijah",WR,2,0,False,False,-1.5,0,-3.2,2.3,-2.3,False,True
-2024,8,8,121,Ho Train,"Fairbairn, Ka'imi",K,31,24,True,True,9.0,7.5,26.1,2.1,21.9,False,False
-2024,8,9,122,F-Jackie,"Bass, Tyler",K,13,11,True,True,0.6,0.5,7.5,2.8,8.2,False,False
+2024,8,8,121,Ho Train,"Fairbairn, Ka'imi",K,31,24,True,True,9.2,7.5,26.1,2.1,21.9,False,False
+2024,8,9,122,F-Jackie,"Bass, Tyler",K,14,11,True,True,1.5,0.5,8.5,2.8,8.2,False,False
 2024,8,10,123,Blitzkrieg,"Laube, Dylan",RB,0,0,False,False,0,0,-6.9,3.9,-3.9,False,True
 2024,8,11,124,Tally Wackers,"Rice, Brenden",WR,0,0,False,False,0,0,-6.1,3.5,-3.5,False,True
-2024,8,12,125,Karpet Munchers,"Brissett, Jacoby",QB,9,1,False,False,-1.3,-1.4,3.0,3.0,-2.0,False,True
+2024,8,12,125,Karpet Munchers,"Brissett, Jacoby",QB,10,1,True,False,-3.2,-1.4,4.0,3.0,-2.0,False,True
 2024,8,13,126,Beers,"Perry, A.T.",WR,0,0,False,False,0,0,-6.2,3.0,-3.0,False,True
-2024,8,14,127,OakalDoakals,"Gainwell, Kenneth",RB,15,2,True,False,-6.9,-2.0,9.1,2.7,-0.7,False,True
+2024,8,14,127,OakalDoakals,"Gainwell, Kenneth",RB,16,2,True,False,-6.8,-2.0,10.1,2.7,-0.7,False,True
 2024,8,15,128,Couchfire,"Fant, Noah",TE,10,2,True,False,-3.3,-0.8,6.0,1.5,0.5,False,True
 2024,8,16,129,Manic Moose,"Akers, Cam",RB,2,0,False,False,-0.5,0,-1.5,1.3,-1.3,False,True
-2024,9,1,130,Dunbar Dogs,"Little, Cam",K,28,21,True,True,-1.2,-2.4,24.9,1.3,19.7,False,False
+2024,9,1,130,Dunbar Dogs,"Little, Cam",K,29,21,True,True,-1.4,-2.4,25.9,1.3,19.7,False,False
 2024,9,2,131,Iron City Pounders,"Ali, Rasheen",RB,0,0,False,False,0,0,-3.6,2.2,-2.2,False,True
-2024,9,3,132,Texas Nashvillians,"Patriots, New England",Def,13,0,True,False,3.4,0,9.5,2.1,-2.1,False,False
-2024,9,4,133,Carter's Commandos,"Saints, New Orleans",Def,15,11,True,True,0.3,-0.2,11.5,2.2,8.8,False,False
+2024,9,3,132,Texas Nashvillians,"Patriots, New England",Def,14,0,True,False,3.5,0,10.5,2.1,-2.1,False,False
+2024,9,4,133,Carter's Commandos,"Saints, New Orleans",Def,15,11,True,True,0.2,-0.2,11.5,2.2,8.8,False,False
 2024,9,5,134,F-Jackie,"Smith, Jonnu",TE,6,5,False,False,1.1,1.6,2.2,2.3,2.7,False,True
 2024,9,6,135,Da Funk,"Williams, Jamaal",RB,2,2,False,False,-2.0,-2.0,-2.3,2.6,-0.6,False,True
 2024,9,7,136,Otters,"Foreman, D'Onta",RB,1,1,False,False,-1.1,-1.1,-2.1,1.6,-0.6,False,True
@@ -2986,31 +2986,31 @@ season,round,pick,overall,team,player,position,starts_any_team,starts,hit,kept,v
 2024,9,10,139,Blitzkrieg,"Hyatt, Jalin",WR,1,0,False,False,-0.6,0,-3.1,1.8,-1.8,False,True
 2024,9,11,140,Tally Wackers,"Stover, Cade",TE,0,0,False,False,0,0,-4.0,1.6,-1.6,False,True
 2024,9,12,141,Karpet Munchers,"Vaki, Sione",RB,0,0,False,False,0,0,-4.3,1.7,-1.7,False,True
-2024,9,13,142,Beers,"Buccaneers, Tampa Bay",Def,21,3,True,False,2.0,0.0,16.7,1.5,1.5,False,False
+2024,9,13,142,Beers,"Buccaneers, Tampa Bay",Def,22,3,True,False,3.1,0.0,17.7,1.5,1.5,False,False
 2024,9,14,143,OakalDoakals,"Washington, Darnell",TE,8,8,False,False,-3.3,-3.3,4.2,1.6,6.4,False,True
-2024,9,15,144,Couchfire,"Henry, Hunter",TE,22,0,True,False,-0.5,0,19.2,1.4,-1.4,False,True
+2024,9,15,144,Couchfire,"Henry, Hunter",TE,22,0,True,False,-0.6,0,19.2,1.4,-1.4,False,True
 2024,9,16,145,Manic Moose,"Zuerlein, Greg",K,8,8,False,False,-2.8,-2.8,5.3,1.5,6.5,False,False
-2024,10,1,146,Dunbar Dogs,"Bengals, Cincinnati",Def,21,8,True,False,-4.5,-1.3,18.5,1.2,6.8,False,False
+2024,10,1,146,Dunbar Dogs,"Bengals, Cincinnati",Def,22,8,True,False,-4.4,-1.3,19.5,1.2,6.8,False,False
 2024,10,2,147,Iron City Pounders,"Heinicke, Taylor",QB,0,0,False,False,0,0,-2.6,1.5,-1.5,False,True
 2024,10,4,148,Carter's Commandos,"Granson, Kylen",TE,0,0,False,False,0,0,-2.5,1.0,-1.0,False,True
 2024,10,5,149,F-Jackie,"Palmer, Trey",WR,1,0,False,False,-0.6,0,-2.1,1.3,-1.3,False,True
 2024,10,6,150,Da Funk,"Slayton, Darius",WR,5,0,False,False,-1.8,0,2.3,1.1,-1.1,False,True
-2024,10,7,151,Otters,"Bates, Jake",K,20,9,True,False,0.1,-0.9,16.9,1.2,7.8,False,False
+2024,10,7,151,Otters,"Bates, Jake",K,21,9,True,False,-0.0,-0.9,17.9,1.2,7.8,False,False
 2024,10,8,152,Ho Train,"Thompson, Skylar",QB,0,0,False,False,0,0,-3.2,1.1,-1.1,False,True
 2024,10,9,153,Scooter's Boozers,"Wilson, Johnny",WR,0,0,False,False,0,0,-3.4,1.3,-1.3,False,True
 2024,10,10,154,Blitzkrieg,"Cowing, Jacob",WR,0,0,False,False,0,0,-3.9,1.2,-1.2,False,True
 2024,10,12,155,Karpet Munchers,"Howell, Sam",QB,0,0,False,False,0,0,-4.0,1.3,-1.3,False,True
 2024,10,13,156,Beers,"Prater, Matt",K,13,5,True,False,-2.4,-0.8,9.4,1.3,3.7,False,False
 2024,10,14,157,OakalDoakals,"Cook, Dalvin",RB,0,0,False,False,0,0,-3.2,1.1,-1.1,False,True
-2024,10,15,158,Couchfire,"Bears, Chicago",Def,16,3,True,False,0.9,1.2,12.4,1.1,1.9,False,False
+2024,10,15,158,Couchfire,"Bears, Chicago",Def,17,3,True,False,0.8,1.2,13.4,1.1,1.9,False,False
 2024,10,16,159,Manic Moose,"Jaguars, Jacksonville",Def,10,2,True,False,-2.0,-0.3,6.8,1.0,1.0,False,False
 2024,11,4,160,Carter's Commandos,"Reynolds, Josh",WR,0,0,False,False,0,0,-3.6,0.8,-0.8,False,True
 2024,11,6,161,Da Funk,"Dillon, AJ",RB,0,0,False,False,0,0,-3.5,0.6,-0.6,False,True
-2024,11,7,162,Otters,"Chargers, San Diego",Def,25,13,True,True,0.7,0.9,21.4,0.8,12.2,False,False
+2024,11,7,162,Otters,"Chargers, San Diego",Def,25,13,True,True,0.6,0.9,21.4,0.8,12.2,False,False
 2024,11,8,163,Ho Train,"Lions, Detroit",Def,13,3,True,False,0.7,0.4,9.0,1.0,2.0,False,False
 2024,11,10,164,Blitzkrieg,"O'Connell, Aidan",QB,0,0,False,False,0,0,-3.7,1,-1,False,True
 2024,11,12,165,Karpet Munchers,"Sanders, Miles",RB,3,2,False,False,-2.5,-1.4,-0.7,1.1,0.9,False,True
-2024,11,13,166,Beers,"Seahawks, Seattle",Def,26,1,True,False,7.1,-0.2,22.1,1.5,-0.5,False,False
+2024,11,13,166,Beers,"Seahawks, Seattle",Def,27,1,True,False,6.5,-0.2,23.1,1.5,-0.5,False,False
 2024,11,14,167,OakalDoakals,"Dobbs, Joshua",QB,0,0,False,False,0,0,-3.5,1.4,-1.4,False,True
 2024,11,15,168,Couchfire,"Gipson, Xavier",WR,0,0,False,False,0,0,-3.0,0.9,-0.9,False,True
 2024,11,16,169,Manic Moose,"Demercado, Emari",RB,0,0,False,False,0,0,-3.4,1.5,-1.5,False,True
@@ -3018,90 +3018,90 @@ season,round,pick,overall,team,player,position,starts_any_team,starts,hit,kept,v
 2024,12,6,171,Da Funk,"Jennings, Jauan",WR,12,3,True,False,0.8,2.2,8.8,1.1,1.9,False,True
 2024,12,13,172,Beers,"Zaccheaus, Olamide",WR,6,0,False,False,-2.6,0,2.3,1.0,-1.0,False,True
 2024,12,14,173,OakalDoakals,"Rush, Cooper",QB,1,0,False,False,-2.3,0,-2.0,1.0,-1.0,False,True
-2024,12,16,174,Manic Moose,"Broncos, Denver",Def,23,12,True,True,4.0,3.3,20.8,0.4,11.6,False,False
+2024,12,16,174,Manic Moose,"Broncos, Denver",Def,24,12,True,True,3.8,3.3,21.8,0.4,11.6,False,False
 2024,13,14,175,OakalDoakals,"Smith-Schuster, JuJu",WR,3,0,False,False,-1.7,0,1.3,0.6,-0.6,False,True
-2025,1,1,1,OakalDoakals,"Jeanty, Ashton",RB,20,20,True,True,5.4,5.4,-3.7,21.6,-1.6,False,True
+2025,1,1,1,OakalDoakals,"Jeanty, Ashton",RB,21,21,True,True,5.1,5.1,-2.7,21.6,-0.6,False,True
 2025,1,2,2,Karpet Munchers,"Henderson, TreVeyon",RB,18,18,True,True,-5.2,-5.2,-5.5,21.2,-3.2,False,True
-2025,1,3,3,Blitzkrieg,"Hampton, Omarion",RB,12,12,True,True,-1.5,-1.5,-10.6,20.5,-8.5,False,True
-2025,1,4,4,OakalDoakals,"McMillan, Tetairoa",WR,19,19,True,True,3.6,3.6,-2.1,18.8,0.2,False,True
+2025,1,3,3,Blitzkrieg,"Hampton, Omarion",RB,13,13,True,True,-2.2,-2.2,-9.6,20.5,-7.5,False,True
+2025,1,4,4,OakalDoakals,"McMillan, Tetairoa",WR,20,20,True,True,3.5,3.5,-1.1,18.8,1.2,False,True
 2025,1,5,5,Carter's Commandos,"Egbuka, Emeka",WR,18,18,True,True,3.1,3.1,-1.6,16.9,1.1,False,True
-2025,1,6,6,Carter's Commandos,"Golden, Matthew",WR,12,6,True,False,-1.0,-2.6,-7.2,16.8,-10.8,False,True
-2025,1,7,7,Iron City Pounders,"Hunter, Travis",WR,8,8,False,False,-2.5,-2.5,-9.5,15.3,-7.3,False,True
-2025,1,8,8,Beers,"Harvey, RJ",RB,8,8,False,False,-1.8,-1.8,-8.6,14.3,-6.3,False,True
+2025,1,6,6,Carter's Commandos,"Golden, Matthew",WR,13,6,True,False,-0.2,-2.6,-6.2,16.8,-10.8,False,True
+2025,1,7,7,Iron City Pounders,"Hunter, Travis",WR,9,9,False,False,-3.3,-3.3,-8.5,15.3,-6.3,False,True
+2025,1,8,8,Beers,"Harvey, RJ",RB,9,9,False,False,-2.8,-2.8,-7.6,14.3,-5.3,False,True
 2025,1,9,9,F-Jackie,"Johnson, Kaleb",RB,2,0,False,False,-2.2,0,-14.1,14.6,-14.6,False,True
 2025,1,10,10,Da Funk,"Judkins, Quinshon",RB,8,8,False,False,-2.5,-2.5,-7.3,14.1,-6.1,False,True
 2025,1,11,11,Couchfire,"Ward, Cam",QB,6,0,False,False,-4.8,0,-7.8,12.6,-12.6,False,True
-2025,1,12,12,Otters,"Warren, Tyler",TE,15,15,True,True,1.6,1.6,0.9,12.4,2.6,False,True
+2025,1,12,12,Otters,"Warren, Tyler",TE,16,16,True,True,1.0,1.0,1.9,12.4,3.6,False,True
 2025,1,13,13,Texas Nashvillians,"Higgins, Jayden",WR,4,4,False,False,-0.1,-0.1,-9.6,11.9,-7.9,False,True
 2025,1,14,14,Carter's Commandos,"Jennings, Jauan",WR,9,9,False,False,-1.4,-1.4,-4.0,10.9,-1.9,False,True
-2025,1,15,15,Tally Wackers,"Croskey-Merritt, Jacory",RB,17,17,True,True,-9.2,-9.2,4.0,10.5,6.5,False,True
+2025,1,15,15,Tally Wackers,"Croskey-Merritt, Jacory",RB,17,17,True,True,-9.1,-9.1,4.0,10.5,6.5,False,True
 2025,1,16,16,Couchfire,"Samuel, Deebo",WR,15,11,True,True,2.3,2.3,2.8,9.4,1.6,False,True
-2025,2,1,17,OakalDoakals,"Loveland, Colston",TE,9,9,False,False,-1.0,-1.0,-2.7,9.1,-0.1,False,True
+2025,2,1,17,OakalDoakals,"Loveland, Colston",TE,10,10,True,True,-1.2,-1.2,-1.7,9.1,0.9,False,True
 2025,2,2,18,Karpet Munchers,"Harris, Tre",WR,0,0,False,False,0,0,-10.8,8.0,-8.0,False,True
-2025,2,3,19,Blitzkrieg,"Burden, Luther",WR,7,7,False,False,0.5,0.5,-4.2,8.3,-1.3,False,True
+2025,2,3,19,Blitzkrieg,"Burden, Luther",WR,8,8,False,False,0.9,0.9,-3.2,8.3,-0.3,False,True
 2025,2,4,20,F-Jackie,"Horton, Tory",WR,2,1,False,False,0.2,0.9,-9.7,8.3,-7.3,False,True
 2025,2,5,21,Carter's Commandos,"Blue, Jaydon",RB,0,0,False,False,0,0,-12.4,8.6,-8.6,False,True
 2025,2,6,22,Dunbar Dogs,"Thornton, Dont'e",WR,0,0,False,False,0,0,-12.4,8.0,-8.0,False,True
 2025,2,7,23,Iron City Pounders,"Skattebo, Cam",RB,1,1,False,False,1.2,1.2,-12.1,8.7,-7.7,False,True
 2025,2,8,24,F-Jackie,"Dart, Jaxson",QB,10,0,True,False,6.4,0,-1.8,7.4,-7.4,False,True
 2025,2,9,25,F-Jackie,"Giddens, DJ",RB,0,0,False,False,0,0,-11.6,7.8,-7.8,False,True
-2025,2,10,26,Da Funk,"Sampson, Dylan",RB,1,0,False,False,-0.3,0,-9.8,6.9,-6.9,False,True
+2025,2,10,26,Da Funk,"Sampson, Dylan",RB,2,0,False,False,-0.6,0,-8.8,6.9,-6.9,False,True
 2025,2,11,27,Ho Train,"Pittman, Michael",WR,13,3,True,False,1.6,1.1,2.6,7.2,-4.2,False,True
 2025,2,12,28,Otters,"Kupp, Cooper",WR,3,1,False,False,-2.2,-0.8,-7.9,7.3,-6.3,False,True
-2025,2,13,29,Manic Moose,"Tuten, Bhayshul",RB,4,4,False,False,1.5,1.5,-6.9,7.2,-3.2,False,True
-2025,2,14,30,Carter's Commandos,"Darnold, Sam",QB,6,6,False,False,-1.7,-1.7,-5.0,6.7,-0.7,False,True
+2025,2,13,29,Manic Moose,"Tuten, Bhayshul",RB,5,5,False,False,4.0,4.0,-5.9,7.2,-2.2,False,True
+2025,2,14,30,Carter's Commandos,"Darnold, Sam",QB,7,7,False,False,-1.5,-1.5,-4.0,6.7,0.3,False,True
 2025,2,15,31,Tally Wackers,"Etienne, Trevor",RB,1,1,False,False,-1.1,-1.1,-10.3,7.7,-6.7,False,True
 2025,2,16,32,Couchfire,"Bech, Jack",WR,2,2,False,False,-1.5,-1.5,-8.9,7.7,-5.7,False,True
-2025,3,1,33,OakalDoakals,"Dobbins, J.K.",RB,13,7,True,False,-4.6,-1.8,3.2,6.6,0.4,False,True
+2025,3,1,33,OakalDoakals,"Dobbins, J.K.",RB,13,7,True,False,-4.5,-1.8,3.2,6.6,0.4,False,True
 2025,3,2,34,Karpet Munchers,"Engram, Evan",TE,4,0,False,False,-1.6,0,-5.9,6.6,-6.6,False,True
 2025,3,3,35,Blitzkrieg,"Tillman, Cedric",WR,5,5,False,False,-1.6,-1.6,-3.9,6.1,-1.1,False,True
 2025,3,4,36,Scooter's Boozers,"Williams, Kyle",WR,1,0,False,False,-0.7,0,-7.3,5.5,-5.5,False,True
-2025,3,5,37,Carter's Commandos,"Aubrey, Brandon",K,18,11,True,True,3.6,3.6,9.9,4.7,6.3,False,False
+2025,3,5,37,Carter's Commandos,"Aubrey, Brandon",K,19,11,True,True,4.1,3.6,10.9,4.7,6.3,False,False
 2025,3,6,38,Manic Moose,"Hunter, Jarquez",RB,0,0,False,False,0,0,-8.8,6.2,-6.2,False,True
-2025,3,7,39,Iron City Pounders,"Taylor, Mason",TE,1,1,False,False,-0.1,-0.1,-8.2,6.5,-5.5,False,True
-2025,3,8,40,Otters,"Gordon, Ollie",RB,2,0,False,False,0.4,0,-7.8,6.6,-6.6,False,True
+2025,3,7,39,Iron City Pounders,"Taylor, Mason",TE,2,1,False,False,-0.6,-0.1,-7.2,6.5,-5.5,False,True
+2025,3,8,40,Otters,"Gordon, Ollie",RB,3,0,False,False,-0.1,0,-6.8,6.6,-6.6,False,True
 2025,3,9,41,F-Jackie,"Ferguson, Terrance",TE,0,0,False,False,0,0,-10.1,6.8,-6.8,False,True
 2025,3,10,42,Da Funk,"Noel, Jaylin",WR,3,1,False,False,-0.8,-0.1,-7.2,6.9,-5.9,False,True
 2025,3,11,43,Couchfire,"Mitchell, Adonai",WR,5,3,False,False,-2.2,-1.8,-4.5,5.5,-2.5,False,True
 2025,3,12,44,Otters,"Wilson, Russell",QB,0,0,False,False,0,0,-8.1,4.5,-4.5,False,True
 2025,3,13,45,Manic Moose,"Allgeier, Tyler",RB,2,1,False,False,-1.1,-0.4,-5.8,4.9,-3.9,False,True
 2025,3,14,46,Texas Nashvillians,"Ekeler, Austin",RB,3,2,False,False,-2.3,-1.4,-4.2,4.3,-2.3,False,True
-2025,3,15,47,Tally Wackers,"Goedert, Dallas",TE,16,12,True,True,1.9,1.0,9.1,4.1,7.9,False,True
-2025,3,16,48,Beers,"TeSlaa, Isaac",WR,0,0,False,False,0,0,-7.5,4.7,-4.7,False,True
-2025,4,1,49,OakalDoakals,"Boswell, Chris",K,20,13,True,True,2.3,1.2,11.4,5.5,7.5,False,False
+2025,3,15,47,Tally Wackers,"Goedert, Dallas",TE,17,12,True,True,1.5,1.0,10.1,4.1,7.9,False,True
+2025,3,16,48,Beers,"TeSlaa, Isaac",WR,1,1,False,False,-0.9,-0.9,-6.5,4.7,-3.7,False,True
+2025,4,1,49,OakalDoakals,"Boswell, Chris",K,21,13,True,True,2.3,1.2,12.4,5.5,7.5,False,False
 2025,4,2,50,Karpet Munchers,"Ford, Jerome",RB,2,2,False,False,-1.9,-1.9,-6.5,4.8,-2.8,False,True
 2025,4,3,51,Blitzkrieg,"Smith, Jonnu",TE,1,1,False,False,-0.5,-0.5,-8.7,5.9,-4.9,False,True
-2025,4,4,52,Beers,"Ferguson, Jake",TE,14,14,True,True,1.1,1.1,5.0,6.0,8.0,False,True
+2025,4,4,52,Beers,"Ferguson, Jake",TE,14,14,True,True,1.0,1.0,5.0,6.0,8.0,False,True
 2025,4,5,53,Beers,"Hunt, Kareem",RB,6,2,False,False,-1.4,-1.0,-2.6,5.4,-3.4,False,True
 2025,4,6,54,Dunbar Dogs,"Marks, Woody",RB,10,10,True,True,-3.2,-3.2,1.8,5.0,5.0,False,True
 2025,4,7,55,Iron City Pounders,"Cooper, Amari",WR,0,0,False,False,0,0,-8.0,5.0,-5.0,False,True
-2025,4,8,56,Beers,"Broncos, Denver",Def,11,9,True,False,0.7,1.2,3.9,3.8,5.2,False,False
-2025,4,9,57,F-Jackie,"Ayomanor, Elic",WR,10,6,True,False,-4.0,-1.6,2.5,3.8,2.2,False,True
-2025,4,10,58,Da Funk,"Ravens, Baltimore",Def,12,10,True,True,-2.4,-2.7,5.3,3.8,6.2,False,False
-2025,4,11,59,Ho Train,"Wright, Jaylen",RB,3,3,False,False,-3.0,-3.0,-3.6,4.1,-1.1,False,True
+2025,4,8,56,Beers,"Broncos, Denver",Def,12,9,True,False,0.4,1.2,4.9,3.8,5.2,False,False
+2025,4,9,57,F-Jackie,"Ayomanor, Elic",WR,11,6,True,False,-4.5,-1.6,3.5,3.8,2.2,False,True
+2025,4,10,58,Da Funk,"Ravens, Baltimore",Def,12,10,True,True,-2.5,-2.7,5.3,3.8,6.2,False,False
+2025,4,11,59,Ho Train,"Wright, Jaylen",RB,4,4,False,False,-4.1,-4.1,-2.6,4.1,-0.1,False,True
 2025,4,12,60,Otters,"Bryant, Pat",WR,1,0,False,False,-0.4,0,-4.9,3.6,-3.6,False,True
-2025,4,13,61,Texas Nashvillians,"Allen, Keenan",WR,13,5,True,False,-0.6,1.4,7.0,3.4,1.6,False,True
+2025,4,13,61,Texas Nashvillians,"Allen, Keenan",WR,14,5,True,False,-0.7,1.4,8.0,3.4,1.6,False,True
 2025,4,14,62,Texas Nashvillians,"Okonkwo, Chigoziem",TE,4,4,False,False,-1.3,-1.3,-2.5,3.5,0.5,False,True
-2025,4,15,63,Tally Wackers,"Robinson, Wan'Dale",WR,8,8,False,False,-2.9,-2.9,1.5,3.2,4.8,False,True
+2025,4,15,63,Tally Wackers,"Robinson, Wan'Dale",WR,9,9,False,False,-2.6,-2.6,2.5,3.2,5.8,False,True
 2025,4,16,64,Couchfire,"Bond, Isaiah",WR,3,1,False,False,-2.5,-0.7,-4.6,3.5,-2.5,False,True
-2025,5,1,65,OakalDoakals,"Vikings, Minnesota",Def,19,13,True,True,3.3,0.7,10.2,4.9,8.1,False,False
-2025,5,2,66,Karpet Munchers,"Eagles, Philadelphia",Def,15,15,True,True,-0.1,-0.1,6.7,5.3,9.7,False,False
+2025,5,1,65,OakalDoakals,"Vikings, Minnesota",Def,20,13,True,True,3.2,0.7,11.2,4.9,8.1,False,False
+2025,5,2,66,Karpet Munchers,"Eagles, Philadelphia",Def,15,15,True,True,-0.2,-0.2,6.7,5.3,9.7,False,False
 2025,5,3,67,Blitzkrieg,"Dicker, Cameron",K,11,9,True,False,0.4,1.7,3.3,5.0,4.0,False,False
 2025,5,4,68,Scooter's Boozers,"Smith, Brashard",RB,0,0,False,False,0,0,-8.9,5.8,-5.8,False,True
-2025,5,5,69,Carter's Commandos,"Schultz, Dalton",TE,18,18,True,True,-3.7,-3.7,9.8,5.5,12.5,False,True
+2025,5,5,69,Carter's Commandos,"Schultz, Dalton",TE,18,18,True,True,-3.8,-3.8,9.8,5.5,12.5,False,True
 2025,5,6,70,Dunbar Dogs,"Williams, Savion",WR,1,1,False,False,-0.9,-0.9,-5.9,4.2,-3.2,False,True
-2025,5,7,71,Iron City Pounders,"Douglas, Demario",WR,9,7,False,False,-3.4,-2.0,2.2,4.2,2.8,False,True
+2025,5,7,71,Iron City Pounders,"Douglas, Demario",WR,10,7,True,False,-2.5,-2.0,3.2,4.2,2.8,False,True
 2025,5,8,72,Beers,"Palmer, Josh",WR,1,0,False,False,-0.5,0,-6.0,4.4,-4.4,False,True
-2025,5,9,73,F-Jackie,"Steelers, Pittsburgh",Def,19,13,True,True,2.9,2.0,13.6,3.4,9.6,False,False
+2025,5,9,73,F-Jackie,"Steelers, Pittsburgh",Def,20,13,True,True,3.6,2.0,14.6,3.4,9.6,False,False
 2025,5,10,74,Da Funk,"Royals, Jalen",WR,0,0,False,False,0,0,-5.4,3.1,-3.1,False,True
 2025,5,11,75,Ho Train,"Rattler, Spencer",QB,0,0,False,False,0,0,-5.9,3.0,-3.0,False,True
-2025,5,12,76,Otters,"Bates, Jake",K,17,6,True,False,0.5,-0.5,10.4,3.2,2.8,False,False
-2025,5,13,77,Manic Moose,"Lloyd, MarShawn",RB,5,0,False,False,-3.2,0,-0.7,2.6,-2.6,False,True
+2025,5,12,76,Otters,"Bates, Jake",K,18,6,True,False,0.4,-0.5,11.4,3.2,2.8,False,False
+2025,5,13,77,Manic Moose,"Lloyd, MarShawn",RB,5,0,False,False,-3.1,0,-0.7,2.6,-2.6,False,True
 2025,5,14,78,Texas Nashvillians,"Monangai, Kyle",RB,4,4,False,False,-1.0,-1.0,-2.8,3.6,0.4,False,True
 2025,5,15,79,Tally Wackers,"McLaughlin, Chase",K,9,9,False,False,3.3,3.3,1.9,3.9,5.1,False,False
-2025,5,16,80,Couchfire,"Jones, Daniel",QB,12,12,True,True,-7.9,-7.9,5.5,3.7,8.3,False,True
+2025,5,16,80,Couchfire,"Jones, Daniel",QB,12,12,True,True,-7.8,-7.8,5.5,3.7,8.3,False,True
 2025,6,1,81,OakalDoakals,"Gabriel, Dillon",QB,1,1,False,False,0.2,0.2,-5.2,3.9,-2.9,False,True
-2025,6,2,82,Karpet Munchers,"Lutz, Wil",K,10,3,True,False,-2.3,-1.0,3.5,4.1,-1.1,False,False
+2025,6,2,82,Karpet Munchers,"Lutz, Wil",K,10,3,True,False,-2.2,-1.0,3.5,4.1,-1.1,False,False
 2025,6,3,83,Blitzkrieg,"Texans, Houston",Def,14,12,True,True,3.9,3.0,8.0,3.4,8.6,False,False
 2025,6,4,84,Scooter's Boozers,"Brooks, Tahj",RB,0,0,False,False,0,0,-5.4,3.8,-3.8,False,True
 2025,6,5,85,Carter's Commandos,"Guerendo, Isaac",RB,0,0,False,False,0,0,-6.5,4.2,-4.2,False,True
@@ -3113,8 +3113,8 @@ season,round,pick,overall,team,player,position,starts_any_team,starts,hit,kept,v
 2025,6,11,91,Ho Train,"Miller, Kendre",RB,2,2,False,False,-1.1,-1.1,-4.5,3.6,-1.6,False,True
 2025,6,12,92,Otters,"Rodriguez, Chris",RB,1,0,False,False,-1.1,0,-6.0,3.3,-3.3,False,True
 2025,6,13,93,Manic Moose,"Coker, Jalen",WR,3,3,False,False,-1.9,-1.9,-3.4,3.2,-0.2,False,True
-2025,6,14,94,Texas Nashvillians,"Elliott, Jake",K,14,4,True,False,-3.5,-0.3,8.4,3.0,1.0,False,False
-2025,6,15,95,Tally Wackers,"Bengals, Cincinnati",Def,13,9,True,False,-3.1,-3.4,6.7,3.5,5.5,False,False
+2025,6,14,94,Texas Nashvillians,"Elliott, Jake",K,14,4,True,False,-3.4,-0.3,8.4,3.0,1.0,False,False
+2025,6,15,95,Tally Wackers,"Bengals, Cincinnati",Def,14,9,True,False,-3.0,-3.4,7.7,3.5,5.5,False,False
 2025,6,16,96,Couchfire,"Strange, Brenton",TE,4,4,False,False,-0.2,-0.2,-2.7,3.4,0.6,False,True
 2025,7,1,97,OakalDoakals,"Rudolph, Mason",QB,0,0,False,False,0,0,-7.3,4,-4,False,True
 2025,7,2,98,Karpet Munchers,"Bennett, Stetson",QB,0,0,False,False,0,0,-6.7,3.6,-3.6,False,True
@@ -3123,98 +3123,98 @@ season,round,pick,overall,team,player,position,starts_any_team,starts,hit,kept,v
 2025,7,5,101,Carter's Commandos,"Chiefs, Kansas City",Def,14,10,True,True,-0.4,-0.2,7.4,2.4,7.6,False,False
 2025,7,6,102,Dunbar Dogs,"Lambert-Smith, KeAndre",WR,0,0,False,False,0,0,-5.9,2.1,-2.1,False,True
 2025,7,7,103,Iron City Pounders,"Thielen, Adam",WR,1,1,False,False,-0.9,-0.9,-5.5,2.2,-1.2,False,True
-2025,7,8,104,Beers,"McPherson, Evan",K,15,9,True,False,1.4,0.8,10.2,2.1,6.9,False,False
+2025,7,8,104,Beers,"McPherson, Evan",K,16,9,True,False,1.2,0.8,11.2,2.1,6.9,False,False
 2025,7,9,105,F-Jackie,"Neal, Devin",RB,4,2,False,False,-2.2,-0.3,-1.1,2.3,-0.3,False,True
 2025,7,10,106,Da Funk,"Arroyo, Elijah",TE,0,0,False,False,0,0,-5.3,2.3,-2.3,False,True
-2025,7,11,107,Ho Train,"Wilson, Michael",WR,13,13,True,True,1.7,1.7,7.4,2.7,10.3,False,True
-2025,7,12,108,Otters,"Packers, Green Bay",Def,12,2,True,False,0.7,0.0,6.3,2.9,-0.9,False,False
+2025,7,11,107,Ho Train,"Wilson, Michael",WR,14,14,True,True,3.0,3.0,8.4,2.7,11.3,False,True
+2025,7,12,108,Otters,"Packers, Green Bay",Def,13,2,True,False,1.0,0.0,7.3,2.9,-0.9,False,False
 2025,7,13,109,Manic Moose,"Pierce, Alec",WR,2,1,False,False,-1.0,-0.2,-4.2,3.4,-2.4,False,True
 2025,7,14,110,Texas Nashvillians,"Tipton, Mason",WR,0,0,False,False,0,0,-6.7,3.5,-3.5,False,True
 2025,7,15,111,Tally Wackers,"Lockett, Tyler",WR,1,0,False,False,-0.5,0,-5.7,2.7,-2.7,False,True
-2025,7,16,112,Couchfire,"Bills, Buffalo",Def,10,4,True,False,-1.8,-0.0,3,2.8,1.2,False,False
+2025,7,16,112,Couchfire,"Bills, Buffalo",Def,10,4,True,False,-1.9,-0.0,3,2.8,1.2,False,False
 2025,8,1,113,OakalDoakals,"Sanders, Shedeur",QB,1,0,False,False,-2.1,0,-6.2,2.8,-2.8,False,True
-2025,8,2,114,Karpet Munchers,"Dowdle, Rico",RB,13,13,True,True,0.8,0.8,6.4,2.3,10.7,False,True
+2025,8,2,114,Karpet Munchers,"Dowdle, Rico",RB,14,14,True,True,0.7,0.7,7.4,2.3,11.7,False,True
 2025,8,3,115,Blitzkrieg,"Hill, Justice",RB,0,0,False,False,0,0,-7.2,2.7,-2.7,False,True
 2025,8,4,116,Scooter's Boozers,"Waller, Darren",WR,4,0,False,False,-1.1,0,-2.4,2.9,-2.9,False,True
 2025,8,6,117,Dunbar Dogs,"Sanders, Miles",RB,1,1,False,False,-1.1,-1.1,-4.4,2.2,-1.2,False,True
-2025,8,7,118,Iron City Pounders,"Henry, Hunter",TE,16,13,True,True,-0.3,0.5,10.3,2.1,10.9,False,True
-2025,8,8,119,Beers,"Lions, Detroit",Def,10,5,True,False,0.4,0.8,3.5,2.6,2.4,False,False
-2025,8,9,120,F-Jackie,"Seahawks, Seattle",Def,17,0,True,False,5.3,0,11.8,2.3,-2.3,False,False
-2025,8,10,121,Da Funk,"Butker, Harrison",K,15,9,True,False,-0.7,-0.7,10.1,2.1,6.9,False,False
-2025,8,11,122,Ho Train,"Fairbairn, Ka'imi",K,18,11,True,True,4.4,2.8,12.5,2.8,8.2,False,False
-2025,8,12,123,Otters,"Tucker, Tre",WR,15,15,True,True,-0.9,-0.9,8.1,3.9,11.1,False,True
-2025,8,13,124,Manic Moose,"Fannin, Harold",TE,9,2,False,False,0.6,1.2,2.9,3.5,-1.5,False,True
-2025,8,14,125,Texas Nashvillians,"Chargers, San Diego",Def,12,4,True,False,-0.2,0.0,6.0,3.0,1.0,False,False
+2025,8,7,118,Iron City Pounders,"Henry, Hunter",TE,16,13,True,True,-0.4,0.5,10.3,2.1,10.9,False,True
+2025,8,8,119,Beers,"Lions, Detroit",Def,10,5,True,False,0.3,0.8,3.5,2.6,2.4,False,False
+2025,8,9,120,F-Jackie,"Seahawks, Seattle",Def,18,0,True,False,4.7,0,12.8,2.3,-2.3,False,False
+2025,8,10,121,Da Funk,"Butker, Harrison",K,16,9,True,False,-0.7,-0.7,11.1,2.1,6.9,False,False
+2025,8,11,122,Ho Train,"Fairbairn, Ka'imi",K,18,11,True,True,4.5,2.8,12.5,2.8,8.2,False,False
+2025,8,12,123,Otters,"Tucker, Tre",WR,16,16,True,True,-1.7,-1.7,9.1,3.9,12.1,False,True
+2025,8,13,124,Manic Moose,"Fannin, Harold",TE,10,2,True,False,1.1,1.2,3.9,3.5,-1.5,False,True
+2025,8,14,125,Texas Nashvillians,"Chargers, San Diego",Def,12,4,True,False,-0.3,0.0,6.0,3.0,1.0,False,False
 2025,8,15,126,Tally Wackers,"Kmet, Cole",TE,2,2,False,False,-1.0,-1.0,-4.2,3.0,-1.0,False,True
 2025,8,16,127,Couchfire,"Flacco, Joe",QB,2,1,False,False,1.0,-0.9,-3.9,2.7,-1.7,False,True
 2025,9,2,128,Karpet Munchers,"Hopkins, DeAndre",WR,2,2,False,False,-0.5,-0.5,-2.0,1.5,0.5,False,True
-2025,9,3,129,Blitzkrieg,"Loop, Tyler",K,12,12,True,True,0.1,0.1,8.5,1.3,10.7,False,False
+2025,9,3,129,Blitzkrieg,"Loop, Tyler",K,13,13,True,True,-0.2,-0.2,9.5,1.3,11.7,False,False
 2025,9,4,130,Scooter's Boozers,"49ers, San Francisco",Def,13,8,True,False,-1.4,-1.4,9.9,1.3,6.7,False,False
-2025,9,6,131,Dunbar Dogs,"Higbee, Tyler",TE,2,1,False,False,-1.4,-0.7,-1.6,2.2,-1.2,False,True
+2025,9,6,131,Dunbar Dogs,"Higbee, Tyler",TE,3,1,False,False,-2.0,-0.7,-0.6,2.2,-1.2,False,True
 2025,9,7,132,Iron City Pounders,"Shipley, Will",RB,0,0,False,False,0,0,-3.5,2.1,-2.1,False,True
-2025,9,9,133,F-Jackie,"Bass, Tyler",K,1,0,False,False,0.4,0,-2.5,2.2,-2.2,False,False
-2025,9,10,134,Da Funk,"Watson, Christian",WR,12,12,True,True,5.3,5.3,8.2,2.3,9.7,False,True
+2025,9,9,133,F-Jackie,"Bass, Tyler",K,2,0,False,False,1.2,0,-1.5,2.2,-2.2,False,False
+2025,9,10,134,Da Funk,"Watson, Christian",WR,13,13,True,True,5.5,5.5,9.2,2.3,10.7,False,True
 2025,9,11,135,Ho Train,"Slayton, Darius",WR,5,5,False,False,-1.8,-1.8,0.7,2.6,2.4,False,True
 2025,9,12,136,Otters,"Johnson, Roschon",RB,0,0,False,False,0,0,-3.1,1.6,-1.6,False,True
 2025,9,13,137,Manic Moose,"Moore, Elijah",WR,1,1,False,False,-0.9,-0.9,-1.9,1.5,-0.5,False,True
 2025,9,14,138,Texas Nashvillians,"Mitchell, Keaton",RB,2,2,False,False,-1.8,-1.8,-1.4,1.7,0.3,False,True
-2025,9,15,139,Tally Wackers,"Bears, Chicago",Def,13,0,True,False,-0.3,0,8.9,1.8,-1.8,False,False
-2025,9,16,140,Couchfire,"Rams, St. Louis",Def,11,4,True,False,-1.6,-0.6,7.0,1.6,2.4,False,False
+2025,9,15,139,Tally Wackers,"Bears, Chicago",Def,14,0,True,False,-0.4,0,9.9,1.8,-1.8,False,False
+2025,9,16,140,Couchfire,"Rams, St. Louis",Def,12,4,True,False,-1.4,-0.6,8.0,1.6,2.4,False,False
 2025,10,2,141,Karpet Munchers,"Dalton, Andy",QB,0,0,False,False,0,0,-4.3,1.7,-1.7,False,True
 2025,10,3,142,Blitzkrieg,"Lane, Jaylin",WR,0,0,False,False,0,0,-4.3,1.5,-1.5,False,True
 2025,10,4,143,Scooter's Boozers,"Howard, Will",QB,0,0,False,False,0,0,-3.8,1.6,-1.6,False,True
-2025,10,6,144,Dunbar Dogs,"Little, Cam",K,17,10,True,True,0.5,-0.7,14.2,1.4,8.6,False,False
-2025,10,7,145,Iron City Pounders,"Redskins, Washington",Def,10,9,True,False,-1.9,-1.5,7.3,1.5,7.5,False,False
+2025,10,6,144,Dunbar Dogs,"Little, Cam",K,18,10,True,True,0.3,-0.7,15.2,1.4,8.6,False,False
+2025,10,7,145,Iron City Pounders,"Redskins, Washington",Def,11,9,True,False,-1.3,-1.5,8.3,1.5,7.5,False,False
 2025,10,10,146,Da Funk,"Allen, LeQuint",RB,0,0,False,False,0,0,-2.5,1.2,-1.2,False,True
-2025,10,11,147,Ho Train,"Giants, New York",Def,6,6,False,False,-0.2,-0.2,3.4,1.5,4.5,False,False
+2025,10,11,147,Ho Train,"Giants, New York",Def,6,6,False,False,-0.3,-0.3,3.4,1.5,4.5,False,False
 2025,10,12,148,Otters,"Iosivas, Andrei",WR,1,0,False,False,-0.2,0,-1.5,1.0,-1.0,False,True
-2025,10,13,149,Manic Moose,"Gay, Matt",K,10,7,True,False,-0.0,0.2,6.9,1.3,5.7,False,False
-2025,10,14,150,Texas Nashvillians,"Wilson, Emanuel",RB,2,0,False,False,0.8,0,-0.7,1.1,-1.1,False,True
+2025,10,13,149,Manic Moose,"Gay, Matt",K,11,7,True,False,0.2,0.2,7.9,1.3,5.7,False,False
+2025,10,14,150,Texas Nashvillians,"Wilson, Emanuel",RB,3,0,False,False,-0.3,0,0.3,1.1,-1.1,False,True
 2025,10,15,151,Tally Wackers,"Lance, Trey",QB,0,0,False,False,0,0,-3.1,1.2,-1.2,False,True
-2025,10,16,152,Couchfire,"Patriots, New England",Def,11,6,True,False,2.8,2.2,7.8,1.1,4.9,False,False
+2025,10,16,152,Couchfire,"Patriots, New England",Def,12,6,True,False,2.9,2.2,8.8,1.1,4.9,False,False
 2025,11,3,153,Blitzkrieg,"Helm, Gunnar",TE,1,0,False,False,-0.6,0,-2.4,1.3,-1.3,False,True
 2025,11,4,154,Scooter's Boozers,"Koo, Younghoe",K,1,1,False,False,0.0,0.0,-2.9,1.2,-0.2,False,False
-2025,11,6,155,Dunbar Dogs,"Buccaneers, Tampa Bay",Def,16,13,True,True,1.5,0.4,12.0,1.3,11.7,False,False
-2025,11,7,156,Iron City Pounders,"Myers, Jason",K,19,7,True,False,3.3,1.3,15.4,1.3,5.7,False,False
-2025,11,10,157,Da Funk,"Otton, Cade",TE,8,6,False,False,-2.6,-2.0,4.8,1.1,4.9,False,True
+2025,11,6,155,Dunbar Dogs,"Buccaneers, Tampa Bay",Def,17,13,True,True,2.5,0.4,13.0,1.3,11.7,False,False
+2025,11,7,156,Iron City Pounders,"Myers, Jason",K,20,7,True,False,2.8,1.3,16.4,1.3,5.7,False,False
+2025,11,10,157,Da Funk,"Otton, Cade",TE,9,6,False,False,-3.4,-2.0,5.8,1.1,4.9,False,True
 2025,11,11,158,Ho Train,"Tucker, Sean",RB,6,0,False,False,-0.6,0,2.4,1.1,-1.1,False,True
 2025,11,13,159,Manic Moose,"Wicks, Dontayvion",WR,6,0,False,False,-1.7,0,2.8,1.0,-1.0,False,True
 2025,11,14,160,Texas Nashvillians,"Renfrow, Hunter",WR,0,0,False,False,0,0,-3.6,0.8,-0.8,False,True
-2025,11,15,161,Tally Wackers,"McManus, Brandon",K,6,6,False,False,-1.9,-1.9,2.5,0.6,5.4,False,False
+2025,11,15,161,Tally Wackers,"McManus, Brandon",K,7,6,False,False,-2.2,-1.9,3.5,0.6,5.4,False,False
 2025,11,16,162,Couchfire,"Jets, New York",Def,1,0,False,False,-0.5,0,-2.6,0.8,-0.8,False,False
 2025,12,6,163,Dunbar Dogs,"Gray, Noah",TE,4,4,False,False,-2.3,-2.3,0.0,1.0,3.0,False,True
 2025,12,7,164,Iron City Pounders,"Pickett, Kenny",QB,0,0,False,False,0,0,-3.7,1,-1,False,True
-2025,12,10,165,Da Funk,"Washington, Parker",WR,16,10,True,True,-0.8,-3.2,12.3,1.1,8.9,False,True
+2025,12,10,165,Da Funk,"Washington, Parker",WR,17,10,True,True,-1.3,-3.2,13.3,1.1,8.9,False,True
 2025,12,11,166,Ho Train,"Reynolds, Josh",WR,0,0,False,False,0,0,-3.9,1.5,-1.5,False,True
-2025,12,13,167,Manic Moose,"Cowboys, Dallas",Def,16,12,True,True,-2.7,-2.1,12.5,1.4,10.6,False,False
-2025,12,14,168,Texas Nashvillians,"Falcons, Atlanta",Def,11,7,True,False,-0.6,-0.6,8.0,0.9,6.1,False,False
+2025,12,13,167,Manic Moose,"Cowboys, Dallas",Def,17,12,True,True,-2.7,-2.1,13.5,1.4,10.6,False,False
+2025,12,14,168,Texas Nashvillians,"Falcons, Atlanta",Def,12,7,True,False,-0.9,-0.6,9.0,0.9,6.1,False,False
 2025,12,15,169,Tally Wackers,0000,,0,0,False,False,0,0,-3.4,1.5,-1.5,False,True
-2025,12,16,170,Couchfire,"Reichard, Will",K,15,5,True,False,1.8,0.2,11.6,1.3,3.7,False,False
+2025,12,16,170,Couchfire,"Reichard, Will",K,16,5,True,False,1.2,0.2,12.6,1.3,3.7,False,False
 2025,13,6,171,Dunbar Dogs,"Mullings, Kalel",RB,1,1,False,False,-1.1,-1.1,-2.2,1.1,-0.1,False,True
 2025,13,10,172,Da Funk,"Akers, Cam",RB,0,0,False,False,0,0,-3.7,1.0,-1.0,False,True
 2025,13,11,173,Ho Train,"Dolphins, Miami",Def,0,0,False,False,0,0,-3.0,1.0,-1.0,False,False
 2025,13,13,174,Manic Moose,"Rush, Cooper",QB,1,1,False,False,-2.3,-2.3,-1.2,0.4,0.6,False,True
-2025,13,14,175,Texas Nashvillians,"Gesicki, Mike",TE,1,0,False,False,-0.2,0,-0.7,0.6,-0.6,False,True
-2025,14,11,176,Ho Train,"Browns, Cleveland",Def,9,1,False,False,1.6,0.0,7.5,0.4,0.6,False,False
-2026,1,1,1,Couchfire,"Love, Jeremiyah",RB,3,3,False,False,-1.5,-1.5,-20.7,21.6,-18.6,False,True
-2026,1,2,2,Couchfire,"Tate, Carnell",WR,6,6,False,False,-0.9,-0.9,-17.5,21.2,-15.2,False,True
+2025,13,14,175,Texas Nashvillians,"Gesicki, Mike",TE,2,0,False,False,0.6,0,0.3,0.6,-0.6,False,True
+2025,14,11,176,Ho Train,"Browns, Cleveland",Def,10,2,True,False,1.1,-0.4,8.5,0.4,1.6,False,False
+2026,1,1,1,Couchfire,"Love, Jeremiyah",RB,4,4,False,False,-2.4,-2.4,-19.7,21.6,-17.6,False,True
+2026,1,2,2,Couchfire,"Tate, Carnell",WR,6,6,False,False,-0.8,-0.8,-17.5,21.2,-15.2,False,True
 2026,1,3,3,Carter's Commandos,"Price, Jadarian",RB,0,0,False,False,0,0,-22.6,20.5,-20.5,False,True
 2026,1,4,4,OakalDoakals,"Stribling, De'Zhaun",WR,0,0,False,False,0,0,-21.1,18.8,-18.8,False,True
-2026,1,5,5,Dunbar Dogs,"Concepcion, KC",WR,6,6,False,False,-1.8,-1.8,-13.6,16.9,-10.9,False,True
-2026,1,6,6,Otters,"Washington, Parker",WR,6,6,False,False,2.4,2.4,-13.2,16.8,-10.8,False,True
-2026,1,7,7,Iron City Pounders,"Lemon, Makai",WR,3,3,False,False,-0.9,-0.9,-14.5,15.3,-12.3,False,True
+2026,1,5,5,Dunbar Dogs,"Concepcion, KC",WR,7,7,False,False,-2.2,-2.2,-12.6,16.9,-9.9,False,True
+2026,1,6,6,Otters,"Washington, Parker",WR,7,7,False,False,1.8,1.8,-12.2,16.8,-9.8,False,True
+2026,1,7,7,Iron City Pounders,"Lemon, Makai",WR,4,4,False,False,-1.1,-1.1,-13.5,15.3,-11.3,False,True
 2026,1,8,8,Couchfire,"Tyson, Jordyn",WR,0,0,False,False,0,0,-16.6,14.3,-14.3,False,True
-2026,1,9,9,Manic Moose,"Sadiq, Kenyon",TE,7,7,False,False,-1.7,-1.7,-9.1,14.6,-7.6,False,True
-2026,1,10,10,Carter's Commandos,"Cooper Jr., Omar",WR,1,1,False,False,0.8,0.8,-14.3,14.1,-13.1,False,True
-2026,1,11,11,Ho Train,"Boston, Denzel",WR,5,5,False,False,-1.2,-1.2,-8.8,12.6,-7.6,False,True
-2026,1,12,12,Beers,"Lloyd, MarShawn",RB,5,5,False,False,-3.2,-3.2,-9.1,12.4,-7.4,False,True
-2026,1,13,13,Texas Nashvillians,"Coleman, Jonah",RB,0,0,False,False,0,0,-13.6,11.9,-11.9,False,True
+2026,1,9,9,Manic Moose,"Sadiq, Kenyon",TE,8,8,False,False,-2.4,-2.4,-8.1,14.6,-6.6,False,True
+2026,1,10,10,Carter's Commandos,"Cooper Jr., Omar",WR,2,2,False,False,-0.1,-0.1,-13.3,14.1,-12.1,False,True
+2026,1,11,11,Ho Train,"Boston, Denzel",WR,6,6,False,False,-1.5,-1.5,-7.8,12.6,-6.6,False,True
+2026,1,12,12,Beers,"Lloyd, MarShawn",RB,5,5,False,False,-3.1,-3.1,-9.1,12.4,-7.4,False,True
+2026,1,13,13,Texas Nashvillians,"Coleman, Jonah",RB,1,0,False,False,0.4,0,-12.6,11.9,-11.9,False,True
 2026,1,14,14,Da Funk,"Mendoza, Fernando",QB,0,0,False,False,0,0,-13.0,10.9,-10.9,False,True
-2026,1,15,15,Karpet Munchers,"Worthy, Xavier",WR,4,4,False,False,-1.3,-1.3,-9.0,10.5,-6.5,False,True
-2026,1,16,16,Blitzkrieg,"Williams, Antonio",WR,1,1,False,False,-0.3,-0.3,-11.2,9.4,-8.4,False,True
+2026,1,15,15,Karpet Munchers,"Worthy, Xavier",WR,5,5,False,False,-1.9,-1.9,-8.0,10.5,-5.5,False,True
+2026,1,16,16,Blitzkrieg,"Williams, Antonio",WR,2,2,False,False,-0.6,-0.6,-10.2,9.4,-7.4,False,True
 2026,1,17,17,Otters,"Willis, Malik",QB,0,0,False,False,0,0,-11.7,9.1,-9.1,False,True
-2026,2,1,18,Dunbar Dogs,"Johnson, Emmett",RB,0,0,False,False,0,0,-10.8,8.0,-8.0,False,True
-2026,2,2,19,Tally Wackers,"Kittle, George",TE,7,6,False,False,3.3,3.3,-4.2,8.3,-2.3,False,True
+2026,2,1,18,Dunbar Dogs,"Johnson, Emmett",RB,1,1,False,False,2.3,2.3,-9.8,8.0,-7.0,False,True
+2026,2,2,19,Tally Wackers,"Kittle, George",TE,7,6,False,False,3.2,3.2,-4.2,8.3,-2.3,False,True
 2026,2,3,20,Texas Nashvillians,"Stafford, Matthew",QB,2,2,False,False,-1.7,-1.7,-9.7,8.3,-6.3,False,True
 2026,2,4,21,OakalDoakals,"Black, Kaelon",RB,2,2,False,False,-1.8,-1.8,-10.4,8.6,-6.6,False,True
 2026,2,5,22,Manic Moose,"Bell, Chris",WR,0,0,False,False,0,0,-12.4,8.0,-8.0,False,True
@@ -3224,87 +3224,87 @@ season,round,pick,overall,team,player,position,starts_any_team,starts,hit,kept,v
 2026,2,9,26,Manic Moose,"Washington Jr., Mike",RB,1,1,False,False,-0.9,-0.9,-9.8,6.9,-5.9,False,True
 2026,2,10,27,Carter's Commandos,"Fields, Malachi",WR,1,1,False,False,-0.0,-0.0,-9.4,7.2,-6.2,False,True
 2026,2,11,28,Ho Train,"Bernard, Germie",WR,1,1,False,False,0.8,0.8,-9.9,7.3,-6.3,False,True
-2026,2,12,29,Scooter's Boozers,"Allen, Cyrus",WR,0,0,False,False,0,0,-10.9,7.2,-7.2,False,True
+2026,2,12,29,Scooter's Boozers,"Allen, Cyrus",WR,1,1,False,False,-0.6,-0.6,-9.9,7.2,-6.2,False,True
 2026,2,13,30,F-Jackie,"Douglas, Caleb",WR,2,2,False,False,0.6,0.6,-9.0,6.7,-4.7,False,True
 2026,2,14,31,Da Funk,"Singleton, Nicholas",RB,0,0,False,False,0,0,-11.3,7.7,-7.7,False,True
-2026,2,15,32,Karpet Munchers,"Gainwell, Kenneth",RB,5,5,False,False,-2.6,-2.6,-5.9,7.7,-2.7,False,True
+2026,2,15,32,Karpet Munchers,"Gainwell, Kenneth",RB,6,6,False,False,-2.5,-2.5,-4.9,7.7,-1.7,False,True
 2026,2,16,33,Manic Moose,"Branch, Zachariah",WR,0,0,False,False,0,0,-9.8,6.6,-6.6,False,True
 2026,3,1,34,Dunbar Dogs,"Allen, Kaytron",RB,0,0,False,False,0,0,-9.9,6.6,-6.6,False,True
 2026,3,2,35,Tally Wackers,"Boutte, Kayshon",WR,0,0,False,False,0,0,-8.9,6.1,-6.1,False,True
 2026,3,3,36,Blitzkrieg,"Rodriguez, Chris",RB,0,0,False,False,0,0,-8.3,5.5,-5.5,False,True
 2026,3,4,37,OakalDoakals,"Beck, Carson",QB,0,0,False,False,0,0,-8.1,4.7,-4.7,False,True
 2026,3,5,38,Scooter's Boozers,"Spears, Tyjae",RB,0,0,False,False,0,0,-8.8,6.2,-6.2,False,True
-2026,3,6,39,Otters,"Aubrey, Brandon",K,7,7,False,False,0.0,0.0,-2.2,6.5,0.5,False,False
+2026,3,6,39,Otters,"Aubrey, Brandon",K,8,8,False,False,0.5,0.5,-1.2,6.5,1.5,False,False
 2026,3,7,40,Iron City Pounders,"Lance, Bryce",WR,0,0,False,False,0,0,-9.8,6.6,-6.6,False,True
 2026,3,8,41,Couchfire,"Jones, Aaron",RB,3,3,False,False,-1.2,-1.2,-7.1,6.8,-3.8,False,True
-2026,3,9,42,Blitzkrieg,"Sampson, Dylan",RB,1,1,False,False,-0.3,-0.3,-9.2,6.9,-5.9,False,True
+2026,3,9,42,Blitzkrieg,"Sampson, Dylan",RB,2,2,False,False,-0.6,-0.6,-8.2,6.9,-4.9,False,True
 2026,3,10,43,Carter's Commandos,"Davis, Malik",RB,0,0,False,False,0,0,-9.5,5.5,-5.5,False,True
-2026,3,11,44,Ho Train,"Kamara, Alvin",RB,6,5,False,False,-1.0,-0.7,-2.1,4.5,0.5,False,True
+2026,3,11,44,Ho Train,"Kamara, Alvin",RB,6,5,False,False,-0.9,-0.6,-2.1,4.5,0.5,False,True
 2026,3,12,45,F-Jackie,"Claiborne, Demond",RB,1,1,False,False,-1.1,-1.1,-6.8,4.9,-3.9,False,True
 2026,3,13,46,Beers,"Ferguson, Jake",TE,5,5,False,False,-0.4,-0.4,-2.2,4.3,0.7,False,True
 2026,3,14,47,Da Funk,"Stowers, Eli",TE,0,0,False,False,0,0,-6.9,4.1,-4.1,False,True
 2026,3,15,48,Karpet Munchers,"Thomas, Zavion",WR,0,0,False,False,0,0,-7.5,4.7,-4.7,False,True
 2026,3,16,49,Couchfire,"Texans, Houston",Def,2,2,False,False,0.9,0.9,-6.6,5.5,-3.5,False,False
 2026,4,1,50,Dunbar Dogs,"Shaheed, Rashid",WR,3,3,False,False,-1.6,-1.6,-5.5,4.8,-1.8,False,True
-2026,4,2,51,Tally Wackers,"Robinson, Brian",RB,5,5,False,False,-1.9,-1.9,-4.7,5.9,-0.9,False,True
-2026,4,3,52,Texas Nashvillians,"Seahawks, Seattle",Def,7,7,False,False,0.8,0.8,-2.0,6.0,1.0,False,False
-2026,4,4,53,OakalDoakals,"Rams, St. Louis",Def,6,6,False,False,-1.0,-1.0,-2.6,5.4,0.6,False,False
+2026,4,2,51,Tally Wackers,"Robinson, Brian",RB,6,6,False,False,-3.0,-3.0,-3.7,5.9,0.1,False,True
+2026,4,3,52,Texas Nashvillians,"Seahawks, Seattle",Def,8,8,False,False,0.3,0.3,-1.0,6.0,2.0,False,False
+2026,4,4,53,OakalDoakals,"Rams, St. Louis",Def,7,7,False,False,-0.8,-0.8,-1.6,5.4,1.6,False,False
 2026,4,5,54,F-Jackie,"Ferguson, Terrance",TE,0,0,False,False,0,0,-8.2,5.0,-5.0,False,True
-2026,4,6,55,Couchfire,"Broncos, Denver",Def,2,2,False,False,-0.5,-0.5,-6.0,5.0,-3.0,False,False
-2026,4,7,56,Iron City Pounders,"Goedert, Dallas",TE,4,4,False,False,0.9,0.9,-3.1,3.8,0.2,False,True
+2026,4,6,55,Couchfire,"Broncos, Denver",Def,3,3,False,False,-0.8,-0.8,-5.0,5.0,-2.0,False,False
+2026,4,7,56,Iron City Pounders,"Goedert, Dallas",TE,5,5,False,False,0.5,0.5,-2.1,3.8,1.2,False,True
 2026,4,8,57,Blitzkrieg,"McMillan, Jalen",WR,0,0,False,False,0,0,-7.5,3.8,-3.8,False,True
 2026,4,9,58,Manic Moose,"Mitchell, Keaton",RB,0,0,False,False,0,0,-6.7,3.8,-3.8,False,True
 2026,4,10,59,Carter's Commandos,"Wicks, Dontayvion",WR,6,6,False,False,-1.7,-1.7,-0.6,4.1,1.9,False,True
 2026,4,11,60,Ho Train,"Simpson, Ty",QB,0,0,False,False,0,0,-5.9,3.6,-3.6,False,True
 2026,4,12,61,Scooter's Boozers,"Rodgers, Aaron",QB,0,0,False,False,0,0,-6.0,3.4,-3.4,False,True
-2026,4,13,62,Beers,"Steelers, Pittsburgh",Def,6,6,False,False,0.8,0.8,-0.5,3.5,2.5,False,False
-2026,4,14,63,Da Funk,"Vikings, Minnesota",Def,6,6,False,False,2.6,2.6,-0.5,3.2,2.8,False,False
-2026,4,15,64,Karpet Munchers,"Eagles, Philadelphia",Def,4,4,False,False,-1.2,-1.2,-3.6,3.5,0.5,False,False
+2026,4,13,62,Beers,"Steelers, Pittsburgh",Def,7,7,False,False,1.5,1.5,0.5,3.5,3.5,False,False
+2026,4,14,63,Da Funk,"Vikings, Minnesota",Def,7,7,False,False,2.6,2.6,0.5,3.2,3.8,False,False
+2026,4,15,64,Karpet Munchers,"Eagles, Philadelphia",Def,4,4,False,False,-1.3,-1.3,-3.6,3.5,0.5,False,False
 2026,4,16,65,Blitzkrieg,"Mitchell, Adonai",WR,2,2,False,False,-0.4,-0.4,-6.8,4.9,-2.9,False,True
-2026,5,1,66,Dunbar Dogs,"Allen, Keenan",WR,1,1,False,False,-0.5,-0.5,-7.3,5.3,-4.3,False,True
-2026,5,2,67,Tally Wackers,"Freiermuth, Pat",TE,1,1,False,False,-0.5,-0.5,-6.7,5.0,-4.0,False,True
+2026,5,1,66,Dunbar Dogs,"Allen, Keenan",WR,2,2,False,False,-0.5,-0.5,-6.3,5.3,-3.3,False,True
+2026,5,2,67,Tally Wackers,"Freiermuth, Pat",TE,2,2,False,False,0.1,0.1,-5.7,5.0,-3.0,False,True
 2026,5,3,68,Beers,"Bryant, Pat",WR,0,0,False,False,0,0,-8.9,5.8,-5.8,False,True
-2026,5,4,69,OakalDoakals,"Myers, Jason",K,6,4,False,False,-1.0,-0.8,-2.2,5.5,-1.5,False,False
-2026,5,5,70,Texas Nashvillians,"Fairbairn, Ka'imi",K,7,7,False,False,1.6,1.6,0.1,4.2,2.8,False,False
+2026,5,4,69,OakalDoakals,"Myers, Jason",K,7,4,False,False,-1.5,-0.7,-1.2,5.5,-1.5,False,False
+2026,5,5,70,Texas Nashvillians,"Fairbairn, Ka'imi",K,7,7,False,False,1.7,1.7,0.1,4.2,2.8,False,False
 2026,5,6,71,Otters,"Johnson, Juwan",WR,1,1,False,False,-0.8,-0.8,-5.8,4.2,-3.2,False,True
 2026,5,7,72,Iron City Pounders,"McGowan, Seth",RB,0,0,False,False,0,0,-7.0,4.4,-4.4,False,True
 2026,5,8,73,Otters,"Hill, Justice",RB,0,0,False,False,0,0,-5.4,3.4,-3.4,False,True
 2026,5,9,74,Manic Moose,"Smith, Geno",QB,3,3,False,False,-0.4,-0.4,-2.4,3.1,-0.1,False,True
-2026,5,10,75,Carter's Commandos,"Little, Cam",K,6,6,False,False,0.8,0.8,0.1,3.0,3.0,False,False
-2026,5,11,76,Ho Train,"Wright, Jaylen",RB,3,3,False,False,-3.0,-3.0,-3.6,3.2,-0.2,False,True
+2026,5,10,75,Carter's Commandos,"Little, Cam",K,7,7,False,False,0.6,0.6,1.1,3.0,4.0,False,False
+2026,5,11,76,Ho Train,"Wright, Jaylen",RB,4,4,False,False,-4.1,-4.1,-2.6,3.2,0.8,False,True
 2026,5,12,77,Scooter's Boozers,"Bell, Skyler",WR,0,0,False,False,0,0,-5.7,2.6,-2.6,False,True
-2026,5,13,78,Texas Nashvillians,"TeSlaa, Isaac",WR,0,0,False,False,0,0,-6.8,3.6,-3.6,False,True
+2026,5,13,78,Texas Nashvillians,"TeSlaa, Isaac",WR,1,0,False,False,-0.9,0,-5.8,3.6,-3.6,False,True
 2026,5,14,79,Da Funk,"Brazzell II, Chris",WR,0,0,False,False,0,0,-7.1,3.9,-3.9,False,True
-2026,5,15,80,Karpet Munchers,"Dicker, Cameron",K,2,2,False,False,-1.4,-1.4,-4.5,3.7,-1.7,False,False
-2026,5,16,81,Blitzkrieg,"Reichard, Will",K,3,0,False,False,2.4,0,-3.2,3.9,-3.9,False,False
-2026,6,1,82,Dunbar Dogs,"Boswell, Chris",K,7,7,False,False,1.1,1.1,0.5,4.1,2.9,False,False
-2026,6,2,83,Tally Wackers,"Jaguars, Jacksonville",Def,4,4,False,False,-0.4,-0.4,-2.0,3.4,0.6,False,False
+2026,5,15,80,Karpet Munchers,"Dicker, Cameron",K,2,2,False,False,-1.3,-1.3,-4.5,3.7,-1.7,False,False
+2026,5,16,81,Blitzkrieg,"Reichard, Will",K,4,0,False,False,1.7,0,-2.2,3.9,-3.9,False,False
+2026,6,1,82,Dunbar Dogs,"Boswell, Chris",K,8,8,False,False,1.2,1.2,1.5,4.1,3.9,False,False
+2026,6,2,83,Tally Wackers,"Jaguars, Jacksonville",Def,4,4,False,False,-0.5,-0.5,-2.0,3.4,0.6,False,False
 2026,6,3,84,Texas Nashvillians,"Sarratt, Elijah",WR,0,0,False,False,0,0,-5.4,3.8,-3.8,False,True
 2026,6,4,85,OakalDoakals,"Henry, Hunter",TE,3,3,False,False,-0.8,-0.8,-3.5,4.2,-1.2,False,True
-2026,6,5,86,F-Jackie,"Penix Jr., Michael",QB,2,2,False,False,0.1,0.1,-4.3,3.8,-1.8,False,True
-2026,6,6,87,Otters,"Patriots, New England",Def,5,2,False,False,0.6,1.0,-1.2,3.8,-1.8,False,False
+2026,6,5,86,F-Jackie,"Penix Jr., Michael",QB,3,3,False,False,-2.4,-2.4,-3.3,3.8,-0.8,False,True
+2026,6,6,87,Otters,"Patriots, New England",Def,6,2,False,False,0.7,1.0,-0.2,3.8,-1.8,False,False
 2026,6,7,88,Iron City Pounders,"Hockenson, T.J.",TE,3,3,False,False,-0.5,-0.5,-3.4,3.6,-0.6,False,True
 2026,6,8,89,Couchfire,"Tagovailoa, Tua",QB,0,0,False,False,0,0,-6.8,2.7,-2.7,False,True
 2026,6,9,90,Manic Moose,"Strange, Brenton",TE,0,0,False,False,0,0,-5.8,2.5,-2.5,False,True
-2026,6,10,91,Carter's Commandos,"Schultz, Dalton",TE,5,5,False,False,-1.8,-1.8,-1.5,3.6,1.4,False,True
+2026,6,10,91,Carter's Commandos,"Schultz, Dalton",TE,5,5,False,False,-1.9,-1.9,-1.5,3.6,1.4,False,True
 2026,6,11,92,Ho Train,"Miller, Kendre",RB,2,2,False,False,-1.1,-1.1,-5.0,3.3,-1.3,False,True
-2026,6,12,93,Scooter's Boozers,"Mevis, Harrison",K,3,2,False,False,-1.5,-1.3,-3.4,3.2,-1.2,False,False
-2026,6,13,94,Beers,"Vele, Devaughn",WR,6,6,False,False,-1.0,-1.0,0.4,3.0,3.0,False,True
-2026,6,14,95,Da Funk,"Ayomanor, Elic",WR,4,4,False,False,-2.3,-2.3,-2.3,3.5,0.5,False,True
+2026,6,12,93,Scooter's Boozers,"Mevis, Harrison",K,3,2,False,False,-1.4,-1.2,-3.4,3.2,-1.2,False,False
+2026,6,13,94,Beers,"Vele, Devaughn",WR,6,6,False,False,-0.9,-0.9,0.4,3.0,3.0,False,True
+2026,6,14,95,Da Funk,"Ayomanor, Elic",WR,5,5,False,False,-2.8,-2.8,-1.3,3.5,1.5,False,True
 2026,6,15,96,Karpet Munchers,"Allar, Drew",QB,0,0,False,False,0,0,-6.7,3.4,-3.4,False,True
 2026,6,16,97,Blitzkrieg,"Vidal, Kimani",RB,0,0,False,False,0,0,-7.3,4,-4,False,True
-2026,7,1,98,Dunbar Dogs,"Bills, Buffalo",Def,6,6,False,False,-1.7,-1.7,-0.7,3.6,2.4,False,False
-2026,7,2,99,Tally Wackers,"McPherson, Evan",K,6,6,False,False,0.6,0.6,-1.9,3.4,2.6,False,False
+2026,7,1,98,Dunbar Dogs,"Bills, Buffalo",Def,6,6,False,False,-1.9,-1.9,-0.7,3.6,2.4,False,False
+2026,7,2,99,Tally Wackers,"McPherson, Evan",K,7,7,False,False,0.3,0.3,-0.9,3.4,3.6,False,False
 2026,7,3,100,Texas Nashvillians,"Okonkwo, Chigoziem",TE,0,0,False,False,0,0,-7.2,2.8,-2.8,False,True
 2026,7,4,101,OakalDoakals,"Holani, George",RB,2,2,False,False,-1.7,-1.7,-4.6,2.4,-0.4,False,True
 2026,7,5,102,F-Jackie,"Davis, Ray",RB,0,0,False,False,0,0,-5.9,2.1,-2.1,False,True
 2026,7,6,103,Otters,"Coleman, Keon",WR,0,0,False,False,0,0,-6.5,2.2,-2.2,False,True
 2026,7,7,104,Iron City Pounders,"Watson, Deshaun",QB,0,0,False,False,0,0,-4.8,2.1,-2.1,False,True
 2026,7,8,105,Couchfire,"Barner, AJ",TE,0,0,False,False,0,0,-5.1,2.3,-2.3,False,True
-2026,7,9,106,Manic Moose,"Bates, Jake",K,6,5,False,False,0.2,0.2,0.7,2.3,2.7,False,False
+2026,7,9,106,Manic Moose,"Bates, Jake",K,7,5,False,False,0.1,0.3,1.7,2.3,2.7,False,False
 2026,7,10,107,Carter's Commandos,"Hutchinson, Xavier",WR,4,4,False,False,-1.6,-1.6,-1.6,2.7,1.3,False,True
 2026,7,11,108,Ho Train,"Harris, Najee",RB,1,1,False,False,-1.1,-1.1,-4.7,2.9,-1.9,False,True
-2026,7,12,109,Scooter's Boozers,"Chargers, San Diego",Def,6,6,False,False,-0.3,-0.3,-0.2,3.4,2.6,False,False
+2026,7,12,109,Scooter's Boozers,"Chargers, San Diego",Def,6,6,False,False,-0.5,-0.5,-0.2,3.4,2.6,False,False
 2026,7,13,110,Beers,"Njoku, David",TE,0,0,False,False,0,0,-6.7,3.5,-3.5,False,True
 2026,7,14,111,Da Funk,"Jennings, Jauan",WR,0,0,False,False,0,0,-6.7,2.7,-2.7,False,True
 2026,7,15,112,Karpet Munchers,"Brooks, Chris",RB,1,1,False,False,-1.0,-1.0,-6,2.8,-1.8,False,True
@@ -3315,32 +3315,32 @@ season,round,pick,overall,team,player,position,starts_any_team,starts,hit,kept,v
 2026,8,4,117,OakalDoakals,"Washington, Darnell",TE,1,1,False,False,0.3,0.3,-4.4,2.2,-1.2,False,True
 2026,8,5,118,F-Jackie,"Saylors, Jacob",RB,0,0,False,False,0,0,-5.7,2.1,-2.1,False,True
 2026,8,6,119,Otters,"Johnson, Kaleb",RB,0,0,False,False,0,0,-6.5,2.6,-2.6,False,True
-2026,8,7,120,Iron City Pounders,"Butker, Harrison",K,6,4,False,False,-0.1,-0.3,0.8,2.3,1.7,False,False
-2026,8,8,121,Couchfire,"Ravens, Baltimore",Def,2,2,False,False,0.3,0.3,-2.9,2.1,-0.1,False,False
+2026,8,7,120,Iron City Pounders,"Butker, Harrison",K,7,4,False,False,-0.1,-0.2,1.8,2.3,1.7,False,False
+2026,8,8,121,Couchfire,"Ravens, Baltimore",Def,2,2,False,False,0.2,0.2,-2.9,2.1,-0.1,False,False
 2026,8,9,122,Manic Moose,"Higgins, Jayden",WR,0,0,False,False,0,0,-5.5,2.8,-2.8,False,True
 2026,8,10,123,Carter's Commandos,"Perine, Samaje",RB,0,0,False,False,0,0,-6.9,3.9,-3.9,False,True
-2026,8,11,124,Ho Train,"Elliott, Jake",K,6,6,False,False,-1.9,-1.9,-0.1,3.5,2.5,False,False
+2026,8,11,124,Ho Train,"Elliott, Jake",K,6,6,False,False,-1.8,-1.8,-0.1,3.5,2.5,False,False
 2026,8,12,125,Scooter's Boozers,"Dulcich, Greg",TE,0,0,False,False,0,0,-6.0,3.0,-3.0,False,True
 2026,8,13,126,Beers,"Conner, James",RB,0,0,False,False,0,0,-6.2,3.0,-3.0,False,True
 2026,8,14,127,Da Funk,"Montgomery, Tyren",WR,0,0,False,False,0,0,-5.9,2.7,-2.7,False,True
 2026,8,15,128,Karpet Munchers,"Edmonds, Chase",RB,0,0,False,False,0,0,-4.0,1.5,-1.5,False,True
-2026,8,16,129,Blitzkrieg,"Packers, Green Bay",Def,5,5,False,False,0.3,0.3,1.5,1.3,3.7,False,False
+2026,8,16,129,Blitzkrieg,"Packers, Green Bay",Def,6,5,False,False,0.6,0.2,2.5,1.3,3.7,False,False
 2026,9,2,130,Tally Wackers,"McLaughlin, Chase",K,1,1,False,False,0.9,0.9,-2.1,1.3,-0.3,False,False
 2026,9,3,131,Texas Nashvillians,"Thompson, Brenen",WR,0,0,False,False,0,0,-3.6,2.2,-2.2,False,True
 2026,9,4,132,OakalDoakals,"Zvada, Dominic",K,3,3,False,False,-0.1,-0.1,-0.5,2.1,0.9,False,False
-2026,9,5,133,F-Jackie,"Chiefs, Kansas City",Def,4,4,False,False,-0.1,-0.1,0.5,2.2,1.8,False,False
-2026,9,6,134,Otters,"Cousins, Kirk",QB,3,3,False,False,0.7,0.7,-0.8,2.3,0.7,False,True
+2026,9,5,133,F-Jackie,"Chiefs, Kansas City",Def,4,4,False,False,-0.2,-0.2,0.5,2.2,1.8,False,False
+2026,9,6,134,Otters,"Cousins, Kirk",QB,4,4,False,False,2.2,2.2,0.2,2.3,1.7,False,True
 2026,9,7,135,Iron City Pounders,"Wilson, Roman",WR,0,0,False,False,0,0,-4.3,2.6,-2.6,False,True
-2026,9,8,136,Couchfire,"Gordon, Ollie",RB,2,0,False,False,0.4,0,-1.1,1.6,-1.6,False,True
-2026,9,9,137,Manic Moose,"Lions, Detroit",Def,5,5,False,False,-0.4,-0.4,2.1,1.5,3.5,False,False
-2026,9,10,138,Carter's Commandos,"Bears, Chicago",Def,7,7,False,False,0.5,0.5,3.6,1.7,5.3,False,False
-2026,9,11,139,Ho Train,"Giants, New York",Def,5,5,False,False,-0.0,-0.0,0.9,1.8,3.2,False,False
+2026,9,8,136,Couchfire,"Gordon, Ollie",RB,3,0,False,False,-0.1,0,-0.1,1.6,-1.6,False,True
+2026,9,9,137,Manic Moose,"Lions, Detroit",Def,5,5,False,False,-0.5,-0.5,2.1,1.5,3.5,False,False
+2026,9,10,138,Carter's Commandos,"Bears, Chicago",Def,8,8,False,False,0.4,0.4,4.6,1.7,6.3,False,False
+2026,9,11,139,Ho Train,"Giants, New York",Def,5,5,False,False,-0.1,-0.1,0.9,1.8,3.2,False,False
 2026,9,12,140,Scooter's Boozers,"Kupp, Cooper",WR,2,2,False,False,-1.4,-1.4,-2.0,1.6,0.4,False,True
-2026,9,13,141,Beers,"Douglas, Demario",WR,2,2,False,False,-1.3,-1.3,-2.3,1.7,0.3,False,True
-2026,9,14,142,Da Funk,"Pineiro, Eddy",K,6,6,False,False,-1.2,-1.2,1.7,1.5,4.5,False,False
-2026,9,15,143,Karpet Munchers,"Gesicki, Mike",TE,1,1,False,False,-0.2,-0.2,-2.8,1.6,-0.6,False,True
+2026,9,13,141,Beers,"Douglas, Demario",WR,3,3,False,False,-0.5,-0.5,-1.3,1.7,1.3,False,True
+2026,9,14,142,Da Funk,"Pineiro, Eddy",K,6,6,False,False,-1.1,-1.1,1.7,1.5,4.5,False,False
+2026,9,15,143,Karpet Munchers,"Gesicki, Mike",TE,2,2,False,False,0.6,0.6,-1.8,1.6,0.4,False,True
 2026,9,16,144,Blitzkrieg,"Delp, Oscar",TE,0,0,False,False,0,0,-2.8,1.4,-1.4,False,True
-2026,10,2,145,Tally Wackers,"Falcons, Atlanta",Def,3,3,False,False,0.4,0.4,0.3,1.5,1.5,False,False
+2026,10,2,145,Tally Wackers,"Falcons, Atlanta",Def,4,4,False,False,0.1,0.1,1.3,1.5,2.5,False,False
 2026,10,3,146,Texas Nashvillians,"Saints, New Orleans",Def,1,0,False,False,0.4,0,-1.5,1.2,-1.2,False,False
 2026,10,4,147,OakalDoakals,"Hollins, Mack",WR,1,1,False,False,-0.9,-0.9,-1.6,1.5,-0.5,False,True
 2026,10,5,148,F-Jackie,"Nailor, Jalen",WR,1,1,False,False,-0.5,-0.5,-1.5,1.0,0.0,False,True
@@ -3348,24 +3348,24 @@ season,round,pick,overall,team,player,position,starts_any_team,starts,hit,kept,v
 2026,10,7,150,Iron City Pounders,"Heidenreich, Eli",RB,0,0,False,False,0,0,-2.7,1.1,-1.1,False,True
 2026,10,8,151,Couchfire,"Dell, Tank",WR,1,0,False,False,-0.5,0,-2.1,1.2,-1.2,False,True
 2026,10,9,152,Manic Moose,"Allen, LeQuint",RB,0,0,False,False,0,0,-3.2,1.1,-1.1,False,True
-2026,10,10,153,Carter's Commandos,"Otton, Cade",TE,2,2,False,False,-0.6,-0.6,-1.4,1.3,0.7,False,True
+2026,10,10,153,Carter's Commandos,"Otton, Cade",TE,3,3,False,False,-1.4,-1.4,-0.4,1.3,1.7,False,True
 2026,10,12,154,Scooter's Boozers,"Thornton, Tyquan",WR,0,0,False,False,0,0,-3.9,1.2,-1.2,False,True
-2026,10,13,155,Beers,"Ridley, Calvin",WR,0,0,False,False,0,0,-4.0,1.3,-1.3,False,True
+2026,10,13,155,Beers,"Ridley, Calvin",WR,1,0,False,False,-0.8,0,-3.0,1.3,-1.3,False,True
 2026,10,14,156,Da Funk,"Blue, Jaydon",RB,0,0,False,False,0,0,-3.6,1.3,-1.3,False,True
 2026,10,15,157,Karpet Munchers,"Bourne, Kendrick",WR,0,0,False,False,0,0,-3.2,1.1,-1.1,False,True
 2026,10,16,158,Blitzkrieg,"Raridon, Eli",TE,0,0,False,False,0,0,-3.6,1.1,-1.1,False,True
-2026,11,4,159,OakalDoakals,"Browns, Cleveland",Def,3,0,False,False,0.5,0,-0.2,1.0,-1.0,False,False
+2026,11,4,159,OakalDoakals,"Browns, Cleveland",Def,4,0,False,False,0.1,0,0.8,1.0,-1.0,False,False
 2026,11,5,160,F-Jackie,"Green, Taylen",QB,0,0,False,False,0,0,-3.6,0.8,-0.8,False,True
 2026,11,6,161,Otters,"Dotson, Jahan",WR,1,1,False,False,-0.8,-0.8,-2.5,0.6,0.4,False,True
-2026,11,7,162,Iron City Pounders,"Titans, Tennessee",Def,3,2,False,False,-0.5,-0.2,-0.6,0.8,1.2,False,False
+2026,11,7,162,Iron City Pounders,"Titans, Tennessee",Def,4,2,False,False,-0.4,-0.3,0.4,0.8,1.2,False,False
 2026,11,10,163,Carter's Commandos,"Vaki, Sione",RB,0,0,False,False,0,0,-4.0,1.0,-1.0,False,True
 2026,11,12,164,Scooter's Boozers,"Taylor, Tyrod",QB,0,0,False,False,0,0,-3.7,1,-1,False,True
-2026,11,13,165,Beers,"Lutz, Wil",K,3,3,False,False,-1.2,-1.2,-0.7,1.1,1.9,False,False
+2026,11,13,165,Beers,"Lutz, Wil",K,3,3,False,False,-1.1,-1.1,-0.7,1.1,1.9,False,False
 2026,11,14,166,Da Funk,"Horton, Tory",WR,1,1,False,False,-0.7,-0.7,-2.9,1.5,-0.5,False,True
 2026,11,15,167,Karpet Munchers,"Boerkircher, Nate",TE,0,0,False,False,0,0,-3.5,1.4,-1.4,False,True
-2026,11,16,168,Blitzkrieg,"Loop, Tyler",K,7,7,False,False,0.7,0.7,4.0,0.9,6.1,False,False
+2026,11,16,168,Blitzkrieg,"Loop, Tyler",K,8,8,False,False,0.3,0.3,5.0,0.9,7.1,False,False
 2026,12,4,169,OakalDoakals,"Singletary, Devin",RB,0,0,False,False,0,0,-3.4,1.5,-1.5,False,True
-2026,12,5,170,F-Jackie,"Santos, Cairo",K,7,7,False,False,0.0,0.0,3.6,1.3,5.7,False,False
+2026,12,5,170,F-Jackie,"Santos, Cairo",K,8,8,False,False,0.3,0.3,4.6,1.3,6.7,False,False
 2026,12,10,171,Carter's Commandos,"McCarthy, J.J.",QB,1,0,False,False,-1.1,0,-2.2,1.1,-1.1,False,True
 2026,12,12,172,Scooter's Boozers,"Benson, Malik",WR,0,0,False,False,0,0,-3.7,1.0,-1.0,False,True
 2026,12,14,173,Da Funk,"Williams, Kyle",WR,1,0,False,False,-0.7,0,-2.0,1.0,-1.0,False,True

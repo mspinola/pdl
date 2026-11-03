@@ -12042,5 +12042,142 @@
   "source": "mfl",
   "assets_known": true,
   "incomplete": false
+ },
+ {
+  "season": 2026,
+  "date": "2026-11-01",
+  "date_precision": "day",
+  "timestamp": 1793543347,
+  "team_a": "Couchfire",
+  "team_b": "F-Jackie",
+  "a_gave": [
+   {
+    "kind": "player",
+    "id": "17497",
+    "label": "Tate, Carnell",
+    "position": "WR"
+   }
+  ],
+  "b_gave": [
+   {
+    "kind": "player",
+    "id": "16627",
+    "label": "McConkey, Ladd",
+    "position": "WR"
+   }
+  ],
+  "by_commish": false,
+  "comments": "",
+  "source": "mfl",
+  "assets_known": true,
+  "incomplete": false
+ },
+ {
+  "season": 2026,
+  "date": "2026-11-01",
+  "date_precision": "day",
+  "timestamp": 1793581903,
+  "team_a": "Manic Moose",
+  "team_b": "Texas Nashvillians",
+  "a_gave": [
+   {
+    "kind": "player",
+    "id": "17507",
+    "label": "Branch, Zachariah",
+    "position": "WR"
+   },
+   {
+    "kind": "pick",
+    "label": "2027 R4",
+    "origin_franchise": "0001",
+    "year": 2027,
+    "round": 4
+   },
+   {
+    "kind": "pick",
+    "label": "2028 R2",
+    "origin_franchise": "0001",
+    "year": 2028,
+    "round": 2
+   }
+  ],
+  "b_gave": [
+   {
+    "kind": "player",
+    "id": "9431",
+    "label": "Stafford, Matthew",
+    "position": "QB"
+   }
+  ],
+  "by_commish": false,
+  "comments": "adding branch as i need to free up a spot",
+  "source": "mfl",
+  "assets_known": true,
+  "incomplete": false
+ },
+ {
+  "season": 2026,
+  "date": "2026-11-01",
+  "date_precision": "day",
+  "timestamp": 1793584273,
+  "team_a": "Beers",
+  "team_b": "Texas Nashvillians",
+  "a_gave": [
+   {
+    "kind": "player",
+    "id": "13590",
+    "label": "Mayfield, Baker",
+    "position": "QB"
+   }
+  ],
+  "b_gave": [
+   {
+    "kind": "player",
+    "id": "15889",
+    "label": "Okonkwo, Chigoziem",
+    "position": "TE"
+   }
+  ],
+  "by_commish": false,
+  "comments": "",
+  "source": "mfl",
+  "assets_known": true,
+  "incomplete": false
+ },
+ {
+  "season": 2026,
+  "date": "2026-11-01",
+  "date_precision": "day",
+  "timestamp": 1793585821,
+  "team_a": "Beers",
+  "team_b": "Manic Moose",
+  "a_gave": [
+   {
+    "kind": "player",
+    "id": "17542",
+    "label": "Young, Colbie",
+    "position": "WR"
+   },
+   {
+    "kind": "pick",
+    "label": "2028 R2",
+    "origin_franchise": "0008",
+    "year": 2028,
+    "round": 2
+   }
+  ],
+  "b_gave": [
+   {
+    "kind": "player",
+    "id": "17506",
+    "label": "Bell, Chris",
+    "position": "WR"
+   }
+  ],
+  "by_commish": false,
+  "comments": "",
+  "source": "mfl",
+  "assets_known": true,
+  "incomplete": false
  }
 ]

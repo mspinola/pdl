@@ -58,21 +58,22 @@ OakalDoakals,Otters,21,7,14,0,1867.5,2200.6,26,yes
 Otters,Scooter's Boozers,21,17,4,0,1948.5,1579.5,27,yes
 Carter's Commandos,Otters,20,9,11,0,2127.4,2226.1,27,yes
 Couchfire,Texas Nashvillians,20,9,11,0,2161.3,2051.2,9,yes
+Karpet Munchers,Manic Moose,20,14,6,0,2062.4,1808.0,27,yes
 Carter's Commandos,Iron City Pounders,19,5,14,0,1458.8,1863.7,27,yes
 Da Funk,Dunbar Dogs,19,12,6,1,1513.3,1391.7,27,yes
 Da Funk,Texas Nashvillians,19,11,8,0,1733.3,1424.2,27,yes
 Dunbar Dogs,Otters,19,6,12,1,1591.8,1863.9,27,yes
 F-Jackie,Karpet Munchers,19,5,14,0,1520.3,1897.4,27,yes
-Karpet Munchers,Manic Moose,19,14,5,0,1965.8,1675.7,27,yes
 OakalDoakals,Texas Nashvillians,19,13,6,0,1621.9,1508.0,26,yes
 Beers,Couchfire,18,11,7,0,2194.2,1999.6,9,yes
 Beers,F-Jackie,18,10,8,0,1841.4,1779.6,26,yes
+Beers,Tally Wackers,18,10,8,0,1745.7,1613.5,26,yes
+Blitzkrieg,Ho Train,18,5,13,0,1588.6,1736.4,27,yes
 Da Funk,Ho Train,18,9,9,0,1507.3,1594.1,27,yes
-Beers,Tally Wackers,17,9,8,0,1623.1,1525.9,26,yes
-Blitzkrieg,Ho Train,17,4,13,0,1463.0,1645.7,27,yes
 Bunchalosers,Ho Train,17,4,13,0,1054.0,1376.0,18,yes
 Carter's Commandos,Ho Train,17,5,12,0,1517.7,1995.6,27,yes
 Carter's Commandos,Karpet Munchers,17,5,12,0,1413.4,1538.3,27,yes
+Carter's Commandos,Texas Nashvillians,17,9,8,0,1514.2,1481.1,27,yes
 Couchfire,Scooter's Boozers,17,9,8,0,1848.7,1821.8,9,yes
 F-Jackie,Texas Nashvillians,17,7,9,1,1465.3,1531.1,27,yes
 Ho Train,Tally Wackers,17,7,10,0,1612.2,1654.5,27,yes
@@ -83,7 +84,6 @@ Otters,Tally Wackers,17,10,7,0,1473.4,1452.4,27,yes
 Beers,Blitzkrieg,16,7,8,1,1397.3,1271.3,26,yes
 Blitzkrieg,Karpet Munchers,16,5,11,0,1399.0,1452.7,27,yes
 Bunchalosers,Otters,16,4,12,0,1037.0,1289.0,18,yes
-Carter's Commandos,Texas Nashvillians,16,9,7,0,1455.3,1327.6,27,yes
 Dunbar Dogs,Iron City Pounders,16,4,12,0,1284.0,1442.8,27,yes
 Manic Moose,Scooter's Boozers,16,11,5,0,1747.0,1437.3,27,yes
 Dunbar Dogs,Texas Nashvillians,15,8,7,0,1248.5,1202.1,27,yes
@@ -93,21 +93,21 @@ Beers,Da Funk,14,6,8,0,1302.2,1242.6,26,yes
 Beers,Manic Moose,14,7,7,0,1227.9,1285.6,26,yes
 Bunchalosers,Tally Wackers,14,8,6,0,1253.0,1217.0,18,yes
 Carter's Commandos,Scooter's Boozers,14,5,9,0,1065.5,1269.5,27,yes
+Da Funk,Iron City Pounders,14,8,6,0,1126.7,1084.6,27,yes
 Da Funk,Otters,14,3,11,0,1071.9,1244.7,27,yes
 Dunbar Dogs,Ho Train,14,4,10,0,1340.7,1614.0,27,yes
 Blitzkrieg,Iron City Pounders,13,8,5,0,1113.7,1062.0,27,yes
 Blitzkrieg,Texas Nashvillians,13,7,6,0,1197.8,1219.3,27,yes
 Bunchalosers,Karpet Munchers,13,3,10,0,774.0,1054.0,18,yes
-Da Funk,Iron City Pounders,13,7,6,0,1027.8,1016.8,27,yes
 Dunbar Dogs,Scooter's Boozers,13,5,8,0,1133.4,1168.1,27,yes
 F-Jackie,Ho Train,13,5,8,0,1201.2,1187.4,27,yes
+F-Jackie,Otters,13,7,6,0,1056.3,1108.6,27,yes
 F-Jackie,Scooter's Boozers,13,5,8,0,1168.5,1358.7,27,yes
 Ho Train,Manic Moose,13,9,4,0,1329.6,1212.4,27,yes
 Beers,Carter's Commandos,12,5,7,0,1019.5,1042.7,26,yes
 Blitzkrieg,Otters,12,5,7,0,1074.1,1211.4,27,yes
 Da Funk,Karpet Munchers,12,4,8,0,955.4,1239.0,27,yes
 F-Jackie,Iron City Pounders,12,4,8,0,930.3,1060.9,27,yes
-F-Jackie,Otters,12,6,6,0,947.2,1006.4,27,yes
 Iron City Pounders,OakalDoakals,12,6,6,0,1096.8,1115.1,26,yes
 Tally Wackers,Texas Nashvillians,12,6,6,0,1039.7,997.7,27,yes
 Beers,OakalDoakals,11,6,5,0,1064.1,1004.1,26,yes
@@ -118,9 +118,9 @@ Iron City Pounders,Manic Moose,11,2,9,0,881.3,1120.5,27,yes
 Scooter's Boozers,Tally Wackers,11,3,8,0,725.8,892.5,27,yes
 Beers,Dunbar Dogs,10,6,4,0,673.8,679.8,26,yes
 Bunchalosers,Da Funk,10,3,6,1,617.0,758.0,18,yes
+OakalDoakals,Scooter's Boozers,10,2,8,0,679.5,969.9,26,yes
 Bunchalosers,Manic Moose,9,5,4,0,708.0,699.0,18,yes
 Couchfire,Otters,9,4,5,0,945.9,1076.0,9,yes
-OakalDoakals,Scooter's Boozers,9,2,7,0,603.2,865.0,26,yes
 Bunchalosers,Dunbar Dogs,8,3,3,2,609.0,586.0,18,yes
 Bunchalosers,OakalDoakals,8,1,7,0,626.0,774.0,17,yes
 Couchfire,Ho Train,8,2,6,0,785.7,1044.5,9,yes
@@ -133,5 +133,5 @@ Couchfire,Tally Wackers,6,3,3,0,651.0,635.8,9,yes
 Couchfire,Da Funk,5,2,3,0,480.7,533.3,9,yes
 Couchfire,OakalDoakals,5,3,2,0,522.0,517.0,9,yes
 Carter's Commandos,Couchfire,4,3,1,0,496.6,374.8,9,yes
-Couchfire,Dunbar Dogs,3,2,1,0,244.4,252.5,9,yes
+Couchfire,Dunbar Dogs,4,3,1,0,408.7,375.2,9,yes
 Bunchalosers,Couchfire,0,0,0,0,0,0,0,no

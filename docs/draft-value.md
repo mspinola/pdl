@@ -52,7 +52,7 @@ Kickers and defenses are split out: they start every week once drafted, so they 
 Every pick 17 so far, including drafts still inside their three seasons:
 
 - 2023: Blitzkrieg took Mims, Marvin (WR), 4 starts so far
-- 2024: Otters took Corum, Blake (RB), 4 starts so far
+- 2024: Otters took Corum, Blake (RB), 5 starts so far
 - 2026: Otters took Willis, Malik (QB), 0 starts so far
 
 ## Owners

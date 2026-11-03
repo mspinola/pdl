@@ -2,40 +2,40 @@
  "meta": {
   "league": "PDL",
   "seasons": "2000-2026",
-  "trades": 408,
-  "trades_mfl": 310,
+  "trades": 412,
+  "trades_mfl": 314,
   "trades_archive": 98,
   "owners": 17,
-  "players_moved": 471,
-  "picks_moved": 343,
+  "players_moved": 479,
+  "picks_moved": 346,
   "incomplete_records": 24,
   "possible_pairings": 135
  },
  "owners": [
   {
    "owner": "Beers",
-   "trades": 113,
+   "trades": 115,
    "seasons": 26,
-   "per_season": 4.35,
+   "per_season": 4.42,
    "seasons_with_a_trade": 25,
    "distinct_partners": 16,
    "possible_partners": 16,
    "top_partner": "Texas Nashvillians",
-   "top_partner_trades": 18,
+   "top_partner_trades": 19,
    "first_season": 2001,
    "last_season": 2026,
-   "net_picks": 0,
-   "players_out": 67,
-   "picks_out": 40,
-   "players_in": 68,
+   "net_picks": -1,
+   "players_out": 69,
+   "picks_out": 41,
+   "players_in": 70,
    "picks_in": 40,
    "partners": {
-    "Texas Nashvillians": 18,
+    "Texas Nashvillians": 19,
     "Otters": 9,
     "OakalDoakals": 6,
     "Da Funk": 14,
     "Scooter's Boozers": 13,
-    "Manic Moose": 11,
+    "Manic Moose": 12,
     "Tally Wackers": 6,
     "Bunchalosers": 9,
     "Dunbar Dogs": 4,
@@ -142,9 +142,9 @@
   },
   {
    "owner": "Couchfire",
-   "trades": 35,
+   "trades": 36,
    "seasons": 9,
-   "per_season": 3.89,
+   "per_season": 4.0,
    "seasons_with_a_trade": 9,
    "distinct_partners": 13,
    "possible_partners": 15,
@@ -153,9 +153,9 @@
    "first_season": 2018,
    "last_season": 2026,
    "net_picks": -2,
-   "players_out": 31,
+   "players_out": 32,
    "picks_out": 25,
-   "players_in": 26,
+   "players_in": 27,
    "picks_in": 23,
    "partners": {
     "Scooter's Boozers": 3,
@@ -169,7 +169,7 @@
     "Texas Nashvillians": 3,
     "Beers": 2,
     "Tally Wackers": 1,
-    "F-Jackie": 3,
+    "F-Jackie": 4,
     "Blitzkrieg": 2
    },
    "note": "Took over the franchise in 2018 and renamed it."
@@ -242,9 +242,9 @@
   },
   {
    "owner": "F-Jackie",
-   "trades": 46,
+   "trades": 47,
    "seasons": 27,
-   "per_season": 1.7,
+   "per_season": 1.74,
    "seasons_with_a_trade": 19,
    "distinct_partners": 13,
    "possible_partners": 16,
@@ -253,9 +253,9 @@
    "first_season": 2000,
    "last_season": 2026,
    "net_picks": 5,
-   "players_out": 29,
+   "players_out": 30,
    "picks_out": 20,
-   "players_in": 33,
+   "players_in": 34,
    "picks_in": 25,
    "partners": {
     "Carter's Commandos": 1,
@@ -269,7 +269,7 @@
     "Manic Moose": 9,
     "Ho Train": 4,
     "Iron City Pounders": 1,
-    "Couchfire": 3,
+    "Couchfire": 4,
     "Blitzkrieg": 1
    },
    "note": ""
@@ -372,9 +372,9 @@
   },
   {
    "owner": "Manic Moose",
-   "trades": 100,
+   "trades": 102,
    "seasons": 27,
-   "per_season": 3.7,
+   "per_season": 3.78,
    "seasons_with_a_trade": 24,
    "distinct_partners": 16,
    "possible_partners": 16,
@@ -382,11 +382,11 @@
    "top_partner_trades": 12,
    "first_season": 2000,
    "last_season": 2026,
-   "net_picks": -14,
-   "players_out": 60,
-   "picks_out": 44,
-   "players_in": 65,
-   "picks_in": 30,
+   "net_picks": -15,
+   "players_out": 62,
+   "picks_out": 46,
+   "players_in": 67,
+   "picks_in": 31,
    "partners": {
     "Dunbar Dogs": 6,
     "Blitzkrieg": 7,
@@ -395,8 +395,8 @@
     "OakalDoakals": 12,
     "Scooter's Boozers": 10,
     "Carter's Commandos": 4,
-    "Beers": 11,
-    "Texas Nashvillians": 4,
+    "Beers": 12,
+    "Texas Nashvillians": 5,
     "Iron City Pounders": 6,
     "Otters": 5,
     "Tally Wackers": 4,
@@ -546,29 +546,29 @@
   },
   {
    "owner": "Texas Nashvillians",
-   "trades": 81,
+   "trades": 83,
    "seasons": 27,
-   "per_season": 3.0,
+   "per_season": 3.07,
    "seasons_with_a_trade": 23,
    "distinct_partners": 16,
    "possible_partners": 16,
    "top_partner": "Beers",
-   "top_partner_trades": 18,
+   "top_partner_trades": 19,
    "first_season": 2000,
    "last_season": 2026,
-   "net_picks": -10,
-   "players_out": 46,
+   "net_picks": -8,
+   "players_out": 48,
    "picks_out": 34,
-   "players_in": 43,
-   "picks_in": 24,
+   "players_in": 45,
+   "picks_in": 26,
    "partners": {
     "Iron City Pounders": 4,
     "Ho Train": 6,
-    "Beers": 18,
+    "Beers": 19,
     "Scooter's Boozers": 12,
     "Bunchalosers": 3,
     "Tally Wackers": 8,
-    "Manic Moose": 4,
+    "Manic Moose": 5,
     "F-Jackie": 8,
     "Karpet Munchers": 1,
     "Dunbar Dogs": 4,
@@ -1735,7 +1735,7 @@
   },
   {
    "season": 2026,
-   "trades": 23,
+   "trades": 27,
    "source": "MFL"
   }
  ],
@@ -1803,7 +1803,7 @@
   {
    "a": "Beers",
    "b": "Manic Moose",
-   "trades": 11,
+   "trades": 12,
    "shared_seasons": 26
   },
   {
@@ -1833,7 +1833,7 @@
   {
    "a": "Beers",
    "b": "Texas Nashvillians",
-   "trades": 18,
+   "trades": 19,
    "shared_seasons": 26
   },
   {
@@ -2103,7 +2103,7 @@
   {
    "a": "Couchfire",
    "b": "F-Jackie",
-   "trades": 3,
+   "trades": 4,
    "shared_seasons": 9
   },
   {
@@ -2493,7 +2493,7 @@
   {
    "a": "Manic Moose",
    "b": "Texas Nashvillians",
-   "trades": 4,
+   "trades": 5,
    "shared_seasons": 27
   },
   {
@@ -14598,6 +14598,143 @@
    ],
    "by_commish": false,
    "comments": "Trying to help you make a run",
+   "source": "mfl",
+   "assets_known": true,
+   "incomplete": false
+  },
+  {
+   "season": 2026,
+   "date": "2026-11-01",
+   "date_precision": "day",
+   "timestamp": 1793543347,
+   "team_a": "Couchfire",
+   "team_b": "F-Jackie",
+   "a_gave": [
+    {
+     "kind": "player",
+     "id": "17497",
+     "label": "Tate, Carnell",
+     "position": "WR"
+    }
+   ],
+   "b_gave": [
+    {
+     "kind": "player",
+     "id": "16627",
+     "label": "McConkey, Ladd",
+     "position": "WR"
+    }
+   ],
+   "by_commish": false,
+   "comments": "",
+   "source": "mfl",
+   "assets_known": true,
+   "incomplete": false
+  },
+  {
+   "season": 2026,
+   "date": "2026-11-01",
+   "date_precision": "day",
+   "timestamp": 1793581903,
+   "team_a": "Manic Moose",
+   "team_b": "Texas Nashvillians",
+   "a_gave": [
+    {
+     "kind": "player",
+     "id": "17507",
+     "label": "Branch, Zachariah",
+     "position": "WR"
+    },
+    {
+     "kind": "pick",
+     "label": "2027 R4",
+     "origin_franchise": "0001",
+     "year": 2027,
+     "round": 4
+    },
+    {
+     "kind": "pick",
+     "label": "2028 R2",
+     "origin_franchise": "0001",
+     "year": 2028,
+     "round": 2
+    }
+   ],
+   "b_gave": [
+    {
+     "kind": "player",
+     "id": "9431",
+     "label": "Stafford, Matthew",
+     "position": "QB"
+    }
+   ],
+   "by_commish": false,
+   "comments": "adding branch as i need to free up a spot",
+   "source": "mfl",
+   "assets_known": true,
+   "incomplete": false
+  },
+  {
+   "season": 2026,
+   "date": "2026-11-01",
+   "date_precision": "day",
+   "timestamp": 1793584273,
+   "team_a": "Beers",
+   "team_b": "Texas Nashvillians",
+   "a_gave": [
+    {
+     "kind": "player",
+     "id": "13590",
+     "label": "Mayfield, Baker",
+     "position": "QB"
+    }
+   ],
+   "b_gave": [
+    {
+     "kind": "player",
+     "id": "15889",
+     "label": "Okonkwo, Chigoziem",
+     "position": "TE"
+    }
+   ],
+   "by_commish": false,
+   "comments": "",
+   "source": "mfl",
+   "assets_known": true,
+   "incomplete": false
+  },
+  {
+   "season": 2026,
+   "date": "2026-11-01",
+   "date_precision": "day",
+   "timestamp": 1793585821,
+   "team_a": "Beers",
+   "team_b": "Manic Moose",
+   "a_gave": [
+    {
+     "kind": "player",
+     "id": "17542",
+     "label": "Young, Colbie",
+     "position": "WR"
+    },
+    {
+     "kind": "pick",
+     "label": "2028 R2",
+     "origin_franchise": "0008",
+     "year": 2028,
+     "round": 2
+    }
+   ],
+   "b_gave": [
+    {
+     "kind": "player",
+     "id": "17506",
+     "label": "Bell, Chris",
+     "position": "WR"
+    }
+   ],
+   "by_commish": false,
+   "comments": "",
    "source": "mfl",
    "assets_known": true,
    "incomplete": false
