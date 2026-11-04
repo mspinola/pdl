@@ -22,6 +22,7 @@ sys.path.insert(0, SITE)
 import rulebook_build as rb
 import rulebook_ledger as rl
 import rulebook_mfl_check as mc
+import frame
 from frame import E, page
 import seasons_pages
 import franchise_pages
@@ -320,8 +321,20 @@ def home():
 
 # ---------------------------------------------------------------- build
 
+def alias_check():
+    """The footer's suggestion box mails the address the notifier sends from, and the two are kept in
+    two repositories. When the private one is checked out, refuse to build if they disagree."""
+    cfg = f"{BASE}/private/notify/config.json"
+    if not os.path.exists(cfg):
+        return []
+    alias = json.load(open(cfg)).get("from")
+    if alias != frame.COMMISSIONER:
+        return [f"site/frame.py COMMISSIONER is {frame.COMMISSIONER!r}, private/notify/config.json's from is {alias!r}"]
+    return []
+
+
 def main():
-    problems = rb.check() + rl.check(rl.load("ledger.json"), rl.load("baseline.json"), rl.sources())
+    problems = rb.check() + rl.check(rl.load("ledger.json"), rl.load("baseline.json"), rl.sources()) + alias_check()
     if problems:
         for p in problems:
             print("  PROBLEM", p)

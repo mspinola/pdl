@@ -54,8 +54,10 @@ SHAPES = [
     ("email", re.compile(r"[\w.+-]+@[\w-]+\.[\w.]{2,}")),
 ]
 
-# team names that legitimately begin with a possessive
-ALLOWED = re.compile(r"\b(?:Carter's Commandos|Scooter's Boozers)\b")
+# team names that legitimately begin with a possessive, and the one address the commissioner
+# chose to publish: the office's send-as alias, behind the suggestion box in every page's
+# footer (site/frame.py COMMISSIONER). Nothing else with an @ in it may reach the site.
+ALLOWED = re.compile(r"\b(?:Carter's Commandos|Scooter's Boozers)\b|matt\.spinola\+pdl@gmail\.com")
 
 
 def tracked_files():

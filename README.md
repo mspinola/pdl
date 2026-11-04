@@ -220,7 +220,10 @@ reading what the pipeline already built through `site/league_data.py`. The
 analysis pages are converted from the reports in `docs/` at build time, so
 they never drift from them. The Moose easter eggs are all in `site/eggs.json`
 (built by `site/eggs.py`), so they are easy to audit and to add to. None of
-them changes a number or a rule.
+them changes a number or a rule. Every page ends with a suggestion box
+(`site/frame.py`): three `mailto:` links to the commissioner's office with the
+subject prefilled, one each for Doreen, the Swami and the website. The private
+notifier picks the replies up by that subject.
 
 ## The rule book
 
@@ -418,7 +421,9 @@ its author field in two exported draft boards.
 
 `src/scrub_owners.py` removes all of it, and `src/check_no_owner_names.py`
 refuses to let anything publishable through that still matches one of those
-shapes. See "Scrubbing" below.
+shapes, or any email address but one: the commissioner's own office alias
+behind the suggestion box, named in the check as the single exception. See
+"Scrubbing" below.
 
 ## Dashboard
 

@@ -1,5 +1,5 @@
 """The page frame every site page shares, and small formatting helpers."""
-import hashlib, html, os, re
+import hashlib, html, os, re, urllib.parse
 from functools import lru_cache
 
 import app
@@ -10,6 +10,31 @@ SITE = os.path.dirname(os.path.abspath(__file__))
 # GoatCounter, page counts without cookies or personal data: the site's code at goatcounter.com
 # (the CODE in CODE.goatcounter.com), or "" to count nothing. Its dashboard is at that address.
 GOATCOUNTER = "pdl"
+
+# The suggestion box in every page's footer: mailto links to the commissioner's office, one per
+# subject. The address is the send-as alias the notifier mails from ("from" in
+# private/notify/config.json); build.py refuses to build if the two disagree. It is the one
+# address src/check_no_owner_names.py allows on the site, by name, because the commissioner
+# chose to publish it. The subject prefix is the contract with `notify.py suggestions`, which
+# picks up every message to this address whose subject starts with it.
+COMMISSIONER = "matt.spinola+pdl@gmail.com"
+SUGGESTION_SUBJECT = "PDL suggestion"
+SUGGESTION_TOPICS = (("Doreen", "Doreen"), ("Swami", "the Swami"), ("website", "the website"))
+
+
+def suggestion_link(topic):
+    """A mailto link to the commissioner's office with the subject prefilled, so a reply lands in
+    the right bucket: mailto:...?subject=PDL%20suggestion%3A%20Doreen."""
+    q = urllib.parse.urlencode({"subject": f"{SUGGESTION_SUBJECT}: {topic}"}, quote_via=urllib.parse.quote)
+    return f"mailto:{E(COMMISSIONER)}?{q}"
+
+
+def suggestion_box():
+    """The footer's suggestion box: one link per topic, and the line that says who reads them."""
+    links = ", ".join(f'<a href="{suggestion_link(t)}">{E(label)}</a>' for t, label in SUGGESTION_TOPICS)
+    links = " or ".join(links.rsplit(", ", 1))
+    return (f'<p class="suggest"><strong>Suggestion box.</strong> Something to say about {links}? '
+            "Each link opens an email to the commissioner's office. The commissioner reads every one.</p>\n")
 
 
 def counter():
@@ -74,7 +99,7 @@ def page(title, body, depth=1, description="", light=False):
 <main>
 {body}
 </main>
-<footer class="foot">Built from the league's own records: the 2006 rule book, the rule-change page,
+<footer class="foot">{suggestion_box()}Built from the league's own records: the 2006 rule book, the rule-change page,
 the meeting emails, the league polls and the MyFantasyLeague archive.
 <a href="https://github.com/mspinola/pdl">Sources and code</a>.</footer>
 </body>
