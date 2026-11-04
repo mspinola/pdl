@@ -30,6 +30,7 @@ import trades_pages
 import drafts_pages
 import records_page
 import shame_page
+import swami_pages
 import analysis_pages
 import eggs
 import banner
@@ -308,7 +309,8 @@ def home():
             "with whom</span></li><li><a href='drafts/index.html'>Drafts</a><span>Every pick since 2008 and how it "
             "turned out</span></li><li><a href='records/index.html'>The record book</a><span>Highest scores, best "
             "seasons, streaks, title droughts</span></li><li><a href='shame/index.html'>The wall of shame</a><span>The "
-            "records nobody wants: the worst games, seasons, trades and droughts</span></li><li><a href='analysis/index.html'>Analysis</a><span>The waiver "
+            "records nobody wants: the worst games, seasons, trades and droughts</span></li><li><a href='swami/index.html'>Swami Says</a>"
+            "<span>The week's picks, every game with a reason, and the Swami's record</span></li><li><a href='analysis/index.html'>Analysis</a><span>The waiver "
             "wire, lineups and luck, the ones that got away, draft value</span></li>"
             "<li><a href='rules/index.html'>The rule book</a><span>The rules in force now, and as of any season since "
             "2006</span></li><li><a href='rules/changes.html'>Every rule change</a><span>Each summer meeting since 2002, "
@@ -343,7 +345,7 @@ def main():
         f.write(render_changes(seasons))
     n_seasons = seasons_pages.build(DIST)
     n_franchises = franchise_pages.build(DIST)
-    n_other = sum(m.build(DIST) for m in (h2h_pages, trades_pages, drafts_pages, records_page, shame_page, analysis_pages))
+    n_other = sum(m.build(DIST) for m in (h2h_pages, trades_pages, drafts_pages, records_page, shame_page, swami_pages, analysis_pages))
     with open(f"{DIST}/index.html", "w") as f:
         f.write(page("Premier Dynasty League",
                      home(), depth=0, description="The Premier Dynasty League."))

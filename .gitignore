@@ -18,3 +18,6 @@ owner_map.json
 
 # the built site: python3 site/build.py regenerates it
 site/dist/
+
+# Swami Says: the week's exports, 1.4 MB each; the brief under briefs/ keeps the facts
+docs/swami/cache/

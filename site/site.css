@@ -32,6 +32,8 @@ h1 { font-size: 2.1rem; line-height: 1.2; margin: 2.2rem 0 .6rem; font-weight: 6
 .lede { color: var(--ink-2); max-width: 44rem; margin: 0 0 1.4rem; }
 .foot { max-width: 72rem; margin: 0 auto; padding: 1.5rem 16px 3rem; border-top: 1px solid var(--rule);
   color: var(--ink-3); font: .82rem/1.5 var(--sans); }
+.foot .suggest { margin: 0 0 .9rem; color: var(--ink-2); }
+.foot .suggest strong { font-weight: 650; color: var(--ink); }
 
 /* the book */
 .book { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 3rem; }
@@ -1033,3 +1035,16 @@ img.peek-img { width: 120px; border-radius: 8px; box-shadow: 0 4px 14px rgba(0, 
 @media (prefers-reduced-motion: reduce) { .peek, .peek.up, .peek-stamp.up { transition: none; transform: none; }
   .peek-flag.up svg, .peek-tv.up .peek-screen { animation: none; } }
 @media print { .peek { display: none; } }
+
+/* Swami Says (site/swami_pages.py): the week bar, the pick, and the Tuesday mark */
+.swami .lede .meta { color: var(--ink-3); font: .88rem var(--sans); margin-left: .4rem; }
+.swami .banner .meta { font: .88rem var(--sans); color: var(--ink-3); }
+.swami-weeks span { color: var(--ink-3); }
+.swami-record, .swami-marks { font: .88rem var(--sans); color: var(--ink-2); margin: .2rem 0; }
+.swami .pick { font-weight: 650; }
+.swami .pick.open { color: var(--ink-3); font-weight: 500; }
+.swami .mark { font: 500 .72rem var(--sans); border-radius: 99px; padding: .1rem .5rem; white-space: nowrap; vertical-align: middle;
+  background: var(--surface); border: 1px solid var(--rule); color: var(--ink-2); }
+.swami .mark.right { color: var(--mark); background: var(--mark-soft); border-color: transparent; }
+.swami .mark.wrong { color: var(--warn); background: var(--warn-soft); border-color: transparent; }
+.swami-foot { color: var(--ink-3); font: .85rem var(--sans); border-top: 1px solid var(--rule); padding-top: .8rem; margin-top: 2rem; }

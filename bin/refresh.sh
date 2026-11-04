@@ -15,4 +15,6 @@ for step in link_franchises owners identities archive trades export_bundle analy
   echo "== $step"
   python3 "src/$step.py" > /dev/null
 done
+# Swami Says: mark last week's picks (docs/swami/record.json) before the page is built
+python3 src/swami.py score
 python3 site/build.py
