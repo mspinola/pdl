@@ -12179,5 +12179,40 @@
   "source": "mfl",
   "assets_known": true,
   "incomplete": false
+ },
+ {
+  "season": 2026,
+  "date": "2026-11-05",
+  "date_precision": "day",
+  "timestamp": 1793903804,
+  "team_a": "F-Jackie",
+  "team_b": "Manic Moose",
+  "a_gave": [
+   {
+    "kind": "player",
+    "id": "16222",
+    "label": "Kraft, Tucker",
+    "position": "TE"
+   }
+  ],
+  "b_gave": [
+   {
+    "kind": "player",
+    "id": "17482",
+    "label": "Washington Jr., Mike",
+    "position": "RB"
+   },
+   {
+    "kind": "player",
+    "id": "17543",
+    "label": "Sadiq, Kenyon",
+    "position": "TE"
+   }
+  ],
+  "by_commish": false,
+  "comments": "",
+  "source": "mfl",
+  "assets_known": true,
+  "incomplete": false
  }
 ]

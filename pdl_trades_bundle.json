@@ -2,11 +2,11 @@
  "meta": {
   "league": "PDL",
   "seasons": "2000-2026",
-  "trades": 412,
-  "trades_mfl": 314,
+  "trades": 413,
+  "trades_mfl": 315,
   "trades_archive": 98,
   "owners": 17,
-  "players_moved": 479,
+  "players_moved": 482,
   "picks_moved": 346,
   "incomplete_records": 24,
   "possible_pairings": 135
@@ -242,20 +242,20 @@
   },
   {
    "owner": "F-Jackie",
-   "trades": 47,
+   "trades": 48,
    "seasons": 27,
-   "per_season": 1.74,
+   "per_season": 1.78,
    "seasons_with_a_trade": 19,
    "distinct_partners": 13,
    "possible_partners": 16,
    "top_partner": "Manic Moose",
-   "top_partner_trades": 9,
+   "top_partner_trades": 10,
    "first_season": 2000,
    "last_season": 2026,
    "net_picks": 5,
-   "players_out": 30,
+   "players_out": 31,
    "picks_out": 20,
-   "players_in": 34,
+   "players_in": 36,
    "picks_in": 25,
    "partners": {
     "Carter's Commandos": 1,
@@ -266,7 +266,7 @@
     "Texas Nashvillians": 8,
     "Beers": 7,
     "Da Funk": 2,
-    "Manic Moose": 9,
+    "Manic Moose": 10,
     "Ho Train": 4,
     "Iron City Pounders": 1,
     "Couchfire": 4,
@@ -372,9 +372,9 @@
   },
   {
    "owner": "Manic Moose",
-   "trades": 102,
+   "trades": 103,
    "seasons": 27,
-   "per_season": 3.78,
+   "per_season": 3.81,
    "seasons_with_a_trade": 24,
    "distinct_partners": 16,
    "possible_partners": 16,
@@ -383,9 +383,9 @@
    "first_season": 2000,
    "last_season": 2026,
    "net_picks": -15,
-   "players_out": 62,
+   "players_out": 64,
    "picks_out": 46,
-   "players_in": 67,
+   "players_in": 68,
    "picks_in": 31,
    "partners": {
     "Dunbar Dogs": 6,
@@ -401,7 +401,7 @@
     "Otters": 5,
     "Tally Wackers": 4,
     "Bunchalosers": 1,
-    "F-Jackie": 9,
+    "F-Jackie": 10,
     "Couchfire": 8,
     "Karpet Munchers": 1
    },
@@ -1735,7 +1735,7 @@
   },
   {
    "season": 2026,
-   "trades": 27,
+   "trades": 28,
    "source": "MFL"
   }
  ],
@@ -2307,7 +2307,7 @@
   {
    "a": "F-Jackie",
    "b": "Manic Moose",
-   "trades": 9,
+   "trades": 10,
    "shared_seasons": 27
   },
   {
@@ -14731,6 +14731,41 @@
      "id": "17506",
      "label": "Bell, Chris",
      "position": "WR"
+    }
+   ],
+   "by_commish": false,
+   "comments": "",
+   "source": "mfl",
+   "assets_known": true,
+   "incomplete": false
+  },
+  {
+   "season": 2026,
+   "date": "2026-11-05",
+   "date_precision": "day",
+   "timestamp": 1793903804,
+   "team_a": "F-Jackie",
+   "team_b": "Manic Moose",
+   "a_gave": [
+    {
+     "kind": "player",
+     "id": "16222",
+     "label": "Kraft, Tucker",
+     "position": "TE"
+    }
+   ],
+   "b_gave": [
+    {
+     "kind": "player",
+     "id": "17482",
+     "label": "Washington Jr., Mike",
+     "position": "RB"
+    },
+    {
+     "kind": "player",
+     "id": "17543",
+     "label": "Sadiq, Kenyon",
+     "position": "TE"
     }
    ],
    "by_commish": false,

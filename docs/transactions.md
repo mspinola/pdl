@@ -36,7 +36,7 @@ Rates use completed seasons only, so 2026, still in progress, is left out of the
 | 2023 | 16 | 205 | 12.8 | 68 | 137 | 67% | 35% | 7.8% |
 | 2024 | 16 | 235 | 14.7 | 104 | 131 | 56% | 34% | 9.3% |
 | 2025 | 16 | 212 | 13.2 | 74 | 138 | 65% | 33% | 10.7% |
-| 2026 (in progress) | 16 | 111 | 6.9 | 27 | 84 | 76% | 32% | 4.8% |
+| 2026 (in progress) | 16 | 119 | 7.4 | 33 | 86 | 72% | 31% | 4.8% |
 
 Before 2008 every add went through waivers, so there are no pickups to count. From 2008 a dash in the
 last column means MFL kept no lineups that season.

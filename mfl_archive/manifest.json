@@ -1,6 +1,6 @@
 {
  "league": "PDL",
- "captured": "2026-11-03T20:47:24+00:00",
+ "captured": "2026-11-05T19:02:41+00:00",
  "source": "MyFantasyLeague export API",
  "note": "Responses stored verbatim. Everything derived is rebuilt from these files. Not available without a commissioner login, and therefore absent: message board, calendar, polls.",
  "seasons": {
@@ -4496,15 +4496,15 @@
     },
     "league.json": {
      "bytes": 7451,
-     "sha256": "087346a13a43ec36ebd32278b7cd7a4cac1948930fc8d8e55d7f846050ae54c4"
+     "sha256": "da76b46facefb3d674b65d4daba997e0e2a77d472d3aea3e9bd3624a869d26e2"
     },
     "player_scores.json": {
      "bytes": 25048,
-     "sha256": "cfc8d3a37285dc387c2e259da261eaf94e3197febb98a58b849f7b399cc997cb"
+     "sha256": "31bad0da08c9bee9944e9041dd6db20b7edbee9a02e2891c25c7ae7d3fae61b3"
     },
     "players.json": {
-     "bytes": 189839,
-     "sha256": "433c2a2cae0ebcada2a98b63efb83f08183ed1555b366650081ff16f6c0333a6"
+     "bytes": 189905,
+     "sha256": "31ad7c0eb696d0fccf7eddb93f74f544f13b4311f813d5b9d93a5dfede0a25e5"
     },
     "playoff_bracket_1.json": {
      "bytes": 372,
@@ -4519,28 +4519,28 @@
      "sha256": "6a29a30cad514118e396cb533c3a92bbaee759d4a3d72280125b5b3057d7e39d"
     },
     "rosters.json": {
-     "bytes": 11619,
-     "sha256": "a43619052cb960405cb3bc740705f99454560cf794ba971239d4995f26f4062e"
+     "bytes": 11521,
+     "sha256": "dc92aa8f5d5a86417cf6e2430d401420559a87d41b909a46720e660288a08444"
     },
     "rules.json": {
      "bytes": 8741,
      "sha256": "51acba340dd6bf749d73e9a930d9c217099ead6d448b165666d504ab94254c13"
     },
     "schedule.json": {
-     "bytes": 14709,
-     "sha256": "70a446734daabb9134f53bfc5cf5ad3a16d2223944aa5a43a42c30929cc32355"
+     "bytes": 14703,
+     "sha256": "8b0901cddbe2d7473d2f6c23010530ae2f37c1ec3a210e828f357f5bd6d5a66a"
     },
     "standings.json": {
      "bytes": 2739,
      "sha256": "4fd6b5de6bc3508feb66405f5dceba4888a062829c9ffbac56ce25d7308e0edc"
     },
     "transactions.json": {
-     "bytes": 27895,
-     "sha256": "af246a926163e869807c55fd97297d93a3ebb6dd4bedeecd09ea915f98f28a02"
+     "bytes": 29405,
+     "sha256": "88f6af3c9157fcb0a2d40f68cf809cfc75a3be1f7d6c3372bf8e04fb95f2c2e3"
     },
     "transactions_trade.json": {
-     "bytes": 5464,
-     "sha256": "17ccb1f53ba313085954f3960773bd1be712a95f0df80ea3f498b5fe3c8e3033"
+     "bytes": 5648,
+     "sha256": "d0efe25008139357e503fa34c85a8c81440368c6cae0a31497c4f10122db3f18"
     },
     "weekly_results.json": {
      "bytes": 26304,
@@ -4548,35 +4548,35 @@
     },
     "weeks/player_scores_w01.json": {
      "bytes": 28419,
-     "sha256": "377f4c2b9f1dd50d019ff53995994daddf4a5a40847c647a19eb47ba434891e8"
+     "sha256": "75b4368c4891c87e68a0f080e5ec6f117269377c87c3ef2be531d229ffe80b7f"
     },
     "weeks/player_scores_w02.json": {
      "bytes": 28520,
-     "sha256": "0e4f11b6aa8f944c68804c6f82563a00ac6c707802d8fb4038780fc168888ceb"
+     "sha256": "48645cfdb483548024124923d9391990c506abb096043cdfb4548a1728f81387"
     },
     "weeks/player_scores_w03.json": {
      "bytes": 28319,
-     "sha256": "f1ed7573e4fdfcf6a8fcea1840e3d408368eca84620b9c083d3c72b6838e30e3"
+     "sha256": "cd3e629ea488f55dc5b9d30eb7670a22e4891dc91805d34c5c24e47efc3a1470"
     },
     "weeks/player_scores_w04.json": {
      "bytes": 27618,
-     "sha256": "d29fe4f31c1e884e8cf593b40e01df8763c54bcb4bf8c3adc03553e3cf47692c"
+     "sha256": "b49e272acdd7fa4028b3bd9d13485cccef2823740aabd67033265890c2419764"
     },
     "weeks/player_scores_w05.json": {
      "bytes": 26440,
-     "sha256": "20865625d00f023efa81185931b72124a896a6098dfb180c6fea390c06740bcc"
+     "sha256": "651d26299510013ccf81fa9f815bda655fadac0aea0327c4c2571cc50a21aaf9"
     },
     "weeks/player_scores_w06.json": {
      "bytes": 24526,
-     "sha256": "d3cb409e19f1b71e1bd23bd6ed8333974cd3367db3b6df8e417f847cd15b1a5c"
+     "sha256": "e545c7a46a22dae7115bedeabcd38d49d102d5bc75e31858cd97d97cec6cbdc8"
     },
     "weeks/player_scores_w07.json": {
      "bytes": 24457,
-     "sha256": "dbfe8fec7447416a1cf2940c304feb6ea7d0e83d2157d02b55d5cbbc6cb48861"
+     "sha256": "d6cc6e2f6ba61cf8fb10220edd147737f161d23f36a0a6b6060c9cc306226042"
     },
     "weeks/player_scores_w08.json": {
      "bytes": 25048,
-     "sha256": "88e212c2f5cfa81b83a90680479d2444b0173e7a9cded3e8c2789173ac52e84c"
+     "sha256": "d42c6ff6cc52f13c4f712c4b14ebceab9c35f771cf3a871cfd1f7ab5a0baaeb2"
     },
     "weeks/weekly_results_w01.json": {
      "bytes": 26304,
@@ -4789,6 +4789,6 @@
    }
   }
  },
- "total_bytes": 29165756,
+ "total_bytes": 29167412,
  "total_files": 1159
 }
