@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" role="img" aria-label="Condemned: this franchise is deemed unfit for human habitation. Enter at own risk.">
+  <!-- Bunchalosers' logo, drawn for the site: the franchise (2000 to 2017) was gone before the
+       league's logos were saved from MFL. A rusted CONDEMNED sign, after a picture the commissioner
+       supplied in 2026. Hover peek only (site/eggs.json "peeks"). -->
+  <defs>
+    <pattern id="hz" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="40" height="40" fill="#111"/>
+      <rect width="20" height="40" fill="#f5c400"/>
+    </pattern>
+    <filter id="grit" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="7"/>
+      <feColorMatrix values="0 0 0 0 .35  0 0 0 0 .2  0 0 0 0 .1  0 0 0 -2.2 1.25"/>
+      <feComposite in2="SourceGraphic" operator="in"/>
+    </filter>
+    <clipPath id="plate"><rect x="4" y="4" width="192" height="292" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#plate)">
+    <rect x="0" y="0" width="200" height="300" fill="#f5c400"/>
+    <rect x="0" y="0" width="200" height="34" fill="url(#hz)"/>
+    <rect x="0" y="34" width="200" height="56" fill="#111"/>
+    <rect x="0" y="236" width="200" height="34" fill="#111"/>
+    <rect x="0" y="270" width="200" height="30" fill="url(#hz)"/>
+    <g font-family="Impact, 'Arial Narrow Bold', 'Arial Black', sans-serif" text-anchor="middle">
+      <text x="100" y="76" font-size="34" fill="#f5c400" textLength="164" lengthAdjust="spacingAndGlyphs">CONDEMNED</text>
+      <text x="100" y="126" font-size="24" fill="#111" textLength="150" lengthAdjust="spacingAndGlyphs">THIS AREA IS</text>
+      <text x="100" y="158" font-size="22" fill="#111" textLength="170" lengthAdjust="spacingAndGlyphs">DEEMED UNFIT FOR</text>
+      <text x="100" y="190" font-size="21" fill="#111" textLength="166" lengthAdjust="spacingAndGlyphs">HUMAN HABITATION</text>
+      <text x="100" y="262" font-size="20" fill="#f5c400" textLength="168" lengthAdjust="spacingAndGlyphs">ENTER AT OWN RISK</text>
+    </g>
+    <!-- rust, with a green drip down the middle -->
+    <g fill="#7a3b16" opacity=".85">
+      <path d="M14 94 c10-8 26-4 30 6 c6 10-2 22-12 20 c-6 10-20 8-22-2 c-8-6-4-20 4-24z"/>
+      <path d="M118 102 c8-4 16 2 14 10 c-2 8-12 10-16 4 c-6-2-6-12 2-14z"/>
+      <path d="M150 178 c12-6 28 2 26 14 c-2 12-18 16-26 8 c-10 0-12-16 0-22z"/>
+      <path d="M20 282 c8-4 18 2 16 10 c-2 6-12 8-16 2 c-6 0-6-10 0-12z"/>
+      <path d="M6 150 c6-2 10 4 8 10 c-2 6-8 6-10 2z"/>
+      <path d="M180 40 c6-2 12 4 10 10 c-2 6-10 6-12 0z"/>
+      <circle cx="88" cy="214" r="4"/><circle cx="102" cy="220" r="2.5"/><circle cx="160" cy="226" r="3"/>
+      <circle cx="58" cy="108" r="2.5"/><circle cx="170" cy="120" r="3.5"/>
+    </g>
+    <path d="M104 134 c4 20 0 40 6 62 c2 10 -4 22 0 34" fill="none" stroke="#3f7a2a" stroke-width="5" stroke-linecap="round" opacity=".45"/>
+    <rect x="0" y="0" width="200" height="300" filter="url(#grit)" opacity=".55"/>
+  </g>
+  <rect x="4" y="4" width="192" height="292" rx="12" fill="none" stroke="#5a3214" stroke-width="5"/>
+</svg>

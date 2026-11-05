@@ -677,6 +677,7 @@
   "logos": {
    "Beers": "logo-beers.jpg",
    "Blitzkrieg": "logo-blitzkrieg.jpg",
+   "Bunchalosers": "logo-bunchalosers.svg",
    "Carter's Commandos": "logo-carters-commandos.gif",
    "Couchfire": "logo-couchfire.jpg",
    "Dunbar Dogs": "logo-dunbar-dogs.gif",
@@ -690,7 +691,7 @@
    "Scooter's Boozers": "logo-scooters-boozers.png",
    "Tally Wackers": "logo-tally-wackers.jpg"
   },
-  "logos_note": "Each team's logo on MFL in November 2026, saved from MFL. Left out: the Texas Nashvillians' (a photo of a person, undressed) and Da Funk's (no longer loads). The Moose's is its icon, the MANIC MOOSE crest: its logo slot on MFL shows the Iron City Pounders' bottle.",
+  "logos_note": "Each team's logo on MFL in November 2026, saved from MFL. Left out: the Texas Nashvillians' (a photo of a person, undressed) and Da Funk's (no longer loads). The Moose's is its icon, the MANIC MOOSE crest: its logo slot on MFL shows the Iron City Pounders' bottle. Bunchalosers' is drawn for the site (site/assets/logo-bunchalosers.svg), a rusted CONDEMNED sign after a picture the commissioner supplied in 2026, since the franchise was sold and renamed long before the logos were saved.",
   "teams": {
    "Tally Wackers": [
     {
@@ -849,6 +850,36 @@
      "kind": "note",
      "style": "burst",
      "title": "Sleeper alert!"
+    }
+   ],
+   "Bunchalosers": [
+    {
+     "kind": "flag",
+     "text": "CONDEMNED",
+     "foot": "{first} to {last}",
+     "w": 2
+    },
+    {
+     "kind": "note",
+     "style": "stamp",
+     "title": "Sold, {sold}"
+    },
+    {
+     "kind": "note",
+     "title": "Inspection report",
+     "lines": [
+      "{seasons} seasons, {first} to {last}",
+      "{record} in the regular season, the league's {record_rank}",
+      "{trips} playoff trips, no titles"
+     ],
+     "foot": "Deemed unfit for human habitation.",
+     "w": 3
+    },
+    {
+     "kind": "note",
+     "title": "Someone died in here?",
+     "text": "No. It sold in {sold} and reopened as {renamed}, which won the title in {renamed_title}.",
+     "w": 2
     }
    ]
   },

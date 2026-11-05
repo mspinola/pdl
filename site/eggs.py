@@ -748,9 +748,28 @@ def steeler_board():
             f"<p class='dboard-foot'>{E(sb['foot'].format(**facts))}</p></aside></template>")
 
 
+def team_facts(t, rates):
+    """A team's own blanks for its peeks: {last} season, {seasons} played, regular-season {record},
+    playoff {trips}, the record's {record_rank} from the bottom ("worst", "2nd worst"), and, for an
+    identity that ended in an owner change, the season it was {sold}, the team it became ({renamed})
+    and that team's first title ({renamed_title}). rates is peeks()' list of (win rate, team)."""
+    seasons = d.identities()[t]["seasons"]
+    w, l, tie = d.regular_record(t)
+    low = [o for _, o in rates].index(t) + 1
+    renamed = d.identities()[t].get("franchise", t)
+    renamed = renamed if renamed != t and renamed in d.identities() else ""
+    titles = sorted(y for y, c in d.champions().items() if c == renamed) if renamed else []
+    return {"last": seasons[-1], "seasons": len(seasons), "record": f"{w}-{l}-{tie}" if tie else f"{w}-{l}",
+            "trips": sum(1 for s in seasons for r in d.standings(s) if r["team"] == t and r["playoffs"]),
+            "record_rank": "worst" if low == 1 else f"{ordinal(low)} worst",
+            "sold": seasons[-1] + 1 if renamed else "", "renamed": renamed,
+            "renamed_title": titles[0] if titles else ""}
+
+
 def peeks():
     """The hover peeks for assets/peek.js: each team's from eggs.json with its blanks filled from the
-    record ({first} its first season, and the Moose's, Otters', Commandos' and Ho Train's figures), its
+    record ({first} its first season, its own figures from team_facts(), and the Moose's, Otters',
+    Commandos' and Ho Train's figures), its
     logo, and the players who get one too. Ho Train's title board becomes one peek per title, sharing
     its weight, so a hover picks one of them."""
     p = config()["peeks"]
@@ -782,13 +801,14 @@ def peeks():
     teams = []
     for t in sorted(set(p["teams"]) | set(p["logos"])):
         first = d.identities()[t]["seasons"][0]
+        own = team_facts(t, rates)
         out = []
         for pk in p["teams"].get(t, []):
             if pk.get("per_title"):
                 titles = sorted(y for y, c in d.champions().items() if c == t)
-                out += [fill({**pk, "w": pk.get("w", 1) / len(titles)}, first=first, title=y) for y in titles]
+                out += [fill({**pk, "w": pk.get("w", 1) / len(titles)}, first=first, title=y, **own) for y in titles]
             else:
-                out.append(fill({**pk, "w": pk.get("w", 1)}, first=first))
+                out.append(fill({**pk, "w": pk.get("w", 1)}, first=first, **own))
         teams.append({"name": t, "slug": slug(t), "logo": p["logos"].get(t), "peeks": out})
     return {"logo_share": p["logo_share"], "teams": teams,
             "players": [{"names": x["names"], "peeks": [fill({**pk, "w": pk.get("w", 1)}) for pk in x["peeks"]]}
