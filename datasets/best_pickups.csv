@@ -33,6 +33,8 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2019,Couchfire,"Tannehill, Ryan",QB,waiver,7,3,116.2,8.5,2.9
 2014,OakalDoakals,"Oliver, Branden",RB,free_agent,1,4,60.0,5.3,2.9
 2010,F-Jackie,"Johnson, Steve",WR,waiver,5,7,78.0,6.9,2.9
+2026,Scooter's Boozers,"Buccaneers, Tampa Bay",Def,free_agent,7,3,51.0,5.0,2.8
+2026,Karpet Munchers,"Shrader, Spencer",K,free_agent,3,7,105.0,11.5,2.8
 2012,Manic Moose,"Brees, Drew",QB,free_agent,7,7,188.0,14.4,2.7
 2014,Scooter's Boozers,"Eagles, Philadelphia",Def,waiver,8,6,70.0,5.9,2.7
 2008,Bunchalosers,"Thigpen, Tyler",QB,waiver,8,5,100.0,11.0,2.7
@@ -42,7 +44,6 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2024,Manic Moose,"Otton, Cade",TE,free_agent,5,6,79.7,5.0,2.6
 2017,Texas Nashvillians,"Forbath, Kai",K,waiver,7,6,87.0,7.0,2.6
 2014,Bunchalosers,"Murray, Latavius",RB,free_agent,9,1,32.0,3.1,2.5
-2026,Scooter's Boozers,"Buccaneers, Tampa Bay",Def,free_agent,7,2,40.0,4.6,2.5
 2022,Couchfire,"Kmet, Cole",TE,free_agent,9,5,69.3,5.3,2.4
 2022,Carter's Commandos,"Engram, Evan",TE,free_agent,7,4,60.4,5.2,2.4
 2020,Ho Train,"Tonyan, Robert",TE,waiver,4,1,36.8,3.0,2.4
@@ -62,9 +63,8 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2024,F-Jackie,"Smith, Jonnu",TE,waiver,10,4,56.4,3.6,2.0
 2010,Tally Wackers,"Redskins, Washington",Def,free_agent,7,1,25.0,2.1,2.0
 2023,F-Jackie,"Brown, Chase",RB,waiver,14,1,36.0,2.5,2.0
-2026,Karpet Munchers,"Shrader, Spencer",K,free_agent,3,6,84.0,10.2,2.0
-2026,Beers,"Reichard, Will",K,free_agent,4,2,44.0,5.8,2.0
 2009,Blitzkrieg,"Seahawks, Seattle",Def,free_agent,5,1,25.0,2.6,2.0
+2026,Beers,"Reichard, Will",K,free_agent,4,2,44.0,5.2,2.0
 2019,Beers,"Fitzpatrick, Ryan",QB,free_agent,7,2,77.8,5.0,2.0
 2022,F-Jackie,"Browns, Cleveland",Def,waiver,13,1,29.0,1.7,1.9
 2025,Otters,"Flacco, Joe",QB,waiver,6,1,49.5,3.3,1.9
@@ -182,6 +182,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2017,Otters,"Butker, Harrison",K,free_agent,6,7,83.0,6.5,0.9
 2021,Texas Nashvillians,"Tucker, Justin",K,free_agent,14,1,20.0,1.5,0.9
 2021,Beers,"Guyton, Jalen",WR,waiver,14,1,22.2,1.3,0.9
+2026,Blitzkrieg,"49ers, San Francisco",Def,free_agent,8,1,16.0,1.5,0.9
 2022,Karpet Munchers,"Goodwin, Marquise",WR,free_agent,11,1,21.0,1.3,0.9
 2020,Scooter's Boozers,"Davis, Mike",RB,waiver,3,8,105.2,6.4,0.9
 2019,Scooter's Boozers,"McManus, Brandon",K,free_agent,1,12,110.0,8.5,0.8
@@ -190,9 +191,9 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2021,Otters,"Chiefs, Kansas City",Def,free_agent,13,1,16.0,1.0,0.8
 2020,Couchfire,"Cardinals, Arizona",Def,waiver,2,2,22.0,1.7,0.8
 2014,Otters,"Johnson, Charles",WR,waiver,12,1,16.0,1.2,0.8
-2026,Texas Nashvillians,"Bass, Tyler",K,waiver,8,1,20.0,1.8,0.8
 2010,F-Jackie,"Mare, Olindo",K,free_agent,8,6,58.0,5.1,0.8
 2013,Bunchalosers,"Campbell, Jason",QB,waiver,8,1,32.0,3.2,0.8
+2026,Texas Nashvillians,"Bass, Tyler",K,waiver,8,1,20.0,1.6,0.8
 2012,F-Jackie,"Bengals, Cincinnati",Def,waiver,11,3,30.0,2.4,0.8
 2024,OakalDoakals,"Valdes-Scantling, Marquez",WR,free_agent,11,3,42.4,3.7,0.8
 2025,F-Jackie,"Borregales, Andres",K,free_agent,7,7,79.0,4.9,0.8
@@ -225,6 +226,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2011,OakalDoakals,"Bailey, Dan",K,free_agent,5,6,64.0,6.0,0.7
 2008,Bunchalosers,"Longwell, Ryan",K,free_agent,6,7,72.0,7.9,0.7
 2012,Ho Train,"Graham, Shayne",K,free_agent,4,9,97.0,7.8,0.7
+2026,Iron City Pounders,"Browns, Cleveland",Def,free_agent,5,3,25.0,2.7,0.7
 2014,OakalDoakals,"Britt, Kenny",WR,free_agent,5,4,39.0,3.5,0.7
 2021,Dunbar Dogs,"Texans, Houston",Def,free_agent,9,2,20.0,1.3,0.7
 2010,Otters,"Rackers, Neil",K,free_agent,2,2,23.0,1.9,0.7
@@ -233,6 +235,8 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2013,Otters,"Douglas, Harry",WR,waiver,2,9,76.0,5.6,0.7
 2018,Iron City Pounders,"Colts, Indianapolis",Def,free_agent,7,1,15.0,1.4,0.7
 2022,Ho Train,"Foreman, D'Onta",RB,waiver,7,5,70.5,4.5,0.7
+2026,Manic Moose,"Packers, Green Bay",Def,free_agent,8,2,19.0,2.0,0.7
+2026,Scooter's Boozers,"Dell, Tank",WR,waiver,5,2,29.5,2.9,0.7
 2023,Blitzkrieg,"Myers, Jason",K,free_agent,9,4,45.0,2.8,0.6
 2018,Couchfire,"Parkey, Cody",K,free_agent,4,1,18.0,1.4,0.6
 2015,Manic Moose,"Stills, Kenny",WR,waiver,10,1,14.0,1.0,0.6
@@ -254,7 +258,6 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2015,Bunchalosers,"Lambo, Josh",K,free_agent,5,8,82.0,7.1,0.6
 2022,Carter's Commandos,"Gould, Robbie",K,free_agent,10,5,53.0,4.6,0.6
 2009,Dunbar Dogs,"Dixon, Dennis",QB,free_agent,12,1,24.0,1.9,0.6
-2026,Blitzkrieg,"Redskins, Washington",Def,free_agent,8,1,12.0,1.3,0.6
 2010,Beers,"Tamme, Jacob",TE,waiver,7,3,19.0,1.9,0.6
 2009,Scooter's Boozers,"Bills, Buffalo",Def,waiver,7,1,13.0,1.5,0.6
 2009,Scooter's Boozers,"Falcons, Atlanta",Def,free_agent,9,1,13.0,1.5,0.6
@@ -262,6 +265,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2025,Ho Train,"Packers, Green Bay",Def,free_agent,11,3,23.0,1.4,0.6
 2025,Couchfire,"Dortch, Greg",WR,free_agent,12,1,17.3,1.1,0.6
 2019,Manic Moose,"Hauschka, Steven",K,free_agent,7,1,15.0,0.9,0.5
+2026,Blitzkrieg,"Redskins, Washington",Def,free_agent,8,1,12.0,1.1,0.5
 2022,Dunbar Dogs,"Jets, New York",Def,waiver,6,7,47.0,3.1,0.5
 2023,Beers,"Colts, Indianapolis",Def,waiver,12,1,13.0,0.8,0.5
 2012,Manic Moose,"Bailey, Dan",K,free_agent,7,1,15.0,1.1,0.5
@@ -286,7 +290,6 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2025,Couchfire,"Dotson, Jahan",WR,free_agent,8,1,16.5,1.1,0.5
 2017,Texas Nashvillians,"Vinatieri, Adam",K,waiver,9,1,15.0,1.2,0.5
 2013,F-Jackie,"Bills, Buffalo",Def,free_agent,3,3,27.0,2.8,0.5
-2026,Iron City Pounders,"Browns, Cleveland",Def,free_agent,5,2,16.0,1.9,0.5
 2008,OakalDoakals,"Bradley, Mark",WR,free_agent,11,3,22.0,2.9,0.5
 2019,Manic Moose,"Titans, Tennessee",Def,free_agent,12,2,20.0,1.1,0.5
 2019,Da Funk,"Gonzalez, Zane",K,free_agent,6,4,39.0,3.1,0.5
@@ -315,11 +318,9 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2020,Carter's Commandos,"Dolphins, Miami",Def,free_agent,5,1,11.0,0.9,0.4
 2020,F-Jackie,"Texans, Houston",Def,waiver,5,1,11.0,0.7,0.4
 2020,Beers,"Giants, New York",Def,free_agent,12,1,11.0,0.6,0.4
-2026,Couchfire,"Bass, Tyler",K,free_agent,5,1,15.0,1.7,0.4
 2012,Tally Wackers,"Clark, Dallas",TE,free_agent,6,8,46.0,5.0,0.4
 2019,Ho Train,"Allen, Brandon",QB,waiver,9,1,31.9,1.9,0.4
-2026,Blitzkrieg,"Saints, New Orleans",Def,free_agent,3,1,10.0,1.1,0.4
-2026,Manic Moose,"Packers, Green Bay",Def,free_agent,8,1,10.0,1.1,0.4
+2026,Couchfire,"Bass, Tyler",K,free_agent,5,1,15.0,1.4,0.4
 2019,Beers,"Raiders, Oakland",Def,free_agent,11,1,12.0,0.8,0.4
 2022,Manic Moose,"Zuerlein, Greg",K,free_agent,7,1,14.0,0.9,0.4
 2023,Texas Nashvillians,"Grupe, Blake",K,waiver,6,4,42.0,3.3,0.4
@@ -333,7 +334,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2022,Couchfire,"McManus, Brandon",K,free_agent,13,2,23.0,1.8,0.4
 2016,Da Funk,"Santos, Cairo",K,free_agent,8,6,64.0,6.1,0.4
 2016,Texas Nashvillians,"Lutz, Wil",K,free_agent,8,6,64.0,6.9,0.4
-2026,Otters,"Bengals, Cincinnati",Def,free_agent,2,5,30.0,2.9,0.4
+2026,Blitzkrieg,"Saints, New Orleans",Def,free_agent,3,1,10.0,1.0,0.4
 2024,Beers,"Wright, Matthew",K,free_agent,6,1,14.0,0.9,0.4
 2024,Blitzkrieg,"Shrader, Spencer",K,free_agent,12,1,14.0,1.0,0.4
 2013,Carter's Commandos,"Saints, New Orleans",Def,free_agent,3,1,11.0,1.0,0.4
@@ -366,6 +367,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2012,Otters,"Walsh, Blair",K,free_agent,3,4,43.0,3.4,0.3
 2013,Manic Moose,"Jennings, Rashad",RB,waiver,5,3,27.0,2.0,0.3
 2010,Tally Wackers,"Dreessen, Joel",TE,waiver,12,2,12.0,1.0,0.3
+2026,Ho Train,"Bates, Jake",K,free_agent,7,3,34.0,4.1,0.3
 2009,Dunbar Dogs,"Nedney, Joe",K,free_agent,9,1,11.0,0.9,0.3
 2021,Beers,"Everett, Gerald",TE,free_agent,11,1,12.2,0.7,0.3
 2011,Otters,"Seahawks, Seattle",Def,free_agent,7,1,10.0,0.7,0.3
@@ -396,6 +398,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2018,Karpet Munchers,"Chargers, San Diego",Def,free_agent,9,5,34.0,2.0,0.2
 2009,Blitzkrieg,"Boss, Kevin",TE,free_agent,9,5,28.0,2.9,0.2
 2019,Scooter's Boozers,"Williams, Darrel",RB,free_agent,3,1,16.1,1.2,0.2
+2026,F-Jackie,"Gonzalez, Zane",K,free_agent,9,1,13.0,1.4,0.2
 2008,OakalDoakals,"Floyd, Malcolm",WR,free_agent,7,2,14.0,1.8,0.2
 2022,F-Jackie,"Elliott, Jake",K,waiver,14,1,12.0,0.7,0.2
 2021,Manic Moose,"Koo, Younghoe",K,free_agent,7,1,12.0,0.8,0.2
@@ -432,7 +435,6 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2025,Couchfire,"Carter, Michael",RB,waiver,5,1,15.8,1.0,0.2
 2013,Otters,"Eagles, Philadelphia",Def,free_agent,8,1,9.0,0.7,0.2
 2021,Couchfire,"Williams, Damien",RB,free_agent,2,1,15.4,1.0,0.2
-2026,Beers,"49ers, San Francisco",Def,free_agent,2,1,7.0,0.9,0.2
 2019,Couchfire,"Panthers, Carolina",Def,waiver,2,1,9.0,0.7,0.2
 2009,Karpet Munchers,"Kasay, John",K,free_agent,10,4,35.0,3.7,0.2
 2022,F-Jackie,"Dortch, Greg",WR,waiver,2,1,12.5,0.7,0.2
@@ -449,6 +451,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2025,Dunbar Dogs,"Chargers, San Diego",Def,free_agent,9,1,7.0,0.6,0.1
 2020,OakalDoakals,"Patrick, Tim",WR,free_agent,4,5,60.7,3.9,0.1
 2020,Texas Nashvillians,"Ebron, Eric",TE,waiver,12,1,8.9,0.8,0.1
+2026,Beers,"49ers, San Francisco",Def,free_agent,2,1,7.0,0.8,0.1
 2020,F-Jackie,"Reynolds, Josh",WR,waiver,8,1,13.4,0.9,0.1
 2019,Carter's Commandos,"Colts, Indianapolis",Def,free_agent,8,6,44.0,3.0,0.1
 2024,Beers,"Reichard, Will",K,free_agent,7,3,30.0,2.0,0.1
@@ -473,8 +476,6 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2024,Iron City Pounders,"Patriots, New England",Def,free_agent,12,1,7.0,0.5,0.1
 2015,Tally Wackers,"Gano, Graham",K,waiver,9,2,20.0,1.5,0.1
 2011,Bunchalosers,"Dreessen, Joel",TE,free_agent,8,1,6.0,0.6,0.1
-2026,Manic Moose,"Butker, Harrison",K,free_agent,6,3,31.0,3.5,0.1
-2026,Scooter's Boozers,"Ryland, Chad",K,free_agent,7,1,11.0,1.3,0.1
 2015,F-Jackie,"Ginn Jr., Ted",WR,free_agent,1,7,56.0,5.3,0.1
 2023,OakalDoakals,"Otton, Cade",TE,free_agent,9,6,49.0,2.9,0.1
 2012,Beers,"Lewis, Marcedes",TE,free_agent,12,1,6.0,0.5,0.1
@@ -521,7 +522,6 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2022,Otters,"Gano, Graham",K,free_agent,5,4,37.0,2.4,0.0
 2011,Scooter's Boozers,"Morgan, Josh",WR,waiver,5,1,7.0,0.7,0.0
 2022,Couchfire,"Dulin, Ashton",WR,free_agent,2,1,10.7,0.8,0.0
-2026,Iron City Pounders,"Gay, Matt",K,free_agent,5,4,40.0,4.8,0.0
 2024,F-Jackie,"Nailor, Jalen",WR,waiver,3,1,10.9,0.7,0.0
 2008,Manic Moose,"Davis, Rashied",CB,free_agent,10,1,0.0,0.0,0.0
 2021,F-Jackie,"Agnew, Jamal",CB,waiver,8,4,53.5,3.2,0.0
@@ -558,6 +558,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2020,Carter's Commandos,"Booker, Devontae",RB,free_agent,4,4,46.8,4.0,-0.0
 2022,Otters,"Seahawks, Seattle",Def,free_agent,9,3,17.0,1.1,-0.0
 2010,Bunchalosers,"Rackers, Neil",K,free_agent,11,3,25.0,2.1,-0.0
+2026,Beers,"Saints, New Orleans",Def,waiver,9,1,5.0,0.6,-0.0
 2024,Carter's Commandos,"Ryland, Chad",K,free_agent,12,3,28.0,2.0,-0.0
 2025,Texas Nashvillians,"Cousins, Kirk",QB,waiver,12,1,25.4,1.9,-0.0
 2024,Dunbar Dogs,"Austin III, Calvin",WR,waiver,12,3,32.1,2.4,-0.0
@@ -565,6 +566,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2022,Tally Wackers,"Redskins, Washington",Def,free_agent,7,2,11.0,0.8,-0.1
 2023,Otters,"Panthers, Carolina",Def,free_agent,10,1,6.0,0.4,-0.1
 2023,Carter's Commandos,"Raiders, Oakland",Def,free_agent,7,6,39.0,3.1,-0.1
+2026,Otters,"Bengals, Cincinnati",Def,free_agent,2,6,32.0,2.9,-0.1
 2020,Scooter's Boozers,"Badgley, Mike",K,free_agent,7,1,9.0,0.6,-0.1
 2021,Couchfire,"Bengals, Cincinnati",Def,waiver,8,1,5.0,0.3,-0.1
 2015,Scooter's Boozers,"Carpenter, Dan",K,free_agent,9,1,9.0,1.0,-0.1
@@ -582,11 +584,11 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2025,Couchfire,"Santos, Cairo",K,free_agent,12,1,9.0,0.6,-0.1
 2025,Manic Moose,"Mevis, Harrison",K,free_agent,14,1,9.0,0.6,-0.1
 2024,Manic Moose,"Jaguars, Jacksonville",Def,free_agent,14,1,5.0,0.3,-0.1
-2026,Carter's Commandos,"Szmyt, Andre",K,free_agent,7,1,9.0,1.1,-0.1
 2016,Manic Moose,"Pitta, Dennis",TE,waiver,3,1,5.0,0.5,-0.1
 2019,F-Jackie,"Buccaneers, Tampa Bay",Def,free_agent,3,1,6.0,0.4,-0.1
 2017,Otters,"Walsh, Blair",K,free_agent,10,1,10.0,0.8,-0.1
-2026,Otters,"Buccaneers, Tampa Bay",Def,free_agent,6,1,4.0,0.4,-0.1
+2026,Carter's Commandos,"Szmyt, Andre",K,free_agent,7,1,9.0,0.9,-0.1
+2026,Couchfire,"Santos, Cairo",K,free_agent,9,1,9.0,0.9,-0.1
 2021,Iron City Pounders,"Blewitt, Chris",K,free_agent,8,1,8.0,0.5,-0.1
 2011,OakalDoakals,"Schilens, Chaz",WR,free_agent,12,2,13.0,1.2,-0.1
 2013,Iron City Pounders,"Novak, Nick",K,free_agent,4,5,51.0,5.0,-0.1
@@ -599,12 +601,15 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2020,F-Jackie,"Moore, David",WR,free_agent,6,2,22.2,1.5,-0.1
 2025,Otters,"Cardinals, Arizona",Def,free_agent,1,1,4.0,0.3,-0.1
 2013,Otters,"Ponder, Christian",QB,free_agent,8,1,23.0,1.7,-0.1
+2026,Otters,"Buccaneers, Tampa Bay",Def,free_agent,6,1,4.0,0.4,-0.1
 2018,Carter's Commandos,"Janikowski, Sebastian",K,free_agent,9,5,46.0,3.2,-0.1
 2025,Ho Train,"Colts, Indianapolis",Def,free_agent,2,9,47.0,2.8,-0.1
 2024,Couchfire,"Santos, Cairo",K,free_agent,4,1,8.0,0.5,-0.1
 2024,Blitzkrieg,"Moody, Jake",K,waiver,14,1,8.0,0.6,-0.1
 2025,Dunbar Dogs,"Lutz, Wil",K,free_agent,8,4,38.0,3.1,-0.1
+2026,OakalDoakals,"Pierce, Dameon",RB,waiver,6,2,24.3,2.7,-0.1
 2025,Carter's Commandos,"Panthers, Carolina",Def,free_agent,10,4,20.0,1.2,-0.1
+2026,Iron City Pounders,"Gay, Matt",K,free_agent,5,5,49.0,5.4,-0.1
 2019,Couchfire,"Crosby, Mason",K,free_agent,9,2,15.0,1.1,-0.1
 2008,Otters,"Washington, Nate",WR,waiver,6,1,5.0,0.5,-0.1
 2016,OakalDoakals,"Garcon, Pierre",WR,waiver,6,1,6.0,0.5,-0.1
@@ -616,6 +621,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2015,Texas Nashvillians,"Watson, Ben",TE,waiver,10,2,9.0,0.8,-0.1
 2015,Bunchalosers,"Redskins, Washington",Def,free_agent,6,2,12.0,1.0,-0.1
 2008,Karpet Munchers,"Carney, John",K,free_agent,2,9,84.0,7.7,-0.1
+2026,Scooter's Boozers,"Engram, Evan",TE,waiver,2,1,7.5,0.7,-0.1
 2012,Otters,"Zuerlein, Greg",K,waiver,1,9,89.0,7.1,-0.1
 2021,Blitzkrieg,"Broncos, Denver",Def,free_agent,10,1,4.0,0.3,-0.1
 2021,Ho Train,"Vikings, Minnesota",Def,waiver,13,1,4.0,0.3,-0.1
@@ -625,19 +631,16 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2020,Manic Moose,"Chiefs, Kansas City",Def,free_agent,13,1,4.0,0.2,-0.1
 2018,Da Funk,"Redskins, Washington",Def,free_agent,8,6,35.0,2.5,-0.1
 2022,Blitzkrieg,"Falcons, Atlanta",Def,free_agent,6,6,33.0,2.5,-0.2
-2026,Scooter's Boozers,"Engram, Evan",TE,waiver,2,1,7.5,0.9,-0.2
 2020,OakalDoakals,"Ahmed, Salvon",RB,free_agent,10,1,9.9,0.6,-0.2
 2019,Ho Train,"Tucker, Justin",K,waiver,9,3,23.0,1.4,-0.2
 2018,Ho Train,"Lambo, Josh",K,free_agent,11,2,17.0,1.1,-0.2
 2012,Texas Nashvillians,"Browns, Cleveland",Def,waiver,8,1,6.0,0.6,-0.2
-2026,OakalDoakals,"Pierce, Dameon",RB,waiver,6,2,24.3,3.1,-0.2
 2009,F-Jackie,"Davis, Fred",TE,free_agent,8,2,9.0,0.8,-0.2
 2010,OakalDoakals,"Parrish, Roscoe",WR,free_agent,4,3,21.0,2.5,-0.2
 2022,Beers,"Sanders, Jason",K,free_agent,9,4,35.0,2.2,-0.2
 2010,OakalDoakals,"Gano, Graham",K,free_agent,7,1,7.0,0.8,-0.2
 2011,Manic Moose,"Titans, Tennessee",Def,free_agent,4,2,13.0,1.0,-0.2
 2025,Couchfire,"Iosivas, Andrei",WR,free_agent,12,1,8.6,0.5,-0.2
-2026,Couchfire,"Mevis, Harrison",K,free_agent,4,1,8.0,0.9,-0.2
 2009,Da Funk,"Carpenter, Dan",K,free_agent,5,1,7.0,0.8,-0.2
 2018,Otters,"Cardinals, Arizona",Def,waiver,11,1,4.0,0.2,-0.2
 2018,Beers,"Bengals, Cincinnati",Def,free_agent,6,1,4.0,0.2,-0.2
@@ -648,11 +651,11 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2010,Texas Nashvillians,"Falcons, Atlanta",Def,free_agent,4,8,56.0,6.3,-0.2
 2017,Scooter's Boozers,"Ellington, Andre",RB,waiver,2,1,6.0,0.8,-0.2
 2017,OakalDoakals,"Smith, Rod",RB,free_agent,9,1,6.0,0.6,-0.2
+2026,Couchfire,"Mevis, Harrison",K,free_agent,4,1,8.0,0.8,-0.2
 2019,Karpet Munchers,"Griffin, Ryan",TE,free_agent,12,2,14.3,1.0,-0.2
 2013,Otters,"Beasley, Cole",WR,waiver,8,1,6.0,0.4,-0.2
 2013,Beers,"Kearse, Jermaine",WR,free_agent,9,1,6.0,0.5,-0.2
 2013,Bunchalosers,"Sanders, Ace",WR,free_agent,12,1,6.0,0.6,-0.2
-2026,Dunbar Dogs,"Titans, Tennessee",Def,free_agent,7,2,8.0,1.0,-0.2
 2009,Bunchalosers,"Stovall, Maurice",WR,free_agent,11,1,5.0,0.6,-0.2
 2023,Carter's Commandos,"Falcons, Atlanta",Def,waiver,13,2,11.0,0.9,-0.2
 2022,Couchfire,"Bullock, Randy",K,free_agent,9,1,7.0,0.5,-0.2
@@ -699,18 +702,16 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2018,Texas Nashvillians,"Patterson, Cordarrelle",WR,free_agent,9,2,20.4,1.3,-0.2
 2024,Scooter's Boozers,"Saints, New Orleans",Def,free_agent,13,2,9.0,0.6,-0.2
 2022,F-Jackie,"Panthers, Carolina",Def,free_agent,8,1,3.0,0.2,-0.2
+2026,Dunbar Dogs,"Titans, Tennessee",Def,free_agent,7,2,8.0,0.9,-0.2
 2025,Beers,"Fitzgerald, Ryan",K,waiver,7,1,7.0,0.4,-0.2
 2016,Manic Moose,"Humphries, Adam",WR,waiver,3,1,5.0,0.5,-0.2
 2010,Ho Train,"Dolphins, Miami",Def,free_agent,8,1,5.0,0.4,-0.2
-2026,Ho Train,"Bates, Jake",K,free_agent,7,2,17.0,2.3,-0.2
 2013,Manic Moose,"Bullock, Randy",K,free_agent,9,1,8.0,0.6,-0.2
 2024,Dunbar Dogs,"Grupe, Blake",K,free_agent,13,2,16.0,1.2,-0.2
 2024,Otters,"Bates, Jake",K,free_agent,8,2,16.0,0.9,-0.2
 2009,Dunbar Dogs,"Bills, Buffalo",Def,free_agent,5,1,6.0,0.5,-0.3
 2009,Iron City Pounders,"Jaguars, Jacksonville",Def,free_agent,5,1,6.0,0.5,-0.3
 2013,Iron City Pounders,"Ravens, Baltimore",Def,free_agent,9,1,5.0,0.5,-0.3
-2026,Couchfire,"Buccaneers, Tampa Bay",Def,free_agent,2,1,2.0,0.2,-0.3
-2026,Ho Train,"Cowboys, Dallas",Def,free_agent,1,1,2.0,0.3,-0.3
 2021,Blitzkrieg,"Vikings, Minnesota",Def,free_agent,1,3,14.0,1.2,-0.3
 2015,Karpet Munchers,"Celek, Brent",TE,free_agent,11,3,13.0,1.2,-0.3
 2021,OakalDoakals,"Wilson, Cedrick",WR,free_agent,11,2,19.5,1.3,-0.3
@@ -728,11 +729,12 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2020,Iron City Pounders,"Sample, Drew",TE,free_agent,5,1,3.9,0.3,-0.3
 2025,Couchfire,"Badgley, Mike",K,free_agent,6,6,56.0,3.6,-0.3
 2015,Dunbar Dogs,"Dolphins, Miami",Def,free_agent,10,4,24.0,2.0,-0.3
-2026,Karpet Munchers,"Patriots, New England",Def,free_agent,5,4,17.0,2.1,-0.3
 2010,Otters,"Davis, Craig",WR,free_agent,7,1,5.0,0.4,-0.3
 2021,Da Funk,"Redskins, Washington",Def,free_agent,11,2,8.0,0.5,-0.3
 2021,F-Jackie,"Eagles, Philadelphia",Def,free_agent,12,2,8.0,0.5,-0.3
 2009,Bunchalosers,"Scobee, Josh",K,waiver,10,1,6.0,0.7,-0.3
+2026,Couchfire,"Buccaneers, Tampa Bay",Def,free_agent,2,1,2.0,0.2,-0.3
+2026,Ho Train,"Cowboys, Dallas",Def,free_agent,1,1,2.0,0.2,-0.3
 2022,Couchfire,"Texans, Houston",Def,free_agent,9,3,14.0,1.1,-0.3
 2023,Da Funk,"Chargers, San Diego",Def,free_agent,9,4,23.0,1.5,-0.3
 2019,Scooter's Boozers,"Brate, Cameron",TE,free_agent,8,1,4.7,0.4,-0.3
@@ -786,14 +788,13 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2012,Scooter's Boozers,"Bailey, Dan",K,waiver,9,1,7.0,0.8,-0.3
 2012,Manic Moose,"Prater, Matt",K,waiver,13,1,7.0,0.5,-0.3
 2015,Blitzkrieg,"Lewis, Dion",RB,free_agent,1,4,29.0,2.8,-0.3
-2026,Couchfire,"Smack, Trey",K,free_agent,1,3,26.0,2.9,-0.3
-2026,Couchfire,"McManus, Brandon",K,free_agent,8,1,6.0,0.7,-0.3
 2019,Otters,"Colts, Indianapolis",Def,free_agent,4,1,3.0,0.2,-0.3
 2017,Karpet Munchers,"Thompson, Deonte",WR,free_agent,8,3,17.0,1.6,-0.3
 2017,Beers,"Jets, New York",Def,free_agent,7,1,4.0,0.5,-0.3
 2020,Otters,"Meyers, Jakobi",WR,free_agent,9,4,43.1,2.6,-0.3
 2010,Tally Wackers,"Williams, Keiland",RB,waiver,3,1,6.0,0.5,-0.3
 2021,Blitzkrieg,"Gonzalez, Zane",K,free_agent,7,1,5.0,0.4,-0.3
+2026,Couchfire,"McManus, Brandon",K,free_agent,8,1,6.0,0.6,-0.3
 2012,Bunchalosers,"Leftwich, Byron",QB,waiver,11,1,20.0,1.6,-0.3
 2012,Iron City Pounders,"Powell, Bilal",RB,free_agent,1,3,21.0,2.1,-0.3
 2025,F-Jackie,"Neal, Devin",RB,free_agent,11,2,23.3,1.4,-0.3
@@ -815,13 +816,14 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2019,OakalDoakals,"Johnson, Olabisi",WR,free_agent,6,1,6.9,0.5,-0.4
 2013,Beers,"Dolphins, Miami",Def,free_agent,10,1,4.0,0.4,-0.4
 2016,OakalDoakals,"Fiedorowicz, C.J.",TE,waiver,8,3,14.0,1.3,-0.4
-2026,F-Jackie,"Cowboys, Dallas",Def,waiver,5,4,16.0,1.9,-0.4
+2026,Couchfire,"Smack, Trey",K,free_agent,1,3,26.0,2.5,-0.4
 2020,Scooter's Boozers,"Slye, Joey",K,free_agent,4,5,44.0,2.7,-0.4
 2021,Otters,"Bengals, Cincinnati",Def,free_agent,4,2,7.0,0.4,-0.4
 2008,Ho Train,"Gramatica, Martin",K,free_agent,5,2,16.0,1.5,-0.4
 2025,Ho Train,"Falcons, Atlanta",Def,waiver,3,1,1.0,0.1,-0.4
 2025,Otters,"Redskins, Washington",Def,free_agent,14,1,1.0,0.1,-0.4
 2015,Carter's Commandos,"Snead, Willie",WR,free_agent,4,5,36.0,2.8,-0.4
+2026,Manic Moose,"Butker, Harrison",K,free_agent,6,4,36.0,3.8,-0.4
 2012,Carter's Commandos,"Redskins, Washington",Def,free_agent,11,3,19.0,2.1,-0.4
 2016,Scooter's Boozers,"Sturgis, Caleb",K,waiver,7,7,67.0,6.9,-0.4
 2022,Couchfire,"Browns, Cleveland",Def,waiver,2,3,13.0,1.0,-0.4
@@ -872,7 +874,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2014,Otters,"Asiata, Matt",RB,free_agent,2,1,4.0,0.3,-0.4
 2015,Tally Wackers,"Robinson, Khiry",RB,waiver,4,2,12.0,0.9,-0.4
 2023,Beers,"Jones, Tony",RB,waiver,3,1,7.2,0.4,-0.4
-2026,Ho Train,"Browns, Cleveland",Def,free_agent,7,2,5.0,0.7,-0.4
+2026,F-Jackie,"Cowboys, Dallas",Def,waiver,5,5,22.0,2.3,-0.4
 2012,OakalDoakals,"Novak, Nick",K,free_agent,5,1,6.0,0.6,-0.4
 2014,Karpet Munchers,"Paul, Niles",WR,waiver,3,2,12.0,0.9,-0.4
 2017,Texas Nashvillians,"Fairbairn, Ka'imi",K,waiver,6,1,7.0,0.6,-0.4
@@ -894,7 +896,6 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2025,Scooter's Boozers,"Prater, Matt",K,free_agent,2,5,44.0,2.8,-0.4
 2011,Ho Train,"Lindell, Rian",K,free_agent,5,2,15.0,1.3,-0.4
 2015,OakalDoakals,"Chandler, Scott",TE,free_agent,1,2,6.0,0.5,-0.5
-2026,Couchfire,"Metchie, John",WR,free_agent,4,1,5.2,0.6,-0.5
 2012,Carter's Commandos,"Suisham, Shaun",K,free_agent,7,7,66.0,7.2,-0.5
 2013,Otters,"Feely, Jay",K,free_agent,1,1,6.0,0.4,-0.5
 2013,Scooter's Boozers,"Cundiff, Billy",K,waiver,8,1,6.0,0.5,-0.5
@@ -902,16 +903,16 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2008,Bunchalosers,"Panthers, Carolina",Def,free_agent,3,10,72.0,7.9,-0.5
 2019,Blitzkrieg,"Vinatieri, Adam",K,free_agent,10,2,11.0,0.8,-0.5
 2021,Beers,"Booker, Devontae",RB,waiver,6,4,48.0,2.9,-0.5
+2026,Couchfire,"Metchie, John",WR,free_agent,4,1,5.2,0.5,-0.5
 2018,Otters,"Beasley, Cole",WR,waiver,7,1,5.7,0.3,-0.5
 2020,Couchfire,"Gostkowski, Stephen",K,free_agent,1,1,4.0,0.3,-0.5
 2013,OakalDoakals,"Streater, Rod",WR,free_agent,12,2,11.0,1.1,-0.5
-2026,Beers,"Waller, Darren",WR,free_agent,3,1,5.1,0.7,-0.5
 2021,Otters,"Titans, Tennessee",Def,free_agent,10,1,0.0,0.0,-0.5
 2011,Carter's Commandos,"Folk, Nick",K,free_agent,10,4,34.0,3.4,-0.5
 2020,Ho Train,"Castillo, Sergio",K,free_agent,8,4,33.0,2.7,-0.5
+2026,Beers,"Waller, Darren",WR,free_agent,3,1,5.1,0.6,-0.5
 2017,Blitzkrieg,"Watson, Ben",TE,free_agent,12,2,6.0,0.7,-0.5
 2023,Beers,"Falcons, Atlanta",Def,free_agent,8,1,1.0,0.1,-0.5
-2026,Scooter's Boozers,"Dell, Tank",WR,waiver,5,1,5.0,0.6,-0.5
 2022,Manic Moose,"Brate, Cameron",TE,free_agent,6,1,2.4,0.2,-0.5
 2022,Tally Wackers,"Lewis, Marcedes",TE,waiver,9,1,2.4,0.2,-0.5
 2020,Manic Moose,"Jaguars, Jacksonville",Def,free_agent,4,1,0.0,0.0,-0.5
@@ -925,11 +926,11 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2012,Blitzkrieg,"Redskins, Washington",Def,free_agent,4,1,3.0,0.3,-0.5
 2015,Blitzkrieg,"Sturgis, Caleb",K,free_agent,10,1,5.0,0.5,-0.5
 2020,F-Jackie,"Watson, Justin",WR,free_agent,2,1,5.8,0.4,-0.5
+2026,Ho Train,"Browns, Cleveland",Def,free_agent,7,2,5.0,0.6,-0.5
 2015,Beers,"Vikings, Minnesota",Def,free_agent,1,4,22.0,2.4,-0.5
 2022,F-Jackie,"Raiders, Oakland",Def,free_agent,10,1,0.0,0.0,-0.5
 2023,Blitzkrieg,"Packers, Green Bay",Def,free_agent,3,3,14.0,0.9,-0.5
 2024,F-Jackie,"Giants, New York",Def,free_agent,13,1,0.0,0.0,-0.5
-2026,Beers,"Taylor, Mason",TE,free_agent,8,1,3.4,0.4,-0.5
 2020,F-Jackie,"Kroft, Tyler",TE,free_agent,6,1,1.2,0.1,-0.5
 2025,Scooter's Boozers,"Palmer, Josh",WR,waiver,5,1,4.6,0.3,-0.5
 2021,Ho Train,"Schultz, Dalton",TE,free_agent,2,7,53.3,3.3,-0.5
@@ -947,7 +948,6 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2017,Iron City Pounders,"Osweiler, Brock",QB,waiver,9,1,16.0,1.7,-0.5
 2018,Tally Wackers,"Gano, Graham",K,waiver,6,3,22.0,1.3,-0.5
 2015,Manic Moose,"Sanchez, Mark",QB,free_agent,11,1,20.0,1.4,-0.5
-2026,Blitzkrieg,"Jets, New York",Def,free_agent,7,1,-1.0,-0.1,-0.5
 2016,Carter's Commandos,"Lions, Detroit",Def,free_agent,8,2,7.0,0.5,-0.5
 2022,Otters,"Watkins, Sammy",WR,free_agent,7,1,4.6,0.3,-0.5
 2010,Da Funk,"Seahawks, Seattle",Def,free_agent,6,8,53.0,4.9,-0.5
@@ -955,6 +955,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2020,F-Jackie,"Bryant, Harrison",TE,free_agent,1,1,1.0,0.1,-0.5
 2020,Ho Train,"Hightower, John",WR,free_agent,6,1,5.5,0.4,-0.5
 2022,F-Jackie,"Lutz, Wil",K,free_agent,5,9,77.0,4.4,-0.5
+2026,Scooter's Boozers,"Ryland, Chad",K,free_agent,7,2,14.0,1.4,-0.5
 2019,Blitzkrieg,"Pineiro, Eddy",K,free_agent,9,1,2.0,0.1,-0.5
 2008,Manic Moose,"Redskins, Washington",Def,free_agent,6,2,11.0,1.3,-0.5
 2020,Tally Wackers,"Succop, Ryan",K,free_agent,4,2,13.0,0.9,-0.5
@@ -978,6 +979,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2022,Scooter's Boozers,"Heinicke, Taylor",QB,waiver,7,2,46.5,3.2,-0.5
 2023,Dunbar Dogs,"Ammendola, Matt",K,free_agent,11,1,3.0,0.3,-0.5
 2020,Ho Train,"Jaguars, Jacksonville",Def,free_agent,11,3,11.0,0.9,-0.5
+2026,Blitzkrieg,"Jets, New York",Def,free_agent,7,1,-1.0,-0.1,-0.5
 2015,OakalDoakals,"Clay, Charles",RB,waiver,4,2,11.0,0.9,-0.5
 2010,Karpet Munchers,"Gostkowski, Stephen",K,free_agent,6,4,29.0,3.5,-0.5
 2014,Bunchalosers,"Santos, Cairo",K,free_agent,10,1,5.0,0.5,-0.5
@@ -1060,7 +1062,6 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2010,F-Jackie,"Panthers, Carolina",Def,free_agent,8,1,2.0,0.2,-0.6
 2014,Bunchalosers,"Rivera, Mychal",TE,free_agent,10,4,15.0,1.5,-0.6
 2021,Iron City Pounders,"Conklin, Tyler",TE,waiver,10,5,35.2,2.1,-0.6
-2026,OakalDoakals,"Raiders, Oakland",Def,free_agent,3,1,-2.0,-0.3,-0.6
 2015,Texas Nashvillians,"Hopkins, Dustin",K,free_agent,9,1,4.0,0.3,-0.6
 2023,Couchfire,"Reynolds, Craig",RB,free_agent,6,1,5.3,0.3,-0.6
 2025,Texas Nashvillians,"Tucker, Sean",RB,waiver,5,6,75.3,5.5,-0.6
@@ -1091,6 +1092,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2016,Dunbar Dogs,"Fasano, Anthony",TE,waiver,11,1,0.0,0.0,-0.6
 2016,Karpet Munchers,"Hooper, Austin",TE,waiver,12,1,0.0,0.0,-0.6
 2016,Beers,"Walford, Clive",TE,free_agent,13,1,0.0,0.0,-0.6
+2026,OakalDoakals,"Raiders, Oakland",Def,free_agent,3,1,-2.0,-0.2,-0.6
 2018,Couchfire,"Carlson, Daniel",K,waiver,1,2,11.0,0.8,-0.6
 2024,Carter's Commandos,"Dissly, Will",TE,waiver,8,2,8.6,0.6,-0.6
 2013,Ho Train,"Winslow, Kellen",TE,waiver,2,1,0.0,0.0,-0.6
@@ -1127,6 +1129,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2014,Carter's Commandos,"Folk, Nick",K,free_agent,9,1,4.0,0.4,-0.6
 2008,Da Funk,"Browns, Cleveland",Def,free_agent,8,2,10.0,1.0,-0.6
 2025,Texas Nashvillians,"Falcons, Atlanta",Def,waiver,8,7,30.0,2.2,-0.6
+2026,Da Funk,"Virgil, Reggie",WR,free_agent,9,1,3.0,0.3,-0.6
 2025,Da Funk,"Smith, Arian",WR,free_agent,8,1,2.8,0.2,-0.6
 2017,Bunchalosers,"Panthers, Carolina",Def,waiver,6,4,22.0,2.4,-0.6
 2019,Couchfire,"Seibert, Austin",K,free_agent,4,3,17.0,1.3,-0.6
@@ -1134,16 +1137,17 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2012,Texas Nashvillians,"Cundiff, Billy",K,waiver,2,1,4.0,0.4,-0.6
 2020,Ho Train,"Gaskin, Myles",RB,waiver,2,6,62.8,5.1,-0.6
 2024,Couchfire,"Rattler, Spencer",QB,waiver,6,1,17.8,1.0,-0.6
+2026,Beers,"Tremble, Tommy",TE,free_agent,7,1,1.3,0.2,-0.6
 2022,Otters,"Perriman, Breshad",WR,waiver,3,1,2.9,0.2,-0.6
 2024,Da Funk,"Jets, New York",Def,free_agent,10,1,-2.0,-0.1,-0.7
 2015,Otters,"Coons, Travis",K,free_agent,5,4,32.0,3.9,-0.7
 2021,Blitzkrieg,"Gano, Graham",K,free_agent,1,1,1.0,0.1,-0.7
 2025,Beers,"Knight, Zonovan",RB,waiver,7,1,5.7,0.4,-0.7
-2026,Beers,"Tremble, Tommy",TE,free_agent,7,1,1.3,0.2,-0.7
 2017,F-Jackie,"Crosby, Mason",K,free_agent,9,1,5.0,0.5,-0.7
 2019,Beers,"Erickson, Alex",WR,free_agent,13,1,3.1,0.2,-0.7
 2024,Carter's Commandos,"Alie-Cox, Mo",TE,free_agent,7,1,0.0,0.0,-0.7
 2024,Karpet Munchers,"Kmet, Cole",TE,waiver,11,1,0.0,0.0,-0.7
+2026,Dunbar Dogs,"Knox, Dawson",TE,free_agent,8,1,1.1,0.1,-0.7
 2019,Scooter's Boozers,"Lewis, Dion",RB,free_agent,12,1,5.0,0.4,-0.7
 2013,Manic Moose,"Colts, Indianapolis",Def,free_agent,8,1,1.0,0.1,-0.7
 2013,Bunchalosers,"Colts, Indianapolis",Def,free_agent,11,1,1.0,0.1,-0.7
@@ -1154,7 +1158,6 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2022,Couchfire,"Woerner, Charlie",TE,free_agent,14,1,0.0,0.0,-0.7
 2008,Otters,"Brown, Kris",K,free_agent,7,1,4.0,0.4,-0.7
 2020,Scooter's Boozers,"Eagles, Philadelphia",Def,free_agent,10,4,15.0,0.9,-0.7
-2026,Dunbar Dogs,"Knox, Dawson",TE,free_agent,8,1,1.1,0.1,-0.7
 2018,Karpet Munchers,"Gabriel, Taylor",WR,free_agent,1,2,14.5,0.8,-0.7
 2021,F-Jackie,"Burkhead, Rex",RB,waiver,13,1,5.0,0.3,-0.7
 2018,Otters,"Bryant, Martavis",WR,free_agent,2,1,2.8,0.2,-0.7
@@ -1176,6 +1179,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2018,OakalDoakals,"Seals-Jones, Ricky",TE,free_agent,5,1,0.0,0.0,-0.7
 2018,Iron City Pounders,"Davis, Vernon",TE,free_agent,7,1,0.0,0.0,-0.7
 2020,Karpet Munchers,"Lewis, Dion",RB,waiver,9,1,3.1,0.2,-0.7
+2026,Tally Wackers,"Ekeler, Austin",RB,free_agent,7,1,4.4,0.5,-0.7
 2013,Bunchalosers,"Cowboys, Dallas",Def,free_agent,2,11,75.0,7.4,-0.7
 2016,Bunchalosers,"Dolphins, Miami",Def,free_agent,11,3,11.0,1.3,-0.7
 2023,Iron City Pounders,"Titans, Tennessee",Def,free_agent,11,4,18.0,1.4,-0.7
@@ -1204,17 +1208,16 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2016,Blitzkrieg,"Jets, New York",Def,free_agent,4,1,-1.0,-0.1,-0.7
 2011,Carter's Commandos,"Miller, Heath",TE,free_agent,5,8,35.0,3.5,-0.7
 2025,Ho Train,"Prater, Matt",K,free_agent,10,1,1.0,0.1,-0.7
-2026,Couchfire,"Cooks, Brandin",WR,free_agent,6,1,1.8,0.2,-0.7
 2022,Texas Nashvillians,"Vikings, Minnesota",Def,free_agent,14,1,-3.0,-0.2,-0.7
+2026,Couchfire,"Cooks, Brandin",WR,free_agent,6,1,1.8,0.2,-0.7
 2021,Couchfire,"Rosas, Aldrick",K,free_agent,12,1,0.0,0.0,-0.7
 2021,Texas Nashvillians,"Vizcaino, Tristan",K,free_agent,13,1,0.0,0.0,-0.7
-2026,Beers,"Myers, Jason",K,free_agent,6,3,21.0,2.7,-0.7
-2026,Couchfire,"Fitzgerald, Ryan",K,free_agent,7,1,1.0,0.1,-0.7
-2026,OakalDoakals,"Williams, Kyle",WR,free_agent,6,1,1.7,0.2,-0.7
 2012,OakalDoakals,"Browns, Cleveland",Def,free_agent,2,2,8.0,0.9,-0.7
 2022,Beers,"Carter, DeAndre",WR,free_agent,2,2,12.4,0.8,-0.7
+2026,OakalDoakals,"Williams, Kyle",WR,free_agent,6,1,1.7,0.2,-0.7
 2015,Manic Moose,"Hocker, Zach",K,free_agent,5,2,12.0,0.9,-0.7
 2017,OakalDoakals,"Inman, Dontrelle",WR,free_agent,8,4,20.0,1.9,-0.7
+2026,Couchfire,"Fitzgerald, Ryan",K,free_agent,7,1,1.0,0.1,-0.7
 2008,Tally Wackers,"Avant, Jason",WR,free_agent,0,1,0.0,0.0,-0.7
 2008,Tally Wackers,"Colbert, Keary",WR,waiver,3,1,0.0,0.0,-0.7
 2008,Dunbar Dogs,"Baker, Dallas",WR,waiver,2,1,0.0,0.0,-0.7
@@ -1226,20 +1229,20 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2008,Otters,"Morgan, Josh",WR,waiver,8,1,0.0,0.0,-0.7
 2008,OakalDoakals,"Schilens, Chaz",WR,free_agent,9,1,0.0,0.0,-0.7
 2008,Tally Wackers,"Walker, Mike",WR,waiver,5,1,0.0,0.0,-0.7
+2026,Tally Wackers,"Hooper, Austin",TE,free_agent,9,1,0.0,0.0,-0.8
 2011,Texas Nashvillians,"Briscoe, Dezmon",WR,waiver,0,1,0.0,0.0,-0.8
 2011,OakalDoakals,"Salas, Greg",WR,free_agent,2,1,0.0,0.0,-0.8
 2011,Beers,"Williams, Mike",WR,free_agent,5,1,0.0,0.0,-0.8
 2011,Manic Moose,"Hartline, Brian",WR,free_agent,8,1,0.0,0.0,-0.8
 2011,Otters,"Naanee, Legedu",WR,free_agent,11,1,0.0,0.0,-0.8
 2011,Otters,"Sanzenbacher, Dane",WR,free_agent,11,1,0.0,0.0,-0.8
-2026,Manic Moose,"49ers, San Francisco",Def,free_agent,6,2,1.0,0.1,-0.8
 2017,Ho Train,"Steelers, Pittsburgh",Def,waiver,10,4,21.0,1.9,-0.8
 2021,Karpet Munchers,"Jones, Zay",WR,waiver,13,1,2.0,0.1,-0.8
 2012,Manic Moose,"Hartley, Garrett",K,free_agent,11,2,13.0,1.0,-0.8
 2020,OakalDoakals,"Wilson, Jeffery",RB,waiver,4,1,2.4,0.2,-0.8
 2014,Manic Moose,"Steelers, Pittsburgh",Def,free_agent,4,1,0.0,0.0,-0.8
-2026,Couchfire,"Ridley, Calvin",WR,free_agent,8,1,1.5,0.2,-0.8
 2025,Iron City Pounders,"Reichard, Will",K,free_agent,8,7,60.0,3.8,-0.8
+2026,Couchfire,"Ridley, Calvin",WR,free_agent,8,1,1.5,0.1,-0.8
 2017,Ho Train,"Taylor, Trent",WR,free_agent,1,1,0.0,0.0,-0.8
 2017,OakalDoakals,"Lewis, Roger",WR,waiver,6,1,0.0,0.0,-0.8
 2017,Beers,"Treadwell, Laquon",WR,waiver,7,1,0.0,0.0,-0.8
@@ -1283,8 +1286,8 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2019,Manic Moose,"Everett, Gerald",TE,waiver,6,5,31.5,1.8,-0.8
 2024,Iron City Pounders,"Hopkins, Dustin",K,free_agent,7,1,0.0,0.0,-0.8
 2011,Blitzkrieg,"Colts, Indianapolis",Def,free_agent,6,1,0.0,0.0,-0.8
+2026,Couchfire,"Huntley, Tyler",QB,waiver,5,1,17.0,1.6,-0.8
 2020,Beers,"Coleman, Tevin",RB,free_agent,7,1,2.0,0.1,-0.8
-2026,Couchfire,"Huntley, Tyler",QB,waiver,5,1,17.0,1.9,-0.8
 2008,Beers,"Olsen, Greg",TE,free_agent,7,2,0.0,0.0,-0.8
 2021,Manic Moose,"Akins, Jordan",TE,waiver,9,1,-1.3,-0.1,-0.8
 2012,OakalDoakals,"Robinson, Aldrick",WR,waiver,2,1,0.0,0.0,-0.8
@@ -1318,6 +1321,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2009,Otters,"Colts, Indianapolis",Def,waiver,8,6,42.0,3.6,-0.8
 2018,Otters,"Browns, Cleveland",Def,free_agent,2,10,51.0,2.8,-0.8
 2024,OakalDoakals,"Boutte, Kayshon",WR,free_agent,7,1,1.1,0.1,-0.8
+2026,Manic Moose,"49ers, San Francisco",Def,free_agent,6,2,1.0,0.1,-0.8
 2025,F-Jackie,"Romo, John Parker",K,free_agent,3,1,0.0,0.0,-0.8
 2011,Texas Nashvillians,"Redskins, Washington",Def,free_agent,5,2,7.0,0.6,-0.8
 2014,Manic Moose,"Giants, New York",Def,free_agent,10,3,14.0,1.2,-0.8
@@ -1396,10 +1400,10 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2012,Manic Moose,"Bell, Joique",RB,waiver,0,3,16.0,1.2,-0.9
 2024,Texas Nashvillians,"Minshew, Gardner",QB,waiver,11,1,15.0,0.8,-0.9
 2010,Carter's Commandos,"Rackers, Neil",K,waiver,5,2,9.0,0.9,-0.9
-2026,Couchfire,"Kirk, Christian",WR,waiver,7,1,0.0,0.0,-0.9
-2026,Beers,"TeSlaa, Isaac",WR,free_agent,8,1,0.0,0.0,-0.9
 2018,OakalDoakals,"Hopkins, Dustin",K,free_agent,7,7,55.0,3.3,-0.9
 2012,Blitzkrieg,"Chandler, Scott",TE,free_agent,1,1,-3.0,-0.3,-0.9
+2026,Couchfire,"Kirk, Christian",WR,waiver,7,1,0.0,0.0,-0.9
+2026,Beers,"TeSlaa, Isaac",WR,free_agent,8,1,0.0,0.0,-0.9
 2023,Beers,"Taylor, Patrick",RB,waiver,2,1,1.7,0.1,-0.9
 2025,Tally Wackers,"Mills, Davis",QB,free_agent,11,2,41.1,3.6,-0.9
 2019,Couchfire,"Pineiro, Eddy",K,free_agent,11,3,14.0,1.0,-0.9
@@ -1429,6 +1433,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2021,Otters,"Brate, Cameron",TE,free_agent,4,2,5.6,0.3,-0.9
 2017,Beers,"Clay, Charles",RB,free_agent,1,4,22.0,2.6,-0.9
 2021,Couchfire,"McKinnon, Jerick",RB,free_agent,6,1,2.0,0.1,-0.9
+2026,Couchfire,"Ekeler, Austin",RB,free_agent,6,1,1.7,0.2,-0.9
 2021,Otters,"Bullock, Randy",K,free_agent,9,3,16.0,1.0,-0.9
 2023,Blitzkrieg,"Hill, Justice",RB,waiver,2,1,1.2,0.1,-0.9
 2017,Blitzkrieg,"Nugent, Mike",K,free_agent,8,4,35.0,4.2,-0.9
@@ -1440,7 +1445,6 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2012,Beers,"Jones, Donald",WR,waiver,0,2,6.0,0.5,-0.9
 2012,Bunchalosers,"Thomas, Mike",WR,free_agent,12,2,6.0,0.5,-0.9
 2023,Iron City Pounders,"McLaughlin, Chase",K,free_agent,11,4,26.0,2.1,-0.9
-2026,Couchfire,"Ekeler, Austin",RB,free_agent,6,1,1.7,0.2,-0.9
 2020,Karpet Munchers,"Gostkowski, Stephen",K,free_agent,6,4,27.0,1.9,-0.9
 2020,OakalDoakals,"Taylor, J.J.",RB,free_agent,2,1,0.0,0.0,-0.9
 2020,Carter's Commandos,"Yeldon, T.J.",RB,free_agent,4,1,0.0,0.0,-0.9
@@ -1452,6 +1456,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2025,OakalDoakals,"Fant, Noah",TE,free_agent,2,2,6.4,0.4,-1.0
 2008,Manic Moose,"Patriots, New England",Def,free_agent,5,3,15.0,1.8,-1.0
 2022,Texas Nashvillians,"Jaguars, Jacksonville",Def,free_agent,4,3,6.0,0.4,-1.0
+2026,Tally Wackers,"McNichols, Jeremy",RB,free_agent,6,1,1.3,0.1,-1.0
 2016,Scooter's Boozers,"Ferguson, Josh",RB,free_agent,3,1,0.0,0.0,-1.0
 2016,OakalDoakals,"Whittaker, Fozzy",RB,waiver,3,1,0.0,0.0,-1.0
 2016,Bunchalosers,"Washington, Dwayne",RB,free_agent,8,1,0.0,0.0,-1.0
@@ -1471,7 +1476,6 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2014,Otters,"Graham, Shayne",K,free_agent,9,3,21.0,1.5,-1.0
 2012,Ho Train,"Dreessen, Joel",TE,free_agent,5,4,12.0,1.0,-1.0
 2013,OakalDoakals,"Feely, Jay",K,free_agent,3,1,1.0,0.1,-1.0
-2026,Tally Wackers,"McNichols, Jeremy",RB,free_agent,6,1,1.3,0.2,-1.0
 2019,Beers,"Richard, Jalen",RB,free_agent,11,1,1.2,0.1,-1.0
 2025,Couchfire,"Metchie, John",WR,waiver,13,2,9.3,0.6,-1.0
 2018,Ho Train,"Panthers, Carolina",Def,free_agent,7,5,18.0,1.1,-1.0
@@ -1504,6 +1508,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2025,Texas Nashvillians,"Cardinals, Arizona",Def,free_agent,5,3,4.0,0.3,-1.0
 2021,Scooter's Boozers,"Bell, Le'Veon",RB,free_agent,7,1,1.0,0.1,-1.0
 2023,Beers,"Breida, Matt",RB,free_agent,3,1,0.3,0.0,-1.0
+2026,Karpet Munchers,"Patriots, New England",Def,free_agent,5,5,15.0,1.6,-1.0
 2022,Iron City Pounders,"Chargers, San Diego",Def,free_agent,10,5,17.0,1.1,-1.0
 2016,Texas Nashvillians,"Royal, Eddie",WR,free_agent,2,2,5.0,0.5,-1.0
 2010,Beers,"Evans, Heath",RB,waiver,3,1,0.0,0.0,-1.0
@@ -1519,12 +1524,14 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2021,Beers,"Siemian, Trevor",QB,free_agent,9,1,14.4,0.9,-1.0
 2017,Carter's Commandos,"Saints, New Orleans",Def,free_agent,1,1,-2.0,-0.2,-1.0
 2017,Beers,"Jaguars, Jacksonville",Def,free_agent,2,1,-2.0,-0.2,-1.0
+2026,Beers,"Myers, Jason",K,free_agent,6,4,28.0,3.3,-1.0
 2022,Beers,"James, Richie",WR,free_agent,3,1,-1.6,-0.1,-1.0
 2015,Ho Train,"White, Roddy",WR,free_agent,11,2,6.0,0.5,-1.0
 2010,Iron City Pounders,"Rams, St. Louis",Def,waiver,5,1,-2.0,-0.2,-1.0
 2023,Couchfire,"Gordon, Melvin",RB,free_agent,2,1,0.0,0.0,-1.0
 2009,Karpet Munchers,"Snelling, Jason",RB,free_agent,3,4,25.0,2.6,-1.0
 2019,Dunbar Dogs,"Vannett, Nick",TE,free_agent,4,2,3.8,0.3,-1.0
+2026,Karpet Munchers,"Juszczyk, Kyle",RB,free_agent,9,1,0.4,0.0,-1.0
 2010,Da Funk,"Scheffler, Tony",TE,free_agent,5,2,0.0,0.0,-1.0
 2010,Otters,"Quarless, Andrew",TE,waiver,6,2,0.0,0.0,-1.0
 2010,Bunchalosers,"Shiancoe, Vishante",TE,waiver,8,2,0.0,0.0,-1.0
@@ -1560,6 +1567,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2025,Blitzkrieg,"Perine, Samaje",RB,free_agent,9,1,0.5,0.0,-1.1
 2013,Tally Wackers,"Green, Ladarius",TE,waiver,3,8,37.0,3.0,-1.1
 2012,Texas Nashvillians,"Dawson, Phil",K,waiver,5,7,60.0,5.6,-1.1
+2026,Beers,"Taylor, Mason",TE,free_agent,8,2,5.0,0.6,-1.1
 2018,Scooter's Boozers,"Clay, Charles",RB,waiver,9,1,0.0,0.0,-1.1
 2025,Manic Moose,"Rodriguez, Chris",RB,free_agent,8,1,0.2,0.0,-1.1
 2023,Dunbar Dogs,"Smythe, Durham",TE,free_agent,13,2,2.6,0.2,-1.1
@@ -1577,7 +1585,6 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2008,Manic Moose,"Ward, Derrick",RB,waiver,3,3,19.0,2.2,-1.1
 2014,Beers,"Chiefs, Kansas City",Def,waiver,5,7,40.0,4.4,-1.1
 2024,Blitzkrieg,"Falcons, Atlanta",Def,free_agent,5,2,-2.0,-0.1,-1.1
-2026,Scooter's Boozers,"Borregales, Andres",K,free_agent,3,5,36.0,4.2,-1.1
 2017,Texas Nashvillians,"Dickson, Ed",TE,free_agent,6,2,0.0,0.0,-1.2
 2023,F-Jackie,"Dicker, Cameron",K,free_agent,9,6,42.0,3.0,-1.2
 2018,Tally Wackers,"Williams, Mike",WR,free_agent,1,12,125.2,7.2,-1.2
@@ -1597,11 +1604,13 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2012,Da Funk,"Smith, Kevin",RB,waiver,2,2,5.0,0.5,-1.2
 2012,OakalDoakals,"Bolden, Brandon",RB,free_agent,4,2,5.0,0.5,-1.2
 2015,OakalDoakals,"Walsh, Blair",K,free_agent,8,6,46.0,3.8,-1.2
+2026,Scooter's Boozers,"Borregales, Andres",K,free_agent,3,5,36.0,3.5,-1.2
 2025,Da Funk,"Jaguars, Jacksonville",Def,free_agent,5,4,7.0,0.4,-1.2
 2013,Bunchalosers,"Wright, Tim",TE,free_agent,7,7,30.0,3.0,-1.2
 2013,Dunbar Dogs,"Chargers, San Diego",Def,free_agent,5,6,33.0,2.8,-1.2
 2019,Texas Nashvillians,"Jarwin, Blake",TE,free_agent,11,3,9.9,1.0,-1.2
 2022,Beers,"Murray, Latavius",RB,waiver,5,3,23.1,1.4,-1.2
+2026,OakalDoakals,"Wilson, Emanuel",RB,waiver,3,2,11.2,1.2,-1.2
 2018,Texas Nashvillians,"Moore, David",WR,waiver,7,6,54.4,3.5,-1.2
 2009,Beers,"Boss, Kevin",TE,free_agent,2,2,0.0,0.0,-1.2
 2017,Scooter's Boozers,"Richard, Jalen",RB,free_agent,8,1,-3.0,-0.4,-1.2
@@ -1614,11 +1623,11 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2014,Tally Wackers,"Stanton, Drew",QB,free_agent,10,1,12.0,0.8,-1.2
 2011,Carter's Commandos,"Battle, Jackie",RB,free_agent,5,2,7.0,0.7,-1.2
 2019,Couchfire,"Cowboys, Dallas",Def,free_agent,11,3,6.0,0.4,-1.2
-2026,OakalDoakals,"Wilson, Emanuel",RB,waiver,3,2,11.2,1.4,-1.2
 2017,Da Funk,"Bengals, Cincinnati",Def,free_agent,7,2,3.0,0.3,-1.2
 2010,Tally Wackers,"Kitna, Jon",QB,waiver,8,2,29.0,2.5,-1.2
 2011,Dunbar Dogs,"Ballard, Jake",TE,waiver,6,7,25.0,2.5,-1.2
 2013,Manic Moose,"Powell, Bilal",RB,waiver,1,4,20.0,1.5,-1.2
+2026,Da Funk,"Higbee, Tyler",TE,free_agent,6,2,3.1,0.3,-1.3
 2018,Da Funk,"Dissly, Will",TE,waiver,2,2,1.9,0.1,-1.3
 2024,OakalDoakals,"Allen, Brandon",QB,free_agent,12,1,10.4,0.9,-1.3
 2017,Tally Wackers,"Gould, Robbie",K,free_agent,1,4,32.0,3.7,-1.3
@@ -1629,7 +1638,6 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2025,Scooter's Boozers,"Ryland, Chad",K,free_agent,11,4,24.0,1.5,-1.3
 2020,Blitzkrieg,"Akins, Jordan",TE,free_agent,2,6,27.9,2.2,-1.3
 2024,Scooter's Boozers,"Giants, New York",Def,free_agent,6,5,14.0,1.0,-1.3
-2026,Da Funk,"Higbee, Tyler",TE,free_agent,6,2,3.1,0.3,-1.3
 2015,Manic Moose,"Forbath, Kai",K,free_agent,7,4,26.0,1.9,-1.3
 2022,Otters,"Broncos, Denver",Def,free_agent,4,8,31.0,2.0,-1.3
 2012,Dunbar Dogs,"Medlock, Justin",K,free_agent,8,4,28.0,2.7,-1.3
@@ -1673,7 +1681,6 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2010,Iron City Pounders,"Shockey, Jeremy",TE,waiver,5,4,6.0,0.6,-1.4
 2025,Karpet Munchers,"Cousins, Kirk",QB,free_agent,8,1,8.8,0.6,-1.4
 2014,F-Jackie,"Saints, New Orleans",Def,free_agent,10,2,1.0,0.1,-1.4
-2026,Manic Moose,"Coker, Jalen",WR,free_agent,0,2,4.2,0.5,-1.4
 2010,Tally Wackers,"Nedney, Joe",K,waiver,1,4,21.0,1.8,-1.4
 2010,OakalDoakals,"Vikings, Minnesota",Def,free_agent,4,4,16.0,1.9,-1.4
 2009,Dunbar Dogs,"Keller, Dustin",TE,waiver,6,7,24.0,1.9,-1.4
@@ -1699,7 +1706,6 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2019,Blitzkrieg,"Pascal, Zach",WR,free_agent,4,6,49.0,3.4,-1.5
 2011,Carter's Commandos,"McCluster, Dexter",WR,waiver,2,2,0.0,0.0,-1.5
 2011,Bunchalosers,"Alexander, Danario",WR,waiver,3,2,0.0,0.0,-1.5
-2026,Iron City Pounders,"Panthers, Carolina",Def,free_agent,3,4,2.0,0.2,-1.5
 2017,OakalDoakals,"Shepard, Russell",WR,free_agent,2,2,0.0,0.0,-1.5
 2017,OakalDoakals,"Hollins, Mack",WR,free_agent,7,2,0.0,0.0,-1.5
 2017,Bunchalosers,"LaFell, Brandon",WR,free_agent,11,2,0.0,0.0,-1.5
@@ -1722,11 +1728,11 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2014,Da Funk,"Gabriel, Taylor",WR,free_agent,5,3,9.0,1.1,-1.6
 2010,Texas Nashvillians,"Lindell, Rian",K,free_agent,8,5,28.0,3.1,-1.6
 2008,OakalDoakals,"Suisham, Shaun",K,free_agent,9,4,25.0,3.2,-1.6
-2026,Carter's Commandos,"Mumpfield, Konata",WR,waiver,4,2,2.0,0.2,-1.6
 2013,Texas Nashvillians,"Holliday, Trindon",WR,free_agent,5,2,0.0,0.0,-1.6
 2012,OakalDoakals,"Redskins, Washington",Def,free_agent,7,2,0.0,0.0,-1.6
 2019,Tally Wackers,"Hoyer, Brian",QB,free_agent,10,1,7.2,0.5,-1.6
 2018,Blitzkrieg,"Coutee, Keke",WR,waiver,5,2,2.4,0.2,-1.6
+2026,Carter's Commandos,"Mumpfield, Konata",WR,waiver,4,2,2.0,0.2,-1.6
 2015,Otters,"Browns, Cleveland",Def,free_agent,3,2,-2.0,-0.2,-1.6
 2011,Bunchalosers,"Nugent, Mike",K,free_agent,9,5,33.0,3.4,-1.6
 2011,Iron City Pounders,"Williams, Mike",WR,free_agent,10,3,6.0,0.5,-1.6
@@ -1735,6 +1741,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2021,Couchfire,"Johnson, D'Ernest",RB,waiver,7,6,60.4,4.1,-1.6
 2015,Beers,"Lewis, Marcedes",TE,free_agent,1,3,0.0,0.0,-1.6
 2022,F-Jackie,"Huntley, Caleb",RB,free_agent,7,2,5.6,0.3,-1.6
+2026,Iron City Pounders,"Panthers, Carolina",Def,free_agent,3,4,2.0,0.2,-1.6
 2013,Bunchalosers,"Celek, Brent",TE,free_agent,2,5,14.0,1.4,-1.6
 2021,Blitzkrieg,"McNichols, Jeremy",RB,waiver,9,2,6.6,0.6,-1.6
 2013,Manic Moose,"Folk, Nick",K,waiver,11,2,5.0,0.4,-1.6
@@ -1805,6 +1812,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2020,Couchfire,"Bryant, Dez",WR,free_agent,7,2,0.0,0.0,-1.9
 2011,F-Jackie,"Chiefs, Kansas City",Def,free_agent,9,2,-3.0,-0.2,-1.9
 2025,Ho Train,"Neal, Devin",RB,free_agent,4,2,4.3,0.3,-1.9
+2026,Manic Moose,"Coker, Jalen",WR,free_agent,0,3,9.1,0.9,-1.9
 2011,Bunchalosers,"Graham, Earnest",RB,free_agent,4,3,10.0,1.0,-1.9
 2016,Bunchalosers,"Johnson, Chris",RB,free_agent,3,2,0.0,0.0,-1.9
 2016,Bunchalosers,"Rainey, Bobby",RB,free_agent,4,2,0.0,0.0,-1.9
@@ -1847,10 +1855,10 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2018,Dunbar Dogs,"Seferian-Jenkins, Austin",TE,free_agent,7,3,0.0,0.0,-2.1
 2012,Scooter's Boozers,"Pitta, Dennis",TE,waiver,2,6,12.0,1.3,-2.1
 2013,Bunchalosers,"Durham, Kris",WR,free_agent,5,6,26.0,2.6,-2.1
-2026,OakalDoakals,"Cooper, Darius",WR,free_agent,5,3,6.5,0.8,-2.1
 2024,OakalDoakals,"Shampklin, Aaron",RB,waiver,5,2,1.4,0.1,-2.1
 2019,Couchfire,"Hill, Taysom",QB,free_agent,11,1,0.9,0.1,-2.1
 2015,Scooter's Boozers,"Titans, Tennessee",Def,waiver,2,11,53.0,5.9,-2.1
+2026,OakalDoakals,"Cooper, Darius",WR,free_agent,5,3,6.5,0.7,-2.1
 2025,Tally Wackers,"Sanders, Shedeur",QB,free_agent,3,1,0.0,0.0,-2.1
 2025,Iron City Pounders,"Hutchinson, Xavier",WR,waiver,8,3,5.8,0.4,-2.1
 2020,OakalDoakals,"Smith, Alex",QB,waiver,10,2,31.2,2.0,-2.1
@@ -1909,6 +1917,7 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2010,Tally Wackers,"Scobee, Josh",K,waiver,5,8,46.0,3.9,-2.4
 2020,F-Jackie,"Cole, Keelan",WR,free_agent,2,6,40.9,2.7,-2.4
 2009,Bunchalosers,"Ryan, Sean",TE,waiver,5,4,0.0,0.0,-2.4
+2026,Da Funk,"Johnson, Theo",TE,free_agent,1,5,16.5,1.4,-2.4
 2017,Otters,"Tavecchio, Giorgio",K,free_agent,2,4,22.0,1.7,-2.4
 2017,Scooter's Boozers,"McManus, Brandon",K,free_agent,10,4,22.0,3.0,-2.4
 2018,Manic Moose,"Andrews, Mark",TE,free_agent,4,7,32.4,2.1,-2.4
@@ -1924,7 +1933,6 @@ season,team,player,position,channel,week_added,starts,points_started,share_of_te
 2016,Bunchalosers,"Jones, Landry",QB,free_agent,7,1,0.0,0.0,-2.5
 2016,Tally Wackers,"Barkley, Matt",QB,free_agent,10,1,0.0,0.0,-2.5
 2016,Blitzkrieg,"Jones, Landry",QB,free_agent,11,1,0.0,0.0,-2.5
-2026,Da Funk,"Johnson, Theo",TE,free_agent,1,5,16.5,1.7,-2.5
 2008,OakalDoakals,"Camarillo, Greg",WR,free_agent,5,6,16.0,2.1,-2.5
 2014,Bunchalosers,"Cowboys, Dallas",Def,free_agent,4,9,41.0,4.0,-2.5
 2010,Dunbar Dogs,"Batch, Charlie",QB,waiver,4,1,-3.0,-0.3,-2.6

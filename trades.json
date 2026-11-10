@@ -12214,5 +12214,94 @@
   "source": "mfl",
   "assets_known": true,
   "incomplete": false
+ },
+ {
+  "season": 2026,
+  "date": "2026-11-05",
+  "date_precision": "day",
+  "timestamp": 1793915588,
+  "team_a": "Ho Train",
+  "team_b": "F-Jackie",
+  "a_gave": [
+   {
+    "kind": "pick",
+    "label": "2027 R5",
+    "origin_franchise": "0005",
+    "year": 2027,
+    "round": 5
+   }
+  ],
+  "b_gave": [
+   {
+    "kind": "player",
+    "id": "16596",
+    "label": "Allen, Braelon",
+    "position": "RB"
+   }
+  ],
+  "by_commish": false,
+  "comments": "",
+  "source": "mfl",
+  "assets_known": true,
+  "incomplete": false
+ },
+ {
+  "season": 2026,
+  "date": "2026-11-05",
+  "date_precision": "day",
+  "timestamp": 1793921798,
+  "team_a": "Couchfire",
+  "team_b": "Dunbar Dogs",
+  "a_gave": [
+   {
+    "kind": "player",
+    "id": "14109",
+    "label": "McLaurin, Terry",
+    "position": "WR"
+   }
+  ],
+  "b_gave": [
+   {
+    "kind": "player",
+    "id": "11222",
+    "label": "Allen, Keenan",
+    "position": "WR"
+   }
+  ],
+  "by_commish": false,
+  "comments": "",
+  "source": "mfl",
+  "assets_known": true,
+  "incomplete": false
+ },
+ {
+  "season": 2026,
+  "date": "2026-11-05",
+  "date_precision": "day",
+  "timestamp": 1793935026,
+  "team_a": "Ho Train",
+  "team_b": "Scooter's Boozers",
+  "a_gave": [
+   {
+    "kind": "player",
+    "id": "15756",
+    "label": "Williams, Jameson",
+    "position": "WR"
+   }
+  ],
+  "b_gave": [
+   {
+    "kind": "pick",
+    "label": "2028 R1",
+    "origin_franchise": "0002",
+    "year": 2028,
+    "round": 1
+   }
+  ],
+  "by_commish": false,
+  "comments": "",
+  "source": "mfl",
+  "assets_known": true,
+  "incomplete": false
  }
 ]

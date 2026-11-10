@@ -2,12 +2,12 @@
  "meta": {
   "league": "PDL",
   "seasons": "2000-2026",
-  "trades": 413,
-  "trades_mfl": 315,
+  "trades": 416,
+  "trades_mfl": 318,
   "trades_archive": 98,
   "owners": 17,
-  "players_moved": 482,
-  "picks_moved": 346,
+  "players_moved": 486,
+  "picks_moved": 348,
   "incomplete_records": 24,
   "possible_pairings": 135
  },
@@ -142,9 +142,9 @@
   },
   {
    "owner": "Couchfire",
-   "trades": 36,
+   "trades": 37,
    "seasons": 9,
-   "per_season": 4.0,
+   "per_season": 4.11,
    "seasons_with_a_trade": 9,
    "distinct_partners": 13,
    "possible_partners": 15,
@@ -153,13 +153,13 @@
    "first_season": 2018,
    "last_season": 2026,
    "net_picks": -2,
-   "players_out": 32,
+   "players_out": 33,
    "picks_out": 25,
-   "players_in": 27,
+   "players_in": 28,
    "picks_in": 23,
    "partners": {
     "Scooter's Boozers": 3,
-    "Dunbar Dogs": 4,
+    "Dunbar Dogs": 5,
     "Otters": 3,
     "OakalDoakals": 1,
     "Manic Moose": 8,
@@ -209,9 +209,9 @@
   },
   {
    "owner": "Dunbar Dogs",
-   "trades": 38,
+   "trades": 39,
    "seasons": 27,
-   "per_season": 1.41,
+   "per_season": 1.44,
    "seasons_with_a_trade": 20,
    "distinct_partners": 12,
    "possible_partners": 16,
@@ -220,9 +220,9 @@
    "first_season": 2000,
    "last_season": 2026,
    "net_picks": 3,
-   "players_out": 23,
+   "players_out": 24,
    "picks_out": 18,
-   "players_in": 10,
+   "players_in": 11,
    "picks_in": 21,
    "partners": {
     "Manic Moose": 6,
@@ -234,7 +234,7 @@
     "Bunchalosers": 4,
     "Otters": 3,
     "Texas Nashvillians": 4,
-    "Couchfire": 4,
+    "Couchfire": 5,
     "Iron City Pounders": 1,
     "Carter's Commandos": 1
    },
@@ -242,9 +242,9 @@
   },
   {
    "owner": "F-Jackie",
-   "trades": 48,
+   "trades": 49,
    "seasons": 27,
-   "per_season": 1.78,
+   "per_season": 1.81,
    "seasons_with_a_trade": 19,
    "distinct_partners": 13,
    "possible_partners": 16,
@@ -252,11 +252,11 @@
    "top_partner_trades": 10,
    "first_season": 2000,
    "last_season": 2026,
-   "net_picks": 5,
-   "players_out": 31,
+   "net_picks": 6,
+   "players_out": 32,
    "picks_out": 20,
    "players_in": 36,
-   "picks_in": 25,
+   "picks_in": 26,
    "partners": {
     "Carter's Commandos": 1,
     "Scooter's Boozers": 7,
@@ -267,7 +267,7 @@
     "Beers": 7,
     "Da Funk": 2,
     "Manic Moose": 10,
-    "Ho Train": 4,
+    "Ho Train": 5,
     "Iron City Pounders": 1,
     "Couchfire": 4,
     "Blitzkrieg": 1
@@ -276,9 +276,9 @@
   },
   {
    "owner": "Ho Train",
-   "trades": 34,
+   "trades": 36,
    "seasons": 27,
-   "per_season": 1.26,
+   "per_season": 1.33,
    "seasons_with_a_trade": 16,
    "distinct_partners": 12,
    "possible_partners": 16,
@@ -287,10 +287,10 @@
    "first_season": 2000,
    "last_season": 2026,
    "net_picks": 2,
-   "players_out": 24,
-   "picks_out": 11,
-   "players_in": 24,
-   "picks_in": 13,
+   "players_out": 25,
+   "picks_out": 12,
+   "players_in": 25,
+   "picks_in": 14,
    "partners": {
     "Manic Moose": 6,
     "Dunbar Dogs": 1,
@@ -299,9 +299,9 @@
     "Blitzkrieg": 1,
     "OakalDoakals": 2,
     "Beers": 2,
-    "F-Jackie": 4,
+    "F-Jackie": 5,
     "Otters": 3,
-    "Scooter's Boozers": 4,
+    "Scooter's Boozers": 5,
     "Da Funk": 2,
     "Couchfire": 2
    },
@@ -477,9 +477,9 @@
   },
   {
    "owner": "Scooter's Boozers",
-   "trades": 100,
+   "trades": 101,
    "seasons": 27,
-   "per_season": 3.7,
+   "per_season": 3.74,
    "seasons_with_a_trade": 27,
    "distinct_partners": 16,
    "possible_partners": 16,
@@ -487,10 +487,10 @@
    "top_partner_trades": 13,
    "first_season": 2000,
    "last_season": 2026,
-   "net_picks": -25,
+   "net_picks": -26,
    "players_out": 55,
-   "picks_out": 68,
-   "players_in": 72,
+   "picks_out": 69,
+   "players_in": 73,
    "picks_in": 43,
    "partners": {
     "Bunchalosers": 4,
@@ -506,7 +506,7 @@
     "Blitzkrieg": 3,
     "Da Funk": 5,
     "Iron City Pounders": 2,
-    "Ho Train": 4,
+    "Ho Train": 5,
     "Couchfire": 3,
     "Karpet Munchers": 1
    },
@@ -1735,7 +1735,7 @@
   },
   {
    "season": 2026,
-   "trades": 28,
+   "trades": 31,
    "source": "MFL"
   }
  ],
@@ -2097,7 +2097,7 @@
   {
    "a": "Couchfire",
    "b": "Dunbar Dogs",
-   "trades": 4,
+   "trades": 5,
    "shared_seasons": 9
   },
   {
@@ -2289,7 +2289,7 @@
   {
    "a": "F-Jackie",
    "b": "Ho Train",
-   "trades": 4,
+   "trades": 5,
    "shared_seasons": 27
   },
   {
@@ -2373,7 +2373,7 @@
   {
    "a": "Ho Train",
    "b": "Scooter's Boozers",
-   "trades": 4,
+   "trades": 5,
    "shared_seasons": 27
   },
   {
@@ -14766,6 +14766,95 @@
      "id": "17543",
      "label": "Sadiq, Kenyon",
      "position": "TE"
+    }
+   ],
+   "by_commish": false,
+   "comments": "",
+   "source": "mfl",
+   "assets_known": true,
+   "incomplete": false
+  },
+  {
+   "season": 2026,
+   "date": "2026-11-05",
+   "date_precision": "day",
+   "timestamp": 1793915588,
+   "team_a": "Ho Train",
+   "team_b": "F-Jackie",
+   "a_gave": [
+    {
+     "kind": "pick",
+     "label": "2027 R5",
+     "origin_franchise": "0005",
+     "year": 2027,
+     "round": 5
+    }
+   ],
+   "b_gave": [
+    {
+     "kind": "player",
+     "id": "16596",
+     "label": "Allen, Braelon",
+     "position": "RB"
+    }
+   ],
+   "by_commish": false,
+   "comments": "",
+   "source": "mfl",
+   "assets_known": true,
+   "incomplete": false
+  },
+  {
+   "season": 2026,
+   "date": "2026-11-05",
+   "date_precision": "day",
+   "timestamp": 1793921798,
+   "team_a": "Couchfire",
+   "team_b": "Dunbar Dogs",
+   "a_gave": [
+    {
+     "kind": "player",
+     "id": "14109",
+     "label": "McLaurin, Terry",
+     "position": "WR"
+    }
+   ],
+   "b_gave": [
+    {
+     "kind": "player",
+     "id": "11222",
+     "label": "Allen, Keenan",
+     "position": "WR"
+    }
+   ],
+   "by_commish": false,
+   "comments": "",
+   "source": "mfl",
+   "assets_known": true,
+   "incomplete": false
+  },
+  {
+   "season": 2026,
+   "date": "2026-11-05",
+   "date_precision": "day",
+   "timestamp": 1793935026,
+   "team_a": "Ho Train",
+   "team_b": "Scooter's Boozers",
+   "a_gave": [
+    {
+     "kind": "player",
+     "id": "15756",
+     "label": "Williams, Jameson",
+     "position": "WR"
+    }
+   ],
+   "b_gave": [
+    {
+     "kind": "pick",
+     "label": "2028 R1",
+     "origin_franchise": "0002",
+     "year": 2028,
+     "round": 1
     }
    ],
    "by_commish": false,

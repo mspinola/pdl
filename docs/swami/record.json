@@ -1,0 +1,71 @@
+{
+ "2026": {
+  "weeks": {
+   "9": {
+    "picks": [
+     {
+      "game": "Carter's Commandos at Couchfire",
+      "pick": "Couchfire",
+      "winner": "Couchfire",
+      "score": "140.3-141.5",
+      "result": "right"
+     },
+     {
+      "game": "OakalDoakals at Texas Nashvillians",
+      "pick": "Texas Nashvillians",
+      "winner": "Texas Nashvillians",
+      "score": "114-148.9",
+      "result": "right"
+     },
+     {
+      "game": "Tally Wackers at Scooter's Boozers",
+      "pick": "Scooter's Boozers",
+      "winner": "Scooter's Boozers",
+      "score": "126.4-161.5",
+      "result": "right"
+     },
+     {
+      "game": "Dunbar Dogs at Beers",
+      "pick": "Beers",
+      "winner": "Dunbar Dogs",
+      "score": "83.6-74.8",
+      "result": "wrong"
+     },
+     {
+      "game": "Da Funk at Otters",
+      "pick": "Otters",
+      "winner": "Da Funk",
+      "score": "160.4-69.7",
+      "result": "wrong"
+     },
+     {
+      "game": "Blitzkrieg at Iron City Pounders",
+      "pick": "Blitzkrieg",
+      "winner": "Blitzkrieg",
+      "score": "118.3-83",
+      "result": "right"
+     },
+     {
+      "game": "Manic Moose at Ho Train",
+      "pick": "Manic Moose",
+      "winner": "Ho Train",
+      "score": "63.8-90.9",
+      "result": "wrong"
+     },
+     {
+      "game": "F-Jackie at Karpet Munchers",
+      "pick": "Karpet Munchers",
+      "winner": "Karpet Munchers",
+      "score": "81.5-89.9",
+      "result": "right"
+     }
+    ],
+    "w": 5,
+    "l": 3,
+    "scored": "2026-11-10"
+   }
+  },
+  "w": 5,
+  "l": 3
+ }
+}

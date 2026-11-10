@@ -49,15 +49,15 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2023,10,Beers,"Fairbairn, Ka'imi",K,14,190.0,4.7,Ho Train,0,14,True,True
 2022,6,Ho Train,"Engram, Evan",TE,18,198.3,4.5,Carter's Commandos; Scooter's Boozers,4,14,True,False
 2024,10,Karpet Munchers,"Myers, Jason",K,17,221.0,4.5,F-Jackie; Iron City Pounders; Tally Wackers; Texas Nashvillians,4,13,True,True
-2025,1,F-Jackie,"Seahawks, Seattle",Def,19,155.0,4.5,Otters; Scooter's Boozers; Texas Nashvillians,11,8,False,False
 2019,15,Beers,"Koo, Younghoe",K,11,161.0,4.4,F-Jackie; Scooter's Boozers,0,11,True,True
 2014,3,Da Funk,"Rams, St. Louis",Def,19,172.0,4.3,Dunbar Dogs; OakalDoakals,7,12,True,False
 2015,9,Bunchalosers,"Chiefs, Kansas City",Def,10,100.0,4.3,Beers,0,10,True,True
-2025,8,Otters,"Seahawks, Seattle",Def,15,131.0,4.3,Scooter's Boozers; Texas Nashvillians,7,8,False,True
+2025,1,F-Jackie,"Seahawks, Seattle",Def,20,161.0,4.3,Otters; Scooter's Boozers; Texas Nashvillians,11,9,False,False
 2012,2,Otters,"Cardinals, Arizona",Def,14,145.0,4.2,Manic Moose,0,14,True,True
 2024,14,F-Jackie,"Myers, Jason",K,15,199.0,4.2,Iron City Pounders; Tally Wackers; Texas Nashvillians,2,13,True,True
 2009,10,Tally Wackers,"Branch, Deion",WR,7,89.0,4.1,Beers,0,7,True,False
 2023,13,Carter's Commandos,"Fairbairn, Ka'imi",K,15,192.0,4.1,Beers; Ho Train,1,14,True,True
+2025,8,Otters,"Seahawks, Seattle",Def,16,137.0,4.1,Scooter's Boozers; Texas Nashvillians,7,9,False,True
 2015,12,F-Jackie,"Bryant, Matt",K,14,179.0,4.0,Iron City Pounders,0,14,True,False
 2022,5,Couchfire,"Browns, Cleveland",Def,16,153.0,4.0,F-Jackie; Manic Moose,1,15,True,True
 2023,17,Otters,"Broncos, Denver",Def,14,131.0,4.0,Manic Moose,0,14,True,True
@@ -97,10 +97,12 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2010,11,Bunchalosers,"Lions, Detroit",Def,10,98.0,2.8,Beers; Otters,1,9,True,True
 2021,9,Blitzkrieg,"Eagles, Philadelphia",Def,18,137.0,2.8,Carter's Commandos; F-Jackie,5,13,True,True
 2024,8,Texas Nashvillians,"Patriots, New England",Def,8,78.0,2.8,Couchfire; Iron City Pounders; Karpet Munchers,2,6,True,False
+2026,7,Otters,"Buccaneers, Tampa Bay",Def,3,51.0,2.8,Scooter's Boozers,3,0,False,True
 2010,8,OakalDoakals,"Lions, Detroit",Def,11,104.0,2.7,Beers; Bunchalosers; Otters,2,9,True,True
 2018,10,Manic Moose,"Saints, New Orleans",Def,10,101.0,2.7,Couchfire; Ho Train; OakalDoakals,5,5,True,True
 2020,11,Texas Nashvillians,"Bills, Buffalo",Def,17,131.0,2.7,Manic Moose; OakalDoakals,3,14,True,False
 2024,5,Scooter's Boozers,"Dicker, Cameron",K,19,217.0,2.7,Blitzkrieg; Texas Nashvillians,8,11,True,False
+2026,3,Couchfire,"Buccaneers, Tampa Bay",Def,4,55.0,2.7,Otters; Scooter's Boozers,4,0,False,True
 2009,5,Carter's Commandos,"Kaeding, Nate",K,17,165.0,2.6,F-Jackie; Manic Moose; Scooter's Boozers,8,9,True,False
 2013,8,Carter's Commandos,"Bryant, Matt",K,12,146.0,2.6,Blitzkrieg,0,12,True,False
 2014,3,Scooter's Boozers,"Landry, Jarvis",WR,16,151.0,2.6,Manic Moose,3,13,True,False
@@ -110,11 +112,9 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2014,9,Beers,"Crosby, Mason",K,3,54.0,2.5,Iron City Pounders,3,0,True,False
 2017,6,Karpet Munchers,"Forbath, Kai",K,7,97.0,2.5,Texas Nashvillians,7,0,True,True
 2017,0,Beers,"Edelman, Julian",WR,11,162.0,2.5,Karpet Munchers,0,11,True,False
-2026,7,Otters,"Buccaneers, Tampa Bay",Def,2,40.0,2.5,Scooter's Boozers,2,0,False,True
 2012,11,Bunchalosers,"Hauschka, Steven",K,13,158.0,2.4,Ho Train,0,13,True,True
 2013,12,Bunchalosers,"Colts, Indianapolis",Def,11,103.0,2.4,F-Jackie,0,11,True,True
 2019,12,Couchfire,"Hill, Taysom",QB,6,202.6,2.4,Otters,0,6,True,True
-2026,3,Couchfire,"Buccaneers, Tampa Bay",Def,3,44.0,2.4,Otters; Scooter's Boozers,3,0,False,True
 2011,7,Blitzkrieg,"Chargers, San Diego",Def,3,44.0,2.3,Beers,0,3,True,False
 2015,10,Texas Nashvillians,"Hopkins, Dustin",K,6,82.0,2.3,F-Jackie; Otters,0,6,True,True
 2023,5,F-Jackie,"Vikings, Minnesota",Def,19,145.0,2.3,Beers; Scooter's Boozers; Texas Nashvillians,7,12,True,True
@@ -127,6 +127,7 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2022,9,Manic Moose,"Dolphins, Miami",Def,14,117.0,2.2,F-Jackie; Ho Train,2,12,True,False
 2023,13,Otters,"Smith, Jonnu",TE,6,74.5,2.2,F-Jackie,0,6,True,True
 2024,16,Iron City Pounders,"Patriots, New England",Def,6,59.0,2.2,Couchfire,0,6,True,True
+2025,16,Dunbar Dogs,"Buccaneers, Tampa Bay",Def,6,59.0,2.2,Couchfire; Karpet Munchers; Otters; Scooter's Boozers,1,5,False,False
 2025,10,Karpet Munchers,"Cousins, Kirk",QB,5,159.0,2.2,Otters; Texas Nashvillians,1,4,False,True
 2009,8,Texas Nashvillians,"Chargers, San Diego",Def,13,115.0,2.1,Beers; Carter's Commandos,3,10,True,False
 2012,8,Manic Moose,"Bailey, Dan",K,16,186.0,2.1,Scooter's Boozers; Texas Nashvillians,1,15,True,True
@@ -166,14 +167,16 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2022,10,Blitzkrieg,"Hopkins, Dustin",K,8,96.0,1.8,Ho Train,0,8,True,True
 2022,9,Ho Train,"Collins, Nico",WR,9,122.3,1.8,Beers; Couchfire,1,8,True,False
 2023,11,Karpet Munchers,"Seahawks, Seattle",Def,9,75.0,1.8,Beers; Da Funk; Otters,0,9,True,True
-2025,16,Dunbar Dogs,"Buccaneers, Tampa Bay",Def,5,48.0,1.8,Couchfire; Karpet Munchers; Otters; Scooter's Boozers,1,4,False,False
+2025,11,Beers,"Little, Cam",K,11,132.0,1.8,Carter's Commandos; Dunbar Dogs,3,8,False,True
+2025,5,Ho Train,"Browns, Cleveland",Def,9,70.0,1.8,F-Jackie; Iron City Pounders; Tally Wackers,6,3,False,True
+2026,3,Blitzkrieg,"Reichard, Will",K,5,73.0,1.8,Beers; Da Funk,5,0,False,False
 2013,10,Manic Moose,"Colts, Indianapolis",Def,12,104.0,1.7,Bunchalosers; F-Jackie,1,11,True,True
 2015,8,OakalDoakals,"Hopkins, Dustin",K,7,86.0,1.7,F-Jackie; Otters; Texas Nashvillians,1,6,True,True
 2019,10,Blitzkrieg,"Davis, Mike",RB,10,139.1,1.7,Scooter's Boozers,0,10,True,False
 2019,8,Iron City Pounders,"Ravens, Baltimore",Def,16,121.0,1.7,Beers,5,11,True,False
 2022,8,Ho Train,"Moss, Zack",RB,11,155.5,1.7,Otters,1,10,True,False
 2023,5,Carter's Commandos,"Seahawks, Seattle",Def,10,80.0,1.7,Beers; Da Funk; Karpet Munchers; Otters,1,9,True,False
-2026,3,Blitzkrieg,"Reichard, Will",K,4,61.0,1.7,Beers; Da Funk,4,0,False,False
+2025,8,Dunbar Dogs,"Little, Cam",K,9,111.0,1.7,Beers; Carter's Commandos,1,8,False,True
 2015,3,F-Jackie,"Patriots, New England",Def,19,134.0,1.6,Blitzkrieg; Otters,9,10,True,False
 2021,17,Ho Train,"Browns, Cleveland",Def,4,42.0,1.6,Couchfire; F-Jackie,0,4,True,False
 2021,6,Scooter's Boozers,"Koo, Younghoe",K,14,148.0,1.6,Iron City Pounders; Manic Moose,1,13,True,True
@@ -185,8 +188,6 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2022,14,Texas Nashvillians,"Saints, New Orleans",Def,12,97.0,1.5,Beers,0,12,True,False
 2022,10,Ho Train,"Elliott, Jake",K,18,185.0,1.5,F-Jackie; Karpet Munchers,4,14,True,True
 2023,9,Da Funk,"Kraft, Tucker",TE,6,66.0,1.5,F-Jackie,0,6,True,False
-2025,8,Iron City Pounders,"Myers, Jason",K,13,148.0,1.5,Beers; OakalDoakals; Texas Nashvillians,6,7,False,False
-2025,5,Ho Train,"Browns, Cleveland",Def,8,61.0,1.5,F-Jackie; Iron City Pounders; Tally Wackers,6,2,False,True
 2015,15,Bunchalosers,"McDonald, Vance",TE,2,25.0,1.4,Da Funk,0,2,True,True
 2017,13,OakalDoakals,"Yeldon, T.J.",RB,6,104.1,1.4,Manic Moose,0,6,True,True
 2019,2,OakalDoakals,"Rudolph, Kyle",TE,8,82.5,1.4,Carter's Commandos; Tally Wackers,7,1,True,False
@@ -218,7 +219,9 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2023,15,Couchfire,"Tillman, Cedric",WR,4,57.9,1.2,Blitzkrieg,0,4,True,True
 2023,9,Manic Moose,"Tillman, Cedric",WR,4,57.9,1.2,Blitzkrieg,0,4,True,False
 2024,16,Karpet Munchers,"Brissett, Jacoby",QB,3,92.1,1.2,Ho Train,0,3,True,False
-2025,11,Manic Moose,"Saints, New Orleans",Def,2,25.0,1.2,Beers; Blitzkrieg,1,1,False,True
+2025,10,Blitzkrieg,"Packers, Green Bay",Def,5,42.0,1.2,Ho Train; Manic Moose,3,2,False,True
+2025,8,Iron City Pounders,"Myers, Jason",K,14,155.0,1.2,Beers; OakalDoakals; Texas Nashvillians,6,8,False,False
+2025,7,Otters,"Bates, Jake",K,15,165.0,1.2,Da Funk; Ho Train; Manic Moose,7,8,False,True
 2025,1,F-Jackie,"Bass, Tyler",K,2,35.0,1.2,Couchfire; Texas Nashvillians,0,2,False,False
 2009,6,Da Funk,"Carpenter, Dan",K,13,119.0,1.1,Carter's Commandos; Ho Train,6,7,True,True
 2012,4,Bunchalosers,"Keller, Dustin",TE,2,21.0,1.1,Manic Moose,2,0,True,False
@@ -232,7 +235,10 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2022,17,Beers,"Sanders, Jason",K,11,116.0,1.1,Couchfire; Ho Train,0,11,True,True
 2022,15,Beers,"Buccaneers, Tampa Bay",Def,7,59.0,1.1,Blitzkrieg; Otters; Scooter's Boozers; Texas Nashvillians,0,7,True,True
 2023,7,Manic Moose,"Texans, Houston",Def,4,37.0,1.1,Couchfire,0,4,True,True
-2025,11,Beers,"Little, Cam",K,10,113.0,1.1,Carter's Commandos; Dunbar Dogs,3,7,False,True
+2025,11,Manic Moose,"Saints, New Orleans",Def,3,30.0,1.1,Beers; Blitzkrieg,1,2,False,True
+2025,6,F-Jackie,"Browns, Cleveland",Def,10,68.0,1.1,Ho Train; Iron City Pounders; Tally Wackers,5,5,False,True
+2025,6,Couchfire,"Reichard, Will",K,12,133.0,1.1,Beers; Da Funk; Iron City Pounders,7,5,False,True
+2025,5,Otters,"Packers, Green Bay",Def,12,79.0,1.1,Blitzkrieg; Ho Train; Manic Moose,5,7,False,False
 2012,12,F-Jackie,"Crosby, Mason",K,13,145.0,1.0,Iron City Pounders; Otters,0,13,True,False
 2013,5,Dunbar Dogs,"Reed, Jordan",TE,6,42.0,1.0,Manic Moose; Scooter's Boozers,2,4,True,True
 2014,9,Texas Nashvillians,"Gould, Robbie",K,1,19.0,1.0,Carter's Commandos,0,1,True,False
@@ -245,11 +251,6 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2018,14,Couchfire,"Saints, New Orleans",Def,7,61.0,1.0,Ho Train; OakalDoakals,2,5,True,True
 2020,17,Couchfire,"Buccaneers, Tampa Bay",Def,12,81.0,1.0,OakalDoakals,0,12,True,True
 2020,13,Couchfire,"Buccaneers, Tampa Bay",Def,12,81.0,1.0,OakalDoakals,0,12,True,True
-2025,10,Blitzkrieg,"Packers, Green Bay",Def,4,33.0,1.0,Ho Train; Manic Moose,3,1,False,True
-2025,8,Dunbar Dogs,"Little, Cam",K,8,92.0,1.0,Beers; Carter's Commandos,1,7,False,True
-2025,6,F-Jackie,"Browns, Cleveland",Def,9,59.0,1.0,Ho Train; Iron City Pounders; Tally Wackers,5,4,False,True
-2025,6,Couchfire,"Reichard, Will",K,11,121.0,1.0,Beers; Da Funk; Iron City Pounders,7,4,False,True
-2025,5,Otters,"Packers, Green Bay",Def,11,70.0,1.0,Blitzkrieg; Ho Train; Manic Moose,5,6,False,False
 2009,17,Tally Wackers,"Giants, New York",Def,13,102.0,0.9,Dunbar Dogs,0,13,True,False
 2009,12,Beers,"Feely, Jay",K,4,41.0,0.9,F-Jackie; Otters,3,1,True,True
 2009,7,OakalDoakals,"Goodson, Mike",RB,3,35.0,0.9,Manic Moose,0,3,True,False
@@ -266,6 +267,7 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2024,12,Carter's Commandos,"Saints, New Orleans",Def,4,33.0,0.9,Beers; Manic Moose; Scooter's Boozers,2,2,True,False
 2024,10,Scooter's Boozers,"Barner, AJ",TE,4,46.8,0.9,OakalDoakals,0,4,True,True
 2024,6,Scooter's Boozers,"Barner, AJ",TE,4,46.8,0.9,OakalDoakals,0,4,True,True
+2026,8,Manic Moose,"49ers, San Francisco",Def,1,16.0,0.9,Blitzkrieg,1,0,False,True
 2009,7,Manic Moose,"Dolphins, Miami",Def,6,54.0,0.8,F-Jackie; Ho Train; Otters,4,2,True,True
 2010,16,Beers,"Fasano, Anthony",TE,5,33.0,0.8,Iron City Pounders,0,5,True,True
 2010,1,Iron City Pounders,"Mare, Olindo",K,6,58.0,0.8,F-Jackie,6,0,True,False
@@ -288,6 +290,7 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2023,8,Otters,"Buccaneers, Tampa Bay",Def,8,59.0,0.8,Beers; F-Jackie; Scooter's Boozers; Texas Nashvillians,3,5,True,True
 2023,3,Blitzkrieg,"Buccaneers, Tampa Bay",Def,11,79.0,0.8,Beers; F-Jackie; Otters; Scooter's Boozers; Texas Nashvillians,6,5,True,True
 2024,7,Beers,"Wright, Matthew",K,1,19.0,0.8,F-Jackie,1,0,True,True
+2025,17,Otters,"Bears, Chicago",Def,9,59.0,0.8,Carter's Commandos,0,9,False,True
 2026,6,Couchfire,"Bass, Tyler",K,1,20.0,0.8,Texas Nashvillians,1,0,False,True
 2009,11,Beers,"Gaffney, Jabar",WR,4,36.0,0.7,Manic Moose,0,4,True,False
 2010,10,Scooter's Boozers,"Rackers, Neil",K,15,145.0,0.7,Bunchalosers; Otters,4,11,True,True
@@ -301,7 +304,8 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2021,2,Couchfire,"Chiefs, Kansas City",Def,10,66.0,0.7,Beers; Manic Moose; Otters,3,7,True,True
 2022,4,Scooter's Boozers,"Colts, Indianapolis",Def,6,46.0,0.7,Beers; Blitzkrieg; Couchfire; F-Jackie; Otters,2,4,True,False
 2023,7,Blitzkrieg,"Colts, Indianapolis",Def,16,104.0,0.7,Beers; F-Jackie; OakalDoakals,2,14,True,True
-2025,7,Otters,"Bates, Jake",K,14,148.0,0.7,Da Funk; Ho Train; Manic Moose,7,7,False,True
+2026,7,Blitzkrieg,"Packers, Green Bay",Def,2,19.0,0.7,Manic Moose,2,0,False,True
+2026,1,Couchfire,"Dell, Tank",WR,2,29.5,0.7,Scooter's Boozers,2,0,False,False
 2010,6,Iron City Pounders,"Rams, St. Louis",Def,6,49.0,0.6,Carter's Commandos; Dunbar Dogs,1,5,True,True
 2011,8,Bunchalosers,"Packers, Green Bay",Def,14,110.0,0.6,Ho Train; Iron City Pounders; Manic Moose,3,11,True,False
 2011,7,Karpet Munchers,"Amendola, Danny",WR,5,43.0,0.6,Iron City Pounders,0,5,True,False
@@ -323,8 +327,6 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2024,7,Beers,"Buccaneers, Tampa Bay",Def,16,95.0,0.6,Dunbar Dogs; F-Jackie; Karpet Munchers,2,14,True,False
 2024,3,Otters,"Bates, Jake",K,7,77.0,0.6,Da Funk,0,7,True,True
 2024,3,Beers,"Otton, Cade",TE,12,109.6,0.6,Da Funk; Manic Moose,6,6,True,False
-2025,15,Otters,"Redskins, Washington",Def,1,12.0,0.6,Blitzkrieg,0,1,False,True
-2025,5,Texas Nashvillians,"Gesicki, Mike",TE,2,25.7,0.6,Karpet Munchers,0,2,False,False
 2025,5,F-Jackie,"Gadsden, Oronde",TE,1,16.2,0.6,Ho Train,1,0,False,True
 2012,14,Manic Moose,"Hartley, Garrett",K,9,98.0,0.5,Beers,0,9,True,True
 2012,5,OakalDoakals,"Bills, Buffalo",Def,3,27.0,0.5,F-Jackie,0,3,True,True
@@ -351,6 +353,7 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2024,12,Tally Wackers,"Falcons, Atlanta",Def,9,55.0,0.5,Couchfire; Ho Train; Texas Nashvillians,1,8,True,True
 2024,9,Texas Nashvillians,"Dotson, Jahan",WR,1,16.5,0.5,Couchfire,0,1,True,False
 2024,7,Otters,"Johnson, Tyler",WR,1,16.9,0.5,Ho Train,0,1,True,True
+2025,15,Otters,"Redskins, Washington",Def,1,12.0,0.5,Blitzkrieg,0,1,False,True
 2025,13,Ho Train,"Patterson, Riley",K,1,16.0,0.5,F-Jackie,1,0,False,True
 2009,12,Beers,"Thomas, Mike",WR,7,56.0,0.4,OakalDoakals,0,7,True,True
 2009,8,F-Jackie,"Falcons, Atlanta",Def,9,69.0,0.4,Scooter's Boozers; Texas Nashvillians,1,8,True,False
@@ -378,11 +381,7 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2023,11,Iron City Pounders,"Ertz, Zach",TE,7,60.7,0.4,Couchfire,0,7,True,False
 2024,12,Dunbar Dogs,"Little, Cam",K,1,15.0,0.4,Beers,0,1,True,True
 2024,8,Couchfire,"Mims, Marvin",WR,2,26.2,0.4,Beers; Blitzkrieg,1,1,True,False
-2025,17,Otters,"Bears, Chicago",Def,8,45.0,0.4,Carter's Commandos,0,8,False,True
 2025,17,Beers,"Saints, New Orleans",Def,1,10.0,0.4,Blitzkrieg,0,1,False,True
-2025,11,Tally Wackers,"Bengals, Cincinnati",Def,5,30.0,0.4,Otters,0,5,False,False
-2026,7,Blitzkrieg,"Packers, Green Bay",Def,1,10.0,0.4,Manic Moose,1,0,False,True
-2026,2,Texas Nashvillians,"Saints, New Orleans",Def,1,10.0,0.4,Blitzkrieg,1,0,False,False
 2009,15,F-Jackie,"Dolphins, Miami",Def,2,17.0,0.3,Ho Train; Otters,0,2,True,True
 2009,13,Bunchalosers,"Pettigrew, Brandon",TE,11,54.0,0.3,OakalDoakals,0,11,True,True
 2009,12,Bunchalosers,"Hill, Shaun",QB,1,23.0,0.3,Manic Moose,0,1,True,True
@@ -413,9 +412,12 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2024,12,Beers,"Schoonmaker, Luke",TE,2,19.2,0.3,Texas Nashvillians,2,0,True,True
 2024,2,Couchfire,"Henry, Hunter",TE,19,168.3,0.3,Beers; Iron City Pounders,6,13,True,False
 2025,13,Couchfire,"Santos, Cairo",K,8,84.0,0.3,F-Jackie,0,8,False,True
-2025,11,Otters,"Santos, Cairo",K,9,93.0,0.3,Couchfire; F-Jackie,1,8,False,True
+2025,10,Scooter's Boozers,"49ers, San Francisco",Def,7,42.0,0.3,Beers; Blitzkrieg; Karpet Munchers; Manic Moose,3,4,False,False
 2025,7,Otters,"Johnson, Juwan",WR,3,34.8,0.3,Karpet Munchers,3,0,False,True
 2025,4,Beers,"McPherson, Evan",K,7,74.0,0.3,Tally Wackers,0,7,False,True
+2026,9,Ho Train,"Browns, Cleveland",Def,1,9.0,0.3,Iron City Pounders,1,0,False,True
+2026,6,Manic Moose,"Bates, Jake",K,3,34.0,0.3,Ho Train,3,0,False,False
+2026,2,Texas Nashvillians,"Saints, New Orleans",Def,2,15.0,0.3,Beers; Blitzkrieg,2,0,False,False
 2011,5,OakalDoakals,"Simpson, Jerome",WR,1,9.0,0.2,Beers,1,0,True,True
 2011,4,OakalDoakals,"Reece, Marcel",RB,3,26.0,0.2,Otters,0,3,True,True
 2011,0,Iron City Pounders,"Reece, Marcel",RB,3,26.0,0.2,Otters,0,3,True,False
@@ -445,7 +447,9 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2024,12,F-Jackie,"Titans, Tennessee",Def,1,8.0,0.2,Blitzkrieg,1,0,True,True
 2024,7,F-Jackie,"Titans, Tennessee",Def,1,8.0,0.2,Blitzkrieg,1,0,True,True
 2024,5,F-Jackie,"Titans, Tennessee",Def,1,8.0,0.2,Blitzkrieg,1,0,True,True
+2025,17,Karpet Munchers,"49ers, San Francisco",Def,4,24.0,0.2,Beers; Blitzkrieg; Manic Moose,0,4,False,True
 2025,10,Iron City Pounders,"Redskins, Washington",Def,2,13.0,0.2,Blitzkrieg; Otters,1,1,False,False
+2026,3,OakalDoakals,"Browns, Cleveland",Def,5,30.0,0.2,Ho Train; Iron City Pounders,5,0,False,False
 2009,6,Carter's Commandos,"Cowboys, Dallas",Def,10,78.0,0.1,F-Jackie; Iron City Pounders; Manic Moose,6,4,True,False
 2010,13,Texas Nashvillians,"Lindell, Rian",K,3,30.0,0.1,Ho Train; Karpet Munchers,0,3,True,True
 2010,4,Texas Nashvillians,"Texans, Houston",Def,12,88.0,0.1,OakalDoakals,0,12,True,False
@@ -477,9 +481,9 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2024,16,Couchfire,"Buccaneers, Tampa Bay",Def,14,77.0,0.1,Dunbar Dogs; Karpet Munchers,0,14,True,True
 2024,15,F-Jackie,"Buccaneers, Tampa Bay",Def,14,77.0,0.1,Dunbar Dogs; Karpet Munchers,0,14,True,True
 2024,10,Tally Wackers,"Browns, Cleveland",Def,1,7.0,0.1,F-Jackie,0,1,True,True
-2025,16,Texas Nashvillians,"Falcons, Atlanta",Def,4,21.0,0.1,Tally Wackers,0,4,False,True
-2026,5,Iron City Pounders,"Butker, Harrison",K,3,31.0,0.1,Manic Moose,3,0,False,False
-2026,3,OakalDoakals,"Browns, Cleveland",Def,4,21.0,0.1,Ho Train; Iron City Pounders,4,0,False,False
+2025,11,Otters,"Santos, Cairo",K,10,102.0,0.1,Couchfire; F-Jackie,1,9,False,True
+2025,3,Tally Wackers,"Bears, Chicago",Def,15,82.0,0.1,Carter's Commandos; Otters,6,9,False,True
+2026,4,Beers,"49ers, San Francisco",Def,3,17.0,0.1,Blitzkrieg; Manic Moose,3,0,False,True
 2009,9,Carter's Commandos,"Pettigrew, Brandon",TE,14,67.0,0.0,Bunchalosers; OakalDoakals,3,11,True,False
 2011,9,Manic Moose,"Cardinals, Arizona",Def,11,82.0,-0.0,F-Jackie; Otters,1,10,True,False
 2011,5,Da Funk,"Cook, Jared",TE,1,5.0,-0.0,Carter's Commandos,1,0,True,False
@@ -515,7 +519,8 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2024,16,Beers,"Koo, Younghoe",K,1,10.0,0.0,Scooter's Boozers,0,1,True,True
 2024,14,Blitzkrieg,"Koo, Younghoe",K,1,10.0,0.0,Scooter's Boozers,0,1,True,False
 2024,6,F-Jackie,"Palmer, Josh",WR,2,20.9,-0.0,Da Funk; Scooter's Boozers,1,1,True,False
-2025,8,Manic Moose,"Gay, Matt",K,4,40.0,0.0,Iron City Pounders,0,4,False,False
+2025,5,Texas Nashvillians,"Gesicki, Mike",TE,3,27.8,0.0,Karpet Munchers,0,3,False,False
+2026,7,Blitzkrieg,"Saints, New Orleans",Def,1,5.0,-0.0,Beers,1,0,False,True
 2009,13,Beers,"Bills, Buffalo",Def,1,6.0,-0.1,Scooter's Boozers,0,1,True,True
 2009,11,Beers,"Panthers, Carolina",Def,6,45.0,-0.1,Da Funk; F-Jackie; Otters; Tally Wackers,3,3,True,True
 2009,11,Manic Moose,"Bills, Buffalo",Def,1,6.0,-0.1,Scooter's Boozers,0,1,True,False
@@ -559,6 +564,11 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2024,8,Couchfire,"Dolphins, Miami",Def,3,16.0,-0.1,Ho Train; Scooter's Boozers,2,1,True,False
 2024,4,Texas Nashvillians,"Gay, Matt",K,9,87.0,-0.1,Manic Moose; Tally Wackers,2,7,True,False
 2024,2,Texas Nashvillians,"Ertz, Zach",TE,12,100.0,-0.1,Beers; Couchfire,7,5,True,False
+2025,17,Couchfire,"Engram, Evan",TE,1,7.5,-0.1,Scooter's Boozers,0,1,False,True
+2025,16,Texas Nashvillians,"Falcons, Atlanta",Def,4,21.0,-0.1,Tally Wackers,0,4,False,True
+2025,11,Tally Wackers,"Bengals, Cincinnati",Def,6,32.0,-0.1,Otters,0,6,False,False
+2025,8,Manic Moose,"Gay, Matt",K,5,49.0,-0.1,Iron City Pounders,0,5,False,False
+2026,9,F-Jackie,"Santos, Cairo",K,1,9.0,-0.1,Couchfire,1,0,False,True
 2009,2,Beers,"Stovall, Maurice",WR,1,5.0,-0.2,Bunchalosers,1,0,True,False
 2010,6,Karpet Munchers,"Dawson, Phil",K,9,81.0,-0.2,Carter's Commandos; Otters,3,6,True,True
 2010,5,Da Funk,"Dolphins, Miami",Def,2,13.0,-0.2,Ho Train; Manic Moose,1,1,True,True
@@ -603,10 +613,7 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2024,14,F-Jackie,"Giants, New York",Def,1,3.0,-0.2,Ho Train,0,1,True,True
 2024,12,Beers,"Iosivas, Andrei",WR,1,8.6,-0.2,Couchfire,0,1,True,True
 2024,8,F-Jackie,"Packers, Green Bay",Def,12,65.0,-0.2,Blitzkrieg; Ho Train; Karpet Munchers; Otters,5,7,True,False
-2025,17,Couchfire,"Engram, Evan",TE,1,7.5,-0.2,Scooter's Boozers,0,1,False,True
-2025,10,Carter's Commandos,"Chiefs, Kansas City",Def,4,18.0,-0.2,F-Jackie,0,4,False,True
 2025,2,Otters,"Iosivas, Andrei",WR,1,8.6,-0.2,Couchfire,1,0,False,False
-2026,6,Manic Moose,"Bates, Jake",K,2,17.0,-0.2,Ho Train,2,0,False,False
 2026,3,Scooter's Boozers,"Mevis, Harrison",K,1,8.0,-0.2,Couchfire,1,0,False,False
 2026,3,Iron City Pounders,"Titans, Tennessee",Def,2,8.0,-0.2,Dunbar Dogs,2,0,False,False
 2009,7,OakalDoakals,"Forsett, Justin",RB,1,6.0,-0.3,Manic Moose,0,1,True,True
@@ -655,13 +662,10 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2024,12,OakalDoakals,"Hollins, Mack",WR,3,28.0,-0.3,Blitzkrieg,0,3,True,True
 2024,12,F-Jackie,"Bass, Tyler",K,1,6.0,-0.3,Karpet Munchers,1,0,True,False
 2025,11,Ho Train,"Neal, Devin",RB,2,23.3,-0.3,F-Jackie,2,0,False,True
-2025,9,OakalDoakals,"Chargers, San Diego",Def,7,32.0,-0.3,Dunbar Dogs; Scooter's Boozers,1,6,False,True
+2025,10,Carter's Commandos,"Chiefs, Kansas City",Def,4,18.0,-0.3,F-Jackie,0,4,False,True
 2025,8,Carter's Commandos,"Dotson, Jahan",WR,2,17.6,-0.3,Couchfire; Otters,1,1,False,True
-2025,7,Beers,"Borregales, Andres",K,12,115.0,-0.3,F-Jackie; Scooter's Boozers,7,5,False,True
 2025,7,Beers,"Hunt, Kareem",RB,4,50.7,-0.3,Scooter's Boozers,4,0,False,False
 2025,6,Ho Train,"Neal, Devin",RB,2,23.3,-0.3,F-Jackie,2,0,False,True
-2025,2,Texas Nashvillians,"Falcons, Atlanta",Def,5,22.0,-0.3,Ho Train; Tally Wackers,1,4,False,True
-2026,5,Otters,"Patriots, New England",Def,4,17.0,-0.3,Karpet Munchers,4,0,False,False
 2009,16,F-Jackie,"Feely, Jay",K,1,5.0,-0.4,Otters,0,1,True,True
 2009,15,Beers,"Graham, Shayne",K,1,5.0,-0.4,F-Jackie,1,0,True,True
 2009,7,Beers,"Boss, Kevin",TE,10,45.0,-0.4,Blitzkrieg; Carter's Commandos,5,5,True,True
@@ -731,14 +735,12 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2024,12,F-Jackie,"McLaughlin, Jaleel",RB,1,8.4,-0.4,OakalDoakals,0,1,True,False
 2024,4,Manic Moose,"Mayer, Michael",TE,1,3.7,-0.4,Scooter's Boozers,0,1,True,False
 2025,11,Ho Train,"Prater, Matt",K,2,15.0,-0.4,Couchfire,2,0,False,True
-2025,10,Scooter's Boozers,"49ers, San Francisco",Def,6,26.0,-0.4,Beers; Karpet Munchers; Manic Moose,3,3,False,False
 2025,8,F-Jackie,"Mayer, Michael",TE,1,3.7,-0.4,Scooter's Boozers,1,0,False,True
 2025,7,Otters,"Bryant, Pat",WR,1,5.2,-0.4,Carter's Commandos,1,0,False,False
-2025,5,Texas Nashvillians,"Chargers, San Diego",Def,8,37.0,-0.4,Dunbar Dogs; OakalDoakals; Scooter's Boozers,2,6,False,False
-2025,3,F-Jackie,"Santos, Cairo",K,2,15.0,-0.4,Couchfire; Otters,2,0,False,True
-2025,3,Tally Wackers,"Bears, Chicago",Def,14,68.0,-0.4,Carter's Commandos; Otters,6,8,False,True
-2026,7,Iron City Pounders,"Browns, Cleveland",Def,2,5.0,-0.4,Ho Train,2,0,False,True
-2026,3,Ho Train,"Cowboys, Dallas",Def,4,16.0,-0.4,F-Jackie,4,0,False,True
+2025,7,Beers,"Borregales, Andres",K,12,115.0,-0.4,F-Jackie; Scooter's Boozers,7,5,False,True
+2025,2,Texas Nashvillians,"Falcons, Atlanta",Def,5,22.0,-0.4,Ho Train; Tally Wackers,1,4,False,True
+2026,5,Iron City Pounders,"Butker, Harrison",K,4,36.0,-0.4,Manic Moose,4,0,False,False
+2026,3,Ho Train,"Cowboys, Dallas",Def,5,22.0,-0.4,F-Jackie,5,0,False,True
 2009,10,Otters,"Dreessen, Joel",TE,3,9.0,-0.5,Manic Moose; Tally Wackers,0,3,True,True
 2009,8,Carter's Commandos,"Chiefs, Kansas City",Def,9,61.0,-0.5,Otters; Tally Wackers,1,8,True,True
 2009,8,Otters,"Hartley, Garrett",K,3,21.0,-0.5,Karpet Munchers,0,3,True,True
@@ -810,13 +812,15 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2024,4,OakalDoakals,"Johnson, Juwan",WR,5,47.2,-0.5,Karpet Munchers; Otters,0,5,True,False
 2024,3,Couchfire,"Karty, Joshua",K,3,23.0,-0.5,F-Jackie,0,3,True,True
 2025,17,Karpet Munchers,"Nailor, Jalen",WR,1,4.2,-0.5,F-Jackie,0,1,False,True
-2025,16,Beers,"Lions, Detroit",Def,5,19.0,-0.5,Manic Moose,0,5,False,False
 2025,14,Blitzkrieg,"Bourne, Kendrick",WR,1,4.2,-0.5,Karpet Munchers,1,0,False,True
 2025,10,Ho Train,"Waller, Darren",WR,1,5.1,-0.5,Beers,0,1,False,True
 2025,9,Tally Wackers,"Lockett, Tyler",WR,1,4.8,-0.5,Blitzkrieg,1,0,False,False
+2025,9,OakalDoakals,"Chargers, San Diego",Def,7,32.0,-0.5,Dunbar Dogs; Scooter's Boozers,1,6,False,True
+2025,5,Texas Nashvillians,"Chargers, San Diego",Def,8,37.0,-0.5,Dunbar Dogs; OakalDoakals; Scooter's Boozers,2,6,False,False
 2025,4,Couchfire,"Jets, New York",Def,1,-1.0,-0.5,Blitzkrieg,0,1,False,False
 2025,4,Beers,"Palmer, Josh",WR,1,4.6,-0.5,Scooter's Boozers,1,0,False,False
-2026,1,Couchfire,"Dell, Tank",WR,1,5.0,-0.5,Scooter's Boozers,1,0,False,False
+2025,3,F-Jackie,"Santos, Cairo",K,3,24.0,-0.5,Couchfire; Otters,2,1,False,True
+2026,7,Iron City Pounders,"Browns, Cleveland",Def,2,5.0,-0.5,Ho Train,2,0,False,True
 2009,14,Iron City Pounders,"Cowboys, Dallas",Def,5,31.0,-0.6,F-Jackie; Manic Moose,1,4,True,True
 2009,13,Tally Wackers,"Chiefs, Kansas City",Def,8,52.0,-0.6,Otters,0,8,True,True
 2009,8,Carter's Commandos,"Graham, Shayne",K,2,12.0,-0.6,Beers; F-Jackie,1,1,True,True
@@ -880,11 +884,7 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2024,5,Manic Moose,"Dissly, Will",TE,2,8.6,-0.6,Carter's Commandos,2,0,True,True
 2024,3,F-Jackie,"Rattler, Spencer",QB,1,17.8,-0.6,Couchfire,1,0,True,False
 2024,2,F-Jackie,"Palmer, Trey",WR,1,3.9,-0.6,Beers,1,0,True,False
-2025,17,Karpet Munchers,"49ers, San Francisco",Def,3,8.0,-0.6,Beers; Manic Moose,0,3,False,True
-2025,14,Manic Moose,"Cowboys, Dallas",Def,5,18.0,-0.6,F-Jackie; Ho Train,0,5,False,True
-2025,10,Manic Moose,"Cowboys, Dallas",Def,5,18.0,-0.6,F-Jackie; Ho Train,0,5,False,True
 2025,8,Scooter's Boozers,"Smith, Arian",WR,1,2.8,-0.6,Da Funk,1,0,False,False
-2025,5,Ho Train,"Falcons, Atlanta",Def,11,51.0,-0.6,Tally Wackers; Texas Nashvillians,7,4,False,True
 2025,3,Ho Train,"Tucker, Sean",RB,6,75.3,-0.6,Texas Nashvillians,6,0,False,True
 2025,2,Blitzkrieg,"Helm, Gunnar",TE,1,1.3,-0.6,F-Jackie,1,0,False,False
 2009,7,Scooter's Boozers,"Rackers, Neil",K,9,70.0,-0.7,Bunchalosers; Carter's Commandos; Otters; Texas Nashvillians,1,8,True,True
@@ -931,13 +931,17 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2024,12,Dunbar Dogs,"Nailor, Jalen",WR,1,2.1,-0.7,Karpet Munchers,0,1,True,True
 2024,11,Scooter's Boozers,"Giants, New York",Def,2,3.0,-0.7,F-Jackie; Ho Train,1,1,True,True
 2024,3,Couchfire,"Parkinson, Colby",TE,2,8.4,-0.7,Beers; F-Jackie,1,1,True,True
+2025,16,F-Jackie,"Singletary, Devin",RB,1,4.9,-0.7,OakalDoakals,0,1,False,True
+2025,16,Beers,"Lions, Detroit",Def,5,19.0,-0.7,Manic Moose,0,5,False,False
+2025,14,Manic Moose,"Cowboys, Dallas",Def,6,24.0,-0.7,F-Jackie; Ho Train,0,6,False,True
 2025,10,Beers,"Knight, Zonovan",RB,1,4.9,-0.7,Karpet Munchers,1,0,False,True
+2025,10,Manic Moose,"Cowboys, Dallas",Def,6,24.0,-0.7,F-Jackie; Ho Train,0,6,False,True
 2025,9,Texas Nashvillians,"Folk, Nick",K,2,11.0,-0.7,Carter's Commandos,2,0,False,True
 2025,8,Beers,"Fitzgerald, Ryan",K,1,1.0,-0.7,Couchfire,0,1,False,True
+2025,5,Ho Train,"Falcons, Atlanta",Def,11,51.0,-0.7,Tally Wackers; Texas Nashvillians,7,4,False,True
 2025,4,F-Jackie,"Romo, John Parker",K,2,11.0,-0.7,Manic Moose,2,0,False,True
 2025,3,F-Jackie,"Wilson, Roman",WR,1,2.2,-0.7,Ho Train,1,0,False,True
-2025,2,Carter's Commandos,"Borregales, Andres",K,13,120.0,-0.7,Beers; F-Jackie; Scooter's Boozers,8,5,False,True
-2026,5,OakalDoakals,"Myers, Jason",K,3,21.0,-0.7,Beers,3,0,False,False
+2026,7,Couchfire,"Ekeler, Austin",RB,1,4.4,-0.7,Tally Wackers,1,0,False,True
 2026,4,Da Funk,"Williams, Kyle",WR,1,1.7,-0.7,OakalDoakals,1,0,False,False
 2009,13,Beers,"Anderson, David",WR,1,0.0,-0.8,Bunchalosers,0,1,True,True
 2009,9,Dunbar Dogs,"Robiskie, Brian",WR,1,0.0,-0.8,Karpet Munchers,0,1,True,False
@@ -1047,7 +1051,7 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2025,14,Otters,"Ridley, Calvin",WR,1,1.5,-0.8,Couchfire,0,1,False,False
 2025,9,Couchfire,"Dotson, Jahan",WR,1,1.1,-0.8,Otters,0,1,False,True
 2025,5,OakalDoakals,"Fant, Noah",TE,2,8.7,-0.8,Couchfire,2,0,False,True
-2026,4,Beers,"49ers, San Francisco",Def,2,1.0,-0.8,Manic Moose,2,0,False,True
+2025,2,Carter's Commandos,"Borregales, Andres",K,13,120.0,-0.8,Beers; F-Jackie; Scooter's Boozers,8,5,False,True
 2026,2,Beers,"Ridley, Calvin",WR,1,1.5,-0.8,Couchfire,1,0,False,True
 2009,10,Beers,"Seahawks, Seattle",Def,10,64.0,-0.9,Da Funk; Otters,0,10,True,True
 2009,9,Blitzkrieg,"Seahawks, Seattle",Def,10,64.0,-0.9,Da Funk; Otters,0,10,True,True
@@ -1111,9 +1115,7 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2024,9,Beers,"Atwell, Tutu",WR,1,0.0,-0.9,Couchfire,0,1,True,True
 2024,9,Karpet Munchers,"Jets, New York",Def,2,1.0,-0.9,Da Funk,2,0,True,False
 2024,2,Manic Moose,"Jaguars, Jacksonville",Def,6,21.0,-0.9,Da Funk,0,6,True,True
-2025,3,Texas Nashvillians,"Ekeler, Austin",RB,1,1.7,-0.9,Couchfire,0,1,False,False
 2026,8,Texas Nashvillians,"TeSlaa, Isaac",WR,1,0.0,-0.9,Beers,1,0,False,False
-2026,6,F-Jackie,"Ekeler, Austin",RB,1,1.7,-0.9,Couchfire,1,0,False,True
 2009,14,Manic Moose,"Jennings, Chris",RB,1,0.0,-1.0,F-Jackie,1,0,True,True
 2009,13,Manic Moose,"Morris, Maurice",RB,1,0.0,-1.0,F-Jackie,1,0,True,True
 2009,8,F-Jackie,"McClain, Le'Ron",RB,1,0.0,-1.0,Beers,0,1,True,False
@@ -1162,6 +1164,9 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2024,10,Beers,"Metchie, John",WR,2,9.3,-1.0,Couchfire,0,2,True,True
 2024,5,Couchfire,"Santos, Cairo",K,3,17.0,-1.0,F-Jackie; Otters,0,3,True,True
 2024,2,Iron City Pounders,"Metchie, John",WR,2,9.3,-1.0,Couchfire,0,2,True,False
+2025,6,Scooter's Boozers,"Harris, Najee",RB,1,0.2,-1.0,Ho Train,0,1,False,False
+2026,5,OakalDoakals,"Myers, Jason",K,4,28.0,-1.0,Beers,4,0,False,False
+2026,5,Otters,"Patriots, New England",Def,5,15.0,-1.0,Karpet Munchers,5,0,False,False
 2009,8,F-Jackie,"Nedney, Joe",K,5,32.0,-1.1,Dunbar Dogs; Tally Wackers,1,4,True,True
 2010,15,Texas Nashvillians,"Moore, Evan",TE,2,0.0,-1.1,Manic Moose; OakalDoakals,0,2,True,True
 2010,12,Bunchalosers,"Shiancoe, Vishante",TE,2,0.0,-1.1,Manic Moose; Scooter's Boozers,1,1,True,True
@@ -1214,17 +1219,12 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2024,15,F-Jackie,"Homer, Travis",RB,1,0.0,-1.1,Couchfire,0,1,True,True
 2024,13,F-Jackie,"Perine, Samaje",RB,1,0.5,-1.1,Blitzkrieg,0,1,True,True
 2024,12,Karpet Munchers,"Sanders, Miles",RB,1,0.0,-1.1,Dunbar Dogs,0,1,True,False
-2025,17,F-Jackie,"Borregales, Andres",K,5,36.0,-1.1,Scooter's Boozers,0,5,False,True
-2025,16,Karpet Munchers,"Lutz, Wil",K,3,16.0,-1.1,Beers,0,3,False,True
 2025,14,Karpet Munchers,"Pineiro, Eddy",K,6,47.0,-1.1,Da Funk,0,6,False,True
-2025,14,F-Jackie,"Borregales, Andres",K,5,36.0,-1.1,Scooter's Boozers,0,5,False,True
 2025,7,Scooter's Boozers,"Prater, Matt",K,3,16.0,-1.1,Couchfire; Ho Train,3,0,False,True
 2025,7,F-Jackie,"Rodriguez, Chris",RB,1,0.2,-1.1,Manic Moose,1,0,False,True
-2025,6,Scooter's Boozers,"Harris, Najee",RB,1,0.2,-1.1,Ho Train,0,1,False,False
 2025,6,Beers,"Slye, Joey",K,7,56.0,-1.1,Otters,7,0,False,True
 2025,3,Scooter's Boozers,"Waller, Darren",WR,4,29.6,-1.1,Beers; Ho Train,3,1,False,False
 2025,2,Otters,"Rodriguez, Chris",RB,1,0.2,-1.1,Manic Moose,1,0,False,False
-2026,1,Carter's Commandos,"McCarthy, J.J.",QB,1,12.7,-1.1,F-Jackie,1,0,False,False
 2010,8,OakalDoakals,"Gano, Graham",K,4,26.0,-1.2,Beers; F-Jackie; Iron City Pounders,1,3,True,True
 2011,1,Iron City Pounders,"Stephens-Howling, LaRod",RB,5,29.0,-1.2,Beers,0,5,True,True
 2012,8,Beers,"Davis, Fred",TE,2,0.0,-1.2,Dunbar Dogs,0,2,True,True
@@ -1256,6 +1256,9 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2022,9,Manic Moose,"Joseph, Greg",K,5,32.0,-1.2,Otters,0,5,True,True
 2023,4,Otters,"Titans, Tennessee",Def,10,49.0,-1.2,Blitzkrieg; Carter's Commandos; F-Jackie; Iron City Pounders,6,4,True,True
 2024,11,Texas Nashvillians,"Butker, Harrison",K,10,84.0,-1.2,Da Funk; F-Jackie,1,9,True,False
+2025,17,F-Jackie,"Borregales, Andres",K,5,36.0,-1.2,Scooter's Boozers,0,5,False,True
+2025,16,Karpet Munchers,"Lutz, Wil",K,3,16.0,-1.2,Beers,0,3,False,True
+2025,14,F-Jackie,"Borregales, Andres",K,5,36.0,-1.2,Scooter's Boozers,0,5,False,True
 2009,11,Beers,"Buccaneers, Tampa Bay",Def,7,39.0,-1.3,Carter's Commandos; OakalDoakals,0,7,True,True
 2009,3,Scooter's Boozers,"Buccaneers, Tampa Bay",Def,7,39.0,-1.3,Carter's Commandos; OakalDoakals,0,7,True,False
 2010,12,Karpet Munchers,"Vikings, Minnesota",Def,8,46.0,-1.3,F-Jackie,0,8,True,True
@@ -1362,7 +1365,6 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2024,14,Beers,"Romo, John Parker",K,3,11.0,-1.5,F-Jackie; Manic Moose,0,3,True,True
 2024,5,Otters,"Moore, Elijah",WR,2,3.6,-1.5,Couchfire; Manic Moose,1,1,True,False
 2024,5,F-Jackie,"Nailor, Jalen",WR,2,3.7,-1.5,Dunbar Dogs; Karpet Munchers,1,1,True,True
-2025,14,Carter's Commandos,"Panthers, Carolina",Def,4,2.0,-1.5,Iron City Pounders,0,4,False,True
 2025,5,OakalDoakals,"Browning, Jake",QB,2,33.6,-1.5,Texas Nashvillians,2,0,False,True
 2009,5,Blitzkrieg,"Lindell, Rian",K,5,28.0,-1.6,Texas Nashvillians,0,5,True,True
 2009,2,Tally Wackers,"Lindell, Rian",K,5,28.0,-1.6,Texas Nashvillians,0,5,True,False
@@ -1396,7 +1398,10 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2022,7,Couchfire,"Huntley, Caleb",RB,2,5.6,-1.6,F-Jackie,2,0,True,True
 2023,12,Manic Moose,"Fant, Noah",TE,6,29.0,-1.6,OakalDoakals,0,6,True,False
 2024,6,Beers,"Prater, Matt",K,8,60.0,-1.6,Couchfire; Ho Train; Scooter's Boozers,0,8,True,False
+2025,14,Carter's Commandos,"Panthers, Carolina",Def,4,2.0,-1.6,Iron City Pounders,0,4,False,True
 2025,4,Karpet Munchers,"Engram, Evan",TE,4,16.4,-1.6,Couchfire; Scooter's Boozers,3,1,False,False
+2025,3,Texas Nashvillians,"Ekeler, Austin",RB,2,6.1,-1.6,Couchfire; Tally Wackers,0,2,False,False
+2026,6,F-Jackie,"Ekeler, Austin",RB,2,6.1,-1.6,Couchfire; Tally Wackers,2,0,False,True
 2009,10,Karpet Munchers,"Daniels, Owen",TE,6,13.0,-1.7,F-Jackie; Manic Moose,0,6,True,False
 2009,1,OakalDoakals,"Boss, Kevin",TE,12,45.0,-1.7,Beers; Blitzkrieg; Carter's Commandos,7,5,True,True
 2012,5,Manic Moose,"Bironas, Rob",K,12,107.0,-1.7,Dunbar Dogs; Ho Train,4,8,True,False
@@ -1441,9 +1446,7 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2021,7,F-Jackie,"Patterson, Jaret",RB,2,4.5,-1.8,Couchfire,2,0,True,False
 2023,15,OakalDoakals,"Darnold, Sam",QB,1,4.0,-1.8,Otters,0,1,True,False
 2023,10,Otters,"Giants, New York",Def,6,14.0,-1.8,F-Jackie; Scooter's Boozers,0,6,True,True
-2025,17,Couchfire,"Elliott, Jake",K,6,38.0,-1.8,Ho Train,0,6,False,True
-2025,14,Manic Moose,"Elliott, Jake",K,6,38.0,-1.8,Ho Train,0,6,False,True
-2025,6,OakalDoakals,"Ryland, Chad",K,6,37.0,-1.8,Scooter's Boozers,5,1,False,True
+2025,17,Couchfire,"Willis, Malik",QB,1,4.1,-1.8,Otters,0,1,False,True
 2010,16,Beers,"Graham, Earnest",RB,3,10.0,-1.9,Bunchalosers,0,3,True,True
 2010,12,Otters,"Chiefs, Kansas City",Def,2,-3.0,-1.9,F-Jackie,0,2,True,True
 2010,10,Da Funk,"Scheffler, Tony",TE,5,9.0,-1.9,Beers; Blitzkrieg,0,5,True,True
@@ -1475,7 +1478,8 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2024,16,F-Jackie,"Redskins, Washington",Def,10,31.0,-1.9,Iron City Pounders; Otters,0,10,True,True
 2024,8,Beers,"Brown, Noah",WR,4,20.0,-1.9,Dunbar Dogs,4,0,True,True
 2024,6,Scooter's Boozers,"Perine, Samaje",RB,2,3.9,-1.9,Blitzkrieg; F-Jackie,1,1,True,False
-2025,17,Couchfire,"Bills, Buffalo",Def,6,8.0,-1.9,Dunbar Dogs,0,6,False,False
+2025,17,Couchfire,"Elliott, Jake",K,6,38.0,-1.9,Ho Train,0,6,False,True
+2025,14,Manic Moose,"Elliott, Jake",K,6,38.0,-1.9,Ho Train,0,6,False,True
 2025,3,F-Jackie,"Neal, Devin",RB,2,4.3,-1.9,Ho Train,2,0,False,True
 2009,7,Bunchalosers,"Jackson, Brandon",RB,7,45.0,-2.0,Otters,0,7,True,False
 2010,4,Otters,"Moore, Mewelde",RB,2,0.0,-2.0,Bunchalosers; Scooter's Boozers,1,1,True,False
@@ -1493,6 +1497,7 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2021,1,Manic Moose,"McKinnon, Jerick",RB,3,13.9,-2.0,Couchfire; Iron City Pounders,1,2,True,False
 2024,16,Manic Moose,"Otton, Cade",TE,6,29.9,-2.0,Da Funk,0,6,True,True
 2024,14,Blitzkrieg,"Redskins, Washington",Def,11,36.0,-2.0,F-Jackie; Iron City Pounders; Otters,1,10,True,True
+2025,17,Couchfire,"Bills, Buffalo",Def,6,8.0,-2.0,Dunbar Dogs,0,6,False,False
 2025,12,Dunbar Dogs,"Lutz, Wil",K,5,26.0,-2.0,Beers; Karpet Munchers,2,3,False,True
 2010,5,Iron City Pounders,"Fasano, Anthony",TE,4,0.0,-2.1,Beers,4,0,True,True
 2010,2,Iron City Pounders,"Broncos, Denver",Def,5,17.0,-2.1,Carter's Commandos; F-Jackie; Karpet Munchers,1,4,True,True
@@ -1586,6 +1591,7 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2021,5,Scooter's Boozers,"Smith, Jonnu",TE,5,13.1,-2.4,Blitzkrieg; Carter's Commandos,5,0,True,False
 2023,10,Carter's Commandos,"Parham, Donald",TE,4,3.8,-2.4,Karpet Munchers,4,0,True,True
 2023,6,Texas Nashvillians,"Parham, Donald",TE,6,19.1,-2.4,Carter's Commandos; Karpet Munchers,6,0,True,True
+2025,6,OakalDoakals,"Ryland, Chad",K,7,40.0,-2.4,Scooter's Boozers,5,2,False,True
 2009,7,Iron City Pounders,"Colts, Indianapolis",Def,11,66.0,-2.5,Beers; Otters,9,2,True,True
 2010,2,OakalDoakals,"Doucet, Early",WR,7,28.0,-2.5,Bunchalosers; F-Jackie,4,3,True,True
 2011,6,Scooter's Boozers,"Morgan, Josh",WR,4,6.0,-2.5,Carter's Commandos,0,4,True,True
@@ -1614,6 +1620,7 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2021,8,F-Jackie,"Brissett, Jacoby",QB,2,21.6,-2.6,Ho Train; Otters,1,1,True,True
 2024,9,Scooter's Boozers,"Gray, Noah",TE,6,20.4,-2.6,Beers; Dunbar Dogs,2,4,True,True
 2024,2,Beers,"Zaccheaus, Olamide",WR,6,31.4,-2.6,Iron City Pounders,0,6,True,False
+2026,1,Carter's Commandos,"McCarthy, J.J.",QB,2,21.2,-2.6,F-Jackie,2,0,False,False
 2009,7,Carter's Commandos,"Scobee, Josh",K,9,52.0,-2.7,Bunchalosers; Tally Wackers,1,8,True,True
 2010,4,Texas Nashvillians,"Ball, Lance",RB,3,3.0,-2.7,Bunchalosers,0,3,True,True
 2011,6,OakalDoakals,"Jones, Donald",WR,5,11.0,-2.7,Beers; Bunchalosers; Ho Train,2,3,True,True
@@ -1633,7 +1640,6 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2024,16,Beers,"Ravens, Baltimore",Def,10,21.0,-2.7,Da Funk,0,10,True,True
 2024,11,F-Jackie,"Ravens, Baltimore",Def,10,21.0,-2.7,Da Funk,0,10,True,True
 2024,11,Beers,"Wentz, Carson",QB,3,44.7,-2.7,Manic Moose,0,3,True,True
-2025,14,OakalDoakals,"Dobbins, J.K.",RB,6,45.7,-2.7,Beers,0,6,False,False
 2009,3,Scooter's Boozers,"Tate, Brandon",WR,4,5.0,-2.8,OakalDoakals,0,4,True,False
 2010,12,Bunchalosers,"Watson, Ben",TE,5,0.0,-2.8,OakalDoakals,0,5,True,True
 2010,10,Bunchalosers,"Watson, Ben",TE,5,0.0,-2.8,OakalDoakals,0,5,True,True
@@ -1665,13 +1671,13 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2015,1,OakalDoakals,"Walsh, Blair",K,9,62.0,-3.0,Ho Train,0,9,True,True
 2016,8,Carter's Commandos,"Giants, New York",Def,14,68.0,-3.0,Manic Moose; OakalDoakals,2,12,True,False
 2020,6,Iron City Pounders,"Snead, Willie",WR,4,9.5,-3.0,Carter's Commandos,4,0,True,False
+2025,7,Couchfire,"Lloyd, MarShawn",RB,5,27.5,-3.0,Beers,0,5,False,True
+2025,5,Manic Moose,"Lloyd, MarShawn",RB,5,27.5,-3.0,Beers,0,5,False,False
 2009,7,Iron City Pounders,"Jaguars, Jacksonville",Def,6,22.0,-3.1,Carter's Commandos,6,0,True,True
 2010,7,Otters,"Nugent, Mike",K,8,46.0,-3.1,Bunchalosers; Iron City Pounders,2,6,True,True
 2011,9,Manic Moose,"Hartline, Brian",WR,8,30.0,-3.1,Texas Nashvillians,0,8,True,True
 2016,13,OakalDoakals,"Giants, New York",Def,12,56.0,-3.1,Manic Moose,0,12,True,True
-2025,7,Couchfire,"Lloyd, MarShawn",RB,5,27.5,-3.1,Beers,0,5,False,True
 2025,5,Texas Nashvillians,"Elliott, Jake",K,10,62.0,-3.1,Ho Train; Manic Moose,4,6,False,False
-2025,5,Manic Moose,"Lloyd, MarShawn",RB,5,27.5,-3.1,Beers,0,5,False,False
 2012,3,OakalDoakals,"Sanu, Mohamed",WR,4,0.0,-3.2,Otters,0,4,True,False
 2013,9,Da Funk,"Nugent, Mike",K,7,40.0,-3.2,Beers; Bunchalosers; OakalDoakals,1,6,True,True
 2013,0,Texas Nashvillians,"Cowboys, Dallas",Def,20,116.0,-3.2,Bunchalosers,11,9,True,False
@@ -1708,6 +1714,7 @@ season,week,dropped_by,player,position,starts_elsewhere,points_elsewhere,value_o
 2023,4,Couchfire,"Dalton, Andy",QB,5,85.9,-3.5,Ho Train,0,5,True,True
 2024,7,Scooter's Boozers,"McNichols, Jeremy",RB,4,11.8,-3.5,Karpet Munchers; Texas Nashvillians,1,3,True,True
 2024,5,F-Jackie,"McNichols, Jeremy",RB,4,11.8,-3.5,Karpet Munchers; Texas Nashvillians,1,3,True,True
+2025,14,OakalDoakals,"Dobbins, J.K.",RB,7,48.4,-3.5,Beers,0,7,False,False
 2014,12,Bunchalosers,"Chargers, San Diego",Def,9,26.0,-3.6,Dunbar Dogs,0,9,True,True
 2014,10,Iron City Pounders,"Chargers, San Diego",Def,10,33.0,-3.6,Bunchalosers; Dunbar Dogs,1,9,True,True
 2020,4,Karpet Munchers,"Brissett, Jacoby",QB,2,9.9,-3.6,F-Jackie; Ho Train,0,2,True,False

@@ -36,7 +36,7 @@ Rates use completed seasons only, so 2026, still in progress, is left out of the
 | 2023 | 16 | 205 | 12.8 | 68 | 137 | 67% | 35% | 7.8% |
 | 2024 | 16 | 235 | 14.7 | 104 | 131 | 56% | 34% | 9.3% |
 | 2025 | 16 | 212 | 13.2 | 74 | 138 | 65% | 33% | 10.7% |
-| 2026 (in progress) | 16 | 119 | 7.4 | 33 | 86 | 72% | 31% | 4.8% |
+| 2026 (in progress) | 16 | 131 | 8.2 | 33 | 98 | 75% | 31% | 5.4% |
 
 Before 2008 every add went through waivers, so there are no pickups to count. From 2008 a dash in the
 last column means MFL kept no lineups that season.
@@ -144,19 +144,19 @@ Game-day adds, usually a kicker or defense replacing one ruled out.
 | | Owner | Value |
 |---|---|---|
 | 1 | Blitzkrieg | 44% |
-| 2 | Dunbar Dogs | 41% |
+| 2 | Dunbar Dogs | 42% |
 | 3 | Couchfire | 35% |
 | 4 | Carter's Commandos | 35% |
-| 5 | Da Funk | 33% |
+| 5 | Da Funk | 32% |
 | 6 | Texas Nashvillians | 31% |
 | 7 | Ho Train | 31% |
-| 8 | F-Jackie | 29% |
+| 8 | F-Jackie | 30% |
 | 9 | Iron City Pounders | 29% |
 | 10 | Manic Moose | 28% |
 | 11 | Karpet Munchers | 27% |
-| 12 | Tally Wackers | 26% |
-| 13 | Otters | 25% |
-| 14 | Beers | 25% |
+| 12 | Otters | 25% |
+| 13 | Beers | 25% |
+| 14 | Tally Wackers | 25% |
 | 15 | Bunchalosers | 21% |
 | 16 | Scooter's Boozers | 20% |
 | 17 | OakalDoakals | 12% |
