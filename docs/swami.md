@@ -133,11 +133,14 @@ generator reads the record for the "Year to date" line, and the page reads it fo
 
 - **Tuesday, 11:00 ET**: the refresh workflow captures the week, scores last week's picks, and
   rebuilds the site. The record moves here.
-- **Thursday morning**, before Thursday night football: `python3 src/swami.py brief` writes the
-  brief and the skeleton, a Claude session writes the column (see "Writing the column"), and
-  the commissioner reads it and commits.
-- The site shows the column once it is committed and the Pages workflow has run. The board post
-  is separate and by hand (below).
+- **Thursday, 9:00 local** (the scheduled task `pdl-swami-says`, up to about 14 minutes late),
+  before Thursday night football: `python3 src/swami.py brief` writes the brief and the
+  skeleton, the task's Claude session writes the column (see "Writing the column"), runs the
+  checks, and commits the week's column and brief by path and pushes them. It commits nothing
+  when a check fails.
+- The push publishes the site: `.github/workflows/pages.yml` runs on any push touching
+  `docs/swami/`, so the column is live a couple of minutes later. The board post is separate
+  and stays by hand (below).
 
 Playoff weeks (15 to 17): the schedule export has no matchups, so the generator reads the three
 `playoffBracket` exports for the round and lists those games, consolation games included. The
