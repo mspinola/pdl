@@ -5,7 +5,7 @@ name: Publish site
 on:
   push:
     branches: [main]
-    paths: ["rules/**", "mfl_archive/**", "src/**", "site/**", "datasets/**", ".github/workflows/pages.yml"]
+    paths: ["rules/**", "mfl_archive/**", "src/**", "site/**", "datasets/**", "docs/swami/**", ".github/workflows/pages.yml"]
   workflow_dispatch:
   # a push from the weekly refresh does not start other workflows, so run after it
   workflow_run:
