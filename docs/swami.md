@@ -139,8 +139,9 @@ generator reads the record for the "Year to date" line, and the page reads it fo
   checks, and commits the week's column and brief by path and pushes them. It commits nothing
   when a check fails.
 - The push publishes the site: `.github/workflows/pages.yml` runs on any push touching
-  `docs/swami/`, so the column is live a couple of minutes later. The board post is separate
-  and stays by hand (below).
+  `docs/swami/`, so the column is live a couple of minutes later.
+- Once the page shows the week, the same task posts the Thursday teaser to the message board
+  (below). The full column on the board stays by hand.
 
 Playoff weeks (15 to 17): the schedule export has no matchups, so the generator reads the three
 `playoffBracket` exports for the round and lists those games, consolation games included. The
@@ -170,8 +171,30 @@ cd private/notify && python3 notify.py post --swami 9
 
 `swami.py board` turns the column into board text (no markdown, the record on top, the site
 link at the end) and prints it; `notify.py post --swami N` reads the public repository's column,
-shows the post, and stops. Only `--post` posts, from the commissioner's own shell, after reading
-it. Nothing posts on its own, and the Tuesday task never runs either command.
+shows the post, and stops. Only `--post` posts. The full column goes up by hand, if at all, and
+the Tuesday task never runs either command.
+
+### The Thursday teaser
+
+Every Thursday, after the column is live, the scheduled task posts a short thread to the board,
+"Swami Says, week N: the picks are in". It carries no picks. It links to the week on the page
+(`https://mspinola.github.io/pdl/swami/#week-N`) and spends its words on last week:
+
+- a winning week (more right than wrong): the Swami gloats, naming the best call and any upset
+  special that landed
+- a losing or even week: the misses are the teams' fault, named, with the score that betrayed
+  him, or the Swami turns on himself. Self-deprecation and general nonsense are both in voice.
+- week 1, or no scored week before it: hype for the season instead
+
+The facts come from `python3 src/swami.py recap --week N`: last week's record and season record,
+every pick with its margin, which were upset specials, the biggest hit, the worst miss and the
+teams that burned him. Nothing else is quoted. Two short paragraphs, then the link, the tagline
+and "-- Swami". The rating, the no-owner-names rule and the no em dash rule all hold, and the
+teaser is kept at `docs/swami/posts/<season>-wNN-board.txt` beside the column.
+
+It posts as the Commissioner with `notify.py post --once`, which refuses a subject already in
+`board_posts.json`, so a rerun cannot post the week twice. The task posts only after the
+page shows the week, and posts nothing when the column was not published.
 
 ## Scope
 

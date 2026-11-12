@@ -9,6 +9,10 @@
         docs/swami/record.json. bin/refresh.sh runs this on Tuesday.
     python3 src/swami.py board --week N [--season Y]
         the column as message board text, on stdout. notify.py post --swami N posts it (only with --post).
+    python3 src/swami.py recap --week N [--season Y]
+        how the Swami did the week before N, from record.json and that week's column: the record, every
+        pick with its margin, which were upset specials, the season so far. The facts for the Thursday
+        teaser's gloat or excuse (docs/swami.md, "The Thursday teaser").
 
 The prose is never written here: the generator assembles the facts and the skeleton, the Claude session
 that runs it writes the column, and the commissioner reads it and commits. docs/swami.md is the spec.
@@ -574,6 +578,54 @@ def board_text(season, week):
     return "\n".join(out) + "\n", f"Swami Says, week {week}"
 
 
+def recap(season, week):
+    """Last week's marks as plain facts, for the teaser. None when there is no scored week before this one."""
+    rec = load_json(f"{SWAMI}/record.json", {}).get(str(season), {})
+    prev = max((int(k) for k in rec.get("weeks", {}) if int(k) < week), default=None)
+    if prev is None:
+        return None
+    marks = rec["weeks"][str(prev)]
+    col = column_path(season, prev)
+    upsets = set()
+    if os.path.exists(col):
+        for g in parse_column(open(col).read())["games"]:
+            if re.search(r"upset special", g["text"], re.I):
+                upsets.add(f"{g['away']} at {g['home']}")
+    sw = sum(rec["weeks"][k]["w"] for k in rec["weeks"] if int(k) <= prev)
+    sl = sum(rec["weeks"][k]["l"] for k in rec["weeks"] if int(k) <= prev)
+    lines = [f"Week {prev}: {marks['w']}-{marks['l']}. Season through week {prev}: {sw}-{sl}."]
+    best = []
+    for p in marks["picks"]:
+        if p["result"] not in ("right", "wrong"):
+            lines.append(f"- {p['game']}: {p['result']}")
+            continue
+        a, b = (float(x) for x in p["score"].split("-", 1)) if re.fullmatch(r"[\d.]+-[\d.]+", p["score"]) else (0.0, 0.0)
+        away, home = p["game"].split(" at ", 1)
+        loser = home if p["winner"] == away else away
+        margin = abs(a - b)
+        tag = " (upset special)" if p["game"] in upsets else ""
+        lines.append(f"- {p['game']} {p['score']}: picked {p['pick']}, {p['result'].upper()}{tag}. "
+                     f"{p['winner']} beat {loser} by {num(margin)}.")
+        best.append((p["result"], margin, p["game"], p["pick"], p["winner"]))
+    rights = sorted((x for x in best if x[0] == "right"), key=lambda x: -x[1])
+    wrongs = sorted((x for x in best if x[0] == "wrong"), key=lambda x: -x[1])
+    ups = [x for x in best if x[2] in upsets]
+    if rights:
+        lines.append(f"Biggest hit: {rights[0][3]}, by {num(rights[0][1])}.")
+    if wrongs:
+        lines.append(f"Worst miss: {wrongs[0][3]} lost to {wrongs[0][4]} by {num(wrongs[0][1])}. "
+                     f"Teams that burned the Swami: {', '.join(x[3] for x in wrongs)}.")
+    if ups:
+        lines.append("Upset specials: " + ", ".join(f"{x[3]} {x[0]}" for x in ups) + ".")
+    return "\n".join(lines)
+
+
+def cmd_recap(a):
+    season = a.season or dt.date.today().year
+    out = recap(season, a.week)
+    print(out or f"No scored week before {season} week {a.week}: the teaser says nothing about a record.")
+
+
 def cmd_board(a):
     body, subject = board_text(a.season or dt.date.today().year, a.week)
     print(f"Subject: {subject}\n\n{body}")
@@ -599,6 +651,10 @@ def main():
     s.add_argument("--season", type=int)
     s.add_argument("--week", type=int, required=True)
     s.set_defaults(fn=cmd_board)
+    s = sub.add_parser("recap", help="last week's marks, for the Thursday teaser")
+    s.add_argument("--season", type=int)
+    s.add_argument("--week", type=int, required=True, help="the week being picked; the recap is of the scored week before it")
+    s.set_defaults(fn=cmd_recap)
     a = p.parse_args()
     if a.cmd == "score" and a.column and not a.week:
         p.error("--column needs --week")
