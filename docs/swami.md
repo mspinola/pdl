@@ -189,7 +189,7 @@ Every Thursday, after the column is live, the scheduled task posts a short threa
 The facts come from `python3 src/swami.py recap --week N`: last week's record and season record,
 every pick with its margin, which were upset specials, the biggest hit, the worst miss and the
 teams that burned him. Nothing else is quoted. Two short paragraphs, then the link, the tagline
-and "-- Swami". The rating, the no-owner-names rule and the no em dash rule all hold, and the
+in quotation marks (“It's not who you pick, it's how you pick that matters.”) and "-- Swami". The rating, the no-owner-names rule and the no em dash rule all hold, and the
 teaser is kept at `docs/swami/posts/<season>-wNN-board.txt` beside the column.
 
 It posts as the Commissioner with `notify.py post --once`, which refuses a subject already in
