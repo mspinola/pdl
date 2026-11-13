@@ -143,9 +143,14 @@ generator reads the record for the "Year to date" line, and the page reads it fo
 - Once the page shows the week, the same task posts the Thursday teaser to the message board
   (below). The full column on the board stays by hand.
 
-Playoff weeks (15 to 17): the schedule export has no matchups, so the generator reads the three
-`playoffBracket` exports for the round and lists those games, consolation games included. The
-final is one game and gets one paragraph plus the season's final record.
+Playoff weeks (15 to 17): the end of the regular season is the league's own setting
+(`lastRegularSeasonWeek`, 14), not the schedule's last week, because once the brackets are set
+MFL's schedule export lists the playoff weeks too (2025's runs to week 17). The generator takes the
+week's games from the schedule when it lists them, every game including the consolation ones, and
+marks each "championship" when it is in one of the three `playoffBracket` exports and
+"consolation" otherwise. Before MFL fills the week in, it falls back to the brackets alone. The
+week 15 column's record line reads "Final Regular Season Record". The final is one game and gets
+one paragraph.
 
 ## Writing the column
 

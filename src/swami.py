@@ -98,11 +98,19 @@ class Exports:
 
 
 def coming_week(schedule):
-    """The first week whose games have no scores yet, and the last regular-season week."""
+    """The first week whose games have no scores yet."""
     weeks = listed(schedule["schedule"]["weeklySchedule"])
     played = [int(w["week"]) for w in weeks if any("score" in f for m in listed(w.get("matchup")) for f in listed(m.get("franchise")))]
-    last_regular = max(int(w["week"]) for w in weeks if listed(w.get("matchup")))
-    return (max(played) + 1 if played else 1), last_regular
+    return max(played) + 1 if played else 1
+
+
+def last_regular_week(league, schedule):
+    """The league's own setting. Not the schedule's last week: once the brackets are set, MFL's schedule
+    export carries the playoff weeks too (2025's runs to week 17)."""
+    w = league["league"].get("lastRegularSeasonWeek")
+    if w:
+        return int(w)
+    return max(int(w["week"]) for w in listed(schedule["schedule"]["weeklySchedule"]) if listed(w.get("matchup")))
 
 
 def team_labels(season, league):
@@ -130,21 +138,35 @@ def played_games(schedule, labels):
 
 
 def week_matchups(ex, schedule, labels, week, last_regular):
-    """The week's games as (away, home, spread for the home side), from the schedule in the regular season and
-    the playoff brackets after it (every bracket, so the consolation games are picked too)."""
+    """The week's games as (away, home, spread for the home side, stage). The schedule is the source whenever it
+    lists the week, playoff weeks included: it has every game, consolation games too, where the brackets have
+    only the championship ones. A playoff-week game is "championship" when it is in a bracket and
+    "consolation" otherwise. Before MFL fills the playoff weeks in, the brackets are the fallback."""
+    champ = bracket_pairs(ex, labels, week) if week > last_regular else set()
+    for w in listed(schedule["schedule"]["weeklySchedule"]):
+        if int(w["week"]) != week or not listed(w.get("matchup")):
+            continue
+        out = []
+        for m in listed(w.get("matchup")):
+            fr = listed(m.get("franchise"))
+            home = next((f for f in fr if f.get("isHome") == "1"), fr[-1])
+            away = next(f for f in fr if f is not home)
+            pair = frozenset((labels[away["id"]], labels[home["id"]]))
+            stage = "regular" if week <= last_regular else "championship" if pair in champ else "consolation"
+            out.append({"away": labels[away["id"]], "home": labels[home["id"]], "home_spread": fnum(home.get("spread"), None),
+                        "stage": stage})
+        return out
     if week <= last_regular:
-        for w in listed(schedule["schedule"]["weeklySchedule"]):
-            if int(w["week"]) != week:
-                continue
-            out = []
-            for m in listed(w.get("matchup")):
-                fr = listed(m.get("franchise"))
-                home = next((f for f in fr if f.get("isHome") == "1"), fr[-1])
-                away = next(f for f in fr if f is not home)
-                out.append({"away": labels[away["id"]], "home": labels[home["id"]], "home_spread": fnum(home.get("spread"), None),
-                            "stage": "regular"})
-            return out
         return []
+    return bracket_games(ex, labels, week)
+
+
+def bracket_pairs(ex, labels, week):
+    return {frozenset((g["away"], g["home"])) for g in bracket_games(ex, labels, week) if g["stage"] == "championship"}
+
+
+def bracket_games(ex, labels, week):
+    """The week's games from the playoff brackets: 1 to 3 are the championship (two conferences and the final)."""
     out = []
     for b in (1, 2, 3, 4, 5, 6):
         try:
@@ -336,12 +358,11 @@ def cmd_brief(a):
     season = a.season or dt.date.today().year
     ex = Exports(season, None, a.refresh)
     schedule = ex.get("schedule")
-    week, last_regular = coming_week(schedule)
-    if a.week:
-        week = a.week
+    week = a.week or coming_week(schedule)
     ex = Exports(season, week, a.refresh)
     save_json(f"{ex.dir}/schedule.json", schedule)
     league = ex.get("league")
+    last_regular = last_regular_week(league, schedule)
     labels = team_labels(season, league)
     divs = {labels[f["id"]]: n for f in listed(league["league"]["franchises"]["franchise"])
             for n in [next((d["name"] for d in listed(league["league"].get("divisions", {}).get("division")) if d["id"] == f.get("division")), "")]}
@@ -418,7 +439,7 @@ def cmd_brief(a):
     if os.path.exists(col) and not a.force and any(p != "?" for p in picks_in(open(col).read()).values()):
         print(f"column: {os.path.relpath(col, BASE)} already has picks, left alone (--force to overwrite)")
         return
-    head = "Final Record" if week > last_regular + 2 else "Final Regular Season Record" if week == last_regular + 1 else "Year to date record"
+    head = "Final Regular Season Record" if week == last_regular + 1 else "Year to date record"
     text = [f"# Swami Says, week {week}", "", f"{head}: {rw} - {rl}.", ""] + skeleton + ["## Bye weeks", ""]
     text += bye_lines or ["- Everyone has a full lineup this week."]
     with open(col, "w") as f:
