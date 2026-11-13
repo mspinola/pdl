@@ -36,7 +36,7 @@ Rates use completed seasons only, so 2026, still in progress, is left out of the
 | 2023 | 16 | 205 | 12.8 | 68 | 137 | 67% | 35% | 7.8% |
 | 2024 | 16 | 235 | 14.7 | 104 | 131 | 56% | 34% | 9.3% |
 | 2025 | 16 | 212 | 13.2 | 74 | 138 | 65% | 33% | 10.7% |
-| 2026 (in progress) | 16 | 131 | 8.2 | 33 | 98 | 75% | 31% | 5.4% |
+| 2026 (in progress) | 16 | 145 | 9.1 | 36 | 109 | 75% | 32% | 5.4% |
 
 Before 2008 every add went through waivers, so there are no pickups to count. From 2008 a dash in the
 last column means MFL kept no lineups that season.
@@ -143,7 +143,7 @@ Game-day adds, usually a kicker or defense replacing one ruled out.
 
 | | Owner | Value |
 |---|---|---|
-| 1 | Blitzkrieg | 44% |
+| 1 | Blitzkrieg | 45% |
 | 2 | Dunbar Dogs | 42% |
 | 3 | Couchfire | 35% |
 | 4 | Carter's Commandos | 35% |
