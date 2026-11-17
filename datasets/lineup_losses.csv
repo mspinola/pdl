@@ -102,6 +102,7 @@ season,week,stage,team,opponent,score,best_possible,opponent_score,best_lineup_m
 2026,4,regular,OakalDoakals,Tally Wackers,129.7,178.3,137.1,41.2
 2015,2,regular,Otters,Beers,71.0,133.0,92.0,41.0
 2016,11,regular,Texas Nashvillians,Dunbar Dogs,85.0,135.0,94.0,41.0
+2026,10,regular,Iron City Pounders,Beers,100.9,155.1,114.5,40.6
 2020,8,regular,Texas Nashvillians,OakalDoakals,70.3,120.3,79.9,40.4
 2022,9,regular,Dunbar Dogs,Scooter's Boozers,90.1,137.3,96.9,40.4
 2019,6,regular,Ho Train,Scooter's Boozers,69.7,121.0,81.8,39.2
@@ -700,6 +701,7 @@ season,week,stage,team,opponent,score,best_possible,opponent_score,best_lineup_m
 2026,1,regular,Blitzkrieg,Da Funk,145.9,154.3,152.7,1.6
 2021,11,regular,Blitzkrieg,Dunbar Dogs,56.3,90.8,89.3,1.5
 2019,9,regular,Dunbar Dogs,Karpet Munchers,107.2,109.1,107.7,1.4
+2026,10,regular,Carter's Commandos,Manic Moose,106.2,136.3,134.9,1.4
 2021,2,regular,Karpet Munchers,Dunbar Dogs,114.7,146.3,145.2,1.1
 2023,13,regular,Couchfire,Beers,125.1,144.7,143.6,1.1
 2026,6,regular,Dunbar Dogs,Manic Moose,107.0,121.8,120.7,1.1
@@ -730,6 +732,7 @@ season,week,stage,team,opponent,score,best_possible,opponent_score,best_lineup_m
 2026,2,regular,Beers,OakalDoakals,120.3,133.0,132.3,0.7
 2026,3,regular,Iron City Pounders,Manic Moose,89.6,122.7,122.0,0.7
 2024,13,regular,OakalDoakals,Carter's Commandos,78.2,96.3,95.7,0.6
+2026,10,regular,F-Jackie,OakalDoakals,67.5,99.7,99.1,0.6
 2024,7,regular,Ho Train,Karpet Munchers,103.8,110.2,109.7,0.5
 2023,1,regular,Otters,Ho Train,67.7,107.1,106.7,0.4
 2018,5,regular,Manic Moose,Karpet Munchers,139.6,141.7,141.4,0.3
