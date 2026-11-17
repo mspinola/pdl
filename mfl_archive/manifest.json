@@ -1,6 +1,6 @@
 {
  "league": "PDL",
- "captured": "2026-11-17T12:23:53+00:00",
+ "captured": "2026-11-17T22:47:35+00:00",
  "source": "MyFantasyLeague export API",
  "note": "Responses stored verbatim. Everything derived is rebuilt from these files. Not available without a commissioner login, and therefore absent: message board, calendar, polls.",
  "seasons": {
@@ -4504,7 +4504,7 @@
     },
     "players.json": {
      "bytes": 190398,
-     "sha256": "beaa0613dbf53c4069382bb645f813d0c4283aaac7ab72015fe224ea747a90e9"
+     "sha256": "54bcf0a5d4fcf493cf7d7e91dadf8f359c4f1579c22da3d295caba5cf6fd6eff"
     },
     "playoff_bracket_1.json": {
      "bytes": 372,
@@ -4527,8 +4527,8 @@
      "sha256": "51acba340dd6bf749d73e9a930d9c217099ead6d448b165666d504ab94254c13"
     },
     "schedule.json": {
-     "bytes": 14700,
-     "sha256": "324456b7839423d8d9a118dedca0a25936bc98d6a031b11d6958f6224eb26581"
+     "bytes": 14698,
+     "sha256": "5bbc651343e56ffc895a745a28dcc5c9c3f5fbdec0d713e73d0a3c73bb6b496c"
     },
     "standings.json": {
      "bytes": 2772,
@@ -4805,6 +4805,6 @@
    }
   }
  },
- "total_bytes": 29276474,
+ "total_bytes": 29276472,
  "total_files": 1163
 }
