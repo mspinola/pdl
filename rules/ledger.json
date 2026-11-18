@@ -955,6 +955,24 @@
      "match": "spelled the Premier Dynasty League"
     }
    ]
+  },
+  {
+   "id": "2026-trade-deadline-week-14",
+   "meeting": 2026,
+   "effective": 2023,
+   "status": "adopted",
+   "sections": [
+    "7.1"
+   ],
+   "change": "The trade deadline moves from the end of week 13 to the end of week 14, backdated to the 2023 season. Week 14 trades went through in 2023, 2024 and 2025 without a recorded vote, and the commissioner made it official in 2026.",
+   "evidence": "MFL's trade log shows five trades accepted during week 14 across the 2023 to 2025 seasons. The written deadline was the end of week 13 from 2021, and MFL had no trade lock set, so nothing enforced it.",
+   "sources": [
+    {
+     "file": "commissioner",
+     "meeting": 2026,
+     "match": "end of week 14"
+    }
+   ]
   }
  ]
 }

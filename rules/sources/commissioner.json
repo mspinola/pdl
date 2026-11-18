@@ -82,6 +82,17 @@
     "kind": "commissioner",
     "date": "2026-10-29"
    }
+  },
+  {
+   "meeting": 2026,
+   "topic": "trades",
+   "proposal": "The trade deadline is the end of week 14, from the 2023 season. Trades were accepted in week 14 in 2023, 2024 and 2025 without objection, and this makes that official.",
+   "outcome": "passed",
+   "source": {
+    "kind": "commissioner",
+    "date": "2026-11-18"
+   },
+   "evidence": "MFL's trade log shows five trades accepted during week 14: one in 2023, one in 2024 and three in 2025. MFL has no trade lock set for the league, so nothing stopped them. No meeting record before this moves the deadline past week 13."
   }
  ]
 }

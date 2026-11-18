@@ -967,6 +967,16 @@
      "to": "The Premier Dynasty League (PDL)"
     }
    ]
+  },
+  "2026-trade-deadline-week-14": {
+   "ops": [
+    {
+     "op": "edit",
+     "section": "7.1",
+     "find": "up to the conclusion of week 13",
+     "to": "up to the conclusion of week 14"
+    }
+   ]
   }
  },
  "mfl_known_differences": [
