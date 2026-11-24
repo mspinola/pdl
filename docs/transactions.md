@@ -36,7 +36,7 @@ Rates use completed seasons only, so 2026, still in progress, is left out of the
 | 2023 | 16 | 205 | 12.8 | 68 | 137 | 67% | 35% | 7.8% |
 | 2024 | 16 | 235 | 14.7 | 104 | 131 | 56% | 34% | 9.3% |
 | 2025 | 16 | 212 | 13.2 | 74 | 138 | 65% | 33% | 10.7% |
-| 2026 (in progress) | 16 | 149 | 9.3 | 36 | 113 | 76% | 31% | 5.7% |
+| 2026 (in progress) | 16 | 166 | 10.4 | 40 | 126 | 76% | 33% | 6.4% |
 
 Before 2008 every add went through waivers, so there are no pickups to count. From 2008 a dash in the
 last column means MFL kept no lineups that season.
@@ -144,11 +144,11 @@ Game-day adds, usually a kicker or defense replacing one ruled out.
 | | Owner | Value |
 |---|---|---|
 | 1 | Blitzkrieg | 45% |
-| 2 | Dunbar Dogs | 42% |
-| 3 | Couchfire | 35% |
+| 2 | Dunbar Dogs | 41% |
+| 3 | Couchfire | 36% |
 | 4 | Carter's Commandos | 35% |
-| 5 | Da Funk | 32% |
-| 6 | Texas Nashvillians | 31% |
+| 5 | Texas Nashvillians | 32% |
+| 6 | Da Funk | 32% |
 | 7 | Ho Train | 31% |
 | 8 | F-Jackie | 30% |
 | 9 | Iron City Pounders | 29% |
@@ -209,7 +209,7 @@ Seasons 2008 to 2026, regular season: the points players a team added that seaso
 
 ## Does working the wire help?
 
-Across the 17 owners, adds per season since 2008 against career win rate: r = -0.00. Against points scored (indexed to the era): r = 0.00. With this few owners, a correlation under about 0.5 in either direction is indistinguishable from none, and the arrow could run either way: a struggling team has more holes to fill.
+Across the 17 owners, adds per season since 2008 against career win rate: r = 0.00. Against points scored (indexed to the era): r = 0.00. With this few owners, a correlation under about 0.5 in either direction is indistinguishable from none, and the arrow could run either way: a struggling team has more holes to fill.
 
 ## The pickups that paid
 
