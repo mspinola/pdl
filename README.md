@@ -223,7 +223,8 @@ they never drift from them. The Moose easter eggs are all in `site/eggs.json`
 them changes a number or a rule. Every page ends with a suggestion box
 (`site/frame.py`): three `mailto:` links to the commissioner's office with the
 subject prefilled, one each for Doreen, the Swami and the website. The private
-notifier picks the replies up by that subject.
+notifier picks the replies up by that subject, and the Swami answers his in the
+column's Mailbag section (`docs/swami.md`, "The mailbag").
 
 ## The rule book
 
